@@ -36,10 +36,11 @@ def parse_shortlog_command(git_dir: str) -> int:
 
 
 def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, git_dir: str):
+    print("Start to create com_com_log file")
     # logic
-    call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author;" > {com_com_log}', shell=True)
+    call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author; date;" > {com_com_log}', shell=True)
     cd_command = f"cd {git_dir}"
-    git_log_command = f'git log --pretty="%P;%H;%s;%an;" --since={start_date} --before={end_date} --branches --all'
+    git_log_command = f'git log --pretty="%P;%H;%s;%an;%cd;" --since={start_date} --before={end_date} --branches --all'
     write_to_file_command = f" >> {com_com_log}"
     call(cd_command + " && " + git_log_command + write_to_file_command, shell=True)
 
@@ -53,6 +54,8 @@ def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, gi
     else:
         print(f"Expected commits count \t{total_count_expected}")
         print(f"Actual commits count \t{total_count_actual}")
+
+    print("Finished to create com_com_log file")
 
 
 class ChangedFile:
@@ -90,6 +93,7 @@ def download_blob_content(blob_hash: str, blobs_dir: str, git_dir: str):
 
 
 def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blobs_dir: str, git_dir: str):
+    print("Start to create full_log file")
     with open(full_log, 'w') as full_log_file:
         full_log_file.write("commit_hash; author; status; file; old_blob; new_blob; message;\n")
 
@@ -109,6 +113,8 @@ def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blo
                     download_blob_content(changed_file.old_blob, blobs_dir, git_dir)
                     download_blob_content(changed_file.cur_blob, blobs_dir, git_dir)
 
+    print("Finished to create full_log file")
+
 
 if __name__ == "__main__":
     # values
@@ -117,11 +123,11 @@ if __name__ == "__main__":
     is_cloned = True
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
     git_dir_name = "aurora"
-    git_dir_name = "spbau_java_hw"
+    # git_dir_name = "spbau_java_hw"
     git_dir = os.path.join(parent_dir, git_dir_name)
     start_date = "2002-01-01"
     end_date = "2019-07-01"
-    com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author.log"
+    com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
     com_com_log_file = os.path.join(parent_dir, com_com_log_file)
     full_log_file = f"gcm_{git_dir_name}_full.log"
     full_log_file = os.path.join(parent_dir, full_log_file)
