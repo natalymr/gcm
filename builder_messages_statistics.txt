@@ -1,0 +1,12 @@
+Total commit count: 13698
+Number of unique messages: 70
+Message occurrence: [11885, 790, 698, 192, 59, 3, 2, 1]
+Number of occurence 	 Number of messages 	 Messages
+11885 	 1 	 ['New version']
+790 	 1 	 ['Build completed']
+698 	 1 	 ['Build failed']
+192 	 1 	 ['*** empty log message ***']
+59 	 1 	 ['no message']
+3 	 2 	 ['SCR 37558', 'new version']
+2 	 5 	 ['Removed', 'JRE 1.4.2_06', 'removed outdated plugins from build', 'IA 5.5.1', 'Version updated']
+1 	 58 	 ['added focusKiller.dll to windows distribution', 'JDK 1.4.2_06', 'trove sources included', 'cc.xml', 'SVN lib added', 'added -Djavasvn.delta.disabled=true', 'added p4api.dll', 'fixing the "console.txt" problem', 'changed svn plugin configuration', 'reflected svn plugin configuration changes', 'quoted bootclasspath', 'fixed console problem, removed p4idea plugin', 'added profiler jars and command like key to lax file to enable profiling', 'added saxpath and jaxen libraries', 'Generics added', 'Project for automated build changed', 'changed tomcatIntegration - > tomcat to reflect changes in build script', 'MInor changes', 'Fixed problem with exe installation registry', 'IDEA 5 changes', 'changed paths to resources to point inside Pallada root', 'Updated to new module structure', 'Fixed #7550', 'Fixed  #17145', 'icon path updated', 'IA 5.5 build file', 'true for openapi', 'Working with HTML', 'Javaws removed', 'javaws removed', 'breackgen.dll added', 'Memory for ZKM increased', 'openapi updated', 'Unscrambled Project', 'Send fail mail to me', 'StartTeam checkout removed for now', 'Linux file permission set', 'have a sex with JDK 1.4.2 and IA', 'JDK 1.4.2 added', 'New JDK version added', 'New JDK applied', 'New JDK', 'JDK 1.4.2', 'removed', 'Updated', 'Bold font fix for mac os', 'new CVS user changed', 'build changes', 'uiDesigner', 'Added uiDesigner package', 'New version, generics patched', 'Fixed problem with generics in IA installer', 'Xmx added', 'build completed', 'shit happence', 'Version 812 failed', 'Nuild 820 completed', 'Added jars for sending mail']
