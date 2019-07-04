@@ -98,7 +98,12 @@ def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blo
         full_log_file.write("commit_hash; author; status; file; old_blob; new_blob; message;\n")
 
         with open(com_com_log, 'r') as com_com_log_file:
+            i = 0
             for line in com_com_log_file:
+                i += 1
+                if i % 20 == 0:
+                    print(f"Start to process {i} commit")
+
                 if line.startswith("parent_commit_file_hash"):  # csv title # заменить на проверку приведения к числу
                     continue
                 line_list = line.split(";")
@@ -110,8 +115,11 @@ def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blo
                     full_log_file.write(f"{cur_commit}; {author}; {changed_file}; {message};\n")
 
                     # download both blob files
-                    download_blob_content(changed_file.old_blob, blobs_dir, git_dir)
-                    download_blob_content(changed_file.cur_blob, blobs_dir, git_dir)
+                    all_blobs = os.listdir(blobs_dir)
+                    if changed_file.old_blob not in all_blobs:
+                        download_blob_content(changed_file.old_blob, blobs_dir, git_dir)
+                    if changed_file.cur_blob not in all_blobs:
+                        download_blob_content(changed_file.cur_blob, blobs_dir, git_dir)
 
     print("Finished to create full_log file")
 

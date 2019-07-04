@@ -1,5 +1,6 @@
 # Generate Commit Message
 
+## Dataset structure
 * `gcm_<dataset-name>_com_com_msg_author_date.log` contains info about each commit 
     * parent commit-file hash 
     * current commit-file hash
@@ -16,13 +17,24 @@
     * commit message
 * `<dataset-name>_blobs` directory contains all blob-files with original content
 
+------
+
 ### Statistic for `aurora` dataset
 
-| www |  www |
+| **Description** |  **Number** |
 |---|---|
 | Expected commits count |  37077 |
 |  Actual commits count | 37078  |
-| Total blob-files count  | 87000 |
+| Total blob-files count  | 97000 |
 
+------
+
+## Papers' metrics
+
+| **Task** | **Title** | **Metric Type** | **Metric Value** | **NB** |
+|---|---|---|---|---|
+| GCM |  37077 |
+|  GCM| 37078  |
+| GCM| 97000 |
 
 
