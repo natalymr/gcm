@@ -1,5 +1,5 @@
 import os
-from subprocess import call
+from subprocess import call, check_output
 from typing import List
 
 
@@ -8,13 +8,51 @@ def git_clone(http: str, parent_dir: str):
     call(f"cd {parent_dir} && git clone {http}", shell=True)
 
 
-def create_com_com_log_file(git_dir: str, start_date: str, end_date: str, output_file: str):
-    call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author;" > {output_file}', shell=True)
+def parse_shortlog_command(git_dir: str) -> int:
+    """
+        NB: command to check commits total count
+            git shortlog -s -n --all --no-merges
 
+            command to get number of lines in file
+            wc -l <filename>
+    """
+    tmp_file = os.path.join(git_dir, "tmp")
     cd_command = f"cd {git_dir}"
-    git_log_command = f'git log --pretty="%P;%H;%s;%an;" --since={start_date} --before={end_date}'
-    write_to_file_command = f" >> {output_file}"
+    git_com_count_command = "git shortlog -s -n --all --no-merges"
+    write_to_file_command = f" > {tmp_file}"
+    commit_total_count = 0
+
+    call(cd_command + " && " + git_com_count_command + write_to_file_command, shell=True)
+    with open(tmp_file, 'r') as file:
+        for line in file:
+            print(line)
+
+    with open(tmp_file, 'r') as file:
+        for line in file:
+            line_list = line.split()
+            commit_total_count += int(line_list[0])
+
+    return commit_total_count
+
+
+def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, git_dir: str):
+    # logic
+    call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author;" > {com_com_log}', shell=True)
+    cd_command = f"cd {git_dir}"
+    git_log_command = f'git log --pretty="%P;%H;%s;%an;" --since={start_date} --before={end_date} --branches --all'
+    write_to_file_command = f" >> {com_com_log}"
     call(cd_command + " && " + git_log_command + write_to_file_command, shell=True)
+
+    # check that we've got all commits
+    total_count_expected = parse_shortlog_command(git_dir)
+    total_count_actual = check_output(f"wc -l {com_com_log}".split()).decode().split()[0]
+    print(total_count_actual)
+    total_count_actual = int(total_count_actual) - 1  # because of header, one line
+    if total_count_actual == total_count_expected:
+        print("Everything is fine! Got all commits")
+    else:
+        print(f"Expected commits count \t{total_count_expected}")
+        print(f"Actual commits count \t{total_count_actual}")
 
 
 class ChangedFile:
@@ -74,25 +112,24 @@ def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blo
 
 if __name__ == "__main__":
     # values
-    http = "https://github.com/natalymr/interpreter.git"
-    # http = "https://github.com/natalymr/spbau_java_hw.git"
-    http = "https://git.jetbrains.team/aurora.git"
-    is_cloned = False
+    # http = "https://github.com/natalymr/interpreter.git"
+    http = "https://github.com/natalymr/spbau_java_hw.git"
+    is_cloned = True
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
-    git_dir_name = "interpreter"
-    # git_dir_name = "spbau_java_hw"
+    git_dir_name = "aurora"
+    git_dir_name = "spbau_java_hw"
     git_dir = os.path.join(parent_dir, git_dir_name)
-    start_date = "2017-01-01"
+    start_date = "2002-01-01"
     end_date = "2019-07-01"
     com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author.log"
     com_com_log_file = os.path.join(parent_dir, com_com_log_file)
     full_log_file = f"gcm_{git_dir_name}_full.log"
     full_log_file = os.path.join(parent_dir, full_log_file)
-    blobs_dir = os.path.join(parent_dir, "blobs")
+    blobs_dir = os.path.join(parent_dir, f"{git_dir_name}_blobs")
 
     # logic
     if not is_cloned:
         git_clone(http, parent_dir)
 
-    create_com_com_log_file(git_dir, start_date, end_date, com_com_log_file)
+    create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
     create_full_log_file_and_download_blobs(com_com_log_file, full_log_file, blobs_dir, git_dir)
