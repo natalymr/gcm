@@ -1,6 +1,8 @@
 import os
 from subprocess import call, check_output
-from typing import List
+from typing import List, Tuple
+import multiprocessing as mp
+
 
 
 def git_clone(http: str, parent_dir: str):
@@ -35,7 +37,7 @@ def parse_shortlog_command(git_dir: str) -> int:
     return commit_total_count
 
 
-def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, git_dir: str):
+def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, git_dir: str) -> int:
     print("Start to create com_com_log file")
     # logic
     call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author; date;" > {com_com_log}', shell=True)
@@ -56,6 +58,7 @@ def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, gi
         print(f"Actual commits count \t{total_count_actual}")
 
     print("Finished to create com_com_log file")
+    return total_count_actual
 
 
 class ChangedFile:
@@ -69,8 +72,8 @@ class ChangedFile:
         return f"{self.status}; {self.file_name}; {self.old_blob}; {self.cur_blob}"
 
 
-def parse_diff_tree_command(old_commit: str, cur_commit: str, git_dir: str) -> List[ChangedFile]:
-    tmp_file = os.path.join(git_dir, "tmp")
+def parse_diff_tree_command(old_commit: str, cur_commit: str, file_name: str, git_dir: str) -> List[ChangedFile]:
+    tmp_file = os.path.join(git_dir, file_name)
     call(f"cd {git_dir} && git diff-tree -r -M {old_commit} {cur_commit} > {tmp_file}", shell=True)
 
     result = []
@@ -124,6 +127,43 @@ def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blo
     print("Finished to create full_log file")
 
 
+def create_full_log_file_and_download_blobs_parallel(com_com_log: str, full_log: str, blobs_dir: str,
+                                                     lines_range: (int, int), git_dir: str):
+    start_line = lines_range[0]
+    end_line = lines_range[1]
+    with open(full_log, 'w') as full_log_file:
+        full_log_file.write("commit_hash; author; status; file; old_blob; new_blob; message;\n")
+
+        with open(com_com_log, 'r') as com_com_log_file:
+            i = 0
+            for i in range(start_line):
+                com_com_log_file.readline()
+                i += 1
+
+            for line in com_com_log_file:
+                i += 1
+                if start_line <= i and i <= end_line:
+                    if i == 1:  # csv title # заменить на проверку приведения к числу
+                        continue
+                    if i % 20 == 0:
+                        print(f"Start to process {i} commit")
+                    line_list = line.split(";")
+                    parent_commit, cur_commit, message, author = line_list[0], line_list[1], line_list[2], line_list[3]
+                    changed_files = parse_diff_tree_command(parent_commit, cur_commit, full_log, git_dir)
+
+                    for changed_file in changed_files:
+                        # write to log
+                        full_log_file.write(f"{cur_commit}; {author}; {changed_file}; {message};\n")
+
+                        # download both blob files
+                        all_blobs = os.listdir(blobs_dir)
+                        if changed_file.old_blob not in all_blobs:
+                            download_blob_content(changed_file.old_blob, blobs_dir, git_dir)
+                        if changed_file.cur_blob not in all_blobs:
+                            download_blob_content(changed_file.cur_blob, blobs_dir, git_dir)
+
+
+
 if __name__ == "__main__":
     # values
     # http = "https://github.com/natalymr/interpreter.git"
@@ -145,5 +185,28 @@ if __name__ == "__main__":
     if not is_cloned:
         git_clone(http, parent_dir)
 
-    create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
-    create_full_log_file_and_download_blobs(com_com_log_file, full_log_file, blobs_dir, git_dir)
+    print("Number of processors: ", mp.cpu_count())
+    processors_number = mp.cpu_count()
+
+    commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
+    indexes = [i for i in range(processors_number)]
+
+    each_process_lines_count = commit_count // mp.cpu_count()
+    lines_ranges = [(i * each_process_lines_count + 1, (i + 1) * each_process_lines_count) for i in indexes]
+    lines_ranges[-1] = (lines_ranges[-1][0], commit_count)
+
+    full_log_files_names = [f"gcm_{git_dir_name}_full_{i}.log" for i in indexes]
+    full_log_files = [os.path.join(parent_dir, log) for log in full_log_files_names]
+    print(full_log_files)
+    print(lines_ranges)
+    print(f"len_ind {len(indexes)}, len_logs {len(full_log_files)}, len_lines {len(lines_ranges)} ")
+    print(f"len_ind {indexes[9:]}, len_logs {len(full_log_files[9:])}, len_lines {lines_ranges[9:]} ")
+
+    pool = mp.Pool(7)
+    pool.starmap(create_full_log_file_and_download_blobs_parallel,
+                 [(com_com_log_file, full_log_files[i], blobs_dir, lines_ranges[i], git_dir) for i in indexes[9:]])
+
+
+    # create_full_log_file_and_download_blobs(com_com_log_file, full_log_file, blobs_dir, git_dir)
+
+
