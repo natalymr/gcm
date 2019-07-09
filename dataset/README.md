@@ -5,7 +5,7 @@
     * message
     * author
     * date 
-* `gcm_<dataset-name>_full.log` contains info about each changed file during one commit
+* `gcm_<dataset-name>_full.log` contains info about each changed file during every commit
     * current commit-file hash
     * author 
     * status (_A_, _M_, _D_)
