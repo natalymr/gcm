@@ -25,7 +25,7 @@
 |---|---|
 | Expected commits count |  37077 |
 |  Actual commits count | 37078  |
-| Total blob-files count  | 97000 |
+| Total blob-files count  | 150525 |
 
 ------
 
