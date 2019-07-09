@@ -1,0 +1,1106 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit ffce9e16f41d1acd1afa44b1d05372a951488bf6 6f616d6d78cf8220f14afd87f8ad8d6d081e33f7
+Author: jeka <>
+Date:   Sat Oct 30 12:37:47 2004 +0000
+
+    some more logging for compiler output paths management
+
+commit 6f616d6d78cf8220f14afd87f8ad8d6d081e33f7 1e8e93f7a0edee66ea2a2d7e0a53a9c3ef9e209b
+Author: jeka <>
+Date:   Sat Oct 30 12:36:52 2004 +0000
+
+    no message
+
+:100644 100644 7a9d41f 4a547db M	Aurora/source/com/intellij/compiler/impl/javaCompiler/BackendCompilerWrapper.java
+
+commit 1e8e93f7a0edee66ea2a2d7e0a53a9c3ef9e209b 2e07d1881502d28a5aa5c359f91f035e1c61fc81
+Author: jeka <>
+Date:   Sat Oct 30 12:14:24 2004 +0000
+
+    no message
+
+:100644 100644 d0cb60f a52764a M	Aurora/source/com/intellij/ide/hierarchy/HierarchyTreeBuilder.java
+
+commit dc1a6d5ff9648c8ab60ca409a36e66219fec0862 aff4d52e570d382aab8c3840d6add2ae2f2326bd
+Author: jeka <>
+Date:   Sat Oct 30 10:11:30 2004 +0000
+
+    no message
+
+:100644 100644 645c7f1 515ad25 M	Aurora/build/conf/script.zkm.stub
+
+commit d397a19f1c969480cd9c6bccc9bbc288b87cad03 4bc13c87946d3932ee4fc8b803f6f032e7ec888c
+Author: jeka <>
+Date:   Fri Oct 29 17:08:23 2004 +0000
+
+    no message
+
+:100644 100644 7e8d668 645c7f1 M	Aurora/build/conf/script.zkm.stub
+:100644 100644 7f9077d 13986d5 M	Aurora/source/com/intellij/packageDependencies/ui/DependenciesPanel.java
+:100644 100644 3f68a9d fe8475b M	Aurora/testSource/com/intellij/compiler/CompilerTestCase.java
+
+commit 3e8888073ab942c2fbf9a2cc20079852c1cb1271 8ff021fa73abf6bab17752eae2bbaad7e0881fe5
+Author: jeka <>
+Date:   Fri Oct 29 16:17:34 2004 +0000
+
+    no message
+
+:100644 100644 5876d6d c86f0cb M	Aurora/source/com/intellij/compiler/make/DependencyProcessor.java
+
+commit 985617500af2c66804d15fde31ff1b8b305c104c d27c5a404782819e47d7154972ebfa0a1eebe1af
+Author: jeka <>
+Date:   Fri Oct 29 15:13:07 2004 +0000
+
+    no message
+
+:100644 100644 e1da854 6654045 M	Aurora/build-start.xml
+
+commit 9c30f23b5ac4edb5df9185d5abb28c0da51eef56 c325bc2c1361b84e838546091369f5138ce6af3b
+Author: jeka <>
+Date:   Fri Oct 29 09:49:02 2004 +0000
+
+    no message
+
+:100644 100644 0cf0219 ebfae18 M	Aurora/build/cc.xml
+:100644 100644 2fd164d b965304 M	Aurora/source/com/intellij/openapi/vcs/impl/ProjectLevelVcsManagerImpl.java
+:100644 100644 bdb8e23 4dfcde9 M	Aurora/source/com/intellij/testFramework/IdeaTestCase.java
+:100644 100644 a95a87e addccd9 M	Aurora/source/com/intellij/ui/content/impl/ContentManagerImpl.java
+
+commit 13c4ec23ef2d9a4bebda3f7f013137a9f502f491 fb3514cf8eb49d6bfbe90a98f1c6771cac0bcde2
+Author: jeka <>
+Date:   Fri Oct 29 08:36:51 2004 +0000
+
+    no message
+
+:100644 100644 d5256f6 0cf0219 M	Aurora/build/cc.xml
+
+commit 932a373866e24bc363d742c65068b509fcc6a48d 873805d6cffcb6e4de0536ac7cba2f1a34a4dc87
+Author: jeka <>
+Date:   Fri Oct 29 06:40:38 2004 +0000
+
+    no message
+
+:100644 100644 c7a6f33 bdb8e23 M	Aurora/source/com/intellij/testFramework/IdeaTestCase.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 24ffd317a4fb055c735e48f8208092f62e14a98b 1d588822aaaf182c141ad11506e82758b5cdf8e8
+Author: jeka <>
+Date:   Tue Oct 19 13:46:54 2004 +0000
+
+    no message
+
+commit 1d588822aaaf182c141ad11506e82758b5cdf8e8 fa92cba0ba952934f0b7a6d67be4c2c5db280d37
+Author: jeka <>
+Date:   Tue Oct 19 13:45:44 2004 +0000
+
+    no message
+
+:100644 100644 4e09d46 e384ae2 M	Aurora/source/com/intellij/openapi/projectRoots/impl/JavaSdk.java
+
+commit fa92cba0ba952934f0b7a6d67be4c2c5db280d37 a4f3f0ce69e6d5db6e135e3faf864c61558c47f7
+Author: jeka <>
+Date:   Tue Oct 19 13:45:32 2004 +0000
+
+    no message
+
+:000000 100644 0000000 d4dbed6 A	Aurora/icons/src/general/addJdk.png
+:100644 100644 55f3cc9 98d394a M	Aurora/openapi/src/com/intellij/openapi/projectRoots/SdkType.java
+:100644 100644 24f4e25 7aa4ec5 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/MobileSdk.java
+:100644 100644 82f144f 087e182 M	Aurora/source/com/intellij/ant/impl/configuration/AntUIUtil.java
+:100644 100644 8b6a72c 81c48af M	Aurora/source/com/intellij/ide/projectView/impl/nodes/NamedLibraryElementDescriptor.java
+:100644 100644 2cf5070 4e09d46 M	Aurora/source/com/intellij/openapi/projectRoots/impl/JavaSdk.java
+:100644 100644 7365640 489b031 M	Aurora/source/com/intellij/openapi/projectRoots/ui/JdkTableConfigurable.java
+:100644 100644 c70eb7f b76ac3c M	Aurora/source/com/intellij/openapi/roots/ui/util/CellAppearanceUtils.java
+
+commit 2d7af699418da939f4cd5d7a0e72de023712a87a 95e430ae4e64fe1f2c407871491768341db7f006
+Author: jeka <>
+Date:   Tue Oct 19 13:00:30 2004 +0000
+
+    no message
+
+:100644 100644 a67e3d0 55f3cc9 M	Aurora/openapi/src/com/intellij/openapi/projectRoots/SdkType.java
+:100644 100644 721d5cb 24f4e25 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/MobileSdk.java
+:100644 100644 38e9127 2cf5070 M	Aurora/source/com/intellij/openapi/projectRoots/impl/JavaSdk.java
+:100644 100644 044e31b 7365640 M	Aurora/source/com/intellij/openapi/projectRoots/ui/JdkTableConfigurable.java
+:100644 100644 49bf363 f61a59b M	Aurora/source/com/intellij/openapi/projectRoots/ui/SdkEditor.java
+
+commit c6aef0ccdf77235063e38e9a7356391058340c7f f4a4488fd0c3df7c7145e34a2d0381aa17a0f486
+Author: jeka <>
+Date:   Tue Oct 19 12:42:40 2004 +0000
+
+    no message
+
+:100644 100644 71215a0 83f43e8 M	Aurora/source/com/intellij/ide/projectView/impl/AbstractProjectTreeStructure.java
+
+commit c2d994a354ba51c9ae3901a02c290b084e7ff8d6 ff786ab70ab5e31df1509f5bfde529cc9920ab34
+Author: jeka <>
+Date:   Tue Oct 19 11:38:39 2004 +0000
+
+    no message
+
+:000000 100644 0000000 9f5227e A	Aurora/lib/jaxen.jar
+:000000 100644 0000000 43cccc6 A	Aurora/lib/saxpath.jar
+:100644 100644 0280d04 41f18c9 M	Aurora/source/com/intellij/ide/plugins/PluginManager.java
+
+commit 8d7b8b255e7c2c40a6554b93878d8bff397b12b4 8cb4c68e68519e690796623e592a5b10f7c2de0e
+Author: jeka <>
+Date:   Tue Oct 19 10:31:05 2004 +0000
+
+    no message
+
+:100644 100644 e956c63 38e9127 M	Aurora/source/com/intellij/openapi/projectRoots/impl/JavaSdk.java
+
+commit 1f60bec26a4f155d13fd317dd3c8f2f4092b62c6 157c1ae9bb8ba94837f268da478a93dcb8ce2292
+Author: jeka <>
+Date:   Mon Oct 18 13:46:10 2004 +0000
+
+    no message
+
+:100644 100644 75984c8 773bf72 M	Aurora/source/com/intellij/compiler/impl/javaCompiler/JavacCompiler.java
+
+commit 69a88187454091bb556e16da396e8e9a16f05c74 45b74ee82098cbd10da115354650f97b4d9c2029
+Author: jeka <>
+Date:   Mon Oct 18 07:21:52 2004 +0000
+
+    no message
+
+:100644 100644 7175511 044e31b M	Aurora/source/com/intellij/openapi/projectRoots/ui/JdkTableConfigurable.java
+:100644 100644 a887580 49bf363 M	Aurora/source/com/intellij/openapi/projectRoots/ui/SdkEditor.java
+
+commit 5f231008a765f1976bf9d5c64f8833941f3b1d3d 8f97fa33d33de8db62769a687ae4a55368cf1494
+Author: jeka <>
+Date:   Sat Oct 16 10:52:59 2004 +0000
+
+    no message
+
+:100644 100644 b923459 7a1ece1 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 4cafbc62561fe61ed960969b8497434579086801 2ba8aefb8ad3483a505ee62b56c1bce6b8fc3be5
+Author: jeka <>
+Date:   Thu Jul 8 08:40:08 2004 +0000
+
+    no message
+
+commit 5a1ff2d7af8f988e3a03659c36347bc5168c3e00 dd5fbea78eff1a48feb1e8389e7f895c2d6e0ef7
+Author: jeka <>
+Date:   Thu Jul 8 08:06:07 2004 +0000
+
+    no message
+
+:100644 100644 3b264fa 2320932 M	Aurora/testSource/com/intellij/compiler/GenericsTest.java
+
+commit 5b43463482a650069b524b1a3fdc0bb03720b77b cb66c75e345c0689e37ebc6b72bbb1e7cdad406e
+Author: jeka <>
+Date:   Tue Jul 6 14:16:44 2004 +0000
+
+    no message
+
+:100644 100644 6ef5a66 7c47cff M	Aurora/source/com/intellij/compiler/options/CompilerOptionsPanel.form
+
+commit 0d293053cb486106a035b550732eb515fa8d9bae 7a1cdc2dd6274dcb547f288a9998a509b1a013b9
+Author: jeka <>
+Date:   Tue Jul 6 10:30:49 2004 +0000
+
+    no message
+
+:100644 100644 506e49e 6dc4926 M	Aurora/source/com/intellij/ide/impl/ProjectUtil.java
+
+commit 4e0afca6aaabb42f4ad836cfaea67e9bf84281c8 70b4c7bda3295854338e6b866528f91377a57105
+Author: jeka <>
+Date:   Mon Jul 5 16:27:45 2004 +0000
+
+    no message
+
+:100644 100644 a6a2b94 e8c1eff M	Aurora/source/com/intellij/execution/runners/RunStrategy.java
+:100644 100644 f68c93f 6ebe27e M	Aurora/source/com/intellij/tools/Tool.java
+
+commit cdbc0ba36a76950ca9b7de7a410b4e4dc0e6cbb5 a4efd813fbb2629a458485766674986e8bc4cec4
+Author: jeka <>
+Date:   Sat Jul 3 12:53:20 2004 +0000
+
+    no message
+
+:100644 100644 c342c8a ee8157f M	Aurora/testSource/com/intellij/compiler/Jdk15CompilerTestCase.java
+
+commit 5f4fd8b856e70b2357ce4e59fabda29d618d9c7c d1e440b17f1a16b680d58d656afbcd144e8097ee
+Author: jeka <>
+Date:   Sat Jul 3 12:05:55 2004 +0000
+
+    no message
+
+:100644 100644 6d9f893 25b7eb9 M	Aurora/Readme.txt
+:100644 100644 48db257 7b481ce M	Aurora/openapi/src/com/intellij/openapi/roots/LanguageLevel.java
+:100644 100644 35d2247 443df6b M	Aurora/plugins/structuralsearch/source/build.xml
+:100644 100644 fffabb4 a051c56 M	Aurora/resources/src/liveTemplates/iterations.xml
+:100644 100644 9917db6 f539b2b M	Aurora/source/com/intellij/compiler/impl/javaCompiler/JavacCompiler.java
+:100644 100644 3229fa1 8a50abe M	Aurora/source/com/intellij/compiler/impl/javaCompiler/JikesCompiler.java
+
+commit 5bd949bec22e634f3ef35fa21a3a970fbb3fe3e1 3b9e0309e6e2408c9da0ff543d0aef368428ad3a
+Author: jeka <>
+Date:   Fri Jul 2 19:14:34 2004 +0000
+
+    no message
+
+:100644 100644 ee23678 16deb86 M	Aurora/Changes.txt
+:100644 100644 7445d8a 6d9f893 M	Aurora/Readme.txt
+:100644 100644 c831dbcd e845b61 M	Aurora/source/com/intellij/ide/util/projectWizard/j2ee/WebModuleDescriptor.java
+:100644 100644 f174818 fdc97f1 M	Aurora/source/com/intellij/j2ee/make/ModuleBuildPropertiesEx.java
+:100644 100644 d5e7c17 2c0a99d M	Aurora/source/com/intellij/j2ee/make/ModuleBuilder.java
+
+commit 1adf4fdbf3bdf56bfcafb9ac663218af3cf6f644 5f2ccbf7b0534148eab81536b2e2ce48e1cd9bf1
+Author: jeka <>
+Date:   Fri Jul 2 18:31:54 2004 +0000
+
+    no message
+
+:100644 100644 8faaf61 f174818 M	Aurora/source/com/intellij/j2ee/make/ModuleBuildPropertiesEx.java
+
+commit 2a64d94defaba7199a9e42a0049ab373d40308d2 d5cc7a3f6ed0e8e21883590e0a575e28fdc2dc97
+Author: jeka <>
+Date:   Fri Jul 2 18:09:54 2004 +0000
+
+    no message
+
+:100644 100644 e8d54c4 c831dbcd M	Aurora/source/com/intellij/ide/util/projectWizard/j2ee/WebModuleDescriptor.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 7901f77f5627c6e7a06f9a84d9ec222d2ff0dc75 4cb397752799166588cb9ec51da66f86ce735e71
+Author: jeka <>
+Date:   Wed Jun 30 14:32:55 2004 +0000
+
+    no message
+
+commit 4cb397752799166588cb9ec51da66f86ce735e71 d0f771cff3213b6203ae1964f112a63792a71b73
+Author: jeka <>
+Date:   Wed Jun 30 14:32:46 2004 +0000
+
+    no message
+
+:100644 100644 3012a30 21f1480 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/runDebug/deployment/WeblogicDeploymentProvider.java
+
+commit 124ddec683f54ea6558144497effc5c053202967 5274ef0b6c912dbafc8e7dd86899c2afde8b3f42
+Author: jeka <>
+Date:   Wed Jun 30 11:54:07 2004 +0000
+
+    no message
+
+:100644 100644 73679cd 1321e9b M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModulesConfigurator.java
+:100644 100644 28d658f 20439c4 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/ModuleDeleteProvider.java
+
+commit 6657fdf279504e13dfc0c3c2a6094746613b7f4b 69ebd954d18395b7495a7ec92d060a039e4de92f
+Author: jeka <>
+Date:   Wed Jun 30 11:26:42 2004 +0000
+
+    no message
+
+:100644 100644 44d822f d1b8996 M	Aurora/source/com/intellij/openapi/projectRoots/ui/NamedContainersConfigurable.java
+
+commit 0dcddbf36cbfbd88d26c89d81536e4c921d71a38 c95e0f5c73535e4613f2dc4a0d1f2fdcc7563a21
+Author: jeka <>
+Date:   Tue Jun 29 16:45:10 2004 +0000
+
+    no message
+
+:100644 100644 754b5b1 1d76db4 M	Aurora/source/com/intellij/compiler/classParsing/ClassFileReader.java
+:100644 100644 6c5eb9f 42f0d17 M	Aurora/source/com/intellij/compiler/make/DependencyCache.java
+
+commit f28fe8299eaeefd18f1233f9d78207e53539d233 2a4972dadcbdc1131c5545f68a851afae58235ad
+Author: jeka <>
+Date:   Tue Jun 29 11:45:33 2004 +0000
+
+    no message
+
+:100644 100644 26007c7 b1289e8 M	Aurora/source/com/intellij/compiler/JavacOutputParser.java
+
+commit aa30ddb3c42ecbc0ea19586972d20fa57442ec10 bd85903facef940dc269e59a2a5903cc89f554bc
+Author: jeka <>
+Date:   Tue Jun 29 11:12:25 2004 +0000
+
+    no message
+
+:100644 100644 e779488 e32b396 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/beaInstallation/BeaInstallation.java
+:100644 100644 24b58e8 03652c1 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/beaInstallation/WeblogicUtil.java
+
+commit 4998db7e1bea67612f951161de0e68e993d40ecf 6f39de576562775aedb0659d4d388f9e31a01e68
+Author: jeka <>
+Date:   Mon Jun 28 14:35:15 2004 +0000
+
+    no message
+
+:100644 100644 8f4cbac ea10b7f M	Aurora/source/com/intellij/ide/util/projectWizard/NameLocationStep.java
+
+commit d960665284e2a2fdc207f56490788df801cdb888 04a8d0b9fcc69b5d21b3c4ad3e627a1b83161a1a
+Author: jeka <>
+Date:   Sun Jun 27 10:58:06 2004 +0000
+
+    no message
+
+:100644 100644 0db8eb6 c2ada7a M	Aurora/source/com/intellij/ide/util/projectWizard/BrowseFilesListener.java
+
+commit d3dc2aca0ef6bbbb9b708b0e28e0f589f292c45c 4b70e28edbe3e8c32a473340caeb0ee7d7cf9ce2
+Author: jeka <>
+Date:   Fri Jun 25 17:36:13 2004 +0000
+
+    no message
+
+:100644 100644 c76449b 0f19b7b M	Aurora/openapi/src/com/intellij/openapi/vcs/FileStatus.java
+:100644 100644 691b81b 4f0266f M	Aurora/source/com/intellij/ide/util/treeView/SmartElementDescriptor.java
+:100644 100644 1ecafdd 7072e53 M	Aurora/source/com/intellij/openapi/roots/ui/util/CellAppearanceUtils.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit c7a12758f137c049f831f8db58dd8670d09477d7 74e848b9b8e77495d83fa1a81cfba75c91328c1b
+Author: jeka <>
+Date:   Mon May 17 15:52:10 2004 +0000
+
+    no message
+
+commit 74e848b9b8e77495d83fa1a81cfba75c91328c1b e9392894186369fb599a42c9807c84de6aed6a3a
+Author: jeka <>
+Date:   Mon May 17 15:51:04 2004 +0000
+
+    no message
+
+:100644 100644 4e4577e a6e42db M	Aurora/build-start.xml
+
+commit 5183c9943007b25d6a3b6ca12ae667e26d72c037 cd610d65141cc1298059602f93f048cfba30e390
+Author: jeka <>
+Date:   Mon May 17 15:42:17 2004 +0000
+
+    no message
+
+:100644 100644 8775cc3 4e4577e M	Aurora/build-start.xml
+
+commit ab48d36000096eb352f2f99e75ecbf5b3b5c5b95 64c546efecaad21c280d8339dac2f99c53b985f8
+Author: jeka <>
+Date:   Mon May 17 15:25:58 2004 +0000
+
+    no message
+
+:100644 100644 507f049 8775cc3 M	Aurora/build-start.xml
+
+commit 64c546efecaad21c280d8339dac2f99c53b985f8 7e9d1d554d07ed9f06840bc12b69dac00efe9411
+Author: jeka <>
+Date:   Mon May 17 15:21:34 2004 +0000
+
+    no message
+
+:100644 100644 7f5d7a6 507f049 M	Aurora/build-start.xml
+
+commit 0d8ece5748c0d8f3d9aefffaa004b6ccc057bed3 a046e164f6edef36d39c99fbb23c519dc6138df1
+Author: jeka <>
+Date:   Mon May 17 15:10:57 2004 +0000
+
+    no message
+
+:100644 100644 1fc73cb 7f5d7a6 M	Aurora/build-start.xml
+
+commit 19d7f970fd4ab908ce7ab972b154943470f0d301 8dce40b123ab0e78583739e4b661e19b9124c17b
+Author: jeka <>
+Date:   Mon May 17 14:47:14 2004 +0000
+
+    no message
+
+:100644 100644 d9b05b2 1fc73cb M	Aurora/build-start.xml
+
+commit c22ebe0b003aa5d8cac9d77d20faf4081677d748 e5a89dc0c0417303fcee9771e713a88892c69986
+Author: jeka <>
+Date:   Mon May 17 13:45:03 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 c6b786a 22b623f M	Aurora/build/exe/ipr.reg
+
+commit e5a89dc0c0417303fcee9771e713a88892c69986 143ae4b4237cdf6c743f631f4888a7312c699d4d
+Author: jeka <>
+Date:   Mon May 17 13:44:20 2004 +0000
+
+    no message
+
+:100644 100644 c5adf24 dc19c6e M	Aurora/build/Install-Windows-zip.txt
+
+commit d502c5ea34671c9ba780c11239234d80dc0b55d2 f97f140fc4b127246feec033f5c43424d932c41f
+Author: jeka <>
+Date:   Mon May 17 12:42:55 2004 +0000
+
+    no message
+
+:100644 100644 f592e32 d024041 M	Aurora/lib/required_for_dist.txt
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 908ec5b918806aa9fef92e891e85e55d263726d9 f5b2b385b3963a352a18a533240761a30d409da5
+Author: jeka <>
+Date:   Fri Apr 9 13:28:41 2004 +0000
+
+    no message
+
+commit f5b2b385b3963a352a18a533240761a30d409da5 2813021b3500dba14b21502657d857e5bcbe590d
+Author: jeka <>
+Date:   Fri Apr 9 13:27:08 2004 +0000
+
+    no message
+
+:100644 100644 05d849a e2a3af1 M	Aurora/Changes.txt
+
+commit 6957f07305a597b7415aac24dcc708ce41aacf9d 799dc87461d98ad9a496bccac6765d1cb0518338
+Author: jeka <>
+Date:   Tue Apr 6 14:42:14 2004 +0000
+
+    no message
+
+:100644 100644 d5d09e9 88402c2 M	Aurora/build/build.xml
+
+commit 20b3ff99668358c4034a1223f51b3a966c27f778 6035f1855d4991d91bad6848dd6bdbe296cb5a18
+Author: jeka <>
+Date:   Thu Mar 11 15:02:13 2004 +0000
+
+    Fix SCR # 30417
+
+:100644 100644 7f891b2 2ea8740 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/DependenciesEditor.java
+
+commit 39fbf3fa60dbac6eb6bc92dad18f0b88aa4173ad 1e830f7c05862c9cc1c8573e3df7c33faeb969ef
+Author: jeka <>
+Date:   Wed Mar 10 08:03:58 2004 +0000
+
+    Made ModuleRule less sensitive to the context
+
+:100644 100644 2e174c3 9c84475 M	Aurora/source/com/intellij/ide/impl/dataRules/ModuleRule.java
+
+commit 2b058e510be71a83974866c3017961b0daab87ba e2f8b8bd35b180ca54f99565de1bfe1b872324ce
+Author: jeka <>
+Date:   Tue Mar 9 12:08:20 2004 +0000
+
+    no message
+
+:100644 100644 b8680c0 3ac2167 M	Aurora/source/com/intellij/compiler/cache/DependencyProcessor.java
+
+commit df63e7dbad1c615c4c5afc081a1e0ba42ae74151 c12db44548913cfc9ea158b0cbe56cd5d68570a3
+Author: jeka <>
+Date:   Mon Mar 1 15:07:41 2004 +0000
+
+    no message
+
+:100644 100644 99798eb d58b54d M	Aurora/source/com/intellij/ide/util/projectWizard/JavaModuleDescriptor.java
+
+commit 654e9b3bc04b7850736996b320bd93be5f28ff8e 62bb9553729f435e9a0ccfd8b1c9dc78d01d831c
+Author: jeka <>
+Date:   Fri Feb 20 15:53:58 2004 +0000
+
+    no message
+
+:100644 100644 4cb501b 6e0b2e3 M	Aurora/source/com/intellij/ide/util/projectWizard/AddModuleExpert.java
+:100644 100644 f632326 7556b8f M	Aurora/source/com/intellij/ide/util/projectWizard/ModuleDescriptor.java
+:100644 100644 a946259 cc9b4e2 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModulesConfigurator.java
+
+commit 17483bf43514f2a1b0eb0949571b6a5811d5ee4a c513287bda7078afd04c0b74aebf50e56135d140
+Author: jeka <>
+Date:   Fri Feb 20 11:52:44 2004 +0000
+
+    no message
+
+:100644 100644 00f363a a015931 M	Aurora/source/com/intellij/ide/util/projectWizard/ElementsChooser.java
+
+commit ee390e4c0171fd3cec2094247250ba9ca05888f8 bc7b539c44a5eede302c3387df42a37c64fbfa35
+Author: jeka <>
+Date:   Thu Feb 19 13:14:14 2004 +0000
+
+    no message
+
+:100644 100644 c2e714c c4c73a1 M	Aurora/source/com/intellij/compiler/cache/DependencyCache.java
+:100644 100644 a9a427b b8680c0 M	Aurora/source/com/intellij/compiler/cache/DependencyProcessor.java
+:100644 100644 c242329 6fb3088 M	Aurora/source/com/intellij/compiler/impl/javaCompiler/BackendCompilerWrapper.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 19ec586f4ddc256c2af5c8acbe02d4aa8e7d0902 3c6f539d61f611aa45dbfd3c78f0369e5c00a50d
+Author: jeka <>
+Date:   Wed Oct 22 07:43:14 2003 +0000
+
+    no message
+
+commit 3c6f539d61f611aa45dbfd3c78f0369e5c00a50d 57cd28a42d902ad8ec6990c7b5282f0644262e0b
+Author: jeka <>
+Date:   Wed Oct 22 07:43:06 2003 +0000
+
+    no message
+
+:100644 100644 493ce48 29f1612 R098	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentRootsEditor.java	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntriesEditor.java
+:100644 100644 ff044da 37bf1b9 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModuleEditor.java
+
+commit 2cf907706a18d7b641f6a6630f590ceda1d65a38 999d4ebadf3d484ec9c24302883cdb0dd1e577dd
+Author: jeka <>
+Date:   Tue Oct 21 16:30:19 2003 +0000
+
+    no message
+
+:100644 100644 95f808e 0d09066 M	Aurora/source/com/intellij/compiler/cache/Cache.java
+:100644 100644 6d89b9e 647f504 M	Aurora/source/com/intellij/compiler/cache/ClassInfoView.java
+:100644 100644 4610e97 a5ef036 M	Aurora/source/com/intellij/compiler/cache/DependencyCache.java
+:100644 100644 6d270ef ac68602 M	Aurora/source/com/intellij/compiler/cache/RecordView.java
+:100644 100644 c004a24 7eb6ac4 M	Aurora/source/com/intellij/compiler/cache/ViewPool.java
+:100644 100644 c5c8d41 9b57b9a M	Aurora/source/com/intellij/compiler/impl/CompileDriver.java
+:100644 100644 65ae5d0 13f419a M	Aurora/source/com/intellij/compiler/impl/javaCompiler/BackendCompilerWrapper.java
+
+commit 2955dd66364fd3ed456e9ecb6750097d0b35e4ae 8bdbc0a89e1706a8db2b1c924c8307bd1e83a597
+Author: jeka <>
+Date:   Tue Oct 21 11:46:55 2003 +0000
+
+    no message
+
+:100644 100644 4acb681 c5c8d41 M	Aurora/source/com/intellij/compiler/impl/CompileDriver.java
+
+commit b4e0e3829fb97fd176a1ede18a97a9da54265e55 aa9188533b37df49f61e5ceb1d723daab8574555
+Author: jeka <>
+Date:   Mon Oct 20 17:55:04 2003 +0000
+
+    no message
+
+commit aa9188533b37df49f61e5ceb1d723daab8574555 4f93224bb7a0fc517a987bcea7c2d227604af6df
+Author: jeka <>
+Date:   Mon Oct 20 17:46:31 2003 +0000
+
+    no message
+
+:100644 100644 6a5d238 9262462 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryTreeEditor.java
+:100644 100644 f937faf 493ce48 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentRootsEditor.java
+:100644 100644 230b9a3 da7fd56 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModulesConfigurationDialog.java
+:000000 100644 0000000 aa67b35 A	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/AddModuleAction.java
+:000000 100644 0000000 23ec6ba A	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/RemoveModuleAction.java
+
+commit 135b42c40d2e1ed232457505f8f91a8ac1f6c8ca cda20b3d67b77149e8ee106845b40336533cec94
+Author: jeka <>
+Date:   Mon Oct 20 16:33:15 2003 +0000
+
+    no message
+
+:100644 100644 e2ccf0f ff044da M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModuleEditor.java
+
+commit d0881f1d87080310c1f8e713f5bd2c8041b5398a ada22e1d1c46a5406c2c03e9e3c1b6de48693812
+Author: jeka <>
+Date:   Mon Oct 20 16:21:17 2003 +0000
+
+    no message
+
+:100644 100644 0af5644 2eb2e0c M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+:100644 100644 335effd 48e2940 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/IconSet.java
+:100644 100644 dd7b495 0773df7 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/ToggleExcludedStateAction.java
+
+commit 75516d8e3dc5a93ce9e670ca86ac9470b1cd5ed1 cd90f75321ec4f460747026f5b22e1714fdd6d78
+Author: jeka <>
+Date:   Mon Oct 20 15:32:12 2003 +0000
+
+    no message
+
+:100644 100644 94d589b 0af5644 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+
+commit cd90f75321ec4f460747026f5b22e1714fdd6d78 774b021014fe5446d0e0c399fab8b19e4f15b19a
+Author: jeka <>
+Date:   Mon Oct 20 15:29:28 2003 +0000
+
+    no message
+
+:100644 100644 23da0b9 94d589b M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+:100644 100644 1339fc9 f937faf M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentRootsEditor.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit b4e0e3829fb97fd176a1ede18a97a9da54265e55 aa9188533b37df49f61e5ceb1d723daab8574555
+Author: jeka <>
+Date:   Mon Oct 20 17:55:04 2003 +0000
+
+    no message
+
+commit aa9188533b37df49f61e5ceb1d723daab8574555 4f93224bb7a0fc517a987bcea7c2d227604af6df
+Author: jeka <>
+Date:   Mon Oct 20 17:46:31 2003 +0000
+
+    no message
+
+:100644 100644 6a5d238 9262462 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryTreeEditor.java
+:100644 100644 f937faf 493ce48 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentRootsEditor.java
+:100644 100644 230b9a3 da7fd56 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModulesConfigurationDialog.java
+:000000 100644 0000000 aa67b35 A	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/AddModuleAction.java
+:000000 100644 0000000 23ec6ba A	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/RemoveModuleAction.java
+
+commit 135b42c40d2e1ed232457505f8f91a8ac1f6c8ca cda20b3d67b77149e8ee106845b40336533cec94
+Author: jeka <>
+Date:   Mon Oct 20 16:33:15 2003 +0000
+
+    no message
+
+:100644 100644 e2ccf0f ff044da M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModuleEditor.java
+
+commit d0881f1d87080310c1f8e713f5bd2c8041b5398a ada22e1d1c46a5406c2c03e9e3c1b6de48693812
+Author: jeka <>
+Date:   Mon Oct 20 16:21:17 2003 +0000
+
+    no message
+
+:100644 100644 0af5644 2eb2e0c M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+:100644 100644 335effd 48e2940 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/IconSet.java
+:100644 100644 dd7b495 0773df7 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/ToggleExcludedStateAction.java
+
+commit 75516d8e3dc5a93ce9e670ca86ac9470b1cd5ed1 cd90f75321ec4f460747026f5b22e1714fdd6d78
+Author: jeka <>
+Date:   Mon Oct 20 15:32:12 2003 +0000
+
+    no message
+
+:100644 100644 94d589b 0af5644 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+
+commit cd90f75321ec4f460747026f5b22e1714fdd6d78 774b021014fe5446d0e0c399fab8b19e4f15b19a
+Author: jeka <>
+Date:   Mon Oct 20 15:29:28 2003 +0000
+
+    no message
+
+:100644 100644 23da0b9 94d589b M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+:100644 100644 1339fc9 f937faf M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentRootsEditor.java
+
+commit 65229ef4b15d3d87dfa8f1c321b092e1da96b8a3 f9e373f73c1e79937758154cd7a4bf3a231dcd2f
+Author: jeka <>
+Date:   Mon Oct 20 12:15:39 2003 +0000
+
+    no message
+
+:000000 100644 0000000 a3814bc A	Aurora/icons/modules/excludeRootClosed.png
+:000000 100644 0000000 2c3f30c A	Aurora/icons/modules/excludeRootOpened.png
+:000000 100644 0000000 d68881b A	Aurora/icons/modules/remove.png
+:000000 100644 0000000 bff1fa6 A	Aurora/icons/modules/sourceClosed.png
+:000000 100644 0000000 a1f397e A	Aurora/icons/modules/sourceOpened.png
+:000000 100644 0000000 0882c17 A	Aurora/icons/modules/sourceRootClosed.png
+:000000 100644 0000000 53530f4 A	Aurora/icons/modules/sourceRootOpened.png
+:000000 100644 0000000 f2460a3 A	Aurora/icons/modules/testRootClosed.png
+:000000 100644 0000000 f05dc81 A	Aurora/icons/modules/testRootOpened.png
+:000000 100644 0000000 c1f5890 A	Aurora/icons/modules/testSourceClosed.png
+:000000 100644 0000000 2072d72 A	Aurora/icons/modules/testSourceOpened.png
+:100644 100644 8b0da56 adeff17 M	Aurora/icons/nodes/excludedFromCompile.png
+:100644 100644 2ff377c 23da0b9 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryEditor.java
+:100644 100644 b2319f8 590a510 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryTreeCellRenderer.java
+:100644 100644 2846bf3 6a5d238 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntryTreeEditor.java
+:100644 100644 f76f32d 1339fc9 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentRootsEditor.java
+:000000 100644 0000000 335effd A	Aurora/source/com/intellij/openapi/roots/ui/configuration/IconSet.java
+:100644 100644 7a5a253 dd7b495 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/ToggleExcludedStateAction.java
+:100644 100644 9bacb9f 4274dd7 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/actions/ToggleSourcesStateAction.java
+
+commit 944b3752fa160ed62ee7870cd8abbe8382e0c4b4 6513ac62338c976f6c0433a2f2d37cf46f355e04
+Author: jeka <>
+Date:   Sat Oct 18 07:04:01 2003 +0000
+
+    no message
+
+:100644 100644 961097f 4e54156 M	Aurora/source/com/intellij/psi/impl/PsiShortNamesCacheImpl.java
+
+commit 34dff27e41de8c9848f26c3d323eef94e0c8b13a 0730a7586322c505edd8d938076dd850111577ff
+Author: jeka <>
+Date:   Fri Oct 17 19:21:08 2003 +0000
+
+    no message
+
+:100644 100644 81c3530 4acb681 M	Aurora/source/com/intellij/compiler/impl/CompileDriver.java
+:100644 100644 beb28f8 b0936b3 M	Aurora/source/com/intellij/compiler/impl/CompilerUtil.java
+:100644 100644 d37a28c 8bf81c2 M	Aurora/source/com/intellij/compiler/impl/InstrumentingCompilerStateCache.java
+:100644 100644 52c55ca a1515fd M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectInstanceCompiler.java
+:100644 100644 61c2d9a d03c4df M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+:100644 100644 8a0a0d6 65ae5d0 M	Aurora/source/com/intellij/compiler/impl/javaCompiler/BackendCompilerWrapper.java
+:100644 100644 49eccf5 7475340 M	Aurora/source/com/intellij/compiler/impl/resourceCompiler/ResourceCompiler.java
+:100644 100644 e97c630 73e3d5a M	Aurora/source/com/intellij/openapi/ui/DialogWrapper.java
+:100644 100644 51d20ac 4a1da92 M	Aurora/source/com/intellij/progress/ProgressIndicator.java
+:100644 100644 43ca5c2 462ceaa M	Aurora/source/com/intellij/progress/util/ProgressUtil.java
+:100644 100644 75a64c2 2956488 M	Aurora/source/com/intellij/progress/util/ProgressWindow.java
+:100644 100644 26108c8 784adb4 M	Aurora/source/com/intellij/progress/util/SmoothProgressAdapter.java
+
+commit e4112b28544ccbadba6b908ffe4d8768a48246f1 c66c4e8d00f482c3e17370a0b569e04de2c7891c
+Author: jeka <>
+Date:   Fri Oct 17 08:26:39 2003 +0000
+
+    no message
+
+:100644 100644 8af2ccf fc18317 M	Aurora/source/com/intellij/aspects/build.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 76622a1c9b43e0e5bb1fdc8322fcc8e4250d3912 9622fcd612d235c9c7540423cf4f54941b23db19
+Author: jeka <>
+Date:   Wed Jun 18 17:11:10 2003 +0000
+
+    no message
+
+commit 9622fcd612d235c9c7540423cf4f54941b23db19 d207a37f935dc38d0da7768c1cb10a1f818dbaf8
+Author: jeka <>
+Date:   Wed Jun 18 17:09:32 2003 +0000
+
+    no message
+
+:100644 100644 3458c89 c9d85f3 M	Aurora/source/com/intellij/compiler/impl/MultipleRootCompileScope.java
+:100644 100644 3ad919b fdeeea9 M	Aurora/source/com/intellij/compiler/impl/_CompileDriver.java
+
+commit 916ad6d9ce5ec8c419cafdf6504a30c2b67f8d50 8d7b3f5c0612cc6acb0d562437e0376827b9db20
+Author: jeka <>
+Date:   Wed Jun 18 07:54:58 2003 +0000
+
+    no message
+
+:100644 100644 d634414 1c028af M	Aurora/source/com/intellij/compiler/impl/javaCompiler/_BackendCompilerWrapper.java
+
+commit 9cc18c19b65671fce5859d6c73b6736f63424be1 5f048d852da9e16689f36439d684d0258eebc0c3
+Author: jeka <>
+Date:   Tue Jun 17 19:08:52 2003 +0000
+
+    no message
+
+:100644 100644 faf18aa 105f974 M	Aurora/runtimesource/com/intellij/rt/execution/application/AppMain.java
+
+commit 5f048d852da9e16689f36439d684d0258eebc0c3 5f015c5cfa1e18af040bcf5d8fe2dc677fa0a59d
+Author: jeka <>
+Date:   Tue Jun 17 19:03:49 2003 +0000
+
+    no message
+
+:100644 100644 4848204 54a1633 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+:100644 100644 ccea3d9 5960c1e M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/FileToAspectAssociationBuilder.java
+:100644 100644 86c7f03 3417b94 M	Aurora/source/com/intellij/compiler/impl/progress/CompilerProgressIndicator.java
+
+commit b4f11eea9c9cd4bb43c2e34bc1319aa656f19f01 234c214a0a9b19240aafaf5a023946b0369b33ce
+Author: jeka <>
+Date:   Tue Jun 17 12:46:28 2003 +0000
+
+    no message
+
+:100644 100644 4664023 4848204 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+:100644 100644 7cec9d2 ccea3d9 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/FileToAspectAssociationBuilder.java
+:100644 000000 c6c3728 0000000 D	Aurora/source/com/intellij/compiler/impl/aspectCompiler/StaticWeaver.java
+
+commit aa2d7ced6deeffb7b812158f931ca0d414334ea5 33ce1b64ce25de1795b52b76c14d9cba6829e677
+Author: jeka <>
+Date:   Mon Jun 16 09:00:04 2003 +0000
+
+    no message
+
+:100644 100644 f53b1f2 4664023 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+
+commit 33ce1b64ce25de1795b52b76c14d9cba6829e677 a69ce8e746f20c09e9e6205393a60349c057d123
+Author: jeka <>
+Date:   Mon Jun 16 08:39:13 2003 +0000
+
+    no message
+
+:100644 100644 a4f576d 47ed468 M	Aurora/source/com/intellij/compiler/impl/javaCompiler/JavacCompiler.java
+
+commit 40d73ac58e0d1a4d18f4b6a7f22f7ec8863de9c2 ca61f3aa599a0ff978901ae2306ea4ca1a00aac6
+Author: jeka <>
+Date:   Fri Jun 6 18:26:35 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 06a1ae5 13138e1 M	Aurora/aurora.ipr
+
+commit 884ab1fad5d189210a71903aabc57dd9d709a53f 14f0a4b4ca805a89131ad260650409fbbad6796a
+Author: jeka <>
+Date:   Fri Jun 6 18:18:34 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 3c1b157 3d693f3 M	Aurora/aurora.iml
+:100644 100644 7523d74 06a1ae5 M	Aurora/aurora.ipr
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit f2c392d85c53904ddea1bafa5d1b0c299702793c 2a3a8fa06f73054f68649d4d9a55ac2bf4490e30
+Author: jeka <>
+Date:   Tue Jun 3 09:52:47 2003 +0000
+
+    no message
+
+commit 2a3a8fa06f73054f68649d4d9a55ac2bf4490e30 3b7abbd74309752798657245b0c54c5de6f23de1
+Author: jeka <>
+Date:   Tue Jun 3 09:52:32 2003 +0000
+
+    no message
+
+:100644 100644 61584b4 e614de7 M	Aurora/build/build.xml
+
+commit d5cc73d7cc62d95fcbf97e2035391a5182ccf030 8a20471e5dddb7cb85a7fca30ffa1e73106c935a
+Author: jeka <>
+Date:   Mon Jun 2 18:10:23 2003 +0000
+
+    no message
+
+:100644 100644 ecffb17 61584b4 M	Aurora/build/build.xml
+
+commit 42d2945042bf93810d79a100d95bba48dc71bf6a 3a417c10ba3fc1ee99865eb90cd21602dfd924a4
+Author: jeka <>
+Date:   Mon Jun 2 16:59:28 2003 +0000
+
+    no message
+
+:100644 100644 36bc286 8fd4c65 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectInstanceCompiler.java
+:100644 100644 58c493a 20911ec M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+:100644 100644 a1d39e0 f772a2e M	Aurora/source/com/intellij/psi/PsiDocumentManager.java
+:100644 100644 e3b379e ae4cc44 M	Aurora/source/com/intellij/psi/impl/PsiDocumentManagerImpl.java
+:000000 100644 0000000 4d7e1a1 A	Aurora/source/com/intellij/util/concurrency/Semaphore.java
+
+commit 2168f519d9319950857d902a04d62bf3829b6f21 952e410b500b75ed4c079d25679e89a39ee84577
+Author: jeka <>
+Date:   Mon Jun 2 16:36:39 2003 +0000
+
+    no message
+
+:100644 100644 f08e509 2580909 M	Aurora/build/conf/script.zkm.stub
+:100644 100644 48cf512 58c493a M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+
+commit 6d0b471e0c73c01c3eac573e57fb9f2d6e997850 7f749d78631230637e3a32b2a9dd54667f9f4b0e
+Author: jeka <>
+Date:   Mon Jun 2 13:56:22 2003 +0000
+
+    no message
+
+:100644 100644 5afe707 f08e509 M	Aurora/build/conf/script.zkm.stub
+
+commit cec06b45ae664c7a8d29f05c7e9c43fcc31699c7 4b37c197d7e681ab79b7cb7b5d127fa672ee3dd0
+Author: jeka <>
+Date:   Mon Jun 2 13:39:38 2003 +0000
+
+    no message
+
+:100644 100644 6002e83 48cf512 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+
+commit 45a9199ec3ad889d9a208d452ef5625730e5229a a21c7843807925a3c369058580bb5a8ebcc5180a
+Author: jeka <>
+Date:   Mon Jun 2 13:08:06 2003 +0000
+
+    no message
+
+:100644 100644 f366571 9ea5973 M	Aurora/build/build.xml
+
+commit af616a06381416f646188b1c931be1818209cc52 35f9802ee3c931d1bda3c202ef27c2b516e71ecb
+Author: jeka <>
+Date:   Mon Jun 2 09:39:06 2003 +0000
+
+    no message
+
+:100644 100644 02096fb 312717a M	Aurora/build/conf/script.zkm.stub
+
+commit 0439fc79e734655f60820b121711c202ccbb3a74 062d2f1425b2a144af48e6259faab770512ad40f
+Author: jeka <>
+Date:   Mon Jun 2 09:30:37 2003 +0000
+
+    no message
+
+:100644 100644 c089b5c 8d9138e M	Aurora/source/com/intellij/aspects/compiler/AspectGenerationVisitor.java
+:100644 100644 49bb2c6 6002e83 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 8af7370900e654958a57978a24fe3de757d5155e 3c7bb7a96b7cb4e10d0b90e3683f4a1e8961635c
+Author: jeka <>
+Date:   Fri May 30 19:09:24 2003 +0000
+
+    no message
+
+commit 3c7bb7a96b7cb4e10d0b90e3683f4a1e8961635c 01cbce03dfff155b599c9ebebf8363c296e0f2b8
+Author: jeka <>
+Date:   Fri May 30 19:08:52 2003 +0000
+
+    no message
+
+commit 69ef5d47bfa0e3ebc3b180eec8eb864e083e3c8e a9121bc7bb25302ae263026f7eecfbbe24e900e5
+Author: jeka <>
+Date:   Fri May 30 19:05:47 2003 +0000
+
+    no message
+
+:100644 100644 58a45ee 02096fb M	Aurora/build/conf/script.zkm.stub
+:100644 100644 96f7916 d02f323 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/InstrumenterCompiler.java
+
+commit 1c598c600cb60deb33cb2a67625a0161066543f7 30fdee8f105de6f40c6313877102a9151761889d
+Author: jeka <>
+Date:   Fri May 30 18:02:09 2003 +0000
+
+    no message
+
+:100644 100644 109f9ff f366571 M	Aurora/build/build.xml
+
+commit 093a292f8b128c5cd9671a5ce41b3bd442fe90d2 3084ae4cee328531ebc976a1ca9c1337adc7d5d9
+Author: jeka <>
+Date:   Fri May 30 17:41:41 2003 +0000
+
+    no message
+
+:100644 100644 bdacb88 58a45ee M	Aurora/build/conf/script.zkm.stub
+
+commit 10b77f4a0953f15d6ac7a168b033afb9b4f5a750 629bd361330b1ef3389bbd929632fbb1e03440dd
+Author: jeka <>
+Date:   Fri May 30 17:03:36 2003 +0000
+
+    no message
+
+:100644 100644 d7488a8 109f9ff M	Aurora/build/build.xml
+
+commit 368a17168e96c8ff049be090ef84be245695726d da51fdad1c9e395fcb0e0312beb78c2c244d920e
+Author: jeka <>
+Date:   Fri May 30 15:42:12 2003 +0000
+
+    no message
+
+:100644 000000 ef1e9d9 0000000 D	Aurora/source/com/intellij/aspects/rt/joinpoint/reflect/StringMaker.java
+
+commit 73bc497338c103d20d98273bb9692aeb701528c6 6bb22277c944115b8b533429f1ce610ac467c20c
+Author: jeka <>
+Date:   Fri May 30 15:15:27 2003 +0000
+
+    no message
+
+:000000 100644 0000000 57a07b5 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/AdviceSignatureImpl.java
+:000000 100644 0000000 5f43986 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/CatchClauseSignatureImpl.java
+:000000 100644 0000000 1aa7a07 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/CodeSignatureImpl.java
+:000000 100644 0000000 1deedda A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/ConstructorSignatureImpl.java
+:000000 100644 0000000 fc9d189 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/Factory.java
+:000000 100644 0000000 b49f944 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/FieldSignatureImpl.java
+:000000 100644 0000000 b53fe22 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/InitializerSignatureImpl.java
+:000000 100644 0000000 6705515 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/JoinPointInstance.java
+:000000 100644 0000000 fdbd246 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/JoinPointStaticPartInstance.java
+:000000 100644 0000000 59f971a A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/MemberSignatureImpl.java
+:000000 100644 0000000 e9f021e A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/MethodSignatureImpl.java
+:000000 100644 0000000 c1d1601 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/SignatureImpl.java
+:000000 100644 0000000 4de5fd7 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/SourceLocationImpl.java
+:000000 100644 0000000 ef1e9d9 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/StringMaker.java
+:000000 100644 0000000 078fcc8 A	Aurora/rtaspectsource/org/aspectj/lang/JoinPoint.java
+:000000 100644 0000000 84fda55 A	Aurora/rtaspectsource/org/aspectj/lang/Signature.java
+:000000 100644 0000000 8a7b041 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/AdviceSignature.java
+:000000 100644 0000000 4b0fd04 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/CatchClauseSignature.java
+:000000 100644 0000000 adc305b A	Aurora/rtaspectsource/org/aspectj/lang/reflect/CodeSignature.java
+:000000 100644 0000000 b91bcf6 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/ConstructorSignature.java
+:000000 100644 0000000 5521885 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/FieldSignature.java
+:000000 100644 0000000 833ad4d A	Aurora/rtaspectsource/org/aspectj/lang/reflect/InitializerSignature.java
+:000000 100644 0000000 939fad1 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/MemberSignature.java
+:000000 100644 0000000 7c4263c A	Aurora/rtaspectsource/org/aspectj/lang/reflect/MethodSignature.java
+:000000 100644 0000000 6109342 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/SourceLocation.java
+
+commit 9f888fb1bf180abbc93de80824f0e91c99703c69 dc134848cda0ac815a633308c8895d9feb3cfe48
+Author: jeka <>
+Date:   Fri May 30 14:35:23 2003 +0000
+
+    no message
+
+:100644 100644 406410f a5e0c7a M	Aurora/build/cc.xml
+
+commit 67698b7c1fc9191782e964cb33717b0cc4605825 c3ef7e4d640926e2f8ca7d38e631a0818a3d327b
+Author: jeka <>
+Date:   Fri May 30 13:58:35 2003 +0000
+
+    no message
+
+:100644 100644 9103f47 406410f M	Aurora/build/cc.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3c7bb7a96b7cb4e10d0b90e3683f4a1e8961635c 01cbce03dfff155b599c9ebebf8363c296e0f2b8
+Author: jeka <>
+Date:   Fri May 30 19:08:52 2003 +0000
+
+    no message
+
+commit 69ef5d47bfa0e3ebc3b180eec8eb864e083e3c8e a9121bc7bb25302ae263026f7eecfbbe24e900e5
+Author: jeka <>
+Date:   Fri May 30 19:05:47 2003 +0000
+
+    no message
+
+:100644 100644 58a45ee 02096fb M	Aurora/build/conf/script.zkm.stub
+:100644 100644 96f7916 d02f323 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/InstrumenterCompiler.java
+
+commit 1c598c600cb60deb33cb2a67625a0161066543f7 30fdee8f105de6f40c6313877102a9151761889d
+Author: jeka <>
+Date:   Fri May 30 18:02:09 2003 +0000
+
+    no message
+
+:100644 100644 109f9ff f366571 M	Aurora/build/build.xml
+
+commit 093a292f8b128c5cd9671a5ce41b3bd442fe90d2 3084ae4cee328531ebc976a1ca9c1337adc7d5d9
+Author: jeka <>
+Date:   Fri May 30 17:41:41 2003 +0000
+
+    no message
+
+:100644 100644 bdacb88 58a45ee M	Aurora/build/conf/script.zkm.stub
+
+commit 10b77f4a0953f15d6ac7a168b033afb9b4f5a750 629bd361330b1ef3389bbd929632fbb1e03440dd
+Author: jeka <>
+Date:   Fri May 30 17:03:36 2003 +0000
+
+    no message
+
+:100644 100644 d7488a8 109f9ff M	Aurora/build/build.xml
+
+commit 368a17168e96c8ff049be090ef84be245695726d da51fdad1c9e395fcb0e0312beb78c2c244d920e
+Author: jeka <>
+Date:   Fri May 30 15:42:12 2003 +0000
+
+    no message
+
+:100644 000000 ef1e9d9 0000000 D	Aurora/source/com/intellij/aspects/rt/joinpoint/reflect/StringMaker.java
+
+commit 73bc497338c103d20d98273bb9692aeb701528c6 6bb22277c944115b8b533429f1ce610ac467c20c
+Author: jeka <>
+Date:   Fri May 30 15:15:27 2003 +0000
+
+    no message
+
+:000000 100644 0000000 57a07b5 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/AdviceSignatureImpl.java
+:000000 100644 0000000 5f43986 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/CatchClauseSignatureImpl.java
+:000000 100644 0000000 1aa7a07 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/CodeSignatureImpl.java
+:000000 100644 0000000 1deedda A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/ConstructorSignatureImpl.java
+:000000 100644 0000000 fc9d189 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/Factory.java
+:000000 100644 0000000 b49f944 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/FieldSignatureImpl.java
+:000000 100644 0000000 b53fe22 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/InitializerSignatureImpl.java
+:000000 100644 0000000 6705515 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/JoinPointInstance.java
+:000000 100644 0000000 fdbd246 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/JoinPointStaticPartInstance.java
+:000000 100644 0000000 59f971a A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/MemberSignatureImpl.java
+:000000 100644 0000000 e9f021e A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/MethodSignatureImpl.java
+:000000 100644 0000000 c1d1601 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/SignatureImpl.java
+:000000 100644 0000000 4de5fd7 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/SourceLocationImpl.java
+:000000 100644 0000000 ef1e9d9 A	Aurora/rtaspectsource/com/intellij/aspects/rt/joinpoint/reflect/StringMaker.java
+:000000 100644 0000000 078fcc8 A	Aurora/rtaspectsource/org/aspectj/lang/JoinPoint.java
+:000000 100644 0000000 84fda55 A	Aurora/rtaspectsource/org/aspectj/lang/Signature.java
+:000000 100644 0000000 8a7b041 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/AdviceSignature.java
+:000000 100644 0000000 4b0fd04 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/CatchClauseSignature.java
+:000000 100644 0000000 adc305b A	Aurora/rtaspectsource/org/aspectj/lang/reflect/CodeSignature.java
+:000000 100644 0000000 b91bcf6 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/ConstructorSignature.java
+:000000 100644 0000000 5521885 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/FieldSignature.java
+:000000 100644 0000000 833ad4d A	Aurora/rtaspectsource/org/aspectj/lang/reflect/InitializerSignature.java
+:000000 100644 0000000 939fad1 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/MemberSignature.java
+:000000 100644 0000000 7c4263c A	Aurora/rtaspectsource/org/aspectj/lang/reflect/MethodSignature.java
+:000000 100644 0000000 6109342 A	Aurora/rtaspectsource/org/aspectj/lang/reflect/SourceLocation.java
+
+commit 9f888fb1bf180abbc93de80824f0e91c99703c69 dc134848cda0ac815a633308c8895d9feb3cfe48
+Author: jeka <>
+Date:   Fri May 30 14:35:23 2003 +0000
+
+    no message
+
+:100644 100644 406410f a5e0c7a M	Aurora/build/cc.xml
+
+commit 67698b7c1fc9191782e964cb33717b0cc4605825 c3ef7e4d640926e2f8ca7d38e631a0818a3d327b
+Author: jeka <>
+Date:   Fri May 30 13:58:35 2003 +0000
+
+    no message
+
+:100644 100644 9103f47 406410f M	Aurora/build/cc.xml
+
+commit c3ef7e4d640926e2f8ca7d38e631a0818a3d327b de94b433bad093b8c74e50053fb9359df7bb8e35
+Author: jeka <>
+Date:   Fri May 30 13:49:03 2003 +0000
+
+    no message
+
+:100644 100644 73f4598 d7488a8 M	Aurora/build/build.xml

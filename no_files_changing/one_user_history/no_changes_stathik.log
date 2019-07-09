@@ -1,0 +1,995 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 43b4962d61775f8e5929a828349f4c461c29e630 7a85e49ee0cb8c39c83aec750c92323e9876b683
+Author: stathik <>
+Date:   Fri Dec 10 19:28:49 2004 +0000
+
+    no message
+
+commit 81424ccc4ca7ceb8fe5a2a69d3beb62048e512b3 430e941245cb5abbf35190697c4b33a8b8aa13e4
+Author: stathik <>
+Date:   Fri Dec 10 18:05:28 2004 +0000
+
+    no message
+
+:100644 100644 f33854c 49612a5 M	Aurora/build/cc/bin/CvsTests.bat
+:100644 100644 2f991fc 30403ba M	Aurora/build/cc/bin/Irida.bat
+:100644 100644 694a1a0 e82af6e M	Aurora/build/cc/bin/IridaSlow.bat
+:100644 100644 7788cf4 fddfdef M	Aurora/cc22.xml
+
+commit 641429e0eda1ddd7858ff7a5c82aae937ed52ba7 592245f078781102afaa7061a8bc52a9181f9585
+Author: stathik <>
+Date:   Fri Dec 10 17:48:37 2004 +0000
+
+    Add Junit jvmargs
+
+:100644 100644 49612a5 f33854c M	Aurora/build/cc/bin/CvsTests.bat
+:100644 100644 30403ba 2f991fc M	Aurora/build/cc/bin/Irida.bat
+:100644 100644 e82af6e 694a1a0 M	Aurora/build/cc/bin/IridaSlow.bat
+
+commit 592245f078781102afaa7061a8bc52a9181f9585 47eedb8dccef39d9404e42ed696fd3d37aaa570d
+Author: stathik <>
+Date:   Fri Dec 10 17:48:28 2004 +0000
+
+    Add Junit jvmargs
+
+:100644 100644 999ad96 7788cf4 M	Aurora/cc22.xml
+
+commit 6408630675d13936681a5fc9d9514d6a2d831c3d 4d71a039b1dfb8d9fc1acb3c5d912554c570bee6
+Author: stathik <>
+Date:   Fri Dec 10 16:43:35 2004 +0000
+
+    no message
+
+:000000 100644 0000000 0767a44 A	Aurora/build/cc/bin/CvsTests.bat
+
+commit 4772a777358d13a72f66b5748bd469e5501d200b 53e4a44141c59b5fd78fde0a4621e960ea55aa13
+Author: stathik <>
+Date:   Fri Dec 10 16:31:53 2004 +0000
+
+    no message
+
+:100644 100644 6d6a50c 7f19872 M	Aurora/build/cc/cc22-report.xsl
+
+commit a2c5bd106bbb5d1a0456e923c1407c8ddb785894 a3ed3aa11d9a9d0ad86a3f9ba0a857335e7c5197
+Author: stathik <>
+Date:   Fri Dec 10 15:53:00 2004 +0000
+
+    no message
+
+:100644 100644 e1f5027 e1f5027 R100	Aurora/build/cc/build-javac2.xml	Aurora/build-javac2.xml
+:100644 100644 2aca297 cd63e49 R091	Aurora/build/cc/build-test.xml	Aurora/build-test.xml
+:100644 100644 d74fbad 4358416 M	Aurora/build/cc/cc22-config.xml
+:100644 100644 dfc4819 9df8817 R097	Aurora/build/cc/cc22.xml	Aurora/cc22.xml
+
+commit fd8ec3652aa471ffd56911f554b37366201e3675 69360ad3b58e0c382ee00e161821505bc1acf636
+Author: stathik <>
+Date:   Fri Dec 10 15:46:08 2004 +0000
+
+    no message
+
+:100644 100644 7670748 2aca297 M	Aurora/build/cc/build-test.xml
+:100644 100644 e7c4b51 6d6a50c M	Aurora/build/cc/cc22-report.xsl
+:100644 100644 465d1c6 dfc4819 M	Aurora/build/cc/cc22.xml
+
+commit 69360ad3b58e0c382ee00e161821505bc1acf636 c72f17f6f0a26b214204a99235f2665330510440
+Author: stathik <>
+Date:   Fri Dec 10 15:39:57 2004 +0000
+
+    no message
+
+:100644 100644 87b0511 7670748 M	Aurora/build/cc/build-test.xml
+:100644 100644 384eb65 465d1c6 M	Aurora/build/cc/cc22.xml
+
+commit 3ab937a86c980cf1792047903807e58b34228bc6 2541e05d9dad69a31bcc3c9b1beac6ce44b19d21
+Author: stathik <>
+Date:   Fri Dec 10 14:50:30 2004 +0000
+
+    no message
+
+:100644 100644 b37d8f2 384eb65 M	Aurora/build/cc/cc22.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 02f851956b5cebd431c24f25acb0996376c1f3ea 72ffbc5209b97e9649f2458077b7849b58047e4a
+Author: stathik <>
+Date:   Wed Oct 13 16:42:59 2004 +0000
+
+    no message
+
+commit 20fc6b42a5414b7bb3973f7c065a33d38e720973 d5059bb195484c0f5a48cb7133333fbfe464d1b9
+Author: stathik <>
+Date:   Wed Oct 13 12:38:31 2004 +0000
+
+    no message
+
+:100644 100644 344b23e 8809be1 M	Aurora/build/cc.xml
+
+commit 5eb99b92ff33f3ae172a465a83376f3dbdc3cb79 830ae61f019b0fdad4ae9680f3d25751ee632789
+Author: stathik <>
+Date:   Wed Oct 13 11:53:23 2004 +0000
+
+    no message
+
+:100644 100644 e7a85a0 344b23e M	Aurora/build/cc.xml
+
+commit cd2aad09fc143c5f363a6c50e9458d253dff1f61 d76b928d33c5c533e242034ae9d590b9b8637623
+Author: stathik <>
+Date:   Mon Oct 11 13:09:54 2004 +0000
+
+    no message
+
+:100644 100644 d140d2b 795799a M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit d76b928d33c5c533e242034ae9d590b9b8637623 4cc69310ad186ab6a92185292cd4623242c23df8
+Author: stathik <>
+Date:   Mon Oct 11 13:09:43 2004 +0000
+
+    no message
+
+commit 4cc69310ad186ab6a92185292cd4623242c23df8 1f64ddbaf10223e30f88db1938144fe7a5564537
+Author: stathik <>
+Date:   Mon Oct 11 13:09:39 2004 +0000
+
+    no message
+
+commit 1f64ddbaf10223e30f88db1938144fe7a5564537 08b9f019ceadebef037690a9a3acf6b872011622
+Author: stathik <>
+Date:   Mon Oct 11 13:09:26 2004 +0000
+
+    no message
+
+:100644 100644 34c3649 d140d2b M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 08b9f019ceadebef037690a9a3acf6b872011622 c661ccd76377ebd9dade1551a06ef7f098a6a92f
+Author: stathik <>
+Date:   Mon Oct 11 13:09:08 2004 +0000
+
+    no message
+
+commit c661ccd76377ebd9dade1551a06ef7f098a6a92f 65fc5e1297cbe4d720127658710417a8bdfadf3e
+Author: stathik <>
+Date:   Mon Oct 11 13:08:59 2004 +0000
+
+    no message
+
+:100644 100644 3887b09 34c3649 M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 646bf30d2f837878f5bf33657778913e15172908 757a79c3db267fe478fc10170a8ea21386136e76
+Author: stathik <>
+Date:   Mon Oct 11 12:29:58 2004 +0000
+
+    no message
+
+:100644 100644 f4d3b5b 5b7c13e M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit d76b928d33c5c533e242034ae9d590b9b8637623 4cc69310ad186ab6a92185292cd4623242c23df8
+Author: stathik <>
+Date:   Mon Oct 11 13:09:43 2004 +0000
+
+    no message
+
+commit 4cc69310ad186ab6a92185292cd4623242c23df8 1f64ddbaf10223e30f88db1938144fe7a5564537
+Author: stathik <>
+Date:   Mon Oct 11 13:09:39 2004 +0000
+
+    no message
+
+commit 1f64ddbaf10223e30f88db1938144fe7a5564537 08b9f019ceadebef037690a9a3acf6b872011622
+Author: stathik <>
+Date:   Mon Oct 11 13:09:26 2004 +0000
+
+    no message
+
+:100644 100644 34c3649 d140d2b M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 08b9f019ceadebef037690a9a3acf6b872011622 c661ccd76377ebd9dade1551a06ef7f098a6a92f
+Author: stathik <>
+Date:   Mon Oct 11 13:09:08 2004 +0000
+
+    no message
+
+commit c661ccd76377ebd9dade1551a06ef7f098a6a92f 65fc5e1297cbe4d720127658710417a8bdfadf3e
+Author: stathik <>
+Date:   Mon Oct 11 13:08:59 2004 +0000
+
+    no message
+
+:100644 100644 3887b09 34c3649 M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 646bf30d2f837878f5bf33657778913e15172908 757a79c3db267fe478fc10170a8ea21386136e76
+Author: stathik <>
+Date:   Mon Oct 11 12:29:58 2004 +0000
+
+    no message
+
+:100644 100644 f4d3b5b 5b7c13e M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+commit e4906d5bb14738a4956c34202a0cf2a0304457be 1ea2814fdc40ee5c27effee6c86ed0a372147fbb
+Author: stathik <>
+Date:   Fri Oct 8 14:39:13 2004 +0000
+
+    no message
+
+:100644 100644 b37435b fbf8de7 M	Aurora/CSS/CSS.iml
+
+commit eb749ab9d28ea33828ef1c7e0e962bfa900df10c 954c11ab0b82e780d3cf4060de52f3e049d550d4
+Author: stathik <>
+Date:   Thu Oct 7 18:05:59 2004 +0000
+
+    no message
+
+:100644 100644 732f925 f4d3b5b M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+commit fe15a0dff09f904a3d4105fd57ba36affa05c38a e5524c85a348c7156e816a4f5d4e145102880dcd
+Author: stathik <>
+Date:   Thu Sep 30 17:31:53 2004 +0000
+
+    no message
+
+:100644 100644 3d84187 9306295 M	Aurora/build/cc.xml
+
+commit 6bd9f55f13bf26b4969f08886b84a574b7cdd893 6aae156fd636cd205b4f948e0f3893242075fc1c
+Author: stathik <>
+Date:   Wed Sep 29 18:52:34 2004 +0000
+
+    no message
+
+:100644 100644 22c5b6b 3d03923 M	Aurora/build/cc.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 4cc69310ad186ab6a92185292cd4623242c23df8 1f64ddbaf10223e30f88db1938144fe7a5564537
+Author: stathik <>
+Date:   Mon Oct 11 13:09:39 2004 +0000
+
+    no message
+
+commit 1f64ddbaf10223e30f88db1938144fe7a5564537 08b9f019ceadebef037690a9a3acf6b872011622
+Author: stathik <>
+Date:   Mon Oct 11 13:09:26 2004 +0000
+
+    no message
+
+:100644 100644 34c3649 d140d2b M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 08b9f019ceadebef037690a9a3acf6b872011622 c661ccd76377ebd9dade1551a06ef7f098a6a92f
+Author: stathik <>
+Date:   Mon Oct 11 13:09:08 2004 +0000
+
+    no message
+
+commit c661ccd76377ebd9dade1551a06ef7f098a6a92f 65fc5e1297cbe4d720127658710417a8bdfadf3e
+Author: stathik <>
+Date:   Mon Oct 11 13:08:59 2004 +0000
+
+    no message
+
+:100644 100644 3887b09 34c3649 M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 646bf30d2f837878f5bf33657778913e15172908 757a79c3db267fe478fc10170a8ea21386136e76
+Author: stathik <>
+Date:   Mon Oct 11 12:29:58 2004 +0000
+
+    no message
+
+:100644 100644 f4d3b5b 5b7c13e M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+commit e4906d5bb14738a4956c34202a0cf2a0304457be 1ea2814fdc40ee5c27effee6c86ed0a372147fbb
+Author: stathik <>
+Date:   Fri Oct 8 14:39:13 2004 +0000
+
+    no message
+
+:100644 100644 b37435b fbf8de7 M	Aurora/CSS/CSS.iml
+
+commit eb749ab9d28ea33828ef1c7e0e962bfa900df10c 954c11ab0b82e780d3cf4060de52f3e049d550d4
+Author: stathik <>
+Date:   Thu Oct 7 18:05:59 2004 +0000
+
+    no message
+
+:100644 100644 732f925 f4d3b5b M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+commit fe15a0dff09f904a3d4105fd57ba36affa05c38a e5524c85a348c7156e816a4f5d4e145102880dcd
+Author: stathik <>
+Date:   Thu Sep 30 17:31:53 2004 +0000
+
+    no message
+
+:100644 100644 3d84187 9306295 M	Aurora/build/cc.xml
+
+commit 6bd9f55f13bf26b4969f08886b84a574b7cdd893 6aae156fd636cd205b4f948e0f3893242075fc1c
+Author: stathik <>
+Date:   Wed Sep 29 18:52:34 2004 +0000
+
+    no message
+
+:100644 100644 22c5b6b 3d03923 M	Aurora/build/cc.xml
+
+commit 0cc8401b95e5ea9928f7e8c09664541fdcd4966d 46a915acca73cbdaf89bd46891fde2a0cad71d8e
+Author: stathik <>
+Date:   Wed Sep 29 16:56:50 2004 +0000
+
+    no message
+
+:100644 100644 2f7a877 abecb9c M	Aurora/build-start.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 08b9f019ceadebef037690a9a3acf6b872011622 c661ccd76377ebd9dade1551a06ef7f098a6a92f
+Author: stathik <>
+Date:   Mon Oct 11 13:09:08 2004 +0000
+
+    no message
+
+commit c661ccd76377ebd9dade1551a06ef7f098a6a92f 65fc5e1297cbe4d720127658710417a8bdfadf3e
+Author: stathik <>
+Date:   Mon Oct 11 13:08:59 2004 +0000
+
+    no message
+
+:100644 100644 3887b09 34c3649 M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit 646bf30d2f837878f5bf33657778913e15172908 757a79c3db267fe478fc10170a8ea21386136e76
+Author: stathik <>
+Date:   Mon Oct 11 12:29:58 2004 +0000
+
+    no message
+
+:100644 100644 f4d3b5b 5b7c13e M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+commit e4906d5bb14738a4956c34202a0cf2a0304457be 1ea2814fdc40ee5c27effee6c86ed0a372147fbb
+Author: stathik <>
+Date:   Fri Oct 8 14:39:13 2004 +0000
+
+    no message
+
+:100644 100644 b37435b fbf8de7 M	Aurora/CSS/CSS.iml
+
+commit eb749ab9d28ea33828ef1c7e0e962bfa900df10c 954c11ab0b82e780d3cf4060de52f3e049d550d4
+Author: stathik <>
+Date:   Thu Oct 7 18:05:59 2004 +0000
+
+    no message
+
+:100644 100644 732f925 f4d3b5b M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+
+commit fe15a0dff09f904a3d4105fd57ba36affa05c38a e5524c85a348c7156e816a4f5d4e145102880dcd
+Author: stathik <>
+Date:   Thu Sep 30 17:31:53 2004 +0000
+
+    no message
+
+:100644 100644 3d84187 9306295 M	Aurora/build/cc.xml
+
+commit 6bd9f55f13bf26b4969f08886b84a574b7cdd893 6aae156fd636cd205b4f948e0f3893242075fc1c
+Author: stathik <>
+Date:   Wed Sep 29 18:52:34 2004 +0000
+
+    no message
+
+:100644 100644 22c5b6b 3d03923 M	Aurora/build/cc.xml
+
+commit 0cc8401b95e5ea9928f7e8c09664541fdcd4966d 46a915acca73cbdaf89bd46891fde2a0cad71d8e
+Author: stathik <>
+Date:   Wed Sep 29 16:56:50 2004 +0000
+
+    no message
+
+:100644 100644 2f7a877 abecb9c M	Aurora/build-start.xml
+
+commit 74b2e4733c0f29e1a0c8d2d8fbbe5a286d5e4e59 50215969e615a7921ab92258e160d880493e9260
+Author: stathik <>
+Date:   Tue Sep 28 17:52:57 2004 +0000
+
+    no message
+
+:100644 100644 23101b3 008b570 M	Aurora/idea.xml
+:100644 100644 2c7eea6 7706e88 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/MobileModuleSettings.java
+
+commit 50215969e615a7921ab92258e160d880493e9260 ce5845ade5f809cfaad9c18064bd19f75489c2d3
+Author: stathik <>
+Date:   Tue Sep 28 17:52:05 2004 +0000
+
+    *** empty log message ***
+
+:100644 000000 f5fca18 0000000 D	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/J2MEBuildProvider.java
+:100644 000000 616a8c2 0000000 D	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/J2MEModuleBuildDescriptor.java
+:100644 000000 9e55e24 0000000 D	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/J2MEModuleBuildProperties.java
+:100644 000000 b284a6b 0000000 D	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/JADBuilder.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit bea883aba27fc5878ffeba9447bf2a3c39045246 1b1ad815741711ac5852dfcb28403714da0833c1
+Author: stathik <>
+Date:   Wed Sep 1 14:57:39 2004 +0000
+
+    no message
+
+commit 84eefe60caa323c6ad2a2d75bff467099a4cfd9a 933d909b567a6e3281e330818af51042113f57c3
+Author: stathik <>
+Date:   Thu Aug 19 12:48:24 2004 +0000
+
+    no message
+
+:100644 100644 1cd71c9 a63fc31 M	Aurora/build-start.xml
+
+commit 933d909b567a6e3281e330818af51042113f57c3 466534a9c2ff42e7f0e7c523404c47ed4e111407
+Author: stathik <>
+Date:   Thu Aug 19 11:20:25 2004 +0000
+
+    no message
+
+:100644 100644 a358ba7 1cd71c9 M	Aurora/build-start.xml
+
+commit e7bd9d8d527988e150b9bb38d0d273317cf1aec3 2c2397523972a45f7fd40473afabd27838c5e944
+Author: stathik <>
+Date:   Wed Aug 18 17:08:28 2004 +0000
+
+    no message
+
+:100644 100644 c5c23cb a358ba7 M	Aurora/build-start.xml
+
+commit 5d50476e2d418ae0de649cdba1783312d4b6feee 760c9ea970538d940053443f0c782e983beadf14
+Author: stathik <>
+Date:   Tue Aug 17 17:20:11 2004 +0000
+
+    no message
+
+:100644 100644 3f31640 c5c23cb M	Aurora/build-start.xml
+
+commit 2374fd2c7a2e5428398ec2f12ca73075378f56bf c14f0b143335336f1518acb5d9d99dfcc367f60a
+Author: stathik <>
+Date:   Mon Aug 16 17:58:58 2004 +0000
+
+    no message
+
+:100644 100644 edf719a 3f31640 M	Aurora/build-start.xml
+
+commit eaaefde2a2459fe765132c30e8a7e09cb17fc5cb 821ed48d42a4f40f5cacaa1383d62ccd186aaa9c
+Author: stathik <>
+Date:   Mon Aug 16 17:46:57 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 6a9de28 badb640 M	Aurora/build/help/jhall.jar
+
+commit ad3c357f88aa02fa5ada84daf208affef7e64e42 7b9a6226e24dd4e455ef77eecacfa4da3a48bdf7
+Author: stathik <>
+Date:   Mon Aug 16 15:41:13 2004 +0000
+
+    no message
+
+:100644 100644 0f3dc6f 818aac9 M	Aurora/source/com/intellij/diagnostic/DialogAppender.java
+
+commit 58fec23b1aa08a41f650c731a920f2079588df69 a739de4421f3b45a6b46d494d116313429382949
+Author: stathik <>
+Date:   Thu Aug 12 19:02:41 2004 +0000
+
+    no message
+
+:100644 100644 297b7c5 61d9e26 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsBrowser/ui/BrowserPanel.java
+
+commit 6f4d87da4365df27848403ac6fafe7e2045a30fa ec5f4ff68985e7df71e56c40c53139991ccc975e
+Author: stathik <>
+Date:   Thu Aug 12 16:36:56 2004 +0000
+
+    no message
+
+:100644 100644 9cda01d 9c10a49 M	Aurora/resources/src/idea/ApplicationInfo.xml
+:100644 100644 818aac9 0f3dc6f M	Aurora/source/com/intellij/diagnostic/DialogAppender.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 21ae84461eaac1472ed2d70639948f67f00fd384 e2fd8e786074d9249d7d9db2f9fd2b5823cad1c0
+Author: stathik <>
+Date:   Thu Aug 19 13:37:09 2004 +0000
+
+    no message
+
+commit a1d3e2d0931544a7dd531e9100d5526619cb56ce f90ef8bc64e699b9e6701c4a79d4d34346870c8b
+Author: stathik <>
+Date:   Thu Aug 19 12:51:19 2004 +0000
+
+    no message
+
+:100644 100644 81bd426 1d6a178 M	Aurora/build-start.xml
+
+commit f1613b6bd5809bf84d3b9509874c396e475588e3 128fb25bbafe34b44e88854a5781bb663eb78a80
+Author: stathik <>
+Date:   Wed Aug 18 17:08:54 2004 +0000
+
+    no message
+
+:100644 100644 5ad0133 81bd426 M	Aurora/build-start.xml
+
+commit 1b646a9009506d2dc6cedbac3c66b4df17d2e8d5 c1dc5eca4f691e228775f166767db0b846dd0dc9
+Author: stathik <>
+Date:   Mon Aug 16 17:59:39 2004 +0000
+
+    no message
+
+:100644 100644 5085487 5ad0133 M	Aurora/build-start.xml
+
+commit 7caaed1d3d543e39651cec6a32d96e8f991ab90a 2ccdc82f58cd676e4783ac528e549c04be46b98d
+Author: stathik <>
+Date:   Thu Aug 12 13:49:05 2004 +0000
+
+    no message
+
+:100644 100644 f6c78c6 abd531b M	Aurora/lib/jh.jar
+:100644 100644 d6f4ce1 732f925 M	Aurora/source/com/intellij/help/impl/IdeaHelpBroker.java
+:100644 100644 eae928e ca7bcb4 M	Aurora/source/com/intellij/help/impl/IdeaHelpUI.java
+
+commit 5fa299583f50f05dfe2346a9ee42f1a324e07fa8 141cda1cf16e8390c09244d9fd42c12056c45712
+Author: stathik <>
+Date:   Wed Aug 11 17:14:47 2004 +0000
+
+    no message
+
+:100644 100644 49a42fe 2c551fa M	Aurora/resources/src/standardSchemas/plugin-repository.dtd
+:100644 100644 526b7b7 9c0a00e M	Aurora/resources/src/standardSchemas/plugin.dtd
+:100644 100644 c454412 000a126 M	Aurora/source/com/intellij/ide/plugins/PluginDescriptor.java
+:100644 100644 51cbd22 04095fa M	Aurora/source/com/intellij/ide/plugins/PluginInstaller.java
+:100644 100644 6c41d52 1f5cef0 M	Aurora/source/com/intellij/ide/plugins/PluginNode.java
+:100644 100644 c9a73d3 33cdb2b M	Aurora/source/com/intellij/ide/plugins/RepositoryContentHandler.java
+
+commit 4788d7c434ff876809d9085b14438f5418fd0f6c 1f2eecb87eaf5f6727a9bb7ddeeb826c4da0cab1
+Author: stathik <>
+Date:   Thu Aug 5 14:36:12 2004 +0000
+
+    no message
+
+:100644 100644 d64a0aa c46fcc6 M	Aurora/build-start.xml
+
+commit 518aa8ecef4c60edee898a0e71ea8c2e4599c3bc f03f1bc13ee3ce0edcde9aa38cff7fec14eed621
+Author: stathik <>
+Date:   Thu Aug 5 14:02:43 2004 +0000
+
+    no message
+
+:100644 100644 c82357d 98779a4 M	Aurora/source/com/intellij/ide/plugins/StatusProcess.java
+
+commit c924ba6233ce2ce7c389ed553b3796e92528d7fe 6c90726a17fc7bc116c5467c66586c004a08e1f8
+Author: stathik <>
+Date:   Thu Aug 5 13:18:58 2004 +0000
+
+    no message
+
+:100644 100644 3112995 d64a0aa M	Aurora/build-start.xml
+
+commit 99e713811b3cf8be41124974171633bbacc91485 ccfb6d821cce8cb77186e8b4071df8a7d1c3f8e1
+Author: stathik <>
+Date:   Wed Aug 4 17:25:26 2004 +0000
+
+    no message
+
+:100644 100644 45aff46 4dc6ea2 M	Aurora/build-prepare.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit fb1cdec8b2a26c7657a88427bed864419e10a184 505a9d445da3904c76cce8dcd119a58e9dfecff8
+Author: stathik <>
+Date:   Wed Jun 23 15:11:32 2004 +0000
+
+    no message
+
+commit 8b274a53e0bb26fcf03da1db089dae46508cd9d1 d891bdc78288e1b9f20ba43c355723c895218d58
+Author: stathik <>
+Date:   Wed Jun 23 13:55:26 2004 +0000
+
+    no message
+
+:100644 100644 be284dd adfe1e7 M	Aurora/build/upload.xml
+:100644 100644 7373f28 5fe9fd7 M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit 00599e716d369e6e0102d993a43bd7a550ca98be c7fd3345a5670548c2e8519365e0d9300aff0deb
+Author: stathik <>
+Date:   Wed Jun 23 12:34:23 2004 +0000
+
+    no message
+
+:100644 100644 0723f5e 7675703 M	Aurora/source/com/intellij/openapi/roots/ui/configuration/LibraryTableEditor.java
+
+commit 7bc178792f96d8030aedb065c716a2603a15e3bd 2b4cbfa944b620f9bf6701609f2f2df6c2debae7
+Author: stathik <>
+Date:   Tue Jun 22 17:52:31 2004 +0000
+
+    no message
+
+:100644 100644 53d8f4f bd05c3b M	Aurora/source/com/intellij/openapi/roots/ui/configuration/LibraryTableEditor.java
+
+commit eb815b68999d42c9feeaad327b1e4cc319668334 61a8d8880ad350de4425715b5530043b24937ce2
+Author: stathik <>
+Date:   Tue Jun 22 15:51:41 2004 +0000
+
+    no message
+
+:100644 100644 53d8f4f c306c5c M	Aurora/source/com/intellij/openapi/roots/ui/configuration/LibraryTableEditor.java
+
+commit daf6bcc9ad01a4ddee79429eca46164f5646ee2f a09138979a0b084d435b28d60aae26951aa1f63f
+Author: stathik <>
+Date:   Tue Jun 22 13:05:25 2004 +0000
+
+    no message
+
+:100644 100644 4745770 e0763db M	Aurora/build-start.xml
+
+commit 62d525cd30047d5a35813062e165f1913df50d4e 04a0b4897b43f6507cb09a44366bdddd5eea48f3
+Author: stathik <>
+Date:   Mon Jun 21 14:09:28 2004 +0000
+
+    no message
+
+:100644 100644 4199743 28d932f M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit db2d088573d8bfa683ea5b3017a4b61698c1c47d ec106632d719c5235d63767a69daf6a932f037a6
+Author: stathik <>
+Date:   Fri Jun 18 15:58:52 2004 +0000
+
+    no message
+
+:100644 100644 7f06d0e 4745770 M	Aurora/build-start.xml
+
+commit 776c2cc9d441bc30857ad34e55e5ad31f518eddd fa0f34305b55fbee641f5ce82bfb6183ce422457
+Author: stathik <>
+Date:   Fri Jun 11 15:21:48 2004 +0000
+
+    no message
+
+:100644 100644 0236727 4199743 M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+commit ead27421fc3de85d6de08bcf9db7d6ed19b43cdc cbe76cf7f4e9595970b902092ce9494366f1b70c
+Author: stathik <>
+Date:   Fri Jun 11 13:59:53 2004 +0000
+
+    no message
+
+:100644 100644 80e9b53 14aaebe M	Aurora/source/com/intellij/execution/impl/ExecutionManagerImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit a527d0f926c5910b6d711b89d655e186ee262c6c e90b3e101ab56d1e1a37a8af16a570b1e72a7d2b
+Author: stathik <>
+Date:   Thu Jun 10 18:09:26 2004 +0000
+
+    no message
+
+commit e90b3e101ab56d1e1a37a8af16a570b1e72a7d2b e4a26445401aaf6e677754066eea0721ad30dab0
+Author: stathik <>
+Date:   Thu Jun 10 18:07:04 2004 +0000
+
+    no message
+
+:100644 100644 c1d1c68 09bc5d4 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatRunConfiguration.java
+
+commit 92c4ea89c9edc322d44cfd7c8adf886edccbfc8b b7ce14c154d16e17819801d35cc0d40ad1b6d42f
+Author: stathik <>
+Date:   Thu Jun 10 11:43:44 2004 +0000
+
+    no message
+
+:100644 100644 ecb5364 598b47a M	Aurora/pallada.xml
+
+commit 6887b3cb064fe2d891c927054c7d8f350a037586 9cc8bed21a88a48d4188f9d392d3f5d96658afb1
+Author: stathik <>
+Date:   Thu Jun 10 11:25:03 2004 +0000
+
+    no message
+
+:100644 100644 ee54085 ecb5364 M	Aurora/pallada.xml
+
+commit 0c57d8cf1c096027e171a59f1099738c21a0398a b000799a29661d723d54ab2d3ccc2bd62e4e8da4
+Author: stathik <>
+Date:   Wed Jun 9 15:38:39 2004 +0000
+
+    no message
+
+:100644 100644 2636e85 6d3d4bd M	Aurora/openapi/src/com/intellij/j2ee/run/ExecutionHelper.java
+:100644 100644 44e3930 d8b36c4 M	Aurora/openapi/src/com/intellij/j2ee/run/JavaCommandLineLocalState.java
+:100644 100644 48677c2 fc19a5b M	Aurora/openapi/src/com/intellij/j2ee/run/PatchedLocalState.java
+
+commit 8c6eac7c74dc15e644c1d76455fee3a94f0baa82 a0174be39032648c0bb23293bbab38badcd1b0ca
+Author: stathik <>
+Date:   Wed Jun 9 15:31:08 2004 +0000
+
+    no message
+
+:100644 100644 ce47741 22d2b2d M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatRunConfiguration.java
+
+commit 8d4a03554017fbe3c7e8bf534816a573ca9e8f15 12a61052e3ed888d420915013b7d103f8428318b
+Author: stathik <>
+Date:   Tue Jun 8 14:24:56 2004 +0000
+
+    no message
+
+:100644 100644 918409a be284dd M	Aurora/build/upload.xml
+
+commit 9204c48b07096525391f5929a16e6d3dd89d1340 18b3e8c22b39c39c7972dbea7e0fb8de51addab6
+Author: stathik <>
+Date:   Thu Jun 3 17:23:55 2004 +0000
+
+    no message
+
+:100644 100644 e8f5fdd ee54085 M	Aurora/pallada.xml
+
+commit 4d55157f7ad0546f44f287380e7aff7b99e90abe 456653a278353346ab29f483688d267084ce1c18
+Author: stathik <>
+Date:   Thu Jun 3 16:56:44 2004 +0000
+
+    no message
+
+:100644 100644 dc49b30 7f06d0e M	Aurora/build-start.xml
+
+commit 456653a278353346ab29f483688d267084ce1c18 848f2ec63827d234092809d7cf597143cf556127
+Author: stathik <>
+Date:   Thu Jun 3 16:55:37 2004 +0000
+
+    no message
+
+:100644 100644 d87cc6a dc49b30 M	Aurora/build-start.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit fc3fdf6f8a5f21c25883a6ec0d9ef954c8f03a10 68fe627fe4f16228092c4374e3535c970d8914d4
+Author: stathik <>
+Date:   Tue Mar 16 17:15:00 2004 +0000
+
+    no message
+
+commit 68fe627fe4f16228092c4374e3535c970d8914d4 711e145e15ee8a6a661ddd8d9bcbcd3c6fee775e
+Author: stathik <>
+Date:   Tue Mar 16 17:13:01 2004 +0000
+
+    no message
+
+:100644 100644 1aa1989 c154b8d M	Aurora/build/build.xml
+:100644 100644 99619a4 c266525 M	Aurora/build/installer/installer.ipr
+:000000 100644 0000000 45fe937 A	Aurora/build/installer/installer.iws
+:000000 100644 0000000 fa400e9 A	Aurora/build/installer/main.iml
+:000000 100644 0000000 2cc8067 A	Aurora/build/installer/source/com/intellij/util/io/FileUtil.java
+:000000 100644 0000000 fb53468 A	Aurora/build/installer/source/com/intellij/util/text/StringUtil.java
+
+commit a0112ba36ed7166e8ea0a6469af0f363544aca97 26c5ef42481d447fba4c2b33f3ce5a1dcae70a98
+Author: stathik <>
+Date:   Tue Mar 16 16:57:35 2004 +0000
+
+    no message
+
+:100644 100644 fc4d033 1397d5f M	Aurora/pallada.ipr
+
+commit 288d7cf63a7f0e6d91fb0c4652ab7b61b111c7d1 752d72322cc596ef2796f0b0e084e27f50d75f37
+Author: stathik <>
+Date:   Tue Mar 16 16:39:57 2004 +0000
+
+    no message
+
+:100644 100644 c154b8d 1aa1989 M	Aurora/build/build.xml
+
+commit 8b569cd7968d76c006df8433a890ea613e36df8b 98dba4e2d2ae5698f94198cf96aeac2b650184b8
+Author: stathik <>
+Date:   Tue Mar 16 16:12:57 2004 +0000
+
+    no message
+
+:100644 100644 bbc683b c154b8d M	Aurora/build/build.xml
+
+commit 98dba4e2d2ae5698f94198cf96aeac2b650184b8 a2a62ee971e8000327ed0993185a7d45b8863d32
+Author: stathik <>
+Date:   Tue Mar 16 16:09:23 2004 +0000
+
+    no message
+
+:100644 100644 c0f7c8d bbc683b M	Aurora/build/build.xml
+
+commit a7a97fca7dc14a5187f47a9c5c860be8c7ced2cb 4c399b3cd2f31c5c65cfe50fb5c50e8cb00bf745
+Author: stathik <>
+Date:   Tue Mar 16 12:28:59 2004 +0000
+
+    no message
+
+:100644 100644 d14c37e c0f7c8d M	Aurora/build/build.xml
+
+commit a0ea22868fc9e9bb794823b53b645dba42226dad a77202198f1a52fa41230a549b7a34ce3b5fb013
+Author: stathik <>
+Date:   Mon Mar 15 17:45:35 2004 +0000
+
+    no message
+
+:100644 100644 ef0eeab 7da2ec5 M	Aurora/build/build.xml
+
+commit 308155f7fbea6735678c2f9be67748a07a62f049 a7cb1faca0e3a5a36f2f125adb54ef982c1937ae
+Author: stathik <>
+Date:   Thu Mar 11 17:36:54 2004 +0000
+
+    no message
+
+:100644 100644 b9eb898 ef0eeab M	Aurora/build/build.xml
+
+commit f390e95add4d402f8eb4b7361a65d497e3dbd7f8 3ae889a35346af9f3679b0e76c4f83b3633ff1eb
+Author: stathik <>
+Date:   Thu Mar 11 16:31:18 2004 +0000
+
+    no message
+
+:100644 100644 6d88fba b9eb898 M	Aurora/build/build.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 774bbc95bb51d29b6afcf61ac294b9a60b1e7edf 76df9bf06efbb5b6beddbda12e2d0db487c6b0ca
+Author: stathik <>
+Date:   Fri Jan 9 10:32:48 2004 +0000
+
+    no message
+
+commit 76df9bf06efbb5b6beddbda12e2d0db487c6b0ca a46abf0e52403382da4d3645a9848dafe938f9f1
+Author: stathik <>
+Date:   Fri Jan 9 10:28:03 2004 +0000
+
+    no message
+
+:100644 100644 2e0987f 798676a M	Aurora/source/com/intellij/ide/plugins/cl/PluginClassLoader.java
+
+commit 03ff69926b685697c308c0b19c539fd6e5b911c2 2093db284fbd1a7d900b7b3fa3f4be9670972c7c
+Author: stathik <>
+Date:   Thu Jan 8 15:17:08 2004 +0000
+
+    no message
+
+:100644 100644 cf549fe 140e234 M	Aurora/source/com/intellij/ide/plugins/PluginManagerMain.form
+
+commit ce9df9f191be7d48b91d13399d70125afde08e4b 0a00979381974b3f265223078421f92b53647121
+Author: stathik <>
+Date:   Thu Jan 8 14:46:20 2004 +0000
+
+    no message
+
+:100644 100644 4d10f4b c5d6a7f M	Aurora/source/com/intellij/errorreport/ErrorReportSender.java
+:100644 100644 93c962a 8f1e575 M	Aurora/source/com/intellij/ide/plugins/PluginManagerMain.java
+
+commit 2e58b8bb3c5593c72036ba896ca75401b60800f1 9925eed52d261a5f744a38506272aa57678fd308
+Author: stathik <>
+Date:   Thu Jan 8 13:34:27 2004 +0000
+
+    no message
+
+:100644 100644 f544a7d c1de2cc M	Aurora/aurora.ipr
+
+commit f12d71f4ffc2f407ae9827d6b717c4b7a06b7526 145942becce0db5aa21ab3a5e84f426f734942f4
+Author: stathik <>
+Date:   Thu Jan 8 12:59:53 2004 +0000
+
+    no message
+
+:100644 100644 4d8cf68 a8f64b2 M	Aurora/source/com/intellij/diagnostic/ErrorOccuredDialog.java
+:100644 100644 bfd0bd1 1b26cee M	Aurora/source/com/intellij/ide/plugins/PluginInstaller.java
+:100644 100644 50d446e 05eda94 M	Aurora/source/com/intellij/ide/plugins/PluginManager.java
+:100644 100644 177586f 50cc54e M	Aurora/source/com/intellij/ide/plugins/cl/AppClassLoader.java
+:100644 100644 e7da07f 2e0987f M	Aurora/source/com/intellij/ide/plugins/cl/PluginClassLoader.java
+:100644 100644 a43a251 2933535 M	Aurora/source/com/intellij/j2ee/weblogic/impl/WeblogicJarClassLoader.java
+:100644 000000 f96939e 0000000 D	Aurora/source/com/intellij/openapi/application/PluginClassNotFoundException.java
+:000000 100644 0000000 b756ddc A	Aurora/source/com/intellij/openapi/application/PluginException.java
+:100644 100644 1d95449 1e85f8b M	Aurora/source/com/intellij/openapi/application/impl/ApplicationImpl.java
+:100644 100644 b31b30e 14a152b M	Aurora/source/com/intellij/openapi/components/impl/ComponentManagerImpl.java
+:100644 100644 5ea5c3d f38246c M	Aurora/source/com/intellij/openapi/module/impl/ModuleImpl.java
+:100644 100644 6c2fa3a b91570b M	Aurora/source/com/intellij/openapi/project/impl/ProjectImpl.java
+
+commit 55b3af3a9df4aa3db02e946117b444f5e4d2cfbf 49419c312a07419018116add4c57621c0b6ab592
+Author: stathik <>
+Date:   Thu Jan 8 12:18:26 2004 +0000
+
+    no message
+
+:100644 100644 a6b7e2e f96939e M	Aurora/source/com/intellij/openapi/application/PluginClassNotFoundException.java
+:100644 100644 7c91d1a 1d95449 M	Aurora/source/com/intellij/openapi/application/impl/ApplicationImpl.java
+:100644 100644 dae2d21 b31b30e M	Aurora/source/com/intellij/openapi/components/impl/ComponentManagerImpl.java
+
+commit e1d7c4c8e2fb4bc0b59306475c2e7677c4f29160 42985c12137724cd7142cdd432f76a1fe1446715
+Author: stathik <>
+Date:   Thu Jan 8 12:10:48 2004 +0000
+
+    no message
+
+:100644 100644 939d598 4d8cf68 M	Aurora/source/com/intellij/diagnostic/ErrorOccuredDialog.java
+:000000 100644 0000000 a6b7e2e A	Aurora/source/com/intellij/openapi/application/PluginClassNotFoundException.java
+:100644 100644 3c0d68f dae2d21 M	Aurora/source/com/intellij/openapi/components/impl/ComponentManagerImpl.java
+
+commit 47296a7efb6953ff31f9d1fcc081f311faf55b31 45f365266ce92a0c5d338899859c8aa57ce53ed2
+Author: stathik <>
+Date:   Thu Jan 8 11:58:28 2004 +0000
+
+    no message
+
+:100644 100644 d78ab7b 939d598 M	Aurora/source/com/intellij/diagnostic/ErrorOccuredDialog.java
+
+commit 8ab3cb910fc6244fb67c386df36beb45f82a23f0 c643463d043e190c016d10c5dd3372f239cd4d7c
+Author: stathik <>
+Date:   Wed Jan 7 20:29:56 2004 +0000
+
+    no message
+
+:100644 100644 07b3d11 b97af3f M	Aurora/source/com/intellij/ide/plugins/RepositoryHelper.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit c729df6893cf23d7aa39c957c13aa52dff6a492d 9592640d770f758363758788801c326bd921142f
+Author: stathik <>
+Date:   Mon Jun 9 19:57:41 2003 +0000
+
+    no message
+
+commit 9592640d770f758363758788801c326bd921142f 9d9e7f89b7c8cce5f6c1beb2caa8766d990e50b9
+Author: stathik <>
+Date:   Mon Jun 9 19:57:12 2003 +0000
+
+    no message
+
+:100644 100644 661a2f2 63536a2 M	Aurora/build/build.xml
+
+commit 9d9e7f89b7c8cce5f6c1beb2caa8766d990e50b9 0dea74c9293cdf7b3b26a09185215fb54b4516f0
+Author: stathik <>
+Date:   Mon Jun 9 19:03:53 2003 +0000
+
+    no message
+
+:100644 100644 755362c 661a2f2 M	Aurora/build/build.xml
+
+commit 0dea74c9293cdf7b3b26a09185215fb54b4516f0 1c337f5173c5c4e1faf945c4f991ce25eca75098
+Author: stathik <>
+Date:   Mon Jun 9 18:59:08 2003 +0000
+
+    no message
+
+:100644 100644 815371e 755362c M	Aurora/build/build.xml
+
+commit 17349643fbcc981107410ee19102ad6be4948a1b 76ba0072e478fbbf34277dcde56aa2a22afbb7ab
+Author: stathik <>
+Date:   Mon Jun 9 17:47:17 2003 +0000
+
+    no message
+
+:100644 100644 e55934d 815371e M	Aurora/build/build.xml
+
+commit 30626ef50d61711fe8e3fdd894ffcadc33712b40 6e43b3dfdae6e859c1f9670c5b8734f63a664fd3
+Author: stathik <>
+Date:   Mon Jun 9 16:16:23 2003 +0000
+
+    no message
+
+:100644 100644 e02cd57 e55934d M	Aurora/build/build.xml
+
+commit a1d86822cc25de871b27b00f3ccc2794d9a58da7 7fd7679514ae54f53570a3a0f12deede5089a552
+Author: stathik <>
+Date:   Mon Jun 9 15:24:37 2003 +0000
+
+    no message
+
+:100644 100644 d9422b8 e02cd57 M	Aurora/build/build.xml
+
+commit f91daf53b75b8d9c67ff6c99c20e39c2d099de9e 80c7805e37ee8ab6cee2ad9633749b40b28c1a94
+Author: stathik <>
+Date:   Fri Jun 6 18:52:21 2003 +0000
+
+    no message
+
+:100644 100644 603084e d9422b8 M	Aurora/build/build.xml
+
+commit 80c7805e37ee8ab6cee2ad9633749b40b28c1a94 40d73ac58e0d1a4d18f4b6a7f22f7ec8863de9c2
+Author: stathik <>
+Date:   Fri Jun 6 18:44:49 2003 +0000
+
+    no message
+
+:100644 100644 fb08617 603084e M	Aurora/build/build.xml
+
+commit 5090ce6bfdd78f9dd9ba7372b61f314c67c9496e 7ed180c30a8478cf383402a67dfa24fc48b2d227
+Author: stathik <>
+Date:   Fri Jun 6 14:56:10 2003 +0000
+
+    no message
+
+:100644 100644 0a68674 fb08617 M	Aurora/build/build.xml

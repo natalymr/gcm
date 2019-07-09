@@ -1,0 +1,8 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 08ad5793d85192d1004aaa1ebbc154faf1341f9e 9f01bf121753d4711a734a46a92bc33bb7a24021
+Author: ignatov <>
+Date:   Sun Jul 4 15:28:14 2004 +0000
+
+    This commit was manufactured by cvs2svn to create branch 'PALLADA_RELEASE'.

@@ -1,0 +1,528 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3d097d2fe7648de8f76813d8a548177bf13d2a73 109a4ce9f29acfa8881ae2c8e8bd0631e35fd449
+Author: rob <>
+Date:   Mon Apr 5 17:35:39 2004 +0000
+
+    Add Personal License
+
+commit b7fbf477f8ef404b19bd5abf2cf26ed6e52fd91a 22f560a82e217e9ca3476d73e3a0a05a92a10895
+Author: rob <>
+Date:   Fri Apr 2 14:39:45 2004 +0000
+
+    Update minor version to "0.3" for display purposes
+
+:100644 100644 778219d 095fe5c M	Aurora/resources/idea/ApplicationInfo.xml
+
+commit 22f560a82e217e9ca3476d73e3a0a05a92a10895 c5f1413a9a8197038c02296b9d35822132137ee8
+Author: rob <>
+Date:   Thu Apr 1 13:55:35 2004 +0000
+
+    Updating to include personal license support.
+
+:100644 100644 69aaa3f a096358 M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseData.java
+:100644 100644 9db5989 d62ee1d M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+:100644 100644 0f3906d 9aa509d M	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseType.java
+:100644 100644 4685fcb 3dd7583 M	Aurora/licenseServer/build/build.xml
+:100644 100644 8e63b25 0ac3cdd M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 a502335 3706a5c M	Aurora/testSource/com/intellij/ide/license/LicenseReport.java
+:100644 100644 2d15d3b e9f353f M	Aurora/testSource/com/intellij/ide/license/MockLicenseData.java
+:100644 100644 04a0a6d 051579d M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit c2a2f5d01b20c3c3cac0cdcf75d10517b9497e38 5da8f09635927a04ad72506354fd97ebd95e6003
+Author: rob <>
+Date:   Tue Mar 16 19:40:47 2004 +0000
+
+    no message
+
+:100644 100644 a1ebe67 04a0a6d M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit 5da8f09635927a04ad72506354fd97ebd95e6003 78429e52840602c892e10c337d5f3364ae2697d5
+Author: rob <>
+Date:   Tue Mar 16 19:39:58 2004 +0000
+
+    Fix timezone issue for license upgrade
+
+:100644 100644 2d8aba7 9db5989 M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+
+commit 6abb9f284128e8f093482bdfe7eb3362ee9878a6 be0ae74cf2e22578bf222c54318dd986b182426e
+Author: rob <>
+Date:   Thu Feb 26 13:13:05 2004 +0000
+
+    no message
+
+:100644 100644 aa96ecd a1ebe67 M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit be0ae74cf2e22578bf222c54318dd986b182426e 31d4abeab1b0d2729ac9be1fa5e91ef28154edcc
+Author: rob <>
+Date:   Thu Feb 26 13:05:03 2004 +0000
+
+    no message
+
+:100644 100644 41eb015 aa96ecd M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit 31d4abeab1b0d2729ac9be1fa5e91ef28154edcc e1338571b78707292225f8dd650b1084a65c7f41
+Author: rob <>
+Date:   Thu Feb 26 12:51:25 2004 +0000
+
+    no message
+
+:100644 100644 b46aa92 2d8aba7 M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+
+commit 48095adeeb3dcc928b5c14e7e6784ab9297818bb 24bca515f17a28335a396bea73b4a11ec855e31f
+Author: rob <>
+Date:   Wed Feb 25 18:42:28 2004 +0000
+
+    no message
+
+:100644 100644 f4993ae b46aa92 M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+
+commit 24bca515f17a28335a396bea73b4a11ec855e31f 1610fa9b9d15f377960e52e92b4b8829307c51f4
+Author: rob <>
+Date:   Wed Feb 25 16:12:05 2004 +0000
+
+    no message
+
+:100644 100644 15fb6fa be16a64 M	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/LicenseVerifierImpl.java
+:100644 100644 6464192 7055b80 M	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/ServerImpl.java
+:100644 100644 c5ceb01 9c00940 M	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseList.java
+:100644 100644 269e6e9 ad7a838 M	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseVerifier.java
+:100644 100644 2a1c9c1 b2024dd M	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestMessageServer.java
+:100644 100644 03f966a 2fd324e M	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/list/TestScenariosWithOne.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 6456b151462ec98861649f4117b7e0bb5da4fe4e 34fa84739d8f3437f0330e781f22b3ac311cec29
+Author: rob <>
+Date:   Wed Feb 25 15:29:15 2004 +0000
+
+    no message
+
+commit 34fa84739d8f3437f0330e781f22b3ac311cec29 f5095bddd3bef39c21ddf9aed33581939b44262b
+Author: rob <>
+Date:   Wed Feb 25 15:26:37 2004 +0000
+
+    no message
+
+:100644 100644 27348aa a5a60ce M	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+
+commit f5095bddd3bef39c21ddf9aed33581939b44262b ce32aae458fd50b37be2c74f8a415f4c73877716
+Author: rob <>
+Date:   Wed Feb 25 15:26:28 2004 +0000
+
+    no message
+
+:100644 100644 a5a60ce 27348aa M	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+
+commit ce32aae458fd50b37be2c74f8a415f4c73877716 f30599698205d8b61677957aa83f49492705d039
+Author: rob <>
+Date:   Wed Feb 25 13:43:05 2004 +0000
+
+    Merging fixes
+
+:100644 100644 790256f a5a60ce M	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+
+commit d83036863718c4785d490cb6b2dad5f4ee7fde43 7fae24dfd078e72f1880ece1d5b2ada3e9298d2b
+Author: rob <>
+Date:   Tue Feb 24 16:15:04 2004 +0000
+
+    Merging fixes into release
+
+:100644 100644 3ff8a08 f4993ae M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+:100644 100644 9e6c880 c5ceb01 M	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseList.java
+:100644 100644 badc440 b793603 M	Aurora/licenseServer/build/license_server.bat
+:100644 100644 a197112 3b2dac7 M	Aurora/licenseServer/source/com/intellij/licenseserver/EmailParser.java
+:100644 100644 088a029 ab8b7d7 M	Aurora/licenseServer/testSource/com/intellij/licenseserver/TestEmailParser.java
+:100644 100644 030986e e22d23d M	Aurora/source/com/intellij/ide/license/LicenseMessages.java
+:100644 100644 c708978 8a72d3d M	Aurora/source/com/intellij/ide/license/impl/PolicyBuilder.java
+:100644 100644 7585671 8e63b25 M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 75478cc 41eb015 M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit cc47167bf2e1d78dec44d14df207bdca5c944ab8 1fc3908ee014dd110aa186d42779b53fe1fbc3e1
+Author: rob <>
+Date:   Mon Feb 9 14:30:59 2004 +0000
+
+    no message
+
+:100644 100644 2b3da09 047a96e M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+
+commit f69b2d8fc57e6d55f458554f0a60693d7510e265 67fa720a5d4ca74f773571ff72c95618a8affed1
+Author: rob <>
+Date:   Mon Feb 9 14:27:59 2004 +0000
+
+    no message
+
+:100644 100644 2c4719d 436b168 M	Aurora/source/com/intellij/ide/actions/AboutAction.java
+:100644 100644 6f594c6 030986e M	Aurora/source/com/intellij/ide/license/LicenseMessages.java
+:100644 100644 c88ff08 2b3da09 M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 b18a4ac 780f097 M	Aurora/source/com/intellij/ui/Splash.java
+
+commit 67fa720a5d4ca74f773571ff72c95618a8affed1 e865a1f86327deb8db06214f0413146860885e10
+Author: rob <>
+Date:   Mon Feb 9 14:23:02 2004 +0000
+
+    no message
+
+:100644 100644 ab9446a c88ff08 M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+
+commit 52bc1f07dc663875b899c77bda3ef0148e0c1663 3bcbd35dcfe1b4f911ba1ed19bb53df616fa1292
+Author: rob <>
+Date:   Mon Feb 9 13:11:12 2004 +0000
+
+    Upgrade deadline fixes
+
+:100644 100644 d6db57c 69aaa3f M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseData.java
+:100644 100644 0634656 3ff8a08 M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+:100644 100644 82d7997 2c4719d M	Aurora/source/com/intellij/ide/actions/AboutAction.java
+:100644 100644 3bb5e02 6f594c6 M	Aurora/source/com/intellij/ide/license/LicenseMessages.java
+:100644 100644 788f4ef ab9446a M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 a34f7fe b18a4ac M	Aurora/source/com/intellij/ui/Splash.java
+:100644 100644 55a3a85 2d15d3b M	Aurora/testSource/com/intellij/ide/license/MockLicenseData.java
+
+commit 2153e1517b3c4cb845bef8ef03e08e5a54a8a7f2 d55d43bb9d07ac31ce35c45f4a29b02c9f26b62a
+Author: rob <>
+Date:   Wed Jan 28 21:18:18 2004 +0000
+
+    License message updates
+
+:100644 100644 57536a1 4eec08a M	Aurora/source/com/intellij/ide/license/impl/IdeaLicense.java
+:000000 100644 0000000 c708978 A	Aurora/source/com/intellij/ide/license/impl/PolicyBuilder.java
+:000000 100644 0000000 a550e6f A	Aurora/source/com/intellij/ide/license/ui/HtmlHelp.java
+:100644 100644 3cb5b45 eaa405f M	Aurora/source/com/intellij/ide/license/ui/LicenseEntryFrame.java
+:100644 100644 e1b579e 788f4ef M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 30a0a3e c0c73c2 M	Aurora/testSource/com/intellij/ide/license/Gen.java
+:100644 100644 73b1e29 c7dabb2 M	Aurora/testSource/com/intellij/ide/license/impl/TestIdeaLicense.java
+:000000 100644 0000000 21c8e07 A	Aurora/testSource/com/intellij/ide/license/ui/ShowMessages.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit b9d11f0e4d1752ebb2450f5ec6da277092afef0b db48262ce81e503f25eeabef0888e9a1f2635288
+Author: rob <>
+Date:   Tue Dec 16 10:25:12 2003 +0000
+
+    no message
+
+commit 5c721c901f90cb414bc5023f4527b4bd4b62d1a8 34168312f963bb9ba79a97e202a8ddb619b5aea7
+Author: rob <>
+Date:   Tue Dec 16 10:23:42 2003 +0000
+
+    no message
+
+:100644 100644 951c38f db653f7 M	Aurora/licenseCommon/license_common.iml
+:100644 100644 4a21546 e258580 M	Aurora/licenseServer/license_server.iml
+
+commit 23f97ec764442d4c21c7cd5b39155a624d0e6617 3ebf52d54b77ae948b92334c2fa5e239b832ad0c
+Author: rob <>
+Date:   Mon Dec 15 16:59:09 2003 +0000
+
+    no message
+
+:100644 100644 62a813a cd3de6c M	Aurora/aurora.iml
+:100644 100644 ffc5db7 d3cfa4c M	Aurora/aurora.ipr
+:000000 100644 0000000 4124428 A	Aurora/licenseCommon/license_common.iml
+:000000 100644 0000000 43f7ceb A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/EventTimeoutFactory.java
+:000000 100644 0000000 c0172a1 A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/LicenseClient.java
+:000000 100644 0000000 3bc3358 A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/LicenseClientApplication.java
+:000000 100644 0000000 be77ead A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/NoAvailableLicenseException.java
+:000000 100644 0000000 f2c2e96 A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/StartUpFailedException.java
+:000000 100644 0000000 c26f311 A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/impl/ClientImpl.java
+:000000 100644 0000000 bff7b5a A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/impl/ClientImplementation.java
+:000000 100644 0000000 bcbadf0 A	Aurora/licenseCommon/source/com/intellij/licensecommon/client/impl/EventTimeoutFactoryImpl.java
+:000000 100644 0000000 754ef8c A	Aurora/licenseCommon/source/com/intellij/licensecommon/license/AbstractLicenseData.java
+:000000 100644 0000000 d6db57c A	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseData.java
+:000000 100644 0000000 3fdfacb A	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+:000000 100644 0000000 ba90ada A	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseImpl.java
+:000000 100644 0000000 9b35709 A	Aurora/licenseCommon/source/com/intellij/licensecommon/log/Log.java
+:000000 100644 0000000 99b87cb A	Aurora/licenseCommon/source/com/intellij/licensecommon/log/Logger.java
+:000000 100644 0000000 6c87212 A	Aurora/licenseCommon/source/com/intellij/licensecommon/log/LoggerFactory.java
+:000000 100644 0000000 7250565 A	Aurora/licenseCommon/source/com/intellij/licensecommon/log/SimpleFactory.java
+:000000 100644 0000000 f768d28 A	Aurora/licenseCommon/source/com/intellij/licensecommon/log/SimpleLogger.java
+:000000 100644 0000000 44e339a A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/LicenseMessage.java
+:000000 100644 0000000 a4fb08e A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/LicensePoll.java
+:000000 100644 0000000 e195905 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/LicenseRequest.java
+:000000 100644 0000000 0002b77 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/LicenseResponse.java
+:000000 100644 0000000 911389f A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/LicenseUnused.java
+:000000 100644 0000000 edce50d A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/LicenseUsed.java
+:000000 100644 0000000 23d789b A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/MessageClient.java
+:000000 100644 0000000 5dd0b52 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/MessageReceiver.java
+:000000 100644 0000000 2bee284 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/MessageServer.java
+:000000 100644 0000000 78839d0 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/factory/ClientMessageFactory.java
+:000000 100644 0000000 46f9630 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/factory/ClientMessageFactoryImpl.java
+:000000 100644 0000000 2fd983a A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/factory/ServerMessageFactory.java
+:000000 100644 0000000 e8ba0f7 A	Aurora/licenseCommon/source/com/intellij/licensecommon/message/factory/ServerMessageFactoryImpl.java
+:000000 100644 0000000 bb44a12 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/Address.java
+:000000 100644 0000000 a7687a0 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/AddressFactory.java
+:000000 100644 0000000 3f750b4 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/CouldNotCreateAddressException.java
+:000000 100644 0000000 014982b A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/CouldNotCreateSocketException.java
+:000000 100644 0000000 ca138cb A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/FatalNetworkException.java
+:000000 100644 0000000 fba7c32 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/FatalSocketException.java
+:000000 100644 0000000 1b81df6 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/Message.java
+:000000 100644 0000000 0b053d4 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/MessageDeliveryThread.java
+:000000 100644 0000000 0f9d120 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/Network.java
+:000000 100644 0000000 fe59399 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkAlreadyStartedException.java
+:000000 100644 0000000 256551e A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkReceiver.java
+:000000 100644 0000000 60e1122 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkSendException.java
+:000000 100644 0000000 b7c6677 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkSocket.java
+:000000 100644 0000000 891e47b A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkSocketFactory.java
+:000000 100644 0000000 190cdce A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkTarget.java
+:000000 100644 0000000 777e14c A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/NetworkTargetListener.java
+:000000 100644 0000000 483cc85 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/Packet.java
+:000000 100644 0000000 6f879b5 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/SocketClosedException.java
+:000000 100644 0000000 f73f803 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/impl/AddressFactoryImpl.java
+:000000 100644 0000000 9e160b7 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/impl/AddressImpl.java
+:000000 100644 0000000 25145d4 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/impl/NetworkImpl.java
+:000000 100644 0000000 87f4384 A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/impl/NetworkSocketFactoryImpl.java
+:000000 100644 0000000 c1dc10f A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/impl/SocketImpl.java
+:000000 100644 0000000 c0bbaec A	Aurora/licenseCommon/source/com/intellij/licensecommon/net/impl/SocketListenerThread.java
+:000000 100644 0000000 99dfb8c A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/Data.java
+:000000 100644 0000000 fb72070 A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/Protocol.java
+:000000 100644 0000000 744eb6b A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/ProtocolDecodingException.java
+:000000 100644 0000000 b8fa9e2 A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/ProtocolEncodingException.java
+:000000 100644 0000000 352930e A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/impl/ProtocolImpl.java
+:000000 100644 0000000 75b7741 A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/impl/XmlDecoder.java
+:000000 100644 0000000 2de3194 A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/impl/XmlEncoder.java
+:000000 100644 0000000 6edfc8f A	Aurora/licenseCommon/source/com/intellij/licensecommon/protocol/impl/XmlTags.java
+:000000 100644 0000000 040a585 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/LicenseAlreadyAddedException.java
+:000000 100644 0000000 46fc7fb A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/LicenseServer.java
+:000000 100644 0000000 a3fa729 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/LicenseServerApplication.java
+:000000 100644 0000000 ecab276 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/LicenseInvalidException.java
+:000000 100644 0000000 24c9973 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/LicenseSource.java
+:000000 100644 0000000 3e207a1 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/LicenseSourceImpl.java
+:000000 100644 0000000 c9109c6 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/LicenseTarget.java
+:000000 100644 0000000 c762397 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/ServerImpl.java
+:000000 100644 0000000 d1e82fd A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/impl/ServerImplementation.java
+:000000 100644 0000000 82b75ec A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseList.java
+:000000 100644 0000000 4fe5b71 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseListIntf.java
+:000000 100644 0000000 bcb1e21 A	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseListener.java
+:000000 100644 0000000 e428a23 A	Aurora/licenseCommon/source/com/intellij/licensecommon/timeout/EventTimeout.java
+:000000 100644 0000000 f31db65 A	Aurora/licenseCommon/source/com/intellij/licensecommon/timeout/EventTimeoutExpiredException.java
+:000000 100644 0000000 e661212 A	Aurora/licenseCommon/source/com/intellij/licensecommon/timeout/EventTimeoutImpl.java
+:000000 100644 0000000 cde94f0 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/InvalidLicenseKeyException.java
+:000000 100644 0000000 7bc57e9 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseChecker.java
+:000000 100644 0000000 40f75f0 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseCheckerResult.java
+:000000 100644 0000000 8379233 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseDecoder.java
+:000000 100644 0000000 c9e44eb A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseInfo.java
+:000000 100644 0000000 0f3906d A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseType.java
+:000000 100644 0000000 e61b147 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseUtil.java
+:000000 100644 0000000 f5cfa20 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/Product.java
+:000000 100644 0000000 6b59232 A	Aurora/licenseCommon/source/com/intellij/licensecommon/util/TestKey.java
+:000000 100644 0000000 b526081 A	Aurora/licenseCommon/testData/idea.license
+:000000 100644 0000000 392b745 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/ControlTestCase.java
+:000000 100644 0000000 8b37719 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/ThreadAssert.java
+:000000 100644 0000000 d8dd0d8 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestClientImpl.java
+:000000 100644 0000000 90d085e A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestClientImplStart.java
+:000000 100644 0000000 4bb3806 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestClientImplementation.java
+:000000 100644 0000000 f67d72f A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestEventTimeoutFactory.java
+:000000 100644 0000000 d081edd A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestLicenseClientStartUp.java
+:000000 100644 0000000 a670cc4 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestMessageClient.java
+:000000 100644 0000000 527f69b A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/client/TestNetworkTarget.java
+:000000 100644 0000000 60049a7 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/license/TestLicense.java
+:000000 100644 0000000 36d067e A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/TestClientLicenseRequestMessage.java
+:000000 100644 0000000 c14be85 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/TestClientUsingLicenseMessage.java
+:000000 100644 0000000 2f17308 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/TestMessage.java
+:000000 100644 0000000 d39a03a A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/TestServerBootupMessage.java
+:000000 100644 0000000 e097785 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/TestServerLicenseResponseMessage.java
+:000000 100644 0000000 c5bb2a1 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/TestSimpleMessage.java
+:000000 100644 0000000 493dd58 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/factory/TestClientMessageFactory.java
+:000000 100644 0000000 43748be A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/message/factory/TestServerMessageFactory.java
+:000000 100644 0000000 ff9be01 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/DummyAddress.java
+:000000 100644 0000000 191ba65 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/DummyMessage.java
+:000000 100644 0000000 07e6a68 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/ExpectationCondition.java
+:000000 100644 0000000 2966ba9 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/MockNetwork.java
+:000000 100644 0000000 f1981fe A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/MockNetworkTarget.java
+:000000 100644 0000000 9bc77cc A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/MockSocket.java
+:000000 100644 0000000 3295f44 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/TestAddressFactoryImpl.java
+:000000 100644 0000000 d1f207e A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/TestMessageDeliveryThread.java
+:000000 100644 0000000 cbbf231 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/TestSocketImpl.java
+:000000 100644 0000000 edba3d7 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestExistingNetwork.java
+:000000 100644 0000000 4978412 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetwork.java
+:000000 100644 0000000 1ffa7d3 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkCreate.java
+:000000 100644 0000000 53f84a6 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkReceiveErrors.java
+:000000 100644 0000000 803e266 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkReceiveMessage.java
+:000000 100644 0000000 cab90cd A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkReceiveSelfBroadcast.java
+:000000 100644 0000000 a714953 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkReceiving.java
+:000000 100644 0000000 5b3c985 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkSending.java
+:000000 100644 0000000 a7284e3 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkShutdown.java
+:000000 100644 0000000 5d32d48 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestNetworkStartup.java
+:000000 100644 0000000 a282388 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/network/TestStartedNetwork.java
+:000000 100644 0000000 64e8622 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketFactory/TestSocketFactoryImpl.java
+:000000 100644 0000000 f115678 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketFactory/TestSocketFactoryImpl2.java
+:000000 100644 0000000 c484708 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketFactory/TestSocketFactoryImplLocal.java
+:000000 100644 0000000 dd699e1 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketFactory/TestSocketFactoryImplMulti.java
+:000000 100644 0000000 87ff8ab A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketListener/TestSocketListenerThread.java
+:000000 100644 0000000 111e788 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketListener/TestSocketListenerThreadReceive.java
+:000000 100644 0000000 54a5fa2 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/net/socketListener/TestSocketListenerThreadStartup.java
+:000000 100644 0000000 28baa55 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/protocol/TestProtocolImpl.java
+:000000 100644 0000000 f7dadba A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestLicenseServer.java
+:000000 100644 0000000 490c7e5 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestLicenseServerEmpty.java
+:000000 100644 0000000 1444ef7 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestLicenseServerWithOne.java
+:000000 100644 0000000 74bbd33 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestLicenseServerWithTwo.java
+:000000 100644 0000000 79a21b0 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestLicenseSource.java
+:000000 100644 0000000 9112ccf A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestMessageServer.java
+:000000 100644 0000000 a12f7b2 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestServerImpl.java
+:000000 100644 0000000 cab3e98 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/TestServerStartup.java
+:000000 100644 0000000 2f4ae4b A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/list/TestLicenseList.java
+:000000 100644 0000000 756fa7e A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/list/TestLicenseListMultiple.java
+:000000 100644 0000000 c49421b A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/list/TestScenariosWithEmpty.java
+:000000 100644 0000000 51ca6df A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/list/TestScenariosWithOne.java
+:000000 100644 0000000 4891e7f A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/server/list/TestScenariosWithTwo.java
+:000000 100644 0000000 0e70bd2 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/timeout/TestEventTimeout.java
+:000000 100644 0000000 3613872 A	Aurora/licenseServer/license_server.iml
+:000000 100644 0000000 515f4f0 A	Aurora/licenseServer/source/com/intellij/licenseserver/EmailDialog.java
+:000000 100644 0000000 a197112 A	Aurora/licenseServer/source/com/intellij/licenseserver/EmailParser.java
+:000000 100644 0000000 5fc6e74 A	Aurora/licenseServer/source/com/intellij/licenseserver/LicenseDialog.java
+:000000 100644 0000000 187aa6c A	Aurora/licenseServer/source/com/intellij/licenseserver/LicenseTableModel.java
+:000000 100644 0000000 e980350 A	Aurora/licenseServer/source/com/intellij/licenseserver/ServerApp.java
+:000000 100644 0000000 7f9fc14 A	Aurora/licenseServer/source/com/intellij/licenseserver/ServerFrame.java
+:000000 100644 0000000 7a7dd18 A	Aurora/licenseServer/source/com/intellij/licenseserver/ServerLicenseFile.java
+:000000 100644 0000000 8903d73 A	Aurora/licenseServer/testData/exampleEmail.txt
+:000000 100644 0000000 088a029 A	Aurora/licenseServer/testSource/com/intellij/licenseserver/TestEmailParser.java
+
+commit f1899e1e9d0d9911392ef6959dd10bf93d2a9240 a6441c289e64764976ef829ae9f68c8adcd426a2
+Author: rob <>
+Date:   Fri Dec 12 20:28:10 2003 +0000
+
+    no message
+
+:100644 100644 38327c5 4446b0c M	Aurora/source/com/intellij/ide/license/common/message/LicenseRequest.java
+:100644 100644 74b589d e644e67 M	Aurora/source/com/intellij/ide/license/common/message/MessageServer.java
+:100644 100644 ff4f1c1 4096c81 M	Aurora/source/com/intellij/ide/license/common/server/LicenseServer.java
+:100644 100644 a8ea94b 689d9df M	Aurora/source/com/intellij/ide/license/common/server/impl/ServerImpl.java
+:100644 100644 33af059 5d44c70 M	Aurora/source/com/intellij/ide/license/common/server/list/LicenseList.java
+:100644 100644 020588e 79d182d M	Aurora/source/com/intellij/licenseserver/EmailDialog.java
+:100644 100644 0492fce 76d7a86 M	Aurora/source/com/intellij/licenseserver/ServerFrame.java
+:100644 100644 eab9306 7717b8a M	Aurora/testSource/com/intellij/ide/license/common/message/TestClientLicenseRequestMessage.java
+
+commit a6441c289e64764976ef829ae9f68c8adcd426a2 f1e282841028d1975eefcafffb96ba5b9a1039ea
+Author: rob <>
+Date:   Fri Dec 12 19:21:59 2003 +0000
+
+    no message
+
+:100644 100644 ce01f86 ff4f1c1 M	Aurora/source/com/intellij/ide/license/common/server/LicenseServer.java
+:100644 100644 f45cefd a8ea94b M	Aurora/source/com/intellij/ide/license/common/server/impl/ServerImpl.java
+:100644 100644 4078f6d 33af059 M	Aurora/source/com/intellij/ide/license/common/server/list/LicenseList.java
+:000000 100644 0000000 020588e A	Aurora/source/com/intellij/licenseserver/EmailDialog.java
+:000000 100644 0000000 c159732 A	Aurora/source/com/intellij/licenseserver/EmailParser.java
+:100644 100644 7ee553b 0492fce M	Aurora/source/com/intellij/licenseserver/ServerFrame.java
+:000000 100644 0000000 8903d73 A	Aurora/testData/licenseserver/exampleEmail.txt
+:100644 100644 6b1f0ec ed68c85 M	Aurora/testSource/com/intellij/ide/license/common/server/TestServerImpl.java
+:000000 100644 0000000 9fbfda2 A	Aurora/testSource/com/intellij/licenseserver/TestEmailParser.java
+
+commit a101868475af7e1d59e9a65af69fbf04fe70aac5 6e24d82320d5a709a36bfea3a89c68a1c4c4afc2
+Author: rob <>
+Date:   Fri Dec 12 17:17:05 2003 +0000
+
+    no message
+
+:100644 100644 68ee927 d798e73 M	Aurora/source/com/intellij/ide/license/common/license/LicenseImpl.java
+:100644 100644 788bf56 38327c5 M	Aurora/source/com/intellij/ide/license/common/message/LicenseRequest.java
+:100644 100644 4dd152d efec6b5 M	Aurora/source/com/intellij/ide/license/common/message/LicenseUnused.java
+:100644 100644 ce4a0f8 74b589d M	Aurora/source/com/intellij/ide/license/common/message/MessageServer.java
+:100644 100644 b451a55 9cef97f M	Aurora/source/com/intellij/ide/license/common/message/factory/ServerMessageFactory.java
+:100644 100644 7e5e8ef 7925411 M	Aurora/source/com/intellij/ide/license/common/message/factory/ServerMessageFactoryImpl.java
+:100644 100644 fc22fc2 b7e3d52 M	Aurora/source/com/intellij/ide/license/common/net/Address.java
+:100644 100644 9f71e51 4d9c7b1 M	Aurora/source/com/intellij/ide/license/common/net/impl/AddressImpl.java
+:100644 100644 3fc0df7 ce01f86 M	Aurora/source/com/intellij/ide/license/common/server/LicenseServer.java
+:000000 100644 0000000 498f5ce A	Aurora/source/com/intellij/ide/license/common/server/impl/LicenseInvalidException.java
+:000000 100644 0000000 19faa04 A	Aurora/source/com/intellij/ide/license/common/server/impl/LicenseTarget.java
+:100644 100644 9b967e3 f45cefd M	Aurora/source/com/intellij/ide/license/common/server/impl/ServerImpl.java
+:100644 100644 d380ee3 4078f6d M	Aurora/source/com/intellij/ide/license/common/server/list/LicenseList.java
+:000000 100644 0000000 f269c1c A	Aurora/source/com/intellij/ide/license/common/server/list/LicenseListIntf.java
+:100644 100644 de0e383 07ee196 M	Aurora/source/com/intellij/ide/license/impl/LicenseDataImpl.java
+:100644 100644 112a3fc 2e2ca9a M	Aurora/source/com/intellij/licenseserver/LicenseDialog.java
+:100644 100644 bf05d7f 3d37d05 M	Aurora/source/com/intellij/licenseserver/LicenseTableModel.java
+:100644 100644 87547b1 b57a286 M	Aurora/source/com/intellij/licenseserver/ServerApp.java
+:100644 100644 9de07e2 7ee553b M	Aurora/source/com/intellij/licenseserver/ServerFrame.java
+:100644 100644 f429e87 ad21a3a M	Aurora/source/com/intellij/licenseserver/ServerLicenseFile.java
+:100644 100644 7bca6cc eab9306 M	Aurora/testSource/com/intellij/ide/license/common/message/TestClientLicenseRequestMessage.java
+:100644 100644 7804c54 d32adb3 M	Aurora/testSource/com/intellij/ide/license/common/message/factory/TestServerMessageFactory.java
+:100644 100644 ba4e64d 2a44803 M	Aurora/testSource/com/intellij/ide/license/common/net/DummyAddress.java
+:100644 100644 f50beee a8547bf M	Aurora/testSource/com/intellij/ide/license/common/server/TestLicenseServer.java
+:100644 100644 0b7fa01 143df83 M	Aurora/testSource/com/intellij/ide/license/common/server/TestLicenseServerEmpty.java
+:100644 100644 47959fe d9e19c3 M	Aurora/testSource/com/intellij/ide/license/common/server/TestLicenseServerWithOne.java
+:100644 100644 f506958 b5e8fab M	Aurora/testSource/com/intellij/ide/license/common/server/TestLicenseServerWithTwo.java
+:100644 100644 abc7a2c 6b1f0ec M	Aurora/testSource/com/intellij/ide/license/common/server/TestServerImpl.java
+:100644 100644 3686666 8fb9eea M	Aurora/testSource/com/intellij/ide/license/common/server/list/TestScenariosWithEmpty.java
+
+commit f707ce9f6b10205f5df75fcd72fb4ecc5f9c2a19 95aba2f3aa941c199f682c3f1348638a3e19ca7d
+Author: rob <>
+Date:   Fri Dec 12 12:55:43 2003 +0000
+
+    no message
+
+:100644 100644 1b9870e b4e3a53 M	Aurora/source/com/intellij/ide/license/common/message/LicenseUsed.java
+:100644 100644 8904881 ce4a0f8 M	Aurora/source/com/intellij/ide/license/common/message/MessageServer.java
+:100644 100644 b28a453 3fc0df7 M	Aurora/source/com/intellij/ide/license/common/server/LicenseServer.java
+:100644 100644 f20cdfd 9b967e3 M	Aurora/source/com/intellij/ide/license/common/server/impl/ServerImpl.java
+:100644 100644 607389d d380ee3 M	Aurora/source/com/intellij/ide/license/common/server/list/LicenseList.java
+:100644 100644 0d6bd40 112a3fc M	Aurora/source/com/intellij/licenseserver/LicenseDialog.java
+:100644 100644 020fe8d bf05d7f M	Aurora/source/com/intellij/licenseserver/LicenseTableModel.java
+:100644 100644 e2a778f 9de07e2 M	Aurora/source/com/intellij/licenseserver/ServerFrame.java
+:100644 100644 4efed2b 03ffb6e M	Aurora/testSource/com/intellij/ide/license/common/message/TestClientUsingLicenseMessage.java
+:100644 100644 742ab0e 1bf9255 M	Aurora/testSource/com/intellij/ide/license/common/server/TestMessageServer.java
+
+commit b945ae767fb08d3fd3e7eb79838de4ec27db8f9d 4eef2a6a56d0f0b801a033d8159a73494fb5a32a
+Author: rob <>
+Date:   Thu Dec 11 16:34:23 2003 +0000
+
+    no message
+
+:100644 100644 3016ad6 b28a453 M	Aurora/source/com/intellij/ide/license/common/server/LicenseServer.java
+:100644 100644 b81b946 f20cdfd M	Aurora/source/com/intellij/ide/license/common/server/impl/ServerImpl.java
+:100644 100644 e49b845 607389d M	Aurora/source/com/intellij/ide/license/common/server/list/LicenseList.java
+:000000 100644 0000000 0d6bd40 A	Aurora/source/com/intellij/licenseserver/LicenseDialog.java
+:000000 100644 0000000 b04f53e A	Aurora/source/com/intellij/licenseserver/LicenseListener.java
+:000000 100644 0000000 020fe8d A	Aurora/source/com/intellij/licenseserver/LicenseTableModel.java
+:100644 100644 7bdd4e4 87547b1 M	Aurora/source/com/intellij/licenseserver/ServerApp.java
+:000000 100644 0000000 e2a778f A	Aurora/source/com/intellij/licenseserver/ServerFrame.java
+
+commit ba78283d387958235fa7479b296584ebb36f41ba 83762ec7cfeb4ffeba038d77295e826b00bd2548
+Author: rob <>
+Date:   Thu Dec 11 14:29:31 2003 +0000
+
+    no message
+
+:100644 100644 e888f3b 45d1f57 M	Aurora/source/com/intellij/ide/license/common/client/LicenseClient.java
+:100644 100644 1015b61 d7c9bdc M	Aurora/source/com/intellij/ide/license/common/client/impl/ClientImpl.java
+:100644 100644 ab553e1 d14fe63 M	Aurora/source/com/intellij/ide/license/common/client/impl/EventTimeoutFactoryImpl.java
+:100644 100644 51cd9fa f668da1 M	Aurora/source/com/intellij/ide/license/common/client/impl/StartUpStrategy.java
+:100644 100644 b49b1fa 10d471c M	Aurora/source/com/intellij/ide/license/common/net/impl/SocketImpl.java
+:100644 100644 dcdd897 87e381c M	Aurora/source/com/intellij/ide/license/common/protocol/impl/ProtocolImpl.java
+:100644 000000 d075c14 0000000 D	Aurora/source/com/intellij/ide/license/common/server/Periodic.java
+:100644 100644 b1ec8d1 43155d4 M	Aurora/source/com/intellij/ide/license/common/timeout/EventTimeoutImpl.java
+:100644 100644 674f5a7 7bde30c M	Aurora/source/com/intellij/ide/license/impl/IdeaLicense.java
+:100644 100644 891dacb 87535f1 M	Aurora/source/com/intellij/ide/license/impl/NetworkLicenseSource.java
+:100644 100644 6bfba0f 1d102c0 M	Aurora/testSource/com/intellij/ide/license/common/client/TestClientImpl.java
+:100644 100644 5657231 bc922f1 M	Aurora/testSource/com/intellij/ide/license/common/client/TestClientImplStart.java
+:100644 100644 9f36e3e 660ebe4 M	Aurora/testSource/com/intellij/ide/license/common/client/TestLicenseClientStartUp.java
+:100644 100644 55137e7 1cc475c M	Aurora/testSource/com/intellij/ide/license/common/client/TestMessageClient.java
+:100644 100644 645bc11 8933b4c M	Aurora/testSource/com/intellij/ide/license/common/timeout/TestEventTimeout.java
+:100644 100644 c983c02 ad03d7c M	Aurora/testSource/com/intellij/ide/license/impl/TestNetworkLicenseSource.java
+
+commit b37f1d3ad17b71ab0fe2b911a9e52a247e8a6476 185d10b80af175a8afe2995a9927031b75d1428b
+Author: rob <>
+Date:   Thu Dec 11 12:52:09 2003 +0000
+
+    no message
+
+:100644 100644 78dc40d 61ad67e M	Aurora/source/com/intellij/ide/license/LicensePolicy.java
+:100644 100644 b9bca1f b49b1fa M	Aurora/source/com/intellij/ide/license/common/net/impl/SocketImpl.java
+:100644 100644 0fb5afb 674f5a7 M	Aurora/source/com/intellij/ide/license/impl/IdeaLicense.java
+:100644 100644 01b2e52 596d077 M	Aurora/source/com/intellij/ide/license/impl/LicenseAuthorizorImpl.java
+:100644 100644 9300982 09450f3 M	Aurora/source/com/intellij/ide/license/policy/BroadcastUsing.java
+:100644 100644 70a6a03 d9318f0 M	Aurora/source/com/intellij/ide/license/policy/Cancel.java
+:100644 100644 4275236 9f51f5b M	Aurora/source/com/intellij/ide/license/policy/CheckEvaluationExpired.java
+:100644 100644 6c6e377 5a46016 M	Aurora/source/com/intellij/ide/license/policy/CheckNeedUpgrade.java
+:100644 100644 742e973 ddf0598 M	Aurora/source/com/intellij/ide/license/policy/CheckValid.java
+:100644 100644 ee0690a dd0c10e M	Aurora/source/com/intellij/ide/license/policy/CheckWillExpire.java
+:100644 100644 0c5a818 c6342f9 M	Aurora/source/com/intellij/ide/license/policy/CheckWillNeedUpgrade.java
+:100644 100644 46c9b5f 76a2d74 M	Aurora/source/com/intellij/ide/license/policy/DoNothing.java
+:100644 100644 afeff7c d430e92 M	Aurora/source/com/intellij/ide/license/policy/GetFromSource.java
+:100644 100644 3e22e47 c317915 M	Aurora/source/com/intellij/ide/license/policy/GetFromUser.java
+:100644 100644 aa803b2 5e4158a M	Aurora/source/com/intellij/ide/license/policy/NotNull.java
+:100644 100644 79bda3a f1fdeb5 M	Aurora/source/com/intellij/ide/license/policy/Proceed.java
+:100644 100644 4bdb852 f36901d M	Aurora/source/com/intellij/ide/license/policy/SaveFromUser.java
+:100644 100644 ff05bbd b002a6b M	Aurora/source/com/intellij/ide/license/policy/SaveToTarget.java
+:100644 100644 fb5efea e34ee9e M	Aurora/source/com/intellij/ide/license/policy/UserAcceptsLicense.java

@@ -1,0 +1,757 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0bcb6e0aead94e7682a6b9769b3286e61c85d03d 2f8adb4492f7a3fcfa35bb8cc937c47362ac37bc
+Author: igork <>
+Date:   Thu Jan 13 12:00:43 2005 +0000
+
+    test fixed
+
+commit 5686937be1305cd2b26936aafa3d6da4afb794eb 44ff5b7bb1ce171310363b137bafd11f79069bbb
+Author: igork <>
+Date:   Wed Jan 12 21:41:59 2005 +0000
+
+    test fixed
+
+:100644 100644 f5462ee f855b34 M	Aurora/testData/psi/xml/events/2.txt
+
+commit 44ff5b7bb1ce171310363b137bafd11f79069bbb eb9035eebed55a1ca52ce16f39ef8bb81cbcb7f0
+Author: igork <>
+Date:   Wed Jan 12 21:39:16 2005 +0000
+
+    timebomb moved
+
+:100644 100644 d34c9f8 53b8b70 M	Aurora/testSource/com/intellij/codeInsight/daemon/XmlHighlightingTest.java
+
+commit eb9035eebed55a1ca52ce16f39ef8bb81cbcb7f0 25cef75bd83765b2237ef6cc4f6fc8c5e37dfb7e
+Author: igork <>
+Date:   Wed Jan 12 21:37:39 2005 +0000
+
+    some tests commented
+
+:100644 100644 7547c7c f54853b M	Aurora/testSource/com/intellij/psi/xml/XmlTagTest.java
+
+commit 25cef75bd83765b2237ef6cc4f6fc8c5e37dfb7e 29bbbeced0341e79fce17759af255af4147e3e9c
+Author: igork <>
+Date:   Wed Jan 12 21:36:20 2005 +0000
+
+    XmlLexer fixed
+
+:100644 100644 ff2122c c17c5bb M	Aurora/source/com/intellij/lexer/_XmlLexer.java
+
+commit 29bbbeced0341e79fce17759af255af4147e3e9c ad58ff46c378129745d1011085a504f2021465ed
+Author: igork <>
+Date:   Wed Jan 12 21:30:56 2005 +0000
+
+    XmlLexer fixed
+
+:100644 100644 2e90092 6f447f4 M	Aurora/tools/lexer/_XmlLexer.flex
+
+commit ad58ff46c378129745d1011085a504f2021465ed b2bc40ebbadd690053412e2a72a299b83fdf01b0
+Author: igork <>
+Date:   Wed Jan 12 21:25:20 2005 +0000
+
+    Some tests commented out
+
+:100644 100644 a1df7a8 7547c7c M	Aurora/testSource/com/intellij/psi/xml/XmlTagTest.java
+
+commit b2bc40ebbadd690053412e2a72a299b83fdf01b0 97435a19a16ef437cfe1b2b7351734d4f0e0ff4a
+Author: igork <>
+Date:   Wed Jan 12 21:25:03 2005 +0000
+
+    Some tests fixed
+
+:100644 100644 09dcf84 173a650 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTextImpl.java
+
+commit cf136636cddf84a805bb3ff5a959f74510423021 0592deeee886328a51ccdeb850c705afd054d3d4
+Author: igork <>
+Date:   Wed Jan 12 13:47:01 2005 +0000
+
+    Some tests fixed
+
+:100644 100644 c84ef0f 09dcf84 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTextImpl.java
+:100644 100644 e9e0ca8 a1df7a8 M	Aurora/testSource/com/intellij/psi/xml/XmlTagTest.java
+
+commit 28fbd279c98cf11d41210e642ed4df017ff335ba 8df945d453cfaf3105cdc7360be347726f11a5f9
+Author: igork <>
+Date:   Fri Dec 31 12:05:52 2004 +0000
+
+    Fix for rabrique
+
+:100644 100644 7d0c4df 4c6900e M	Aurora/source/com/intellij/psi/impl/source/tree/ChangeUtil.java
+:100644 100644 318a18d ace1252 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTextImpl.java
+:100644 100644 45ef830 94ca3ea M	Aurora/testSource/com/intellij/psi/xml/XmlTagTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 841254f1914f9348fbbd7ea7408013a079d17f70 664bfa82ce1d460d589695ef3acfabb652c0c91e
+Author: igork <>
+Date:   Tue Dec 7 20:44:16 2004 +0000
+
+    no message
+
+commit 664bfa82ce1d460d589695ef3acfabb652c0c91e 640e7ea33581d2124dd6d5da392b4d8916c66ef1
+Author: igork <>
+Date:   Tue Dec 7 19:38:39 2004 +0000
+
+    no message
+
+:100644 100644 0b18266 ce21d57 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 146867eef114d6f2306ab30024fc7e0f6026ec98 0c7fe6dd2084980b931175603a628cb3d713fad3
+Author: igork <>
+Date:   Tue Dec 7 18:47:33 2004 +0000
+
+    in case of hole file changed event should be sent for document not for file
+
+:100644 100644 37f4332 48cbdf5 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlAspect.java
+
+commit 7597554d3dccc0c28a4490e10d5a160d2f6d06d4 218544dfb9e9ac1af9ac3bfb10e856e8ddd7a7a6
+Author: igork <>
+Date:   Tue Dec 7 17:28:15 2004 +0000
+
+    in case of hole file changed event should be sent for document not for file
+
+:100644 100644 f0dcdc1 3ad2885 M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/ParsingUtil.java
+
+commit 2dd17a2ef7d9eda69dc94e42cb708011ad53456a 7ed26b979d0ef1a68ad4f9fcb33570d6661848d7
+Author: igork <>
+Date:   Tue Dec 7 16:14:40 2004 +0000
+
+    Modification count should be updated on any caches change
+
+:100644 100644 98564f3 60457bf M	Aurora/source/com/intellij/psi/impl/source/tree/CompositeElement.java
+
+commit 396deb114b09667f94b8cb9fbc691c53c971c129 ef3a145672061b05546da5540df9cbafe732afdd
+Author: igork <>
+Date:   Tue Dec 7 16:03:50 2004 +0000
+
+    typo
+
+:100644 100644 0cb41d9 f0eb5d5 M	Aurora/source/com/intellij/xml/impl/dtd/XmlElementDescriptorImpl.java
+
+commit ef3a145672061b05546da5540df9cbafe732afdd ef4b45a931efae67763f017130d8d620224f2bd5
+Author: igork <>
+Date:   Tue Dec 7 15:45:04 2004 +0000
+
+    Some changes in reparse and several new tests
+
+:100644 100644 c785670 50fb8a5 M	Aurora/source/com/intellij/openapi/editor/impl/FoldRegionImpl.java
+:100644 100644 2b119c9 4b2057b M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/impl/ParserImpl.java
+:100644 100644 ce40f82 37f4332 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlAspect.java
+:100644 100644 af0e774 8e0424c M	Aurora/source/com/intellij/psi/impl/source/xml/aspect/XmlAspectChangeSet.java
+:100644 100644 3ce42f5 47a2f2b M	Aurora/source/com/intellij/psi/impl/source/xml/aspect/XmlTagChildAdd.java
+:100644 100644 d149417 bf5a258 M	Aurora/source/com/intellij/psi/impl/source/xml/aspect/XmlTagChildChanged.java
+:100644 100644 10302cc eef0492 M	Aurora/source/com/intellij/psi/impl/source/xml/aspect/XmlTagChildRemoved.java
+:100644 100644 a150f27 e8bb0e0 M	Aurora/source/com/intellij/psi/impl/source/xml/aspect/XmlTagNameChanged.java
+:100644 100644 339a86a e661762 M	Aurora/source/com/intellij/psi/impl/source/xml/aspect/XmlTextChanged.java
+:100644 100644 f0eb5d5 0cb41d9 M	Aurora/source/com/intellij/xml/impl/dtd/XmlElementDescriptorImpl.java
+:000000 100644 0000000 b02964d A	Aurora/testData/psi/xml/events/1.txt
+:000000 100644 0000000 3fa0fcd A	Aurora/testData/psi/xml/events/2.txt
+:000000 100644 0000000 ad835b5 A	Aurora/testData/psi/xml/events/DocumentChange1.txt
+:000000 100644 0000000 ad835b5 A	Aurora/testData/psi/xml/events/DocumentChange2.txt
+:000000 100644 0000000 f572e63 A	Aurora/testData/psi/xml/events/DocumentChange3.txt
+:000000 100644 0000000 18392f1 A	Aurora/testData/psi/xml/events/TagRemove.txt
+:000000 100644 0000000 6be10cc A	Aurora/testSource/com/intellij/psi/xml/XmlEventsTest.java
+:100644 100644 654e600 ddcbb8a M	Aurora/testSource/com/intellij/psi/xml/XmlParsingTest.java
+:100644 100644 bc5678e 8eb97e5 M	Aurora/testSource/com/intellij/psi/xml/XmlTagTest.java
+
+commit 2bfd35d2f62cbef2c0608b1fe0ca31a01e72a58d 6766f63951de93b29c054480288e8d79e5aff4a8
+Author: igork <>
+Date:   Tue Dec 7 10:23:25 2004 +0000
+
+    before event should work for physical files only
+
+:100644 100644 2f86db3 f0dcdc1 M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/ParsingUtil.java
+
+commit 5c6a2f16f7274d4f86f51b3a25dfdf558295bcce b3c34ee542f068541b94628144697e5ca331b927
+Author: igork <>
+Date:   Mon Dec 6 19:54:04 2004 +0000
+
+    Test timebomb
+
+:100644 100644 3e2473a bc5678e M	Aurora/testSource/com/intellij/psi/xml/XmlTagTest.java
+
+commit b1016eb5a84c605c3f68d8832a32cba4290f8919 b57bed24713ec4e98fbe5fc1583a5c1cc637322a
+Author: igork <>
+Date:   Mon Dec 6 17:49:03 2004 +0000
+
+    Events in case of elements merge fixed
+
+:100644 100644 d81e100 0b18266 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit f1fff331943a3f076378a6ebacb5b7746c5a2363 827b9dd216b096e436880d592289d9857c72dd20
+Author: igork <>
+Date:   Wed Jul 7 13:09:57 2004 +0000
+
+    changes upper then root tag did not reparce hole file
+
+commit 827b9dd216b096e436880d592289d9857c72dd20 6f93c6f735ae6c8c65c552d322e06053252edaa9
+Author: igork <>
+Date:   Wed Jul 7 13:09:37 2004 +0000
+
+    changes upper then root tag did not reparce hole file
+
+:100644 100644 4e33584 fac6ef0 M	Aurora/source/com/intellij/psi/impl/source/text/BlockSupportImpl.java
+
+commit 0d2ebab4846bd0d29897109b5a6df872635b5c5a 8270e07828b2fc90c7d85195090b3a8793bdd134
+Author: igork <>
+Date:   Tue Jul 6 15:01:19 2004 +0000
+
+    include action support
+
+commit 8270e07828b2fc90c7d85195090b3a8793bdd134 fc875220c3a321303cc3302bf9dadccf83a41ed4
+Author: igork <>
+Date:   Tue Jul 6 15:01:10 2004 +0000
+
+    include action support
+
+:100644 100644 8ad6344 4c86c08 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspFileImpl.java
+
+commit 67deabf2d47b6d13d4203da3c0e75301fde76dd3 947747a1cd54d004035b84fb59bb60b34fb483d7
+Author: igork <>
+Date:   Tue Jul 6 13:12:02 2004 +0000
+
+    Test for Maxim Mossienko
+
+:000000 100644 0000000 79a7391 A	Aurora/testData/psi/resolve/jsp/data/sub/included.jsp
+:000000 100644 0000000 59d010b A	Aurora/testData/psi/resolve/jsp/include1/Include3.jsp
+:100644 100644 fc1464b 866b258 M	Aurora/testSource/com/intellij/psi/resolve/JspResolveTest.java
+
+commit 0f200c672278c2b65d08ba7436c961ddad945e9e f4fa8b9c09efd5e044ddd6011aeb540081e47537
+Author: igork <>
+Date:   Tue Jul 6 11:56:06 2004 +0000
+
+    Relative path fix
+
+commit f4fa8b9c09efd5e044ddd6011aeb540081e47537 2bcf1ab1c4e615b4b60e374d18c0342d9329ef82
+Author: igork <>
+Date:   Tue Jul 6 11:51:24 2004 +0000
+
+    Relative path fix
+
+:100644 100644 d7ac173 f8802ca M	Aurora/source/com/intellij/psi/impl/source/jsp/JspManager.java
+
+commit 1a260dc9d8192977f5823680772be6b5847dd8d6 eedb99d39a2f448f4a06d41298f0b7e50163420e
+Author: igork <>
+Date:   Fri Jul 2 12:29:21 2004 +0000
+
+    Synchronization of myCreatedCachePaths in GlobalCacheManager and cache Map in CacheManager fixed
+
+:100644 100644 c2035ac 9f884d5 M	Aurora/source/com/intellij/psi/impl/cache/impl/CacheManagerImpl.java
+
+commit ff964f95d7398fd216f4ddf4082486e8eadec564 3026af8a96d9f14b4319dd0ddb2f9785af7f03ba
+Author: igork <>
+Date:   Thu Jul 1 17:06:31 2004 +0000
+
+    no message
+
+:100644 100644 dd9368c 6ed322d M	Aurora/source/com/intellij/psi/impl/CachedValueImpl.java
+:100644 100644 43c1c80 0664087 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiTypeParameterImpl.java
+
+commit 0954419616e404d78fe5800fd68ecaa2ec245925 2b165ea64a9e6cb9eeb4edc4e894b46ec7f3b8eb
+Author: igork <>
+Date:   Thu Jul 1 16:59:52 2004 +0000
+
+    some day XmlTag become ModificationTracker but not now..
+
+:100644 100644 f0fc4ee e0f5c02 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0d2ebab4846bd0d29897109b5a6df872635b5c5a 8270e07828b2fc90c7d85195090b3a8793bdd134
+Author: igork <>
+Date:   Tue Jul 6 15:01:19 2004 +0000
+
+    include action support
+
+commit 8270e07828b2fc90c7d85195090b3a8793bdd134 fc875220c3a321303cc3302bf9dadccf83a41ed4
+Author: igork <>
+Date:   Tue Jul 6 15:01:10 2004 +0000
+
+    include action support
+
+:100644 100644 8ad6344 4c86c08 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspFileImpl.java
+
+commit 67deabf2d47b6d13d4203da3c0e75301fde76dd3 947747a1cd54d004035b84fb59bb60b34fb483d7
+Author: igork <>
+Date:   Tue Jul 6 13:12:02 2004 +0000
+
+    Test for Maxim Mossienko
+
+:000000 100644 0000000 79a7391 A	Aurora/testData/psi/resolve/jsp/data/sub/included.jsp
+:000000 100644 0000000 59d010b A	Aurora/testData/psi/resolve/jsp/include1/Include3.jsp
+:100644 100644 fc1464b 866b258 M	Aurora/testSource/com/intellij/psi/resolve/JspResolveTest.java
+
+commit 0f200c672278c2b65d08ba7436c961ddad945e9e f4fa8b9c09efd5e044ddd6011aeb540081e47537
+Author: igork <>
+Date:   Tue Jul 6 11:56:06 2004 +0000
+
+    Relative path fix
+
+commit f4fa8b9c09efd5e044ddd6011aeb540081e47537 2bcf1ab1c4e615b4b60e374d18c0342d9329ef82
+Author: igork <>
+Date:   Tue Jul 6 11:51:24 2004 +0000
+
+    Relative path fix
+
+:100644 100644 d7ac173 f8802ca M	Aurora/source/com/intellij/psi/impl/source/jsp/JspManager.java
+
+commit 1a260dc9d8192977f5823680772be6b5847dd8d6 eedb99d39a2f448f4a06d41298f0b7e50163420e
+Author: igork <>
+Date:   Fri Jul 2 12:29:21 2004 +0000
+
+    Synchronization of myCreatedCachePaths in GlobalCacheManager and cache Map in CacheManager fixed
+
+:100644 100644 c2035ac 9f884d5 M	Aurora/source/com/intellij/psi/impl/cache/impl/CacheManagerImpl.java
+
+commit ff964f95d7398fd216f4ddf4082486e8eadec564 3026af8a96d9f14b4319dd0ddb2f9785af7f03ba
+Author: igork <>
+Date:   Thu Jul 1 17:06:31 2004 +0000
+
+    no message
+
+:100644 100644 dd9368c 6ed322d M	Aurora/source/com/intellij/psi/impl/CachedValueImpl.java
+:100644 100644 43c1c80 0664087 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiTypeParameterImpl.java
+
+commit 0954419616e404d78fe5800fd68ecaa2ec245925 2b165ea64a9e6cb9eeb4edc4e894b46ec7f3b8eb
+Author: igork <>
+Date:   Thu Jul 1 16:59:52 2004 +0000
+
+    some day XmlTag become ModificationTracker but not now..
+
+:100644 100644 f0fc4ee e0f5c02 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 2b165ea64a9e6cb9eeb4edc4e894b46ec7f3b8eb d0f033f0893d733413c2eef94a9b85fbc3140b40
+Author: igork <>
+Date:   Thu Jul 1 16:58:14 2004 +0000
+
+    packages process declarations in wildcard imports fixed
+
+:100644 100644 d15436f faf13ed M	Aurora/source/com/intellij/psi/scope/processor/FilterScopeProcessor.java
+
+commit ccd427292aabfc3a1b5c387fac61bcb0c98ed3ed 5f94c87265f3edf9cb9355090f0bd92de0e36234
+Author: igork <>
+Date:   Thu Jul 1 16:14:29 2004 +0000
+
+    packages process declarations in wildcard imports fixed
+
+:100644 100644 be6f8d4 8ad6344 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspFileImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0f200c672278c2b65d08ba7436c961ddad945e9e f4fa8b9c09efd5e044ddd6011aeb540081e47537
+Author: igork <>
+Date:   Tue Jul 6 11:56:06 2004 +0000
+
+    Relative path fix
+
+commit f4fa8b9c09efd5e044ddd6011aeb540081e47537 2bcf1ab1c4e615b4b60e374d18c0342d9329ef82
+Author: igork <>
+Date:   Tue Jul 6 11:51:24 2004 +0000
+
+    Relative path fix
+
+:100644 100644 d7ac173 f8802ca M	Aurora/source/com/intellij/psi/impl/source/jsp/JspManager.java
+
+commit 1a260dc9d8192977f5823680772be6b5847dd8d6 eedb99d39a2f448f4a06d41298f0b7e50163420e
+Author: igork <>
+Date:   Fri Jul 2 12:29:21 2004 +0000
+
+    Synchronization of myCreatedCachePaths in GlobalCacheManager and cache Map in CacheManager fixed
+
+:100644 100644 c2035ac 9f884d5 M	Aurora/source/com/intellij/psi/impl/cache/impl/CacheManagerImpl.java
+
+commit ff964f95d7398fd216f4ddf4082486e8eadec564 3026af8a96d9f14b4319dd0ddb2f9785af7f03ba
+Author: igork <>
+Date:   Thu Jul 1 17:06:31 2004 +0000
+
+    no message
+
+:100644 100644 dd9368c 6ed322d M	Aurora/source/com/intellij/psi/impl/CachedValueImpl.java
+:100644 100644 43c1c80 0664087 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiTypeParameterImpl.java
+
+commit 0954419616e404d78fe5800fd68ecaa2ec245925 2b165ea64a9e6cb9eeb4edc4e894b46ec7f3b8eb
+Author: igork <>
+Date:   Thu Jul 1 16:59:52 2004 +0000
+
+    some day XmlTag become ModificationTracker but not now..
+
+:100644 100644 f0fc4ee e0f5c02 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 2b165ea64a9e6cb9eeb4edc4e894b46ec7f3b8eb d0f033f0893d733413c2eef94a9b85fbc3140b40
+Author: igork <>
+Date:   Thu Jul 1 16:58:14 2004 +0000
+
+    packages process declarations in wildcard imports fixed
+
+:100644 100644 d15436f faf13ed M	Aurora/source/com/intellij/psi/scope/processor/FilterScopeProcessor.java
+
+commit ccd427292aabfc3a1b5c387fac61bcb0c98ed3ed 5f94c87265f3edf9cb9355090f0bd92de0e36234
+Author: igork <>
+Date:   Thu Jul 1 16:14:29 2004 +0000
+
+    packages process declarations in wildcard imports fixed
+
+:100644 100644 be6f8d4 8ad6344 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspFileImpl.java
+
+commit 28634f5aabcbb0106196db4de5935333ba0662e2 6f80353168ad2fefc3e124e3625cb873ff23306b
+Author: igork <>
+Date:   Thu Jul 1 14:17:13 2004 +0000
+
+    cached value changed to support local subtag changes in XML
+
+:100644 100644 aa35d11 b7f0a3a M	Aurora/source/com/intellij/openapi/editor/impl/EditorImpl.java
+:100644 100644 018b574 293a140 M	Aurora/source/com/intellij/psi/impl/CachedValueImpl.java
+:100644 100644 ee67fb7 f0fc4ee M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 967223a71dee19442e498ee2f87f6707d94c39f8 3832c18c4a0c80cc51c5d973e9a807255835f0ad
+Author: igork <>
+Date:   Thu Jun 24 17:13:36 2004 +0000
+
+    xsi:type support
+
+:100644 100644 d6b3db4 ee67fb7 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+:100644 100644 3258974 efec4de M	Aurora/source/com/intellij/xml/impl/schema/ComplexTypeDescriptor.java
+:100644 100644 449c336 271cb80 M	Aurora/source/com/intellij/xml/impl/schema/XmlDocumentDescriptorImpl.java
+:000000 100644 0000000 967f439 A	Aurora/source/com/intellij/xml/impl/schema/XmlElementDescriptorByType.java
+:100644 100644 52affc7 6cfa080 M	Aurora/source/com/intellij/xml/impl/schema/XmlElementDescriptorImpl.java
+
+commit 3afc7269466992f8b3db2584453efaaca650680f bc054a56a748ea2bd0168653375f4be7267ed78c
+Author: igork <>
+Date:   Mon Jun 21 10:00:59 2004 +0000
+
+    One more try to fix NPE in map build
+
+:100644 100644 d4f7e28 3ff13d5 M	Aurora/source/com/intellij/psi/impl/PsiClassImplUtil.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit a2108b53f2f05c81fc227a2e58b899b9154b9f3a 119b0141c66d8dc2ea54161ce9247007ca06c7c4
+Author: igork <>
+Date:   Thu Jan 15 14:55:56 2004 +0000
+
+    rollback
+
+commit 119b0141c66d8dc2ea54161ce9247007ca06c7c4 ea72de2a161e86fb93a83081efaa65909f599243
+Author: igork <>
+Date:   Thu Jan 15 14:53:00 2004 +0000
+
+    Ignored resources in doctype uris fixed
+
+:100644 100644 52e6fcd f5c2561 M	Aurora/installer.iml
+:100644 100644 f4f1c97 aab4aac M	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/providers/JavaClassReferenceProvider.java
+:100644 100644 dcec31c 8406ba3 M	Aurora/starteamIntegration.iml
+:100644 100644 657db07 3b57670 M	Aurora/tomcatIntegration.iml
+
+commit 177a46fe82f9335241d8c7fe0829aebe72b5b8ae a0965781ef56aabd83e76b3580717e61f6c85798
+Author: igork <>
+Date:   Wed Jan 14 16:48:35 2004 +0000
+
+    Ignored resources in doctype uris fixed
+
+:100644 100644 129d44c 4223f77 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/XmlHighlightVisitor.java
+
+commit 903ee622bd1accfacc1401657cadef0892eb83ca 24c49b33d602c7dd4c3e10916bea912e9afa430d
+Author: igork <>
+Date:   Wed Jan 14 15:51:37 2004 +0000
+
+    NPE in case of incorrect link fixed
+
+:100644 100644 7e9f2bc fdedb45 M	Aurora/source/com/intellij/psi/impl/source/jsp/impl/WebDirectoryImpl.java
+
+commit 353e8c4f6f81072f1282fa809e0148033acc33c9 b6bd3fac05f6eb45cd9a5765016ee037e53a679c
+Author: igork <>
+Date:   Tue Jan 13 18:48:10 2004 +0000
+
+    descriptor fixed
+
+:100644 100644 80a9fb0 f0b3245 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlAttributeImpl.java
+
+commit f427b21d06e32bbdffb635d9242b7e63ff79a99f d3eee150c1fc04663de2a88fde1876f1a87625fb
+Author: igork <>
+Date:   Tue Jan 13 17:03:21 2004 +0000
+
+    another tld supported NS
+
+:100644 100644 7d370b9 e67b97b M	Aurora/source/com/intellij/psi/meta/MetaRegistry.java
+:100644 100644 06b6934 d5ecf83 M	Aurora/source/com/intellij/xml/XmlUtil.java
+
+commit 2f48d4083382a207c176f673d9fbe3eafab85efd 62b7019b822e02a5b640deb6c85fd2b6f2354423
+Author: igork <>
+Date:   Tue Jan 13 16:52:51 2004 +0000
+
+    Fix for third party TLDs
+
+:100644 100644 45c7dbe 44decfb M	Aurora/source/com/intellij/psi/impl/source/jsp/tagLibrary/JspTagInfoImpl.java
+
+commit c16c1a11662bf96906a76c9047c94367c364b734 495f80548c5acbda2f9c849ca69522384b450900
+Author: igork <>
+Date:   Tue Jan 13 16:40:46 2004 +0000
+
+    Jsp implicit variables rewriten
+
+:100644 100644 af2bde0 84fc3c1 M	Aurora/source/com/intellij/codeInsight/navigation/actions/GotoDeclarationAction.java
+:000000 100644 0000000 71ccc1c A	Aurora/source/com/intellij/j2ee/jsp/ExtendedTEI.java
+:100644 100644 7672177 3bf99e1 M	Aurora/source/com/intellij/j2ee/jsp/UseBeanTEI.java
+:100644 100644 a3cfbce 9a06e58 M	Aurora/source/com/intellij/progress/ProgressIndicator.java
+:100644 100644 38937b9 b2b68e2 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspActionImpl.java
+:100644 100644 40c605d 0a1f8b9 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspFileImpl.java
+:100644 100644 1d7e619 9e8b708 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspImplUtil.java
+:100644 100644 ed403e5 3e1c955 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspImplicitVariableImpl.java
+:100644 100644 c6f1192 7620e92 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspManager.java
+:100644 100644 8448fbd 45c7dbe M	Aurora/source/com/intellij/psi/impl/source/jsp/tagLibrary/JspTagInfoImpl.java
+:100644 100644 97e4795 f1ad799 M	Aurora/source/com/intellij/psi/jsp/JspImplicitVariable.java
+:100644 100644 e2a58d0 d4109ae M	Aurora/testSource/com/intellij/refactoring/RenameFieldsTest.java
+
+commit 9fc9448895e9bfda56b13cc7d7a941ff8a35e671 616c281e73a18d161f9a523eccd091fd634e41ca
+Author: igork <>
+Date:   Tue Jan 13 14:45:29 2004 +0000
+
+    Assertion on lexer loops inserted
+
+:100644 100644 2d46c8b bb4263d M	Aurora/source/com/intellij/openapi/editor/ex/util/LexerHighlighter.java
+
+commit c092f275b8b36b263786a2f0702b03f8ca2a2c35 2ec98e745af4d23e09171948f431d9e6e4471fdd
+Author: igork <>
+Date:   Mon Jan 12 18:11:46 2004 +0000
+
+    NS for JSP-2.0 taglibs support
+
+:100644 100644 6505b63 7d370b9 M	Aurora/source/com/intellij/psi/meta/MetaRegistry.java
+:100644 100644 8833b56 ce9842c M	Aurora/source/com/intellij/xml/XmlUtil.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 812662245e6e6012a34776d08f6863c58a26466f 3f6c2216645de7faa24164de520cdc5bff4e12aa
+Author: igork <>
+Date:   Tue Jun 24 15:41:08 2003 +0000
+
+    no message
+
+commit fff86fd22e0552f13e9dcf4a67f8657e36c6d4ad c29b1fa8fe8b02246096e10878793128e8e8bfa8
+Author: igork <>
+Date:   Mon Jun 23 18:52:29 2003 +0000
+
+    Fix for EJB
+
+:100644 100644 7cf544b d7a09be M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+
+commit c29b1fa8fe8b02246096e10878793128e8e8bfa8 3aac2fe2827c71317c98a25912db93c021e2f4e7
+Author: igork <>
+Date:   Mon Jun 23 18:50:40 2003 +0000
+
+    Fix for isInheritor
+
+:100644 100644 c8435a8 5d55f68 M	Aurora/source/com/intellij/psi/util/PsiUtil.java
+:100644 100644 bf8c59e 7cf544b M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+:000000 100644 0000000 07eaeca A	Aurora/testData/psi/resolve/method/MethodConflict1.java
+:000000 100644 0000000 5f42478 A	Aurora/testData/psi/resolve/method/MethodConflict1.java~
+:100644 100644 c95c0e2 5ccffe5 M	Aurora/testSource/com/intellij/psi/resolve/ResolveMethodTest.java
+
+commit 3aac2fe2827c71317c98a25912db93c021e2f4e7 8f39e93ef7c50095fff6bd1a1a682897db76c67f
+Author: igork <>
+Date:   Mon Jun 23 18:31:40 2003 +0000
+
+    Two more NPE fixed
+
+:100644 100644 ecb8919 bf8c59e M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+:000000 100644 0000000 17471d1 A	Aurora/testData/inspection/redundantCast/AmbigousParm2/src/.AmbigousParm2.java.swp
+
+commit b1b1d46df6d9e3b2876650ca03a864c53624ce11 4058a2855be2180b27798c4ca7280175d84876ee
+Author: igork <>
+Date:   Mon Jun 23 18:21:13 2003 +0000
+
+    no message
+
+:100644 100644 f0616c2 ecb8919 M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+
+commit 709d3c97fefa010ee435cb4b6775f504e463f4d1 ab8d4e9c6dacfa4597cc36b01d19fbdcfa9547eb
+Author: igork <>
+Date:   Mon Jun 23 17:48:47 2003 +0000
+
+    PsiClassType.isAssignableFrom use its own isInheritor. Also some fixes in resolve/substitutor. Now substitutor can return null in case there is no mapping for type parameter
+
+:100644 100644 6b63190 50b1bc3 M	Aurora/source/com/intellij/psi/PsiSubstitutor.java
+:100644 100644 45b901f 974560c M	Aurora/source/com/intellij/psi/impl/PsiSubstitutorImpl.java
+:100644 100644 ac0338b c4e8265 M	Aurora/source/com/intellij/psi/impl/source/PsiImmediateClassType.java
+:100644 100644 c811d45 8fa6a8d M	Aurora/source/com/intellij/psi/impl/source/PsiJavaCodeReferenceElementImpl.java
+:100644 100644 fafbd47 027d2ef M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiReferenceExpressionImpl.java
+:100644 100644 073979d f0616c2 M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+
+commit 0803784e6dfd37819e9c03467b63845acca32890 831e2fe9d9fd19a5e073c237d093e7e749deb260
+Author: igork <>
+Date:   Mon Jun 23 13:04:00 2003 +0000
+
+    no message
+
+:000000 100644 0000000 56da99d A	Aurora/.#aurora.ipr.1.77
+:100644 100644 cacd9c2 e688a9c M	Aurora/source/com/intellij/codeInsight/completion/CompletionVariant.java
+:000000 100644 0000000 f881529 A	Aurora/source/com/intellij/psi/.#PsiClassType.java.1.9
+:000000 100644 0000000 28ab73b A	Aurora/source/com/intellij/psi/.#PsiJavaReference.java.1.1
+:100644 100644 d608487 a459298 M	Aurora/source/com/intellij/psi/PsiClassType.java
+:100644 100644 4b61f94 10525d6 M	Aurora/source/com/intellij/psi/PsiJavaReference.java
+:100644 100644 2bcf6f0 acb5303 M	Aurora/source/com/intellij/psi/PsiReference.java
+:100644 100644 a91f5a5 93f0708 M	Aurora/source/com/intellij/psi/PsiResolveResult.java
+:100644 100644 6e7d514 0d169bb R057	Aurora/source/com/intellij/psi/ResolveInfo.java	Aurora/source/com/intellij/psi/ResolveCandidatesInfo.java
+:100644 100644 3073ec3 e9e6eb3 M	Aurora/source/com/intellij/psi/filters/ContextGetter.java
+:100644 100644 d368a52 d4c3504 M	Aurora/source/com/intellij/psi/filters/getters/ExpectedTypesGetter.java
+:000000 100644 0000000 93eb642 A	Aurora/source/com/intellij/psi/impl/.#PsiSubstitutorImpl.java.1.4
+:100644 100644 ce1968f 45b901f M	Aurora/source/com/intellij/psi/impl/PsiSubstitutorImpl.java
+:000000 100644 0000000 e350734 A	Aurora/source/com/intellij/psi/impl/compiled/.#ClsJavaCodeReferenceElementImpl.java.1.15
+:100644 100644 30f7d9d 76116b3 M	Aurora/source/com/intellij/psi/impl/compiled/ClsJavaCodeReferenceElementImpl.java
+:000000 100644 0000000 d3818cd A	Aurora/source/com/intellij/psi/impl/source/.#PsiClassReferenceType.java.1.13
+:000000 100644 0000000 ce20e27 A	Aurora/source/com/intellij/psi/impl/source/.#PsiJavaCodeReferenceElementImpl.java.1.26
+:100644 100644 5b092de 6a81764 M	Aurora/source/com/intellij/psi/impl/source/PsiClassReferenceType.java
+:100644 100644 a7c199b 29c5529 M	Aurora/source/com/intellij/psi/impl/source/PsiCodeFragmentImpl.java
+:100644 100644 9cf1a8d e8515c9 M	Aurora/source/com/intellij/psi/impl/source/PsiImmutableClassReferenceType.java
+:100644 100644 4457f47 c811d45 M	Aurora/source/com/intellij/psi/impl/source/PsiJavaCodeReferenceElementImpl.java
+:100644 100644 8507378 1eaee9b M	Aurora/source/com/intellij/psi/impl/source/PsiTypeElementImpl.java
+:100644 100644 19155a8 aaeb92c M	Aurora/source/com/intellij/psi/impl/source/jsp/JspManager.java
+:100644 100644 5551f48 f7138ef M	Aurora/source/com/intellij/psi/impl/source/resolve/ResolveMethodUtil.java
+:100644 100644 ae22dfe 934b6c0 M	Aurora/source/com/intellij/psi/impl/source/resolve/ResolveVariableUtil.java
+:000000 100644 0000000 a6f190c A	Aurora/source/com/intellij/psi/impl/source/tree/java/.#PsiReferenceExpressionImpl.java.1.18
+:000000 100644 0000000 a851739 A	Aurora/source/com/intellij/psi/impl/source/tree/java/.#PsiThisExpressionImpl.java.1.3
+:100644 100644 d928726 3245545 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiClassObjectAccessExpressionImpl.java
+:100644 100644 b67edf6 a86a774 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiNewExpressionImpl.java
+:100644 100644 4c14f12 fafbd47 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiReferenceExpressionImpl.java
+:100644 100644 bea3284 ccca720 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiThisExpressionImpl.java
+:100644 100644 14ab84c 972c8c7 M	Aurora/source/com/intellij/psi/infos/CandidateInfo.java
+:100644 100644 4fdb8c6 79af157 M	Aurora/source/com/intellij/psi/infos/CandidatesGroup.java
+:000000 100644 0000000 e0c8998 A	Aurora/source/com/intellij/psi/scope/.#PsiScopesUtil.java.1.22
+:100644 100644 4071b70 ce8b962 M	Aurora/source/com/intellij/psi/scope/PsiScopesUtil.java
+:100644 100644 7464929 67ff6cb M	Aurora/source/com/intellij/psi/scope/processor/ConflictFilterProcessor.java
+:100644 100644 fe583c5 d8f1ebd M	Aurora/source/com/intellij/psi/scope/processor/MethodCandidatesProcessor.java
+:100644 100644 f5285bf e4fcb5f M	Aurora/source/com/intellij/psi/scope/processor/MethodResolverProcessor.java
+:000000 100644 0000000 89c5578 A	Aurora/source/com/intellij/psi/util/.#PsiUtil.java.1.33
+:100644 100644 625ef10 c8435a8 M	Aurora/source/com/intellij/psi/util/PsiUtil.java
+
+commit d4b1719dcee5b44be201897cb15a6a69a6945558 334df55b3ae8f63cef3bb1fb945baaa5975abd61
+Author: igork <>
+Date:   Mon Jun 23 11:39:06 2003 +0000
+
+    no message
+
+:100644 100644 3000f8f e54c1fb M	Aurora/source/com/intellij/psi/PsiElementFactory.java
+:100644 100644 30004f9 4598e03 M	Aurora/source/com/intellij/psi/impl/PsiElementFactoryImpl.java
+
+commit 571031931b89232b0cb943ac6e27920d9db51174 b492ccdf1ee579ed53a65c375095fcdea058a1fb
+Author: igork <>
+Date:   Thu Jun 19 16:02:37 2003 +0000
+
+    no message
+
+:100644 100644 9a973e9 adcbe6b M	Aurora/source/com/intellij/psi/impl/PsiSubstitutorImpl.java
+
+commit d207a37f935dc38d0da7768c1cb10a1f818dbaf8 4a7a5af1246344820a99be1496dcaf3480adb8e3
+Author: igork <>
+Date:   Wed Jun 18 16:44:46 2003 +0000
+
+    Code fragment fix
+
+:100644 100644 8b99679 163283c M	Aurora/source/com/intellij/psi/impl/source/PsiCodeFragmentImpl.java
+:100644 100644 092347e 0e5fa0a M	Aurora/testSource/com/intellij/psi/resolve/ResolveInCodeFragmentTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 494240c35ba85d101896032f199c6ddd4f2568c9 313f2a7caa6772cf15b9db2044db17cc3d456776
+Author: igork <>
+Date:   Mon Apr 7 15:50:24 2003 +0000
+
+    Refactoring with NamedElement
+
+commit c1d64c74e7f4059fcce8b3f17e1e70eec81109f8 b8b25670f7e18a772e57a0cdffc3019dd68806a9
+Author: igork <>
+Date:   Mon Apr 7 13:36:42 2003 +0000
+
+    no message
+
+:100644 100644 82cfad9 b5e3fe8 M	Aurora/source/com/intellij/psi/impl/SharedPsiElementImplUtil.java
+
+commit b8b25670f7e18a772e57a0cdffc3019dd68806a9 d8bc12bac9cce0ec9c10771caf60e209ac9b4d5a
+Author: igork <>
+Date:   Mon Apr 7 13:34:17 2003 +0000
+
+    Fix for javadoc completions
+
+:100644 100644 c5aced2 af2712d M	Aurora/source/com/intellij/codeInsight/completion/CodeCompletionHandler.java
+:100644 100644 781cafb ecee415 M	Aurora/source/com/intellij/codeInsight/completion/filters/TextFilter.java
+:100644 100644 a05ec7c ed21830 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/JavadocHighlightVisitor.java
+:100644 100644 1bed646 aed3f31 M	Aurora/source/com/intellij/psi/impl/source/javadoc/PsiDocMethodOrFieldRef.java
+
+commit b341b7598885dec98bffaf4caa07dd45f67d6ae7 7116f40bc8118cc4de2b875420fdd34960de1b00
+Author: igork <>
+Date:   Mon Apr 7 10:25:44 2003 +0000
+
+    no message
+
+:100644 100644 cf7244e c5aced2 M	Aurora/source/com/intellij/codeInsight/completion/CodeCompletionHandler.java
+
+commit 0e7597913a28640740f3f5856ea4035089c5ecf6 e7296d80aa307a32d944908906160febb573ad61
+Author: igork <>
+Date:   Mon Apr 7 10:03:59 2003 +0000
+
+    no message
+
+:100644 100644 fc994b1 cf7244e M	Aurora/source/com/intellij/codeInsight/completion/CodeCompletionHandler.java
+
+commit 33ffd50541b731dfe1620989e16d172f5405b9a6 9c6103d9bc21fdab0260e4ac430bb2ab9f3e213f
+Author: igork <>
+Date:   Mon Apr 7 09:56:14 2003 +0000
+
+    Added
+
+:000000 100644 0000000 e8d8b83 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/manipulators/JspAttribueValueManipulator.java
+:000000 100644 0000000 af9febb A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/providers/GenericReferenceProvider.java
+:000000 100644 0000000 3f8d110 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/providers/JavaClassReferenceProvider.java
+
+commit 9c6103d9bc21fdab0260e4ac430bb2ab9f3e213f e1d6531dc4faa56d732a0907a1d9bae0187d0362
+Author: igork <>
+Date:   Mon Apr 7 09:49:10 2003 +0000
+
+    removed
+
+:100644 000000 f46101f 0000000 D	Aurora/source/com/intellij/psi/reference/PsiReferenceProvider.java
+
+commit 1aa1c1784c75cf14bfbb1b1ab7fcca02ade7695a b08e7810295c57b01968af5588922a74033b75a3
+Author: igork <>
+Date:   Mon Apr 7 09:39:05 2003 +0000
+
+    removing files
+
+:100644 000000 570fc05 0000000 D	Aurora/source/com/intellij/psi/reference/ElementManipulator.java
+:100644 000000 d7b11cb 0000000 D	Aurora/source/com/intellij/psi/reference/ProcessorRegistry.java
+:100644 000000 c714c14 0000000 D	Aurora/source/com/intellij/psi/reference/ProviderBinding.java
+:100644 000000 88eee5f 0000000 D	Aurora/source/com/intellij/psi/reference/ReferenceProvidersRegistry.java
+:100644 000000 0f7a283 0000000 D	Aurora/source/com/intellij/psi/reference/ReferenceTypes.java
+:100644 000000 ff5e4d1 0000000 D	Aurora/source/com/intellij/psi/reference/impl/GenericReference.java
+:100644 000000 8bf9f55 0000000 D	Aurora/source/com/intellij/psi/reference/impl/PsiMultiReference.java
+:100644 000000 e8d8b83 0000000 D	Aurora/source/com/intellij/psi/reference/impl/manipulators/JspAttribueValueManipulator.java
+:100644 000000 af9febb 0000000 D	Aurora/source/com/intellij/psi/reference/impl/providers/GenericReferenceProvider.java
+:100644 000000 3f8d110 0000000 D	Aurora/source/com/intellij/psi/reference/impl/providers/JavaClassReferenceProvider.java
+
+commit b08e7810295c57b01968af5588922a74033b75a3 addc2fa0b1acf466b15808549c7d544194992613
+Author: igork <>
+Date:   Mon Apr 7 09:21:47 2003 +0000
+
+    I love our CVS
+
+:000000 100644 0000000 570fc05 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/ElementManipulator.java
+:000000 100644 0000000 d7b11cb A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/ProcessorRegistry.java
+:000000 100644 0000000 c714c14 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/ProviderBinding.java
+:000000 100644 0000000 f46101f A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/PsiReferenceProvider.java
+:000000 100644 0000000 88eee5f A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/ReferenceProvidersRegistry.java
+:000000 100644 0000000 0f7a283 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/ReferenceTypes.java
+:000000 100644 0000000 ff5e4d1 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/GenericReference.java
+:000000 100644 0000000 8bf9f55 A	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/PsiMultiReference.java
+
+commit addc2fa0b1acf466b15808549c7d544194992613 89270a2306019811feb9a017c549ec080fe042c4
+Author: igork <>
+Date:   Mon Apr 7 09:11:11 2003 +0000
+
+    I love our cvs
+
+:000000 100644 0000000 45578cf A	Aurora/source/com/intellij/psi/scope/PsiConflictResolver.java
+:000000 100644 0000000 c186838 A	Aurora/source/com/intellij/psi/scope/conflictResolvers/DuplicateConflictResolver.java

@@ -1,0 +1,92 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 191f4dc4334f7a522c7aeb239c509340672483eb 0af8b179a3651af2c402325d4f782ebe044d41ce
+Author: Dmitry.Shtukenberg <>
+Date:   Fri Jun 4 16:47:03 2004 +0000
+
+    No caches updates after changes to workspace file
+
+commit c0d1a1c24be5e781d24b03d68690dc97e47615fd 34db861ed31253c5d5ce865894437f7d211bf2cb
+Author: Dmitry.Shtukenberg <>
+Date:   Fri Jun 4 16:45:09 2004 +0000
+
+    No caches updates after changes to workspace file
+
+:100644 100644 bb42afe 6e62a32 M	Aurora/source/com/intellij/ide/startup/FileSystemSynchronizer.java
+
+commit 42cb1e92f557004c36da0c99325f9b6c30271388 8a3a4a8d88b4c885e059f07312c9c1460bf2e5a0
+Author: Dmitry.Shtukenberg <>
+Date:   Mon May 31 15:57:40 2004 +0000
+
+    Bug fix
+
+:100644 100644 f66867e 4264b71 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/IndentAdjuster.java
+
+commit db926037b5d6635dc635997e7dabdf0329f03616 be570ef30a508af48b605093863d8b94ae234268
+Author: Dmitry.Shtukenberg <>
+Date:   Mon May 31 14:48:32 2004 +0000
+
+    FindUsages -- some speed improvements
+
+:100644 100644 1d8623e f211830 M	Aurora/source/com/intellij/psi/impl/search/PsiSearchHelperImpl.java
+
+commit 3b4b35ec67b65f39f3d4aa8dc8a089eff18ca358 2c9a2f4d656f026d2c91d06681b523728ad2ad50
+Author: Dmitry.Shtukenberg <>
+Date:   Tue May 25 16:34:26 2004 +0000
+
+    Some more code format improvements
+
+:100644 100644 2e4dbcc 5b31a48 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeFormatter.java
+:100644 100644 4ef4b11 f66867e M	Aurora/source/com/intellij/psi/impl/source/codeStyle/IndentAdjuster.java
+
+commit 043d89d91f2b5478b58faaa21b92e224045e7a4d bf264ab29d87939e072054db71e063c961472700
+Author: Dmitry.Shtukenberg <>
+Date:   Tue May 25 14:52:26 2004 +0000
+
+    Added caching in getInstance()
+
+:100644 100644 79759d9 ba9a38b M	Aurora/openapi/src/com/intellij/openapi/progress/ProgressManager.java
+
+commit 7a9650b1d6264f93ab6a38b6f2f38b67e31a4de4 5de0cdb8b652895731b6afe963f6732e09d9ed39
+Author: Dmitry.Shtukenberg <>
+Date:   Tue May 25 14:16:06 2004 +0000
+
+    Imporved performance of code formatter;
+    minor improvements to SmartEncodingInputStream;
+    minor improvements to file reading routines implementation
+
+:100644 100644 b317cf8 8e8e613 M	Aurora/openapi/src/com/intellij/openapi/vfs/CharsetToolkit.java
+:100644 100644 77cb293 e36ad9a M	Aurora/openapi/src/com/intellij/openapi/vfs/SmartEncodingInputStream.java
+:100644 100644 c6705f2 497da1d M	Aurora/source/com/intellij/localVcs/impl/LocalVcsImpl.java
+:100644 100644 aed6208 b815771 M	Aurora/source/com/intellij/localVcs/impl/RepositoryItemImpl.java
+:100644 100644 ab4d10f 985f7f5 M	Aurora/source/com/intellij/openapi/vfs/impl/local/VirtualFileImpl.java
+:100644 100644 11ab877 2e4dbcc M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeFormatter.java
+:100644 100644 777b3a5 baec3d2 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeStyleManagerImpl.java
+:100644 100644 18b5e7b 4f21380 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeWrapper.java
+:100644 100644 c8e5268 4ef4b11 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/IndentAdjuster.java
+:100644 100644 714af3a 795e1ca M	Aurora/util/src/com/intellij/openapi/util/io/FileUtil.java
+
+commit 83e61295bb7f27b039278e470ef445cff79e6982 b1bb025b4ebf0800f5a2b6f07800bc358245e4ed
+Author: Dmitry.Shtukenberg <>
+Date:   Sat May 22 15:36:55 2004 +0000
+
+    Improved performance of start/finishNonCancelableSection
+
+:100644 100644 7c6e07f afd6447 M	Aurora/source/com/intellij/openapi/progress/util/ProgressIndicatorBase.java
+
+commit b1bb025b4ebf0800f5a2b6f07800bc358245e4ed eb986381114edbfe265cc7d8b2b2f18c774d8709
+Author: Dmitry.Shtukenberg <>
+Date:   Sat May 22 15:34:36 2004 +0000
+
+    Improved performance of start/finishNonCancelableAction
+
+:100644 100644 c2ed4cf 7d9d5bf M	Aurora/source/com/intellij/openapi/progress/impl/ProgressManagerImpl.java
+
+commit 8ff8d6230441933f32eb82afee24218b3f399592 ca7ad4ee84267f0eb6e8b573bb5a47ead792d652
+Author: Dmitry.Shtukenberg <>
+Date:   Wed May 19 09:14:56 2004 +0000
+
+    no message
+
+:100644 100644 68bb437 c6705f2 M	Aurora/source/com/intellij/localVcs/impl/LocalVcsImpl.java

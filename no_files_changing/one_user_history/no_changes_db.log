@@ -1,0 +1,1418 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 93086f1f90ff0d33b10e89397c356e8529edb201 441db4724dfadbbba1d7e284ce289ec1d7145419
+Author: db <>
+Date:   Fri May 21 14:04:00 2004 +0000
+
+    no message
+
+commit a791ea18d7b947b8e1314960627a5e208f568400 e88019bd97b29991d72c8c7fa9a34ea75ca1c6b1
+Author: db <>
+Date:   Fri May 21 13:40:33 2004 +0000
+
+    no message
+
+:100644 100644 2bf84cd aa282b5 M	Aurora/source/com/intellij/psi/impl/source/javadoc/JavadocManagerImpl.java
+:100644 100644 6750919 4f86372 M	Aurora/source/com/intellij/psi/impl/source/javadoc/SimpleDocTagInfo.java
+
+commit 4bdcf318d20a164d0a09fccd32786688df14da67 12723dea7a2b9355d07427c8ad77f98405f023fc
+Author: db <>
+Date:   Thu May 20 14:56:24 2004 +0000
+
+    no message
+
+:100644 100644 95ee6e5 3ed8d1d M	Aurora/source/com/intellij/dupLocator/treeCompare/DuplocatorNodeComparator.java
+:100644 100644 d12e98b 4e61451 M	Aurora/source/com/intellij/dupLocator/treeHash/DuplocatorHashCallback.java
+:100644 100644 db78556 4cd1640 M	Aurora/source/com/intellij/dupLocator/util/LeafEnumerator.java
+
+commit b1a84060d878e376115b11611e33cda07fe9c3a9 e2f6ccc050056d5bbb1cfc2b25a53c0cd6c224af
+Author: db <>
+Date:   Thu May 13 17:48:58 2004 +0000
+
+    no message
+
+:100644 100644 fb2018e 2a2b9dd M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoComponent.java
+
+commit 0ee07ef025ed6a0a3be9840d791f5002c4bf9c40 065d26593b1a7f41798e823417a591c2d0e1aa8b
+Author: db <>
+Date:   Mon May 10 18:33:28 2004 +0000
+
+    no message
+
+:100644 100644 a977e0d 8bf8d60 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+
+commit 0a3fcdc0c167535aeaf52c8a55466d50005eb60a 1098129f28e475227afa95fe58554fb66da4f5b0
+Author: db <>
+Date:   Mon May 10 14:08:17 2004 +0000
+
+    no message
+
+:100644 100644 9bf32a2 48b061d M	Aurora/source/com/intellij/dupLocator/treeHash/TreeHasher.java
+
+commit f9591d95a670fa84d7b126fc4182221e4b991115 b4d502490adf35757e318b7654fc5136c8cc6457
+Author: db <>
+Date:   Fri May 7 18:26:44 2004 +0000
+
+    no message
+
+:100644 100644 451f9c9 d12e98b M	Aurora/source/com/intellij/dupLocator/treeHash/DuplocatorHashCallback.java
+:100644 100644 a904a34 9bf32a2 M	Aurora/source/com/intellij/dupLocator/treeHash/TreeHasher.java
+
+commit a9a0fd04d666498ee22982d77b73ec9ee78db343 896f2749d50dbe7183e58d167622038e0e684793
+Author: db <>
+Date:   Fri May 7 16:36:26 2004 +0000
+
+    no message
+
+:100644 100644 1d6d827 7338e26 M	Aurora/resources/componentSets/IdeaTestComponents.xml
+:100644 100644 b5b4f68 30d7cd3 M	Aurora/source/com/intellij/dupLocator/util/PsiFragment.java
+:000000 100644 0000000 b6545ad A	Aurora/testData/dupLocator/t01/after/Test.dup
+:000000 100644 0000000 96bfad8 A	Aurora/testData/dupLocator/t01/after/test.java
+:000000 100644 0000000 96bfad8 A	Aurora/testData/dupLocator/t01/before/test.java
+:000000 100644 0000000 5b7dabf A	Aurora/testData/dupLocator/t02/after/Test.dup
+:000000 100644 0000000 4c5d3e1 A	Aurora/testData/dupLocator/t02/after/test.java
+:000000 100644 0000000 4c5d3e1 A	Aurora/testData/dupLocator/t02/before/test.java
+:000000 100644 0000000 f256827 A	Aurora/testData/dupLocator/t03/after/Test.dup
+:000000 100644 0000000 ebe3c3d A	Aurora/testData/dupLocator/t03/after/test.java
+:000000 100644 0000000 ebe3c3d A	Aurora/testData/dupLocator/t03/before/test.java
+:000000 100644 0000000 8bd0a87 A	Aurora/testData/dupLocator/t04/after/Test.dup
+:000000 100644 0000000 ebe3c3d A	Aurora/testData/dupLocator/t04/after/test.java
+:000000 100644 0000000 ebe3c3d A	Aurora/testData/dupLocator/t04/before/test.java
+:000000 100644 0000000 b835c8b A	Aurora/testData/dupLocator/t05/after/Test.dup
+:000000 100644 0000000 98e1367 A	Aurora/testData/dupLocator/t05/after/test.java
+:000000 100644 0000000 98e1367 A	Aurora/testData/dupLocator/t05/before/test.java
+:000000 100644 0000000 927b529 A	Aurora/testSource/com/intellij/dupLocator/locator/DuplocatorTest.java
+
+commit 4783ea3f7f3004e5dc5c81822d9af6612793846d a361df44334738b387c6db6bbff7aecde7fa4b77
+Author: db <>
+Date:   Thu May 6 14:38:44 2004 +0000
+
+    no message
+
+:100644 100644 d91ea8f 39b2be5 M	Aurora/source/com/intellij/dupLocator/DuplocateDialog.java
+:100644 100644 a678482 bfc5d83 M	Aurora/source/com/intellij/dupLocator/DuplocateSensitivity.form
+:100644 100644 83c2981 f783534 M	Aurora/source/com/intellij/dupLocator/DuplocatorSettings.java
+:100644 100644 1fc60b1 a904a34 M	Aurora/source/com/intellij/dupLocator/treeHash/TreeHasher.java
+
+commit daff9f79aa5a4a7439dcfc4786fcc4c8d23f720d 0a9668f88f329c57b5e37c8e08d5f317d4dd1f95
+Author: db <>
+Date:   Tue May 4 18:35:40 2004 +0000
+
+    no message
+
+:100644 100644 08969c8 d91ea8f M	Aurora/source/com/intellij/dupLocator/DuplocateDialog.java
+:100644 100644 e019dff 451f9c9 M	Aurora/source/com/intellij/dupLocator/treeHash/DuplocatorHashCallback.java
+:100644 100644 9248a7f ebe8c04 M	Aurora/source/com/intellij/dupLocator/util/PsiAnchor.java
+:100644 100644 c1c1b78 b5b4f68 M	Aurora/source/com/intellij/dupLocator/util/PsiFragment.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 12c71b2448f3e92d7af71b5ffc819f6c616ecc6f 92c5b6ad57c2b853191877ea91ffa6749848652f
+Author: db <>
+Date:   Sun Jan 18 19:02:06 2004 +0000
+
+    no message
+
+commit 9bf03d16775a55f89b1e6d00597dd000b893af7e ecf96f0a4bc555abf8a9f78cadffb66d430c8789
+Author: db <>
+Date:   Sun Jan 18 18:22:14 2004 +0000
+
+    no message
+
+:100644 100644 7a204c3 9b5a150 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+
+commit fe5ef87ecf280fb21f176eac7de4ae5fc011ed56 f9f69e794fbf5d6b6e3717fdddf9476f0db5cd51
+Author: db <>
+Date:   Sun Jan 18 16:27:51 2004 +0000
+
+    no message
+
+:100644 100644 1eacbce dc444c7 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+
+commit da1b8d5469ad26be1fc72547c832defe57bb5abb 57457986cac8778636bf4821dc92366f291dc61e
+Author: db <>
+Date:   Sun Jan 18 16:08:13 2004 +0000
+
+    no message
+
+:100644 100644 55744a6 7a204c3 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 3c4eef6 1eacbce M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:100644 000000 6f3932d 0000000 D	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocTagsProcessor.java
+
+commit 507aa480e19ab39904fca4f2fcc466707fd6cbeb 58c74a961c58efa7bae1c762016566ae80e1259c
+Author: db <>
+Date:   Sun Jan 18 14:48:16 2004 +0000
+
+    no message
+
+:100644 100644 a35d1b3 5639002 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 c266037 55744a6 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 b0fd808 3c4eef6 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:000000 100644 0000000 6f3932d A	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocTagsProcessor.java
+
+commit c4079385e27ffc7755d295e5bcaf538c9f354de0 1ee585427f1dc49665ca3f3bccf3ebafa62d491a
+Author: db <>
+Date:   Sat Jan 17 13:31:07 2004 +0000
+
+    no message
+
+:100644 100644 563147d a35d1b3 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 34e528b fce0097 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoComponent.java
+:100644 100644 568cafa b0fd808 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:100644 100644 8d08deb 25ab5a7 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 33b9e4d5cab5c78e5eafeae844bf520e14f62e14 e125349f54b21b2e61fa3b1f296b7ed961cc691e
+Author: db <>
+Date:   Sat Jan 17 12:03:17 2004 +0000
+
+    no message
+
+:100644 100644 6b7cd8f 066a503 M	Aurora/source/com/intellij/intellijac/impl/generator/InstructionChain.java
+
+commit 59d6f6b508535fc8a9174dd98b0d261656cac5a5 7d734995614ed2d00fe2843e6c649891cc40256c
+Author: db <>
+Date:   Sat Jan 17 10:40:21 2004 +0000
+
+    no message
+
+:100644 100644 679a152 bff7262 M	Aurora/bin/libbreakgen.so
+:100644 100644 642b5e7 4afa5d5 M	Aurora/tools/DumpThreads/AppMain.cpp
+
+commit d35aca273211c6c51a701cc812c024bb3ea32c84 6d0a8cb651aea9ad099313cc5f3ba1e9c63c016f
+Author: db <>
+Date:   Fri Jan 16 13:51:14 2004 +0000
+
+    no message
+
+:000000 100644 0000000 642b5e7 A	Aurora/tools/DumpThreads/AppMain.cpp
+
+commit 6d0a8cb651aea9ad099313cc5f3ba1e9c63c016f 1aefe37a33e46882ee2acab57810cb64de306b97
+Author: db <>
+Date:   Fri Jan 16 13:49:04 2004 +0000
+
+    Solved the problem with closing all applications
+
+:100644 100644 76da184 679a152 M	Aurora/bin/libbreakgen.so
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit e705d95d58445126bbcb405dd534153e84d33b8f c3381dc4b2dae7df1599093e0393f3e08fe83b5f
+Author: db <>
+Date:   Sat Jan 10 13:18:27 2004 +0000
+
+    no message
+
+commit a46a8f2548e5435e2facc79db3f691b1dca1594e fc39c4acfa9fa8ab37b231ad48f3b40ef4b4bd7b
+Author: db <>
+Date:   Sat Jan 10 13:09:46 2004 +0000
+
+    no message
+
+:100644 100644 146793d f4ccfc5 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+
+commit dfecf2a99415660a66f370ddd27ac23ef0b926b7 713477d9642d3d11ef72dfe82f316b3d791d00f1
+Author: db <>
+Date:   Fri Jan 9 16:49:25 2004 +0000
+
+    no message
+
+:100644 100644 4fb6d60 146793d M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 d26a63a 3ae32ad M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 8cb5e16 0330ff9 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:100644 100644 bef18cc 06389a3 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocUtil.java
+:100644 100644 477cb7b 602072c M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit 4951c90dc45c0a1887667f6e0dbae944c99e8f2e f5f375bea6259821d8547ef1048d542300c98ce9
+Author: db <>
+Date:   Thu Jan 8 16:30:20 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 a9f3f10 75ebad8 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoComponent.java
+
+commit 91319781477e2ef8e688af704792a326967888e6 8d33d806b0cc0c61cbd7e2c3396f8cf23af6d257
+Author: db <>
+Date:   Thu Jan 8 14:35:03 2004 +0000
+
+    no message
+
+:100644 100644 6b3be1d d26a63a M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 e449ba1 bef18cc M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocUtil.java
+:100644 100644 47e2d79 52ca82d M	Aurora/source/com/intellij/codeInsight/navigation/CtrlMouseHandler.java
+
+commit 47e5c75ce7d648846fd28a88c1c03b93e2bcff15 92739e53e687781c0621f033e2295dccea555ec0
+Author: db <>
+Date:   Thu Jan 8 12:34:30 2004 +0000
+
+    no message
+
+:100644 100644 9a8e007 6b3be1d M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+
+commit b9365e474de85567b5902da3e79a1f218e078b41 58b8b83b31d02e3dc279809a0f629467fd029a02
+Author: db <>
+Date:   Wed Jan 7 14:17:39 2004 +0000
+
+    no message
+
+:100644 100644 1478ca2 4fb6d60 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 9cc5ff5 9a8e007 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 bdbb5d5 47e2d79 M	Aurora/source/com/intellij/codeInsight/navigation/CtrlMouseHandler.java
+
+commit b1b775ac1f1b5b854f917500b48286e6098bf78b dfc9e8b181adbd367973058d93e800b572553eb0
+Author: db <>
+Date:   Tue Jan 6 19:14:15 2004 +0000
+
+    no message
+
+:100644 100644 b02b9a2 9cc5ff5 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 41ad5fc bdbb5d5 M	Aurora/source/com/intellij/codeInsight/navigation/CtrlMouseHandler.java
+
+commit b18127c2ab57b6a25a9847b7d3ad52843252a771 d4638e9f953b2110989c1bafe5d93bc73a663f4e
+Author: db <>
+Date:   Tue Jan 6 18:34:23 2004 +0000
+
+    no message
+
+:100644 100644 8f48d9c b02b9a2 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+
+commit 38c1e453ca23cd03ce13de3135adb3ee55f7d5ae dd181cb016e850267b949f65de922f91dc83cbd3
+Author: db <>
+Date:   Tue Jan 6 16:01:58 2004 +0000
+
+    no message
+
+:100644 100644 b46f77f 1478ca2 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 2b01319d1a70441bbaa03c78fd44580d3739cee3 943c48e4dee79a412f89859f604b783d74d03cea
+Author: db <>
+Date:   Thu Nov 27 20:00:12 2003 +0000
+
+    no message
+
+commit 373c9afa3f7df93234c2ebb0d16ae13286d2b6ea 976be59e2a515b2b3491d3086021af2221db133b
+Author: db <>
+Date:   Thu Nov 27 19:18:36 2003 +0000
+
+    no message
+
+:000000 100644 0000000 097048e A	Aurora/testData/refactoring/typeCook/t97/after/Test.1.items
+:000000 100644 0000000 2d2088b A	Aurora/testData/refactoring/typeCook/t97/after/Test.items
+
+commit 976be59e2a515b2b3491d3086021af2221db133b a94bf9a3e479d742becbfc1eed49b8b06f026287
+Author: db <>
+Date:   Thu Nov 27 19:17:28 2003 +0000
+
+    no message
+
+:100644 100644 d22f3c1 be63720 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 6bbdc6c A	Aurora/testData/refactoring/typeCook/t120/after/test.java
+:000000 100644 0000000 6bbdc6c A	Aurora/testData/refactoring/typeCook/t120/before/test.java
+:000000 100644 0000000 03476c7 A	Aurora/testData/refactoring/typeCook/t121/after/test.java
+:000000 100644 0000000 03476c7 A	Aurora/testData/refactoring/typeCook/t121/before/test.java
+:000000 100644 0000000 ba192b3 A	Aurora/testData/refactoring/typeCook/t122/after/Test.1.items
+:000000 100644 0000000 264e049 A	Aurora/testData/refactoring/typeCook/t122/after/Test.items
+:000000 100644 0000000 81c1cbf A	Aurora/testData/refactoring/typeCook/t122/after/test.java
+:000000 100644 0000000 81c1cbf A	Aurora/testData/refactoring/typeCook/t122/before/test.java
+:000000 100644 0000000 b9a7183 A	Aurora/testData/refactoring/typeCook/t123/after/Test.1.items
+:000000 100644 0000000 04d4cc0 A	Aurora/testData/refactoring/typeCook/t123/after/Test.items
+:000000 100644 0000000 9a197a4 A	Aurora/testData/refactoring/typeCook/t123/after/test.java
+:000000 100644 0000000 9a197a4 A	Aurora/testData/refactoring/typeCook/t123/before/test.java
+:100644 000000 2d2088b 0000000 D	Aurora/testData/refactoring/typeCook/t97/after/Test.1.items
+:100644 000000 2d2088b 0000000 D	Aurora/testData/refactoring/typeCook/t97/after/Test.items
+:100644 100644 0a07a02 a524a26 M	Aurora/testData/refactoring/typeCook/t97/after/test.java
+:100644 100644 0a07a02 a524a26 M	Aurora/testData/refactoring/typeCook/t97/before/test.java
+:100644 100644 741e000 0478ec0 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 09400ae0be13de4a22ff47c01a3439e916bda53a cb0f567fdf9ccb1741e6c801db8614e9751ecc71
+Author: db <>
+Date:   Thu Nov 27 16:15:17 2003 +0000
+
+    no message
+
+:000000 100644 0000000 5db1d5b A	Aurora/testData/refactoring/typeCook/t110/after/Test.1.items
+:000000 100644 0000000 4d35d94 A	Aurora/testData/refactoring/typeCook/t112/after/Test.1.items
+
+commit cf91d6d3adcdba139ae17dbc15e5c1c3c9c4d720 d4b001e65c5d138eea3db36faa54a35d571f8f41
+Author: db <>
+Date:   Thu Nov 27 16:07:34 2003 +0000
+
+    no message
+
+:100644 100644 52473f1 d22f3c1 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 000000 0d84b99 0000000 D	Aurora/testData/refactoring/typeCook/t110/after/Test.1.items
+:100644 000000 03a7856 0000000 D	Aurora/testData/refactoring/typeCook/t112/after/Test.1.items
+:100644 100644 6f49e6c 741e000 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 7be09747c004492188174553f300731c5c6166a6 913697c257f149d7926a3ba82898d9d88d3efb31
+Author: db <>
+Date:   Wed Nov 26 16:43:50 2003 +0000
+
+    no message
+
+:000000 100644 0000000 5ddc5f1 A	Aurora/testData/refactoring/typeCook/t119/after/Test.1.items
+:000000 100644 0000000 0d84b99 A	Aurora/testData/refactoring/typeCook/t119/after/Test.items
+
+commit 4bcf3d61d504542242bc96af1c70e119b23a980a b1f52f318430b5b6ac2253dfbc97cf5ea74ca0d0
+Author: db <>
+Date:   Wed Nov 26 14:47:42 2003 +0000
+
+    no message
+
+:100644 100644 dc9f3b8 52473f1 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+
+commit 4f90618116a4a5bba66190036c4e32601b53cec9 45010b2ed3a8c1032241c2e156ec68d48e965adf
+Author: db <>
+Date:   Sat Nov 22 19:15:22 2003 +0000
+
+    no message
+
+:100644 100644 e582a99 dc9f3b8 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 c23b7dd e3e27ea M	Aurora/source/com/intellij/refactoring/typeCook/Util.java
+:000000 100644 0000000 83f433b A	Aurora/testData/refactoring/typeCook/t119/after/test.java
+:000000 100644 0000000 83f433b A	Aurora/testData/refactoring/typeCook/t119/before/test.java
+:100644 100644 b6b42e6 6f49e6c M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 45010b2ed3a8c1032241c2e156ec68d48e965adf 2c8d427b8daa5b534c89df0f979502184f8a9eb0
+Author: db <>
+Date:   Sat Nov 22 17:16:54 2003 +0000
+
+    no message
+
+:100644 100644 e70b381 e582a99 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 a720f7d A	Aurora/testData/refactoring/typeCook/t107/after/Test.1.items
+:000000 100644 0000000 8525308 A	Aurora/testData/refactoring/typeCook/t114/after/Test.1.items
+:000000 100644 0000000 8de11ea A	Aurora/testData/refactoring/typeCook/t114/after/Test.items
+:000000 100644 0000000 b6463d1 A	Aurora/testData/refactoring/typeCook/t114/after/test.java
+:000000 100644 0000000 b6463d1 A	Aurora/testData/refactoring/typeCook/t114/before/test.java
+:000000 100644 0000000 8525308 A	Aurora/testData/refactoring/typeCook/t115/after/Test.1.items
+:000000 100644 0000000 8de11ea A	Aurora/testData/refactoring/typeCook/t115/after/Test.items
+:000000 100644 0000000 1801e96 A	Aurora/testData/refactoring/typeCook/t115/after/test.java
+:000000 100644 0000000 1801e96 A	Aurora/testData/refactoring/typeCook/t115/before/test.java
+:000000 100644 0000000 8525308 A	Aurora/testData/refactoring/typeCook/t116/after/Test.1.items
+:000000 100644 0000000 8de11ea A	Aurora/testData/refactoring/typeCook/t116/after/Test.items
+:000000 100644 0000000 c2383c2 A	Aurora/testData/refactoring/typeCook/t116/after/test.java
+:000000 100644 0000000 c2383c2 A	Aurora/testData/refactoring/typeCook/t116/before/test.java
+:000000 100644 0000000 8525308 A	Aurora/testData/refactoring/typeCook/t117/after/Test.1.items
+:000000 100644 0000000 8de11ea A	Aurora/testData/refactoring/typeCook/t117/after/Test.items
+:000000 100644 0000000 035b308 A	Aurora/testData/refactoring/typeCook/t117/after/test.java
+:000000 100644 0000000 035b308 A	Aurora/testData/refactoring/typeCook/t117/before/test.java
+:000000 100644 0000000 84e9026 A	Aurora/testData/refactoring/typeCook/t118/after/Test.1.items
+:000000 100644 0000000 4512f01 A	Aurora/testData/refactoring/typeCook/t118/after/Test.items
+:000000 100644 0000000 c5cbc6c A	Aurora/testData/refactoring/typeCook/t118/after/test.java
+:000000 100644 0000000 c5cbc6c A	Aurora/testData/refactoring/typeCook/t118/before/test.java
+:100644 100644 fed9718 b6b42e6 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 2c8d427b8daa5b534c89df0f979502184f8a9eb0 1f2c26cda390c95c6c28c66a5ce509a2af771057
+Author: db <>
+Date:   Sat Nov 22 17:14:50 2003 +0000
+
+    no message
+
+:100644 000000 1bfad66 0000000 D	Aurora/testData/refactoring/typeCook/t107/after/Test.1.items
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit b5ee26acd600efa784c9515a213fb44275177ce6 85090334401b15a864e8f8f4ba1eddab0bff36a8
+Author: db <>
+Date:   Wed Nov 5 16:02:29 2003 +0000
+
+    no message
+
+commit 6fc1d7a53095b746702e0a32e93f5df66ae05f31 b067a33f71c58a3ef62522b2994da0c0d4a8eaab
+Author: db <>
+Date:   Wed Nov 5 16:01:50 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 d675205 A	Aurora/testData/refactoring/typeCook/t94/before/test.java
+
+commit 52d668e392a91977adf0936c974abd0c67c55252 3909532fbb66b6a4f8bac1237daba7d3663af731
+Author: db <>
+Date:   Wed Nov 5 10:41:49 2003 +0000
+
+    no message
+
+:100644 100644 4d309fb 0896ece M	Aurora/resources/idea/ActionManager.xml
+
+commit 95327cacf3379ad6a2b81356019aa35672782f48 c9e2b163c65023f03227017b253cdedbef3ccdf7
+Author: db <>
+Date:   Mon Nov 3 19:04:01 2003 +0000
+
+    no message
+
+:100644 100644 329d0d6 4169a87 M	Aurora/source/com/intellij/refactoring/typeCook/TypeCookHandler.java
+:100644 100644 3e5f804 7a1d9f3 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit c9e2b163c65023f03227017b253cdedbef3ccdf7 68632cc51b182b1c2fab50205d562cca632f9dd1
+Author: db <>
+Date:   Mon Nov 3 19:00:50 2003 +0000
+
+    no message
+
+:100644 100644 8904a77 1ee4b78 M	Aurora/source/com/intellij/refactoring/actions/TypeCookAction.java
+:100644 100644 6dda351 098a1a1 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 135b7b6 9c8244b M	Aurora/source/com/intellij/refactoring/typeCook/TypeCookDialog.java
+:100644 100644 37c1aec 722736e M	Aurora/source/com/intellij/refactoring/typeCook/TypeCookProcessor.java
+:100644 100644 adbde2c 485e14b M	Aurora/source/com/intellij/refactoring/typeCook/TypeCookViewDescriptor.java
+:100644 100644 cfa414d 3e5f804 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit dd65d85952ce4f62231ef4353611d7fa72fc4f4e 12f87c236164408a88332346637d637de01cec2d
+Author: db <>
+Date:   Fri Oct 31 14:59:05 2003 +0000
+
+    no message
+
+:100644 100644 4f09fac 6dda351 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 d3de242 A	Aurora/testData/refactoring/typeCook/t89/after/Test.1.items
+:000000 100644 0000000 a91edd5 A	Aurora/testData/refactoring/typeCook/t89/after/Test.items
+:000000 100644 0000000 c84f2a5 A	Aurora/testData/refactoring/typeCook/t89/after/test.java
+:000000 100644 0000000 c84f2a5 A	Aurora/testData/refactoring/typeCook/t89/before/test.java
+:000000 100644 0000000 e69de29 A	Aurora/testData/refactoring/typeCook/t90/after/Test.1.items
+:000000 100644 0000000 e69de29 A	Aurora/testData/refactoring/typeCook/t90/after/Test.items
+:000000 100644 0000000 6dfd2b0 A	Aurora/testData/refactoring/typeCook/t90/after/test.java
+:000000 100644 0000000 6dfd2b0 A	Aurora/testData/refactoring/typeCook/t90/before/test.java
+:000000 100644 0000000 a17165b A	Aurora/testData/refactoring/typeCook/t91/after/Test.1.items
+:000000 100644 0000000 b6fd620 A	Aurora/testData/refactoring/typeCook/t91/after/Test.items
+:000000 100644 0000000 e96b885 A	Aurora/testData/refactoring/typeCook/t91/after/test.java
+:000000 100644 0000000 e96b885 A	Aurora/testData/refactoring/typeCook/t91/before/test.java
+:000000 100644 0000000 1c6e37a A	Aurora/testData/refactoring/typeCook/t92/after/Test.1.items
+:000000 100644 0000000 256e7f8 A	Aurora/testData/refactoring/typeCook/t92/after/Test.items
+:000000 100644 0000000 17c02e6 A	Aurora/testData/refactoring/typeCook/t92/after/test.java
+:000000 100644 0000000 17c02e6 A	Aurora/testData/refactoring/typeCook/t92/before/test.java
+:000000 100644 0000000 f4a2749 A	Aurora/testData/refactoring/typeCook/t93/after/Test.1.items
+:000000 100644 0000000 6c73383 A	Aurora/testData/refactoring/typeCook/t93/after/Test.items
+:000000 100644 0000000 6c2a1ba A	Aurora/testData/refactoring/typeCook/t93/after/test.java
+:000000 100644 0000000 6c2a1ba A	Aurora/testData/refactoring/typeCook/t93/before/test.java
+:100644 100644 dd9fc3c cfa414d M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit e69ed4489d21024a31662ecae5a7d6a8867b5a72 984554c268a221da8fb3918f5db222276e46d770
+Author: db <>
+Date:   Thu Oct 30 19:19:52 2003 +0000
+
+    no message
+
+:100644 100644 54d9a4f 4f09fac M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 d5e64c1 5b93584 M	Aurora/source/com/intellij/refactoring/typeCook/SupertypeOf.java
+:100644 100644 657b9cd 6866e87 M	Aurora/source/com/intellij/refactoring/typeCook/TypeNode.java
+:100644 100644 cee1a81 110eae8 M	Aurora/source/com/intellij/refactoring/typeCook/Unifier.java
+:100644 100644 d287029 84de337 M	Aurora/source/com/intellij/refactoring/typeCook/Util.java
+:000000 100644 0000000 a69bf98 A	Aurora/testData/refactoring/typeCook/t84/after/Test.1.items
+:000000 100644 0000000 eee580f A	Aurora/testData/refactoring/typeCook/t85/after/Test.1.items
+:000000 100644 0000000 2c92924 A	Aurora/testData/refactoring/typeCook/t85/after/Test.items
+:000000 100644 0000000 467d4b1 A	Aurora/testData/refactoring/typeCook/t85/after/test.java
+:000000 100644 0000000 2977889 A	Aurora/testData/refactoring/typeCook/t85/before/test.java
+:000000 100644 0000000 097048e A	Aurora/testData/refactoring/typeCook/t86/after/Test.1.items
+:000000 100644 0000000 2d2088b A	Aurora/testData/refactoring/typeCook/t86/after/Test.items
+:000000 100644 0000000 b8be5c7 A	Aurora/testData/refactoring/typeCook/t86/after/test.java
+:000000 100644 0000000 b8be5c7 A	Aurora/testData/refactoring/typeCook/t86/before/test.java
+:000000 100644 0000000 9a1632c A	Aurora/testData/refactoring/typeCook/t87/after/Test.1.items
+:000000 100644 0000000 7856e9f A	Aurora/testData/refactoring/typeCook/t87/after/Test.items
+:000000 100644 0000000 8a7206f A	Aurora/testData/refactoring/typeCook/t87/after/test.java
+:000000 100644 0000000 8a7206f A	Aurora/testData/refactoring/typeCook/t87/before/test.java
+:000000 100644 0000000 9a1632c A	Aurora/testData/refactoring/typeCook/t88/after/Test.1.items
+:000000 100644 0000000 7856e9f A	Aurora/testData/refactoring/typeCook/t88/after/Test.items
+:000000 100644 0000000 9bf39b6 A	Aurora/testData/refactoring/typeCook/t88/after/test.java
+:000000 100644 0000000 9bf39b6 A	Aurora/testData/refactoring/typeCook/t88/before/test.java
+:100644 100644 67066f0 dd9fc3c M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit c49fe91d0b2f8826b6f38c6d311c695a3c20e93f dc3ab8cfd811c01bce19ba36febbd7b6ce7d3ae3
+Author: db <>
+Date:   Wed Oct 29 11:10:02 2003 +0000
+
+    no message
+
+:000000 100644 0000000 da62e41 A	Aurora/testData/refactoring/typeCook/t84/after/Test.items
+
+commit b7d334497abfcb0ac9252d0c0ea3e8b9c533fcec 61293b290aa0f2070c508999a3d808bf9a3e7b40
+Author: db <>
+Date:   Fri Oct 24 19:31:19 2003 +0000
+
+    no message
+
+:100644 100644 8d69f0f 54d9a4f M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 92fdf0e A	Aurora/testData/refactoring/typeCook/t84/after/test.java
+:000000 100644 0000000 92fdf0e A	Aurora/testData/refactoring/typeCook/t84/before/test.java
+:100644 100644 473db17 67066f0 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit c6d9fb9e18c6a32296d7cc84d81dff63099655c9 0cf8be0072e8a9acf9a530af70aaabb15303e639
+Author: db <>
+Date:   Fri Oct 24 14:19:21 2003 +0000
+
+    no message
+
+:100644 100644 ef4eea8 8d69f0f M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 b68e037 daaa21c M	Aurora/testData/refactoring/typeCook/t36/after/Test.1.items
+:000000 100644 0000000 219106a A	Aurora/testData/refactoring/typeCook/t72/after/Test.1.items
+:000000 100644 0000000 0d99bba A	Aurora/testData/refactoring/typeCook/t72/after/Test.items
+:000000 100644 0000000 593141f A	Aurora/testData/refactoring/typeCook/t72/after/test.java
+:000000 100644 0000000 9128186 A	Aurora/testData/refactoring/typeCook/t82/after/Test.1.items
+:000000 100644 0000000 d738537 A	Aurora/testData/refactoring/typeCook/t82/after/Test.items
+:000000 100644 0000000 2802a5a A	Aurora/testData/refactoring/typeCook/t82/after/test.java
+:000000 100644 0000000 2802a5a A	Aurora/testData/refactoring/typeCook/t82/before/test.java
+:000000 100644 0000000 0ad5736 A	Aurora/testData/refactoring/typeCook/t83/after/Test.1.items
+:000000 100644 0000000 d738537 A	Aurora/testData/refactoring/typeCook/t83/after/Test.items
+:000000 100644 0000000 9eae2a5 A	Aurora/testData/refactoring/typeCook/t83/after/test.java
+:000000 100644 0000000 9eae2a5 A	Aurora/testData/refactoring/typeCook/t83/before/test.java
+:100644 100644 70e00a4 473db17 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 97368a1272acfe6ec26a6e02d457b2bf83108b00 81c1b19042f171f71002b926ac1d9fabb02360f6
+Author: db <>
+Date:   Wed Sep 10 10:48:00 2003 +0000
+
+    no message
+
+commit 81c1b19042f171f71002b926ac1d9fabb02360f6 3452c19d2ed1f5ff46dc4b8e782187b5e1fa5fda
+Author: db <>
+Date:   Wed Sep 10 10:47:40 2003 +0000
+
+    no message
+
+commit 3452c19d2ed1f5ff46dc4b8e782187b5e1fa5fda fc3b787508e1dd71a2d90aa924e7709a02636a69
+Author: db <>
+Date:   Wed Sep 10 10:47:31 2003 +0000
+
+    no message
+
+:100644 000000 d36adff 0000000 D	Aurora/testData/refactoring/typeCook/t46/after/Test.graph
+
+commit ff216027d86469881399500ec4ec955d36accc44 c8934ccd4ebb87ba65c3c89eec0d2f80399ea313
+Author: db <>
+Date:   Wed Sep 10 09:39:30 2003 +0000
+
+    no message
+
+:100644 100644 5d768ff abeca77 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit a46523539ef93cf9b33165f846c14c4cf3685589 bf8d81c0e55d6944632c6bfd9b750c89bf14ef51
+Author: db <>
+Date:   Mon Sep 8 15:32:00 2003 +0000
+
+    no message
+
+:100644 100644 abeca77 5d768ff M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 8cc1b31eec9747b358f72435425800000da4daf1 5f2e167330d16c4e6dd1a4c1013eb342d002e954
+Author: db <>
+Date:   Mon Sep 8 15:03:22 2003 +0000
+
+    no message
+
+:000000 100644 0000000 25d1839 A	Aurora/testData/refactoring/typeCook/t40/after/test.java
+:000000 100644 0000000 1cbca07 A	Aurora/testData/refactoring/typeCook/t42/after/Test.1.graph
+:000000 100644 0000000 b367e53 A	Aurora/testData/refactoring/typeCook/t42/after/Test.graph
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t42/after/test.java
+:100644 100644 869dc46 abeca77 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit e3ae2418007831a20a6dfcc0756be7d847f10494 059781153934fd0cee6a1c9f3fc28c61c16a5e13
+Author: db <>
+Date:   Mon Sep 8 14:09:13 2003 +0000
+
+    no message
+
+:100644 100644 9907076 5e530dca M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 7e9d202 bd0b9a7 M	Aurora/source/com/intellij/refactoring/typeCook/Util.java
+:000000 100644 0000000 734d297 A	Aurora/testData/refactoring/typeCook/t45/after/Test.1.graph
+:000000 100644 0000000 499d963 A	Aurora/testData/refactoring/typeCook/t45/after/Test.graph
+:000000 100644 0000000 0df7f41 A	Aurora/testData/refactoring/typeCook/t46/after/Test.1.graph
+:000000 100644 0000000 d36adff A	Aurora/testData/refactoring/typeCook/t46/after/Test.graph
+:100644 100644 605a421 869dc46 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit e15f2ced112b48619e7871ccd166d3207867c1d3 bcf8eb0aab2d94024d82f896a5ec986f46954bdc
+Author: db <>
+Date:   Fri Sep 5 17:20:05 2003 +0000
+
+    no message
+
+:100644 100644 94aece9 9907076 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 95f423f A	Aurora/testData/refactoring/typeCook/t48/after/Test.1.graph
+:000000 100644 0000000 f9986ab A	Aurora/testData/refactoring/typeCook/t48/after/Test.graph
+:000000 100644 0000000 e9e9df6 A	Aurora/testData/refactoring/typeCook/t48/after/test.java
+:000000 100644 0000000 e9e9df6 A	Aurora/testData/refactoring/typeCook/t48/before/test.java
+:100644 100644 a818c3f 605a421 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit f223c96800412fcd69451a346c5354854f027ecc d02b94e5196b9f059b8f1627c10d2fa6e0d21d77
+Author: db <>
+Date:   Fri Sep 5 12:03:30 2003 +0000
+
+    no message
+
+:100644 100644 a3c84ef 0fc2a36 M	Aurora/source/com/intellij/refactoring/typeCook/Assignable.java
+:100644 100644 46f56fa 94aece9 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 d2a5b19 A	Aurora/source/com/intellij/refactoring/typeCook/MethodParameterRole.java
+:000000 100644 0000000 93be49f A	Aurora/source/com/intellij/refactoring/typeCook/MethodReturnRole.java
+:000000 100644 0000000 83ab328 A	Aurora/testData/refactoring/typeCook/t39/after/Test.1.graph
+:000000 100644 0000000 5b241e5 A	Aurora/testData/refactoring/typeCook/t39/after/Test.graph
+:000000 100644 0000000 bc8535d A	Aurora/testData/refactoring/typeCook/t39/after/test.java
+:000000 100644 0000000 bc8535d A	Aurora/testData/refactoring/typeCook/t39/before/test.java
+:000000 100644 0000000 25d1839 A	Aurora/testData/refactoring/typeCook/t40/before/test.java
+:000000 100644 0000000 1cbca07 A	Aurora/testData/refactoring/typeCook/t41/after/Test.1.graph
+:000000 100644 0000000 b367e53 A	Aurora/testData/refactoring/typeCook/t41/after/Test.graph
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t41/after/test.java
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t41/before/test.java
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t42/before/test.java
+:000000 100644 0000000 5d4e0d8 A	Aurora/testData/refactoring/typeCook/t43/after/test.java
+:000000 100644 0000000 5d4e0d8 A	Aurora/testData/refactoring/typeCook/t43/before/test.java
+:000000 100644 0000000 bc50cfe A	Aurora/testData/refactoring/typeCook/t44/after/test.java
+:000000 100644 0000000 bc50cfe A	Aurora/testData/refactoring/typeCook/t44/before/test.java
+:000000 100644 0000000 3020754 A	Aurora/testData/refactoring/typeCook/t45/after/test.java
+:000000 100644 0000000 3020754 A	Aurora/testData/refactoring/typeCook/t45/before/test.java
+:000000 100644 0000000 84f4c48 A	Aurora/testData/refactoring/typeCook/t46/after/test.java
+:000000 100644 0000000 84f4c48 A	Aurora/testData/refactoring/typeCook/t46/before/test.java
+:000000 100644 0000000 26bb46e A	Aurora/testData/refactoring/typeCook/t47/after/Test.1.graph
+:000000 100644 0000000 fd8321d A	Aurora/testData/refactoring/typeCook/t47/after/Test.graph
+:000000 100644 0000000 5b2738f A	Aurora/testData/refactoring/typeCook/t47/after/test.java
+:000000 100644 0000000 5b2738f A	Aurora/testData/refactoring/typeCook/t47/before/test.java
+:100644 100644 e5f1830 a818c3f M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 3bace3f80de9b1b2613457209853eca3544d6847 925e5e1f73322855e3b9fd4a24bfefb0a484324a
+Author: db <>
+Date:   Wed Sep 3 11:03:51 2003 +0000
+
+    no message
+
+:100644 100644 da81c37 46f56fa M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 81c1b19042f171f71002b926ac1d9fabb02360f6 3452c19d2ed1f5ff46dc4b8e782187b5e1fa5fda
+Author: db <>
+Date:   Wed Sep 10 10:47:40 2003 +0000
+
+    no message
+
+commit 3452c19d2ed1f5ff46dc4b8e782187b5e1fa5fda fc3b787508e1dd71a2d90aa924e7709a02636a69
+Author: db <>
+Date:   Wed Sep 10 10:47:31 2003 +0000
+
+    no message
+
+:100644 000000 d36adff 0000000 D	Aurora/testData/refactoring/typeCook/t46/after/Test.graph
+
+commit ff216027d86469881399500ec4ec955d36accc44 c8934ccd4ebb87ba65c3c89eec0d2f80399ea313
+Author: db <>
+Date:   Wed Sep 10 09:39:30 2003 +0000
+
+    no message
+
+:100644 100644 5d768ff abeca77 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit a46523539ef93cf9b33165f846c14c4cf3685589 bf8d81c0e55d6944632c6bfd9b750c89bf14ef51
+Author: db <>
+Date:   Mon Sep 8 15:32:00 2003 +0000
+
+    no message
+
+:100644 100644 abeca77 5d768ff M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 8cc1b31eec9747b358f72435425800000da4daf1 5f2e167330d16c4e6dd1a4c1013eb342d002e954
+Author: db <>
+Date:   Mon Sep 8 15:03:22 2003 +0000
+
+    no message
+
+:000000 100644 0000000 25d1839 A	Aurora/testData/refactoring/typeCook/t40/after/test.java
+:000000 100644 0000000 1cbca07 A	Aurora/testData/refactoring/typeCook/t42/after/Test.1.graph
+:000000 100644 0000000 b367e53 A	Aurora/testData/refactoring/typeCook/t42/after/Test.graph
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t42/after/test.java
+:100644 100644 869dc46 abeca77 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit e3ae2418007831a20a6dfcc0756be7d847f10494 059781153934fd0cee6a1c9f3fc28c61c16a5e13
+Author: db <>
+Date:   Mon Sep 8 14:09:13 2003 +0000
+
+    no message
+
+:100644 100644 9907076 5e530dca M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 7e9d202 bd0b9a7 M	Aurora/source/com/intellij/refactoring/typeCook/Util.java
+:000000 100644 0000000 734d297 A	Aurora/testData/refactoring/typeCook/t45/after/Test.1.graph
+:000000 100644 0000000 499d963 A	Aurora/testData/refactoring/typeCook/t45/after/Test.graph
+:000000 100644 0000000 0df7f41 A	Aurora/testData/refactoring/typeCook/t46/after/Test.1.graph
+:000000 100644 0000000 d36adff A	Aurora/testData/refactoring/typeCook/t46/after/Test.graph
+:100644 100644 605a421 869dc46 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit e15f2ced112b48619e7871ccd166d3207867c1d3 bcf8eb0aab2d94024d82f896a5ec986f46954bdc
+Author: db <>
+Date:   Fri Sep 5 17:20:05 2003 +0000
+
+    no message
+
+:100644 100644 94aece9 9907076 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 95f423f A	Aurora/testData/refactoring/typeCook/t48/after/Test.1.graph
+:000000 100644 0000000 f9986ab A	Aurora/testData/refactoring/typeCook/t48/after/Test.graph
+:000000 100644 0000000 e9e9df6 A	Aurora/testData/refactoring/typeCook/t48/after/test.java
+:000000 100644 0000000 e9e9df6 A	Aurora/testData/refactoring/typeCook/t48/before/test.java
+:100644 100644 a818c3f 605a421 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit f223c96800412fcd69451a346c5354854f027ecc d02b94e5196b9f059b8f1627c10d2fa6e0d21d77
+Author: db <>
+Date:   Fri Sep 5 12:03:30 2003 +0000
+
+    no message
+
+:100644 100644 a3c84ef 0fc2a36 M	Aurora/source/com/intellij/refactoring/typeCook/Assignable.java
+:100644 100644 46f56fa 94aece9 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:000000 100644 0000000 d2a5b19 A	Aurora/source/com/intellij/refactoring/typeCook/MethodParameterRole.java
+:000000 100644 0000000 93be49f A	Aurora/source/com/intellij/refactoring/typeCook/MethodReturnRole.java
+:000000 100644 0000000 83ab328 A	Aurora/testData/refactoring/typeCook/t39/after/Test.1.graph
+:000000 100644 0000000 5b241e5 A	Aurora/testData/refactoring/typeCook/t39/after/Test.graph
+:000000 100644 0000000 bc8535d A	Aurora/testData/refactoring/typeCook/t39/after/test.java
+:000000 100644 0000000 bc8535d A	Aurora/testData/refactoring/typeCook/t39/before/test.java
+:000000 100644 0000000 25d1839 A	Aurora/testData/refactoring/typeCook/t40/before/test.java
+:000000 100644 0000000 1cbca07 A	Aurora/testData/refactoring/typeCook/t41/after/Test.1.graph
+:000000 100644 0000000 b367e53 A	Aurora/testData/refactoring/typeCook/t41/after/Test.graph
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t41/after/test.java
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t41/before/test.java
+:000000 100644 0000000 8c18716 A	Aurora/testData/refactoring/typeCook/t42/before/test.java
+:000000 100644 0000000 5d4e0d8 A	Aurora/testData/refactoring/typeCook/t43/after/test.java
+:000000 100644 0000000 5d4e0d8 A	Aurora/testData/refactoring/typeCook/t43/before/test.java
+:000000 100644 0000000 bc50cfe A	Aurora/testData/refactoring/typeCook/t44/after/test.java
+:000000 100644 0000000 bc50cfe A	Aurora/testData/refactoring/typeCook/t44/before/test.java
+:000000 100644 0000000 3020754 A	Aurora/testData/refactoring/typeCook/t45/after/test.java
+:000000 100644 0000000 3020754 A	Aurora/testData/refactoring/typeCook/t45/before/test.java
+:000000 100644 0000000 84f4c48 A	Aurora/testData/refactoring/typeCook/t46/after/test.java
+:000000 100644 0000000 84f4c48 A	Aurora/testData/refactoring/typeCook/t46/before/test.java
+:000000 100644 0000000 26bb46e A	Aurora/testData/refactoring/typeCook/t47/after/Test.1.graph
+:000000 100644 0000000 fd8321d A	Aurora/testData/refactoring/typeCook/t47/after/Test.graph
+:000000 100644 0000000 5b2738f A	Aurora/testData/refactoring/typeCook/t47/after/test.java
+:000000 100644 0000000 5b2738f A	Aurora/testData/refactoring/typeCook/t47/before/test.java
+:100644 100644 e5f1830 a818c3f M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 3bace3f80de9b1b2613457209853eca3544d6847 925e5e1f73322855e3b9fd4a24bfefb0a484324a
+Author: db <>
+Date:   Wed Sep 3 11:03:51 2003 +0000
+
+    no message
+
+:100644 100644 da81c37 46f56fa M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+
+commit 1873374134d73aaa6fbec3c15b58d099d9a2ea2e 798e30632d7c67c2dec6137ee1c0a8a22ad4c179
+Author: db <>
+Date:   Fri Aug 29 16:28:07 2003 +0000
+
+    no message
+
+:100644 100644 80530b3 e16fbd2 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 b9dd3f2 cfe1955 M	Aurora/source/com/intellij/refactoring/typeCook/Unifier.java
+:100644 100644 f43705e 7feb415 M	Aurora/testData/refactoring/typeCook/t18/after/Test.1.graph
+:000000 100644 0000000 7928eef A	Aurora/testData/refactoring/typeCook/t37/after/Test.1.graph
+:000000 100644 0000000 e995114 A	Aurora/testData/refactoring/typeCook/t37/after/Test.graph
+:000000 100644 0000000 c0bc9cc A	Aurora/testData/refactoring/typeCook/t37/after/test.java
+:000000 100644 0000000 c0bc9cc A	Aurora/testData/refactoring/typeCook/t37/before/test.java
+:000000 100644 0000000 11d47d1 A	Aurora/testData/refactoring/typeCook/t38/after/Test.1.graph
+:000000 100644 0000000 ec39e6b A	Aurora/testData/refactoring/typeCook/t38/after/Test.graph
+:000000 100644 0000000 8837a7b A	Aurora/testData/refactoring/typeCook/t38/after/test.java
+:000000 100644 0000000 8837a7b A	Aurora/testData/refactoring/typeCook/t38/before/test.java
+:100644 100644 aad225c e5f1830 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit a008b906dc44390a3ab7ab2de8b21c9bf05ac2db f2c392d85c53904ddea1bafa5d1b0c299702793c
+Author: db <>
+Date:   Tue Jun 3 10:04:49 2003 +0000
+
+    no message
+
+commit 3b7abbd74309752798657245b0c54c5de6f23de1 050544b843773c0780c487c495329432a67761e7
+Author: db <>
+Date:   Tue Jun 3 09:35:43 2003 +0000
+
+    no message
+
+:100644 100644 3f0734d 202ca2b M	Aurora/source/com/intellij/psi/impl/DebugUtil.java
+:100644 100644 762dc26 2fac483 M	Aurora/testSource/com/intellij/psi/java/JavadocParsingTest.java
+
+commit 050544b843773c0780c487c495329432a67761e7 2789dced49e8ae90b0ae4b1487644e93b2fd04b5
+Author: db <>
+Date:   Tue Jun 3 09:34:17 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 e70a6f6 A	Aurora/testData/psi/java/javadocParsing/Adjacent01.java
+:000000 100644 0000000 d99ff76 A	Aurora/testData/psi/java/javadocParsing/Adjacent01.txt
+:000000 100644 0000000 b03bef0 A	Aurora/testData/psi/java/javadocParsing/InlineTag3.java
+:000000 100644 0000000 b1b75c8 A	Aurora/testData/psi/java/javadocParsing/InlineTag3.txt
+:000000 100644 0000000 b01ea7b A	Aurora/testData/psi/java/javadocParsing/Separated01.java
+:000000 100644 0000000 f6dcfc0 A	Aurora/testData/psi/java/javadocParsing/Separated01.txt
+:000000 100644 0000000 41757b0 A	Aurora/testData/psi/java/javadocParsing/Symbols01.java
+:000000 100644 0000000 0d88240 A	Aurora/testData/psi/java/javadocParsing/Symbols01.txt
+:000000 100644 0000000 36a6d32 A	Aurora/testData/psi/java/javadocParsing/Symbols02.java
+:000000 100644 0000000 fc45c48 A	Aurora/testData/psi/java/javadocParsing/Symbols02.txt
+:000000 100644 0000000 75c8c9a A	Aurora/testData/psi/java/javadocParsing/Symbols03.java
+:000000 100644 0000000 2e1e8a3 A	Aurora/testData/psi/java/javadocParsing/Symbols03.txt
+:000000 100644 0000000 6efc679 A	Aurora/testData/psi/java/javadocParsing/Symbols04.java
+:000000 100644 0000000 8e2c783 A	Aurora/testData/psi/java/javadocParsing/Symbols04.txt
+:000000 100644 0000000 383e366 A	Aurora/testData/psi/java/javadocParsing/Symbols05.java
+:000000 100644 0000000 157abba A	Aurora/testData/psi/java/javadocParsing/Symbols05.txt
+
+commit 8b3df7b92d2d036721eab6d2d7939d368cb6fb7b b75365dd81dd5563ca74a686bb52df0dec384378
+Author: db <>
+Date:   Mon Jun 2 18:50:01 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 a918ee7 a890c50 M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit d8472659446019b59dec4de5fa9199daca9af0b3 8af7370900e654958a57978a24fe3de757d5155e
+Author: db <>
+Date:   Fri May 30 19:15:54 2003 +0000
+
+    no message
+
+commit a9121bc7bb25302ae263026f7eecfbbe24e900e5 d97829bc3732db75a8c672440dfd0d81a10663b5
+Author: db <>
+Date:   Fri May 30 18:52:56 2003 +0000
+
+    no message
+
+:100644 100644 b93c511 035455d M	Aurora/source/com/intellij/psi/impl/source/parsing/ParseUtil.java
+
+commit de5b2d51267820ce82f5d82955648a7c95d040a9 113cfd9fbf576841cccf0d4c2c3527e617ca822d
+Author: db <>
+Date:   Fri May 30 16:52:34 2003 +0000
+
+    no message
+
+:100644 100644 1131596 a9bbdcb M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 7b3bae6 b93c511 M	Aurora/source/com/intellij/psi/impl/source/parsing/ParseUtil.java
+
+commit 7b87571f0d230ca803f3e07bb630431fd5f27495 1c29c97fe172b34d0fb892b5aad05eaecb40e6f4
+Author: db <>
+Date:   Tue May 27 16:49:15 2003 +0000
+
+    no message
+
+:100644 100644 d07392e b52174b M	Aurora/source/com/intellij/intellijac/CompileAction.java
+
+commit 7832543f6ca16b41abf5cbf703d29ca45b05266d 8a114571a6c117c30689cb47c6861c88d043db20
+Author: db <>
+Date:   Mon May 26 15:27:28 2003 +0000
+
+    no message
+
+:100644 100644 fbc23f5 f3284e5 M	Aurora/source/com/intellij/intellijac/impl/clarifier/CastEmitter.java
+:100644 100644 420dc13 48ce65a M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Closure.java
+:000000 100644 0000000 7cfbcd6 A	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/ClosureGen.java
+:100644 100644 96c8a9b 5e9bc1e M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/MemberInfo.java
+:100644 100644 a7d850f 3d09353 M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/ReferenceInfo.java
+:100644 100644 562cbb9 50f57aa M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Resolver.java
+:100644 100644 b4619d6 e93d815 M	Aurora/source/com/intellij/intellijac/impl/clarifier/toStringEmitter.java
+:100644 100644 f7009fd 5f4b71a M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 f9189c1 532cfa8 M	Aurora/source/com/intellij/intellijac/impl/env/Util.java
+:100644 100644 6538c48 28239b0 M	Aurora/source/com/intellij/intellijac/impl/generator/GenOperations.java
+:100644 100644 8a9b229 6db72c5 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 54fb2b7 fae18fd M	Aurora/source/com/intellij/intellijac/impl/generator/LocalVariables.java
+:100644 100644 213593a a793b63 M	Aurora/source/com/intellij/intellijac/impl/generator/TypesHash.java
+
+commit 05415750975530620f088f6892ce4c9fb894db04 1286160bff0585c2c501a967d0556ff379503319
+Author: db <>
+Date:   Fri May 23 17:00:28 2003 +0000
+
+    no message
+
+:100644 100644 84eb463 d5b15a4 M	Aurora/source/com/intellij/psi/impl/source/parsing/JavadocParsing.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit d8472659446019b59dec4de5fa9199daca9af0b3 8af7370900e654958a57978a24fe3de757d5155e
+Author: db <>
+Date:   Fri May 30 19:15:54 2003 +0000
+
+    no message
+
+commit a9121bc7bb25302ae263026f7eecfbbe24e900e5 d97829bc3732db75a8c672440dfd0d81a10663b5
+Author: db <>
+Date:   Fri May 30 18:52:56 2003 +0000
+
+    no message
+
+:100644 100644 b93c511 035455d M	Aurora/source/com/intellij/psi/impl/source/parsing/ParseUtil.java
+
+commit de5b2d51267820ce82f5d82955648a7c95d040a9 113cfd9fbf576841cccf0d4c2c3527e617ca822d
+Author: db <>
+Date:   Fri May 30 16:52:34 2003 +0000
+
+    no message
+
+:100644 100644 1131596 a9bbdcb M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 7b3bae6 b93c511 M	Aurora/source/com/intellij/psi/impl/source/parsing/ParseUtil.java
+
+commit 7b87571f0d230ca803f3e07bb630431fd5f27495 1c29c97fe172b34d0fb892b5aad05eaecb40e6f4
+Author: db <>
+Date:   Tue May 27 16:49:15 2003 +0000
+
+    no message
+
+:100644 100644 d07392e b52174b M	Aurora/source/com/intellij/intellijac/CompileAction.java
+
+commit 7832543f6ca16b41abf5cbf703d29ca45b05266d 8a114571a6c117c30689cb47c6861c88d043db20
+Author: db <>
+Date:   Mon May 26 15:27:28 2003 +0000
+
+    no message
+
+:100644 100644 fbc23f5 f3284e5 M	Aurora/source/com/intellij/intellijac/impl/clarifier/CastEmitter.java
+:100644 100644 420dc13 48ce65a M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Closure.java
+:000000 100644 0000000 7cfbcd6 A	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/ClosureGen.java
+:100644 100644 96c8a9b 5e9bc1e M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/MemberInfo.java
+:100644 100644 a7d850f 3d09353 M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/ReferenceInfo.java
+:100644 100644 562cbb9 50f57aa M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Resolver.java
+:100644 100644 b4619d6 e93d815 M	Aurora/source/com/intellij/intellijac/impl/clarifier/toStringEmitter.java
+:100644 100644 f7009fd 5f4b71a M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 f9189c1 532cfa8 M	Aurora/source/com/intellij/intellijac/impl/env/Util.java
+:100644 100644 6538c48 28239b0 M	Aurora/source/com/intellij/intellijac/impl/generator/GenOperations.java
+:100644 100644 8a9b229 6db72c5 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 54fb2b7 fae18fd M	Aurora/source/com/intellij/intellijac/impl/generator/LocalVariables.java
+:100644 100644 213593a a793b63 M	Aurora/source/com/intellij/intellijac/impl/generator/TypesHash.java
+
+commit 05415750975530620f088f6892ce4c9fb894db04 1286160bff0585c2c501a967d0556ff379503319
+Author: db <>
+Date:   Fri May 23 17:00:28 2003 +0000
+
+    no message
+
+:100644 100644 84eb463 d5b15a4 M	Aurora/source/com/intellij/psi/impl/source/parsing/JavadocParsing.java
+
+commit 416d0854aa04a54244f74b898083ba6b011c6085 b15ea93f75c46cfa93a96deb1a72da28d0a9561b
+Author: db <>
+Date:   Fri May 23 14:25:27 2003 +0000
+
+    no message
+
+:100644 100644 4c80c47 715204e M	Aurora/build/update.sh
+:100644 100644 0913813 1131596 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 1e1dc70 bd3ac8d M	Aurora/source/com/intellij/lexer/JavaHighlightingLexer.java
+:100644 100644 65bdfbf 8d3605b M	Aurora/source/com/intellij/lexer/_JavaDocLexer.java
+:100644 100644 9cf0339 5d793e0 M	Aurora/source/com/intellij/psi/impl/source/parsing/ChameleonTransforming.java
+:100644 100644 e229c7b 84eb463 M	Aurora/source/com/intellij/psi/impl/source/parsing/JavadocParsing.java
+:100644 100644 0bdb699 762dc26 M	Aurora/testSource/com/intellij/psi/java/JavadocParsingTest.java
+:100644 100644 8253c11 e48d020 M	Aurora/tools/lexer/_JavaDocLexer.lex
+
+commit cf0adaf2c8989def6c252e3c25fea0145424afe2 1a54b9beb8b00d8f2eb9c2e65832680bf887ca51
+Author: db <>
+Date:   Tue May 20 17:03:48 2003 +0000
+
+    no message
+
+:100644 100644 99532fa 420dc13 M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Closure.java
+
+commit 1a54b9beb8b00d8f2eb9c2e65832680bf887ca51 521042cf123d8a9181fc4978719a8409ae09a33b
+Author: db <>
+Date:   Tue May 20 16:57:47 2003 +0000
+
+    no message
+
+:100644 100644 f353073 4df0f46 M	Aurora/source/com/intellij/intellijac/impl/env/Util.java
+
+commit a0fe5cd377a91ec1dc1a735235ffb8add799a1f7 7ba7f78b89818d1934fe20ce9df2133417a9a921
+Author: db <>
+Date:   Tue May 20 16:46:59 2003 +0000
+
+    no message
+
+:100644 100644 75cff34 6538c48 M	Aurora/source/com/intellij/intellijac/impl/generator/GenOperations.java
+:100644 100644 e17cf62 80a2f9a M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 e577e2d 213593a M	Aurora/source/com/intellij/intellijac/impl/generator/TypesHash.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 20e349fe2a35a0cd502a66066fb00feec774e1b9 7c48f6f84adb97e030a98d045afcf4dbdc071480
+Author: db <>
+Date:   Mon May 19 16:01:57 2003 +0000
+
+    no message
+
+commit f88336533219ab16d14eae8db750d00c3b648a55 1c4f727a01cea913e0e3e9e80259463d9c84f5ca
+Author: db <>
+Date:   Mon May 19 13:45:57 2003 +0000
+
+    no message
+
+:100644 100644 8b844a1 b841658 M	Aurora/source/com/intellij/lexer/_JavaDocLexer.java
+:100644 100644 8253c11 b613ade M	Aurora/tools/lexer/_JavaDocLexer.lex
+
+commit 9330758316c1f33c324e9cea106eba398d6e4799 83cc7efb539d30496e5f7056e8d92297e75c226e
+Author: db <>
+Date:   Mon May 19 13:27:21 2003 +0000
+
+    no message
+
+commit 88bf6a9ab60d3b1dcc209a3ada2e86fdbbea5e4e 249326bf0c0178031dc57ac344dc6b77d65e876f
+Author: db <>
+Date:   Mon May 19 13:24:35 2003 +0000
+
+    no message
+
+commit 249326bf0c0178031dc57ac344dc6b77d65e876f 34c4b713c684c5cc2c3c82d91ff211ca512b32ce
+Author: db <>
+Date:   Mon May 19 13:22:04 2003 +0000
+
+    no message
+
+:000000 100644 0000000 977ff61 A	Aurora/tools/lexer/make.sh
+:000000 100644 0000000 321d8f6 A	Aurora/tools/lexer/run.sh
+
+commit 0f0ab0a6594fcab15eb107ddb22dd33a78c6fc1f 6c379cb3175c3a51ac26440925c0f0b1d5d5b447
+Author: db <>
+Date:   Fri May 16 20:02:39 2003 +0000
+
+    no message
+
+:100644 100644 ad5eb69 8342d6e M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 19b087c a918ee7 M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit d0f14c53f5696e5b8177a5959bf6f36a56ff4bb0 6d66337bb565912baf2494989866d4cd28be6152
+Author: db <>
+Date:   Thu May 15 15:36:44 2003 +0000
+
+    no message
+
+:100644 100644 a2c173b d9a87ad M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 1bc0600 5af177b M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:100644 100644 5fec796 19b087c M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit 2ac6be63457721bc110c75ad5c7a3630b82eb0e4 b25c73526779978ed3644271aa4d55b64e18edd6
+Author: db <>
+Date:   Tue May 13 18:08:20 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 dfc1bf7 99532fa M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Closure.java
+:100644 100644 df447df 4d65d3b M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 aaca223 f353073 M	Aurora/source/com/intellij/intellijac/impl/env/Util.java
+:100644 100644 e45679a e17cf62 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 0750694 54fb2b7 M	Aurora/source/com/intellij/intellijac/impl/generator/LocalVariables.java
+
+commit b25c73526779978ed3644271aa4d55b64e18edd6 09bd2881963a7f37edc38d1112b5a5f67b73063b
+Author: db <>
+Date:   Tue May 13 17:58:39 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 b642a4e A	Aurora/testData/intellijac/anonymous/anonym05.java
+:000000 100644 0000000 5b0cffb A	Aurora/testData/intellijac/anonymous/output/anonym05.run
+
+commit 55cef46e3814c9aef03bd390055783e6487e8c90 8e447eb21324d7aacc09c05834ac6d867e60631d
+Author: db <>
+Date:   Tue May 13 16:06:28 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 5b73583 A	Aurora/testData/intellijac/anonymous/anonym06.java
+:000000 100644 0000000 da750d2 A	Aurora/testData/intellijac/anonymous/anonym07.java
+:000000 100644 0000000 3e065a5 A	Aurora/testData/intellijac/anonymous/anonym08.java
+:000000 100644 0000000 f1efb20 A	Aurora/testData/intellijac/anonymous/output/anonym06.run
+:000000 100644 0000000 c2f5311 A	Aurora/testData/intellijac/anonymous/output/anonym07.run
+:000000 100644 0000000 c2f5311 A	Aurora/testData/intellijac/anonymous/output/anonym08.run
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 9330758316c1f33c324e9cea106eba398d6e4799 83cc7efb539d30496e5f7056e8d92297e75c226e
+Author: db <>
+Date:   Mon May 19 13:27:21 2003 +0000
+
+    no message
+
+commit 88bf6a9ab60d3b1dcc209a3ada2e86fdbbea5e4e 249326bf0c0178031dc57ac344dc6b77d65e876f
+Author: db <>
+Date:   Mon May 19 13:24:35 2003 +0000
+
+    no message
+
+commit 249326bf0c0178031dc57ac344dc6b77d65e876f 34c4b713c684c5cc2c3c82d91ff211ca512b32ce
+Author: db <>
+Date:   Mon May 19 13:22:04 2003 +0000
+
+    no message
+
+:000000 100644 0000000 977ff61 A	Aurora/tools/lexer/make.sh
+:000000 100644 0000000 321d8f6 A	Aurora/tools/lexer/run.sh
+
+commit 0f0ab0a6594fcab15eb107ddb22dd33a78c6fc1f 6c379cb3175c3a51ac26440925c0f0b1d5d5b447
+Author: db <>
+Date:   Fri May 16 20:02:39 2003 +0000
+
+    no message
+
+:100644 100644 ad5eb69 8342d6e M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 19b087c a918ee7 M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit d0f14c53f5696e5b8177a5959bf6f36a56ff4bb0 6d66337bb565912baf2494989866d4cd28be6152
+Author: db <>
+Date:   Thu May 15 15:36:44 2003 +0000
+
+    no message
+
+:100644 100644 a2c173b d9a87ad M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 1bc0600 5af177b M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:100644 100644 5fec796 19b087c M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit 2ac6be63457721bc110c75ad5c7a3630b82eb0e4 b25c73526779978ed3644271aa4d55b64e18edd6
+Author: db <>
+Date:   Tue May 13 18:08:20 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 dfc1bf7 99532fa M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Closure.java
+:100644 100644 df447df 4d65d3b M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 aaca223 f353073 M	Aurora/source/com/intellij/intellijac/impl/env/Util.java
+:100644 100644 e45679a e17cf62 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 0750694 54fb2b7 M	Aurora/source/com/intellij/intellijac/impl/generator/LocalVariables.java
+
+commit b25c73526779978ed3644271aa4d55b64e18edd6 09bd2881963a7f37edc38d1112b5a5f67b73063b
+Author: db <>
+Date:   Tue May 13 17:58:39 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 b642a4e A	Aurora/testData/intellijac/anonymous/anonym05.java
+:000000 100644 0000000 5b0cffb A	Aurora/testData/intellijac/anonymous/output/anonym05.run
+
+commit 55cef46e3814c9aef03bd390055783e6487e8c90 8e447eb21324d7aacc09c05834ac6d867e60631d
+Author: db <>
+Date:   Tue May 13 16:06:28 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 5b73583 A	Aurora/testData/intellijac/anonymous/anonym06.java
+:000000 100644 0000000 da750d2 A	Aurora/testData/intellijac/anonymous/anonym07.java
+:000000 100644 0000000 3e065a5 A	Aurora/testData/intellijac/anonymous/anonym08.java
+:000000 100644 0000000 f1efb20 A	Aurora/testData/intellijac/anonymous/output/anonym06.run
+:000000 100644 0000000 c2f5311 A	Aurora/testData/intellijac/anonymous/output/anonym07.run
+:000000 100644 0000000 c2f5311 A	Aurora/testData/intellijac/anonymous/output/anonym08.run
+
+commit 8fd3e998fe7381ce5a4498b92d5f112891bdbc0b 1cc5d4c8e68873e5530763d6928d296135492ead
+Author: db <>
+Date:   Tue May 13 08:27:15 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 0d26ca9 f7f48b6 M	Aurora/aurora-oldroots.ipr
+
+commit 4f00826072f37d3695b9d0ce76024da0020adbf4 576fe8941c8b90dbfc11cea86b980630a1a13f4f
+Author: db <>
+Date:   Mon May 12 19:00:28 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 886cf0d de10d6f M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/MethodInfo.java
+:100644 100644 4cb00e9 df447df M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 bebb6d5 e45679a M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:000000 100644 0000000 e012bb9 A	Aurora/testData/intellijac/anonymous/anonym02.java
+:100644 100644 a247bde d15a2cc M	Aurora/testData/intellijac/anonymous/output/anonym02.run
+:100644 100644 7e0596c 1ec264a M	Aurora/testSource/com/intellij/intellijac/CompileProjectTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 88bf6a9ab60d3b1dcc209a3ada2e86fdbbea5e4e 249326bf0c0178031dc57ac344dc6b77d65e876f
+Author: db <>
+Date:   Mon May 19 13:24:35 2003 +0000
+
+    no message
+
+commit 249326bf0c0178031dc57ac344dc6b77d65e876f 34c4b713c684c5cc2c3c82d91ff211ca512b32ce
+Author: db <>
+Date:   Mon May 19 13:22:04 2003 +0000
+
+    no message
+
+:000000 100644 0000000 977ff61 A	Aurora/tools/lexer/make.sh
+:000000 100644 0000000 321d8f6 A	Aurora/tools/lexer/run.sh
+
+commit 0f0ab0a6594fcab15eb107ddb22dd33a78c6fc1f 6c379cb3175c3a51ac26440925c0f0b1d5d5b447
+Author: db <>
+Date:   Fri May 16 20:02:39 2003 +0000
+
+    no message
+
+:100644 100644 ad5eb69 8342d6e M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 19b087c a918ee7 M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit d0f14c53f5696e5b8177a5959bf6f36a56ff4bb0 6d66337bb565912baf2494989866d4cd28be6152
+Author: db <>
+Date:   Thu May 15 15:36:44 2003 +0000
+
+    no message
+
+:100644 100644 a2c173b d9a87ad M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 1bc0600 5af177b M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+:100644 100644 5fec796 19b087c M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit 2ac6be63457721bc110c75ad5c7a3630b82eb0e4 b25c73526779978ed3644271aa4d55b64e18edd6
+Author: db <>
+Date:   Tue May 13 18:08:20 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 dfc1bf7 99532fa M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Closure.java
+:100644 100644 df447df 4d65d3b M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 aaca223 f353073 M	Aurora/source/com/intellij/intellijac/impl/env/Util.java
+:100644 100644 e45679a e17cf62 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 0750694 54fb2b7 M	Aurora/source/com/intellij/intellijac/impl/generator/LocalVariables.java
+
+commit b25c73526779978ed3644271aa4d55b64e18edd6 09bd2881963a7f37edc38d1112b5a5f67b73063b
+Author: db <>
+Date:   Tue May 13 17:58:39 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 b642a4e A	Aurora/testData/intellijac/anonymous/anonym05.java
+:000000 100644 0000000 5b0cffb A	Aurora/testData/intellijac/anonymous/output/anonym05.run
+
+commit 55cef46e3814c9aef03bd390055783e6487e8c90 8e447eb21324d7aacc09c05834ac6d867e60631d
+Author: db <>
+Date:   Tue May 13 16:06:28 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 5b73583 A	Aurora/testData/intellijac/anonymous/anonym06.java
+:000000 100644 0000000 da750d2 A	Aurora/testData/intellijac/anonymous/anonym07.java
+:000000 100644 0000000 3e065a5 A	Aurora/testData/intellijac/anonymous/anonym08.java
+:000000 100644 0000000 f1efb20 A	Aurora/testData/intellijac/anonymous/output/anonym06.run
+:000000 100644 0000000 c2f5311 A	Aurora/testData/intellijac/anonymous/output/anonym07.run
+:000000 100644 0000000 c2f5311 A	Aurora/testData/intellijac/anonymous/output/anonym08.run
+
+commit 8fd3e998fe7381ce5a4498b92d5f112891bdbc0b 1cc5d4c8e68873e5530763d6928d296135492ead
+Author: db <>
+Date:   Tue May 13 08:27:15 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 0d26ca9 f7f48b6 M	Aurora/aurora-oldroots.ipr
+
+commit 4f00826072f37d3695b9d0ce76024da0020adbf4 576fe8941c8b90dbfc11cea86b980630a1a13f4f
+Author: db <>
+Date:   Mon May 12 19:00:28 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 886cf0d de10d6f M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/MethodInfo.java
+:100644 100644 4cb00e9 df447df M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 bebb6d5 e45679a M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:000000 100644 0000000 e012bb9 A	Aurora/testData/intellijac/anonymous/anonym02.java
+:100644 100644 a247bde d15a2cc M	Aurora/testData/intellijac/anonymous/output/anonym02.run
+:100644 100644 7e0596c 1ec264a M	Aurora/testSource/com/intellij/intellijac/CompileProjectTest.java
+
+commit 21236b4a8c02b8c1d22c2e24a0741a2359942406 61f70265438c1bd7c697c923429e680153598f41
+Author: db <>
+Date:   Mon May 12 16:29:33 2003 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 eb6f1ca A	Aurora/testData/intellijac/anonymous/anonym01.java
+:000000 100644 0000000 4013f34 A	Aurora/testData/intellijac/anonymous/anonym03.java
+:000000 100644 0000000 13cae88 A	Aurora/testData/intellijac/anonymous/anonym04.java
+:000000 100644 0000000 2eda9ce A	Aurora/testData/intellijac/anonymous/output/anonym01.run
+:000000 100644 0000000 a247bde A	Aurora/testData/intellijac/anonymous/output/anonym02.run
+:000000 100644 0000000 64bb6b7 A	Aurora/testData/intellijac/anonymous/output/anonym03.run
+:000000 100644 0000000 00750ed A	Aurora/testData/intellijac/anonymous/output/anonym04.run
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit ad0325aca85c4d58e842f7e6b0bd532f5ad56d0a 108baba6c805faf09ede43bc4096f4022bf5b0a6
+Author: db <>
+Date:   Thu May 8 11:17:56 2003 +0000
+
+    no message
+
+commit 644f927a511015347715f80815127852e69f44ec 6260d6fab66e8648e1b2c6fec463aa0af4b6517b
+Author: db <>
+Date:   Thu May 8 11:08:25 2003 +0000
+
+    no message
+
+:100644 100644 1cbff40 5fec796 M	Aurora/source/com/intellij/ide/BrowserUtil.java
+
+commit a2a959e484f9ee435989de6d65ff67f5a4bd161d e709cd19d1a64e755b4f603eaefbc1c209c193ff
+Author: db <>
+Date:   Thu May 8 09:19:17 2003 +0000
+
+    no message
+
+:000000 100644 0000000 d07392e A	Aurora/source/com/intellij/intellijac/CompileAction.java
+
+commit 45aeabe01b024d605ac7e4a5a93fd7e6237d49ea 7f537304ddaa8e3c258c1ae3b39b1d0f4600bd2c
+Author: db <>
+Date:   Mon May 5 11:53:56 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 94d5819 a2c173b M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 0ffcf61 7b56b76 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 f8b2bd5 1bc0600 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+
+commit 724bc7c83bc05ac38df09fcf80b816acb3a2840c 8c34dccd6b3cfbe8b247dcf5d8878747f5747db0
+Author: db <>
+Date:   Sat May 3 16:59:44 2003 +0000
+
+    no message
+
+:100644 100644 4e83a00 94d5819 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 624614a 0ffcf61 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoGenerator.java
+:100644 100644 071fc27 f8b2bd5 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+
+commit a46016a11e264ac1d863ea5009f7ef01373cd10e 4a6034cd8a36f5edf5787d02ed4a940199f45bc7
+Author: db <>
+Date:   Fri May 2 12:53:03 2003 +0000
+
+    no message
+
+:000000 100644 0000000 4e83a00 A	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocExternalFilter.java
+:100644 100644 68293c2 071fc27 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+
+commit f01f7e0146b24181924b9c482f107f3070ecc403 60ea8435c92f5b8c16d9b60d314b7e692caa0d3a
+Author: db <>
+Date:   Tue Apr 29 18:26:31 2003 +0000
+
+    no message
+
+:100644 100644 128f028 68293c2 M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+
+commit d986642422e35125c81d0c4c342841cbf016a351 004e7597b61c14de5a60cde90bcd2768046db14c
+Author: db <>
+Date:   Tue Apr 22 14:43:51 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 bbfef21 dc1d8f0 M	Aurora/resources/componentSets/Misc.xml
+:000000 100644 0000000 3b8d930 A	Aurora/source/com/intellij/intellijac/IntelliJacManager.java
+:100644 100644 093e828 07a0e6d M	Aurora/source/com/intellij/intellijac/Intellijac.java
+:100644 100644 6afbbce f9c86df M	Aurora/source/com/intellij/intellijac/impl/clarifier/Conditions.java
+:100644 100644 8a12f8e 569d6af M	Aurora/source/com/intellij/intellijac/impl/clarifier/Convertor.java
+:100644 100644 0ab781e 80fd138 M	Aurora/source/com/intellij/intellijac/impl/clarifier/resolve/Resolver.java
+:100644 100644 46eb727 b4619d6 M	Aurora/source/com/intellij/intellijac/impl/clarifier/toStringEmitter.java
+:100644 100644 06325f7 574df0e M	Aurora/source/com/intellij/intellijac/impl/generator/GenOperations.java
+:100644 100644 5aaa91c 0c80ab7 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 a1d1bb6 0750694 M	Aurora/source/com/intellij/intellijac/impl/generator/LocalVariables.java
+:100644 100644 c3cf99e 8471ebc M	Aurora/source/com/intellij/intellijac/internal/CompileAction.java
+:100644 100644 17c7c83 bde73bd M	Aurora/source/com/intellij/openapi/wm/ToolWindowId.java
+
+commit 0e0e7c1a94106c5d4b1a8d8fd3b63c53bf8a4c30 c2257aa29c0a9d4e60dfabb57a5986cbc19b9295
+Author: db <>
+Date:   Sat Apr 19 18:55:47 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 d1ff7a4 9bcd4e7 M	Aurora/source/com/intellij/intellijac/impl/env/Context.java
+:100644 100644 2656d2f 8efc8d1 M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+:100644 100644 00750ed e440e5c M	Aurora/testData/intellijac/innerClass/output/inner01.run
+:100644 100644 00750ed e440e5c M	Aurora/testData/intellijac/innerClass/output/inner02.run
+:100644 100644 00750ed e440e5c M	Aurora/testData/intellijac/innerClass/output/inner03.run
+:100644 100644 45a4fb7 301160a M	Aurora/testData/intellijac/innerClass/output/inner05.run
+:100644 100644 d15a2cc e3f1e9b M	Aurora/testData/intellijac/innerClass/output/inner06.run
+:100644 100644 45a4fb7 301160a M	Aurora/testData/intellijac/innerClass/output/inner07.run
+:100644 100644 1191247 7a754f4 M	Aurora/testData/intellijac/innerClass/output/inner08.run
+:100644 100644 29d6383 105d7d9 M	Aurora/testData/intellijac/innerClass/output/inner09.run
+:100644 100644 105d7d9 29d6383 M	Aurora/testData/intellijac/innerClass/output/inner13.run
+
+commit c2257aa29c0a9d4e60dfabb57a5986cbc19b9295 3004fc3878b1549dc5ff75b8fa52f6cf46e8f409
+Author: db <>
+Date:   Sat Apr 19 14:44:28 2003 +0000
+
+    *** empty log message ***
+
+:100644 100644 17fbfb1 3df65ad M	Aurora/mockJDK/src.zip

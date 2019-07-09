@@ -1,0 +1,168 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 77b060f13f1a33747eb32d8834addf616d6c58ac 75dbae472ab1ce3baa3887b4baa52205f1f0fb1e
+Author: mike <>
+Date:   Fri Jun 20 18:35:40 2003 +0000
+
+    no message
+
+commit 75dbae472ab1ce3baa3887b4baa52205f1f0fb1e cfc9b9d80e1a684b328a961bd6057d380107a831
+Author: mike <>
+Date:   Fri Jun 20 18:34:28 2003 +0000
+
+    no message
+
+:100644 100644 8751ca2 a0bb554 M	Aurora/source/com/intellij/psi/PsiCodeFragment.java
+:100644 100644 163283c a7c199b M	Aurora/source/com/intellij/psi/impl/source/PsiCodeFragmentImpl.java
+:100644 100644 71d1db0 bea3284 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiThisExpressionImpl.java
+
+commit 1c70f6d09c280d1512c6233c5fa3c3e1129dab6b 06e544f5a189fdbc19ba43894b1980b1e181a307
+Author: mike <>
+Date:   Thu Jun 19 16:34:03 2003 +0000
+
+    no message
+
+:100644 100644 7a5343d 6777c3d M	Aurora/resources/componentSets/Core.xml
+
+commit 209dee034a4f2f7ec7b1cec108a14dcb7f4cd49e ec6ebf37de7a9cb2010f6e339fffae61ed377392
+Author: mike <>
+Date:   Thu Jun 19 16:15:49 2003 +0000
+
+    no message
+
+:100644 100644 a1c9916 d06d760 M	Aurora/testSource/com/intellij/mock/MockApplication.java
+
+commit ec6ebf37de7a9cb2010f6e339fffae61ed377392 79cc404d70bcc5ec653a915240c1272b922d7d99
+Author: mike <>
+Date:   Thu Jun 19 16:15:41 2003 +0000
+
+    no message
+
+:100644 100644 17e45d3 a1c9916 M	Aurora/testSource/com/intellij/mock/MockApplication.java
+
+commit 79cc404d70bcc5ec653a915240c1272b922d7d99 b4b12620956b026ec609d963d79fa5af7ff46856
+Author: mike <>
+Date:   Thu Jun 19 16:09:02 2003 +0000
+
+    no message
+
+:100644 100644 f753685 7a5343d M	Aurora/resources/componentSets/Core.xml
+:100644 100644 98f6994 7bb9c3e M	Aurora/source/com/intellij/openapi/application/ex/ApplicationEx.java
+:100644 100644 41617a0 91cfcac M	Aurora/source/com/intellij/openapi/application/impl/ApplicationImpl.java
+:100644 100644 b3c22e7 898ccd2 M	Aurora/source/com/intellij/psi/codeStyle/CodeStyleSchemes.java
+:100644 100644 ec5564c 0fa9287 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeStyleSchemesImpl.java
+
+commit 886e5d4152f4e9b63845f2f70e1e1f32856d6af4 dcffe7e225da25217e0b589929312ed8dba977bd
+Author: mike <>
+Date:   Mon Jun 16 18:51:43 2003 +0000
+
+    no message
+
+:100644 100644 15b818d d7d9912 M	Aurora/aurora.ipr
+
+commit dd8dc061015bbee1b2030d8c5d9510c46a8f7b53 e15b3dffadb702889c00f010779a352a9b7e365c
+Author: mike <>
+Date:   Thu Jun 5 17:46:29 2003 +0000
+
+    no message
+
+:100644 100644 33ab371 f699730 M	Aurora/aurora.iml
+:100644 100644 16da8f3 ffe59ba M	Aurora/aurora.ipr
+
+commit 6429afce0e0adbb1cd9382032984a63f5dc97468 131963e490a73d94161e0972e3fefcb1e201d5f4
+Author: mike <>
+Date:   Mon Jun 2 14:48:07 2003 +0000
+
+    no message
+
+:100644 100644 ad422bd 870e451 M	Aurora/source/com/intellij/psi/impl/source/PsiCodeFragmentImpl.java
+
+commit ce63e1b1b725449aaa6bcd7f8d1c6a971afceaf0 553a9eec0c0cb21631970e1a9fc24c572eeb2abc
+Author: mike <>
+Date:   Thu May 29 16:57:28 2003 +0000
+
+    no message
+
+:100644 100644 a129694 7911f59 M	Aurora/source/com/intellij/psi/PsiElementVisitor.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 14d9c686664aaeb8dd350320e8ff3c7c94300e40 8a4b2626c53f00dd191928c45b4f0e3f41426940
+Author: mike <>
+Date:   Thu May 29 16:12:27 2003 +0000
+
+    no message
+
+commit b84bce45974816416e8b13e77c90e255ee9c5fe2 8e5ede30b419235f1979511d416d3d56dba7f56d
+Author: mike <>
+Date:   Thu May 29 15:48:04 2003 +0000
+
+    no message
+
+:100644 100644 5674f2d 5d2faf6 M	Aurora/source/com/intellij/psi/meta/MetaRegistry.java
+
+commit 5f7ec10234546517caf1a3613cbf304c3efb94fc 2f0d85adb6881a7855664053cc7228b8a865c36f
+Author: mike <>
+Date:   Wed May 28 17:34:13 2003 +0000
+
+    no message
+
+:100644 100644 b917849 4979f94 M	Aurora/source/com/intellij/psi/PsiElementFactory.java
+:100644 100644 b59612c 05d160b M	Aurora/source/com/intellij/psi/impl/PsiElementFactoryImpl.java
+
+commit 504ebcca68b94210af4d3b11fe8153ee4429f6c2 76e321c6299d9a9d9a63dd9882d6b2e0767a356f
+Author: mike <>
+Date:   Mon May 26 18:40:08 2003 +0000
+
+    no message
+
+:100644 100644 14aaa75 68cffa2 M	Aurora/build/conf/log.xml
+
+commit 77ac51808f71135104ab69399bb5f6fc817f73af 128667d325b2e5044d102177f29d1980c099f973
+Author: mike <>
+Date:   Thu May 22 17:18:03 2003 +0000
+
+    no message
+
+:100644 100644 49c6d69 8261a51 M	Aurora/source/com/intellij/codeInsight/intention/impl/FetchExtResourceAction.java
+
+commit 05900ca39616f3b622fa90b1267b093a3e173036 b09abaef7f050634293e0fff70b4eaa0d41f94b2
+Author: mike <>
+Date:   Wed May 21 15:25:52 2003 +0000
+
+    no message
+
+:100644 100644 96e15fa 0c23930 M	Aurora/source/com/intellij/j2ee/module/view/ejb/EjbCMPFieldsTableModel.java
+
+commit 21e358856e6df8fb241dcf0d3c56959d913b42f2 fea3fb2741c8540e9681fd3c093782bcd46eb525
+Author: mike <>
+Date:   Wed May 21 14:56:57 2003 +0000
+
+    no message
+
+:100644 100644 5dff143 53ea730 M	Aurora/build/cygwin1.dll
+
+commit c3b7e99b265252b5f17765b6fc8bb0cce6da3d3d 0819e51a4af80e8ef8536d68f8c97adabf734d25
+Author: mike <>
+Date:   Wed May 21 11:37:32 2003 +0000
+
+    no message
+
+:100644 100644 ceec4c1 1002783 M	Aurora/source/com/intellij/psi/impl/file/impl/FileManagerImpl.java
+
+commit cb4d0028b24b22f0689f04fd8f3bd1c34dee1389 f7207cd90170de8f7321e06724e5c5e7fb988023
+Author: mike <>
+Date:   Wed May 14 08:50:37 2003 +0000
+
+    no message
+
+:100644 100644 77b9e2f 6ecd621 M	Aurora/source/com/intellij/psi/impl/file/impl/FileManagerImpl.java
+
+commit 1dd126bdd583eb19a450be7bc7de47beed270d67 4901741206aee3dd66f0cf4c4d461f4eac13eeb7
+Author: mike <>
+Date:   Wed Apr 23 16:15:15 2003 +0000
+
+    no message
+
+:100644 100644 8da2255 1f3200b M	Aurora/source/com/intellij/psi/impl/file/impl/FileManagerImpl.java

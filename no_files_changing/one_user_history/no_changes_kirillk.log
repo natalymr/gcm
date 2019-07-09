@@ -1,0 +1,167 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit e67c167c53222c12b6e57ff21d69aae876fb6b50 f114e87c63da424cdb5e267b5f772f741d3a88c1
+Author: kirillk <>
+Date:   Wed Oct 22 11:38:44 2003 +0000
+
+    oops, declaration statements inside code fragments allowed
+
+commit f114e87c63da424cdb5e267b5f772f741d3a88c1 67176392007066b5b07ece14ee4b8809a83b4f85
+Author: kirillk <>
+Date:   Wed Oct 22 11:35:04 2003 +0000
+
+    statements inside code fragments allowed
+
+:100644 100644 986834b d266853 M	Aurora/source/com/intellij/psi/util/PsiUtil.java
+
+commit d5348fc9c356d70db09d6c325344acc6ef4ee7a7 a82085cd25ec01aeec0dd929a69db311e51108eb
+Author: kirillk <>
+Date:   Tue Oct 14 08:15:19 2003 +0000
+
+    File chooser made protected
+
+:100644 100644 0ecef25 cf2b2de M	Aurora/source/com/intellij/openapi/fileChooser/FileChooser.java
+
+commit 60e62cba7866a3eb22b612c5e0a00596f51d7338 929b9a534a9de25dd80fb429ffd02dcfb8f52aa0
+Author: kirillk <>
+Date:   Tue Oct 14 07:22:04 2003 +0000
+
+    FileChooser made not final
+
+:100644 100644 1278eaa 0ecef25 M	Aurora/source/com/intellij/openapi/fileChooser/FileChooser.java
+
+commit 5581ca0d9aefca4bc76c4cdbd9a104e0000d80fb 3c247f0c94dff514d7c765c09a699a77e3a52336
+Author: kirillk <>
+Date:   Fri Sep 12 08:16:03 2003 +0000
+
+    some WM files were made public for Fabrique's sake
+
+:100644 100644 de04e4b d9b27bd M	Aurora/source/com/intellij/openapi/wm/impl/status/MemoryUsagePanel.java
+:100644 100644 137a2ad 7a0bfaa M	Aurora/source/com/intellij/openapi/wm/impl/status/PositionPanel.java
+:100644 100644 6978199 45dc82e M	Aurora/source/com/intellij/openapi/wm/impl/status/TextPanel.java
+:100644 100644 d2661a8 308e8ce M	Aurora/source/com/intellij/openapi/wm/impl/status/TogglePopupHintsPanel.java
+:100644 100644 531881a 3b5c596 M	Aurora/source/com/intellij/openapi/wm/impl/status/ToggleReadOnlyAttributePanel.java
+
+commit 3c247f0c94dff514d7c765c09a699a77e3a52336 d6f018c1e0d8531bc67c62b391be3882376cece8
+Author: kirillk <>
+Date:   Fri Sep 12 08:14:13 2003 +0000
+
+    some WM files were made protected for Fabrique's sake
+
+:100644 100644 8228e67 7bba092 M	Aurora/source/com/intellij/openapi/wm/impl/status/StatusBarImpl.java
+
+commit d6f018c1e0d8531bc67c62b391be3882376cece8 8daf7a0180beb92537606fcf30d28e7a089484f3
+Author: kirillk <>
+Date:   Fri Sep 12 07:40:24 2003 +0000
+
+    some WM files were made protected for Fabrique's sake
+
+:100644 100644 117ecf8 532fafb M	Aurora/source/com/intellij/openapi/wm/impl/IdeRootPane.java
+:100644 100644 dd39920 8228e67 M	Aurora/source/com/intellij/openapi/wm/impl/status/StatusBarImpl.java
+
+commit 55f45b5a6c7e6880d807749347d4e7e598dfb5a4 fd168971549a08dcd6c1022d9d3fcf3e3a072245
+Author: kirillk <>
+Date:   Wed Sep 10 09:47:07 2003 +0000
+
+    myProject2Frame was made back protected for Fabrique + constructor for ProjectImpl was made protected
+
+:100644 100644 7d2e1c4 092d1de M	Aurora/source/com/intellij/openapi/project/impl/ProjectImpl.java
+:100644 100644 4c8ee54 9553623 M	Aurora/source/com/intellij/openapi/wm/impl/WindowManagerImpl.java
+
+commit f2b45266bba6e78e773a7a6e28e3776a653dbb6e a78535775e6f0f287e7897642a2b967df5f07f9d
+Author: kirillk <>
+Date:   Tue Sep 9 06:50:55 2003 +0000
+
+    no message
+
+:100644 100644 bc48eff 7d2e1c4 M	Aurora/source/com/intellij/openapi/project/impl/ProjectImpl.java
+
+commit d3f5f066408e073972cf8389c71a3e8955e61071 93e490ac0a3b3ed65fccdfdb3697bcba366d7d34
+Author: kirillk <>
+Date:   Thu Aug 21 07:33:12 2003 +0000
+
+    oops
+
+:100644 100644 aa7a47d 596ffb9 M	Aurora/source/com/intellij/openapi/roots/impl/ProjectContentModelImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit ccfbfb293c2f6cf118e6c1191aa08317033d88c3 29fdbb0c0fc27aaed2c65cb23cbb3c345faf8608
+Author: kirillk <>
+Date:   Thu Jun 5 11:13:16 2003 +0000
+
+    no message
+
+commit 51f8891b1b7440be4cb71ac2037b5d4fd89a2cf4 89246f5f6fb739772ed0f7317171f58bc1d5c9b4
+Author: kirillk <>
+Date:   Wed Jun 4 08:44:52 2003 +0000
+
+    no message
+
+:100644 100644 6982c0f 33ab371 M	Aurora/aurora.iml
+
+commit 447f2549fc6f45b7b6b680a131d1a72338944890 5724485f59c6d1f9944cbfe1dab58f889651d384
+Author: kirillk <>
+Date:   Wed Jun 4 08:25:47 2003 +0000
+
+    no message
+
+:100644 100644 33ab371 6982c0f M	Aurora/aurora.iml
+:100644 100644 935bab8 b7b0b7f M	Aurora/aurora.ipr
+
+commit 08bb84486dc83ea0013e5f584d9310b71f043c12 58dd4fc9179275869d37dca8ebbf6071282388e0
+Author: kirillk <>
+Date:   Tue Jun 3 08:36:19 2003 +0000
+
+    no message
+
+:100644 100644 b94bf2c 76f9e2a M	Aurora/source/com/intellij/util/JDOMUtil.java
+
+commit 28cd01d278574ec9ed6b6438355f53afb9c39254 7baff6e03dbd0bff124fa9e44fa89db11269d892
+Author: kirillk <>
+Date:   Tue Jun 3 07:17:39 2003 +0000
+
+    no message
+
+:100644 100644 aead073 33ab371 M	Aurora/aurora.iml
+
+commit 7baff6e03dbd0bff124fa9e44fa89db11269d892 839f3eda27d488e168e6d5bfa6a297c9398118d4
+Author: kirillk <>
+Date:   Tue Jun 3 06:26:05 2003 +0000
+
+    no message
+
+:100644 100644 d2df5e0 070d8a4 M	Aurora/source/com/intellij/ui/customEditor/impl/text/TextEditorProvider.java
+
+commit 64565514353c08a28e5339c5d9ce2e0c2d57095d 615c7dd65f80218fc17936aeb8d739291fcc8bd2
+Author: kirillk <>
+Date:   Mon Jun 2 07:15:34 2003 +0000
+
+    no message
+
+:100644 100644 bc43768 d2e45b5 M	Aurora/aurora.iml
+
+commit 8b02434421233339c734095325b1ef7130019fbd f764ec0cb27b974037df7af088a74c9492bd63e5
+Author: kirillk <>
+Date:   Wed May 28 06:10:02 2003 +0000
+
+    no message
+
+:100644 100644 d08993c f68fa60 M	Aurora/aurora.iml
+
+commit c594935617a6485f48db3baca49bea5eaf774e1f 99c95e04ab171d6bef9de4dc4b22fcda654ac5f6
+Author: kirillk <>
+Date:   Wed May 21 08:45:58 2003 +0000
+
+    no message
+
+:100644 100644 d08993c 766d7aa M	Aurora/aurora.iml
+
+commit eb86afb2fce7d2cd3f78e8b7bed85fa4c1dd9cad bb5545adc4128ee981f3aeec92633e537741a8e4
+Author: kirillk <>
+Date:   Tue May 20 06:30:47 2003 +0000
+
+    no message
+
+:100644 100644 55fbe38 f68fa60 M	Aurora/aurora.iml

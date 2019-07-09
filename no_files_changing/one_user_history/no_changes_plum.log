@@ -1,0 +1,343 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit cd9cbdaa7a74a3d36dc8187a55f533e673b015fe 1991dc589bc8cfa77ae70b7ba17fbb39e757111d
+Author: plum <>
+Date:   Tue Nov 18 17:34:35 2003 +0000
+
+    no message
+
+commit 602b52c25e90095c33cb27ae043bcede7dbd2b08 a2aa88027fa3b5bf3bb627a57373c1527aedff48
+Author: plum <>
+Date:   Tue Nov 18 16:57:17 2003 +0000
+
+    no message
+
+commit c82cc26564570a3ceb1e8e4ffac3f12563037de3 bd2274e59107984e8dd8bdc236c8ba6f9992db45
+Author: plum <>
+Date:   Tue Nov 18 16:48:29 2003 +0000
+
+    no message
+
+:100644 100644 f38d17c 0ebc73d M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurablePanel.java
+
+commit 5e3e490b3413d2c2e1ddb7356bd78c6cd9f0a2b4 fe9ef864580fb8c38003ad097232ed79b8029487
+Author: plum <>
+Date:   Tue Nov 18 16:34:25 2003 +0000
+
+    no message
+
+:100644 100644 530b84a cedfe91 M	Aurora/source/com/intellij/compiler/options/JikesOptionsPanel.form
+
+commit 8256b574026c790b16e43a2ff00a8777ae21a229 6e3a887cd1d8eee07d69d2bf377baf1c70110d3b
+Author: plum <>
+Date:   Tue Nov 18 16:00:30 2003 +0000
+
+    no message
+
+:000000 100644 0000000 bb197f8 A	Aurora/source/com/intellij/vssSupport/VssConfigurable.form
+:100644 100644 69744a8 9fd2b52 M	Aurora/source/com/intellij/vssSupport/VssConfigurable.java
+
+commit 9d945754b0da0cbabccc6dda4ec6ede3b58694bd 05f8146d96683e4fc0c0fbed1c85a682ae8679b8
+Author: plum <>
+Date:   Mon Nov 17 15:46:00 2003 +0000
+
+    no message
+
+:100644 100644 c3fcc09 4b65cac M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+
+commit 6afe43855699395c2b00e59a2b2bb504e496d0dd 18cc6e3c4368721b139db588d99b7a446fc49886
+Author: plum <>
+Date:   Mon Nov 17 15:37:06 2003 +0000
+
+    no message
+
+:100644 100644 e798c03 df007c5 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+:100644 100644 0a117af a5b1f42 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/GlobalCvsSettingsPanel.form
+
+commit 24df0e729e3360144739fcd70b76ff03ad98e92d cb12ab054163a17874b69615d8b72ea16c4c80c7
+Author: plum <>
+Date:   Mon Nov 17 14:32:28 2003 +0000
+
+    no message
+
+:100644 100644 01cf981 e798c03 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+:100644 100644 494480f c3fcc09 M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+
+commit 974771fea1c89fada160919dedff41615360eaeb c8f89ddc8f3b0b7e04f71a929346e74bf229dea0
+Author: plum <>
+Date:   Wed Nov 12 15:28:54 2003 +0000
+
+    no message
+
+:100644 100644 b6abe84 e7d8ada M	Aurora/source/com/intellij/compiler/options/JikesOptionsPanel.form
+
+commit 1f940336e73e7632d6dfe0cf24f948b347c8dd7b 04295332a18992afec6958a24db38bd4878946e9
+Author: plum <>
+Date:   Wed Nov 12 14:54:03 2003 +0000
+
+    no message
+
+:100644 100644 79f507a 9767d72 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 602b52c25e90095c33cb27ae043bcede7dbd2b08 a2aa88027fa3b5bf3bb627a57373c1527aedff48
+Author: plum <>
+Date:   Tue Nov 18 16:57:17 2003 +0000
+
+    no message
+
+commit c82cc26564570a3ceb1e8e4ffac3f12563037de3 bd2274e59107984e8dd8bdc236c8ba6f9992db45
+Author: plum <>
+Date:   Tue Nov 18 16:48:29 2003 +0000
+
+    no message
+
+:100644 100644 f38d17c 0ebc73d M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurablePanel.java
+
+commit 5e3e490b3413d2c2e1ddb7356bd78c6cd9f0a2b4 fe9ef864580fb8c38003ad097232ed79b8029487
+Author: plum <>
+Date:   Tue Nov 18 16:34:25 2003 +0000
+
+    no message
+
+:100644 100644 530b84a cedfe91 M	Aurora/source/com/intellij/compiler/options/JikesOptionsPanel.form
+
+commit 8256b574026c790b16e43a2ff00a8777ae21a229 6e3a887cd1d8eee07d69d2bf377baf1c70110d3b
+Author: plum <>
+Date:   Tue Nov 18 16:00:30 2003 +0000
+
+    no message
+
+:000000 100644 0000000 bb197f8 A	Aurora/source/com/intellij/vssSupport/VssConfigurable.form
+:100644 100644 69744a8 9fd2b52 M	Aurora/source/com/intellij/vssSupport/VssConfigurable.java
+
+commit 9d945754b0da0cbabccc6dda4ec6ede3b58694bd 05f8146d96683e4fc0c0fbed1c85a682ae8679b8
+Author: plum <>
+Date:   Mon Nov 17 15:46:00 2003 +0000
+
+    no message
+
+:100644 100644 c3fcc09 4b65cac M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+
+commit 6afe43855699395c2b00e59a2b2bb504e496d0dd 18cc6e3c4368721b139db588d99b7a446fc49886
+Author: plum <>
+Date:   Mon Nov 17 15:37:06 2003 +0000
+
+    no message
+
+:100644 100644 e798c03 df007c5 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+:100644 100644 0a117af a5b1f42 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/GlobalCvsSettingsPanel.form
+
+commit 24df0e729e3360144739fcd70b76ff03ad98e92d cb12ab054163a17874b69615d8b72ea16c4c80c7
+Author: plum <>
+Date:   Mon Nov 17 14:32:28 2003 +0000
+
+    no message
+
+:100644 100644 01cf981 e798c03 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+:100644 100644 494480f c3fcc09 M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+
+commit 974771fea1c89fada160919dedff41615360eaeb c8f89ddc8f3b0b7e04f71a929346e74bf229dea0
+Author: plum <>
+Date:   Wed Nov 12 15:28:54 2003 +0000
+
+    no message
+
+:100644 100644 b6abe84 e7d8ada M	Aurora/source/com/intellij/compiler/options/JikesOptionsPanel.form
+
+commit 1f940336e73e7632d6dfe0cf24f948b347c8dd7b 04295332a18992afec6958a24db38bd4878946e9
+Author: plum <>
+Date:   Wed Nov 12 14:54:03 2003 +0000
+
+    no message
+
+:100644 100644 79f507a 9767d72 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+
+commit 1b3f34f3e236fb2a8a5a6c9c2fcbaa0b6602460a b53a38594ae642f888457dcd3c54ac8b7e71c3b0
+Author: plum <>
+Date:   Wed Nov 12 12:37:09 2003 +0000
+
+    no message
+
+:100644 100644 4281ea5 b2a2cc8 M	Aurora/source/com/intellij/execution/impl/RunConfigurable.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 94aa0f86c189c9ce66036108b0223109b272eb0e 10296c0ba50842f96263e723636f0bfcc1243d59
+Author: plum <>
+Date:   Fri Oct 31 15:26:56 2003 +0000
+
+    no message
+
+commit 10296c0ba50842f96263e723636f0bfcc1243d59 75bec1f34f0edf1b309a9800d167c4a36f84d3b3
+Author: plum <>
+Date:   Fri Oct 31 15:26:43 2003 +0000
+
+    no message
+
+:100644 100644 4ab5f01 953f22e M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.form
+:100644 100644 62e5f88 39fab9a M	Aurora/source/com/intellij/debugger/settings/ToStringConfigurable.form
+
+commit fe75db1987fbad29968aa7e62db0436fe080e73d 5d9d6c90759356a793aea67bed33f30df58dfdb2
+Author: plum <>
+Date:   Fri Oct 31 12:43:21 2003 +0000
+
+    no message
+
+:100644 100644 b7bc223 8ce699d M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurablePanel.java
+
+commit 9c2cda460ec46c1195f79f93e996c32174b7a690 a8f4fa6b5aeddc8ca7dbe59ad7803fd66dbe2089
+Author: plum <>
+Date:   Thu Oct 30 17:50:10 2003 +0000
+
+    no message
+
+:100644 100644 b3aa334 d760532 M	Aurora/source/com/intellij/util/net/HTTPProxySettings.form
+:100644 100644 76c21c4 406c879 M	Aurora/source/com/intellij/util/net/HTTPProxySettingsPanel.java
+
+commit a8f4fa6b5aeddc8ca7dbe59ad7803fd66dbe2089 9f00ee6ba70acceaab0ca6ff0b6a76af8e4fd552
+Author: plum <>
+Date:   Thu Oct 30 17:19:30 2003 +0000
+
+    no message
+
+:100644 100644 487c690 d220d4a M	Aurora/source/com/intellij/application/options/ErrorHighlightingPanel.java
+
+commit 9f00ee6ba70acceaab0ca6ff0b6a76af8e4fd552 c937f709f84c5a47cce02d934d034aa731288244
+Author: plum <>
+Date:   Thu Oct 30 17:04:56 2003 +0000
+
+    no message
+
+:100644 100644 0070769 831fe9b M	Aurora/source/com/intellij/compiler/options/CompilerOptionsPanel.java
+:100644 100644 a690ee0 3a4ab66 M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+
+commit c937f709f84c5a47cce02d934d034aa731288244 bc6c864eaa41078fa004bb7896bf41af75c133d6
+Author: plum <>
+Date:   Thu Oct 30 16:55:09 2003 +0000
+
+    no message
+
+:100644 100644 fca4eab e4f496a M	Aurora/source/com/intellij/compiler/options/CompilerConfigurable.java
+:000000 100644 0000000 56f7efe A	Aurora/source/com/intellij/compiler/options/CompilerOptionsPanel.form
+:100644 100644 dc48424 0070769 M	Aurora/source/com/intellij/compiler/options/CompilerOptionsPanel.java
+:000000 100644 0000000 4ea212a A	Aurora/source/com/intellij/compiler/options/JavacOptionsPanel.form
+:000000 100644 0000000 2dadaef A	Aurora/source/com/intellij/compiler/options/JikesOptionsPanel.form
+
+commit 6b9a2e8673342e73dea206c2862e9afbbf7f3493 02ab114b20b59457f2cfb84417c10ca0dab095bb
+Author: plum <>
+Date:   Tue Oct 28 17:19:54 2003 +0000
+
+    no message
+
+:100644 000000 94f4f28 0000000 D	Aurora/source/com/intellij/application/options/ErrorHightlightingPanel.form
+
+commit 02649a4f4a92b27d0ca6e93db54ed86989b1d51e bf3c98fea835a5c7fde813decfae6a206de03837
+Author: plum <>
+Date:   Tue Oct 28 16:01:02 2003 +0000
+
+    no message
+
+:100644 000000 7b4fb15 0000000 D	Aurora/source/com/intellij/ide/todo/configurable/TodoConfigurable.form
+
+commit 1da168aaefd163e6ccb46b1a7d1f67ae199c5255 0ae60855b0a56c162f30638cf321b829b83b0710
+Author: plum <>
+Date:   Mon Oct 27 17:35:24 2003 +0000
+
+    no message
+
+:100644 100644 997b35e ea66674 M	Aurora/source/com/intellij/application/options/ErrorHighlightingPanel.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit f59d675c28685cb48cf7c4621300a14f49dc1643 5e540517ac73e4a5d5a39d9d3aa7e13aa76824ff
+Author: plum <>
+Date:   Mon Oct 27 15:27:22 2003 +0000
+
+    no message
+
+commit e8ec431e091417db4b196d9db549c6561e07a02b 711bd1c87a61665b7041c05134099353857eae2c
+Author: plum <>
+Date:   Mon Oct 27 13:13:19 2003 +0000
+
+    no message
+
+:100644 100644 7c95056 c9c219d M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+:100644 100644 5cacd42 58b49bb M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/ExtConnectionSettingsDialog.form
+:100644 100644 80af9f6 3578a89 M	Aurora/source/com/intellij/openapi/vcs/impl/VcsManagerConfigurable.java
+
+commit 93278054762acd3e28e704487c82e0305c90cdaf 18f90bea7c42161d15f2bcd42de435af5a0bd321
+Author: plum <>
+Date:   Thu Oct 23 13:20:14 2003 +0000
+
+    no message
+
+:100644 100644 0313e05 7c95056 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.form
+:100644 100644 2efff43 0102bd3 M	Aurora/source/com/intellij/application/options/CodeCompletion.form
+:100644 100644 ea66674 997b35e M	Aurora/source/com/intellij/application/options/ErrorHighlightingPanel.java
+:000000 100644 0000000 94f4f28 A	Aurora/source/com/intellij/application/options/ErrorHightlightingPanel.form
+:100644 100644 a3a236d a690ee0 M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+:000000 100644 0000000 7b4fb15 A	Aurora/source/com/intellij/ide/todo/configurable/TodoConfigurable.form
+:100644 100644 777039b 3ce11f8 M	Aurora/source/com/intellij/ide/todo/configurable/TodoConfigurable.java
+:000000 100644 0000000 ca05c20 A	Aurora/source/com/intellij/javadoc/JavaDocGeneration.form
+:100644 100644 837da65 fc79da5 M	Aurora/source/com/intellij/openapi/fileTypes/impl/FileTypeConfigurable.java
+
+commit a9379ae90cb4ca31074c3304d202309abfca9ccd 898a11b55b0281e858e1ea8172a1d424816299fe
+Author: plum <>
+Date:   Thu Oct 16 14:42:33 2003 +0000
+
+    no message
+
+:100644 100644 a447184 bd8d5fa M	Aurora/source/com/intellij/openapi/diff/impl/external/DiffOptionsForm.form
+
+commit 898a11b55b0281e858e1ea8172a1d424816299fe b89eab91bb57485ee4074c222f4bfc3a65888263
+Author: plum <>
+Date:   Thu Oct 16 14:41:09 2003 +0000
+
+    no message
+
+:100644 100644 625deb2 a447184 M	Aurora/source/com/intellij/openapi/diff/impl/external/DiffOptionsForm.form
+
+commit 29bc88a40e89327933ee758f05c899922e30d197 8ab0c5af3e12979b83670cc455f94f6461d9a18c
+Author: plum <>
+Date:   Thu Oct 16 14:07:54 2003 +0000
+
+    no message
+
+:100644 100644 3e860ff b27a78e M	Aurora/source/com/intellij/j2ee/extResources/AddEditRemovePanel.java
+:100644 100644 eede31b d78514e M	Aurora/source/com/intellij/j2ee/extResources/ExternalResourceConfigurable.java
+
+commit 8ab0c5af3e12979b83670cc455f94f6461d9a18c c49edce0260d405868cf84bfb1baec7a0f6d6374
+Author: plum <>
+Date:   Thu Oct 16 14:00:25 2003 +0000
+
+    no message
+
+:100644 100644 6674714 c5fc33c M	Aurora/source/com/intellij/ui/PanelWithButtons.java
+
+commit 4fb9d40a34805889372b1cbeeaf2907a25611e7e 7e457f6ff2aadf98cf8d127fa06a409149b1428f
+Author: plum <>
+Date:   Wed Oct 15 13:48:23 2003 +0000
+
+    no message
+
+:100644 100644 bc27fdf 625deb2 M	Aurora/source/com/intellij/openapi/diff/impl/external/DiffOptionsForm.form
+
+commit 241eac14ebe1c1ce67041f26b224351320308dcf 85328b0435b80aa85a9e9c1f407c8350f68622a4
+Author: plum <>
+Date:   Wed Oct 15 13:37:17 2003 +0000
+
+    no message
+
+:100644 100644 d6050af a3a236d M	Aurora/source/com/intellij/ide/GeneralSettingsPanel.form
+
+commit 0725cab04e449ebbcceb5dab34681576133cf0f3 1f38be4fd40ebbc77a0d6c29da0e62f9e6fcbd53
+Author: plum <>
+Date:   Wed Oct 15 13:30:08 2003 +0000
+
+    no message
+
+:000000 100644 0000000 29cc7e5 A	Aurora/source/com/intellij/j2ee/extResources/AddEditRemovePanel.form
+:100644 100644 27b4fe7 3e860ff M	Aurora/source/com/intellij/j2ee/extResources/AddEditRemovePanel.java

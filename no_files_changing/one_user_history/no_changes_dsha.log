@@ -1,0 +1,118 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 942a9521424b082bc496d3a47d0d0fcc408b84a3 82e083e193d3c1e83df731243d78acdf7e051cc6
+Author: dsha <>
+Date:   Sat Aug 2 14:33:20 2003 +0000
+
+    Added support for multi-line comments
+
+commit 82e083e193d3c1e83df731243d78acdf7e051cc6 73f201d816475645e6332cb4e87e03fcd19ba1f0
+Author: dsha <>
+Date:   Sat Aug 2 14:32:49 2003 +0000
+
+    Added support for multi-line comments
+
+:100644 100644 da87bae dc8209d M	Aurora/source/com/intellij/parserGen/parsing/antlr/grammar.g
+
+commit 31ee5e8e1f4a2b01f44f1ccaf6c2b180a7e8c31a adb4397d2bfa477ac2b32a7f20b4c1e41757e90f
+Author: dsha <>
+Date:   Fri Aug 1 11:41:39 2003 +0000
+
+    no message
+
+:000000 100644 0000000 7c1ce0d A	Aurora/internalResources/parserGenTemplates/CSharp/Grammar.Skip.cs.template
+:100644 100644 de6086b 4c5a2b7 M	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.ErrorHandler.cs.template
+
+commit d8d4d5d50f42ac3a1189a4e33121a83a3bd6208e bb4cceef9c2b24d7e5f5ad85386f2a200559b510
+Author: dsha <>
+Date:   Fri Aug 1 06:59:04 2003 +0000
+
+    no message
+
+:100644 100644 60beeb6 3726c58 M	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.PsiStub.cs.template
+:000000 100644 0000000 ce5b9a4 A	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.Visit.cs.template
+:100644 100644 b1dfe5a 6eac115 M	Aurora/source/com/intellij/parserGen/Nonterminal.java
+
+commit 5e1675e3122166044d4105ecbff95d9ae67115b8 06988d9505f956c65408d7b61971bbf9c6ba5347
+Author: dsha <>
+Date:   Sat Jul 26 12:28:57 2003 +0000
+
+    no message
+
+:100644 100644 bb0ff07 d7e059e M	Aurora/source/com/intellij/parserGen/Main.java
+:100644 100644 8351959 fd15f44 M	Aurora/source/com/intellij/parserGen/build.xml
+:100644 100644 bbb9e48 36e95c1 M	Aurora/source/com/intellij/parserGen/generator/MyVelocity.java
+:100644 100644 8e71964 451aa81 M	Aurora/source/com/intellij/parserGen/generator/TargetLanguage.java
+
+commit 583ca12c26ec9d9f2b341a3af54344e1af5cafd9 e5bac247d9c380e4072d841f308c10cb7f99b445
+Author: dsha <>
+Date:   Wed Jul 23 09:02:03 2003 +0000
+
+    no message
+
+:000000 100644 0000000 77d866f A	Aurora/source/com/intellij/parserGen/Diagnostics.java
+:100644 100644 8b8da8c f09a24a M	Aurora/source/com/intellij/parserGen/Grammar.java
+:100644 100644 c64fec0 dffbd84 M	Aurora/source/com/intellij/parserGen/Label.java
+:100644 100644 257f1f2 72d9d75 M	Aurora/source/com/intellij/parserGen/LiteralNamedValueType.java
+:100644 100644 147228a bb0ff07 M	Aurora/source/com/intellij/parserGen/Main.java
+:100644 100644 d5e3883 c5d9eea M	Aurora/source/com/intellij/parserGen/NamedValueType.java
+:100644 100644 b00aaa9 b1dfe5a M	Aurora/source/com/intellij/parserGen/Nonterminal.java
+:100644 100644 3dee6fb 34393dd M	Aurora/source/com/intellij/parserGen/NonterminalNamedValueType.java
+:100644 100644 89cae24 70315e2 M	Aurora/source/com/intellij/parserGen/Role.java
+:100644 100644 241d898 2c8f553 M	Aurora/source/com/intellij/parserGen/Symbol.java
+:100644 100644 3a29f94 fc5dace M	Aurora/source/com/intellij/parserGen/Terminal.java
+:000000 100644 0000000 cf5649c A	Aurora/source/com/intellij/parserGen/TerminalNamedValueType.java
+:100644 100644 02394e5 da87bae M	Aurora/source/com/intellij/parserGen/parsing/antlr/grammar.g
+:100644 100644 9873c4e 48043c8 M	Aurora/source/com/intellij/parserGen/rules/NonterminalRule.java
+:100644 100644 b7edb62 02d3e8e M	Aurora/source/com/intellij/parserGen/rules/RoledRule.java
+:100644 100644 786ef51 3ef2e49 M	Aurora/source/com/intellij/parserGen/rules/Rule.java
+
+commit 9aadc99771afaee79d4667c4a60f1a64904bdd84 d50224a6050d555dc79bd6fa05e19dbeebd98274
+Author: dsha <>
+Date:   Tue Jul 22 12:17:57 2003 +0000
+
+    no message
+
+:100644 100644 8aeffa5 8b8da8c M	Aurora/source/com/intellij/parserGen/Grammar.java
+:100644 100644 a844659 b00aaa9 M	Aurora/source/com/intellij/parserGen/Nonterminal.java
+:100644 100644 9f31eb2 3dee6fb M	Aurora/source/com/intellij/parserGen/NonterminalNamedValueType.java
+:100644 100644 34ae2b0 02394e5 M	Aurora/source/com/intellij/parserGen/parsing/antlr/grammar.g
+:100644 100644 dd2bfdd 48ef9ce M	Aurora/testSource/com/intellij/parserGen/PsiInterfaceTest.java
+:100644 100644 a6154c9 5755c8d M	Aurora/testSource/com/intellij/parserGen/PsiStubTest.java
+
+commit 8721a8073f2e2c01c3cb572d0bbe18ffcc944d5c 28c4dfbbaa446c458c5a9c3150890c0842dcf107
+Author: dsha <>
+Date:   Sat Jul 19 16:02:55 2003 +0000
+
+    no message
+
+:000000 100644 0000000 4eed0b8 A	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.Test.Getter.cs.template
+:000000 100644 0000000 baa33fe A	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.Test.GetterPlural.cs.template
+:000000 100644 0000000 a13ca46 A	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.Test.Interface.cs.template
+:000000 100644 0000000 b9d10b5 A	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.Test.cs.template
+:000000 100644 0000000 9fd9674 A	Aurora/internalResources/parserGenTemplates/CSharp/Test.cs.template
+:100644 100644 6ae13e1 8aeffa5 M	Aurora/source/com/intellij/parserGen/Grammar.java
+:100644 100644 a60e376 b7129fa M	Aurora/source/com/intellij/parserGen/GrammarOptions.java
+:100644 100644 0e14226 147228a M	Aurora/source/com/intellij/parserGen/Main.java
+:100644 100644 0f40f7e a844659 M	Aurora/source/com/intellij/parserGen/Nonterminal.java
+:100644 100644 eeb1dee 89cae24 M	Aurora/source/com/intellij/parserGen/Role.java
+:100644 100644 6dc0be0 de83d71 M	Aurora/source/com/intellij/parserGen/generator/EnvironmentNames.java
+:100644 100644 3fef89e 34ae2b0 M	Aurora/source/com/intellij/parserGen/parsing/antlr/grammar.g
+
+commit 28c4dfbbaa446c458c5a9c3150890c0842dcf107 60b911147c214d0854ab397d8c8b0aad80a5e681
+Author: dsha <>
+Date:   Sat Jul 19 09:49:00 2003 +0000
+
+    no message
+
+:100644 100644 f0d8a40 0f40f7e M	Aurora/source/com/intellij/parserGen/Nonterminal.java
+
+commit 0404b4f0d931ca01d17f9fe4d48a5835697f3067 51221397995203a2bb049b13018ece7c7ab1e0ca
+Author: dsha <>
+Date:   Fri Jul 18 16:14:21 2003 +0000
+
+    no message
+
+:100644 100644 7fc2626 832b296 M	Aurora/internalResources/parserGenTemplates/CSharp/Nonterminal.ParserFunctionBody.cs.template
+:100644 100644 4d434d2 e181630 M	Aurora/internalResources/parserGenTemplates/Java/Nonterminal.ParserFunctionBody.java.template

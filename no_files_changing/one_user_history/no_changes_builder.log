@@ -1,0 +1,80 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 899c8c02ee5dc6ef51bb79cdef24bd871730e0de d5c644d445f7253bf279853b8bf2a9f4acc384f5
+Author: builder <>
+Date:   Thu Jun 3 16:14:59 2004 +0000
+
+    no message
+
+commit d5c644d445f7253bf279853b8bf2a9f4acc384f5 2f1783c680f3c197018933553531d998bfc23cae
+Author: builder <>
+Date:   Thu Jun 3 16:13:20 2004 +0000
+
+    no message
+
+:100644 100644 b4198b1 e8f5fdd M	Aurora/pallada.xml
+
+commit 2f1783c680f3c197018933553531d998bfc23cae 01abd9dbcadc7b63a2483b9439099105f8789192
+Author: builder <>
+Date:   Thu Jun 3 15:56:35 2004 +0000
+
+    New version
+
+:100644 100644 5fcf5af 571f120 M	Aurora/build/lib/javac2.jar
+
+commit 01abd9dbcadc7b63a2483b9439099105f8789192 e2059ed8b9879e57e9e021a946cded40a4a38ae5
+Author: builder <>
+Date:   Thu Jun 3 15:36:10 2004 +0000
+
+    Build failed
+
+:100644 100644 5a53a6d e747223 M	Aurora/build/version.properties
+
+commit 715302c1bc0ced3869db15c46db6aea78f49383d ad22969d99d47d9fd9d26c6f1cd7916e83ff8126
+Author: builder <>
+Date:   Thu Jun 3 15:31:34 2004 +0000
+
+    New version
+
+:100644 100644 6855a69 5fcf5af M	Aurora/build/lib/javac2.jar
+
+commit 47a2fff4c13854fbd6ff94c578badcac6b2e561e 2c7907bca84fef8a7f63de51e50292b6e72db5ae
+Author: builder <>
+Date:   Thu Jun 3 15:20:31 2004 +0000
+
+    no message
+
+:100644 100644 42393a0 b4198b1 M	Aurora/pallada.xml
+
+commit 8b5b3022eefb8b5b9cdcf086d0f53ebd6e496dd2 00eb71e70afb5849dca1d2e732df118fc651dfb3
+Author: builder <>
+Date:   Thu Jun 3 15:01:49 2004 +0000
+
+    New version
+
+:100644 100644 2472c6c 6855a69 M	Aurora/build/lib/javac2.jar
+
+commit 0e80345f37e571259371fbccf2b03d1ec86c82b2 1887169232f852fb91356b236a34f36d250ef6ab
+Author: builder <>
+Date:   Thu Jun 3 14:46:29 2004 +0000
+
+    New version
+
+:100644 100644 3380e4f 2472c6c M	Aurora/build/lib/javac2.jar
+
+commit 1887169232f852fb91356b236a34f36d250ef6ab f85dbfa151870712617f333bd488ea1c2bb0b366
+Author: builder <>
+Date:   Thu Jun 3 14:38:50 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 a073698 c86c48d M	Aurora/build/cc.xml
+
+commit 89d4a0593ce0e3fb700120d19c36995ee1d995f6 4e6961c08f5c599b11717bb73edb52fb0fc54b4c
+Author: builder <>
+Date:   Thu Jun 3 14:31:17 2004 +0000
+
+    New version
+
+:100644 100644 a105821 3380e4f M	Aurora/build/lib/javac2.jar

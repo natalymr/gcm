@@ -1,0 +1,743 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3b7ea4f1e4887be8a61646b0aba3b9749ba4df50 2c3036eb635ea6a657c3ad4d67f8cec815498ac5
+Author: Maxim.Mossienko <>
+Date:   Thu Dec 9 12:21:59 2004 +0000
+
+    added test for ) in java code
+
+commit b25fa577613c55d2e06dff35af02c5757325198e 17d73778721db08a1dde3c74672d77dd14a2357f
+Author: Maxim.Mossienko <>
+Date:   Thu Dec 9 12:02:25 2004 +0000
+
+    added test for ) in java code
+
+:100644 100644 7e4ac32 2a40d8f M	Aurora/source/com/intellij/codeInsight/editorActions/TypedHandler.java
+:000000 100644 0000000 36a57f6 A	Aurora/testData/codeInsight/defaultAction/rparenth/4.java
+:000000 100644 0000000 61e043c A	Aurora/testData/codeInsight/defaultAction/rparenth/4_after.java
+:100644 100644 6d24a47 3f6752f M	Aurora/testSource/com/intellij/codeInsight/defaultAction/RParenthTest.java
+
+commit 2ac64f41b43cd83d6e57d7a0d0228390e4376bcb 586d2924c60ca9861ea620a468465016842cd85c
+Author: Maxim.Mossienko <>
+Date:   Thu Dec 9 10:24:08 2004 +0000
+
+    JavaScript module added
+
+:100644 100644 210adeb 393250d M	Aurora/build/cc.xml
+:100644 100644 0a0750a 62cd9b5 M	Aurora/build/main_jar_modules.txt
+:100644 100644 1a2b87b aa8f5e4 M	Aurora/idea.ipr
+:100644 100644 47c3d92 ac8eb43 M	Aurora/main.iml
+:100644 100644 5161703 ec7cf3f M	Aurora/resources/src/componentSets/IdeaComponents.xml
+:100644 100644 6ff2d52 baff86a M	Aurora/resources/src/componentSets/IdeaTestComponents.xml
+:100644 100644 3644f25 abda7fd M	Aurora/source/com/intellij/codeInsight/completion/HtmlCompletionData.java
+
+commit 8c160dcabb6b6df151f3754afd19d3294ef30e68 52f40f74e3797df568c2a29e868844a6a3eddf27
+Author: Maxim.Mossienko <>
+Date:   Thu Dec 9 09:22:06 2004 +0000
+
+    mark scope dirty in case of XmlTag. We can't provide more information since incremental reparse and HTML. (IK)
+
+:100644 100644 393a9a6 54dfbc0 M	Aurora/source/com/intellij/codeInsight/daemon/impl/PsiChangeHandler.java
+
+commit 01d554a0872cc948cf3aab2082e3e1e95b518a47 c4dd0a745d5961f6e7dd15ddda2e981950b5c1a8
+Author: Maxim.Mossienko <>
+Date:   Wed Dec 8 14:18:57 2004 +0000
+
+    java script is integrated with html / xhtml
+
+:100644 100644 6e2372d 453319c M	Aurora/CSS/src/com/intellij/psi/css/impl/util/editor/CssBraceMatcher.java
+:000000 100644 0000000 6408ad9 A	Aurora/JavaScript/JavaScript.iml
+:000000 100644 0000000 24e28cf A	Aurora/JavaScript/src/com/intellij/javascript/JSSupportLoader.java
+:000000 100644 0000000 632701a A	Aurora/JavaScript/testData/commenter/BlockCommentingInJS.html
+:000000 100644 0000000 c5a221d A	Aurora/JavaScript/testData/commenter/BlockCommentingInJS_after.html
+:000000 100644 0000000 a72901d A	Aurora/JavaScript/testData/commenter/BlockCommentingInJS_after2.html
+:000000 100644 0000000 937472c A	Aurora/JavaScript/testData/commenter/LineCommentingInJS.html
+:000000 100644 0000000 e052a94 A	Aurora/JavaScript/testData/commenter/LineCommentingInJS2.html
+:000000 100644 0000000 090f6ff A	Aurora/JavaScript/testData/commenter/LineCommentingInJS2_after.html
+:000000 100644 0000000 00ac57b A	Aurora/JavaScript/testData/commenter/LineCommentingInJS_after.html
+:000000 100644 0000000 c229d17 A	Aurora/JavaScript/testData/completion/1.html
+:000000 100644 0000000 6a165e9 A	Aurora/JavaScript/testData/completion/1_after.html
+:000000 100644 0000000 c59b4af A	Aurora/JavaScript/testData/completion/2.html
+:000000 100644 0000000 fdb9d55 A	Aurora/JavaScript/testData/completion/2_after.html
+:000000 100644 0000000 2d3c99c A	Aurora/JavaScript/testData/editor/InsertBraceOnEnter.html
+:000000 100644 0000000 6386492 A	Aurora/JavaScript/testData/editor/InsertBraceOnEnter_after.html
+:000000 100644 0000000 4776fb7 A	Aurora/JavaScript/testData/editor/InsertDeleteBracket.html
+:000000 100644 0000000 8d8c517 A	Aurora/JavaScript/testData/editor/InsertDeleteBracket_after.html
+:000000 100644 0000000 78bfdcb A	Aurora/JavaScript/testData/editor/InsertDeleteBracket_after2.html
+:000000 100644 0000000 4776fb7 A	Aurora/JavaScript/testData/editor/InsertDeleteParenth.html
+:000000 100644 0000000 5e85a92 A	Aurora/JavaScript/testData/editor/InsertDeleteParenth_after.html
+:000000 100644 0000000 f9f1702 A	Aurora/JavaScript/testData/editor/InsertDeleteParenth_after2.html
+:000000 100644 0000000 828d9f0 A	Aurora/JavaScript/testData/editor/InsertDeleteQuote.html
+:000000 100644 0000000 1fbef03 A	Aurora/JavaScript/testData/editor/InsertDeleteQuote_after.html
+:000000 100644 0000000 4d4a4ed A	Aurora/JavaScript/testData/editor/blockNavigation.html
+:000000 100644 0000000 135825d A	Aurora/JavaScript/testData/editor/blockNavigation_after.html
+:000000 100644 0000000 1587b2c A	Aurora/JavaScript/testSource/js/JSCommenterTest.java
+:000000 100644 0000000 4d44637 A	Aurora/JavaScript/testSource/js/JSCompletionTest.java
+:000000 100644 0000000 67e06d6 A	Aurora/JavaScript/testSource/js/JSEditorTest.java
+:000000 100644 0000000 b315834 A	Aurora/JavaScript/testSource/js/JSHighlightingTest.java
+:000000 100644 0000000 0795528 A	Aurora/resources/src/componentSets/JavaScript.xml
+:100644 100644 648e854 6c9e004 M	Aurora/source/com/intellij/codeInsight/completion/CompletionContext.java
+:100644 100644 301d0fc 3644f25 M	Aurora/source/com/intellij/codeInsight/completion/HtmlCompletionData.java
+:100644 100644 2c1e949 afff830 M	Aurora/source/com/intellij/codeInsight/completion/SyntaxTableCompletionData.java
+:100644 100644 ed05fe7 7d7a1d2 M	Aurora/source/com/intellij/codeInsight/editorActions/HtmlSelectioner.java
+:100644 100644 36b1bab 7e4ac32 M	Aurora/source/com/intellij/codeInsight/editorActions/TypedHandler.java
+:100644 100644 90d5bd6 9c75418 M	Aurora/source/com/intellij/codeInsight/generation/BlockCommenter.java
+:100644 100644 1d9ffc4 dde8a13 M	Aurora/source/com/intellij/codeInsight/generation/CommentByBlockCommentHandler.java
+:100644 100644 8e4c13e 8ddc460 M	Aurora/source/com/intellij/codeInsight/generation/CommentByLineCommentHandler.java
+:100644 100644 5bdde25 b22ff70 M	Aurora/source/com/intellij/codeInsight/highlighting/BraceMatchingUtil.java
+:100644 100644 4f9852c 3f489ac M	Aurora/source/com/intellij/ide/highlighter/HtmlFileHighlighter.java
+:100644 100644 8589f47 adb9135 M	Aurora/source/com/intellij/ide/highlighter/XmlFileHighlighter.java
+:100644 100644 b21978f 8a6dceb M	Aurora/source/com/intellij/ide/highlighter/custom/CustomFileHighlighter.java
+:100644 100644 34de079 78adc3d M	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeCommenter.java
+:100644 100644 6f78f36 4ec55c5 M	Aurora/source/com/intellij/lexer/BaseHtmlLexer.java
+:100644 100644 1645e41 ba5fb81 M	Aurora/source/com/intellij/lexer/HtmlHighlightingLexer.java
+:100644 100644 ecbf23c 4ebd7c2 M	Aurora/testSource/com/intellij/codeInsight/CommentInCustomFileTypesTest.java
+:100644 100644 94d3244 68c1e62 M	Aurora/testSource/com/intellij/codeInsight/completion/CustomFileTypeCompletionTest.java
+:100644 100644 40b20f2 7bac57c M	Aurora/testSource/com/intellij/codeInsight/defaultAction/CustomFileTypeEditorTest.java
+
+commit 640e7ea33581d2124dd6d5da392b4d8916c66ef1 f44ed6ba51a5123ebe9e54660d63ac8f183af3ae
+Author: Maxim.Mossienko <>
+Date:   Tue Dec 7 19:29:42 2004 +0000
+
+    support unused selector highlighting
+
+:100644 100644 173072b a37dce9 M	Aurora/source/com/intellij/codeInsight/daemon/impl/RefCountHolder.java
+
+commit 0c7fe6dd2084980b931175603a628cb3d713fad3 f891a4c693b8eda92674f0c4b6d0c890fc3a9407
+Author: Maxim.Mossienko <>
+Date:   Tue Dec 7 18:45:14 2004 +0000
+
+    support unused selectors in CSS
+
+:100644 100644 b23f1c5 ff14117 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/CssDaemonHighlighter.java
+:100644 100644 26afe10 ad932dd M	Aurora/CSS/src/com/intellij/psi/css/impl/util/find/CssFindUsagesHandler.java
+:000000 100644 0000000 b6cf1fd A	Aurora/CSS/testData/highlighting/UnusedStyle.html
+:000000 100644 0000000 b6cf1fd A	Aurora/CSS/testData/highlighting/UnusedStyle.xhtml
+:100644 100644 b47071d b879537 M	Aurora/CSS/testSource/css/CssHighlightingTest.java
+:100644 100644 3d6e43f f595181 M	Aurora/source/com/intellij/codeInsight/daemon/impl/GeneralHighlightingPass.java
+:100644 100644 116779d dc828cc M	Aurora/source/com/intellij/codeInsight/daemon/impl/PostHighlightingPass.java
+:100644 100644 855aadd 173072b M	Aurora/source/com/intellij/codeInsight/daemon/impl/RefCountHolder.java
+:100644 100644 60e0905 885ca7b M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/XmlHighlightVisitor.java
+
+commit 69285dacdf377ac69248b5905072ad495936c71e d64c2a779894d76414662c21efb453e91b407017
+Author: Maxim.Mossienko <>
+Date:   Tue Dec 7 14:15:02 2004 +0000
+
+    xhtml id cache processing with separate indexer + more tests for css find usages in xhtml
+
+:000000 100644 0000000 d986a17 A	Aurora/CSS/testData/findusages/3.xhtml
+:000000 100644 0000000 55203a3 A	Aurora/CSS/testData/findusages/3_2.xhtml
+:000000 100644 0000000 e9a9f69 A	Aurora/CSS/testData/findusages/3_3.xhtml
+:000000 100644 0000000 718c7f5 A	Aurora/CSS/testData/findusages/4.xhtml
+:000000 100644 0000000 ca0fbbb A	Aurora/CSS/testData/findusages/5.xhtml
+:100644 100644 266ad24 1aa4904 M	Aurora/CSS/testSource/css/CssFindUsagesTest.java
+:100644 100644 221df7e a97aec5 M	Aurora/source/com/intellij/psi/impl/cache/impl/idCache/IdTableBuilding.java
+
+commit f4a5796d0ebcdca16d0960d8e3386dd5f914375a 6fdc014ad9f92f49f718bc9d6d8399edda4d3b1e
+Author: Maxim.Mossienko <>
+Date:   Tue Dec 7 13:50:37 2004 +0000
+
+    brackets and parens handling for custom files
+
+:100644 100644 24abaa3 6e2372d M	Aurora/CSS/src/com/intellij/psi/css/impl/util/editor/CssBraceMatcher.java
+:100644 100644 25bd090 b9f9cf4 M	Aurora/openapi/src/com/intellij/psi/CustomHighlighterTokenType.java
+:100644 100644 db88e81 607cb15 M	Aurora/resources/src/FileTypeManager.xml
+:100644 100644 9c3cb9f 173c274 M	Aurora/source/com/intellij/codeInsight/editorActions/BackspaceHandler.java
+:100644 100644 3ac4d95 382fac3 M	Aurora/source/com/intellij/codeInsight/editorActions/EnterHandler.java
+:100644 100644 2d0598a 36b1bab M	Aurora/source/com/intellij/codeInsight/editorActions/TypedHandler.java
+:100644 100644 20a82bd 5bdde25 M	Aurora/source/com/intellij/codeInsight/highlighting/BraceMatchingUtil.java
+:100644 100644 94328c7 b21e755 M	Aurora/source/com/intellij/ide/highlighter/custom/CustomFileTypeLexer.java
+:100644 100644 654222e 972cee8 M	Aurora/source/com/intellij/ide/highlighter/custom/SyntaxTable.java
+:100644 100644 8b3f4ea cf47add M	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeBraceMatcher.java
+:100644 100644 dc2467d f55c651 M	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeEditor.java
+:100644 100644 a648e53 9c6cc26 M	Aurora/source/com/intellij/openapi/fileTypes/impl/FileTypeManagerImpl.java
+:000000 100644 0000000 523940e A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteBracket.js
+:000000 100644 0000000 3d49fc4 A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteBracket_after.js
+:000000 100644 0000000 cfd0fa2 A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteBracket_after2.js
+:000000 100644 0000000 523940e A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteParenth.js
+:000000 100644 0000000 7c7c4de A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteParenth_after.js
+:000000 100644 0000000 b526f38 A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteParenth_after2.js
+:000000 100644 0000000 e6df742 A	Aurora/testData/codeInsight/defaultAction/slash/1.xml
+:000000 100644 0000000 16dbc22 A	Aurora/testData/codeInsight/defaultAction/slash/1_after.xml
+:100644 100644 ccac1ad 40b20f2 M	Aurora/testSource/com/intellij/codeInsight/defaultAction/CustomFileTypeEditorTest.java
+:100644 100644 26395d6 21ed3b6 M	Aurora/testSource/com/intellij/codeInsight/defaultAction/SlashTest.java
+
+commit b57bed24713ec4e98fbe5fc1583a5c1cc637322a 4e41a2d3fdfa60e2fd8ea51e38f5dfd71ad896ee
+Author: Maxim.Mossienko <>
+Date:   Mon Dec 6 17:46:25 2004 +0000
+
+    block highlighting & navigation, quotes handling, insert brace on enter for custom file types (e.g. javascript)
+
+:100644 100644 4358938 25bd090 M	Aurora/openapi/src/com/intellij/psi/CustomHighlighterTokenType.java
+:100644 100644 e53a682 db88e81 M	Aurora/resources/src/FileTypeManager.xml
+:100644 100644 e48bc0c 3ac4d95 M	Aurora/source/com/intellij/codeInsight/editorActions/EnterHandler.java
+:100644 100644 75a2b4e 94328c7 M	Aurora/source/com/intellij/ide/highlighter/custom/CustomFileTypeLexer.java
+:100644 100644 6675c72 654222e M	Aurora/source/com/intellij/ide/highlighter/custom/SyntaxTable.java
+:100644 100644 8981778 71d22d5 M	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileType.java
+:000000 100644 0000000 8b3f4ea A	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeBraceMatcher.java
+:000000 100644 0000000 34de079 A	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeCommenter.java
+:100644 100644 78fcf15 dc2467d M	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeEditor.java
+:000000 100644 0000000 c949c21 A	Aurora/source/com/intellij/ide/highlighter/custom/impl/CustomFileTypeQuoteHandler.java
+:000000 100644 0000000 16ca266 A	Aurora/source/com/intellij/ide/highlighter/custom/tokens/BraceTokenParser.java
+:100644 100644 91648ad a648e53 M	Aurora/source/com/intellij/openapi/fileTypes/impl/FileTypeManagerImpl.java
+:000000 100644 0000000 529d16b A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertBraceOnEnter.js
+:000000 100644 0000000 442ed69 A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertBraceOnEnter_after.js
+:000000 100644 0000000 11d220e A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteQuote.js
+:000000 100644 0000000 024997f A	Aurora/testData/codeInsight/defaultAction/customFileType/InsertDeleteQuote_after.js
+:000000 100644 0000000 e591e07 A	Aurora/testData/codeInsight/defaultAction/customFileType/blockNavigation.js
+:000000 100644 0000000 82cc0eb A	Aurora/testData/codeInsight/defaultAction/customFileType/blockNavigation_after.js
+:000000 100644 0000000 ccac1ad A	Aurora/testSource/com/intellij/codeInsight/defaultAction/CustomFileTypeEditorTest.java
+:100644 100644 16bc39f e31b925 M	Aurora/testSource/com/intellij/lexer/BraceHighlighterTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 6cb84ced7f12cc521e4716b9a19e20c848613aef aa220a48e68b773ed2fd21472ff530f7206c50aa
+Author: Maxim.Mossienko <>
+Date:   Mon Nov 22 14:22:53 2004 +0000
+
+    fixed one char diff again
+
+commit 244629e808c55da67d0c1e6ebf51df6a199d6aef 20e6c5f963da15ca8a9b25a096f51c8ff33c8ffd
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 18:34:23 2004 +0000
+
+    fixed runtime crash with whitespacing
+
+:100644 100644 6ebb1dd b0872df M	Aurora/CSS/src/com/intellij/psi/css/impl/CssAttributeRSideImpl.java
+
+commit 5ad0d1cf537d6387838267ed4401f75a5ddbedab 72c117f7fc4c7c839f68fbae62e295cd927a6bed
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 18:13:09 2004 +0000
+
+    css import is resolved relative to css file that has it
+
+:100644 100644 7938a3c 24384c5 M	Aurora/CSS/src/com/intellij/psi/css/resolve/impl/XhtmlFileInfo.java
+
+commit 6ee91daafb1e361d5b4557ebee5a84f2c9e6498e 925584ed0dec62bc7343022a0da420044ea6a6f0
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 16:55:42 2004 +0000
+
+    fixed memory leaks in debugger
+
+:100644 100644 ca1251d c9bceb3 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 3a0665d 3230965 M	Aurora/source/com/intellij/debugger/ui/DescriptorHistoryManagerImpl.java
+:100644 100644 d14674a 77609fc M	Aurora/source/com/intellij/debugger/ui/impl/watch/DescriptorHistoryManager.java
+:100644 100644 addccd9 51b7852 M	Aurora/source/com/intellij/ui/content/impl/ContentManagerImpl.java
+
+commit 70a6b37876851c35a26304c258b4f2ecff1957fd 90835a1488742453edafb493fc07b77608dc6137
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 16:03:36 2004 +0000
+
+    fixed dtd editor highlighting
+
+:100644 100644 799e0f4 491d206 M	Aurora/source/com/intellij/ide/highlighter/DTDFileType.java
+:100644 100644 b75a342 4394700 M	Aurora/source/com/intellij/ide/highlighter/XmlFileHighlighter.java
+:000000 100644 0000000 18d459d A	Aurora/source/com/intellij/lexer/DtdHighlightingLexer.java
+:100644 100644 cebb19d fc5b0d6 M	Aurora/testSource/com/intellij/codeInsight/daemon/XmlHighlightingTest.java
+
+commit 3adb62c2c4f0ec2ea581688e16e6f57a49e8879a 0ddb33ae9e472e1bfdcbd8c58271cb6d2a2e7fb7
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 15:53:48 2004 +0000
+
+    fixed one char missed
+
+commit 264f1e769af3d307b476cadf72f0a0964173e9e6 3a7b3935217cc00b5141b98bd28939ac4f596dc1
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 12:40:17 2004 +0000
+
+    fixed issue with tag balancing
+
+:100644 100644 710e118 1ed5f2a M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/grammar/html/TagChecker.java
+:100644 100644 554d49c 90ccbb7 M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/grammar/html/TagErrorHandler.java
+:100644 100644 bdde08c 5799b31 M	Aurora/source/com/intellij/xml/util/HtmlUtil.java
+:100644 100644 8e1a8a1 e03ec59 M	Aurora/testData/psi/html/MissingEndTag.txt
+:100644 100644 58b6c49 cd51d85 M	Aurora/testData/psi/html/WronglyNestedPs.txt
+:100644 100644 2fecfaa feb5fc1 M	Aurora/testSource/com/intellij/psi/html/HtmlParseTest.java
+
+commit 22e4d458a9515684730909cae934b7c7daf02545 5bff84b9d45817f97497c2d8500025d27123286a
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 10:17:55 2004 +0000
+
+    better playing with external urls
+
+:100644 100644 79a2ca1 c743e03 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/CssCompletionData.java
+:100644 100644 e6dbd00 1a269f5 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/references/CssUrlReference.java
+:000000 100644 0000000 55e468b A	Aurora/CSS/testData/completion/css8.css
+:000000 100644 0000000 913f8dd A	Aurora/CSS/testData/completion/css8_after.css
+:000000 100644 0000000 1af40da A	Aurora/CSS/testData/completion/css9.css
+:000000 100644 0000000 5785414 A	Aurora/CSS/testData/completion/css9_after.css
+:100644 100644 1a1b8bf ca94fcb M	Aurora/CSS/testData/highlighting/css5.css
+:100644 100644 77acb77 12d0ca3 M	Aurora/CSS/testSource/css/CssCompletionTest.java
+:100644 100644 76845ca 65a305d M	Aurora/CSS/testSource/css/CssHighlightingTest.java
+:100644 100644 5647643 be760d9 M	Aurora/openapi/src/com/intellij/j2ee/ExternalResourceManager.java
+:100644 100644 dd56b1f 5eb8e8d M	Aurora/source/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java
+:100644 100644 8d2400d be98481 M	Aurora/source/com/intellij/j2ee/openapi/impl/ExternalResourceManagerImpl.java
+
+commit ecc51322d34195219e328a0166baae15525b3406 5bd9f5760a056cd999f07260041b3036aafb3e39
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 06:17:12 2004 +0000
+
+    more correct completion for css url with relative to parent url start,
+    added wrongly parsed html example
+
+:100644 100644 5b44894 e6dbd00 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/references/CssUrlReference.java
+:100644 100644 e379866 d578887 M	Aurora/CSS/testData/completion/htmlcss11.html
+:100644 100644 d52d0ce 109248b M	Aurora/CSS/testData/completion/htmlcss11_after.html
+:000000 100644 0000000 58b6c49 A	Aurora/testData/psi/html/WronglyNestedPs.txt
+:100644 100644 28cac7c 2fecfaa M	Aurora/testSource/com/intellij/psi/html/HtmlParseTest.java
+
+commit d6262be9e316392bfc46f0e8de1728aff2b3cb8e 35da576691a3df9b60bb6dbb2a2985e5f438621c
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 18:20:40 2004 +0000
+
+    added return after fullParse
+
+:100644 100644 3c13199 e4fb456 M	Aurora/source/com/intellij/psi/impl/source/text/BlockSupportImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3adb62c2c4f0ec2ea581688e16e6f57a49e8879a 0ddb33ae9e472e1bfdcbd8c58271cb6d2a2e7fb7
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 15:53:48 2004 +0000
+
+    fixed one char missed
+
+commit 264f1e769af3d307b476cadf72f0a0964173e9e6 3a7b3935217cc00b5141b98bd28939ac4f596dc1
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 12:40:17 2004 +0000
+
+    fixed issue with tag balancing
+
+:100644 100644 710e118 1ed5f2a M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/grammar/html/TagChecker.java
+:100644 100644 554d49c 90ccbb7 M	Aurora/source/com/intellij/psi/impl/source/parsing/tabular/grammar/html/TagErrorHandler.java
+:100644 100644 bdde08c 5799b31 M	Aurora/source/com/intellij/xml/util/HtmlUtil.java
+:100644 100644 8e1a8a1 e03ec59 M	Aurora/testData/psi/html/MissingEndTag.txt
+:100644 100644 58b6c49 cd51d85 M	Aurora/testData/psi/html/WronglyNestedPs.txt
+:100644 100644 2fecfaa feb5fc1 M	Aurora/testSource/com/intellij/psi/html/HtmlParseTest.java
+
+commit 22e4d458a9515684730909cae934b7c7daf02545 5bff84b9d45817f97497c2d8500025d27123286a
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 10:17:55 2004 +0000
+
+    better playing with external urls
+
+:100644 100644 79a2ca1 c743e03 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/CssCompletionData.java
+:100644 100644 e6dbd00 1a269f5 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/references/CssUrlReference.java
+:000000 100644 0000000 55e468b A	Aurora/CSS/testData/completion/css8.css
+:000000 100644 0000000 913f8dd A	Aurora/CSS/testData/completion/css8_after.css
+:000000 100644 0000000 1af40da A	Aurora/CSS/testData/completion/css9.css
+:000000 100644 0000000 5785414 A	Aurora/CSS/testData/completion/css9_after.css
+:100644 100644 1a1b8bf ca94fcb M	Aurora/CSS/testData/highlighting/css5.css
+:100644 100644 77acb77 12d0ca3 M	Aurora/CSS/testSource/css/CssCompletionTest.java
+:100644 100644 76845ca 65a305d M	Aurora/CSS/testSource/css/CssHighlightingTest.java
+:100644 100644 5647643 be760d9 M	Aurora/openapi/src/com/intellij/j2ee/ExternalResourceManager.java
+:100644 100644 dd56b1f 5eb8e8d M	Aurora/source/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java
+:100644 100644 8d2400d be98481 M	Aurora/source/com/intellij/j2ee/openapi/impl/ExternalResourceManagerImpl.java
+
+commit ecc51322d34195219e328a0166baae15525b3406 5bd9f5760a056cd999f07260041b3036aafb3e39
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 06:17:12 2004 +0000
+
+    more correct completion for css url with relative to parent url start,
+    added wrongly parsed html example
+
+:100644 100644 5b44894 e6dbd00 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/references/CssUrlReference.java
+:100644 100644 e379866 d578887 M	Aurora/CSS/testData/completion/htmlcss11.html
+:100644 100644 d52d0ce 109248b M	Aurora/CSS/testData/completion/htmlcss11_after.html
+:000000 100644 0000000 58b6c49 A	Aurora/testData/psi/html/WronglyNestedPs.txt
+:100644 100644 28cac7c 2fecfaa M	Aurora/testSource/com/intellij/psi/html/HtmlParseTest.java
+
+commit d6262be9e316392bfc46f0e8de1728aff2b3cb8e 35da576691a3df9b60bb6dbb2a2985e5f438621c
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 18:20:40 2004 +0000
+
+    added return after fullParse
+
+:100644 100644 3c13199 e4fb456 M	Aurora/source/com/intellij/psi/impl/source/text/BlockSupportImpl.java
+
+commit 35da576691a3df9b60bb6dbb2a2985e5f438621c cbd6f574428b5c57d9811624b47b462bf114195d
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 18:20:18 2004 +0000
+
+    removed extra spaces before } added during reparse
+
+:100644 100644 b65c8e4 56eff53 M	Aurora/testData/codeInsight/enterAction/scriplet/after4.jsp
+
+commit 01f40a68d653043ec9e5cc49a48d53d881ec0b51 8e5c5a586bc43ed6efd2aae013f5ae8ac449cc61
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 15:48:47 2004 +0000
+
+    fixed more npe on virtual file == null
+
+:100644 100644 87243d6 9457e0b M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocManager.java
+
+commit 301ef035eff3bf786aea7a78462399cd25395ee9 b0c9e718dbc68007975694df2797dd5c90a14a9b
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 14:43:56 2004 +0000
+
+    fixed issue with building caches for libraries when searching for the method for processing ui form refs
+
+:100644 100644 886c637 03008b8 M	Aurora/source/com/intellij/psi/impl/search/UIFormUtil.java
+
+commit 52d197180259b08a22b81125f8172d680c01d6a7 6dc1656070f15660efdbddf64870858c7e22af63
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 14:08:49 2004 +0000
+
+    fixed issue with null background color
+
+:100644 100644 01b7ac5 c14b3a3 M	Aurora/source/com/intellij/codeEditor/printing/HTMLTextPainter.java
+
+commit 6dc1656070f15660efdbddf64870858c7e22af63 c3e4ef2690cc016f30d6717581dfd653f1e6a2f6
+Author: Maxim.Mossienko <>
+Date:   Thu Nov 18 13:54:29 2004 +0000
+
+    fixed npe on element that has null virtual file
+
+:100644 100644 9599542 3846afc M	Aurora/source/com/intellij/codeInsight/editorActions/HtmlSelectioner.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 32983395436b4818a2faf6c3e0bcf9ed05df2c86 a609337429db8568a0b12f557a84ec9026de6d10
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 09:06:28 2004 +0000
+
+    large test case was landed
+
+commit a609337429db8568a0b12f557a84ec9026de6d10 5b3c7f0b40b153d14cc1ccf8cbe5bf3b488c7836
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 09:05:46 2004 +0000
+
+    class output path also made relative to module dir
+
+:100644 100644 72c2d71 3c0886f M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchingImpl.java
+:100644 100644 c154135 c45b8da M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/RegExpPredicate.java
+
+commit 1f446b0001ce9cababd7b865a18bd3f986fa7958 7f3bb7a2a599ddad215f7519ba839542215c16f9
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 08:32:26 2004 +0000
+
+    class output path also made relative to module dir
+
+:100644 100644 ba53008 6bbea35 M	Aurora/weblogic/weblogic.iml
+
+commit 7f3bb7a2a599ddad215f7519ba839542215c16f9 ca5bdd93aef016b63b02e31d0cecdaa58bbbe9ec
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 08:24:49 2004 +0000
+
+    mADE RELATIVE PATHES FOR CONTENT ROot and weblogic mock lib
+
+:100644 100644 648f4ad ba53008 M	Aurora/weblogic/weblogic.iml
+
+commit 34eae6def640cd6b52e5aa54b34557fdf0b5d801 51d9c01270f2208c46bbc5c234d056076937ea73
+Author: Maxim.Mossienko <>
+Date:   Tue Mar 9 17:29:39 2004 +0000
+
+    first replace statement / expression implementation, used to enable the testing support
+
+:100644 000000 02d55d3 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralReplaceAction.java
+:100644 000000 bf3d599 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchAction.java
+:100644 000000 8602dcc 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchActionTest.java
+:100644 000000 8116e3c 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchExecuteAction.java
+:100644 000000 e4b336f 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchExecuteLastAction.java
+:100644 000000 b518b57 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchNextResultAction.java
+:100644 000000 2ce0bde 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchPlugin.java
+:100644 000000 d6b6994 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchPreviousResultAction.java
+:100644 000000 80d8437 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchSymbolAction.java
+:100644 000000 a1ec520 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchViewDescriptor.java
+:100644 000000 fa27c3e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MalformedPatternException.java
+:100644 000000 8e4bd3c 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MatchOptions.java
+:100644 000000 8ab82fc 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MatchResult.java
+:100644 000000 424485d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MatchResultSink.java
+:100644 000000 acecf9d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/Matcher.java
+:100644 000000 9905093 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MatchingProcess.java
+:100644 000000 7241af9 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/UIFacade.java
+:100644 000000 bd7e4e4 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/UnsupportedPatternException.java
+:100644 000000 135d336 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/aurora/UIFacadeImpl.java
+:100644 000000 3318e18 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/AuroraEnvironmentFacade.java
+:100644 000000 98830ab 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/AuroraMatchingImpl.java
+:100644 000000 3fc50cb 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/CompiledPattern.java
+:100644 000000 d7531d3 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/DataProvider.java
+:100644 000000 5319e8a 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/EnvironmentFacade.java
+:100644 000000 a89b780 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchConstraintsSink.java
+:100644 000000 e72c197 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchContext.java
+:100644 000000 bf23264 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchResultImpl.java
+:100644 000000 27ebaba 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchUtils.java
+:100644 000000 8442626 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatcherImpl.java
+:100644 000000 b1113c8 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchingEndException.java
+:100644 000000 5059e73 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchingImpl.java
+:100644 000000 4605417 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/PatternCompiler.java
+:100644 000000 7fa488e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/BlockFilter.java
+:100644 000000 6c10edd 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/ClassFilter.java
+:100644 000000 0c32e13 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/CompositeFilter.java
+:100644 000000 f9ad183 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/DeclarationFilter.java
+:100644 000000 963f0af 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/DefaultFilter.java
+:100644 000000 1057591 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/ExpressionFilter.java
+:100644 000000 29c8271 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/JavaDocFilter.java
+:100644 000000 d1467897 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/LexicalNodesFilter.java
+:100644 000000 5e8eba8 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/MethodFilter.java
+:100644 000000 5dc270b 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/NodeFilter.java
+:100644 000000 a5ccfa9 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/StatementFilter.java
+:100644 000000 647110f 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/SymbolNodeFilter.java
+:100644 000000 ae06caf 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/TypeFilter.java
+:100644 000000 c8c96b8 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/TypeParameterFilter.java
+:100644 000000 d961360 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/TypedSymbolNodeFilter.java
+:100644 000000 cd89a5d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/filters/VariableFilter.java
+:100644 000000 ffabfea 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/DocDataHandler.java
+:100644 000000 d7ce73e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/ExpressionHandler.java
+:100644 000000 e3852d7 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/Handler.java
+:100644 000000 260db96 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/SimpleHandler.java
+:100644 000000 20edfa3 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/StatementHandler.java
+:100644 000000 e65e165 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/SubstitutionHandler.java
+:100644 000000 d37cd14 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/SymbolHandler.java
+:100644 000000 9565432 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/TypedSymbolHandler.java
+:100644 000000 1f75525 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/ArrayBackedNodeIterator.java
+:100644 000000 28fc5fa 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/CountingNodeIterator.java
+:100644 000000 7e914f0 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/DocValuesIterator.java
+:100644 000000 f273a27 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/FilteringNodeIterator.java
+:100644 000000 a877410 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/HierarchyNodeIterator.java
+:100644 000000 c6f25f3 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/NodeIterator.java
+:100644 000000 db87894 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/iterators/SiblingNodeIterator.java
+:100644 000000 911168c 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/predicates/BinaryPredicate.java
+:100644 000000 a3b4173 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/predicates/NotPredicate.java
+:100644 000000 83d37d9 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/predicates/ReadPredicate.java
+:100644 000000 3d3f56a 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/predicates/ReferencePredicate.java
+:100644 000000 572f2cb 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/predicates/RegExpPredicate.java
+:100644 000000 adca522 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/predicates/WritePredicate.java
+:100644 000000 98d1f1b 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/ActiveScopeHandler.java
+:100644 000000 c94b0e9 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/AllFilesScopeHandler.java
+:100644 000000 90d4e93 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/FileScopeHandler.java
+:100644 000000 e415e1e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/LibraryScopeHandler.java
+:100644 000000 023d6f8 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/PassiveScopeHandler.java
+:100644 000000 678efe2 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/ScopeHandler.java
+:100644 000000 c0e464a 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/ScopeUtils.java
+:100644 000000 588dcaa 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/SelectedModulesScopeHandler.java
+:100644 000000 3d18478 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/SelectedNodesScopeHandler.java
+:100644 000000 ce90935 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/SelectionScopeHandler.java
+:100644 000000 2c30107 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/scope/StringScopeHandler.java
+:100644 000000 4d96f9c 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/strategies/ClassMatchingStrategy.java
+:100644 000000 eb43756 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/strategies/ExprMatchingStrategy.java
+:100644 000000 72f0d20 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/strategies/JavaDocMatchingStrategy.java
+:100644 000000 b37eacd 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/strategies/MatchingStrategy.java
+:100644 000000 5674a8a 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/strategies/MatchingStrategyBase.java
+:100644 000000 054c879 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/strategies/SymbolMatchingStrategy.java
+:100644 000000 b1fc47e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/NavigateSearchResultsDialog.java
+:100644 000000 7d601df 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplaceDialog.java
+:100644 000000 4d1b6b8 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplaceOptions.java
+:100644 000000 866db9e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplacementBuilder.java
+:100644 000000 444943d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplacementProcessor.java
+:100644 000000 ec2e282 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/Replacer.java
+:100644 000000 c462862 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/SearchResultsProgressDialog.java
+:100644 000000 552d535 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/ActionView.java
+:100644 000000 f893142 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/BugReporter.java
+:100644 000000 aeae963 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/DefaultSearchHandler.java
+:100644 000000 39e8b46 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/DialogBase.java
+:100644 000000 ac36fd2 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/HilightSupport.java
+:100644 000000 0f2aaf9 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/KeyEnterField.java
+:100644 000000 7a0e321 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/ResultContainer.java
+:100644 000000 75c282d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchConfiguration.java
+:100644 000000 7b85d2d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchConfigurationManager.java
+:100644 000000 ede1489 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchContext.java
+:100644 000000 1fbf61b 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchControl.java
+:100644 000000 9bb5e9e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchDialog.java
+:100644 000000 8dc55fc 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchResultsView.java
+:100644 000000 99077d2 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchStatisticsViewBase.java
+:100644 000000 420205b 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchTemplateInfo.java
+:100644 000000 4bda6c1 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/actions/DoSearchAction.java
+:100644 000000 42fbcae 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/actions/DynamicActionSupport.java
+:100644 000000 0c4fa8e 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/CollectingMatchResultSink.java
+:100644 000000 364da90 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/ElementRef.java
+:100644 000000 199d33d 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/FileEditorManagerAdapter.java
+:100644 000000 48caca4 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/NavigationUtil.java
+:100644 000000 083145a 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/SmartPsiPointer.java
+:100644 000000 856c436 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/TreePrintingUtil.java
+:100644 000000 ddd17dd 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/UIUtil.java
+:100644 000000 fddfbdf 0000000 D	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/WorkResultHistory.java
+
+commit 51d9c01270f2208c46bbc5c234d056076937ea73 f2244a296ce3641386b0dacbf63d57cfe5c9437e
+Author: Maxim.Mossienko <>
+Date:   Tue Mar 9 17:20:19 2004 +0000
+
+    first replace statement / expression implementation, used to enable the testing support
+
+:100644 100644 bf63651 9d62a61 M	Aurora/plugins/structuralsearch/META-INF/plugin.xml
+:000000 100644 0000000 4dcda5a A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/MalformedPatternException.java
+:000000 100644 0000000 a665cab A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/MatchOptions.java
+:000000 100644 0000000 57a836e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/MatchResult.java
+:000000 100644 0000000 8649aad A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/MatchResultSink.java
+:000000 100644 0000000 b447391 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/Matcher.java
+:000000 100644 0000000 6ecb42d A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/MatchingProcess.java
+:000000 100644 0000000 5edc193 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/UnsupportedPatternException.java
+:000000 100644 0000000 e069ca0 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/AuroraEnvironmentFacade.java
+:000000 100644 0000000 0919340 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/AuroraMatchingImpl.java
+:000000 100644 0000000 2ad99f1 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/CompiledPattern.java
+:000000 100644 0000000 e3c981e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/DataProvider.java
+:000000 100644 0000000 6abbea3 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/EnvironmentFacade.java
+:000000 100644 0000000 f1f5b85 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchConstraintsSink.java
+:000000 100644 0000000 0fbcb91 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchContext.java
+:000000 100644 0000000 413b40f A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchResultImpl.java
+:000000 100644 0000000 ec4a4ed A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchUtils.java
+:000000 100644 0000000 0ec7e83 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatcherImpl.java
+:000000 100644 0000000 e2aa776 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchingEndException.java
+:000000 100644 0000000 72c2d71 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchingImpl.java
+:000000 100644 0000000 802e9fc A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/PatternCompiler.java
+:000000 100644 0000000 de88aa6 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/aurora/UIFacadeImpl.java
+:000000 100644 0000000 5e08c22 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/BlockFilter.java
+:000000 100644 0000000 ba0b437 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/ClassFilter.java
+:000000 100644 0000000 9103b0d A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/CompositeFilter.java
+:000000 100644 0000000 e4885c5 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/DeclarationFilter.java
+:000000 100644 0000000 8ac0eee A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/DefaultFilter.java
+:000000 100644 0000000 c2eba69 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/ExpressionFilter.java
+:000000 100644 0000000 0a879b1 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/JavaDocFilter.java
+:000000 100644 0000000 c8043f7 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/LexicalNodesFilter.java
+:000000 100644 0000000 3d46999 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/MethodFilter.java
+:000000 100644 0000000 7555163 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/NodeFilter.java
+:000000 100644 0000000 3023d0e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/StatementFilter.java
+:000000 100644 0000000 72c143c A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/SymbolNodeFilter.java
+:000000 100644 0000000 4ffecad A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/TypeFilter.java
+:000000 100644 0000000 9d6611e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/TypeParameterFilter.java
+:000000 100644 0000000 894b079 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/TypedSymbolNodeFilter.java
+:000000 100644 0000000 aced698 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/filters/VariableFilter.java
+:000000 100644 0000000 ed30829 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/DocDataHandler.java
+:000000 100644 0000000 c522d69 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/ExpressionHandler.java
+:000000 100644 0000000 d88aaaa A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/Handler.java
+:000000 100644 0000000 eadf448 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/SimpleHandler.java
+:000000 100644 0000000 9804a29 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/StatementHandler.java
+:000000 100644 0000000 1413820 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/SubstitutionHandler.java
+:000000 100644 0000000 0c3d3f0 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/SymbolHandler.java
+:000000 100644 0000000 71a506b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/handlers/TypedSymbolHandler.java
+:000000 100644 0000000 d7d58d6 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/ArrayBackedNodeIterator.java
+:000000 100644 0000000 48b765f A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/CountingNodeIterator.java
+:000000 100644 0000000 6ba20b4 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/DocValuesIterator.java
+:000000 100644 0000000 cd37611 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/FilteringNodeIterator.java
+:000000 100644 0000000 99b92bc A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/HierarchyNodeIterator.java
+:000000 100644 0000000 e21bedd A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/NodeIterator.java
+:000000 100644 0000000 39a932b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/iterators/SiblingNodeIterator.java
+:000000 100644 0000000 527c05d A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/BinaryPredicate.java
+:000000 100644 0000000 a0441dc A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/NotPredicate.java
+:000000 100644 0000000 0ef4a90 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/ReadPredicate.java
+:000000 100644 0000000 bd65730 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/ReferencePredicate.java
+:000000 100644 0000000 c154135 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/RegExpPredicate.java
+:000000 100644 0000000 f64ace2 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/WritePredicate.java
+:000000 100644 0000000 de0379e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/ActiveScopeHandler.java
+:000000 100644 0000000 6c13c9a A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/AllFilesScopeHandler.java
+:000000 100644 0000000 b431f5b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/FileScopeHandler.java
+:000000 100644 0000000 03416c8 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/LibraryScopeHandler.java
+:000000 100644 0000000 5ea0c77 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/PassiveScopeHandler.java
+:000000 100644 0000000 c950f9f A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/ScopeHandler.java
+:000000 100644 0000000 2c646dd A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/ScopeUtils.java
+:000000 100644 0000000 981e2e6 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/SelectedModulesScopeHandler.java
+:000000 100644 0000000 282eac7 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/SelectedNodesScopeHandler.java
+:000000 100644 0000000 bd6f451 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/SelectionScopeHandler.java
+:000000 100644 0000000 3fcec58 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/scope/StringScopeHandler.java
+:000000 100644 0000000 980bab2 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/strategies/ClassMatchingStrategy.java
+:000000 100644 0000000 bf3b521 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/strategies/ExprMatchingStrategy.java
+:000000 100644 0000000 f058d75 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/strategies/JavaDocMatchingStrategy.java
+:000000 100644 0000000 e5dd28f A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/strategies/MatchingStrategy.java
+:000000 100644 0000000 f226eaa A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/strategies/MatchingStrategyBase.java
+:000000 100644 0000000 7dc00a7 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/strategies/SymbolMatchingStrategy.java
+:000000 100644 0000000 1ede699 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralReplaceAction.java
+:000000 100644 0000000 fe4f0fe A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchAction.java
+:000000 100644 0000000 61be61b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchExecuteAction.java
+:000000 100644 0000000 5e27c9c A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchExecuteLastAction.java
+:000000 100644 0000000 909d4c5 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchNextResultAction.java
+:000000 100644 0000000 4747d67 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchPlugin.java
+:000000 100644 0000000 a212e7a A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchPreviousResultAction.java
+:000000 100644 0000000 c48b197 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchSymbolAction.java
+:000000 100644 0000000 425f296 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/StructuralSearchViewDescriptor.java
+:000000 100644 0000000 fcebc7b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/NavigateSearchResultsDialog.java
+:000000 100644 0000000 e29c3b9 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/ReplaceDialog.java
+:000000 100644 0000000 5ee10ee A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/ReplaceOptions.java
+:000000 100644 0000000 ec2c277 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/ReplacementBuilder.java
+:000000 100644 0000000 7861c67 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/ReplacementProcessor.java
+:000000 100644 0000000 8a4bc04 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/Replacer.java
+:000000 100644 0000000 fca0d6a A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/replace/SearchResultsProgressDialog.java
+:000000 100644 0000000 8e43b50 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/ActionView.java
+:000000 100644 0000000 2950e99 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/BugReporter.java
+:000000 100644 0000000 72ca4a5 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/DefaultSearchHandler.java
+:000000 100644 0000000 9f9e060 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/DialogBase.java
+:000000 100644 0000000 b70064f A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/HilightSupport.java
+:000000 100644 0000000 7f2ead6 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/KeyEnterField.java
+:000000 100644 0000000 b54275c A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/ResultContainer.java
+:000000 100644 0000000 23e9804 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchConfiguration.java
+:000000 100644 0000000 66fb37b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchConfigurationManager.java
+:000000 100644 0000000 00d01a5 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchContext.java
+:000000 100644 0000000 300211d A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchControl.java
+:000000 100644 0000000 c401cd3 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchDialog.java
+:000000 100644 0000000 383e316 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchResultsView.java
+:000000 100644 0000000 403a1a8 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchStatisticsViewBase.java
+:000000 100644 0000000 41a905d A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/SearchTemplateInfo.java
+:000000 100644 0000000 b4e5256 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/UIFacade.java
+:000000 100644 0000000 7b76be0 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/actions/DoSearchAction.java
+:000000 100644 0000000 c4bad7b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/actions/DynamicActionSupport.java
+:000000 100644 0000000 1b950a8 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/CollectingMatchResultSink.java
+:000000 100644 0000000 839273e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/ElementRef.java
+:000000 100644 0000000 f0990ac A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/FileEditorManagerAdapter.java
+:000000 100644 0000000 8c10641 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/NavigationUtil.java
+:000000 100644 0000000 55446c3 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/SmartPsiPointer.java
+:000000 100644 0000000 03e88f6 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/TreePrintingUtil.java
+:000000 100644 0000000 bbb027f A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/UIUtil.java
+:000000 100644 0000000 87ac38e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/plugin/util/WorkResultHistory.java
+:100644 100644 bf1d2b8 cbf5ffc M	Aurora/plugins/structuralsearch/structuralsearch.iml
+:100644 100644 ad5d88f 47f0916 M	Aurora/plugins/structuralsearch/testSource/com/intellij/structuralsearch/StructuralSearchTestCase.java
+
+commit 5a4e12ff950b8d76cc39e9b05f37b3ffd10e0ad9 66dce3fb0a4001e399d28124a36be93455340539
+Author: Maxim.Mossienko <>
+Date:   Fri Mar 5 19:43:48 2004 +0000
+
+    first replace cut
+
+:100644 100644 37059e8 80d8437 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchSymbolAction.java
+:100644 100644 35f8039 8e4bd3c M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MatchOptions.java
+:100644 100644 9a33556 5059e73 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchingImpl.java
+:100644 100644 1a934f4 b1fc47e M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/NavigateSearchResultsDialog.java
+:100644 100644 19807ca 7d601df M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplaceDialog.java
+:000000 100644 0000000 4d1b6b8 A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplaceOptions.java
+:000000 100644 0000000 866db9e A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplacementBuilder.java
+:100644 100644 bd9615b ec2e282 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/Replacer.java
+:100644 100644 c1f5c5b 39e8b46 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/DialogBase.java
+
+commit d118d2c6b51c9622d4bacada735e2052303f90df 156e334f72c120c6c39ebd424ef290ebb5d798da
+Author: Maxim.Mossienko <>
+Date:   Fri Mar 5 09:45:35 2004 +0000
+
+    proper build file (why it was missed in previous checkin?)
+
+:100644 100644 0a2d350 420a179 M	Aurora/pallada.ipr
+:100644 100644 bcef4ed 35d2247 M	Aurora/plugins/structuralsearch/source/build.xml
+:100644 100644 dcbb9c1 1a934f4 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/NavigateSearchResultsDialog.java
+:100644 100644 b972024 444943d M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplacementProcessor.java
+
+commit 1570915712a9cb8a582fe2936eb6541da8c6c1ca 27612c36f6d1f17bdbcd16e64c3787fd26566c52
+Author: Maxim.Mossienko <>
+Date:   Thu Mar 4 19:20:29 2004 +0000
+
+    Mote tests were moved into separate test case, replace activity was started.
+    Fixed issue with PSI change for Pallada version
+
+:100644 100644 46de850 8602dcc M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchActionTest.java
+:100644 100644 04a7f62 d6b6994 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/StructuralSearchPreviousResultAction.java
+:100644 100644 4647af9 8ab82fc M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/interfaces/MatchResult.java
+:100644 100644 c4502b9 5319e8a M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/EnvironmentFacade.java
+:100644 100644 8da8c38 a89b780 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchConstraintsSink.java
+:100644 100644 ede758e bf23264 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchResultImpl.java
+:100644 100644 e323a58 9a33556 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/MatchingImpl.java
+:100644 100644 c4c3d13 4605417 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/PatternCompiler.java
+:100644 100644 ff4282e e65e165 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/matcher/handlers/SubstitutionHandler.java
+:100644 100644 fdbf184 dcbb9c1 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/NavigateSearchResultsDialog.java
+:100644 100644 f977fab b972024 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/ReplacementProcessor.java
+:000000 100644 0000000 bd9615b A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/replace/Replacer.java
+:100644 100644 e2dc57a 9bb5e9e M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchDialog.java
+:100644 100644 17856a1 8dc55fc M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/ui/SearchResultsView.java
+:100644 100644 54e4667 48caca4 M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/NavigationUtil.java
+:000000 100644 0000000 083145a A	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/util/SmartPsiPointer.java
+:000000 100644 0000000 2226594 A	Aurora/plugins/structuralsearch/testSource/com/intellij/structuralsearch/StructuralReplaceTestCase.java
+:100644 100644 06e0925 ad5d88f M	Aurora/plugins/structuralsearch/testSource/com/intellij/structuralsearch/StructuralSearchTestCase.java
+
+commit cd460f9fc1f67d520a79688ed49c9cdf8afbc45b c0cefa3fce8aeaf55ccd3980144c8b5f5dd8a3a1
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 3 15:35:33 2004 +0000
+
+    JDOM dependency was added
+
+:100644 100644 476ba64 604df9f M	Aurora/plugins/structuralsearch/structuralsearch.iml

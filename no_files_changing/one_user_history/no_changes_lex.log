@@ -1,0 +1,2182 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 2dfa50a7532295358957c4970232815186f8f8e4 7427d746a2c8904526d1ef666e45d28da2dc8404
+Author: lex <>
+Date:   Sat Nov 13 18:08:45 2004 +0000
+
+    no message
+
+commit ae81ebca6c2ef92656e0b0240aaa20205a78f0c1 f1c91cc3f99fbd5e5e5e7922f38748151d14d647
+Author: lex <>
+Date:   Sat Nov 13 16:34:58 2004 +0000
+
+    no message
+
+:100644 100644 42a8bcb 4699edb M	Aurora/testData/debugger/tinyApp/outs/suspendCommandInvokeLater.out
+:100644 100644 d2013f7 6fbe60e M	Aurora/testSource/com/intellij/debugger/engine/DebuggerManagerThreadTest.java
+
+commit 632457e7cec619113a930f2bcdfece4f1c5bee83 86ab0316722fe7e4a0e5187cb98b1a57c20a9db1
+Author: lex <>
+Date:   Sat Nov 13 15:48:59 2004 +0000
+
+    no message
+
+:100644 100644 5067f4a b383c27 M	Aurora/plugins/debuggerCommonViews/testSource/com/intellij/debugger/ui/impl/NodeExpressionTest.java
+:100644 100644 9f479b3 8c201f0 M	Aurora/source/com/intellij/debugger/engine/SuspendContextImpl.java
+:100644 100644 e05655a 4002df3 M	Aurora/source/com/intellij/debugger/jdi/ObjectReferenceProxyImpl.java
+:100644 100644 4fb2a3f 05e3aee M	Aurora/source/com/intellij/debugger/jdi/ThreadGroupReferenceProxyImpl.java
+:100644 100644 f0d1df6 a9cd9bf M	Aurora/source/com/intellij/debugger/jdi/ThreadReferenceProxyImpl.java
+:100644 100644 da8c910 8a94dfb M	Aurora/source/com/intellij/debugger/jdi/VirtualMachineProxyImpl.java
+:100644 100644 78e0d40 7cc4473 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsDebuggerTree.java
+:100644 100644 c88bf48 0a485a4 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 819204d e7f3373 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ThreadGroupDescriptorImpl.java
+:000000 100644 0000000 897591f A	Aurora/testData/debugger/tinyApp/outs/threadsTree.out
+:000000 100644 0000000 bb08c53 A	Aurora/testData/debugger/tinyApp/src/ThreadsTreeTest.java
+:100644 100644 4db9676 6a00ff5 M	Aurora/testSource/com/intellij/debugger/ExecutionWithDebuggerToolsTestCase.java
+:100644 100644 ac8ea3e a7cd405 M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTreeTest.java
+:100644 100644 3810e55 542dc6d M	Aurora/testSource/com/intellij/debugger/ui/impl/DescriptorTestCase.java
+:100644 100644 93a0fd9 7eb94e2 M	Aurora/testSource/com/intellij/debugger/ui/impl/NodeDescriptorsTest.java
+:100644 100644 edf3100 ba2c4a5 M	Aurora/testSource/com/intellij/execution/ExecutionTestCase.java
+:100644 100644 23bb185 0887ed1 M	Aurora/testSource/com/intellij/run/J2EEServerTestCase.java
+
+commit 7f76875c0fabcf05cd66558770dcc474e7f12761 98c822782237e539c634bd6f70c8eda5dab197aa
+Author: lex <>
+Date:   Sat Nov 13 14:33:52 2004 +0000
+
+    no message
+
+:100644 100644 4b4996a c4d9b08 M	Aurora/source/com/intellij/debugger/engine/SuspendManagerImpl.java
+:100644 100644 a8d4796 c22bc50 M	Aurora/util/src/com/intellij/Patches.java
+
+commit 0a28a581356dc767a086b454d7cb5065939578a8 e1994e375c0459f7e971503b1c272dce895e1261
+Author: lex <>
+Date:   Thu Nov 11 16:46:59 2004 +0000
+
+    no message
+
+:100644 100644 3783843 bc2d420 M	Aurora/openapi/src/com/intellij/debugger/ui/tree/NodeManager.java
+:100644 100644 d9e42b0 e9bd078 M	Aurora/plugins/debuggerCommonViews/src/ClassChildrenExpressionRenderer.java
+:100644 100644 864312a e382403 M	Aurora/plugins/debuggerCommonViews/src/NamedChildrenRenderer.java
+:100644 100644 377df2b cedd4d4 M	Aurora/source/com/intellij/debugger/ui/impl/FrameDebuggerTree.java
+:100644 100644 fe47e1a 042f289 M	Aurora/source/com/intellij/debugger/ui/impl/InspectDebuggerTree.java
+:100644 100644 54c0903 78e0d40 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsDebuggerTree.java
+:100644 100644 3b755a8 c88bf48 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 d0175e6 a248783 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTreeNodeImpl.java
+:100644 100644 598326c c22a491 M	Aurora/source/com/intellij/debugger/ui/impl/watch/NodeManagerImpl.java
+:100644 100644 76f5452 5a83fa3 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ArrayRenderer.java
+:100644 100644 0d3d967 d6a0ec5 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ClassRenderer.java
+
+commit 6c279b3c8248067a05e4449ef5982129a28e66c7 fbc5249a4cf05f99988a008de6fc5edc02157150
+Author: lex <>
+Date:   Thu Nov 11 14:45:56 2004 +0000
+
+    no message
+
+:100644 100644 fd2dee0 261b1eb M	Aurora/plugins/debuggerCommonViews/src/configurables/ClassLabelExpressionConfigurable.java
+:100644 100644 b68e936 484195f M	Aurora/plugins/debuggerCommonViews/src/configurables/ReferenceNodeRendererConfigurable.java
+:100644 100644 17ec511 10faf7d M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.java
+:100644 100644 5f129ee 7f1ceaa M	Aurora/source/com/intellij/debugger/settings/NodeRendererConfigurable.java
+
+commit b61730249efbfb1f52b9a47f77a99bbe04c46bcb 0d7929fe1958450abb968bfc7dc97fed4ec5a54b
+Author: lex <>
+Date:   Thu Nov 11 14:25:28 2004 +0000
+
+    no message
+
+:100644 100644 f64e7be 2281e16 M	Aurora/source/com/intellij/debugger/engine/DebuggerManagerThreadImpl.java
+:100644 100644 18f7416 e170605 M	Aurora/source/com/intellij/debugger/ui/DebuggerContextImpl.java
+
+commit 39ca22fc795d2bdee7be40c0c2c9699bb2f2f14d 1010ce7764e57dfc4a4b4d8ae2c4a5764ac7e1a5
+Author: lex <>
+Date:   Thu Nov 11 14:03:22 2004 +0000
+
+    no message
+
+:100644 100644 058c644 17f4af5 M	Aurora/source/com/intellij/debugger/ui/breakpoints/LineBreakpoint.java
+
+commit 1010ce7764e57dfc4a4b4d8ae2c4a5764ac7e1a5 f16118963c3b52bb36e98ba510e6b8c9448f7c3f
+Author: lex <>
+Date:   Thu Nov 11 13:55:10 2004 +0000
+
+    no message
+
+:100644 100644 615cf88 76f5452 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ArrayRenderer.java
+
+commit f16118963c3b52bb36e98ba510e6b8c9448f7c3f f3ec6bdcd0eb4adb1098b883ed5beebc3a0be906
+Author: lex <>
+Date:   Thu Nov 11 13:45:15 2004 +0000
+
+    no message
+
+:100644 100644 f6a4786 1906b2f M	Aurora/openapi/src/com/intellij/debugger/engine/DebuggerUtils.java
+:100644 100644 b11ec4f 5c0e49d M	Aurora/openapi/src/com/intellij/debugger/ui/tree/ValueDescriptor.java
+:100644 100644 2a1f1f4 4f77af8 M	Aurora/openapi/src/com/intellij/debugger/ui/tree/render/ChildrenRenderer.java
+:100644 100644 752f861 95fc50a M	Aurora/openapi/src/com/intellij/debugger/ui/tree/render/CompoundNodeRenderer.java
+:100644 100644 b61a53a dc8b8fa M	Aurora/openapi/src/com/intellij/debugger/ui/tree/render/NodeRendererSettings.java
+:100644 100644 accc4e4 0409752 M	Aurora/plugins/debuggerCommonViews/src/CachedEvaluator.java
+:100644 100644 66aad11 d9e42b0 M	Aurora/plugins/debuggerCommonViews/src/ClassChildrenExpressionRenderer.java
+:100644 100644 2769b13 a29b565 M	Aurora/plugins/debuggerCommonViews/src/CommonRenderers.java
+:000000 100644 0000000 3ed913c A	Aurora/plugins/debuggerCommonViews/src/CompoundReferenceRenderer.java
+:100644 100644 6baa516 07506db M	Aurora/plugins/debuggerCommonViews/src/HexRenderer.java
+:100644 100644 ce148a2 864312a M	Aurora/plugins/debuggerCommonViews/src/NamedChildrenRenderer.java
+:100644 000000 5211bf6 0000000 D	Aurora/plugins/debuggerCommonViews/src/ReferenceRenderer.java
+:100644 100644 cb93c24 9c32c7f M	Aurora/plugins/debuggerCommonViews/src/ToStringRenderer.java
+:100644 100644 968f326 b68e936 M	Aurora/plugins/debuggerCommonViews/src/configurables/ReferenceNodeRendererConfigurable.java
+:100644 100644 0dcc88d 5067f4a M	Aurora/plugins/debuggerCommonViews/testSource/com/intellij/debugger/ui/impl/NodeExpressionTest.java
+:100644 100644 81b8780 4c086ac M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/EvaluatorBuilderImpl.java
+:100644 100644 df03b50 d2eff04 M	Aurora/source/com/intellij/debugger/impl/DebuggerUtilsImpl.java
+:100644 100644 b04b898 bba82ca M	Aurora/source/com/intellij/debugger/settings/ArrayRendererConfigurable.java
+:100644 100644 da2cd58 9bd6097 M	Aurora/source/com/intellij/debugger/settings/AutoRendererNode.java
+:100644 100644 9805e0c 5f129ee M	Aurora/source/com/intellij/debugger/settings/NodeRendererConfigurable.java
+:100644 100644 fc201ff f86aadd M	Aurora/source/com/intellij/debugger/settings/NodeRendererSettingsImpl.java
+:100644 100644 0f7727e da3101d M	Aurora/source/com/intellij/debugger/settings/ViewsGeneralConfigurable.form
+:100644 100644 9e87b95 51b70d2 M	Aurora/source/com/intellij/debugger/settings/ViewsGeneralConfigurable.java
+:100644 100644 3b4a4f9 e600ebf M	Aurora/source/com/intellij/debugger/ui/impl/watch/ArrayElementDescriptorImpl.java
+:100644 100644 c233c9d 8ae83f1 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTreeNodeExpression.java
+:100644 100644 f055a43 235138a M	Aurora/source/com/intellij/debugger/ui/impl/watch/EvaluationDescriptor.java
+:100644 100644 b037ccf 3cd8b15 M	Aurora/source/com/intellij/debugger/ui/impl/watch/FieldDescriptorImpl.java
+:100644 100644 5d2d88c 1a49930 M	Aurora/source/com/intellij/debugger/ui/impl/watch/LocalVariableDescriptorImpl.java
+:100644 100644 2c885ed 9b966d6 M	Aurora/source/com/intellij/debugger/ui/impl/watch/NodeDescriptorImpl.java
+:100644 100644 73d35ae 8be9170 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ThisDescriptorImpl.java
+:100644 100644 ccad77e 8a2bb5c M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptorImpl.java
+:100644 100644 7b28491 615cf88 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ArrayRenderer.java
+:100644 100644 7366953 0d3d967 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ClassRenderer.java
+:100644 100644 c007baa 5a465db M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/PrimitiveRenderer.java
+:100644 100644 879291b 74fa500 M	Aurora/testData/debugger/tinyApp/outs/suspendingContexts.out
+:000000 100644 0000000 2c0e31a A	Aurora/testData/debugger/tinyApp/outs/valueDescriptorUpdate.out
+:100644 100644 0e0a452 677477f M	Aurora/testData/debugger/tinyApp/src/ContextSuspendingThreadsTest.java
+:000000 100644 0000000 3bffd6b A	Aurora/testData/debugger/tinyApp/src/ValueDescriptorUpdateTest.java
+:100644 100644 3ea4172 0be3d67 M	Aurora/testData/debugger/tinyApp/testSuite/TestAllExecutionAndDebug.java
+:100644 100644 e842e5e 4db9676 M	Aurora/testSource/com/intellij/debugger/ExecutionWithDebuggerToolsTestCase.java
+:100644 100644 a74f9cd 73037e5 M	Aurora/testSource/com/intellij/debugger/engine/MultithreadedTest.java
+:100644 100644 ed8ee93 b57b0bb M	Aurora/testSource/com/intellij/debugger/engine/SuspendManagerUtilTest.java
+:100644 100644 450e09c ac8ea3e M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTreeTest.java
+:100644 100644 c4f2793 d2f7184 M	Aurora/testSource/com/intellij/debugger/ui/impl/DefaultRenderersTest.java
+:100644 100644 517c00a 3810e55 M	Aurora/testSource/com/intellij/debugger/ui/impl/DescriptorTestCase.java
+:100644 100644 a3f27f4 93a0fd9 M	Aurora/testSource/com/intellij/debugger/ui/impl/NodeDescriptorsTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit f3b0e9bd1fc683b09d59eef62b846d660b0842ec 9795605fd7c8f0311baf2d2e0683ebf32416c14d
+Author: lex <>
+Date:   Thu Nov 4 14:23:23 2004 +0000
+
+    no message
+
+commit 9795605fd7c8f0311baf2d2e0683ebf32416c14d 03c918b17aff318ea6dd87f30698861f5d704624
+Author: lex <>
+Date:   Thu Nov 4 14:22:31 2004 +0000
+
+    no message
+
+:100644 100644 97406f5 f54be63 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+
+commit 688c4160f3161807ee33ac49a17589a6714b21ca 4e0793065079080974cb70b14c2c2b0fd3eb42f1
+Author: lex <>
+Date:   Thu Nov 4 13:54:55 2004 +0000
+
+    no message
+
+:100644 100644 f54be63 97406f5 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:000000 100644 0000000 e69de29 A	Aurora/testData/debugger/tinyApp/outs/oSProcessHandlerWaitForInSwingThread.out
+:100644 100644 71131c5 53271b6 M	Aurora/testData/debugger/tinyApp/testSuite/TestAllExecutionAndDebug.java
+:100644 100644 ae424aa 8033b78 M	Aurora/testData/j2eeExecution/testJ2EEProject/Weblogic8Module/Weblogic8Module.iml
+:100644 100644 ebe728e ba8a173 M	Aurora/testData/j2eeExecution/testJ2EEProject/testJ2EEProject.iws
+:100644 100644 293ed45 13f7d96 M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:000000 100644 0000000 26f21f4 A	Aurora/testSource/com/intellij/debugger/ui/impl/ExecutionWithDebuggerToolsTestCase.java
+:100644 100644 ca2133e f3c0b47 M	Aurora/testSource/com/intellij/execution/process/OSProcessHandlerTest.java
+:100644 100644 d1fb10f e92e654 M	Aurora/testSource/com/intellij/run/ExecutionManagerTest.java
+:100644 100644 0db10f5 67a3034 M	Aurora/testSource/com/intellij/run/ExecutionManagerTestCase.java
+:100644 100644 f6b5843 d5730ac M	Aurora/testSource/com/intellij/run/J2EEServerTestCase.java
+
+commit 5a1f717b6d26cf14b1b6e1a8759f687128dff461 87377b9a716b267c8e5a28824d9231f563cf06ba
+Author: lex <>
+Date:   Thu Nov 4 12:02:18 2004 +0000
+
+    no message
+
+:100644 100644 2e8d65c 0db10f5 M	Aurora/testSource/com/intellij/run/ExecutionManagerTestCase.java
+
+commit 11a61f10dd34f131ec9990ee377da5c5fdd6b4b5 da174e83d278d54caa84718676f3f5be971f7c87
+Author: lex <>
+Date:   Thu Nov 4 11:59:52 2004 +0000
+
+    no message
+
+:100644 100644 31effe5 9ad533d M	Aurora/openapi/src/com/intellij/execution/process/ProcessAdapter.java
+:100644 100644 3798cf9 f54be63 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 f0e87ba ebb9d49 M	Aurora/openapi/src/com/intellij/execution/process/ProcessListener.java
+:100644 100644 b0789cc 3ec1ed1 M	Aurora/source/com/intellij/debugger/actions/AddToWatchAction.java
+:100644 100644 fb03913 b5d7d34 M	Aurora/source/com/intellij/debugger/actions/CopyValueAction.java
+:100644 100644 66574ea 90e9f63 M	Aurora/source/com/intellij/debugger/actions/EditSourceAction.java
+:100644 100644 7c71ba6 4432869 M	Aurora/source/com/intellij/debugger/actions/EvaluateAction.java
+:100644 100644 f8db832 6e70cb6 M	Aurora/source/com/intellij/debugger/actions/InspectAction.java
+:100644 100644 0662ba1 e3ac575 M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 334bfcf 1c969de M	Aurora/source/com/intellij/debugger/codeinsight/SurroundWithRuntimeCastHandler.java
+:100644 100644 640b314 159e833 M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+:100644 100644 3724696 e0da817 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 645eac2 ef9cac9 M	Aurora/source/com/intellij/debugger/engine/RemoteDebugProcessHandler.java
+:100644 100644 834fa4d 4bf2c9f M	Aurora/source/com/intellij/debugger/engine/requests/RequestManagerImpl.java
+:100644 100644 7880705 5cd9278 M	Aurora/source/com/intellij/debugger/ui/DebuggerContextManager.java
+:100644 100644 e2040c8 a518a61 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 df548a8 7be4c94 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 1557f34 d2f5253 M	Aurora/source/com/intellij/debugger/ui/EditorEvaluationCommand.java
+:100644 100644 e445004 d807758 M	Aurora/source/com/intellij/debugger/ui/ExportDialog.java
+:100644 100644 88a5336 b81d924 M	Aurora/source/com/intellij/debugger/ui/ExpressionEvaluationDialog.java
+:100644 100644 be6cb0a ac57384 M	Aurora/source/com/intellij/debugger/ui/HotSwapCommand.java
+:100644 100644 b5a77c4 a74a259 M	Aurora/source/com/intellij/debugger/ui/HotSwapDiagnostics.java
+:100644 100644 4a57ad6 178eca3 M	Aurora/source/com/intellij/debugger/ui/HotSwapManager.java
+:100644 100644 7c38ff0 b78ff3a M	Aurora/source/com/intellij/debugger/ui/PositionHighlighter.java
+:100644 100644 afb2073 c06c787 M	Aurora/source/com/intellij/debugger/ui/StatementEvaluationDialog.java
+:100644 100644 1f65ffd 2db1a10 M	Aurora/source/com/intellij/debugger/ui/ValueHint.java
+:100644 100644 a8c1d78 f3a4c5a M	Aurora/source/com/intellij/debugger/ui/breakpoints/Breakpoint.java
+:100644 100644 c639a89 2943a99 M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointManager.java
+:100644 100644 a8965fa 009e53b M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointWithHighlighter.java
+:100644 100644 a622b8b 377df2b M	Aurora/source/com/intellij/debugger/ui/impl/FrameDebuggerTree.java
+:100644 100644 d0a9a98 95e922e M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+:100644 100644 2b7b70d fe47e1a M	Aurora/source/com/intellij/debugger/ui/impl/InspectDebuggerTree.java
+:100644 100644 950a61f 54c0903 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsDebuggerTree.java
+:100644 100644 0e4c723 3b755a8 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 b82fc25 1d77465 M	Aurora/source/com/intellij/j2ee/run/execution/J2EEOSProcessHandlerWrapper.java
+:100644 100644 fdda6aa 281f67b M	Aurora/source/com/intellij/j2ee/run/execution/J2EEProcess.java
+:100644 100644 5a1e493 8490638 M	Aurora/source/com/intellij/j2ee/run/execution/J2EEProcessHandlerHelper.java
+:100644 100644 ace768c 20318b2 M	Aurora/source/com/intellij/j2ee/run/execution/J2EERemoteProcessHandler.java
+:100644 100644 56317f7 35897de M	Aurora/source/com/intellij/testFramework/IdeaTestCase.java
+:100644 100644 6ff1473 90bc9d0 R094	Aurora/source/com/intellij/debugger/engine/IJLaterInvocator.java	Aurora/source/com/intellij/util/IJLaterInvocator.java
+:100644 100644 9775e95 9fb8637 M	Aurora/testData/debugger/tinyApp/debuggerTestApp.iml
+:100644 100644 6e4ddb1 b69825a M	Aurora/testData/debugger/tinyApp/outs/suspendCommandInvokeLater.out
+:000000 100644 0000000 66498d1 A	Aurora/testData/debugger/tinyApp/testSuite/CompoundTest.java
+:000000 100644 0000000 71131c5 A	Aurora/testData/debugger/tinyApp/testSuite/TestAllExecutionAndDebug.java
+:100644 100644 f0bf6b5 23e2026 M	Aurora/testData/execution/testExecution/outs/debug.out
+:100644 100644 03d9afb c986a90 M	Aurora/testData/execution/testExecution/testExecution.ipr
+:100644 100644 ea6ddee 408e943 M	Aurora/testData/execution/testExecution/testExecution.iws
+:100644 100644 7cbfd85 4419608 M	Aurora/testSource/com/intellij/TestAll.java
+:100644 100644 1f57bac 9afcc99 M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerManagerThreadTest.java
+:100644 100644 8e231a3 293ed45 M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:100644 100644 ff934f5 943ddca M	Aurora/testSource/com/intellij/execution/ExecutionTestCase.java
+:100644 100644 25fa9c3 ca2133e M	Aurora/testSource/com/intellij/execution/process/OSProcessHandlerTest.java
+:100644 100644 abf740e d1fb10f M	Aurora/testSource/com/intellij/run/ExecutionManagerTest.java
+:100644 100644 ad814b7 2e8d65c M	Aurora/testSource/com/intellij/run/ExecutionManagerTestCase.java
+:100644 100644 87cef2a f6b5843 M	Aurora/testSource/com/intellij/run/J2EEServerTestCase.java
+
+commit 52fb521d42d328a1da59eada48aa6a68b9677e27 9d495d710233e12006286ed66801c49f258b24ba
+Author: lex <>
+Date:   Thu Nov 4 10:44:38 2004 +0000
+
+    no message
+
+:100644 100644 9ad65a9 212ad3d M	Aurora/source/com/intellij/diagnostic/DefaultIdeaErrorLogger.java
+:100644 100644 9c8e846 08797bd M	Aurora/source/com/intellij/ide/SaveAndSyncHandler.java
+
+commit 986ac4a17d7dd7b648fc7c89ec7f0e7069715f64 bb947503aa4854abe1f7b13136c2b5685f86dcda
+Author: lex <>
+Date:   Thu Nov 4 10:36:17 2004 +0000
+
+    no message
+
+:100644 100644 212ad3d 9ad65a9 M	Aurora/source/com/intellij/diagnostic/DefaultIdeaErrorLogger.java
+:100644 100644 08797bd 9c8e846 M	Aurora/source/com/intellij/ide/SaveAndSyncHandler.java
+
+commit bb947503aa4854abe1f7b13136c2b5685f86dcda b710569825ef706dbe6bc1b738af9fb183ab9cff
+Author: lex <>
+Date:   Thu Nov 4 10:27:16 2004 +0000
+
+    no message
+
+:100644 100644 1005181 8eb42f5 M	Aurora/build/cc.xml
+
+commit f00c2cbe934ee6e81544442738bea5e45c8546c1 b0a2d224ec7fc7d2acaeb86819732330f67b9277
+Author: lex <>
+Date:   Wed Nov 3 18:08:02 2004 +0000
+
+    no message
+
+:100644 100644 2ccbbe5 abf740e M	Aurora/testSource/com/intellij/run/ExecutionManagerTest.java
+
+commit 11a782ccbe84b0b946e0024f7273298dd59cda79 0e7350544838cd76c5332855a25b80824eaa5381
+Author: lex <>
+Date:   Wed Nov 3 10:58:13 2004 +0000
+
+    no message
+
+:100644 100644 9166597 640b314 M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+:000000 100644 0000000 072b386 A	Aurora/testData/debugger/tinyApp/outs/codeFragmentVar.out
+:000000 100644 0000000 7eb68b5 A	Aurora/testData/debugger/tinyApp/outs/noAttach.out
+:100644 100644 817f5c0 7d8ff25 M	Aurora/testData/debugger/tinyApp/outs/startOSProcessHandlerFromProcess.out
+:100644 100644 48993b9 8e231a3 M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:100644 100644 59f68a5 508580d M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+:100644 100644 2ddec65 ff934f5 M	Aurora/testSource/com/intellij/execution/ExecutionTestCase.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 2764fb38b5584d02a2fd972dc9857c66cde180bd b8c1a1275f4beb8989ba79f0264045ef44df8d15
+Author: lex <>
+Date:   Wed Jul 28 13:56:51 2004 +0000
+
+    no message
+
+commit b8c1a1275f4beb8989ba79f0264045ef44df8d15 bf4047b35706d674f0865043afb753970521d6d3
+Author: lex <>
+Date:   Wed Jul 28 13:52:00 2004 +0000
+
+    no message
+
+:100644 100644 f61aa53 09a975a M	Aurora/idea.ipr
+:000000 100644 0000000 9775e95 A	Aurora/testData/debugger/tinyApp/debuggerTestApp.iml
+
+commit bf4047b35706d674f0865043afb753970521d6d3 cf95c16eef9d7b3027e75f38be7ec2b78fd28fc3
+Author: lex <>
+Date:   Wed Jul 28 13:43:41 2004 +0000
+
+    no message
+
+:000000 100644 0000000 fc516ee A	Aurora/testData/debugger/tinyApp/classes/Breakpoints$TestClassFilter.class
+:000000 100644 0000000 6b0dce9 A	Aurora/testData/debugger/tinyApp/classes/Breakpoints$TestClassFilter2.class
+:000000 100644 0000000 5307201 A	Aurora/testData/debugger/tinyApp/classes/Breakpoints$TestClassFilter3.class
+
+commit 7a20657dd6f8e962d7553674bf966ba0661f5c8d 17e4b5190c003ff2e31ea20d79dba02dae0ff3c8
+Author: lex <>
+Date:   Tue Jul 27 16:09:25 2004 +0000
+
+    no message
+
+commit 6e69b6ddf47bfd7d857201f5bc1552285c0a9264 654a489858bec43997a599ac9f4fa451929c9988
+Author: lex <>
+Date:   Tue Jul 27 15:39:48 2004 +0000
+
+    no message
+
+:100644 100644 a045262 7a57ea4 M	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:000000 100644 0000000 cba9cd6 A	Aurora/testData/debugger/tinyApp/outs/lineBreakpoints.out
+:100644 100644 f2ae6a9 bb85b35 M	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 1553794 33670aa M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+
+commit a9adaf91da725b8f57a392f3b7885bc16c28f365 b0c494141fb14c76c348fa02c46b7effc8a294b1
+Author: lex <>
+Date:   Tue Jul 27 13:55:25 2004 +0000
+
+    no message
+
+:100644 100644 1ba6c79 a045262 M	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:100644 100644 3754c9c f2ae6a9 M	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 d5df068 1553794 M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+
+commit 7964a8bf29d9f1e400d83b86fc17f0c7ae6271f1 2bb15dea89adbd9d4de7f2e382b2ac0caeb86e94
+Author: lex <>
+Date:   Tue Jul 27 13:44:07 2004 +0000
+
+    no message
+
+:100644 100644 32230a5 ccea421 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 da541ee 20e991b M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 0d821e4 4983338 M	Aurora/source/com/intellij/debugger/ui/breakpoints/Breakpoint.java
+:100644 100644 766e40e 1ba6c79 M	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:100644 000000 e2729d3 0000000 D	Aurora/testData/debugger/tinyApp/outs/lineBreakpoints.out
+:100644 100644 43ed482 3754c9c M	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 24ae770 d5df068 M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+:100644 100644 ae4c57c e1a8ddc M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+
+commit 3eb2ec7567ddde9a307cd7d3543637b1e9245559 7b9c4b80c98722947f51dcc6c1c663c7e223a8af
+Author: lex <>
+Date:   Tue Jul 27 10:36:32 2004 +0000
+
+    no message
+
+:100644 100644 660a805 c6bd28a M	Aurora/source/com/intellij/debugger/engine/requests/RequestManagerImpl.java
+:100644 100644 44cdd26 da541ee M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:000000 100644 0000000 766e40e A	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:100644 100644 1946404 dcd2568 M	Aurora/testData/debugger/tinyApp/classes/HelloWorld.class
+:000000 100644 0000000 e2729d3 A	Aurora/testData/debugger/tinyApp/outs/lineBreakpoints.out
+:000000 100644 0000000 43ed482 A	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 f48f6f3 24ae770 M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+:100644 100644 b97102e ae4c57c M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:100644 100644 c074767 7f2613e M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+
+commit fe0ae13bd7beab475ca3ea386bbf2ebddbacffe3 d2f3d8697ed2363ef1aad3e64eab0a20f19ac271
+Author: lex <>
+Date:   Mon Jul 26 11:39:50 2004 +0000
+
+    no message
+
+:100644 100644 25e0edf 54a6b62 M	Aurora/openapi/src/com/intellij/execution/process/ProcessAdapter.java
+:100644 100644 2dbf034 c2234c6 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 ba2d62d 630540c M	Aurora/openapi/src/com/intellij/execution/process/ProcessTerminatedListener.java
+:100644 100644 cfdf74a 5ec17a7 M	Aurora/openapi/src/com/intellij/j2ee/run/localRun/ScriptExecutableObject.java
+:100644 100644 cc400a0 65a93cf M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/ejbc/EjbcRunner.java
+:100644 100644 b738fa5 1816cd1 M	Aurora/source/com/intellij/ant/execution/ExecutionHandler.java
+:100644 100644 9459bdd a53aa82 M	Aurora/source/com/intellij/execution/applet/AppletConfiguration.java
+:100644 100644 4b95cc0 74e766f M	Aurora/source/com/intellij/execution/junit2/InputRouter.java
+:100644 100644 c877e3d d849115 M	Aurora/source/com/intellij/execution/junit2/TestingStatus.java
+:100644 100644 fa9965e e07e670 M	Aurora/source/com/intellij/execution/junit2/ui/ConsolePanel.java
+:100644 100644 6d7a853 9bf27dc M	Aurora/source/com/intellij/execution/junit2/ui/StatusLine.java
+:100644 100644 5a9135b 666d512 M	Aurora/source/com/intellij/j2ee/run/execution/J2EEOSProcessHandlerWrapper.java
+:100644 100644 6e4254d c380cae M	Aurora/source/com/intellij/vssSupport/VssOutputCollector.java
+:100644 100644 cb41e70 c074767 M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+:100644 100644 de92315 8f244f4 M	Aurora/testSource/com/intellij/execution/junit2/PerformanceTestCase.java
+
+commit 51bb98a0fbb312faa888f38f7be2563d5e624c49 386a4f8a29beb5d58db0b4d253771b4279d93f03
+Author: lex <>
+Date:   Fri Jul 23 19:47:41 2004 +0000
+
+    no message
+
+:100644 100644 6d77be3 98817f7 M	Aurora/openapi/src/com/intellij/execution/DefaultExecutionResult.java
+:100644 100644 30ceba0 5bd1dec M	Aurora/openapi/src/com/intellij/execution/process/DefaultJavaProcessHandler.java
+:100644 100644 0ce5e82b 6c11cd8 M	Aurora/openapi/src/com/intellij/execution/process/OSProcessHandler.java
+:100644 100644 8d1cf8a 25e0edf M	Aurora/openapi/src/com/intellij/execution/process/ProcessAdapter.java
+:100644 100644 a94829f 2dbf034 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 1b4527b 5aa94cd M	Aurora/openapi/src/com/intellij/execution/process/ProcessListener.java
+:100644 100644 55bdf8b 55bdf8b R100	Aurora/source/com/intellij/util/concurrency/Semaphore.java	Aurora/openapi/src/com/intellij/util/concurrency/Semaphore.java
+:100644 100644 db5bfc0 cc400a0 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/ejbc/EjbcRunner.java
+:100644 100644 e55035a b738fa5 M	Aurora/source/com/intellij/ant/execution/ExecutionHandler.java
+:100644 100644 a55b66d a4dd771 M	Aurora/source/com/intellij/ant/execution/PlainTextView.java
+:100644 100644 f781e41 32230a5 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 84148e4 e56f596 M	Aurora/source/com/intellij/debugger/engine/RemoteDebugProcessHandler.java
+:100644 100644 a42e16e b599a76 M	Aurora/source/com/intellij/debugger/jdi/LocalVariableProxy.java
+:100644 100644 7131028 42b7604 M	Aurora/source/com/intellij/debugger/jdi/StackFrameProxyImpl.java
+:100644 100644 f65b9b8 44cdd26 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 d41f977 c31b660 M	Aurora/source/com/intellij/execution/impl/ConsoleState.java
+:100644 100644 30f16f2 06123c0 M	Aurora/source/com/intellij/execution/junit/JUnitProcessHandler.java
+:100644 100644 5f066d4 4b95cc0 M	Aurora/source/com/intellij/execution/junit2/InputRouter.java
+:100644 100644 e75e607 5a9135b M	Aurora/source/com/intellij/j2ee/run/execution/J2EEOSProcessHandlerWrapper.java
+:100644 100644 24372a4 fdda6aa M	Aurora/source/com/intellij/j2ee/run/execution/J2EEProcess.java
+:100644 100644 ef7c6a0 935c7ec M	Aurora/source/com/intellij/j2ee/run/execution/J2EEProcessHandlerHelper.java
+:100644 100644 73f1432 d0d212d M	Aurora/source/com/intellij/j2ee/run/execution/J2EERemoteProcessHandler.java
+:100644 100644 b00c199 d55b227 M	Aurora/source/com/intellij/j2ee/run/execution/JavaCommandLineLocalState.java
+:100644 000000 e69de29 0000000 D	Aurora/testData/debugger/tinyApp/outs/2.out
+:000000 100644 0000000 5f2bc37 A	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+:000000 100644 0000000 b97102e A	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:100644 100644 88dab61 cb41e70 M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 7a20657dd6f8e962d7553674bf966ba0661f5c8d 17e4b5190c003ff2e31ea20d79dba02dae0ff3c8
+Author: lex <>
+Date:   Tue Jul 27 16:09:25 2004 +0000
+
+    no message
+
+commit 6e69b6ddf47bfd7d857201f5bc1552285c0a9264 654a489858bec43997a599ac9f4fa451929c9988
+Author: lex <>
+Date:   Tue Jul 27 15:39:48 2004 +0000
+
+    no message
+
+:100644 100644 a045262 7a57ea4 M	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:000000 100644 0000000 cba9cd6 A	Aurora/testData/debugger/tinyApp/outs/lineBreakpoints.out
+:100644 100644 f2ae6a9 bb85b35 M	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 1553794 33670aa M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+
+commit a9adaf91da725b8f57a392f3b7885bc16c28f365 b0c494141fb14c76c348fa02c46b7effc8a294b1
+Author: lex <>
+Date:   Tue Jul 27 13:55:25 2004 +0000
+
+    no message
+
+:100644 100644 1ba6c79 a045262 M	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:100644 100644 3754c9c f2ae6a9 M	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 d5df068 1553794 M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+
+commit 7964a8bf29d9f1e400d83b86fc17f0c7ae6271f1 2bb15dea89adbd9d4de7f2e382b2ac0caeb86e94
+Author: lex <>
+Date:   Tue Jul 27 13:44:07 2004 +0000
+
+    no message
+
+:100644 100644 32230a5 ccea421 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 da541ee 20e991b M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 0d821e4 4983338 M	Aurora/source/com/intellij/debugger/ui/breakpoints/Breakpoint.java
+:100644 100644 766e40e 1ba6c79 M	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:100644 000000 e2729d3 0000000 D	Aurora/testData/debugger/tinyApp/outs/lineBreakpoints.out
+:100644 100644 43ed482 3754c9c M	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 24ae770 d5df068 M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+:100644 100644 ae4c57c e1a8ddc M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+
+commit 3eb2ec7567ddde9a307cd7d3543637b1e9245559 7b9c4b80c98722947f51dcc6c1c663c7e223a8af
+Author: lex <>
+Date:   Tue Jul 27 10:36:32 2004 +0000
+
+    no message
+
+:100644 100644 660a805 c6bd28a M	Aurora/source/com/intellij/debugger/engine/requests/RequestManagerImpl.java
+:100644 100644 44cdd26 da541ee M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:000000 100644 0000000 766e40e A	Aurora/testData/debugger/tinyApp/classes/Breakpoints.class
+:100644 100644 1946404 dcd2568 M	Aurora/testData/debugger/tinyApp/classes/HelloWorld.class
+:000000 100644 0000000 e2729d3 A	Aurora/testData/debugger/tinyApp/outs/lineBreakpoints.out
+:000000 100644 0000000 43ed482 A	Aurora/testData/debugger/tinyApp/src/Breakpoints.java
+:100644 100644 f48f6f3 24ae770 M	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+:100644 100644 b97102e ae4c57c M	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:100644 100644 c074767 7f2613e M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+
+commit fe0ae13bd7beab475ca3ea386bbf2ebddbacffe3 d2f3d8697ed2363ef1aad3e64eab0a20f19ac271
+Author: lex <>
+Date:   Mon Jul 26 11:39:50 2004 +0000
+
+    no message
+
+:100644 100644 25e0edf 54a6b62 M	Aurora/openapi/src/com/intellij/execution/process/ProcessAdapter.java
+:100644 100644 2dbf034 c2234c6 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 ba2d62d 630540c M	Aurora/openapi/src/com/intellij/execution/process/ProcessTerminatedListener.java
+:100644 100644 cfdf74a 5ec17a7 M	Aurora/openapi/src/com/intellij/j2ee/run/localRun/ScriptExecutableObject.java
+:100644 100644 cc400a0 65a93cf M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/ejbc/EjbcRunner.java
+:100644 100644 b738fa5 1816cd1 M	Aurora/source/com/intellij/ant/execution/ExecutionHandler.java
+:100644 100644 9459bdd a53aa82 M	Aurora/source/com/intellij/execution/applet/AppletConfiguration.java
+:100644 100644 4b95cc0 74e766f M	Aurora/source/com/intellij/execution/junit2/InputRouter.java
+:100644 100644 c877e3d d849115 M	Aurora/source/com/intellij/execution/junit2/TestingStatus.java
+:100644 100644 fa9965e e07e670 M	Aurora/source/com/intellij/execution/junit2/ui/ConsolePanel.java
+:100644 100644 6d7a853 9bf27dc M	Aurora/source/com/intellij/execution/junit2/ui/StatusLine.java
+:100644 100644 5a9135b 666d512 M	Aurora/source/com/intellij/j2ee/run/execution/J2EEOSProcessHandlerWrapper.java
+:100644 100644 6e4254d c380cae M	Aurora/source/com/intellij/vssSupport/VssOutputCollector.java
+:100644 100644 cb41e70 c074767 M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+:100644 100644 de92315 8f244f4 M	Aurora/testSource/com/intellij/execution/junit2/PerformanceTestCase.java
+
+commit 51bb98a0fbb312faa888f38f7be2563d5e624c49 386a4f8a29beb5d58db0b4d253771b4279d93f03
+Author: lex <>
+Date:   Fri Jul 23 19:47:41 2004 +0000
+
+    no message
+
+:100644 100644 6d77be3 98817f7 M	Aurora/openapi/src/com/intellij/execution/DefaultExecutionResult.java
+:100644 100644 30ceba0 5bd1dec M	Aurora/openapi/src/com/intellij/execution/process/DefaultJavaProcessHandler.java
+:100644 100644 0ce5e82b 6c11cd8 M	Aurora/openapi/src/com/intellij/execution/process/OSProcessHandler.java
+:100644 100644 8d1cf8a 25e0edf M	Aurora/openapi/src/com/intellij/execution/process/ProcessAdapter.java
+:100644 100644 a94829f 2dbf034 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 1b4527b 5aa94cd M	Aurora/openapi/src/com/intellij/execution/process/ProcessListener.java
+:100644 100644 55bdf8b 55bdf8b R100	Aurora/source/com/intellij/util/concurrency/Semaphore.java	Aurora/openapi/src/com/intellij/util/concurrency/Semaphore.java
+:100644 100644 db5bfc0 cc400a0 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/ejbc/EjbcRunner.java
+:100644 100644 e55035a b738fa5 M	Aurora/source/com/intellij/ant/execution/ExecutionHandler.java
+:100644 100644 a55b66d a4dd771 M	Aurora/source/com/intellij/ant/execution/PlainTextView.java
+:100644 100644 f781e41 32230a5 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 84148e4 e56f596 M	Aurora/source/com/intellij/debugger/engine/RemoteDebugProcessHandler.java
+:100644 100644 a42e16e b599a76 M	Aurora/source/com/intellij/debugger/jdi/LocalVariableProxy.java
+:100644 100644 7131028 42b7604 M	Aurora/source/com/intellij/debugger/jdi/StackFrameProxyImpl.java
+:100644 100644 f65b9b8 44cdd26 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 d41f977 c31b660 M	Aurora/source/com/intellij/execution/impl/ConsoleState.java
+:100644 100644 30f16f2 06123c0 M	Aurora/source/com/intellij/execution/junit/JUnitProcessHandler.java
+:100644 100644 5f066d4 4b95cc0 M	Aurora/source/com/intellij/execution/junit2/InputRouter.java
+:100644 100644 e75e607 5a9135b M	Aurora/source/com/intellij/j2ee/run/execution/J2EEOSProcessHandlerWrapper.java
+:100644 100644 24372a4 fdda6aa M	Aurora/source/com/intellij/j2ee/run/execution/J2EEProcess.java
+:100644 100644 ef7c6a0 935c7ec M	Aurora/source/com/intellij/j2ee/run/execution/J2EEProcessHandlerHelper.java
+:100644 100644 73f1432 d0d212d M	Aurora/source/com/intellij/j2ee/run/execution/J2EERemoteProcessHandler.java
+:100644 100644 b00c199 d55b227 M	Aurora/source/com/intellij/j2ee/run/execution/JavaCommandLineLocalState.java
+:100644 000000 e69de29 0000000 D	Aurora/testData/debugger/tinyApp/outs/2.out
+:000000 100644 0000000 5f2bc37 A	Aurora/testSource/com/intellij/debugger/ui/impl/BreakpointTest.java
+:000000 100644 0000000 b97102e A	Aurora/testSource/com/intellij/debugger/ui/impl/DebuggerTestCase.java
+:100644 100644 88dab61 cb41e70 M	Aurora/testSource/com/intellij/debugger/ui/impl/StartVMTest.java
+
+commit 57db21e27d9974f894343e785149e62eefcf961c 777a84eef8578d881fb28c3ae05e1fbb33e7bb60
+Author: lex <>
+Date:   Fri Jul 23 18:58:04 2004 +0000
+
+    no message
+
+:100644 100644 0dcb92a 626e092 M	Aurora/main.iml
+
+commit 435b6bd2abefbb121f8f8b289e72ed6b11496d4a 3df42aee10620c1feefd2b742763cd31f7cb34c8
+Author: lex <>
+Date:   Wed Jul 21 17:00:44 2004 +0000
+
+    no message
+
+:100644 100644 678bb33 15418c6 M	Aurora/source/com/intellij/execution/remote/RemoteConfigurable.java
+
+commit 0e4cfe67cf18a58e7399f20283cfe0249cc9a368 c4c5c11153b8326bd802bae22c24599f2c90154f
+Author: lex <>
+Date:   Wed Jul 21 13:22:09 2004 +0000
+
+    no message
+
+:100644 100644 3f34611 f781e41 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 4cf24ed bf89353 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ClassLabelRenderer.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 9c187abbf5b470952d59cc0d513a5a90cd34fa74 e8182c4c4147d332b3c8f3138e7f6463da14f9eb
+Author: lex <>
+Date:   Wed Jul 14 10:46:38 2004 +0000
+
+    no message
+
+commit e8182c4c4147d332b3c8f3138e7f6463da14f9eb bd03970dfc6ef5f4773aef10187e447f6c6a8521
+Author: lex <>
+Date:   Wed Jul 14 10:45:44 2004 +0000
+
+    no message
+
+:100644 100644 99b9dcd 2b56690 M	Aurora/source/com/intellij/debugger/actions/EditSourceAction.java
+:100644 100644 83ae5a4 281171c M	Aurora/source/com/intellij/execution/runners/RunStrategy.java
+
+commit aad093696bb90016faeb987d1287ede3f6aa329e a82b7ce257883f1c893f5304cde2bd670a7e03e3
+Author: lex <>
+Date:   Tue Jul 13 15:06:24 2004 +0000
+
+    no message
+
+:100644 100644 3db8da4 9b2ba83 M	Aurora/openapi/src/com/intellij/execution/runners/RunnerInfo.java
+:100644 100644 4a92845 6befffc M	Aurora/source/com/intellij/debugger/ui/GenericDebuggerRunner.java
+:100644 100644 e8c1eff 83ae5a4 M	Aurora/source/com/intellij/execution/runners/RunStrategy.java
+:100644 100644 6d518ac e1b9b65 M	Aurora/source/com/intellij/execution/ui/RunContentManagerImpl.java
+
+commit 920db50d785dd8da0a6d97fffa1a20f4cb454ff9 4c2213155cbf672416fa6b0ab6db5581e12e3063
+Author: lex <>
+Date:   Tue Jul 13 13:28:56 2004 +0000
+
+    no message
+
+:100644 100644 c0fd785 fd5f170 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+
+commit a4d75b2d5aeec035eb264c89e493d77eac209b19 8bd87356528e430380f9163cbaf63df1d82345af
+Author: lex <>
+Date:   Tue Jul 13 13:12:44 2004 +0000
+
+    no message
+
+:100644 100644 d31b287 621450b M	Aurora/source/com/intellij/debugger/settings/ContextViewSettings.java
+:100644 100644 48a963f c0fd785 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+
+commit fad60e6997bd574591130242a936c8363ab7db8c 9c2574677afe6ace961ef4b0114e4ca3cea2dba6
+Author: lex <>
+Date:   Tue Jul 13 10:15:08 2004 +0000
+
+    no message
+
+:100644 100644 bb823d6 ec60aa7 M	Aurora/source/com/intellij/debugger/actions/ToggleFieldBreakpointAction.java
+
+commit 9bd077c7504f8c00a15cf03cdea7e87f5c2f0aad 9b7e9a0e7fee3fa64f22ccc72140949dfb879816
+Author: lex <>
+Date:   Tue Jul 13 10:08:31 2004 +0000
+
+    no message
+
+:100644 100644 52e0038 67fe86f M	Aurora/source/com/intellij/debugger/jdi/StackFrameProxyImpl.java
+
+commit 6efa80093a55c012deafb443d7e9c53c41c45901 f7c95b390f9c131452d6a3a449761c03ebef2fa7
+Author: lex <>
+Date:   Mon Jul 12 15:25:06 2004 +0000
+
+    no message
+
+:100644 100644 49ed528 d31b287 M	Aurora/source/com/intellij/debugger/settings/ContextViewSettings.java
+:100644 100644 084721d 6f04f2a M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/NodeRendererManager.java
+
+commit da32e3b570ff5392acbd093810059260089aeb23 5687c2b496b0f1a309fedf1c162726545415e938
+Author: lex <>
+Date:   Mon Jul 12 11:18:27 2004 +0000
+
+    no message
+
+:100644 100644 6f15b6a 4b69498 M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 49ab6d7 ca91540 M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/LocalVariableEvaluator.java
+:100644 100644 33edb8b 9e22bd4 M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/Modifier.java
+
+commit 1e11c4c1acdfa5737e82df2c40d66e91222fa596 3aa11fd7c4771b9522a8eaf632b89a287b38b785
+Author: lex <>
+Date:   Mon Jul 12 11:14:10 2004 +0000
+
+    no message
+
+:100644 100644 4b69498 6f15b6a M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 26593fa 0153f92 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 e737aca 49ab6d7 M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/LocalVariableEvaluator.java
+:100644 100644 1953c2e 33edb8b M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/Modifier.java
+:100644 100644 ecb6db6 893dd5b M	Aurora/source/com/intellij/debugger/jdi/LocalVariableProxy.java
+:100644 100644 9eddf0c 68920f3 M	Aurora/source/com/intellij/debugger/ui/impl/watch/LocalVariableDescriptor.java
+:100644 100644 6dd488b 2c1dd70 M	Aurora/source/com/intellij/debugger/ui/impl/watch/NodeFactory.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 6a073aa8ef508cdee3590dd69e8b1972e33c3a50 f0cc03a53e8d360cdfa9267510e227b476000ddd
+Author: lex <>
+Date:   Wed Jun 9 17:39:17 2004 +0000
+
+    no message
+
+commit 74979cf3f15ba2d7228a04597aacc48c57f8c782 0ee8fa64cda65319958fc838b3797df6b2d40d72
+Author: lex <>
+Date:   Wed Jun 9 17:27:35 2004 +0000
+
+    no message
+
+:100644 100644 da328bc 6020863 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 8dc56e0 4b91f16 M	Aurora/source/com/intellij/debugger/ui/HotSwapManager.java
+
+commit 8d2f821915331eaed267523113d2432c64b50a5f 638aa119b9a61d49a4c0edb0cfe1efbc64e9f206
+Author: lex <>
+Date:   Wed Jun 9 17:01:45 2004 +0000
+
+    no message
+
+:100644 100644 00cfecc 76e0686 M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointManager.java
+
+commit 25c10563dd88e91da98eb2405e4363ae439e3884 3982c8bdacdb376e442e675becc0275d04bb4424
+Author: lex <>
+Date:   Wed Jun 9 15:49:48 2004 +0000
+
+    no message
+
+:100644 100644 0e97052 706f0bf M	Aurora/pallada.ipr
+:100644 100644 4e835d7 9c8f7ae M	Aurora/resources/src/componentSets/Debugger.xml
+:100644 100644 7bda8f0 e3dbefb M	Aurora/source/com/intellij/debugger/actions/AdjustArrayRangeAction.java
+:100644 100644 3dc7896 9c4e7d9 M	Aurora/source/com/intellij/debugger/actions/RepresentationActionGroup.java
+:100644 100644 65aef10 c30b0f4 M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 219c9a2 e6cf63f M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 656e727 e6612be M	Aurora/source/com/intellij/debugger/settings/ContextViewConfigurable.java
+:100644 100644 f7759ab 381139a M	Aurora/source/com/intellij/debugger/ui/impl/watch/ArrayElementDescriptor.java
+:100644 100644 3beae8d 493eb14 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 86d2b9c 5caf478 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTreeNode.java
+:100644 100644 71c7763 4f48cf5 M	Aurora/source/com/intellij/debugger/ui/impl/watch/FieldDescriptor.java
+:100644 100644 cfdd93e 5ab1f6f M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptor.java
+:100644 100644 61d88d9 92ddc26 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ClassChildrenRenderer.java
+:100644 100644 2b03a9f 57ae75b M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/NodeRendererManager.java
+:100644 100644 d0eaa00 dbf8959 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/settings/NodeRendererSettings.java
+
+commit b8b501da0fba9efd329ba518ca0698418b02b3e8 7d9c8fe6913173add245421f0d3b65e5bae2841d
+Author: lex <>
+Date:   Wed Jun 9 13:12:22 2004 +0000
+
+    no message
+
+:100644 100644 d7feeb3 8df6391 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/Tomcat40PositionManager.java
+
+commit 24e294bcd50f688ba8daae82bb4627ab7b13a023 8a9e2b2c25b1733a4a3fef6bc74daccd07becd52
+Author: lex <>
+Date:   Tue Jun 8 15:15:56 2004 +0000
+
+    no message
+
+:100644 100644 94544b9 42a58a7 M	Aurora/source/com/intellij/debugger/actions/PopFrameAction.java
+:100644 100644 e026454 219c9a2 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 c5973c8 c4aae76 M	Aurora/source/com/intellij/debugger/engine/SuspendContextImpl.java
+:100644 100644 31e7dd5 7070e0a M	Aurora/source/com/intellij/debugger/engine/SuspendManager.java
+:100644 000000 3f2b493 0000000 D	Aurora/source/com/intellij/debugger/engine/events/PopFrameCommand.java
+
+commit 12a61052e3ed888d420915013b7d103f8428318b 4506f0f5dbe970cdcb954395ac347bca2e335238
+Author: lex <>
+Date:   Tue Jun 8 14:16:44 2004 +0000
+
+    no message
+
+:100644 100644 4a16424 ad5f465 M	Aurora/source/com/intellij/debugger/ui/breakpoints/FilteredRequestor.java
+
+commit b14b4b50e3e0585f2b5f439c2cf9ccfe6cbc931a 0b07c2447cc9889d0659f29f973af6bccf572b9d
+Author: lex <>
+Date:   Tue Jun 8 13:27:45 2004 +0000
+
+    no message
+
+:100644 100644 d32cba7 3beae8d M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+
+commit 0b07c2447cc9889d0659f29f973af6bccf572b9d d72edd962aa0f500d8e45eda17b8682cd3e35e72
+Author: lex <>
+Date:   Tue Jun 8 13:22:59 2004 +0000
+
+    no message
+
+:100644 100644 380c276 deefc52 M	Aurora/openapi/src/com/intellij/execution/ExecutionManager.java
+:100644 100644 94ba7c4 da328bc M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 94fa309 07604ed M	Aurora/source/com/intellij/debugger/ui/GenericDebuggerRunner.java
+:100644 100644 1b3bda8 00cfecc M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointManager.java
+:100644 100644 a319530 49d9a44 M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+:100644 100644 0c83add d32cba7 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 d4e9901 adee268 M	Aurora/source/com/intellij/execution/ExecutionManagerImpl.java
+
+commit aaed5364a27ca07534ddc8d44a8d3fb42eb8a8dd ff32fbf5b252ab0db4aa60685bb1bc4afca7ed39
+Author: lex <>
+Date:   Tue Jun 8 12:07:46 2004 +0000
+
+    no message
+
+:100644 100644 ce82811 d4e9901 M	Aurora/source/com/intellij/execution/ExecutionManagerImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 63dea8a7cf83ae74c0801bb41f75f16b0c3d177c 1ab18207a511bc1665bcc8331f7616715f40e423
+Author: lex <>
+Date:   Tue Jun 8 08:45:01 2004 +0000
+
+    no message
+
+commit 26efe527cd7a3e1351f3561921acb3981174f2c5 ef98b2b8a4266e60b90faaa78513874833befa7a
+Author: lex <>
+Date:   Tue Jun 8 06:32:13 2004 +0000
+
+    no message
+
+:100644 100644 ebae681 8dc56e0 M	Aurora/source/com/intellij/debugger/ui/HotSwapManager.java
+
+commit ef98b2b8a4266e60b90faaa78513874833befa7a a40cc69991cf4c57909bc8937bab61de2c97bbce
+Author: lex <>
+Date:   Tue Jun 8 06:06:06 2004 +0000
+
+    no message
+
+:100644 100644 7788fd3 7b94ee6 M	Aurora/source/com/intellij/debugger/ui/breakpoints/LineBreakpoint.java
+
+commit 60799473742fd246927729e43ae4f89c5dcd3db7 4c90ee15ddbe5a83e7e6976c252ee79c0d40c9e9
+Author: lex <>
+Date:   Tue Jun 8 05:44:14 2004 +0000
+
+    no message
+
+:100644 100644 c3a78fd 84ad05a M	Aurora/source/com/intellij/debugger/engine/DebuggerManagerThread.java
+:100644 100644 e89bb1f 94ba7c4 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+
+commit 3df1d156af2f0f48920f90d53f717c79500e9d1e 28e235dda743adcc2e9a5a483d2d5a6726ec263a
+Author: lex <>
+Date:   Mon Jun 7 19:46:09 2004 +0000
+
+    no message
+
+:100644 100644 bcc134a fee9337 M	Aurora/source/com/intellij/debugger/codeinsight/SurroundWithRuntimeCastHandler.java
+
+commit 28e235dda743adcc2e9a5a483d2d5a6726ec263a 546ec94417469951339947dfc44482ec3c185eaa
+Author: lex <>
+Date:   Mon Jun 7 19:39:25 2004 +0000
+
+    no message
+
+:100644 100644 0e97052 f8e2308 M	Aurora/pallada.ipr
+:100644 100644 fb15dc6 8a6b47a M	Aurora/source/com/intellij/debugger/actions/ToggleLineBreakpointAction.java
+:100644 100644 fbf947f e026454 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 df27d56 e8dcee5 M	Aurora/source/com/intellij/debugger/ui/breakpoints/AnyExceptionBreakpoint.java
+:100644 100644 e519a32 f315c2e M	Aurora/source/com/intellij/debugger/ui/breakpoints/Breakpoint.java
+:100644 100644 dc9872c c585881 M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointManager.java
+:100644 100644 fa75078 ee025cc M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointWithHighlighter.java
+:100644 100644 0e6b1d1 b1ca687 M	Aurora/source/com/intellij/debugger/ui/breakpoints/ExceptionBreakpoint.java
+:100644 100644 ece446c c3a5382 M	Aurora/source/com/intellij/debugger/ui/breakpoints/FieldBreakpoint.java
+:100644 100644 219de71 7788fd3 M	Aurora/source/com/intellij/debugger/ui/breakpoints/LineBreakpoint.java
+:100644 100644 f539888 796d75a M	Aurora/source/com/intellij/debugger/ui/breakpoints/MethodBreakpoint.java
+
+commit a157259654d5450800e07953d97bc2f7bd4f8a1b 49aea60cd40df01869ccdc4d5ddbc85e671c3e1a
+Author: lex <>
+Date:   Mon Jun 7 18:46:03 2004 +0000
+
+    no message
+
+:100644 100644 a9bbd77 0c6b029 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatLocalConfigurablePanel.java
+:100644 100644 6fc00db 6671897 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatUtil.java
+
+commit 27e34e52cbcc6ad214f881f1833b94cd7dc0a818 fc180ced7c85e7f301c36878833aa91ecfef3fff
+Author: lex <>
+Date:   Mon Jun 7 18:10:50 2004 +0000
+
+    no message
+
+:100644 100644 6d09ec5 0c2f3e1 M	Aurora/source/com/intellij/debugger/ui/ExportDialog.java
+
+commit 35279a90d798322cc5bbc5dd3ff1e3221f7e0700 600d1eac1c1c8c842857664eb362ebf9e7623f98
+Author: lex <>
+Date:   Mon Jun 7 16:02:05 2004 +0000
+
+    no message
+
+:100644 100644 b36d28a 81425df M	Aurora/source/com/intellij/execution/TerminateRemoteProcessDialog.java
+
+commit 6c1fa145d82b61bdb2a008d7c0fc49cc3e555a5c e02e32419ab674f1c7d51a5cfe28fd4ee5597271
+Author: lex <>
+Date:   Mon Jun 7 15:39:05 2004 +0000
+
+    no message
+
+:100644 100644 d28ef91 6a223af M	Aurora/source/com/intellij/execution/ExecutionManagerImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit a278e5425790af80f02ff12da09124a787e4def8 d675e18525bb92cc1100cf5a5f6694e8cbf0f2f3
+Author: lex <>
+Date:   Fri May 28 20:14:32 2004 +0000
+
+    no message
+
+commit d675e18525bb92cc1100cf5a5f6694e8cbf0f2f3 314a23cfddab16ff7a10dda22850ec7a371688a8
+Author: lex <>
+Date:   Fri May 28 20:03:48 2004 +0000
+
+    no message
+
+:100644 100644 86e422b ca2ac17 M	Aurora/openapi/src/com/intellij/j2ee/run/J2EEConfigurationType.java
+:100644 100644 ea8608d 3535cbc M	Aurora/plugins/jsr45debug/source/com/intellij/j2ee/web/jsr45/JSR45Configuration.java
+:100644 100644 2c8de6b 6855c71 M	Aurora/plugins/jsr45debug/source/com/intellij/j2ee/web/jsr45/JSR45ConfigurationType.java
+:100644 100644 1384953 ba82228 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatRunConfiguration.java
+:100644 100644 325c830 51ee1f8 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatRunConfigurationType.java
+:100644 100644 79a41c9 516d454 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/WeblogicInstanceRunConfiguration.java
+:100644 100644 7c6f2d9 06dfe1a M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/WeblogicInstanceRunConfigurationType.java
+:100644 100644 1f270d5 80ab55c M	Aurora/source/com/intellij/execution/remote/RemoteConfigurationType.java
+
+commit 071f4ccd80e229378335b1715c360511e7ec049a 17850f63eb724a8ac1ddc877dfc8b07a23c7a113
+Author: lex <>
+Date:   Fri May 28 19:08:04 2004 +0000
+
+    no message
+
+:100644 100644 1c138ca 99d4bfd M	Aurora/openapi/src/com/intellij/j2ee/appServerIntegrations/AppServerIntegration.java
+:100644 100644 e8bf5dc 14f5e4e M	Aurora/openapi/src/com/intellij/j2ee/deployment/J2EEModuleDeploymentSettings.java
+:100644 100644 559e216 05517ae M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationConfigurableMain.java
+:100644 100644 3756f75 82288f1 M	Aurora/openapi/src/com/intellij/j2ee/run/ExecutionHelper.java
+:100644 100644 834587f b477904 M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunConfiguration.java
+:100644 100644 65dba4b ea8608d M	Aurora/plugins/jsr45debug/source/com/intellij/j2ee/web/jsr45/JSR45Configuration.java
+:100644 100644 66a5eae 61c1a12 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatDeploymentProvider.java
+:100644 100644 4e3d6e1 1384953 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatRunConfiguration.java
+:100644 100644 e7022f4 79a41c9 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/WeblogicInstanceRunConfiguration.java
+:100644 100644 3f44951 4149a20 M	Aurora/source/com/intellij/j2ee/deployment/ConcreteModuleDeploymentSettingsPanel.java
+:100644 100644 825d896 a55754d M	Aurora/source/com/intellij/j2ee/deployment/DeployAction.java
+:100644 100644 5ee36ec c3f288a M	Aurora/source/com/intellij/j2ee/deployment/DeploymentSettingsPanel.java
+:100644 100644 ed78abf ccef14d M	Aurora/source/com/intellij/j2ee/deployment/DeploymentViewImpl.java
+:100644 100644 bcacd38 6d676e9 M	Aurora/source/com/intellij/j2ee/deployment/UndeployAction.java
+:100644 100644 d3327d9 5c001ef M	Aurora/source/com/intellij/j2ee/openapi/impl/DeploymentManagerImpl.java
+
+commit 15ad9d275eb3a8ce3e4753f4d4889bc010ad7518 83c5497b8169baae6120e7cdf18d529b3cb6b0c8
+Author: lex <>
+Date:   Fri May 28 18:52:04 2004 +0000
+
+    no message
+
+:100644 000000 c5576a6 0000000 D	Aurora/openapi/src/com/intellij/execution/configurations/JavaParametersPatcher.java
+:100644 100644 0d655db 7d4d937 M	Aurora/openapi/src/com/intellij/execution/configurations/PatchedRunnableState.java
+:100644 000000 346150d 0000000 D	Aurora/openapi/src/com/intellij/execution/configurations/PatcherConfigurable.java
+:100644 100644 d5fa2aa 6584a02 M	Aurora/openapi/src/com/intellij/execution/configurations/RemoteDebugConnection.java
+:000000 100644 0000000 6724747 A	Aurora/openapi/src/com/intellij/execution/configurations/RunnerConfigurable.java
+:000000 100644 0000000 13321be A	Aurora/openapi/src/com/intellij/execution/configurations/RunnerSettings.java
+:100644 100644 fdd3691 592cd06 M	Aurora/openapi/src/com/intellij/execution/runners/DefaultRunner.java
+:100644 100644 dee3be1 e183458 M	Aurora/openapi/src/com/intellij/execution/runners/PatchingRunner.java
+:100644 100644 7e4eb86 559e216 M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationConfigurableMain.java
+:100644 100644 4c4f5f2 f2ea9bb M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationRemotePanel.form
+:100644 100644 7f8975b 1c44610 M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationRemotePanel.java
+:100644 100644 8fb2cf7 4098641 M	Aurora/openapi/src/com/intellij/j2ee/run/EnvironmentVariable.java
+:100644 100644 fb36fd8 834587f M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunConfiguration.java
+:100644 100644 ac75fe7 55facd1 M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunnerSpecificSettingsConfigurable.java
+:100644 100644 a07fbfd 0a0a0a3 M	Aurora/openapi/src/com/intellij/j2ee/run/PatchedLocalState.java
+:100644 100644 e3c75a8 88c0d89 M	Aurora/openapi/src/com/intellij/j2ee/run/RemoteDebugState.java
+:000000 100644 0000000 a0d0a06 A	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificConfigurationBit.java
+:100644 100644 ba3a405 e9ceeb5 R072	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRunConfigurationBit.java	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificLocalConfigurationBit.java
+:000000 100644 0000000 9b4644b A	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificLocalPanel.java
+:100644 100644 1e74894 984c1ec M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificPanel.form
+:100644 100644 ce42fb6 37b6c8e M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificPanel.java
+:000000 100644 0000000 73c70b4 A	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRemoteConfigurationBit.java
+:000000 100644 0000000 1b713f8 A	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRemotePanel.form
+:000000 100644 0000000 e62b3b4 A	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRemotePanel.java
+:100644 100644 71c8e9e 16d7e28 M	Aurora/openapi/src/com/intellij/j2ee/run/ScriptInfo.java
+:100644 100644 602b3a9 f76d308 M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/WeblogicInstanceConfiguration.java
+:100644 100644 c4a99d9 ff3e0af M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 a1c7d5c 263866b M	Aurora/source/com/intellij/debugger/engine/RemoteDebugConnectionState.java
+:100644 100644 3f08130 99d0c19 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 000000 cf05c45 0000000 D	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersPatcher.java
+:100644 100644 dd7d268 d62fe48 M	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersPatcherConfigurable.form
+:100644 100644 b8fb056 b6f9624 R073	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersPatcherConfigurable.java	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersRunnerConfigurable.java
+:100644 100644 cabc968 870f4e8 M	Aurora/source/com/intellij/debugger/ui/GenericDebuggerRunner.java
+:000000 100644 0000000 61345f9 A	Aurora/source/com/intellij/debugger/ui/GenericDebuggerRunnerSettings.java
+
+commit 881cc968c2285701bb90210faee4013a69cc908a 278ab6b77cfdf5fcd72482d5d1c6028a41939369
+Author: lex <>
+Date:   Fri May 28 08:56:47 2004 +0000
+
+    no message
+
+:100644 100644 afd836a 33ed93d M	Aurora/openapi/src/com/intellij/execution/remote/RemoteConfigurationArguments.form
+:100644 100644 6ce50fe 2bc732b M	Aurora/openapi/src/com/intellij/execution/remote/RemoteConfigurationArguments.java
+:100644 100644 5b2e1aa 4c4f5f2 M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationRemotePanel.form
+:100644 100644 2ed06c8 7f8975b M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationRemotePanel.java
+:100644 100644 fbcc6d6 d215562 M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunConfiguration.java
+:100644 100644 558cfd3 ac75fe7 M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunnerSpecificSettingsConfigurable.java
+:100644 100644 72d39c8 ce42fb6 M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificPanel.java
+:100644 100644 7466190 3e82908 M	Aurora/source/com/intellij/execution/remote/RemoteConfigurable.form
+:100644 100644 022ca22 a084bc6 M	Aurora/source/com/intellij/execution/remote/RemoteConfigurable.java
+
+commit f7c23fd4555241533cff03e969d59487d772deed 3677490563276a27b4d813e30e8cef6c573483df
+Author: lex <>
+Date:   Thu May 27 19:06:38 2004 +0000
+
+    no message
+
+:100644 100644 1bcde36 9eb0020 M	Aurora/openapi/src/com/intellij/debugger/engine/JSR45PositionManager.java
+:100644 100644 1aedb2b 3d4b67b M	Aurora/plugins/weblogic/source/com/intellij/j2ee/weblogic/WeblogicAbstractInstance.java
+:100644 100644 7eaa639 634a3af M	Aurora/source/com/intellij/debugger/engine/DebuggerManagerThread.java
+:100644 100644 34ce779 e364aab M	Aurora/source/com/intellij/debugger/engine/evaluation/EvaluationThread.java
+:100644 100644 ef19612 e5e951f M	Aurora/source/com/intellij/debugger/impl/InvokeThread.java
+
+commit cd4bbe363c4b4ffe5fb643de390b97151196aa18 75b775fff53b8e502f73fcdf46f856cd2366f169
+Author: lex <>
+Date:   Thu May 27 17:07:45 2004 +0000
+
+    no message
+
+:100644 100644 29ac23d fa090ea M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunConfiguration.java
+:100644 100644 ad4c1ba 52df71f M	Aurora/openapi/src/com/intellij/j2ee/run/PatchedLocalState.java
+:100644 100644 e5c2527 72d39c8 M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificPanel.java
+:100644 100644 9396456 06496e9 M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRunConfigurationBit.java
+:100644 100644 d08cb53 c4a99d9 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+
+commit ab0d101a17e1ebd2732276010c3e4ab94bf002c8 1c48ccdaf56945652b3c735af5961aad8cdb1931
+Author: lex <>
+Date:   Thu May 27 14:02:46 2004 +0000
+
+    no message
+
+:100644 100644 eabbcb9 710f24e M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+:100644 100644 0a4db48 d08cb53 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 e74a5ee 7eaa639 M	Aurora/source/com/intellij/debugger/engine/DebuggerManagerThread.java
+:100644 100644 11225d9 ef19612 M	Aurora/source/com/intellij/debugger/impl/InvokeThread.java
+
+commit c6a37596c36c3aad495f636b7f72ddf26bdf3179 aa9e80d0b76c331f8a04b34ed6546859087ef1d1
+Author: lex <>
+Date:   Thu May 27 13:15:31 2004 +0000
+
+    no message
+
+:100644 100644 b6344cb f775fb9 M	Aurora/openapi/src/com/intellij/j2ee/openapi/run/J2EERunConfigurationConfigurableBase.java
+:100644 100644 9461be6 0c0670d M	Aurora/openapi/src/com/intellij/j2ee/run/CommandLineExecutableObject.java
+:100644 100644 82eb26f ad4c1ba M	Aurora/openapi/src/com/intellij/j2ee/run/PatchedLocalState.java
+:100644 100644 172c9f6 9396456 M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRunConfigurationBit.java
+:100644 100644 48cc1e4 c083635 M	Aurora/openapi/src/com/intellij/j2ee/run/ScriptInfo.java
+:100644 100644 24d3b85 c137c55 M	Aurora/openapi/src/com/intellij/j2ee/run/ScriptPanel.java
+:100644 100644 9933c3a eabbcb9 M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+
+commit 2205aff228211ce98b143861fcba7217a5ede539 559dc94665d6ef18dd0533e2b908a3feaed7ea2b
+Author: lex <>
+Date:   Thu May 27 11:51:53 2004 +0000
+
+    no message
+
+:100644 100644 30077e9 0a4db48 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 ad50c6e fa75078 M	Aurora/source/com/intellij/debugger/ui/breakpoints/BreakpointWithHighlighter.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 57855e7d0c24bf9ea36345ecc3339bf0e84dc25a 908a39961fb062ae9a7367b19f6516869b974c54
+Author: lex <>
+Date:   Mon May 24 13:42:57 2004 +0000
+
+    no message
+
+commit 908a39961fb062ae9a7367b19f6516869b974c54 c8ccad146067934ab2e7c37bd0b11578276d0821
+Author: lex <>
+Date:   Mon May 24 13:38:56 2004 +0000
+
+    no message
+
+:100644 100644 7622a73 22de0cb M	Aurora/source/com/intellij/debugger/impl/InvokeThread.java
+
+commit bfe1f34b96357423e2cee82eb10885425e3a50a5 5d4dd1e3e09f1cce5fd137c6f8e6c6cbf1bdf86b
+Author: lex <>
+Date:   Mon May 24 13:35:57 2004 +0000
+
+    no message
+
+:100644 100644 9e4e9e9 9933c3a M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+:100644 100644 3af6b8c 791878a M	Aurora/source/com/intellij/debugger/engine/DebuggerManagerThread.java
+:100644 100644 f6f83c3 84d15d6 R074	Aurora/source/com/intellij/debugger/impl/KillMeSoftlyException.java	Aurora/source/com/intellij/debugger/impl/CloseWorkerThreadException.java
+:100644 100644 66e9947 7c14430 M	Aurora/source/com/intellij/debugger/impl/EventQueue.java
+:100644 100644 b985367 7622a73 M	Aurora/source/com/intellij/debugger/impl/InvokeThread.java
+
+commit 5a95a5bb1e376f33c8fc8bc4248bb77bab3f5091 4b66f5337d70d634a2bad15c574132d3733552a7
+Author: lex <>
+Date:   Mon May 24 12:14:59 2004 +0000
+
+    no message
+
+:100644 100644 d440d5b 9e4e9e9 M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+
+commit fb6de6b4ef8074f023c3b17d1e7ef741c26fcd1d b9fbc7ad9172e615cedd09c760ac95fa2badc413
+Author: lex <>
+Date:   Mon May 24 11:54:01 2004 +0000
+
+    no message
+
+:100644 100644 d4b4350 1d66fdf M	Aurora/source/com/intellij/debugger/actions/InspectAction.java
+:100644 100644 a7e1727 b947297 M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/ArrayAccessEvaluator.java
+:100644 100644 248a8b4 44e1dab M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/FieldEvaluator.java
+:100644 100644 e106723 5ab482d M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/LocalVariableEvaluator.java
+:100644 100644 d5ba74a 1953c2e M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/Modifier.java
+:100644 100644 0ec107c 6290e41 M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/SyntheticVariableEvaluator.java
+:000000 100644 0000000 c5528d7 A	Aurora/source/com/intellij/debugger/ui/impl/InspectDebuggerTree.java
+:100644 100644 eb038ed c2b4994 M	Aurora/source/com/intellij/debugger/ui/impl/InspectDialog.java
+:100644 100644 08cdfec aa6b2f5 M	Aurora/source/com/intellij/debugger/ui/impl/InspectPanel.java
+:100644 100644 ff2bda0 bab6a4b M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 a2f0001 86d2b9c M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTreeNode.java
+:100644 100644 4b85777 099913b M	Aurora/source/com/intellij/debugger/ui/impl/watch/NodeFactory.java
+
+commit 71528b37beb16dabcb3b44e61b74244c6d544bf1 74144136caa3eae687127beddab6efeba41468a0
+Author: lex <>
+Date:   Sat May 22 18:27:46 2004 +0000
+
+    no message
+
+:100644 100644 34b2a9c 4074fcf M	Aurora/source/com/intellij/execution/ExecutionManagerImpl.java
+
+commit 17169a0d9c457fc40781738410432b25c589ebff bb75e0fb1472a3da7657c1a461e2115f581a82ee
+Author: lex <>
+Date:   Sat May 22 18:03:55 2004 +0000
+
+    no message
+
+:100644 100644 3a2ee27 eaf4764 M	Aurora/openapi/src/com/intellij/execution/DefaultExecutionResult.java
+:100644 100644 1b36223 762b020 M	Aurora/openapi/src/com/intellij/execution/configurations/CommandLineState.java
+:100644 100644 dea2a03 d5fa2aa M	Aurora/openapi/src/com/intellij/execution/configurations/RemoteDebugConnection.java
+:100644 100644 399b68f 91fe974 M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 1b64f3f da4fe6b M	Aurora/openapi/src/com/intellij/execution/runners/RestartAction.java
+:100644 100644 353272e 675cdec M	Aurora/openapi/src/com/intellij/execution/runners/RunContentBuilder.java
+:100644 100644 2ef5929 db693da M	Aurora/openapi/src/com/intellij/execution/ui/RunContentDescriptor.java
+:100644 100644 e2b4688 f1ee26c M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERunConfiguration.java
+:100644 100644 9249277 ee5b012 M	Aurora/resources/src/idea/ActionManager.xml
+:100644 000000 2c6ec0c 0000000 D	Aurora/source/com/intellij/debugger/actions/DebugAgainAction.java
+:100644 100644 b9e35a8 b0053d9 M	Aurora/source/com/intellij/debugger/actions/DebuggerActions.java
+:100644 000000 b4736d3 0000000 D	Aurora/source/com/intellij/debugger/actions/StopAction.java
+:100644 100644 fe7ced5 d440d5b M	Aurora/source/com/intellij/debugger/engine/DebugProcessEvents.java
+:100644 100644 37712a6 4eeced9 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 9920fd6 b090cfb M	Aurora/source/com/intellij/debugger/engine/RemoteDebugConnectionState.java
+:100644 100644 1b79975 d14a175 M	Aurora/source/com/intellij/debugger/engine/RemoteDebugProcessHandler.java
+:000000 100644 0000000 c0450bc A	Aurora/source/com/intellij/debugger/engine/RemoteDebugResultImpl.java
+:100644 100644 790697b 66e9947 M	Aurora/source/com/intellij/debugger/impl/EventQueue.java
+:100644 100644 35fc16e 418d4ac M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 daead73 399fd51 R062	Aurora/source/com/intellij/debugger/ui/TerminateProcessDialog.java	Aurora/source/com/intellij/debugger/ui/TerminateRemoteProcessDialog.java
+:100644 100644 08d084c 34b2a9c M	Aurora/source/com/intellij/execution/ExecutionManagerImpl.java
+:100644 100644 b7a7fe8 e4cb90e M	Aurora/source/com/intellij/execution/junit/TestObject.java
+:100644 100644 6f06a84 0a9e8db M	Aurora/source/com/intellij/openapi/editor/impl/EditorImpl.java
+:100644 100644 7ea0ef1 f34ecf3 M	Aurora/source/com/intellij/zkm/UnscrambleDialog.java
+
+commit 73eedf8418b5492e3aefac5496faca35c295b908 12e21168f5ec6c01e8809e880b897c72c18e067d
+Author: lex <>
+Date:   Fri May 21 12:26:29 2004 +0000
+
+    no message
+
+:100644 100644 c875b56 022ca22 M	Aurora/source/com/intellij/execution/remote/RemoteConfigurable.java
+
+commit dba1b4c56ddf2aca3f050228c94bded0ff13d1cf 41b33789d97fff6685f6822c04cc7d107f1f4b00
+Author: lex <>
+Date:   Thu May 20 19:53:26 2004 +0000
+
+    no message
+
+:100644 100644 6fbf53a 2381b8d M	Aurora/openapi/src/com/intellij/debugger/DebuggerManager.java
+:100644 100644 24a25ef 37712a6 M	Aurora/source/com/intellij/debugger/engine/DebugProcessImpl.java
+:100644 100644 5f03fa0 6e7b5f4 M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 7c959b2 35fc16e M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:000000 100644 0000000 c399d4d A	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersPatcher.java
+:000000 100644 0000000 dd7d268 A	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersPatcherConfigurable.form
+:000000 100644 0000000 f941ebe A	Aurora/source/com/intellij/debugger/ui/GenericDebuggerParametersPatcherConfigurable.java
+:100644 100644 69b2a2b fab4ce2 M	Aurora/source/com/intellij/debugger/ui/GenericDebuggerRunner.java
+:100644 100644 6d4200c 7466190 M	Aurora/source/com/intellij/execution/remote/RemoteConfigurable.form
+
+commit b6ecaa15b3275ab2fd63cf2edd1b83f0e4397aaa 97329bea00331feac9b969b1241d3755ab486e22
+Author: lex <>
+Date:   Thu May 20 17:53:57 2004 +0000
+
+    no message
+
+:000000 100644 0000000 dee3be1 A	Aurora/openapi/src/com/intellij/execution/runners/PatchingRunner.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit d4ab140207493f88f88ce4074edfc176a08ca3ad f016f3dbd4b7917f5c7d21c7f35ca28f49b795d8
+Author: lex <>
+Date:   Wed Feb 11 16:04:04 2004 +0000
+
+    no message
+
+commit f4db71297abea12d81f2b6778a8633167b35831a e94320a93a149c5a2f3dd4575d21bc566ed4aa4c
+Author: lex <>
+Date:   Tue Feb 10 19:44:05 2004 +0000
+
+    no message
+
+:100644 100644 a7b940d 1e1da74 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatIntegrationBase.java
+
+commit e94320a93a149c5a2f3dd4575d21bc566ed4aa4c 7dd663d374f1431b965f6edb2209d9df37c9bbf7
+Author: lex <>
+Date:   Tue Feb 10 19:28:15 2004 +0000
+
+    no message
+
+:100644 100644 411db40 2eb07d9 M	Aurora/source/com/intellij/debugger/ui/HotSwapDiagnostics.java
+:100644 100644 7a2c87f c7fbe6a M	Aurora/source/com/intellij/debugger/ui/HotSwapWorker.java
+
+commit 391a2f81b4209f4229ed9dd9485bc9b36de80184 f9039b8bcf0337d3869e89c5c395c23c16326715
+Author: lex <>
+Date:   Tue Feb 10 19:12:39 2004 +0000
+
+    no message
+
+:100644 100644 039e6d8 a7b940d M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatIntegrationBase.java
+
+commit 3e34b231036d8e1a3c08b4f4f16f2d8ce183622a aeeb768f53e61ca159b75a6a3f076c3568f50e12
+Author: lex <>
+Date:   Tue Feb 10 18:53:54 2004 +0000
+
+    no message
+
+:100644 100644 aa24130 155ec3c M	Aurora/source/com/intellij/debugger/codeinsight/SurroundWithRuntimeCastHandler.java
+:100644 100644 a819960 10bed8c M	Aurora/source/com/intellij/debugger/impl/DebuggerUtils.java
+:100644 100644 4623c2b 2210981 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTreeNodeExpression.java
+
+commit ee5aa19debe2079886413ac9d5d3a623ab749911 97d22de891255845c311f677ae030fb5fe34e8b8
+Author: lex <>
+Date:   Tue Feb 10 17:50:41 2004 +0000
+
+    no message
+
+:100644 100644 03f640c aa2b41b M	Aurora/source/com/intellij/debugger/DebugProcess.java
+
+commit bc713407081ea4ffeb61ce0902d7de68f39da1da 78d7f6e2db72f286985cee98a08081fa963161d6
+Author: lex <>
+Date:   Tue Feb 10 14:46:36 2004 +0000
+
+    no message
+
+:100644 100644 f16ef0c 03f640c M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 8e0b2c0 6955814 M	Aurora/source/com/intellij/debugger/impl/evaluation/DebuggerInvocationThread.java
+
+commit 721a93abcc38f610b3ef1a34facafdd76bfe668e cb5518509933f430dabf9a10d6285087becac8d7
+Author: lex <>
+Date:   Mon Feb 9 20:13:25 2004 +0000
+
+    no message
+
+:100644 100644 9e24237 f16ef0c M	Aurora/source/com/intellij/debugger/DebugProcess.java
+
+commit cb5518509933f430dabf9a10d6285087becac8d7 486433ced0526fdd89e314e2718d49e6dbcc4f3f
+Author: lex <>
+Date:   Mon Feb 9 20:00:54 2004 +0000
+
+    no message
+
+:100644 100644 9e2de34 9e24237 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 59e9f09 0c3a5a0 M	Aurora/source/com/intellij/debugger/actions/SuspendResumeThreadAction.java
+:100644 100644 8f17c3b d3c3115 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit 486433ced0526fdd89e314e2718d49e6dbcc4f3f eb68f953947955207fd55e7a414010172ea040b0
+Author: lex <>
+Date:   Mon Feb 9 19:55:23 2004 +0000
+
+    no message
+
+:100644 100644 1a3a7d7 2d42ffa M	Aurora/source/com/intellij/debugger/impl/PositionUtil.java
+:100644 100644 9b99b9b cc661a2 M	Aurora/source/com/intellij/debugger/ui/DebuggerEditor.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3f1a84d870e98b9a5d2b1949856c29b24bd1c3b3 b929320d807939f3f64cf09cc3a37fbad84e86c6
+Author: lex <>
+Date:   Mon Feb 2 18:01:52 2004 +0000
+
+    no message
+
+commit b929320d807939f3f64cf09cc3a37fbad84e86c6 b65677d9df39116113cce0c43867a8c3e8060dd0
+Author: lex <>
+Date:   Mon Feb 2 17:55:54 2004 +0000
+
+    no message
+
+:100644 100644 f958eb6 5088c4d M	Aurora/source/com/intellij/debugger/DebuggeeLauncher.java
+
+commit ff37fc8160609d02e2501ce7453698829eeebec4 e0be4cf5aa620df66c040c1408a2e1ffcadf422c
+Author: lex <>
+Date:   Mon Feb 2 17:48:58 2004 +0000
+
+    no message
+
+:100644 100644 6c7fb70 75d365e M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 82a01dc 66816f5 M	Aurora/source/com/intellij/openapi/execution/JavaParameters.java
+
+commit e0be4cf5aa620df66c040c1408a2e1ffcadf422c 9d9b8bb1b8e860f223ba6dbaccf54f851adf96f8
+Author: lex <>
+Date:   Mon Feb 2 17:43:02 2004 +0000
+
+    no message
+
+:100644 100644 f85c4fc 6ae7652 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+:100644 100644 fa8a7c9 d63402e M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+:100644 100644 588d95f 6f3cd1f M	Aurora/source/com/intellij/debugger/ui/impl/InspectPanel.java
+:100644 100644 1889312 550219c M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsPanel.java
+:100644 100644 966665d 158b582 M	Aurora/source/com/intellij/debugger/ui/impl/WatchPanel.java
+
+commit b1b31814434a38eac5d82ba61fa36a39ed0ceb74 e368acbf1bc2f4ffab9d15c55625e5109cccedfc
+Author: lex <>
+Date:   Mon Feb 2 16:42:36 2004 +0000
+
+    no message
+
+:100644 100644 3802754 2c5267a M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+
+commit e368acbf1bc2f4ffab9d15c55625e5109cccedfc 9603f0029359c9c8d35a7d116b72d330349026ea
+Author: lex <>
+Date:   Mon Feb 2 16:40:32 2004 +0000
+
+    no message
+
+:100644 100644 9d985a3 3802754 M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+
+commit 889f829d11431343385d38016257d2ac1c617cf7 2fd0e96b94ca97dccdbcde45d8f002a8a94c9916
+Author: lex <>
+Date:   Mon Feb 2 15:59:13 2004 +0000
+
+    no message
+
+:100644 100644 de123e7 240902a M	Aurora/source/com/intellij/debugger/jdi/VirtualMachineProxy.java
+
+commit 376fd9df47e6bb808b542ed909a9668fbf5f6369 40229db015d0d49b0d94c10833c8ed26c00a9b05
+Author: lex <>
+Date:   Mon Feb 2 15:39:06 2004 +0000
+
+    no message
+
+:100644 100644 d5941f7 95c6786 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatIntegrationBase.java
+
+commit 40229db015d0d49b0d94c10833c8ed26c00a9b05 71f7a569cb9a1806c6225edbb3f960bddcbb8842
+Author: lex <>
+Date:   Mon Feb 2 15:36:03 2004 +0000
+
+    no message
+
+:100644 100644 0c25c72 d5941f7 M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatIntegrationBase.java
+:100644 100644 c3e3520 82a01dc M	Aurora/source/com/intellij/openapi/execution/JavaParameters.java
+
+commit b0ea939db91e32ed559cdce698324faa2150239f 419e3cad59b416fe5677f47647d0dcf3ef2e5c8c
+Author: lex <>
+Date:   Sun Feb 1 21:31:46 2004 +0000
+
+    no message
+
+:100644 100644 1ca2541 3a1b60c M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/Utils.java
+:100644 100644 185380e 6c7fb70 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 f38a018 de123e7 M	Aurora/source/com/intellij/debugger/jdi/VirtualMachineProxy.java
+:100644 100644 b0daa49 4c392d7 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerComboBoxRenderer.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 08c7ce049507aa1345bac5cd56d6a5bf88ecf99a e69fb5ddd89a486c0df0b684d96a9cf626b74566
+Author: lex <>
+Date:   Tue Jan 20 23:45:11 2004 +0000
+
+    no message
+
+commit e69fb5ddd89a486c0df0b684d96a9cf626b74566 aa4b059cf137369dbc7691438958e3307d86c64c
+Author: lex <>
+Date:   Tue Jan 20 23:44:27 2004 +0000
+
+    no message
+
+:100644 100644 3fdde1c 126b0b2 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+:100644 100644 e9acd45 4fe62d1 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeBase.java
+
+commit 9c3625b5cf84c9a7b503582e4af7bf0b21d41ed6 bff6707bc2f7c785a3821cdf381343006a1a51ec
+Author: lex <>
+Date:   Tue Jan 20 17:19:54 2004 +0000
+
+    no message
+
+:100644 100644 34f114f 89a98e5 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit ac4546580a08b85065989cb197ed9054384eac5a e2c362402411ab16fa8f2c33018587bdbb3d8360
+Author: lex <>
+Date:   Tue Jan 20 16:36:44 2004 +0000
+
+    no message
+
+:100644 100644 046f9c2 852afeb M	Aurora/source/com/intellij/debugger/NameManager.java
+:100644 100644 8a7cb8a 7165f62 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+
+commit 4b8cbdb7439510120ef08b3ab98a4346b34876be 34d35db6f02a0b47e462be12587f183a8f7c66d7
+Author: lex <>
+Date:   Tue Jan 20 16:18:00 2004 +0000
+
+    no message
+
+:100644 100644 6ea0d38 d49039f M	Aurora/source/com/intellij/debugger/jdi/StackFrameProxy.java
+:100644 100644 e1bce69 6fb5793 M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+
+commit 34d35db6f02a0b47e462be12587f183a8f7c66d7 9a1cf9745d8c48527945955d9737e61ec55b53ca
+Author: lex <>
+Date:   Tue Jan 20 16:07:31 2004 +0000
+
+    no message
+
+:100644 100644 e0199d6 d482d25 M	Aurora/source/com/intellij/debugger/jdi/ThreadReferenceProxy.java
+
+commit cf022345cad5a6e9a92f6c0192eeae95f593f9ce 5482c7c478799ee907e40d5b4aaec10d8eb6a500
+Author: lex <>
+Date:   Tue Jan 20 15:14:50 2004 +0000
+
+    no message
+
+:100644 100644 264afc3 6483a5e M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/TomcatJspDebugSupport.java
+:100644 100644 bb259c5 1749c8c M	Aurora/source/com/intellij/debugger/impl/PositionUtil.java
+:100644 100644 d5e04ef 7a52561 M	Aurora/source/com/intellij/debugger/impl/RequestManager.java
+:100644 100644 e509abc 09c39b6 M	Aurora/source/com/intellij/openapi/j2ee/web/impl/JSR45JspDebugSupport.java
+
+commit db493eaffa0fb3a99bf9080c2f6d221c539101bd bc42fe15d2bff19b8fa26cd5f32b3103643bedf2
+Author: lex <>
+Date:   Tue Jan 20 15:02:11 2004 +0000
+
+    no message
+
+:100644 100644 7fa1752 8ca837c M	Aurora/source/com/intellij/debugger/RequestHint.java
+
+commit bc42fe15d2bff19b8fa26cd5f32b3103643bedf2 f6a3d0fe76f82210c9e3baf8ef95bec4582560f3
+Author: lex <>
+Date:   Tue Jan 20 15:00:44 2004 +0000
+
+    no message
+
+:100644 100644 1def083 4e52614 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 ea599c6 7fa1752 M	Aurora/source/com/intellij/debugger/RequestHint.java
+:100644 100644 bff68b0 d5e04ef M	Aurora/source/com/intellij/debugger/impl/RequestManager.java
+:100644 100644 f3a3b76 92d1b93 M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 1a4ed66 34f114f M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit 34a88e2be6d58dbe7f7e8c66064005ae2cb97249 acfe7481ebc9ed25e88cbb6fda50ecaa04289d00
+Author: lex <>
+Date:   Tue Jan 20 14:40:33 2004 +0000
+
+    no message
+
+:100644 100644 7999751 cb9b104 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/ClassLabelRenderer.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit e62ebda21598166e5267bc9281e595e2b24e1849 65dbe755ce278add0c94af1578519ddaa3e0f70d
+Author: lex <>
+Date:   Sun Jan 18 21:09:25 2004 +0000
+
+    no message
+
+commit 65dbe755ce278add0c94af1578519ddaa3e0f70d 5ac2ef403ca470cb515b98b119ebc6a7077e63fa
+Author: lex <>
+Date:   Sun Jan 18 20:59:28 2004 +0000
+
+    no message
+
+:100644 100644 0902b7b 1a4ed66 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit 5ac2ef403ca470cb515b98b119ebc6a7077e63fa c93f5e401b23910de48a95dbf5d4ec248e296b32
+Author: lex <>
+Date:   Sun Jan 18 20:43:54 2004 +0000
+
+    no message
+
+:100644 100644 bc77f99 6aa9ef6 M	Aurora/source/com/intellij/debugger/actions/DebuggerAction.java
+:100644 100644 7237259 05bc5b2 M	Aurora/source/com/intellij/debugger/impl/evaluation/DebuggerInvocationThread.java
+:100644 100644 e3d7848 8dc6cdd M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 347dc19 0902b7b M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 6ad2290 e1bce69 M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+:100644 100644 df162ff a06cc46 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsPanel.java
+:100644 100644 ade1626 d5e1040 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+:100644 100644 d19a4ca a1f1930 M	Aurora/source/com/intellij/debugger/ui/impl/watch/NodeFactory.java
+:100644 100644 f05f447 b58ca3d M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptor.java
+
+commit 5aaf485cc5bc4d87188cdc36282fb7a978e65001 3d0140df4b183679523e75ff1c6ae34c138e4b29
+Author: lex <>
+Date:   Sun Jan 18 18:15:35 2004 +0000
+
+    no message
+
+:000000 100644 0000000 7237259 A	Aurora/source/com/intellij/debugger/impl/evaluation/DebuggerInvocationThread.java
+:100644 100644 86f472d e3d7848 M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 469cbd9 0a85671 M	Aurora/source/com/intellij/debugger/ui/DebuggerEditor.java
+:100644 100644 4bf61a4 347dc19 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 9928895 6ad2290 M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+:100644 100644 78970e5 ade1626 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+
+commit 7d6927e6439bf053c6adfc80693d0045868c7f93 246e450792b93f55b8c5396c3b53d3d2a1bf3499
+Author: lex <>
+Date:   Sat Jan 17 18:20:37 2004 +0000
+
+    no message
+
+:100644 100644 e2c51fa 000e776 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 5f41655 c50658f M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 8e8553f 78970e5 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+
+commit 246e450792b93f55b8c5396c3b53d3d2a1bf3499 9b4dd168de444bb3b133da3fbb6c8b259bcf2555
+Author: lex <>
+Date:   Sat Jan 17 18:10:58 2004 +0000
+
+    no message
+
+:100644 100644 8eff9d6 5f41655 M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 bc1874f cc335b9 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+:100644 100644 f867182 0b973be M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeRenderer.java
+:100644 100644 86015b1 2440ec8 M	Aurora/source/com/intellij/debugger/ui/impl/MainWatchPanel.java
+:100644 100644 e8ae2ae 8e8553f M	Aurora/source/com/intellij/debugger/ui/impl/watch/DebuggerTree.java
+
+commit 4462fb3643dd751626b3afab891513da2ee34c47 8759277f503f1e95a05411312ad7a2b4b5c190e1
+Author: lex <>
+Date:   Fri Jan 16 17:52:30 2004 +0000
+
+    no message
+
+:100644 100644 b1c4724 76a8a3d M	Aurora/source/com/intellij/openapi/project/impl/convertors/Convertor34.java
+
+commit 9c9d910d3e3a6b8ec217da30c17df0cc29e67f04 dc6f65fa7b5872204d62b3c8dd9e8016ed8f2f96
+Author: lex <>
+Date:   Fri Jan 16 17:44:18 2004 +0000
+
+    no message
+
+:100644 100644 dda88be b1c4724 M	Aurora/source/com/intellij/openapi/project/impl/convertors/Convertor34.java
+
+commit 09eaacc5bbad8f2b282df7202183af3570ae9657 2026561938c5342b703dab0cdf231e69877f084a
+Author: lex <>
+Date:   Fri Jan 16 17:38:36 2004 +0000
+
+    no message
+
+:100644 100644 ebba38f 046f9c2 M	Aurora/source/com/intellij/debugger/NameManager.java
+:100644 100644 78e2b52 dda88be M	Aurora/source/com/intellij/openapi/project/impl/convertors/Convertor34.java
+
+commit c3fbfb0d8ae9d81a9589da42d8355da5d9bebadf 8cc4ec9b9925ea4a8b436437130823ac47ef48d7
+Author: lex <>
+Date:   Fri Jan 16 17:31:12 2004 +0000
+
+    no message
+
+:100644 100644 0ec4610 8a7cb8a M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 2074772bc76075fa01077e031dfa61fe10dfca42 faaf9c80ab4ae32fb7dfb3ae4233872d97f510cb
+Author: lex <>
+Date:   Tue Oct 21 13:21:56 2003 +0000
+
+    no message
+
+commit faaf9c80ab4ae32fb7dfb3ae4233872d97f510cb 853c9d610edcdbe1b8dd70037253daebfcd46e37
+Author: lex <>
+Date:   Tue Oct 21 13:21:25 2003 +0000
+
+    no message
+
+:100644 100644 9e0dfeb 0b6061a M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+
+commit be468ac0fe41c0dd4bf563b5615ea8e3e5b81538 e41aadbb560f4b0207b00588e45c2bbd41968386
+Author: lex <>
+Date:   Tue Oct 21 12:12:10 2003 +0000
+
+    no message
+
+:100644 100644 40ba5eb d04064e M	Aurora/build_unit.iml
+:100644 100644 19cef9b 0b6ca1c M	Aurora/installer.iml
+:100644 100644 1222bf2 e6f7184 M	Aurora/source/com/intellij/debugger/actions/AddToWatchAction.java
+:100644 100644 7bc2ca7 ecc80cb M	Aurora/source/com/intellij/debugger/ui/TerminateProcessDialog.java
+
+commit 746976629a0d26db44c3b71c228656c3dec76acb 2816eb22e67646096d05a610f612f38d652f8e64
+Author: lex <>
+Date:   Mon Oct 20 19:47:48 2003 +0000
+
+    no message
+
+:100644 100644 ef7fc05 cde98c7 M	Aurora/source/com/intellij/debugger/actions/CustomizeThreadsViewAction.java
+:100644 100644 b9ca385 2271141 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointPanel.java
+:000000 100644 0000000 70458f3 A	Aurora/source/com/intellij/debugger/breakpoints/BreakpointPropertiesPanel.form
+:100644 100644 b475918 7bed1c4 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointPropertiesPanel.java
+:100644 100644 cf2cba3 34043f3 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointsConfigurationDialogFactory.java
+:100644 100644 65d72b1 0593722 M	Aurora/source/com/intellij/debugger/breakpoints/ExceptionBreakpointPropertiesPanel.java
+:100644 100644 66ac41e f043853 M	Aurora/source/com/intellij/debugger/breakpoints/FieldBreakpointPropertiesPanel.java
+:100644 100644 72b7b65 c951d85 M	Aurora/source/com/intellij/debugger/breakpoints/LineBreakpointPropertiesPanel.java
+:100644 100644 2ca4076 ec59865 M	Aurora/source/com/intellij/debugger/breakpoints/MethodBreakpointPropertiesPanel.java
+:100644 100644 78afbd4 876078d M	Aurora/source/com/intellij/debugger/settings/ThreadsViewConfigurable.java
+:100644 100644 f44c4d1 b0f0128 M	Aurora/source/com/intellij/debugger/ui/DebuggerComboBox.java
+:100644 100644 04cd45d 9e0dfeb M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 332cd13 d1b5a37 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsDebuggerTree.java
+:100644 100644 7ca8074 03c64d4 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/PrimitiveRenderer.java
+
+commit ffc89c8903485346fa1f49709f67e915f931b222 d4b8e5788a7fd0d7f48d856e4782bd4b32b08b34
+Author: lex <>
+Date:   Thu Oct 16 17:03:06 2003 +0000
+
+    no message
+
+:100644 100644 08101e3 3656935 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/NodeRendererManager.java
+
+commit 63026345f56cf4407c3dcfc0c6dcb49b49ad6804 6aa84c26b4e0a1c292ed73e2b84b757948a2a0e8
+Author: lex <>
+Date:   Thu Oct 16 15:09:14 2003 +0000
+
+    no message
+
+:100644 100644 fdab726 2c7afb1 M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 7c4bd05 013bc0f M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 ec09b4a e8c0a4d M	Aurora/source/com/intellij/debugger/ui/DebuggerManager.java
+:100644 100644 393dd6d d6ea96c M	Aurora/source/com/intellij/debugger/ui/impl/FrameDebuggerTree.java
+:100644 100644 bff6e4e 24603fc M	Aurora/source/com/intellij/debugger/ui/impl/InspectDialog.java
+:100644 100644 f120909 935816d M	Aurora/source/com/intellij/debugger/ui/impl/InspectPanel.java
+
+commit 902772090e17d3435f886e592254205753f77d84 5a65da812b062471a95a7e3c7c7d85a11fecfaa8
+Author: lex <>
+Date:   Thu Oct 16 11:33:09 2003 +0000
+
+    no message
+
+:100644 100644 1f5a85a fdab726 M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 e36dde2 5216c79 M	Aurora/source/com/intellij/debugger/actions/InspectAction.java
+:100644 100644 5167210 63c653b M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/ArrayAccessEvaluator.java
+:000000 100644 0000000 ef67910 A	Aurora/source/com/intellij/debugger/impl/evaluation/expression/InspectArrayItem.java
+:100644 100644 b5bb209 bff6e4e M	Aurora/source/com/intellij/debugger/ui/impl/InspectDialog.java
+:100644 100644 51f87dc f120909 M	Aurora/source/com/intellij/debugger/ui/impl/InspectPanel.java
+
+commit 6cd53ab344633251bc04271890effbe8f2c16dcb f96b416d03ce9189be09ccbfb3543e4f12535882
+Author: lex <>
+Date:   Thu Oct 16 09:32:59 2003 +0000
+
+    no message
+
+:100644 100644 e1d9d64 08101e3 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/NodeRendererManager.java
+
+commit f96b416d03ce9189be09ccbfb3543e4f12535882 90d39ae28d06e8c5990fb985ada7d6aa06c7e7e2
+Author: lex <>
+Date:   Thu Oct 16 09:26:14 2003 +0000
+
+    no message
+
+:100644 100644 a797f5f 1f5a85a M	Aurora/resources/idea/ActionManager.xml
+:000000 100644 0000000 2aaa8ad A	Aurora/source/com/intellij/debugger/actions/ShowAsHexAction.java
+:100644 100644 8f9128d 8ed759a M	Aurora/source/com/intellij/debugger/settings/ToStringConfigurable.java
+:100644 100644 ca4969c d5903c7 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/settings/NodeRendererSettings.java
+
+commit 90d39ae28d06e8c5990fb985ada7d6aa06c7e7e2 79d493c1ba1eabf6dc358d4802fd7a47c4a8dd29
+Author: lex <>
+Date:   Thu Oct 16 08:01:02 2003 +0000
+
+    no message
+
+:100644 100644 407ad4e e1d9d64 M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/NodeRendererManager.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0291779afaa48768b7fa951fc634c51a3f5c225a b30fb14767a486386742db00de42f57c9923f238
+Author: lex <>
+Date:   Mon Oct 6 19:54:40 2003 +0000
+
+    no message
+
+commit 22164239a37bbb3349c7eb3e535a3b6992c121c2 da8478c03dd043f01ac843812f815dbb1b72572e
+Author: lex <>
+Date:   Mon Oct 6 19:49:00 2003 +0000
+
+    no message
+
+:100644 100644 c2b5591 05ce287 M	Aurora/resources/DebuggerSettings.xml
+:100644 100644 161ffe2 8cc8b6f M	Aurora/source/com/intellij/debugger/settings/ContextViewConfigurable.java
+:100644 100644 1193b6c 9a1c382 M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.form
+:100644 100644 d38a7c1 dde6577 M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.java
+:100644 100644 1f80a10 0669cf4 M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurablePanel.java
+:100644 100644 fdddff1 5af29d2 M	Aurora/source/com/intellij/debugger/settings/DebuggerSettings.java
+:100644 100644 ea950e3 b70178a M	Aurora/source/com/intellij/debugger/settings/NodeRendererSettings.java
+:100644 100644 f042be7 f2e098d M	Aurora/source/com/intellij/debugger/ui/impl/watch/render/NodeRendererManager.java
+:100644 100644 35a8af5 1f450ef M	Aurora/source/com/intellij/util/containers/InternalIterator.java
+
+commit 45bc8a3a6b2c20392b6531696c6f54c64cfd46d0 a5c6980903ef558c34ee661a22d20cea6e46c45c
+Author: lex <>
+Date:   Mon Oct 6 17:59:32 2003 +0000
+
+    no message
+
+:100644 100644 8746099 d38a7c1 M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.java
+:100644 100644 32a197c 990cd31 M	Aurora/source/com/intellij/debugger/ui/DebuggerManager.java
+:100644 100644 a870c24 fb1ae74 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit a5c6980903ef558c34ee661a22d20cea6e46c45c 7617926fa1fb2c56afec028f987378274ec7fc40
+Author: lex <>
+Date:   Mon Oct 6 17:46:54 2003 +0000
+
+    no message
+
+:100644 100644 b0aca4a 67802eb M	Aurora/source/com/intellij/debugger/breakpoints/FieldBreakpoint.java
+:100644 100644 513f70a 5f2addc M	Aurora/source/com/intellij/debugger/breakpoints/LineBreakpoint.java
+:100644 100644 8362cb8 b1fa319 M	Aurora/source/com/intellij/debugger/breakpoints/MethodBreakpoint.java
+
+commit 6c284c918169fc897d3d2792887bc6caca9888f5 4a2304e68f2a112a2155282dfedc16a4a5a0b814
+Author: lex <>
+Date:   Mon Oct 6 17:24:49 2003 +0000
+
+    no message
+
+:100644 100644 ec9aaf6 b0aca4a M	Aurora/source/com/intellij/debugger/breakpoints/FieldBreakpoint.java
+:100644 100644 d4282f5 513f70a M	Aurora/source/com/intellij/debugger/breakpoints/LineBreakpoint.java
+:100644 100644 ae04c4e 8362cb8 M	Aurora/source/com/intellij/debugger/breakpoints/MethodBreakpoint.java
+:100644 100644 2874f01 32a197c M	Aurora/source/com/intellij/debugger/ui/DebuggerManager.java
+
+commit 4a2304e68f2a112a2155282dfedc16a4a5a0b814 c0037dfe27bf300cf068446669fbcfc94eb500e1
+Author: lex <>
+Date:   Mon Oct 6 17:06:39 2003 +0000
+
+    no message
+
+:100644 100644 557ed3f 61ff77a M	Aurora/source/com/intellij/debugger/actions/ToggleFieldBreakpointAction.java
+:100644 100644 1b934e4 9cb9606 M	Aurora/source/com/intellij/debugger/actions/ToggleLineBreakpointAction.java
+:100644 100644 1878b44 9393978 M	Aurora/source/com/intellij/debugger/actions/ToggleMethodBreakpointAction.java
+
+commit c0037dfe27bf300cf068446669fbcfc94eb500e1 b076a3ac989306d3ff46bb3515e96f84501306c1
+Author: lex <>
+Date:   Mon Oct 6 16:49:44 2003 +0000
+
+    no message
+
+:100644 100644 64f0b51 2874f01 M	Aurora/source/com/intellij/debugger/ui/DebuggerManager.java
+:100644 100644 fb1ae74 a870c24 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit b076a3ac989306d3ff46bb3515e96f84501306c1 e4a5ef936712cf50b1861d8ee05587f876d9b835
+Author: lex <>
+Date:   Mon Oct 6 16:47:19 2003 +0000
+
+    no message
+
+:100644 100644 f609c26 69d2435 M	Aurora/source/com/intellij/debugger/actions/StopAction.java
+:000000 100644 0000000 1193b6c A	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.form
+:100644 100644 14c4205 8746099 M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.java
+:000000 100644 0000000 1f80a10 A	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurablePanel.java
+:100644 100644 f42f6d5 fdddff1 M	Aurora/source/com/intellij/debugger/settings/DebuggerSettings.java
+:100644 100644 24afcf9 178c097 M	Aurora/source/com/intellij/debugger/settings/NodeRendererSettingEditor.form
+:100644 100644 39e17f5 64f0b51 M	Aurora/source/com/intellij/debugger/ui/DebuggerManager.java
+:100644 100644 5ab1830 fb1ae74 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 3da3130 6badc85 M	Aurora/source/com/intellij/debugger/ui/HotSwapAction.java
+:000000 100644 0000000 0fb8320 A	Aurora/source/com/intellij/debugger/ui/HotSwapManager.java
+:100644 000000 81fdeb3 0000000 D	Aurora/source/com/intellij/debugger/ui/HotSwapPanel.java
+:100644 100644 793ec3c f589f0c M	Aurora/source/com/intellij/debugger/ui/HotSwapView.java
+:000000 100644 0000000 9584b3a A	Aurora/source/com/intellij/debugger/ui/RunHotswapDialog.java
+:100644 100644 a25e97f 5dcf465 M	Aurora/source/com/intellij/debugger/ui/TerminateProcessDialog.java
+
+commit ecedf624b09c2c274649a25b8208492c454a026e bcc35878fb5f738a3c8efe8cc4f53b7b9b081497
+Author: lex <>
+Date:   Mon Oct 6 07:26:50 2003 +0000
+
+    no message
+
+:100644 100644 f2b07a4 a42f776 M	Aurora/source/com/intellij/debugger/codeinsight/SurroundWithRuntimeCastHandler.java
+
+commit e35205466b06575c21e219e3c61190123d58e216 1664e625251643db6f455c39590b08e633b44873
+Author: lex <>
+Date:   Wed Oct 1 17:56:19 2003 +0000
+
+    no message
+
+:100644 100644 fac4307 557ed3f M	Aurora/source/com/intellij/debugger/actions/ToggleFieldBreakpointAction.java
+:100644 100644 7d1d125 1878b44 M	Aurora/source/com/intellij/debugger/actions/ToggleMethodBreakpointAction.java
+:100644 100644 65258a2 b54fe2f M	Aurora/source/com/intellij/debugger/impl/DebuggerUtils.java
+:100644 100644 1ab9be1 881f729 M	Aurora/source/com/intellij/debugger/ui/CheckboxTree.java
+:100644 100644 e3894242 625a6f0 M	Aurora/source/com/intellij/ui/ColoredTreeCellRenderer.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 8a8629725f7f516ad4da566ac813d5879b9a5487 07bec616b1d58d53afad0e1c83a569d71f231b06
+Author: lex <>
+Date:   Wed Sep 10 09:23:11 2003 +0000
+
+    no message
+
+commit 07bec616b1d58d53afad0e1c83a569d71f231b06 37ae5e1038a0e36d7d91cee4d44c9b398586d82a
+Author: lex <>
+Date:   Wed Sep 10 08:50:16 2003 +0000
+
+    no message
+
+:100644 100644 c4774a1 d5be75b M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeView.java
+
+commit 37ae5e1038a0e36d7d91cee4d44c9b398586d82a 9ba1c7f03ab2a0d62976a5a2e727d68b44ba64ef
+Author: lex <>
+Date:   Wed Sep 10 08:17:02 2003 +0000
+
+    no message
+
+:100644 100644 a3e2847 b45aa05 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointWithHighlighter.java
+
+commit d22ea27c9d4ae1ae5dfb01217c4b3bbb3180f2e1 2d59094b0b5377ceef709e4a41817f4e71b4b4b1
+Author: lex <>
+Date:   Wed Sep 10 08:00:40 2003 +0000
+
+    no message
+
+:100644 100644 5703c65 a98abe5 M	Aurora/source/com/intellij/debugger/breakpoints/Breakpoint.java
+:100644 100644 08cfcf3 f568b43 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointManager.java
+:100644 100644 f6873e5 a3e2847 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointWithHighlighter.java
+
+commit 50260b587817d2524a06eea0acc93c2e6cffde76 153780727ebb71f5ecc0d380ad53ee47d44a96a0
+Author: lex <>
+Date:   Tue Sep 9 14:44:47 2003 +0000
+
+    no message
+
+:100644 100644 7ef9e57 514923a M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 34c89e6 4544883 M	Aurora/resources/idea/DefaultKeymap.xml
+:100644 000000 e9391f4 0000000 D	Aurora/source/com/intellij/debugger/actions/ToggleBreakpointAction.java
+:100644 100644 9c43e36 3630b72 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointManager.java
+:100644 100644 f8ae736 f6873e5 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointWithHighlighter.java
+:100644 100644 f91d47e a3c8e14 M	Aurora/source/com/intellij/debugger/breakpoints/FieldBreakpoint.java
+:100644 100644 69236db 2e62520 M	Aurora/source/com/intellij/debugger/breakpoints/LineBreakpoint.java
+:100644 100644 6d1d962 563cb3e M	Aurora/source/com/intellij/debugger/breakpoints/MethodBreakpoint.java
+
+commit 95fda04f2677452b774118e62c488be48fb724d2 8376d38028d251b54226791987069a91ab7ce29c
+Author: lex <>
+Date:   Tue Sep 9 14:16:26 2003 +0000
+
+    no message
+
+:100644 100644 f56fda7 391210d M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 43e3099 9097929 M	Aurora/source/com/intellij/debugger/actions/RunToCursorAction.java
+:100644 100644 c4007d3 5703c65 M	Aurora/source/com/intellij/debugger/breakpoints/Breakpoint.java
+:100644 100644 487acd6 9c43e36 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointManager.java
+:100644 100644 271893d 04ae57c M	Aurora/source/com/intellij/debugger/breakpoints/ExceptionBreakpoint.java
+:100644 100644 a0ee4fe f91d47e M	Aurora/source/com/intellij/debugger/breakpoints/FieldBreakpoint.java
+:100644 100644 82215bc bb69b6a M	Aurora/source/com/intellij/debugger/breakpoints/FilteredRequestor.java
+:100644 100644 01e29c3 6d1d962 M	Aurora/source/com/intellij/debugger/breakpoints/MethodBreakpoint.java
+:100644 000000 ca15d50 0000000 D	Aurora/source/com/intellij/debugger/breakpoints/StoredBreakpoint.java
+:100644 100644 bcccf45 ca7c7f9 M	Aurora/source/com/intellij/debugger/settings/DebuggerSettings.java
+
+commit c9a531f1bba14de2ec9a42ba8161972081bd46b3 51245284199dc4919fd176f9ea186edf494ce340
+Author: lex <>
+Date:   Tue Sep 9 11:32:29 2003 +0000
+
+    no message
+
+:100644 100644 fb3d9ab 9f1e6c0 M	Aurora/source/com/intellij/debugger/actions/EvaluateAction.java
+:100644 100644 fa3f13c 8fa8c54 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+
+commit 1260792b84a26ca05a833038703279a89ea6f1ae 7176a3f2517d4cab5a9db277b1932e8471d9460e
+Author: lex <>
+Date:   Tue Sep 9 11:16:24 2003 +0000
+
+    no message
+
+:100644 100644 3cdda86 fb3d9ab M	Aurora/source/com/intellij/debugger/actions/EvaluateAction.java
+:100644 100644 04da1f6 6d81afb M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+
+commit 7176a3f2517d4cab5a9db277b1932e8471d9460e e5ca2ff1720a02b88089bfc05e3d2c1091df2838
+Author: lex <>
+Date:   Tue Sep 9 10:42:17 2003 +0000
+
+    no message
+
+:100644 100644 3bc6ae3 04da1f6 M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 87cb764 443512b M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+
+commit d21853e38c1e1802d9bc5db3ab70f5cab14ce771 64a08fc59a8741ce8f713d9d88a88c1b0091e38e
+Author: lex <>
+Date:   Tue Sep 9 10:12:53 2003 +0000
+
+    no message
+
+:100644 100644 fed39a9 059ff8a M	Aurora/source/com/intellij/debugger/ui/HotSwapPanel.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit ffae7d02ccac628af546e1f1595523080d3ecca5 0abd277a69041ce177c825c5200a720921ee7acc
+Author: lex <>
+Date:   Tue Aug 26 16:02:16 2003 +0000
+
+    no message
+
+commit 214cff8ce33c9b22ecaeaa8dc0d5609bf28ea1fb a21036e1ddea309ea9269970524406716a8deada
+Author: lex <>
+Date:   Tue Aug 26 08:45:19 2003 +0000
+
+    no message
+
+:100644 100644 c31efe1 4a4eaf4 M	Aurora/source/com/intellij/debugger/ValueLookupManager.java
+:100644 100644 8fab6e8 8a9b6a6 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+:100644 100644 d2a5555 a956c20 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeNode.java
+
+commit 97c75bd25790adc153f67e66840585e4bae9cc06 9f097fb5477c663c5bc7cc9ef4a7f19c340bed22
+Author: lex <>
+Date:   Mon Aug 25 19:11:03 2003 +0000
+
+    no message
+
+:100644 100644 bf12c80 f609c26 M	Aurora/source/com/intellij/debugger/actions/StopAction.java
+:100644 100644 c3eaca2 a5449d2 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 977c7a5 aec5940 M	Aurora/source/com/intellij/debugger/ui/TerminateProcessDialog.java
+
+commit 440caefc3d836fa4b5de6321d4c21c78cba11e33 6b46f52e505e63d963c2fbf303eaafadd017209f
+Author: lex <>
+Date:   Mon Aug 25 17:56:55 2003 +0000
+
+    no message
+
+:100644 100644 2cbc8e2 336ea9a M	Aurora/source/com/intellij/debugger/actions/ToggleBreakpointAction.java
+:100644 100644 ad4d93a 6a82664 M	Aurora/source/com/intellij/debugger/breakpoints/BreakpointManager.java
+:100644 100644 68be69e 46d06b6 M	Aurora/source/com/intellij/debugger/breakpoints/LineBreakpointPropertiesPanel.java
+
+commit 6b46f52e505e63d963c2fbf303eaafadd017209f 243863cdd914d4be57b86bc8c927d321cf9a5448
+Author: lex <>
+Date:   Mon Aug 25 17:37:22 2003 +0000
+
+    no message
+
+:100644 100644 571c8e1 6bb0a35 M	Aurora/source/com/intellij/debugger/actions/NewWatchAction.java
+:100644 100644 6ab2b8f 90f771b M	Aurora/source/com/intellij/debugger/ui/DebuggerComboBox.java
+:100644 100644 85d221c 2533c21 M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 6bcb194 d2a5555 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeNode.java
+:100644 100644 13ab341 ed0827b M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptor.java
+
+commit 292fac191c2c38fbb0a60a56b7c25bbac4c736c5 ee9bed9d5980a0d0c5326f461949ebf45b2c4b9b
+Author: lex <>
+Date:   Mon Aug 25 12:46:25 2003 +0000
+
+    no message
+
+:100644 100644 0c51cc9 8fab6e8 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+:100644 100644 af63b72 82c8b9a M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/FieldEvaluator.java
+
+commit 3c8118c745c7c61353177c93080e48aa9a75b7b5 5cdeb1f284e44d2f04fc637bbd8f8658a8163119
+Author: lex <>
+Date:   Mon Aug 25 11:20:00 2003 +0000
+
+    no message
+
+:100644 100644 f3f323a 60a8e61 M	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+
+commit 5e79ab103a9075b699ee89d3871c21826cd94706 cb18d89ed4dc574f92bedacc72cd55f45d110e38
+Author: lex <>
+Date:   Mon Aug 25 10:51:28 2003 +0000
+
+    no message
+
+:100644 100644 3c4984d 42f55cb M	Aurora/source/com/intellij/debugger/actions/ActionFactory.java
+:100644 100644 5e60d2e 4194747 M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 d8bf171 a597905 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+:100644 100644 69d2776 6bcb194 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeNode.java
+:100644 100644 be421c5 32fb965 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeView.java
+:100644 100644 4c64ee5 efafe8e M	Aurora/source/com/intellij/debugger/ui/impl/watch/DescriptorFactory.java
+
+commit 8ebc887e8887dcdd8414b1af46ebcf2f67b075cf 7f764ff70af1fb58af8ab76e36d11c2624a61ca5
+Author: lex <>
+Date:   Mon Aug 25 10:04:52 2003 +0000
+
+    no message
+
+:100644 100644 10b68ea 6ab2b8f M	Aurora/source/com/intellij/debugger/ui/DebuggerComboBox.java
+:100644 100644 b4a185b 85d221c M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 9f7a540 d8bf171 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+
+commit 98ac07c28b269819c7489f5ab0e3b6a333a76b6e 1e720619fc8f75da49ab773ec0e08def11fc3ca0
+Author: lex <>
+Date:   Fri Aug 22 19:00:31 2003 +0000
+
+    no message
+
+:100644 100644 d4f6a9b 291c52c M	Aurora/source/com/intellij/debugger/DebugProcess.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 8df1fad17d9ae3427258ef47951dc85313273714 82858f1e6426deb578f3676197eb6fa9a5ae6e3a
+Author: lex <>
+Date:   Tue Aug 5 13:10:55 2003 +0000
+
+    no message
+
+commit 82858f1e6426deb578f3676197eb6fa9a5ae6e3a e0b962900b84364e4e13ee313556374e10013628
+Author: lex <>
+Date:   Tue Aug 5 13:10:46 2003 +0000
+
+    no message
+
+:000000 100644 0000000 f0c375c A	Aurora/icons/debugger/db_obsolete.png
+:100644 100644 221abd3 218e31e M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 161ae26 463b110 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 7d5d923 54484c1 M	Aurora/source/com/intellij/debugger/actions/AddExpressionToWatchesAction.java
+:100644 100644 3e888ce ce06136 M	Aurora/source/com/intellij/debugger/actions/AddToWatchAction.java
+:100644 100644 ec07cfc 0d5723a M	Aurora/source/com/intellij/debugger/actions/NewWatchAction.java
+:100644 100644 176183f ee6f8e7 M	Aurora/source/com/intellij/debugger/actions/RemoveWatchAction.java
+:100644 100644 a8e7b1e 2c3b477 M	Aurora/source/com/intellij/debugger/impl/DebuggerUtils.java
+:100644 000000 264767e 0000000 D	Aurora/source/com/intellij/debugger/impl/HotSwapManager.java
+:100644 000000 25f0bad 0000000 D	Aurora/source/com/intellij/debugger/impl/HotSwapToolwindow.java
+:000000 100644 0000000 0df2c0f A	Aurora/source/com/intellij/debugger/impl/evaluation/ExpressionManager.java
+:000000 100644 0000000 2dd15f0 A	Aurora/source/com/intellij/debugger/impl/evaluation/ToStringManager.java
+:100644 100644 c4751d3 4106550 M	Aurora/source/com/intellij/debugger/jdi/VirtualMachineProxy.java
+:100644 100644 5e24490 522134d M	Aurora/source/com/intellij/debugger/settings/DebuggerConfigurable.java
+:100644 100644 b5667bc 4fd252f M	Aurora/source/com/intellij/debugger/ui/DebuggerEditor.java
+:100644 100644 26ccb94 298f894 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 54837be 2007994 M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 512dda2 9388be0 R074	Aurora/source/com/intellij/debugger/impl/HotSwapAction.java	Aurora/source/com/intellij/debugger/ui/HotSwapAction.java
+:000000 100644 0000000 4855059 A	Aurora/source/com/intellij/debugger/ui/HotSwapPanel.java
+:000000 100644 0000000 4d13519 A	Aurora/source/com/intellij/debugger/ui/HotSwapView.java
+:100644 100644 77be4a3 e383be2 M	Aurora/source/com/intellij/debugger/ui/impl/ComboPager.java
+:100644 100644 31ab1b8 42e33bc R095	Aurora/source/com/intellij/debugger/ui/impl/DebuggerView.java	Aurora/source/com/intellij/debugger/ui/impl/DebuggerPanel.java
+:100644 100644 e9bb5e7 b9c85c3 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeRenderer.java
+:100644 100644 b72800f 23dd419 M	Aurora/source/com/intellij/debugger/ui/impl/FrameItem.java
+:100644 100644 420dcdd 4e0cd793 R098	Aurora/source/com/intellij/debugger/ui/impl/FrameView.java	Aurora/source/com/intellij/debugger/ui/impl/FramePanel.java
+:100644 100644 2fff609 8bc970a M	Aurora/source/com/intellij/debugger/ui/impl/InspectDialog.java
+:100644 100644 afc6872 c4e2aec R098	Aurora/source/com/intellij/debugger/ui/impl/InspectView.java	Aurora/source/com/intellij/debugger/ui/impl/InspectPanel.java
+:100644 100644 02cf7c4 5e2d1b1 R096	Aurora/source/com/intellij/debugger/ui/impl/MainWatchView.java	Aurora/source/com/intellij/debugger/ui/impl/MainWatchPanel.java
+:100644 100644 04ba180 49f8885 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadItem.java
+:100644 100644 0c25683 5b3bf3a R098	Aurora/source/com/intellij/debugger/ui/impl/ThreadsView.java	Aurora/source/com/intellij/debugger/ui/impl/ThreadsPanel.java
+:100644 100644 2cf00be 4332b74 R096	Aurora/source/com/intellij/debugger/ui/impl/WatchView.java	Aurora/source/com/intellij/debugger/ui/impl/WatchPanel.java
+:100644 100644 da7dc2a 48f9fff M	Aurora/source/com/intellij/execution/impl/RunConfigurable.java
+:100644 100644 978aa5f 9487e37 M	Aurora/source/com/intellij/ide/errorTreeView/ErrorTreeView.java
+
+commit b972d88b95f56f167c8748f3a73f6325b03d88f6 1e7a5e4869efcbbaba83cac0ae7fe716514d3006
+Author: lex <>
+Date:   Mon Aug 4 09:38:23 2003 +0000
+
+    no message
+
+:100644 100644 6dfa787 b1ee082 M	Aurora/resources/componentSets/Misc.xml
+
+commit 0e7c1ba354df4d32eb2a8fe5c7a85ac825dc072a b5696cb5f670dc1be7b424e1950f35a3ea418e1d
+Author: lex <>
+Date:   Fri Aug 1 11:59:23 2003 +0000
+
+    no message
+
+:100644 100644 b9c6553 26ccb94 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit 142db9176682d68e06d0699979c5379cc201741e 485232df43444574a59bb7f98adc0814c8cb0f14
+Author: lex <>
+Date:   Thu Jul 31 12:52:00 2003 +0000
+
+    no message
+
+:100644 100644 8727a7e 08be4fa M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+
+commit bf07a295f6c751b2a27b33644e3ba66ad42560d5 28ef165b47a098b56ac636d498f82327c486a24b
+Author: lex <>
+Date:   Thu Jul 24 13:59:28 2003 +0000
+
+    no message
+
+:100644 100644 ba12c5b 161ae26 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 b07e44f 7d5d923 M	Aurora/source/com/intellij/debugger/actions/AddExpressionToWatchesAction.java
+:100644 100644 21b03e7 3e888ce M	Aurora/source/com/intellij/debugger/actions/AddToWatchAction.java
+:100644 100644 7f86390 d00207e M	Aurora/source/com/intellij/debugger/actions/AdjustArrayRangeAction.java
+:100644 100644 35864de e823049 M	Aurora/source/com/intellij/debugger/actions/EvaluateAction.java
+:100644 100644 60aa679 ec07cfc M	Aurora/source/com/intellij/debugger/actions/NewWatchAction.java
+:100644 100644 f566179 e0b6012 M	Aurora/source/com/intellij/debugger/actions/ResumeAction.java
+:100644 100644 c4af7f0 9c5afd6 M	Aurora/source/com/intellij/debugger/actions/ShowExecutionPointAction.java
+:100644 100644 e245716 388d66a M	Aurora/source/com/intellij/debugger/actions/StepOutAction.java
+:100644 100644 5c602a9 effe8d1 M	Aurora/source/com/intellij/debugger/actions/StepOverAction.java
+:100644 100644 e88f3fb b9b2af5 M	Aurora/source/com/intellij/debugger/actions/TraceIntoAction.java
+:100644 100644 a2b7f5e b5667bc M	Aurora/source/com/intellij/debugger/ui/DebuggerEditor.java
+:100644 100644 0376c68 8727a7e M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 3ff9a19 54837be M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 fb5322e 2cf00be M	Aurora/source/com/intellij/debugger/ui/impl/WatchView.java
+
+commit e59a44b8d5b646c2c3f3a4d7f151434cb77f8126 8b2e68758b9ee6614cd26c659ab98a52c5d13fe0
+Author: lex <>
+Date:   Wed Jul 23 17:13:31 2003 +0000
+
+    no message
+
+:100644 100644 0ebe828 3d3ca8a M	Aurora/source/com/intellij/debugger/breakpoints/Breakpoint.java
+:100644 100644 b57f95f 79a1a69 M	Aurora/source/com/intellij/debugger/breakpoints/LineBreakpoint.java
+:100644 100644 6ab7801 e506698 M	Aurora/source/com/intellij/debugger/codeinsight/SurroundWithRuntimeCastHandler.java
+:100644 100644 c68e147 a8e7b1e M	Aurora/source/com/intellij/debugger/impl/DebuggerUtils.java
+:100644 100644 db7412f 0ceda5b M	Aurora/source/com/intellij/debugger/impl/evaluation/BatchEvaluator.java
+:100644 100644 907faea 9224632 M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluateException.java
+:100644 100644 f412a68 5622842 M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 ec4b550 25886d4 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/ArrayAccessEvaluator.java
+:100644 100644 fcd15a5 5b3fbec M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+:100644 100644 6ce7fe0 cefee2e M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/ExpressionEvaluator.java
+:100644 100644 9b61017 fa9ab91 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/FieldEvaluator.java
+:100644 100644 d636331 c1f8e2f M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/InstanceofEvaluator.java
+:100644 100644 bfed03a 5c3f19d M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/LiteralEvaluator.java
+:100644 100644 fcb0898 5e1cf10 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/LocalVariableEvaluator.java
+:100644 100644 c088413 27165ad M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/MethodEvaluator.java
+:100644 100644 3bec4da fcffd0f M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/NewArrayInstanceEvaluator.java
+:100644 100644 bdeb536 b63bd0e M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/NewClassInstanceEvaluator.java
+:100644 100644 baf27df a175a3e M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/ThisEvaluator.java
+:100644 100644 f39f97d 64cd858 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/TypeEvaluator.java
+:100644 100644 94bc612 22b7d02 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/UnaryExpressionEvaluator.java
+
+commit 461e0a85d24a9dcb893cf760796bcc7d259f4519 efd4c76466911075f0b4102ec46a0381273f1c6f
+Author: lex <>
+Date:   Wed Jul 23 15:14:01 2003 +0000
+
+    no message
+
+:100644 100644 c637c35 ba12c5b M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 175c7b7 7573878 M	Aurora/source/com/intellij/debugger/ProcessContext.java
+:100644 100644 790292d c9c100a M	Aurora/source/com/intellij/debugger/actions/ActionFactory.java
+:100644 100644 6e4dc40 35864de M	Aurora/source/com/intellij/debugger/actions/EvaluateAction.java
+:100644 100644 f9ca490 f566179 M	Aurora/source/com/intellij/debugger/actions/ResumeAction.java
+:100644 100644 761a74b e245716 M	Aurora/source/com/intellij/debugger/actions/StepOutAction.java
+:100644 100644 c736ae7 5c602a9 M	Aurora/source/com/intellij/debugger/actions/StepOverAction.java
+:100644 100644 2a77a58 562778a M	Aurora/source/com/intellij/debugger/actions/ToStringAction.java
+:100644 100644 57605dc e88f3fb M	Aurora/source/com/intellij/debugger/actions/TraceIntoAction.java
+:100644 100644 1e2ea55 c68e147 M	Aurora/source/com/intellij/debugger/impl/DebuggerUtils.java
+:100644 100644 07d8b88 db7412f M	Aurora/source/com/intellij/debugger/impl/evaluation/BatchEvaluator.java
+:100644 100644 6b9ca28 1f7421f M	Aurora/source/com/intellij/debugger/impl/evaluation/BatchRequest.java
+:100644 100644 0bf5c98 907faea M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluateException.java
+:100644 100644 b80275a f412a68 M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 d6b9ee1 c002328 M	Aurora/source/com/intellij/debugger/impl/evaluation/ToStringEvaluator.java
+:100644 100644 0f8e04c 9f51372 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/BinaryExpressionEvaluator.java
+:100644 100644 2ae9e7a fcd15a5 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/EvaluatorBuilder.java
+:100644 100644 0a7aca1 d636331 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/InstanceofEvaluator.java
+:100644 100644 999117d c088413 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/MethodEvaluator.java
+:100644 100644 a723522 3bec4da M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/NewArrayInstanceEvaluator.java
+:100644 100644 f332e0c bdeb536 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/NewClassInstanceEvaluator.java
+:100644 100644 61db279 a69bff2 M	Aurora/source/com/intellij/debugger/settings/DebuggerSettings.java
+:100644 100644 ce875e0 0376c68 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 5eccd2a 3ff9a19 M	Aurora/source/com/intellij/debugger/ui/EvaluationDialog.java
+:100644 100644 4007e68 289d851 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeView.java
+:100644 100644 4b9a99e fb5322e M	Aurora/source/com/intellij/debugger/ui/impl/WatchView.java
+:100644 100644 e4c5f64 15930cb M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptor.java
+
+commit 9cc69a4541c34d2ee1ee39bc1ad564fb2efad4bb a568a17dc59fdb2cc177ab3d8eecb155e58db004
+Author: lex <>
+Date:   Tue Jul 22 21:25:21 2003 +0000
+
+    no message
+
+:100644 100644 9c87ab7 c637c35 M	Aurora/source/com/intellij/debugger/DebugProcess.java
+:100644 100644 b206498 506f894 R098	Aurora/source/com/intellij/debugger/impl/RequestHint.java	Aurora/source/com/intellij/debugger/RequestHint.java
+:100644 100644 a915b68 8f41af5 M	Aurora/source/com/intellij/debugger/WeakVMEventListener.java
+:100644 100644 ea86444 6e4dc40 M	Aurora/source/com/intellij/debugger/actions/EvaluateAction.java
+:100644 100644 2ebdd7e 2dca7e5 M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 402948d 7995947 M	Aurora/source/com/intellij/debugger/impl/ClassPrepareRequestor.java
+:100644 000000 4ca40b5 0000000 D	Aurora/source/com/intellij/debugger/impl/DebugProcessImpl.java
+:100644 100644 083e589 a8ae77f M	Aurora/source/com/intellij/debugger/impl/DebuggerImpl.java
+:100644 100644 d1704c6 1e2ea55 M	Aurora/source/com/intellij/debugger/impl/DebuggerUtils.java
+:100644 100644 1c44fde 512dda2 M	Aurora/source/com/intellij/debugger/impl/HotSwapAction.java
+:100644 100644 099bcd5 264767e M	Aurora/source/com/intellij/debugger/impl/HotSwapManager.java
+:100644 100644 19ed853 25f0bad M	Aurora/source/com/intellij/debugger/impl/HotSwapToolwindow.java
+:100644 100644 1b7d1db 0298774 M	Aurora/source/com/intellij/debugger/impl/RequestManager.java
+:100644 100644 0bba42b b80275a M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 a01ce62 d6b9ee1 M	Aurora/source/com/intellij/debugger/impl/evaluation/ToStringEvaluator.java
+:100644 100644 3ea4093 6ce7fe0 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/ExpressionEvaluator.java
+:100644 100644 1d15ae4 0a7aca1 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/InstanceofEvaluator.java
+:100644 100644 4cd8571 999117d M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/MethodEvaluator.java
+:100644 100644 e72331c a723522 M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/NewArrayInstanceEvaluator.java
+:100644 100644 52c9eae f332e0c M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/NewClassInstanceEvaluator.java
+:100644 100644 07a60dd f39f97d M	Aurora/source/com/intellij/debugger/impl/evaluation/expression/TypeEvaluator.java
+:100644 100644 1becf5a c4751d3 M	Aurora/source/com/intellij/debugger/jdi/VirtualMachineProxy.java
+:100644 100644 34e76d4 a2b7f5e M	Aurora/source/com/intellij/debugger/ui/DebuggerEditor.java
+:100644 100644 c46dd79 ce875e0 M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 8f0ae32 ebbcb57 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeNode.java
+:100644 100644 6666799 4007e68 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeView.java
+:100644 100644 0d1d0e5 e4c5f64 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptor.java
+:100644 100644 d6b1e99 d2c9bb4 M	Aurora/source/com/intellij/intellijac/IntelliJacManager.java
+
+commit 0c16656e025c10c2cf19b774e883709e6e71157a 5fc95bf57ce32e29e71b8699c0ec77c73d634b04
+Author: lex <>
+Date:   Tue Jul 22 08:56:41 2003 +0000
+
+    no message
+
+:100644 100644 18fc19a 790292d M	Aurora/source/com/intellij/debugger/actions/ActionFactory.java
+:100644 100644 ed670fa 2ebdd7e M	Aurora/source/com/intellij/debugger/actions/SetValueAction.java
+:100644 100644 bef12b1 2a77a58 M	Aurora/source/com/intellij/debugger/actions/ToStringAction.java
+:100644 100644 16de0b6 07d8b88 M	Aurora/source/com/intellij/debugger/impl/evaluation/BatchEvaluator.java
+:000000 100644 0000000 6b9ca28 A	Aurora/source/com/intellij/debugger/impl/evaluation/BatchRequest.java
+:100644 100644 2cd3ac4 0bba42b M	Aurora/source/com/intellij/debugger/impl/evaluation/EvaluationManager.java
+:100644 100644 1151399 4d72061 M	Aurora/source/com/intellij/debugger/impl/evaluation/ExpressionRequest.java
+:100644 100644 103d01c a01ce62 M	Aurora/source/com/intellij/debugger/impl/evaluation/ToStringEvaluator.java
+:100644 100644 16dcda8 8919e6d M	Aurora/source/com/intellij/debugger/impl/evaluation/ToStringRequest.java
+:100644 100644 494ded3 1becf5a M	Aurora/source/com/intellij/debugger/jdi/VirtualMachineProxy.java
+:100644 100644 c65852b 6666799 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeView.java
+:100644 100644 f46c631 31ab1b8 M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerView.java
+:100644 100644 a9bcee1 420dcdd M	Aurora/source/com/intellij/debugger/ui/impl/FrameView.java
+:100644 100644 e87064e afc6872 M	Aurora/source/com/intellij/debugger/ui/impl/InspectView.java
+:100644 100644 aad790e 0c25683 M	Aurora/source/com/intellij/debugger/ui/impl/ThreadsView.java
+:100644 100644 29cd16b 4b9a99e M	Aurora/source/com/intellij/debugger/ui/impl/WatchView.java
+:100644 100644 b9856a9 c968e82 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ArrayElementDescriptor.java
+:100644 100644 fafe1d8 f80e4e9 M	Aurora/source/com/intellij/debugger/ui/impl/watch/DefaultNodeDescriptor.java
+:100644 100644 d85e475 3d3e49d M	Aurora/source/com/intellij/debugger/ui/impl/watch/FieldDescriptor.java
+:100644 100644 bf367b8 b5cdd5d M	Aurora/source/com/intellij/debugger/ui/impl/watch/LocalVariableDescriptor.java
+:100644 100644 a72fcd0 15c9e92 M	Aurora/source/com/intellij/debugger/ui/impl/watch/MessageDescriptor.java
+:100644 100644 67ecdb0 9d6dca9 M	Aurora/source/com/intellij/debugger/ui/impl/watch/NodeDescriptor.java
+:100644 100644 feeb322 898f46b M	Aurora/source/com/intellij/debugger/ui/impl/watch/StackFrameDescriptor.java
+:100644 100644 db6cacc 006d41f M	Aurora/source/com/intellij/debugger/ui/impl/watch/StaticDescriptor.java
+:100644 100644 ea4f4c0 d254342 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ThreadDescriptor.java
+:100644 100644 c70900e e9578e1 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ThreadGroupDescriptor.java
+:100644 100644 e51afaf 0d1d0e5 M	Aurora/source/com/intellij/debugger/ui/impl/watch/ValueDescriptor.java
+:100644 100644 b42ad4d d123f10 M	Aurora/source/com/intellij/debugger/ui/impl/watch/WatchItemDescriptor.java

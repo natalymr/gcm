@@ -1,0 +1,408 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 06409bbe372d2fcb9b87e893680fd003c508ee0c 8b31763e27f9799b2a43771c643b273a8067c2ef
+Author: vova <>
+Date:   Mon Dec 15 14:36:37 2003 +0000
+
+    no message
+
+commit a744388f85ee0bf8c0e91fc7e8d5fca6842bdb00 6cc5e294a6b181148476a5d8a48066a2921094cd
+Author: vova <>
+Date:   Thu Dec 11 14:54:57 2003 +0000
+
+    no message
+
+:100644 100644 2df5350 f763a94 M	Aurora/source/com/intellij/uiDesigner/InplaceEditingLayer.java
+:100644 100644 a8336b5 d3075a6 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditor.java
+
+commit 6cc5e294a6b181148476a5d8a48066a2921094cd 7f05d6eb1e64fd6a3d4390d8af600ad3794704c1
+Author: vova <>
+Date:   Thu Dec 11 14:39:22 2003 +0000
+
+    no message
+
+:100644 100644 7129fcd 1830aa7 M	Aurora/source/com/intellij/ui/TextFieldWithBrowseButton.java
+
+commit 6b78692bbc9e817b386bb6727c2f19a55ffb3f53 4e1f79fa2a328d7cb0bf9710f73c223c939bb02f
+Author: vova <>
+Date:   Wed Dec 10 14:35:45 2003 +0000
+
+    no message
+
+:100644 100644 fce3d53 065871f M	Aurora/source/com/intellij/uiDesigner/propertyInspector/PropertyInspectorTable.java
+:100644 100644 2aad36d e34458a M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/KeyChooserDialog.java
+:100644 100644 e0fa6ba 777838d M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/ResourceBundleCard.form
+:100644 100644 d61c2ed a8336b5 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditor.java
+:100644 100644 cdae199 77a0a84 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditorDialog.java
+
+commit 673d704d62a2a631f5f32c5c32fe32e71616c20a dab4ea62a2ac4c7436948fcee6af618b24ac760f
+Author: vova <>
+Date:   Wed Dec 10 13:43:40 2003 +0000
+
+    no message
+
+:100644 100644 1124e39 e5dd4fb M	Aurora/source/com/intellij/uiDesigner/ResourceBundleLoader.java
+:100644 100644 f211ae4 d61c2ed M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditor.java
+
+commit dab4ea62a2ac4c7436948fcee6af618b24ac760f f756d0d2e425d05dc2170baa00aa5d4148d71e11
+Author: vova <>
+Date:   Wed Dec 10 13:35:21 2003 +0000
+
+    no message
+
+:100644 100644 3503e20 2aad36d M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/KeyChooserDialog.java
+:100644 100644 0106341 cdae199 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditorDialog.java
+
+commit 70104b72d4f9b787892d12e082906a3b8d4e7501 2eb93a0f1ea392e43bfcfdff37082e8fbe528176
+Author: vova <>
+Date:   Wed Dec 10 12:51:44 2003 +0000
+
+    no message
+
+:100644 100644 5446a0f 3503e20 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/KeyChooserDialog.java
+:100644 100644 b7a5a4c 0106341 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditorDialog.java
+
+commit 88e4af5124f8ceb657f39c749979b7b3b1dfe42b 43120b6969d668b6e7afdf6156b8d86911b8c503
+Author: vova <>
+Date:   Wed Dec 10 12:34:56 2003 +0000
+
+    no message
+
+:100644 100644 bf0836a e94f656 M	Aurora/source/com/intellij/ide/todo/CurrentFileTodosPanel.java
+
+commit 252473eadea8c1045dfd2ef31085d3ef6f4c5a2d 82596e483c3768a19f3d78365e138cbdc06dae71
+Author: vova <>
+Date:   Tue Dec 9 16:31:50 2003 +0000
+
+    no message
+
+:100644 100644 bb91bb4 d87124b M	Aurora/source/com/intellij/uiDesigner/lw/StringDescriptor.java
+:100644 100644 cdfa88d 5446a0f M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/KeyChooserDialog.java
+:100644 100644 e85dae1 f211ae4 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditor.java
+:100644 100644 e5eef29 b7a5a4c M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditorDialog.java
+
+commit 058ac228679a301d6cec95bc973c2218dba3f8c9 2fd275ea5551b4237eb0ce62c1e0d297e268eb69
+Author: vova <>
+Date:   Tue Dec 9 15:57:31 2003 +0000
+
+    no message
+
+:100644 100644 c7d170d cdfa88d M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/KeyChooserDialog.java
+:100644 100644 260634c e5eef29 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/editors/string/StringEditorDialog.java
+:100644 100644 0bb1a98 4792266 M	Aurora/source/com/intellij/uiDesigner/propertyInspector/properties/IntroStringProperty.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 65a75739b62bcd1aa7fe4f14e77e727b6bb4d33c a0ce1f64a02a823c11331f1495c5ef1ad99353dc
+Author: vova <>
+Date:   Thu Nov 6 14:42:43 2003 +0000
+
+    no message
+
+commit a6f503a67de6193dfa80fc154ef1a0913cf850dc 14f086c5d32db53ccd037990812ce88717e43994
+Author: vova <>
+Date:   Tue Nov 4 16:40:16 2003 +0000
+
+    no message
+
+:100644 100644 de1fd04 f1b73f9 M	Aurora/source/com/intellij/ui/ComboBox.java
+
+commit 5e1b2574b90e6d4e6ed10d9fa46f3d2b0037bc81 3ed19643ff8b9ba3122205b7c2cbe71d9b267e6c
+Author: vova <>
+Date:   Mon Nov 3 15:39:45 2003 +0000
+
+    no message
+
+:100644 100644 1d868c0 0095d53 M	Aurora/source/com/intellij/ide/IdeEventQueue.java
+
+commit 57f4e4db0b7be03062292f7732ed244601cd8c46 c177bc6af11ffd77ead1001a47a313a4a9c73282
+Author: vova <>
+Date:   Mon Nov 3 15:30:13 2003 +0000
+
+    no message
+
+:100644 100644 be4de36 1d868c0 M	Aurora/source/com/intellij/ide/IdeEventQueue.java
+
+commit 4a9e4745d5bdf47e43d869e0bfc443aa3703d370 87a1ab79a10aaad7ad454b723cce8098afd038ca
+Author: vova <>
+Date:   Fri Oct 31 16:12:22 2003 +0000
+
+    no message
+
+:100644 100644 26af436 8fdff97 M	Aurora/source/com/intellij/ui/AbstractToolTipHandler.java
+
+commit a5355c74e5c892e8fefa07b5a96b69b8e4909e4a c9e9068f886e37ca57b1ac9474f0f039085dd352
+Author: vova <>
+Date:   Fri Oct 31 14:37:04 2003 +0000
+
+    no message
+
+:100644 100644 c8011e4 56b70db M	Aurora/source/com/intellij/openapi/fileEditor/impl/EditorTabbedContainer.java
+:100644 100644 fe92b87 589e355 M	Aurora/source/com/intellij/ui/content/TabbedPaneContentUI.java
+
+commit b6e8812f0cbe0c9de745db1d9597fb25ce0a43b6 08baf38a84e50651ec58f334190c99f764656e58
+Author: vova <>
+Date:   Fri Oct 31 14:17:07 2003 +0000
+
+    no message
+
+:100644 100644 9f44174 9777fe8 M	Aurora/source/com/intellij/openapi/ui/DialogWrapper.java
+
+commit 4ef5f1d492001977738e04576a52d88a873abe34 47b6101f18662cc1ecc3252b1b1e23a45304ad83
+Author: vova <>
+Date:   Fri Oct 31 13:32:12 2003 +0000
+
+    no message
+
+:100644 100644 4b70f85 1c1941c M	Aurora/build/update.sh
+
+commit b26842de0839e9dfdb816a1759ba73147bee56a4 4bc8b0bb35493d7bcb48f50f69ab07d47e973b99
+Author: vova <>
+Date:   Thu Oct 30 14:19:27 2003 +0000
+
+    no message
+
+:100644 100644 5c9889b 189bbb3 M	Aurora/resources/idea/ActionManager.xml
+
+commit 5b33a03575a377cc121a3395e782d73b28f9b7cd 6a36c961a113d58486eee4bebc049d20deb00bbb
+Author: vova <>
+Date:   Wed Oct 29 16:13:42 2003 +0000
+
+    no message
+
+:100644 100644 9739cd1 349f9cf M	Aurora/source/com/intellij/openapi/fileEditor/impl/FileEditorManagerImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 5048df26286029fd99a588c6e7c452c40bdda36d b016034c6fb2b7f5764060639cb9202adfa5b082
+Author: vova <>
+Date:   Wed Oct 15 11:05:26 2003 +0000
+
+    no message
+
+commit 090d2852a7b605ebe507c0162f7625ab846880b9 c8954f968aee9568bbded88fc4ef4330b076522e
+Author: vova <>
+Date:   Mon Oct 13 13:49:21 2003 +0000
+
+    no message
+
+:100644 100644 eea41dd be4de36 M	Aurora/source/com/intellij/ide/IdeEventQueue.java
+
+commit c8954f968aee9568bbded88fc4ef4330b076522e 86f7354d4c07ba54f59e89c0df39b3e934ba9959
+Author: vova <>
+Date:   Mon Oct 13 13:48:12 2003 +0000
+
+    no message
+
+:100644 100644 bdfc53b 0538710 M	Aurora/source/com/intellij/Patches.java
+:100644 100644 a148a56 eea41dd M	Aurora/source/com/intellij/ide/IdeEventQueue.java
+:100644 100644 afc7d7e 0cc257b M	Aurora/source/com/intellij/ide/impl/DataManagerImpl.java
+:100644 100644 af9e30e 0cf8d85 M	Aurora/source/com/intellij/openapi/keymap/impl/IdeKeyEventDispatcher.java
+:100644 100644 2af3f15 5828e6b M	Aurora/source/com/intellij/openapi/ui/DialogWrapper.java
+
+commit 9312b5dd9ebf068e3027dc22409e70ce473240c2 92052791fcc93c2f1c183360380fdc55b8b48a86
+Author: vova <>
+Date:   Mon Oct 13 12:35:28 2003 +0000
+
+    no message
+
+:100644 100644 2750a1d 0732691 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsTabbedWindow.java
+:100644 100644 d260c4c 4fe6d42 M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 a8c0f2b 25754d5 M	Aurora/source/com/intellij/ant/execution/AntBuildMessageView.java
+:100644 100644 c18f05c a1e16f3 M	Aurora/source/com/intellij/compiler/progress/CompilerProgressIndicator.java
+:100644 100644 934d8a0 350a5bc M	Aurora/source/com/intellij/execution/RunManager.java
+:100644 100644 cba1959 5ad3578 M	Aurora/source/com/intellij/find/findInProject/FindInProjectManager.java
+:100644 100644 37eca4d 350f7ed M	Aurora/source/com/intellij/find/findUsages/FindUsagesManager.java
+:100644 000000 0b0f80c 0000000 D	Aurora/source/com/intellij/ide/actions/PinActiveEditorAction.java
+:100644 100644 b3bd412 7fe03e0 M	Aurora/source/com/intellij/ide/actions/PinActiveTabAction.java
+:100644 100644 fcb6841 7a88567 M	Aurora/source/com/intellij/ide/hierarchy/actions/BrowseCallHierarchyAction.java
+:100644 100644 b3879cd f93ea10 M	Aurora/source/com/intellij/ide/hierarchy/actions/BrowseMethodHierarchyAction.java
+:100644 100644 5c7e275 b09735f M	Aurora/source/com/intellij/ide/hierarchy/actions/BrowseTypeHierarchyAction.java
+:100644 100644 8f4e9dc 0b08dba M	Aurora/source/com/intellij/j2ee/weblogic/AppServerRunManager.java
+:100644 100644 314a032 3ed5d4e M	Aurora/source/com/intellij/j2ee/weblogic/impl/WeblogicManagerImpl.java
+:100644 100644 62b263b f44b3d1 M	Aurora/source/com/intellij/openapi/vcs/impl/AbstractVcsHelperImpl.java
+:100644 100644 afa35da 798908a M	Aurora/source/com/intellij/ui/content/Content.java
+:100644 100644 d5716bc fe92b87 M	Aurora/source/com/intellij/ui/content/TabbedPaneContentUI.java
+:100644 100644 e3c95e3 ebb49f3 M	Aurora/source/com/intellij/ui/content/impl/ContentImpl.java
+:100644 100644 8542464 5fba1ea M	Aurora/source/com/intellij/ui/treetable/TreeTable.java
+:100644 100644 8a8b55f e4370a6 M	Aurora/source/com/intellij/usageView/impl/UsageViewManagerImpl.java
+:100644 100644 06c7f87 848edf4 M	Aurora/source/com/intellij/xml/actions/ValidateXmlActionHandler.java
+
+commit 5c61b7d32ee97925a521293cf700aa9451bb638e d7a28fb9eaefdd81cc2b23efbee370fea055e163
+Author: vova <>
+Date:   Thu Oct 9 14:58:36 2003 +0000
+
+    no message
+
+:100644 100644 1508a1d b3bd412 M	Aurora/source/com/intellij/ide/actions/PinActiveTabAction.java
+
+commit c0096673d87fac398863a84391b7b7d12bf47f51 214b4afc9b027b6e79ee7be11355c6d3917f7363
+Author: vova <>
+Date:   Thu Oct 9 11:27:50 2003 +0000
+
+    no message
+
+:100644 100644 9cbce88 1be8bbe M	Aurora/source/com/intellij/debugger/actions/RepresentationGroup.java
+
+commit 36062233f1c8be4946105ce5f0b2cce960debb91 f08fa4785f8e8dff8424d4a779c81758f75aa9a4
+Author: vova <>
+Date:   Tue Oct 7 15:35:51 2003 +0000
+
+    no message
+
+:100644 100644 f3b382f 0bfe048 M	Aurora/source/com/intellij/util/Alarm.java
+
+commit fa5f86417394ad9544dd8d1658c84430ff5da9d7 09758720214d78e93b5bc147cbcf41b25a0dbd6f
+Author: vova <>
+Date:   Mon Oct 6 12:53:44 2003 +0000
+
+    no message
+
+:100644 100644 82b0cbc 47955e3 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/FileInformation.java
+:100644 100644 eb5dceb 58144da M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/FileOrDirectoryTreeNode.java
+:100644 100644 c9db815 a3ffafc M	Aurora/source/com/intellij/debugger/settings/NodeRendererSettingsEditor.java
+:100644 100644 bf7bf23 f276f6c M	Aurora/source/com/intellij/debugger/ui/impl/DebuggerTreeRenderer.java
+:100644 100644 696b40f 7a65dc9 M	Aurora/source/com/intellij/execution/junit2/ui/TestColumnInfo.java
+:100644 100644 0631024 2891f8a M	Aurora/source/com/intellij/execution/junit2/ui/TestRenderer.java
+:100644 100644 59f77f8 8dcd616 M	Aurora/source/com/intellij/ide/commander/ColoredCommanderRenderer.java
+:100644 100644 3a24142 5ed7c05 M	Aurora/source/com/intellij/ide/structureView/impl/StructureNodeRenderer.java
+:100644 100644 f7a6ca9d 33fa50e M	Aurora/source/com/intellij/ide/util/DirectoryChooser.java
+:100644 100644 945090a f0c95e1 M	Aurora/source/com/intellij/ide/util/PsiElementListCellRenderer.java
+:100644 100644 3d43c4c 763b33b M	Aurora/source/com/intellij/ide/util/treeView/NodeRenderer.java
+:100644 100644 402ae4d fdf61c8 M	Aurora/source/com/intellij/internal/saveDump/api/ObjectAppearance.java
+:100644 100644 cf0ab33 3513184 M	Aurora/source/com/intellij/internal/saveDump/bind/ui/DomTreeRenderer.java
+:100644 100644 255b8d5 91a49bd M	Aurora/source/com/intellij/openapi/fileChooser/impl/FileNodeDescriptor.java
+:100644 100644 07136ef 0a6e089 M	Aurora/source/com/intellij/openapi/roots/ui/util/CellAppearanceUtils.java
+:100644 100644 0b06d34 00418fd M	Aurora/source/com/intellij/openapi/vcs/ui/impl/checkinProjectPanel/CheckinPanelTreeCellRenderer.java
+:100644 100644 6319165 9c8c8a2 M	Aurora/source/com/intellij/refactoring/changeSignature/ChangeSignatureDialog.java
+:100644 100644 cfe4ad7 396d83b M	Aurora/source/com/intellij/refactoring/ui/MemberSelectionTable.java
+:100644 100644 124e25d a828702 M	Aurora/source/com/intellij/ui/ColoredListCellRenderer.java
+:100644 100644 625a6f0 b7093cc M	Aurora/source/com/intellij/ui/ColoredTreeCellRenderer.java
+:100644 100644 62df674 7e5864f M	Aurora/source/com/intellij/ui/SimpleColoredComponent.java
+:100644 100644 a9a344f 5d83619 M	Aurora/source/com/intellij/ui/SimpleTextAttributes.java
+:100644 100644 ed6ae71 604514f M	Aurora/source/com/intellij/ui/TableCellState.java
+:100644 100644 75a3e49 28c3367 M	Aurora/source/com/intellij/ui/TextFieldWithBrowseButton.java
+
+commit 7fc8b149b6ed193ffc76b2290ebc3871ebd276a6 9535f2066ad068a1bf99cceaefa03ecb5dc9eec4
+Author: vova <>
+Date:   Tue Sep 30 13:47:11 2003 +0000
+
+    no message
+
+:100644 100644 8b0da56 468f4c8 M	Aurora/icons/nodes/pin.png
+:000000 100644 0000000 8b0da56 A	Aurora/icons/nodes/tabPin.png
+:100644 100644 0e44080 4f48bb0 M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 75f1237 ab9b741 M	Aurora/source/com/intellij/ide/IdeActions.java
+:100644 100644 b36e95b 5d9631f M	Aurora/source/com/intellij/ide/actions/CloseAllEditorsAction.java
+:100644 100644 9a62acd 1508a1d R068	Aurora/source/com/intellij/ide/actions/LockActiveTabAction.java	Aurora/source/com/intellij/ide/actions/PinActiveTabAction.java
+:100644 100644 ea89e05 c8011e4 M	Aurora/source/com/intellij/openapi/fileEditor/impl/EditorTabbedContainer.java
+:100644 100644 504b677 bbc009f M	Aurora/source/com/intellij/openapi/fileEditor/impl/FileEditorManagerImpl.java
+:100644 100644 f78ee96 afa35da M	Aurora/source/com/intellij/ui/content/Content.java
+:100644 100644 fcdd2d4 d5716bc M	Aurora/source/com/intellij/ui/content/TabbedPaneContentUI.java
+:100644 100644 507ca0d 8f80e2d M	Aurora/source/com/intellij/ui/content/impl/ContentImpl.java
+
+commit 7825a5998297a8a1648b6074cb7d7f251c338d86 cc7d93e3ec78fe56dcb71a9c4b10a6dd893644d1
+Author: vova <>
+Date:   Tue Sep 30 10:34:59 2003 +0000
+
+    no message
+
+:100644 100644 fac3da8 0e44080 M	Aurora/resources/idea/ActionManager.xml
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 1fe10e5f77c4cb6e41bf76f05b304a5919455f9a cee167c52ec225f55764e73a9388aef938660e7d
+Author: vova <>
+Date:   Thu Jul 17 14:56:16 2003 +0000
+
+    no message
+
+commit 0a102a913b2079739c922c06226dc47377f8413c c168b8175f2746482aaed515ff0adc23f75ffd54
+Author: vova <>
+Date:   Wed Jul 9 10:23:35 2003 +0000
+
+    no message
+
+:100644 100644 4fff972 2b9040f M	Aurora/source/com/intellij/ui/SimpleColoredComponent.java
+:100644 100644 d594d9b 550666e M	Aurora/source/com/intellij/ui/SimpleTextAttributes.java
+
+commit 2e8ce8c3325749502b2fcc74cb2471f99f52212c 655dc57090a3e71b42b67c09e126d22cdd529cfb
+Author: vova <>
+Date:   Tue Jul 8 16:49:14 2003 +0000
+
+    no message
+
+:100644 100644 e7a4053 ba84a28 M	Aurora/source/com/intellij/ide/hierarchy/HierarchyNodeRenderer.java
+:100644 100644 fc28573 e8a6ed7 M	Aurora/source/com/intellij/ide/util/treeView/NodeRenderer.java
+:100644 100644 50a5595 f03005e M	Aurora/source/com/intellij/j2ee/ejb/view/EjbToolTipNodeRenderer.java
+:100644 100644 524faf3 df188b3 M	Aurora/source/com/intellij/j2ee/module/view/ejb/EjbToolTipNodeRenderer.java
+:100644 100644 d961410 c980b76 M	Aurora/source/com/intellij/localVcs/ui/DirectoryDiffPanel.java
+:100644 100644 50a846e 625a6f0 M	Aurora/source/com/intellij/ui/ColoredTreeCellRenderer.java
+:100644 100644 d6e7f6d 4fff972 M	Aurora/source/com/intellij/ui/SimpleColoredComponent.java
+:100644 100644 46e9267 194c422 M	Aurora/source/com/intellij/usageView/impl/HighlightableUTCellRenderer.java
+
+commit b6ca32aa5826db0c5f9b65602022d0d665fe196e 3a067fd3ed8d85f37752744cf9e44fc9fb3723a8
+Author: vova <>
+Date:   Tue Jul 8 15:37:48 2003 +0000
+
+    no message
+
+:100644 100644 ffe5a31 6e385e9 M	Aurora/source/com/intellij/Patches.java
+:100644 100644 aaae813 50a846e M	Aurora/source/com/intellij/ui/ColoredTreeCellRenderer.java
+:100644 100644 9cdba33 ad54596 M	Aurora/source/com/intellij/ui/Tree.java
+
+commit f67b81e4bdbc2ad13c8af8b8d7e7363213817320 fb3c16d6107490674b181dac469162325e93986f
+Author: vova <>
+Date:   Tue Jul 8 07:24:17 2003 +0000
+
+    no message
+
+:100644 100644 a82f232 f57a9ee M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionToolbarImpl.java
+
+commit 442828ab8e5ee697161e785d167355bc12bc2b0c 074fb854b5577bb92f3d4cc05bd941cafbca4ebe
+Author: vova <>
+Date:   Mon Jul 7 13:42:35 2003 +0000
+
+    no message
+
+:100644 100644 3f7b454 614f841 M	Aurora/source/com/intellij/ide/todo/TodoPanel.java
+:100644 100644 f5e6305 652e3eb M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionButton.java
+:100644 100644 3537f80 a82f232 M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionToolbarImpl.java
+:100644 100644 328c1f4 4d231bf M	Aurora/source/com/intellij/openapi/wm/ex/ActionToolbarEx.java
+
+commit 28a4e5f515613a6452cfb7ac854e56ce1fe44638 9488a20b17d1e97e00a8e1b13a5304ef9d77e9c9
+Author: vova <>
+Date:   Mon Jul 7 12:31:33 2003 +0000
+
+    no message
+
+:100644 100644 ca2b505 3537f80 M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionToolbarImpl.java
+:100644 100644 103b26c 328c1f4 M	Aurora/source/com/intellij/openapi/wm/ex/ActionToolbarEx.java
+
+commit b4bbc6df6be944f577d0b666770f0d4fa92b573e 4211bdd87b0aace6384098036faf6fd5687293e3
+Author: vova <>
+Date:   Mon Jul 7 12:09:23 2003 +0000
+
+    no message
+
+:100644 100644 7974fcc f5e6305 M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionButton.java
+:100644 100644 f81528d ca2b505 M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionToolbarImpl.java
+:100644 100644 145f7fa 55c7c1c M	Aurora/source/com/intellij/openapi/actionSystem/impl/Utils.java
+:100644 100644 bf6803f 103b26c M	Aurora/source/com/intellij/openapi/wm/ex/ActionToolbarEx.java
+
+commit c3aed4e9c622a17189b3eff8a191165990a6d8e5 e2bb08ed86dc675c59bd6d232860c7d91e564d02
+Author: vova <>
+Date:   Mon Jun 30 15:10:44 2003 +0000
+
+    no message
+
+:100644 100644 9d9f07f 303290a M	Aurora/source/com/intellij/ui/customEditor/impl/EditorManagerImpl.java
+
+commit 09ff72b191aa003f6770ac8d58eb09f20e1a0fd5 5c40e1cc0ee343d6955963fb7ddd6f2ec8862889
+Author: vova <>
+Date:   Mon Jun 30 11:27:38 2003 +0000
+
+    no message
+
+:100644 100644 fd34c2b b330801 M	Aurora/source/com/intellij/ide/todo/TodoPanel.java

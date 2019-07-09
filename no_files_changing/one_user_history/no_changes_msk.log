@@ -1,0 +1,83 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 875fd6dee23f60a07d3e77f28e16d64ab0f4e9c4 af4ca5c283cecae034f39f10faa1ff60b588dac1
+Author: msk <>
+Date:   Mon Aug 16 16:13:48 2004 +0000
+
+    ByteBuffer speed temp. workaround
+
+commit 0c8afab5cfc9d1c284cfd18ef90f749e03369184 bf084fa7045159063723c353048e0700032b19c2
+Author: msk <>
+Date:   Sat Aug 14 18:07:46 2004 +0000
+
+    -Didea.smooth.dialog enabled for all OS
+
+:100644 100644 5cb7b37 dc9a9b9 M	Aurora/util/src/com/intellij/Patches.java
+
+commit f9354c183970ea5bc08f10d19f326961f99b868d 27a0061f1d8829b9786bd7b722dd8139244d8f22
+Author: msk <>
+Date:   Wed Aug 11 13:22:04 2004 +0000
+
+    Check box in C-N
+
+:100644 100644 98388a6 8c1f52e M	Aurora/source/com/intellij/ide/util/gotoByName/ChooseByNameBase.java
+:100644 100644 eee816f 820f748 M	Aurora/source/com/intellij/ide/util/gotoByName/ChooseByNamePanel.java
+
+commit 936e5fcc56ec8c16300cc937b7106556f4e3e289 8021d1bafe1b5c924e2fbdf6e6464f5fb0a1a400
+Author: msk <>
+Date:   Wed Aug 11 09:46:35 2004 +0000
+
+    Enter on ...
+
+:100644 100644 8d56bf3 98388a6 M	Aurora/source/com/intellij/ide/util/gotoByName/ChooseByNameBase.java
+
+commit c63cd40434fcba21ad9cf05bdc85ab2dab2a287b 8357e1135d506117192756c41b38f6378b7bbc34
+Author: msk <>
+Date:   Tue Aug 10 18:14:11 2004 +0000
+
+    ChooseByName old style
+
+:100644 100644 21b11bf 8d56bf3 M	Aurora/source/com/intellij/ide/util/gotoByName/ChooseByNameBase.java
+:100644 100644 95e55ba 16c9931 M	Aurora/source/com/intellij/ide/util/gotoByName/ChooseByNamePopup.java
+
+commit 2659df14cb4a02c5289ce00710ef66063e979856 2a202c51fc76398d8e50b2861bef3a7f37c1792f
+Author: msk <>
+Date:   Tue Aug 10 16:19:39 2004 +0000
+
+    HeapByteBuffer -> DirectByteBuffer
+
+:100644 100644 df68774 5afc34c M	Aurora/source/com/intellij/util/io/NameStore.java
+
+commit cb719a9446884096cd4bad48bbe5ac7acc3f2402 76184227983e84fef4e35192af55caff64ad3fdc
+Author: msk <>
+Date:   Tue Aug 10 11:43:09 2004 +0000
+
+    bug fix in NameStore Hash (sign)
+
+:100644 100644 9c9e7a6 bcaadc9 M	Aurora/source/com/intellij/psi/impl/cache/impl/repositoryCache/RepositoryCache.java
+:100644 100644 e9023db df68774 M	Aurora/source/com/intellij/util/io/NameStore.java
+
+commit 6c5d1cb0947ee6d68423e7ab9e548a4a8dded300 2e8b97f1c0770f23ca4d33db0667a0805ff65f07
+Author: msk <>
+Date:   Mon Aug 9 18:25:57 2004 +0000
+
+    commented out due to possible memory problem
+
+:100644 100644 59e3a7e be68303 M	Aurora/testSource/com/intellij/util/io/NameStoreTest.java
+
+commit 269602a1a72cc3e4ce10fd0f9e02a2fc3c5ffd56 9604568059079b11d72f5ff81e16e1880c8ef5df
+Author: msk <>
+Date:   Mon Aug 9 17:03:21 2004 +0000
+
+    created
+
+:100644 100644 e391303 59e3a7e M	Aurora/testSource/com/intellij/util/io/NameStoreTest.java
+
+commit 9604568059079b11d72f5ff81e16e1880c8ef5df bca8159488a3cbe0346109e900ee4efef1b07f2b
+Author: msk <>
+Date:   Mon Aug 9 17:03:08 2004 +0000
+
+    created
+
+:000000 100644 0000000 e391303 A	Aurora/testSource/com/intellij/util/io/NameStoreTest.java

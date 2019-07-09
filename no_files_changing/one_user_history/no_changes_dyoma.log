@@ -1,0 +1,1174 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 6fbf6d93aecef6b778a8d75994f23ba1a4840eb2 d08c4505a90d816f914a01806df4c15611de4f2a
+Author: dyoma <>
+Date:   Thu Apr 22 12:34:22 2004 +0000
+
+    no message
+
+commit d08c4505a90d816f914a01806df4c15611de4f2a e48f67094a03f3f264c5bf9998f62da88182fcd9
+Author: dyoma <>
+Date:   Thu Apr 22 12:19:01 2004 +0000
+
+    no message
+
+:100644 100644 c29c56c 1128c54 M	Aurora/aurora.ipr
+
+commit e48f67094a03f3f264c5bf9998f62da88182fcd9 c59e528d02a71dc8aa2a9b0360ad969af147650b
+Author: dyoma <>
+Date:   Thu Apr 22 12:14:14 2004 +0000
+
+    no message
+
+:100644 100644 571acf6 444fc64 M	Aurora/aurora.iml
+:100644 100644 42c49a2 c29c56c M	Aurora/aurora.ipr
+:100644 100644 7fdfdad d643d14 M	Aurora/build/build.iml
+:100644 100644 b393f16 4ca6e68 M	Aurora/cvs_support.iml
+:100644 100644 c6f7473 851006e M	Aurora/idea_rt.iml
+:100644 100644 d523201 70f3f58 M	Aurora/installer.iml
+:100644 100644 d97f835 1abad49 M	Aurora/jsr45debug.iml
+:100644 100644 92d86e9 2d6aec9 M	Aurora/licenseCommon/license_common.iml
+:100644 100644 0a7a0cc 68e415b M	Aurora/licenseServer/license_server.iml
+:100644 100644 c75ad02 591fd6b M	Aurora/source/com/intellij/aspects/util/PatternMatching.java
+:100644 100644 91bca23 bb5764a M	Aurora/source/com/intellij/codeInsight/daemon/impl/PostHighlightingPass.java
+:100644 100644 884f1f8 5856fc7 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightUtil.java
+:100644 100644 5ac8340 4fe8c38 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightVisitorImpl.java
+:100644 100644 c9f05dd 9dc1ca2 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/ejb/EjbHighlightVisitor.java
+:100644 100644 6a227fc 7783aae M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/CastMethodParametersFix.java
+:100644 100644 5ec75b2 31e6bcc M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/RemoveUnusedVariableFix.java
+:100644 100644 9531359 b885ff4 M	Aurora/source/com/intellij/codeInsight/highlighting/BraceMatchingUtil.java
+:100644 100644 6582578 ed3b47a M	Aurora/source/com/intellij/codeInspection/dataFlow/DfaMemoryStateImpl.java
+:100644 100644 df065a4 dba7e52 M	Aurora/source/com/intellij/codeInspection/dataFlow/SortedIntSet.java
+:100644 100644 b945bf1 c173e01 M	Aurora/source/com/intellij/codeInspection/dataFlow/value/DfaValueFactory.java
+:100644 100644 c76151a fca31ba M	Aurora/source/com/intellij/compiler/CompilerPaths.java
+:100644 100644 9b4aac3 c36dd76 M	Aurora/source/com/intellij/compiler/SwappableMap.java
+:100644 100644 5140d00 03acbdc M	Aurora/source/com/intellij/compiler/cache/Cache.java
+:100644 100644 65143db 609c645 M	Aurora/source/com/intellij/compiler/cache/CacheUtils.java
+:100644 100644 3e6a9d9 79bf10e M	Aurora/source/com/intellij/compiler/cache/ClassInfoView.java
+:100644 100644 c4c73a1 f8229ff M	Aurora/source/com/intellij/compiler/cache/DependencyCache.java
+:100644 100644 3ac2167 712dcf9 M	Aurora/source/com/intellij/compiler/cache/DependencyProcessor.java
+:100644 100644 7f09c7c e79fa08 M	Aurora/source/com/intellij/compiler/cache/IntSetHolder.java
+:100644 100644 340e8e0 46b7720 M	Aurora/source/com/intellij/compiler/cache/RecordView.java
+:100644 100644 c95a5de 4bfab45 M	Aurora/source/com/intellij/compiler/cache/ViewPool.java
+:100644 100644 d70899f 52c7a39 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/AspectWeaver.java
+:100644 100644 f94e184 1773874 M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/WeavableClassesFinder.java
+:100644 100644 b7e04fc f3c1f8c M	Aurora/source/com/intellij/compiler/impl/aspectCompiler/WeavingSession.java
+:100644 100644 8c480a7 2d66c00 M	Aurora/source/com/intellij/compiler/make/MethodInfo.java
+:100644 100644 94a5f99 e798f4b M	Aurora/source/com/intellij/compiler/make/SymbolTable.java
+:100644 100644 c52af4f 00f182e M	Aurora/source/com/intellij/execution/impl/ConfigurationTabModel.java
+:100644 100644 3b4ddd3 6dc67ff M	Aurora/source/com/intellij/execution/junit/TestPackage.java
+:100644 100644 13c52aa 87b11bc M	Aurora/source/com/intellij/execution/junit2/configuration/JUnitConfigurable.java
+:100644 100644 7208016 91e3bae M	Aurora/source/com/intellij/ide/startup/FileContent.java
+:100644 100644 4378a90 230c627 M	Aurora/source/com/intellij/ide/util/projectWizard/JdkChooserPanel.java
+:100644 100644 507a0fe d67fefb M	Aurora/source/com/intellij/internal/cfa/dominance/DomInfo.java
+:100644 100644 2dfc493 6ec875e M	Aurora/source/com/intellij/internal/dumpAnalyzer/DomTree.java
+:100644 100644 bc20141 b8edbbf M	Aurora/source/com/intellij/internal/saveDump/api/classGraph/ClassGraph.java
+:100644 100644 158454e 1204efa M	Aurora/source/com/intellij/internal/saveDump/api/impl/GraphUtil.java
+:100644 100644 b28c478 721daf4 M	Aurora/source/com/intellij/internal/saveDump/api/impl/ObjectGraphImpl.java
+:100644 100644 b0ddb57 efe3782 M	Aurora/source/com/intellij/internal/saveDump/api/impl2/GraphImpl.java
+:100644 100644 a1dedcd 8612a96 M	Aurora/source/com/intellij/internal/saveDump/api/impl2/data/DomTreeData.java
+:100644 100644 b7a2ee3 e3484de M	Aurora/source/com/intellij/internal/saveDump/api/impl2/data/ObjectOwners.java
+:100644 100644 f6240c9 76cd576 M	Aurora/source/com/intellij/internal/saveDump/bind/BidirectionMap.java
+:100644 100644 d612a04 60ca886 M	Aurora/source/com/intellij/internal/saveDump/bind/BindedDump.java
+:100644 100644 a733060 5388a2d M	Aurora/source/com/intellij/internal/saveDump/store/LowMemTObjectIntHashMap.java
+:100644 100644 4bbccc5 25ed913 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectEnumerator.java
+:100644 100644 9f55113 2c1e518 M	Aurora/source/com/intellij/internal/saveDump/util/TimeMeasurer.java
+:100644 100644 cca34f1 5172540 M	Aurora/source/com/intellij/internal/scanReferences/RefScanner.java
+:100644 100644 9a64521 0b4e322 M	Aurora/source/com/intellij/j2ee/ejb/EjbUsagesUtil.java
+:100644 100644 c10eedc d3f9c04 M	Aurora/source/com/intellij/j2ee/module/FileSystemPathSet.java
+:100644 100644 05177b4 f6653c5 M	Aurora/source/com/intellij/j2ee/module/view/dataSource/DatasourcePropertiesPanel.java
+:100644 100644 604f7d2 2bd7d0e M	Aurora/source/com/intellij/j2ee/weblogic/WeblogicConsoleViewContentType.java
+:100644 100644 2659723 c7c68eb M	Aurora/source/com/intellij/j2ee/weblogic/WeblogicDeploymentStatus.java
+:100644 100644 023c49d 0325be1 M	Aurora/source/com/intellij/lexer/LayeredLexer.java
+:100644 100644 769ff81 6145641 M	Aurora/source/com/intellij/localVcs/impl/Repository.java
+:100644 100644 33e9ac8 189b169 M	Aurora/source/com/intellij/localVcs/ui/table/ActionsHolder.java
+:100644 100644 8aa28a7 ca10f26 M	Aurora/source/com/intellij/openapi/actionSystem/Presentation.java
+:100644 100644 780ba0b 430de15 M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionManagerImpl.java
+:100644 100644 5c26f5a 568e142 M	Aurora/source/com/intellij/openapi/diff/impl/highlighting/Util.java
+:100644 100644 d7c4f53 f0cc607 M	Aurora/source/com/intellij/openapi/diff/impl/incrementalMerge/ui/MergePanel2.java
+:100644 100644 a9745ae ddb495b M	Aurora/source/com/intellij/openapi/diff/impl/splitter/FoldingTransformation.java
+:100644 100644 57feb2e 6fc1829 M	Aurora/source/com/intellij/openapi/editor/impl/BorderEffect.java
+:100644 100644 beb6957 976f61a M	Aurora/source/com/intellij/openapi/editor/impl/DocumentImpl.java
+:100644 100644 67d8e71 79bec3e M	Aurora/source/com/intellij/openapi/editor/impl/EditorGutterComponentImpl.java
+:100644 100644 e34fe23 74093f6 M	Aurora/source/com/intellij/openapi/editor/impl/EditorImpl.java
+:100644 100644 4015c7b ddaa6f1 M	Aurora/source/com/intellij/openapi/editor/impl/RangeIterator.java
+:100644 100644 56f3801 01d033d M	Aurora/source/com/intellij/openapi/editor/impl/RangeMarkerImpl.java
+:100644 100644 8d9c8d4 bb235b0 M	Aurora/source/com/intellij/openapi/fileTypes/ex/FileTypeEx.java
+:100644 100644 f1dcace 4c995ed M	Aurora/source/com/intellij/openapi/fileTypes/impl/FileTypeManagerImpl.java
+:100644 100644 cb4006d f80ffbf M	Aurora/source/com/intellij/openapi/keymap/impl/KeymapImpl.java
+:100644 100644 15a07f2 de1d85d M	Aurora/source/com/intellij/openapi/project/impl/ProjectManagerImpl.java
+:100644 100644 2d4176f 9bdd9e6 M	Aurora/source/com/intellij/openapi/projectRoots/ex/OrdersMerger.java
+:100644 100644 7bbf75b 5c265d8 M	Aurora/source/com/intellij/openapi/roots/ui/componentsList/components/ListSelectionState.java
+:100644 100644 6f2ea77 706d469 M	Aurora/source/com/intellij/openapi/util/DimensionService.java
+:100644 100644 71edb7a 0db10b4 M	Aurora/source/com/intellij/openapi/util/IconLoader.java
+:100644 100644 6c8a706 e0f9d2b M	Aurora/source/com/intellij/openapi/vfs/VirtualFile.java
+:100644 100644 05e6620 40739a9 M	Aurora/source/com/intellij/openapi/vfs/impl/jar/JarFileInfo.java
+:100644 100644 fa5ed0c 26e998e M	Aurora/source/com/intellij/psi/controlFlow/ControlFlowAnalyzer.java
+:100644 100644 4e8726e f09e5cf M	Aurora/source/com/intellij/psi/controlFlow/ControlFlowImpl.java
+:100644 100644 003a30d 6f853bb M	Aurora/source/com/intellij/psi/controlFlow/ControlFlowUtil.java
+:100644 100644 8448982 d52f59a M	Aurora/source/com/intellij/psi/impl/CachedValueImpl.java
+:100644 100644 b87cd6f 96635e8 M	Aurora/source/com/intellij/psi/impl/PsiShortNamesCacheImpl.java
+:100644 100644 21d1a10 a7d603a M	Aurora/source/com/intellij/psi/impl/RepositoryElementsManager.java
+:100644 100644 547b036 3abf09b M	Aurora/source/com/intellij/psi/impl/UserDataHolderImpl.java
+:100644 100644 0fe0dae 0c137c1 M	Aurora/source/com/intellij/psi/impl/cache/impl/ClassHashProvider.java
+:100644 100644 14dc17e 0db4407 M	Aurora/source/com/intellij/psi/impl/cache/impl/FileViewImpl.java
+:100644 100644 e92b220 da537e7 M	Aurora/source/com/intellij/psi/impl/cache/impl/RepositoryIndexImpl.java
+:100644 100644 057090e 1fccf7a M	Aurora/source/com/intellij/psi/impl/cache/impl/RepositoryManagerImpl.java
+:100644 100644 2d6ff6a 0360ba0 M	Aurora/source/com/intellij/psi/impl/cache/impl/idCache/IdCacheUtil.java
+:100644 100644 19a59bc 0c75012 M	Aurora/source/com/intellij/psi/impl/cache/impl/idCache/ImmutableIdCacheImpl.java
+:100644 100644 83c8c4d 82a537a M	Aurora/source/com/intellij/psi/impl/cache/impl/idCache/MapBuilder.java
+:100644 100644 c273464 f71fd50 M	Aurora/source/com/intellij/psi/impl/cache/impl/idCache/MapUpdater.java
+:100644 100644 a178286 35bf288 M	Aurora/source/com/intellij/psi/impl/cache/impl/repositoryCache/LocalRepositoryIndex.java
+:100644 100644 16036df 1279506 M	Aurora/source/com/intellij/psi/impl/cache/impl/repositoryCache/MemoryIndexMap.java
+:100644 100644 5254f2d 70c0105 M	Aurora/source/com/intellij/psi/impl/cache/impl/repositoryCache/PersistentIndexMap.java
+:100644 100644 b07a8b9 0c691f2 M	Aurora/source/com/intellij/psi/impl/cache/impl/repositoryCache/RecordUtil.java
+:100644 100644 bd89694 6ec90e1 M	Aurora/source/com/intellij/psi/impl/cache/impl/repositoryCache/RepositoryCache.java
+:100644 100644 3e97aeb 14182c9 M	Aurora/source/com/intellij/psi/impl/search/PsiSearchHelperImpl.java
+:100644 100644 a5dda99 82302cf M	Aurora/source/com/intellij/psi/impl/source/PsiModifierListImpl.java
+:100644 100644 5d3e4e6 c2367e3 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/ImportHelper.java
+:100644 100644 2e94e42 fd2dab2 M	Aurora/source/com/intellij/psi/statistics/impl/StatisticsUnit.java
+:100644 100644 82ff5e4 9764a83 M	Aurora/source/com/intellij/psi/util/ConstantExpressionEvaluator.java
+:100644 100644 6b33240 dd546c9 M	Aurora/source/com/intellij/psi/util/ConstantExpressionUtil.java
+:100644 100644 7279e25 0e24baf M	Aurora/source/com/intellij/psi/util/MethodSignatureUtil.java
+:100644 100644 10f5879 812edb0 M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+:100644 100644 42bf2a1 7757903 M	Aurora/source/com/intellij/ui/HighlightableComponent.java
+:100644 100644 c6c6fe8 08ac1b2 M	Aurora/source/com/intellij/ui/LightweightHint.java
+:100644 100644 984d6f01 eedcb2b M	Aurora/source/com/intellij/uiDesigner/CutCopyPasteSupport.java
+:100644 100644 2900c4f 3e814d9 M	Aurora/source/com/intellij/usageView/UsageViewUtil.java
+:100644 100644 b0e139b a0bef38 M	Aurora/source/com/intellij/util/ImageLoader.java
+:100644 100644 51c6c11 f143b3b M	Aurora/source/com/intellij/util/concurrency/ReentrantWriterPreferenceReadWriteLock.java
+:100644 000000 cb9b13e 0000000 D	Aurora/source/com/intellij/util/containers/CanonicalEquality.java
+:100644 000000 d50b68f 0000000 D	Aurora/source/com/intellij/util/containers/CanonicalHashCode.java
+:100644 000000 ff02c60 0000000 D	Aurora/source/com/intellij/util/containers/Equality.java
+:100644 000000 fc00f2e 0000000 D	Aurora/source/com/intellij/util/containers/EqualityAndHash.java
+:100644 100644 72a0b69 8894055 M	Aurora/source/com/intellij/util/containers/GenericHashMap.java
+:100644 100644 37bf76d 93f2eb9 M	Aurora/source/com/intellij/util/containers/GenericHashSet.java
+:100644 000000 8d14403 0000000 D	Aurora/source/com/intellij/util/containers/HashCode.java
+:100644 000000 48b23a8 0000000 D	Aurora/source/com/intellij/util/containers/IdentityEquality.java
+:100644 000000 aa2db97 0000000 D	Aurora/source/com/intellij/util/containers/IdentityHashCode.java
+:100644 100644 5b59fb0 6ecc1b3 M	Aurora/source/com/intellij/util/containers/OrderedSet.java
+:100644 100644 321f6eb 61e3823 M	Aurora/source/com/intellij/util/containers/SoftHashMap.java
+:100644 100644 bf44213 74028bd M	Aurora/source/com/intellij/util/containers/SoftValueHashMap.java
+:100644 100644 d1fca2e a0c5285 M	Aurora/source/com/intellij/util/containers/WeakHashMap.java
+:100644 000000 4d2f0e9 0000000 D	Aurora/source/com/intellij/util/containers/trove/HashFunctions.java
+:100644 000000 6f4d6b1 0000000 D	Aurora/source/com/intellij/util/containers/trove/PrimeFinder.java
+:100644 000000 f9758c6 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleArrayList.java
+:100644 000000 1f31f3c 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleDoubleHashMap.java
+:100644 000000 a20c3ec 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleDoubleProcedure.java
+:100644 000000 f1ea8c8 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleFloatHashMap.java
+:100644 000000 709b4c3 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleFloatProcedure.java
+:100644 000000 236a959 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleFunction.java
+:100644 000000 e570c18 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleHash.java
+:100644 000000 bb9f3ae 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleHashSet.java
+:100644 000000 82e6d86 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleIntHashMap.java
+:100644 000000 4d12d7a 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleIntProcedure.java
+:100644 000000 38ecb35 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleLongHashMap.java
+:100644 000000 5d1c19c 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleLongProcedure.java
+:100644 000000 30bb636 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleObjectHashMap.java
+:100644 000000 92fdec0 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleObjectProcedure.java
+:100644 000000 4282361 0000000 D	Aurora/source/com/intellij/util/containers/trove/TDoubleProcedure.java
+:100644 000000 7a60dab 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatArrayList.java
+:100644 000000 5bc4556 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatDoubleHashMap.java
+:100644 000000 f259e61 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatDoubleProcedure.java
+:100644 000000 4ce3d38 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatFloatHashMap.java
+:100644 000000 4169a58 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatFloatProcedure.java
+:100644 000000 65063c0 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatFunction.java
+:100644 000000 7e9cc67 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatHash.java
+:100644 000000 8d92b39 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatHashSet.java
+:100644 000000 b0d6cc2 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatIntHashMap.java
+:100644 000000 f7d65bf 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatIntProcedure.java
+:100644 000000 bcdad01 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatLongHashMap.java
+:100644 000000 3691b0b 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatLongProcedure.java
+:100644 000000 ace2994 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatObjectHashMap.java
+:100644 000000 a469e9d 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatObjectProcedure.java
+:100644 000000 6690394 0000000 D	Aurora/source/com/intellij/util/containers/trove/TFloatProcedure.java
+:100644 000000 f79455f 0000000 D	Aurora/source/com/intellij/util/containers/trove/THash.java
+:100644 000000 ee35214 0000000 D	Aurora/source/com/intellij/util/containers/trove/THashIterator.java
+:100644 000000 328f764 0000000 D	Aurora/source/com/intellij/util/containers/trove/THashMap.java
+:100644 000000 37fd16d 0000000 D	Aurora/source/com/intellij/util/containers/trove/THashSet.java
+:100644 000000 a3082d6 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntArrayList.java
+:100644 000000 b0e36aa 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntDoubleHashMap.java
+:100644 000000 90db86b 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntDoubleProcedure.java
+:100644 000000 b6493e3 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntFloatHashMap.java
+:100644 000000 ac7d091 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntFloatProcedure.java
+:100644 000000 9ab1c91 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntFunction.java
+:100644 000000 cc1b03a 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntHash.java
+:100644 000000 a125eee 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntHashSet.java
+:100644 000000 9b6b41b 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntIntHashMap.java
+:100644 000000 e6b6ca3 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntIntProcedure.java
+:100644 000000 c4dd52b 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntLongHashMap.java
+:100644 000000 f62c5b1 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntLongProcedure.java
+:100644 000000 f3785de 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntObjectHashMap.java
+:100644 000000 99b0d90 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntObjectProcedure.java
+:100644 000000 6440328 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntProcedure.java
+:100644 000000 4f2ab97 0000000 D	Aurora/source/com/intellij/util/containers/trove/TIntStack.java
+:100644 000000 c086c5a 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLinkable.java
+:100644 000000 c06190b 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLinkableAdaptor.java
+:100644 000000 4c873cc 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLinkedList.java
+:100644 000000 a0fb3f5 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongArrayList.java
+:100644 000000 5f77505 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongDoubleHashMap.java
+:100644 000000 6a9f5c0 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongDoubleProcedure.java
+:100644 000000 646cd75 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongFloatHashMap.java
+:100644 000000 8cb5b73 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongFloatProcedure.java
+:100644 000000 08cdedd 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongFunction.java
+:100644 000000 66661af 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongHash.java
+:100644 000000 6b70a63 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongHashSet.java
+:100644 000000 808fa03 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongIntHashMap.java
+:100644 000000 4deef4a 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongIntProcedure.java
+:100644 000000 d096863 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongLongHashMap.java
+:100644 000000 44b2a59 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongLongProcedure.java
+:100644 000000 d1ae3fe 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongObjectHashMap.java
+:100644 000000 a78b4b8 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongObjectProcedure.java
+:100644 000000 14b7000 0000000 D	Aurora/source/com/intellij/util/containers/trove/TLongProcedure.java
+:100644 000000 e3d55a1 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectDoubleHashMap.java
+:100644 000000 c4e2392 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectDoubleProcedure.java
+:100644 000000 7e1f779 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectFloatHashMap.java
+:100644 000000 4aec3db 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectFloatProcedure.java
+:100644 000000 20e8b5f 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectFunction.java
+:100644 000000 a6d4e9f 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectHash.java
+:100644 000000 7c77681 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectHashIterator.java
+:100644 000000 af4f8c2 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectIntHashMap.java
+:100644 000000 2674ebf 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectIntProcedure.java
+:100644 000000 119d3aa 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectLongHashMap.java
+:100644 000000 0464928 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectLongProcedure.java
+:100644 000000 4fb63d8 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectObjectProcedure.java
+:100644 000000 6c8ac62 0000000 D	Aurora/source/com/intellij/util/containers/trove/TObjectProcedure.java
+:100644 000000 a48df7a 0000000 D	Aurora/source/com/intellij/util/containers/trove/TPrimitiveHash.java
+:100644 000000 fe1a5c7 0000000 D	Aurora/source/com/intellij/util/containers/trove/ToObjectArrayProcedure.java
+:100644 100644 c428858 6b4c1d8 M	Aurora/source/com/intellij/util/io/FileKeyProvider.java
+:100644 100644 a2a80f8 783978c M	Aurora/source/com/intellij/util/io/IntArrayValueProvider.java
+:100644 100644 f057936 b7233f9 M	Aurora/source/com/intellij/util/io/PagedMemoryMappedFile.java
+:100644 100644 5171815 ff7a550 M	Aurora/source/com/intellij/zkm/ClassInfo.java
+:100644 100644 ffdefb6 604e6ad M	Aurora/source/com/intellij/zkm/ZKMLog.java
+:100644 100644 00917ad 41b0c7d M	Aurora/starteamIntegration.iml
+:100644 100644 01c6b1e 9402ab7 M	Aurora/testSource/com/intellij/ide/structureView/impl/Assertion.java
+:100644 100644 99ececf 9661a11 M	Aurora/testSource/com/intellij/ide/structureView/impl/JavaFileTreeStructureTest.java
+:100644 100644 cd3fff6 8006a1f M	Aurora/testSource/com/intellij/internal/saveDump/BaseRestoringTests.java
+:100644 100644 18d17df 852592e M	Aurora/testSource/com/intellij/internal/saveDump/Exploring.java
+:100644 100644 f2e8a98 9fe9ccb M	Aurora/testSource/com/intellij/internal/saveDump/ObjectEnumeratorTests.java
+:100644 100644 0911921 e54bb07 M	Aurora/testSource/com/intellij/openapi/diff/impl/highlighting/FragmentEquality.java
+:100644 100644 5c5eb83 41e9bd9 M	Aurora/testSource/com/intellij/openapi/diff/impl/processing/ByWordTest.java
+:100644 100644 d1baf85 014e4d7 M	Aurora/testSource/com/intellij/openapi/editor/impl/RangeIteratorTest.java
+:100644 100644 c9c3a60 bf279dd M	Aurora/testSource/com/intellij/openapi/projectRoots/ex/OrdersMergerTest.java
+:100644 100644 38ea442 3fe44a0 M	Aurora/testSource/com/intellij/openapi/vcs/ui/exclude/SortedListModelTest.java
+:100644 100644 5989914 e53e728 M	Aurora/testSource/com/intellij/util/containers/TObjectIntHashMapTest.java
+:100644 100644 1bf7a20 8793efa M	Aurora/testSource/com/intellij/util/io/PagedMemoryMappedFileTest.java
+:100644 100644 3de0bf7 d029114 M	Aurora/tomcatIntegration.iml
+:100644 100644 d4543b3 e185445 M	Aurora/tools/parserGen/parserGen.iml
+
+commit 123e3768e00e4a61caac1544a442caa9c68d90f5 f6268a0e489672d5931cf09bd60f841a91dfd500
+Author: dyoma <>
+Date:   Mon Mar 15 13:49:20 2004 +0000
+
+    no message
+
+:100644 100644 caaaf59 3267199 M	Aurora/source/com/intellij/openapi/diff/DiffManager.java
+:100644 100644 76012e0 fd73239 M	Aurora/source/com/intellij/openapi/diff/impl/external/DiffManagerImpl.java
+
+commit 8ec2860d7c45f7357622d019cbd3e81756a9a5ab 48f0ca77939dd60d0a084898a8f54b7cb0410721
+Author: dyoma <>
+Date:   Fri Mar 5 18:18:43 2004 +0000
+
+    no message
+
+:100644 100644 f6963de 8448982 M	Aurora/source/com/intellij/psi/impl/CachedValueImpl.java
+:100644 100644 d2fa338 3a0adcf M	Aurora/testSource/com/intellij/ant/funcTests/PerformanceTest.java
+
+commit 137ada5fe6fa88eb382ff5755ff1a3c2e027a405 071e28791653208224f6647d76840b33819ecaf0
+Author: dyoma <>
+Date:   Wed Mar 3 13:02:06 2004 +0000
+
+    Fixed #29984
+
+:100644 100644 bf27d0d 7bb62ec M	Aurora/source/com/intellij/tools/FilterDialog.java
+
+commit 071e28791653208224f6647d76840b33819ecaf0 0e5793c6ba68d2540fd5b3c8e75e6f4fabff61b6
+Author: dyoma <>
+Date:   Wed Mar 3 11:59:17 2004 +0000
+
+    NPE #30396 Fixed
+
+:100644 100644 37ba5c0 544a3ed M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 9760c6ecab734f8120ce2c57f7b889da49610483 89ab964ad1a48072aeb07c1b474a27857ce06177
+Author: dyoma <>
+Date:   Thu Feb 19 17:12:08 2004 +0000
+
+    no message
+
+:100644 100644 37b620e a6466ef M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 89ab964ad1a48072aeb07c1b474a27857ce06177 ee390e4c0171fd3cec2094247250ba9ca05888f8
+Author: dyoma <>
+Date:   Thu Feb 19 16:59:56 2004 +0000
+
+    #29892
+
+:100644 100644 3e2964e 47264b4 M	Aurora/source/com/intellij/execution/ExecutionView.java
+
+commit 5c88f00ce3d585ccf036c55f969d928ed4d2b0ee 91c313548e0aa479bf2035a7bd07948ba34ac94c
+Author: dyoma <>
+Date:   Tue Feb 17 19:35:39 2004 +0000
+
+    # 28428
+
+:100644 100644 a3ddaa2 4dd3135 M	Aurora/source/com/intellij/execution/junit/JUnitConfiguration.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit d5d8c2ab73e805eaf67dcc931ed9e3985963c4e2 1cb8e26e81653d236dfca6e29395f7abeb666681
+Author: dyoma <>
+Date:   Thu Dec 25 13:13:13 2003 +0000
+
+    no message
+
+commit 812030481f2cc608d1a9aaa73c3c9e4d443bd7a0 1fe3c34ef2838e8c873bca9d9f4842fa2276d443
+Author: dyoma <>
+Date:   Thu Dec 25 12:45:09 2003 +0000
+
+    no message
+
+:100644 100644 b13af47 27df249 M	Aurora/source/com/intellij/find/findUsages/FindUsagesManager.java
+:100644 100644 e615e9c 14d4d7c M	Aurora/source/com/intellij/ide/structureView/impl/AddAllMembersProcessor.java
+:100644 100644 9c01e88 df16e3e M	Aurora/source/com/intellij/ide/structureView/impl/JavaFileTreeStructure.java
+:100644 100644 758b69b 59cb6f2 M	Aurora/source/com/intellij/ide/structureView/impl/StructureViewConfig.java
+:100644 100644 23d871d 76989b2 M	Aurora/source/com/intellij/ide/util/treeView/PropertyNodeDescriptor.java
+:100644 100644 ae8e7f8 bcd7dbc M	Aurora/source/com/intellij/psi/util/PropertyUtil.java
+:100644 100644 20eaa87 7cbaed2 M	Aurora/source/com/intellij/util/containers/ContainerUtil.java
+:100644 100644 70fdfe3 a7556d1 M	Aurora/testSource/com/intellij/ide/structureView/impl/PropertyElementTest.java
+:100644 100644 28d72a3 897e8d4 M	Aurora/testSource/com/intellij/ide/structureView/impl/StructureViewConfigTest.java
+
+commit 1fe3c34ef2838e8c873bca9d9f4842fa2276d443 69c95f557891c6bf9961dd4df75770b519288c38
+Author: dyoma <>
+Date:   Thu Dec 25 12:42:09 2003 +0000
+
+    #24473
+
+:100644 100644 f688165 af0dfbe M	Aurora/source/com/intellij/execution/actions/RunConfigurationAction.java
+
+commit bcc7dd7178339d0b555fe342213f75314c5ef96b def532c8bcb08be66dcdff3405e20a0e32db5eb6
+Author: dyoma <>
+Date:   Mon Dec 22 16:17:05 2003 +0000
+
+    no message
+
+:100644 100644 1b63222 a194ded M	Aurora/source/com/intellij/ide/actions/OpenProjectAction.java
+:100644 100644 e575fee fd11244 M	Aurora/source/com/intellij/j2ee/module/view/ModuleBuildFileLocationPanel.java
+:100644 100644 813b010 71edb7a M	Aurora/source/com/intellij/openapi/util/IconLoader.java
+:100644 100644 28bfa06 b0e139b M	Aurora/source/com/intellij/util/ImageLoader.java
+
+commit d3d381052b651396351075111fc6c475b40025df 16972fb1f4622cbfe01c1c5f5af772062c40f23d
+Author: dyoma <>
+Date:   Mon Dec 22 14:42:12 2003 +0000
+
+    no message
+
+:100644 100644 2d4d909 679b442 M	Aurora/source/com/intellij/openapi/diff/impl/DiffPanelImpl.java
+:100644 100644 cc46e62 02e55de M	Aurora/source/com/intellij/openapi/diff/impl/fragments/FragmentListImpl.java
+:100644 100644 28cd005 1ee9916 M	Aurora/source/com/intellij/openapi/diff/impl/highlighting/DiffMarkup.java
+:100644 100644 a408f2f 984ac1a M	Aurora/source/com/intellij/openapi/diff/impl/highlighting/SimpleDiffPanelState.java
+:100644 100644 2d972a2 dd9db00 M	Aurora/testSource/com/intellij/openapi/diff/impl/BaseDiffTestCase.java
+:100644 100644 77ebbed 61e2684 M	Aurora/testSource/com/intellij/openapi/diff/impl/content/DocumentContentTest.java
+:100644 100644 8b870dd 610f916 M	Aurora/testSource/com/intellij/openapi/diff/impl/content/FragmentContentTest.java
+:100644 100644 f4dd2ad 0130d90 M	Aurora/testSource/com/intellij/openapi/diff/impl/incrementalMerge/MergeFuncTest.java
+
+commit 08ed9605d49269542d312a071bdfad575aeb78f8 fdd4503b3dbcf2284549b286ad008708b37df0d3
+Author: dyoma <>
+Date:   Mon Dec 22 13:13:10 2003 +0000
+
+    no message
+
+:100644 100644 9a2839e 890565c M	Aurora/source/com/intellij/execution/application/ApplicationConfiguration.java
+:100644 000000 e11eb6e 0000000 D	Aurora/source/com/intellij/openapi/actionSystem/impl/MouseTrackingButton.java
+
+commit 7e4dd55fc29bbbb485e7b1ef0b400822ac80d207 8abd70b4211c6acb35741c6a4de91bcd39c8f3d8
+Author: dyoma <>
+Date:   Mon Dec 22 12:35:19 2003 +0000
+
+    no message
+
+:100644 100644 15bc620 b8409b3 M	Aurora/source/com/intellij/openapi/actionSystem/impl/ActionButton.java
+
+commit 2df6753c832151d7d99fd4f05c75f761dea61362 33b5b3df254b68d189213e036051c4d3acbaf35f
+Author: dyoma <>
+Date:   Mon Dec 22 12:01:03 2003 +0000
+
+    no message
+
+:100644 100644 d20b8ec 2655793 M	Aurora/source/com/intellij/ui/MultilineTreeCellRenderer.java
+
+commit 904fdf9456bc148469c796233f6f9b8ba57d5bc2 ddeae540f8b9b83c25dff1f0e2ef35d195fb7623
+Author: dyoma <>
+Date:   Mon Dec 22 11:16:01 2003 +0000
+
+    no message
+
+:100644 100644 f071bfb 242d3cb M	Aurora/source/com/intellij/execution/applet/AppletConfigurable.java
+:100644 100644 943df04 fb45673 M	Aurora/source/com/intellij/execution/application/ApplicationConfigurable2.java
+:100644 100644 60b4aef 9a2839e M	Aurora/source/com/intellij/execution/application/ApplicationConfiguration.java
+:100644 100644 3ac4b0f 4524ddc M	Aurora/source/com/intellij/execution/junit/JUnitConfiguration.java
+:100644 100644 4966edd 83fa5d8 M	Aurora/source/com/intellij/execution/junit2/configuration/JUnitConfigurable.java
+:100644 100644 134d520 eeb1606 M	Aurora/source/com/intellij/execution/remote/RemoteConfigurable.java
+:100644 100644 246bc8b e8c8463 M	Aurora/source/com/intellij/openapi/options/ex/SingleConfigurableEditor.java
+
+commit f363195613c967474ed4e12d486c27b7a5a6cdc6 6d89398a832a7cb1fbe3bf306f55e9e7338be9aa
+Author: dyoma <>
+Date:   Sat Dec 20 15:41:45 2003 +0000
+
+    no message
+
+:100644 100644 31427ad 7f245e9 M	Aurora/source/com/intellij/execution/junit2/ui/ConsolePanel.java
+:100644 100644 0e42ae3 a9d0060 M	Aurora/source/com/intellij/execution/junit2/ui/JUnitTreeConsoleView.java
+:100644 100644 4cda2db c961a7d M	Aurora/source/com/intellij/execution/junit2/ui/StatusLine.java
+:100644 100644 78de8a7 586e5a4 M	Aurora/source/com/intellij/execution/junit2/ui/TestTreeView.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit ad580eedbefb22881dbe53fa50619689698771ae f707ce9f6b10205f5df75fcd72fb4ecc5f9c2a19
+Author: dyoma <>
+Date:   Fri Dec 12 13:03:52 2003 +0000
+
+    no message
+
+commit 52ebec6e1cd5f0df153da81f7aa20093ce2a165e ac371999d9e5c794998b7c4b9aa9eecacd8d3db8
+Author: dyoma <>
+Date:   Thu Dec 11 20:20:48 2003 +0000
+
+    no message
+
+:100644 100644 a2e8edd 8b747c0 M	Aurora/source/com/intellij/openapi/vfs/impl/local/VirtualFileImpl.java
+
+commit 4a475ddc9a1a9bf015151deeddb64a4690f488bf f22d69d8b9a911615c58e260610ab91d6e23e295
+Author: dyoma <>
+Date:   Thu Dec 11 18:36:06 2003 +0000
+
+    no message
+
+:100644 100644 23bb0c3 7090915 M	Aurora/source/com/intellij/ant/execution/ExecutionHandler.java
+:100644 100644 7492efe c8621dc M	Aurora/source/com/intellij/execution/RunManager.java
+:100644 100644 e975321 0257f8b M	Aurora/source/com/intellij/execution/filters/Filter.java
+:100644 100644 ab534b8 3793cf2 M	Aurora/source/com/intellij/execution/filters/impl/RegexpFilterFactoryImpl.java
+:100644 100644 6d2c492 22c37eb M	Aurora/source/com/intellij/execution/filters/impl/RegexpFilterImpl.java
+:100644 100644 fc88efe 7242364 M	Aurora/source/com/intellij/openapi/execution/CantRunException.java
+:100644 100644 1d53619 de1216c M	Aurora/testSource/com/intellij/execution/filters/RegexpFilterFactoryTest.java
+
+commit 42f68db9e49477d330ac581334e81bef30abd714 b945ae767fb08d3fd3e7eb79838de4ec27db8f9d
+Author: dyoma <>
+Date:   Thu Dec 11 16:38:23 2003 +0000
+
+    no message
+
+:100644 100644 1830aa7 ee47e06 M	Aurora/source/com/intellij/ui/TextFieldWithBrowseButton.java
+
+commit 152d3e3f9f7105c3fb31865ee7f8b3104b17cd49 567baece1d0fb4de8a3d260f7dbacaa2b5ddc622
+Author: dyoma <>
+Date:   Thu Dec 11 16:15:55 2003 +0000
+
+    no message
+
+:100644 100644 f3f966c e94dec4 M	Aurora/source/com/intellij/execution/junit/TestObject.java
+:000000 100644 0000000 731150d A	Aurora/source/com/intellij/internal/saveDump/api/MemoryWalker.java
+:100644 100644 c0d397e 0599d76 M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+:100644 100644 db57a84 320d572 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+:100644 100644 e4ebf48 fc88efe M	Aurora/source/com/intellij/openapi/execution/CantRunException.java
+:100644 100644 f58d75b b3c818a M	Aurora/testSource/com/intellij/internal/saveDump/api/impl2/data/raw/RawDataLoaderTestCase.java
+
+commit 723a7716ba0326cddf5095b2e731e810599b73a8 888a5d04b6222e93dad108b45267346862b3717f
+Author: dyoma <>
+Date:   Thu Dec 11 15:28:37 2003 +0000
+
+    no message
+
+:000000 100644 0000000 bdbdec4 A	Aurora/source/com/intellij/ide/actions/BaseNavidateToSourceAction.java
+:100644 100644 4a42cab a634306 M	Aurora/source/com/intellij/ide/actions/EditSourceAction.java
+:100644 100644 e528529 d5241c7 M	Aurora/source/com/intellij/ide/actions/ViewSourceAction.java
+:100644 100644 3d14bf6 33aa29a M	Aurora/source/com/intellij/ide/actions/ViewStructureAction.java
+:100644 100644 f9c8a1e 48f1cf7 M	Aurora/source/com/intellij/ide/commander/CommanderPanel.java
+:100644 100644 a12e09a 89eb1cc M	Aurora/source/com/intellij/ide/util/FileStructureDialog.java
+:100644 100644 cfe8082 6569e2e M	Aurora/source/com/intellij/openapi/actionSystem/ex/DataConstantsEx.java
+:100644 100644 b492a69 78d5f34 M	Aurora/source/com/intellij/openapi/diff/impl/util/DiffPanelOutterComponent.java
+:100644 100644 9e63f19 9450cf4 M	Aurora/source/com/intellij/ui/TreeSpeedSearch.java
+
+commit 54ae163bf60dbfb0d15a47fa0d613488f50feb8a e9656defbf61e997bd85bd4274de347b37da546b
+Author: dyoma <>
+Date:   Thu Dec 11 12:08:46 2003 +0000
+
+    no message
+
+:100644 100644 2509aaf 3ee68c4 M	Aurora/source/com/intellij/execution/junit2/configuration/RunConfigurationModule.java
+
+commit 05ef7a54d495cfca909de3746ec31846cfb6d45b 33115040b36c12790c95ba986831eba475488aae
+Author: dyoma <>
+Date:   Wed Dec 10 19:14:59 2003 +0000
+
+    no message
+
+:100644 100644 46bde06 d20b8ec M	Aurora/source/com/intellij/ui/MultilineTreeCellRenderer.java
+
+commit 88139076c154a9a708d9ae5a4a28142f5bc8004e 2096ff4463b01b603a7e2ea3e2cb7d50a1b9cad7
+Author: dyoma <>
+Date:   Wed Dec 10 18:10:33 2003 +0000
+
+    no message
+
+:100644 100644 8069228 39f94c7 M	Aurora/source/com/intellij/openapi/roots/ui/util/CompositeAppearance.java
+:100644 100644 93ece1b 005df71 M	Aurora/source/com/intellij/usageView/impl/HighlightableUTCellRenderer.java
+:100644 100644 7e7da3f a73f2d3 M	Aurora/testSource/com/intellij/openapi/roots/ui/util/CompositeAppearanceTest.java
+
+commit 5c0c13667dcf337399a7fde9f823062e2f905355 5491efd62ef5ae99fbd10d3a7ea4844cf7977245
+Author: dyoma <>
+Date:   Wed Dec 10 17:00:00 2003 +0000
+
+    no message
+
+:100644 100644 8f8fcbf 4d91d62 M	Aurora/source/com/intellij/execution/junit2/ui/table/BaseTableView.java
+:100644 100644 8293d43 9cac3e6 M	Aurora/source/com/intellij/ide/util/PropertiesComponent.java
+:100644 100644 6cc6d8b 3df1731 M	Aurora/source/com/intellij/openapi/diff/impl/incrementalMerge/DiffRangeMarker.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 78c052b91ef4d2e32bd3adeb7e5cb6bc0b19f4c2 9331a728968412ca9f82d55711497e4aebd4101c
+Author: dyoma <>
+Date:   Mon Sep 29 12:33:53 2003 +0000
+
+    no message
+
+commit 4a6671f923e9c6914578d46aef2ebc2b0809fd0c a529b6f204ccba061199ef63da84b8f070214649
+Author: dyoma <>
+Date:   Mon Sep 29 10:47:01 2003 +0000
+
+    no message
+
+:100644 100644 c441ae1 e0c69a4 M	Aurora/source/com/intellij/openapi/diff/impl/splitter/DiffDividerPaint.java
+
+commit 1ab031215cb23f4dd9ab8f26b775c5311dfca595 b43ba1a862337a101856281167a0ff0866bb3ff3
+Author: dyoma <>
+Date:   Mon Sep 29 10:00:48 2003 +0000
+
+    no message
+
+:100644 100644 583449f f36de45 M	Aurora/source/com/intellij/openapi/vcs/ui/exclude/SortedListModel.java
+
+commit 7e64cc68289e406196feba9142b27286e51707d6 993c50df0591296b2136e81bbe6b798e41facd7d
+Author: dyoma <>
+Date:   Mon Sep 29 05:52:44 2003 +0000
+
+    no message
+
+:100644 100644 fc09448 df89a5b M	Aurora/source/com/intellij/openapi/fileChooser/impl/FileSystemTree.java
+
+commit 183eb920b32f043fb9fd8ce07f3b4afce4e26d66 6ba7c7ff08f9ec87ada47384fc861ac7a771d6ad
+Author: dyoma <>
+Date:   Sun Sep 28 18:56:39 2003 +0000
+
+    no message
+
+:100644 100644 87dab87 fc09448 M	Aurora/source/com/intellij/openapi/fileChooser/impl/FileSystemTree.java
+:100644 100644 675a81e 22c268a M	Aurora/source/com/intellij/openapi/roots/ui/multiModule/DialogBuilder.java
+:100644 100644 071f8ec 583449f M	Aurora/source/com/intellij/openapi/vcs/ui/exclude/SortedListModel.java
+:100644 100644 da8e016 bba629e M	Aurora/source/com/intellij/util/containers/ContainerUtil.java
+:100644 100644 0568822 71862d7 M	Aurora/source/com/intellij/util/containers/ConvertingIterator.java
+:100644 100644 1669c02 4f3198c M	Aurora/source/com/intellij/util/containers/FilteringIterator.java
+:100644 100644 f2455e7 962c263 M	Aurora/source/com/intellij/util/containers/WeakReferenceArray.java
+:000000 100644 0000000 8627303 A	Aurora/testSource/com/intellij/mock/MockFileSystem.java
+:100644 100644 47f2c3a 38ea442 M	Aurora/testSource/com/intellij/openapi/vcs/ui/exclude/SortedListModelTest.java
+:000000 100644 0000000 86a5d78 A	Aurora/testSource/com/intellij/util/containers/FilteringIteratorTest.java
+:100644 100644 9345964 9d37e22 M	Aurora/testSource/com/intellij/util/containers/WeakReferenceArrayTest.java
+:100644 100644 70bb8d3 52ed542 M	Aurora/testSource/com/intellij/util/containers/WeaksTestCase.java
+
+commit b739dbc1892b17d87ed4f28f8197b5c9eaedcc4b 5f55f7149308f2b7b5bd0abcb5d4a17068261937
+Author: dyoma <>
+Date:   Fri Sep 26 11:42:24 2003 +0000
+
+    no message
+
+:100644 100644 cd9b41b d578202 M	Aurora/source/com/intellij/openapi/diff/actions/CompareClipboardWithSelection.java
+
+commit baf4f4e5e293f22e09e8ba27ba8616bed1f33314 4fcd22186fcbae69e16d500b6c8228d0785ad259
+Author: dyoma <>
+Date:   Thu Sep 25 19:26:06 2003 +0000
+
+    no message
+
+:100644 100644 f84c029 de429c0 M	Aurora/source/com/intellij/execution/junit2/ui/ConsolePanel.java
+
+commit 4fcd22186fcbae69e16d500b6c8228d0785ad259 5e90d1da7127992c9413143d27fd94a9ef6f0a8d
+Author: dyoma <>
+Date:   Thu Sep 25 17:44:05 2003 +0000
+
+    no message
+
+:100644 100644 598eddb 8fef62f M	Aurora/source/com/intellij/openapi/diff/impl/DiffUtil.java
+
+commit 5e90d1da7127992c9413143d27fd94a9ef6f0a8d 5cce15017df9f2175c552c13be4cc33c7b6fb94c
+Author: dyoma <>
+Date:   Thu Sep 25 17:12:29 2003 +0000
+
+    no message
+
+:100644 100644 da7d8c0 be61392 M	Aurora/plugins/starteam/source/com/intellij/vcs/starteam/ShowHistoryFrame.java
+:100644 100644 79a79cd f7019a4 M	Aurora/plugins/starteam/source/com/intellij/vcs/starteam/actions/DiffDialog.java
+:100644 100644 fb488ef 9239ba2 M	Aurora/plugins/starteam/source/com/intellij/vcs/starteam/actions/DiffWindow.java
+:100644 100644 701d614 e7e6612 M	Aurora/source/com/intellij/localVcs/ui/FileHistoryDialog.java
+:100644 100644 d9a0cbf ca30ca6 M	Aurora/source/com/intellij/openapi/diff/DiffPanel.java
+:100644 100644 96a9739 598eddb M	Aurora/source/com/intellij/openapi/diff/impl/DiffUtil.java
+:100644 100644 a7efdf2 715f76c M	Aurora/source/com/intellij/openapi/diff/impl/external/DiffTool.java
+:100644 100644 68f1647 3f1debd M	Aurora/source/com/intellij/openapi/vcs/history/impl/VcsHistoryDialog.java
+:100644 100644 0aec5f6 9ffa1c4 M	Aurora/testSource/com/intellij/openapi/diff/impl/BaseDiffTestCase.java
+
+commit 5cce15017df9f2175c552c13be4cc33c7b6fb94c b3e2b59cf52f993591ee1ce33ae1e8568d47c12d
+Author: dyoma <>
+Date:   Thu Sep 25 17:03:51 2003 +0000
+
+    #16968
+
+:100644 100644 8159039 46e54d9 M	Aurora/testData/diff/bug1.lines1
+:100644 100644 362bf4b 04d3e64 M	Aurora/testData/diff/bug2.lines1
+:100644 100644 1d629f5 70663e7 M	Aurora/testData/diff/bug3.lines1
+:100644 100644 280692d 2115a7b M	Aurora/testData/diff/bug4.lines1
+:100644 100644 cff9352 18905d2 M	Aurora/testData/diff/changes.lines1
+:100644 100644 186eb00 01985d8 M	Aurora/testData/diff/empty.lines1
+:100644 100644 94d18a6 c48c17a M	Aurora/testData/diff/emptyLine.lines1
+:100644 100644 4063076 6972f8a M	Aurora/testData/diff/formatting.lines1
+:100644 100644 c86865c 60176bc M	Aurora/testData/diff/lineShift.lines1
+:100644 100644 273afa0 779b8e9 M	Aurora/testData/diff/shift.lines1
+:100644 100644 929b7bb 5df05d0 M	Aurora/testData/diff/wordsFirst.lines1
+:100644 100644 e14d5b7 49cb056 M	Aurora/testSource/com/intellij/openapi/diff/impl/DiffFilesTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 7a1a4b49985fdda88b67dc9b86a84f3db7e2060b b5dd8f75f399c6183eaa1fca125b4e3acec1773a
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:15 2003 +0000
+
+    no message
+
+commit b5dd8f75f399c6183eaa1fca125b4e3acec1773a 9d703fa2f4496f9acdbb582fc898b11c365d3741
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:14 2003 +0000
+
+    no message
+
+:100644 100644 cf26b01 d81637a M	Aurora/source/com/intellij/internal/saveDump/test/ReloadTests.java
+
+commit 9d703fa2f4496f9acdbb582fc898b11c365d3741 5dfb920bff4cc51e5d72147738ff812ac07721c9
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:13 2003 +0000
+
+    no message
+
+:000000 100644 0000000 b2f97d0 A	Aurora/source/com/intellij/internal/saveDump/test/QueueTests.java
+
+commit 5dfb920bff4cc51e5d72147738ff812ac07721c9 fe7f208042e3b4d030aee805a892cef6d64f38db
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:12 2003 +0000
+
+    no message
+
+:100644 100644 f7de016 688961f M	Aurora/source/com/intellij/internal/saveDump/test/ObjectInfoTests.java
+
+commit fe7f208042e3b4d030aee805a892cef6d64f38db 07ec5369107c7fbd44e5490c96c3957312bac951
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:11 2003 +0000
+
+    no message
+
+:100644 100644 548351e e0cbcd6 M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+
+commit 07ec5369107c7fbd44e5490c96c3957312bac951 d9ed54288782a8e3497dff3442fc2fe176e54e68
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:10 2003 +0000
+
+    no message
+
+:100644 100644 712f9a8 fd48609 M	Aurora/source/com/intellij/internal/saveDump/test/AcceptanceTests.java
+
+commit d9ed54288782a8e3497dff3442fc2fe176e54e68 c2a5c4c97511460637577ab0b6b52042fa4ca213
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:09 2003 +0000
+
+    no message
+
+:100644 100644 f779f38 c814dcb M	Aurora/source/com/intellij/internal/saveDump/store/Queue.java
+
+commit c2a5c4c97511460637577ab0b6b52042fa4ca213 7b4e35a99d369eb1fbe7988d10e54e32ce8434fb
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:08 2003 +0000
+
+    no message
+
+:100644 100644 8961c11 db57a84 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+
+commit 7b4e35a99d369eb1fbe7988d10e54e32ce8434fb a5534357ca678ab54d9b219c334fd9732b9b9299
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:07 2003 +0000
+
+    no message
+
+:100644 100644 ba31462 cb3a098 M	Aurora/source/com/intellij/internal/saveDump/store/Main.java
+
+commit a5534357ca678ab54d9b219c334fd9732b9b9299 dd2cc872239ab4ad310cb435806d91488497d3a6
+Author: dyoma <>
+Date:   Thu Mar 27 17:23:06 2003 +0000
+
+    no message
+
+:100644 100644 b98ca4b 837d78e M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 90e06142c1f5ab7161adce82f738d191391b8b72 ff0b3aed8778476531556e095a59e9b26ed3369b
+Author: dyoma <>
+Date:   Thu Mar 27 10:55:39 2003 +0000
+
+    no message
+
+commit ff0b3aed8778476531556e095a59e9b26ed3369b 5da03fc57b886e7598674825fbe707cc3c3d91c4
+Author: dyoma <>
+Date:   Thu Mar 27 10:55:38 2003 +0000
+
+    no message
+
+:100644 100644 53032af c92d514 M	Aurora/source/com/intellij/execution/junit2/ui/model/JUnitRunningModel.java
+:100644 100644 b1d4ffb ef8672a M	Aurora/source/com/intellij/glue/WebReferencesConfigurable.java
+:100644 100644 6387f2d a737bc0 M	Aurora/source/com/intellij/glue/WebReferencesManager.java
+:100644 100644 a3c1e24 e2489d1 M	Aurora/source/com/intellij/glue/core/config/GlueConfiguration.java
+:100644 100644 3bf7a69 2e3d4e4 M	Aurora/source/com/intellij/glue/core/glue/CannotLoadWSDLException.java
+:100644 100644 33eb2ea ddf1d0e M	Aurora/source/com/intellij/glue/core/glue/GlueInternalException.java
+:100644 100644 0609bda 4620f67 M	Aurora/source/com/intellij/glue/core/glue/InvalidGlueConfigurationException.java
+:100644 100644 bf9d17e abe2675 M	Aurora/source/com/intellij/glue/core/glue/MissedGlueLicenseException.java
+:100644 100644 36294e3 4194896 M	Aurora/source/com/intellij/glue/core/repository/CannotAddWebReferenceException.java
+:100644 100644 f16c355 3c228af M	Aurora/source/com/intellij/glue/core/repository/RepositoryInternalException.java
+:100644 100644 19c8e48 1a57b9d M	Aurora/source/com/intellij/glue/core/repository/impl/RepositoryImpl.java
+:100644 100644 c8f2f82 9a14132 M	Aurora/source/com/intellij/glue/core/webref/reference/WebReference.java
+:100644 100644 0ad5544 eda18fe M	Aurora/source/com/intellij/glue/core/webref/toolkit/CannotCreateWebReferenceException.java
+:100644 100644 aff8a4f 001c680 M	Aurora/source/com/intellij/glue/core/webref/toolkit/WebReferenceToolkit.java
+:100644 100644 dfb58d5 ea5cc3f M	Aurora/source/com/intellij/glue/core/webref/toolkit/WebReferenceToolkitInternalException.java
+:100644 100644 a518ee6 a522734 M	Aurora/source/com/intellij/glue/core/webref/toolkit/impl/WebReferenceToolkitImpl.java
+:100644 100644 849e0cf 823d5c0 M	Aurora/source/com/intellij/glue/ui/Shared.java
+:100644 100644 2af5ec8 52d4340 M	Aurora/source/com/intellij/glue/ui/config/GlueConfigurableComponent.java
+:100644 100644 f879308 3b59d26 M	Aurora/source/com/intellij/glue/ui/config/GlueConfigurableComponentLayout.java
+:100644 100644 c22d8f7 998ecce M	Aurora/source/com/intellij/glue/ui/repository/RepositoryTreeBuilder.java
+:100644 100644 e280855 890088a M	Aurora/source/com/intellij/glue/ui/repository/RepositoryTreeStructure.java
+:100644 100644 9f5fde7 37f9a1c M	Aurora/source/com/intellij/glue/ui/repository/RepositoryViewImpl.java
+:100644 100644 1309fe6 16ff382 M	Aurora/source/com/intellij/glue/ui/webref/AbstractAddWebReferenceDialog.java
+:100644 100644 b47a771 e958d17 M	Aurora/source/com/intellij/glue/ui/webref/AddWebReferenceDialogLayout.java
+:100644 100644 4d721a4 4830be9 M	Aurora/source/com/intellij/glue/ui/webref/AffectedFilesDialog.java
+:100644 100644 18692fb b448546 M	Aurora/source/com/intellij/glue/ui/webref/WsdlUrlEditor.java
+:100644 100644 a5d1e43 766561c M	Aurora/source/com/intellij/glue/utils/exception/RootException.java
+:100644 100644 ad7e974 94471d1 M	Aurora/source/com/intellij/glue/utils/exception/RootRuntimeException.java
+:100644 100644 1ad7218 87d4f25 M	Aurora/source/com/intellij/glue/utils/idea/threading/AbstractWaiter.java
+:100644 100644 eca3bb6 91a7e65 M	Aurora/source/com/intellij/glue/utils/idea/threading/ActiveRunnable.java
+:100644 100644 e3d0931 79d93a2 M	Aurora/source/com/intellij/glue/utils/idea/threading/ActiveRunnableWrapper.java
+:100644 100644 d2a4d32 86f9b2b M	Aurora/source/com/intellij/glue/utils/idea/threading/CommandWaiter.java
+:100644 100644 0d73ca5 702797c M	Aurora/source/com/intellij/glue/utils/idea/threading/WriteActionWaiter.java
+:100644 100644 b34c62a 0c43b71 M	Aurora/source/com/intellij/glue/utils/idea/threading/WriteActionWorker.java
+:100644 100644 124345c c1b1a25 M	Aurora/source/com/intellij/glue/utils/misc/FileUtil.java
+:100644 100644 c948cc2 d9aca77 M	Aurora/source/com/intellij/glue/utils/properties/CannotCheckModificationException.java
+:100644 100644 c97b67b c34b86c M	Aurora/source/com/intellij/glue/utils/properties/CannotCommitChangesException.java
+:100644 100644 82193f1 a4a849a M	Aurora/source/com/intellij/glue/utils/properties/CannotRollbackChangesException.java
+:100644 100644 5df8cb2 7c45d04 M	Aurora/source/com/intellij/glue/utils/properties/CommitablePropertyContainer.java
+:100644 100644 b05729f dac722e M	Aurora/source/com/intellij/glue/utils/properties/NoSuchPropertyException.java
+:100644 100644 6541cc3 65d2556 M	Aurora/source/com/intellij/glue/utils/properties/PropertyContainer.java
+:100644 100644 45936ce d3a8d96 M	Aurora/source/com/intellij/glue/utils/properties/PropertyContainerRuntimeException.java
+:100644 100644 9b47476 577d0ff M	Aurora/source/com/intellij/glue/utils/properties/SilentCommitablePropertyContainer.java
+:100644 100644 7f20b1c 362dfbe M	Aurora/source/com/intellij/glue/utils/properties/impl/BooleanOperator.java
+:100644 100644 3126c7a 547cd24 M	Aurora/source/com/intellij/glue/utils/properties/impl/CannotCloneException.java
+:100644 100644 bc7cd96 6f696f0 M	Aurora/source/com/intellij/glue/utils/properties/impl/CommitablePropertyContainerImpl.java
+:100644 100644 eda22d0 5464aac M	Aurora/source/com/intellij/glue/utils/properties/impl/ListOperator.java
+:100644 100644 296c130 032c91e M	Aurora/source/com/intellij/glue/utils/properties/impl/PropertyConstants.java
+:100644 100644 d81cb56 edc7a45 M	Aurora/source/com/intellij/glue/utils/properties/impl/PropertyContainerImpl.java
+:100644 100644 89f005a 7816cee M	Aurora/source/com/intellij/glue/utils/properties/impl/SilentCommitablePropertyContainerImpl.java
+:100644 100644 d9cde03 eb0ed19 M	Aurora/source/com/intellij/glue/utils/properties/impl/SimpleOperator.java
+:100644 100644 ebf7c1c 852601d M	Aurora/source/com/intellij/glue/utils/properties/impl/StringOperator.java
+:100644 100644 cc5c9db 1896f67 M	Aurora/source/com/intellij/glue/utils/properties/impl/ValueOperator.java
+:100644 100644 bf84a3c 50b7b0c M	Aurora/source/com/intellij/glue/utils/properties/test/CommitablePropertyContainerTest.java
+:100644 100644 3c604e1 3751d28 M	Aurora/source/com/intellij/glue/utils/properties/test/PropertyContainerTest.java
+:100644 100644 79396d8 52e6717 M	Aurora/source/com/intellij/glue/utils/properties/test/PropertyContainerTestCase.java
+:100644 100644 cd4ea02 d1d1fdf M	Aurora/source/com/intellij/glue/utils/ui/GuiUtils.java
+:100644 100644 cc8eadc 9dd9def M	Aurora/source/com/intellij/glue/utils/ui/GuiWorker.java
+:100644 100644 17e11f1 313bca8 M	Aurora/source/com/intellij/glue/utils/ui/components/EnableablePanel.java
+:100644 100644 750a2ad 4786458 M	Aurora/source/com/intellij/glue/utils/ui/components/TextFieldWithHistory.java
+:100644 100644 e33af14 2b91305 M	Aurora/source/com/intellij/glue/utils/ui/tree/SymbolicPathsList.java
+:100644 100644 74e9b62 d8a6556 M	Aurora/source/com/intellij/glue/utils/ui/tree/SymbolicTreePath.java
+:100644 100644 121d905 fde6bd5 M	Aurora/source/com/intellij/glue/utils/ui/tree/TreeUtil.java
+:100644 100644 b1ec362 a57e09c M	Aurora/source/com/intellij/glue/utils/ui/tree/test/SymbolicPathsListTest.java
+:100644 100644 26f2eb1 c144a1c M	Aurora/source/com/intellij/glue/utils/ui/tree/test/SymbolicTreePathTest.java
+:100644 100644 add502d d6592d4 M	Aurora/source/com/intellij/internal/saveDump/SaveDumpAction.java
+:100644 100644 5f3c042 3406560 M	Aurora/source/com/intellij/internal/saveDump/bind/BindedDump.java
+:100644 100644 9ba18d3 6376117 M	Aurora/source/com/intellij/internal/saveDump/load/Dump.java
+:100644 100644 4259f8b a0660f1 M	Aurora/source/com/intellij/internal/saveDump/load/DumpViewer.java
+:100644 100644 f5c0484 b98ca4b M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+:100644 100644 5a10c78 ba31462 M	Aurora/source/com/intellij/internal/saveDump/store/Main.java
+:000000 100644 0000000 f779f38 A	Aurora/source/com/intellij/internal/saveDump/store/Queue.java
+:100644 100644 fd48609 712f9a8 M	Aurora/source/com/intellij/internal/saveDump/test/AcceptanceTests.java
+:100644 100644 d5af755 548351e M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+:100644 100644 f09d017 1fd445f M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+:100644 100644 3727873 cf26b01 M	Aurora/source/com/intellij/internal/saveDump/test/ReloadTests.java
+:100644 100644 53a73da 5aef4ba M	Aurora/source/com/intellij/util/io/FileUtil.java
+
+commit 40ae2c3e5d28a04cd89a15d4ece7b0dafd272748 1dab8eb309575111d85456404eb1ffc305f21799
+Author: dyoma <>
+Date:   Wed Mar 26 17:22:13 2003 +0000
+
+    no message
+
+:100644 100644 139a8d1 42eab53 M	Aurora/source/com/intellij/internal/saveDump/bind/ui/ObjectTree.java
+:100644 100644 860f912 4259f8b M	Aurora/source/com/intellij/internal/saveDump/load/DumpViewer.java
+
+commit 032fe882af19621f6855c26c73f9bb75eecf296b a6c63c4afbd4a5a864e88b9ba0d464185ffe4c91
+Author: dyoma <>
+Date:   Wed Mar 26 16:20:07 2003 +0000
+
+    no message
+
+commit a6c63c4afbd4a5a864e88b9ba0d464185ffe4c91 9641a06b20a44ca3aed94804a276ec99660c6d13
+Author: dyoma <>
+Date:   Wed Mar 26 16:20:06 2003 +0000
+
+    no message
+
+:000000 100644 0000000 27bfecd A	Aurora/source/com/intellij/internal/saveDump/api/impl/ArrayReference.java
+:100644 100644 296bb3c 43008e5 M	Aurora/source/com/intellij/internal/saveDump/api/impl/ObjectGraphImpl.java
+:000000 100644 0000000 7500463 A	Aurora/source/com/intellij/internal/saveDump/api/impl/ObjectReferenceImpl.java
+:000000 100644 0000000 11e10c4 A	Aurora/source/com/intellij/internal/saveDump/api/impl/SimpleLink.java
+:100644 100644 5ea70fc 6cb954b M	Aurora/source/com/intellij/internal/saveDump/bind/BindedArray.java
+:100644 100644 88ed18b 47a9349 M	Aurora/source/com/intellij/internal/saveDump/bind/BindedClass.java
+:100644 100644 93cda5a 5f3c042 M	Aurora/source/com/intellij/internal/saveDump/bind/BindedDump.java
+:100644 100644 d40bae2 211c51d M	Aurora/source/com/intellij/internal/saveDump/bind/BindedObject.java
+:100644 100644 37a03aa 5a49b09 M	Aurora/source/com/intellij/internal/saveDump/load/ClassObject.java
+:100644 100644 8c9a2cf 01e7b85 M	Aurora/source/com/intellij/internal/saveDump/load/GenericObject.java
+:100644 100644 a6f1a32 ddf3d50 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedArray.java
+:100644 100644 437daac e731fee M	Aurora/source/com/intellij/internal/saveDump/load/LoadedObject.java
+:100644 100644 627f0e6 3fae0d2 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedPrimitiveArray.java
+:100644 100644 88d6619 f5c0484 M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+:100644 100644 a505b22 8961c11 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+:100644 100644 69c1b26 288d4d1 M	Aurora/source/com/intellij/internal/saveDump/test/ApiTests.java
+:100644 100644 4a192b2 d5af755 M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+:100644 100644 0c07dec f09d017 M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+:100644 100644 3c31021 d5300f5 M	Aurora/source/com/intellij/internal/scanReferences/RefScanner.java
+
+commit 2f5402a1c57f2aae52aeaa72d56cc3461a65bef2 eab07229e66c1d0b88569caa80586dfa6af48ed1
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:42 2003 +0000
+
+    no message
+
+commit eab07229e66c1d0b88569caa80586dfa6af48ed1 dedd8e86548f7e6664102e75df8c890b18a055f2
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:41 2003 +0000
+
+    no message
+
+:100644 100644 71394d7 a505b22 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+:000000 100644 0000000 d16b568 A	Aurora/source/com/intellij/internal/saveDump/store/OutgoingLink.java
+:100644 100644 e820280 fd48609 M	Aurora/source/com/intellij/internal/saveDump/test/AcceptanceTests.java
+:000000 100644 0000000 69c1b26 A	Aurora/source/com/intellij/internal/saveDump/test/ApiTests.java
+:100644 100644 1aaf0fa 3c528be M	Aurora/source/com/intellij/internal/saveDump/test/BaseDumpingTests.java
+:100644 100644 8451085 4a192b2 M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+:100644 100644 1b76b7e 0c07dec M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+:000000 100644 0000000 f7de016 A	Aurora/source/com/intellij/internal/saveDump/test/ObjectInfoTests.java
+:100644 100644 ce32a5c 3727873 M	Aurora/source/com/intellij/internal/saveDump/test/ReloadTests.java
+:100644 000000 38260a7 0000000 D	Aurora/source/com/intellij/internal/saveDump/test/StoringTests.java
+:000000 100644 0000000 13f6dcf A	Aurora/source/com/intellij/internal/saveDump/test/TypeInfoTests.java
+
+commit dedd8e86548f7e6664102e75df8c890b18a055f2 7cca18cdd9c616bc28de37c38dea4e395ea36d06
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:40 2003 +0000
+
+    no message
+
+:100644 100644 b64f674 9bc32d0 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectEnumerator.java
+
+commit 7cca18cdd9c616bc28de37c38dea4e395ea36d06 ea23aafea16b5a9f3d35fa1e70925a083733b0b8
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:39 2003 +0000
+
+    no message
+
+:100644 100644 f4a89ea 88d6619 M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+
+commit ea23aafea16b5a9f3d35fa1e70925a083733b0b8 4afb6b4dc27ce2435631982690fc2dcf9b2664ae
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:38 2003 +0000
+
+    no message
+
+:000000 100644 0000000 3daf680 A	Aurora/source/com/intellij/internal/saveDump/load/SimpleLoadedObject.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 032fe882af19621f6855c26c73f9bb75eecf296b a6c63c4afbd4a5a864e88b9ba0d464185ffe4c91
+Author: dyoma <>
+Date:   Wed Mar 26 16:20:07 2003 +0000
+
+    no message
+
+commit a6c63c4afbd4a5a864e88b9ba0d464185ffe4c91 9641a06b20a44ca3aed94804a276ec99660c6d13
+Author: dyoma <>
+Date:   Wed Mar 26 16:20:06 2003 +0000
+
+    no message
+
+:000000 100644 0000000 27bfecd A	Aurora/source/com/intellij/internal/saveDump/api/impl/ArrayReference.java
+:100644 100644 296bb3c 43008e5 M	Aurora/source/com/intellij/internal/saveDump/api/impl/ObjectGraphImpl.java
+:000000 100644 0000000 7500463 A	Aurora/source/com/intellij/internal/saveDump/api/impl/ObjectReferenceImpl.java
+:000000 100644 0000000 11e10c4 A	Aurora/source/com/intellij/internal/saveDump/api/impl/SimpleLink.java
+:100644 100644 5ea70fc 6cb954b M	Aurora/source/com/intellij/internal/saveDump/bind/BindedArray.java
+:100644 100644 88ed18b 47a9349 M	Aurora/source/com/intellij/internal/saveDump/bind/BindedClass.java
+:100644 100644 93cda5a 5f3c042 M	Aurora/source/com/intellij/internal/saveDump/bind/BindedDump.java
+:100644 100644 d40bae2 211c51d M	Aurora/source/com/intellij/internal/saveDump/bind/BindedObject.java
+:100644 100644 37a03aa 5a49b09 M	Aurora/source/com/intellij/internal/saveDump/load/ClassObject.java
+:100644 100644 8c9a2cf 01e7b85 M	Aurora/source/com/intellij/internal/saveDump/load/GenericObject.java
+:100644 100644 a6f1a32 ddf3d50 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedArray.java
+:100644 100644 437daac e731fee M	Aurora/source/com/intellij/internal/saveDump/load/LoadedObject.java
+:100644 100644 627f0e6 3fae0d2 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedPrimitiveArray.java
+:100644 100644 88d6619 f5c0484 M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+:100644 100644 a505b22 8961c11 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+:100644 100644 69c1b26 288d4d1 M	Aurora/source/com/intellij/internal/saveDump/test/ApiTests.java
+:100644 100644 4a192b2 d5af755 M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+:100644 100644 0c07dec f09d017 M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+:100644 100644 3c31021 d5300f5 M	Aurora/source/com/intellij/internal/scanReferences/RefScanner.java
+
+commit 2f5402a1c57f2aae52aeaa72d56cc3461a65bef2 eab07229e66c1d0b88569caa80586dfa6af48ed1
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:42 2003 +0000
+
+    no message
+
+commit eab07229e66c1d0b88569caa80586dfa6af48ed1 dedd8e86548f7e6664102e75df8c890b18a055f2
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:41 2003 +0000
+
+    no message
+
+:100644 100644 71394d7 a505b22 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+:000000 100644 0000000 d16b568 A	Aurora/source/com/intellij/internal/saveDump/store/OutgoingLink.java
+:100644 100644 e820280 fd48609 M	Aurora/source/com/intellij/internal/saveDump/test/AcceptanceTests.java
+:000000 100644 0000000 69c1b26 A	Aurora/source/com/intellij/internal/saveDump/test/ApiTests.java
+:100644 100644 1aaf0fa 3c528be M	Aurora/source/com/intellij/internal/saveDump/test/BaseDumpingTests.java
+:100644 100644 8451085 4a192b2 M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+:100644 100644 1b76b7e 0c07dec M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+:000000 100644 0000000 f7de016 A	Aurora/source/com/intellij/internal/saveDump/test/ObjectInfoTests.java
+:100644 100644 ce32a5c 3727873 M	Aurora/source/com/intellij/internal/saveDump/test/ReloadTests.java
+:100644 000000 38260a7 0000000 D	Aurora/source/com/intellij/internal/saveDump/test/StoringTests.java
+:000000 100644 0000000 13f6dcf A	Aurora/source/com/intellij/internal/saveDump/test/TypeInfoTests.java
+
+commit dedd8e86548f7e6664102e75df8c890b18a055f2 7cca18cdd9c616bc28de37c38dea4e395ea36d06
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:40 2003 +0000
+
+    no message
+
+:100644 100644 b64f674 9bc32d0 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectEnumerator.java
+
+commit 7cca18cdd9c616bc28de37c38dea4e395ea36d06 ea23aafea16b5a9f3d35fa1e70925a083733b0b8
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:39 2003 +0000
+
+    no message
+
+:100644 100644 f4a89ea 88d6619 M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+
+commit ea23aafea16b5a9f3d35fa1e70925a083733b0b8 4afb6b4dc27ce2435631982690fc2dcf9b2664ae
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:38 2003 +0000
+
+    no message
+
+:000000 100644 0000000 3daf680 A	Aurora/source/com/intellij/internal/saveDump/load/SimpleLoadedObject.java
+
+commit 4afb6b4dc27ce2435631982690fc2dcf9b2664ae 9b9a4a5c2a17bce993d4d4d546866a289502026d
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:37 2003 +0000
+
+    no message
+
+:000000 100644 0000000 627f0e6 A	Aurora/source/com/intellij/internal/saveDump/load/LoadedPrimitiveArray.java
+
+commit 9b9a4a5c2a17bce993d4d4d546866a289502026d 05cb74e7b67bbd1337e43138e92292d1e504d541
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:36 2003 +0000
+
+    no message
+
+:100644 100644 fe2c065 437daac M	Aurora/source/com/intellij/internal/saveDump/load/LoadedObject.java
+
+commit 05cb74e7b67bbd1337e43138e92292d1e504d541 d6822608a186779fcdea68dd37cb5ad33f0310c4
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:35 2003 +0000
+
+    no message
+
+:100644 100644 288ec40 a6f1a32 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedArray.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 2f5402a1c57f2aae52aeaa72d56cc3461a65bef2 eab07229e66c1d0b88569caa80586dfa6af48ed1
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:42 2003 +0000
+
+    no message
+
+commit eab07229e66c1d0b88569caa80586dfa6af48ed1 dedd8e86548f7e6664102e75df8c890b18a055f2
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:41 2003 +0000
+
+    no message
+
+:100644 100644 71394d7 a505b22 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+:000000 100644 0000000 d16b568 A	Aurora/source/com/intellij/internal/saveDump/store/OutgoingLink.java
+:100644 100644 e820280 fd48609 M	Aurora/source/com/intellij/internal/saveDump/test/AcceptanceTests.java
+:000000 100644 0000000 69c1b26 A	Aurora/source/com/intellij/internal/saveDump/test/ApiTests.java
+:100644 100644 1aaf0fa 3c528be M	Aurora/source/com/intellij/internal/saveDump/test/BaseDumpingTests.java
+:100644 100644 8451085 4a192b2 M	Aurora/source/com/intellij/internal/saveDump/test/BaseRestoringTests.java
+:100644 100644 1b76b7e 0c07dec M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+:000000 100644 0000000 f7de016 A	Aurora/source/com/intellij/internal/saveDump/test/ObjectInfoTests.java
+:100644 100644 ce32a5c 3727873 M	Aurora/source/com/intellij/internal/saveDump/test/ReloadTests.java
+:100644 000000 38260a7 0000000 D	Aurora/source/com/intellij/internal/saveDump/test/StoringTests.java
+:000000 100644 0000000 13f6dcf A	Aurora/source/com/intellij/internal/saveDump/test/TypeInfoTests.java
+
+commit dedd8e86548f7e6664102e75df8c890b18a055f2 7cca18cdd9c616bc28de37c38dea4e395ea36d06
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:40 2003 +0000
+
+    no message
+
+:100644 100644 b64f674 9bc32d0 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectEnumerator.java
+
+commit 7cca18cdd9c616bc28de37c38dea4e395ea36d06 ea23aafea16b5a9f3d35fa1e70925a083733b0b8
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:39 2003 +0000
+
+    no message
+
+:100644 100644 f4a89ea 88d6619 M	Aurora/source/com/intellij/internal/saveDump/store/Dumper.java
+
+commit ea23aafea16b5a9f3d35fa1e70925a083733b0b8 4afb6b4dc27ce2435631982690fc2dcf9b2664ae
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:38 2003 +0000
+
+    no message
+
+:000000 100644 0000000 3daf680 A	Aurora/source/com/intellij/internal/saveDump/load/SimpleLoadedObject.java
+
+commit 4afb6b4dc27ce2435631982690fc2dcf9b2664ae 9b9a4a5c2a17bce993d4d4d546866a289502026d
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:37 2003 +0000
+
+    no message
+
+:000000 100644 0000000 627f0e6 A	Aurora/source/com/intellij/internal/saveDump/load/LoadedPrimitiveArray.java
+
+commit 9b9a4a5c2a17bce993d4d4d546866a289502026d 05cb74e7b67bbd1337e43138e92292d1e504d541
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:36 2003 +0000
+
+    no message
+
+:100644 100644 fe2c065 437daac M	Aurora/source/com/intellij/internal/saveDump/load/LoadedObject.java
+
+commit 05cb74e7b67bbd1337e43138e92292d1e504d541 d6822608a186779fcdea68dd37cb5ad33f0310c4
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:35 2003 +0000
+
+    no message
+
+:100644 100644 288ec40 a6f1a32 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedArray.java
+
+commit d6822608a186779fcdea68dd37cb5ad33f0310c4 9e269bcccde51cc89677317abed08528a7e77c5b
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:34 2003 +0000
+
+    no message
+
+:100644 100644 cc10a04 8c9a2cf M	Aurora/source/com/intellij/internal/saveDump/load/GenericObject.java
+
+commit 9e269bcccde51cc89677317abed08528a7e77c5b 923a902cf365a05358daf00cfc1b4ca7062667cd
+Author: dyoma <>
+Date:   Wed Mar 26 12:26:33 2003 +0000
+
+    no message
+
+:100644 100644 a454624 860f912 M	Aurora/source/com/intellij/internal/saveDump/load/DumpViewer.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit b601783a98d0d89dd44356abae35d258fdf1adc9 8fc5c0d265bcd2a1b36216f1430d794edb09850c
+Author: dyoma <>
+Date:   Tue Mar 25 10:10:03 2003 +0000
+
+    no message
+
+commit 8fc5c0d265bcd2a1b36216f1430d794edb09850c d760e624d3b7cc08e809ec995fab11797cfb1983
+Author: dyoma <>
+Date:   Tue Mar 25 10:10:02 2003 +0000
+
+    no message
+
+:100644 100644 1a37afa 1b76b7e M	Aurora/source/com/intellij/internal/saveDump/test/BindingTests.java
+
+commit d760e624d3b7cc08e809ec995fab11797cfb1983 78162a6ea319b3ce6a575d973393c1ab8883e49c
+Author: dyoma <>
+Date:   Tue Mar 25 10:10:01 2003 +0000
+
+    no message
+
+:100644 100644 30e781b 1aaf0fa M	Aurora/source/com/intellij/internal/saveDump/test/BaseDumpingTests.java
+
+commit 78162a6ea319b3ce6a575d973393c1ab8883e49c 14923e5e2424134c8d26675c90985a0d6696f7f6
+Author: dyoma <>
+Date:   Tue Mar 25 10:10:00 2003 +0000
+
+    no message
+
+:100644 100644 ff8344d 71394d7 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectInfo.java
+
+commit 14923e5e2424134c8d26675c90985a0d6696f7f6 14829fd94c4d37c2515d4666e154b180b184ef97
+Author: dyoma <>
+Date:   Tue Mar 25 10:09:59 2003 +0000
+
+    no message
+
+:100644 100644 18faca6 b64f674 M	Aurora/source/com/intellij/internal/saveDump/store/ObjectEnumerator.java
+
+commit 14829fd94c4d37c2515d4666e154b180b184ef97 eddbb781a5e7f73ca419b76af92897f99599fec6
+Author: dyoma <>
+Date:   Tue Mar 25 10:09:58 2003 +0000
+
+    no message
+
+:100644 100644 382e316 fe2c065 M	Aurora/source/com/intellij/internal/saveDump/load/LoadedObject.java
+
+commit eddbb781a5e7f73ca419b76af92897f99599fec6 fdedba2310520f340fb3c0eec0cb3f9a90ac9f70
+Author: dyoma <>
+Date:   Tue Mar 25 10:09:57 2003 +0000
+
+    no message
+
+:000000 100644 0000000 288ec40 A	Aurora/source/com/intellij/internal/saveDump/load/LoadedArray.java
+
+commit fdedba2310520f340fb3c0eec0cb3f9a90ac9f70 1df75e782ab0ac2f6d70de21d2c0390eae263be0
+Author: dyoma <>
+Date:   Tue Mar 25 10:09:56 2003 +0000
+
+    no message
+
+:100644 100644 76124d1 cc10a04 M	Aurora/source/com/intellij/internal/saveDump/load/GenericObject.java
+
+commit 1df75e782ab0ac2f6d70de21d2c0390eae263be0 91d76a5479207e3b0e4606b1924471a08e8a81b2
+Author: dyoma <>
+Date:   Tue Mar 25 10:09:55 2003 +0000
+
+    no message
+
+:100644 100644 cae903d 9081943 M	Aurora/source/com/intellij/internal/saveDump/load/ClassObject.java
+
+commit 91d76a5479207e3b0e4606b1924471a08e8a81b2 124a55cd500c7796d6003e9f849ae74ca985d363
+Author: dyoma <>
+Date:   Tue Mar 25 10:09:54 2003 +0000
+
+    no message
+
+:100644 100644 12f7315 139a8d1 M	Aurora/source/com/intellij/internal/saveDump/bind/ui/ObjectTree.java
