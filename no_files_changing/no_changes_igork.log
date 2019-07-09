@@ -1,0 +1,804 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0bcb6e0aead94e7682a6b9769b3286e61c85d03d 2f8adb4492f7a3fcfa35bb8cc937c47362ac37bc
+Author: igork <>
+Date:   Thu Jan 13 12:00:43 2005 +0000
+
+    test fixed
+
+commit 2f8adb4492f7a3fcfa35bb8cc937c47362ac37bc 1bbd220e1d5acdebc50fbbd785fde394f383e0b7
+Author: cdr <>
+Date:   Thu Jan 13 11:51:58 2005 +0000
+
+    fixed NPE
+
+:100644 100644 fa53920 7024875 M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/CreateParameterFromUsageAction.java
+:100644 100644 e81fc4c 40fa871 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeStyleManagerImpl.java
+:100644 100644 3b85981 391d7f7 M	Aurora/source/com/intellij/psi/impl/source/jsp/jspJava/JspHolderMethod.java
+:100644 100644 a45cbe2 ffcdbcc M	Aurora/source/com/intellij/psi/impl/source/jsp/jspJava/TranslatingChangesDummyHolder.java
+
+commit 1bbd220e1d5acdebc50fbbd785fde394f383e0b7 b15c0e40f659e7ea35ef4a64ca401a346b19d945
+Author: ven <>
+Date:   Thu Jan 13 11:49:03 2005 +0000
+
+    no message
+
+:100644 100644 d6ae482 b984f01 M	Aurora/source/com/intellij/codeInsight/folding/impl/FoldingPolicy.java
+:100644 100644 607d851 3351702 M	Aurora/source/com/intellij/codeInsight/folding/impl/FoldingUpdate.java
+
+commit b15c0e40f659e7ea35ef4a64ca401a346b19d945 6f6698995360d72fdc9e02c8a80d33d1fb874ac9
+Author: ven <>
+Date:   Thu Jan 13 11:36:09 2005 +0000
+
+    no message
+
+:100644 100644 dba7fb3 2ba1c4f M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightUtil.java
+:100644 100644 e59ec2a 089d0fa M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/AddExceptionToThrowsAction.java
+
+commit 6f6698995360d72fdc9e02c8a80d33d1fb874ac9 866239ab145a6ff1add095d74c5a4f7b1c17310c
+Author: Maxim.Mossienko <>
+Date:   Thu Jan 13 11:25:11 2005 +0000
+
+    TldDescriptors plugged
+
+:100644 100644 0c60de3 3afbb32 M	Aurora/source/com/intellij/jsp/impl/TldDescriptor.java
+:000000 100644 0000000 48e411f A	Aurora/source/com/intellij/psi/filters/position/RootTagFilter.java
+:100644 100644 9ccf6b7 26603f3 M	Aurora/source/com/intellij/psi/impl/meta/MetaRegistry.java
+:100644 100644 89b04c3 87b756a M	Aurora/source/com/intellij/psi/impl/source/jsp/tagLibrary/TldUtil.java
+:100644 100644 f89f559 df8a14d M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+:100644 000000 71865bd 0000000 D	Aurora/testData/codeInsight/daemonCodeAnalyzer/jspx/WEB-INF/example-taglib.tld
+:000000 100644 0000000 b8d7825 A	Aurora/testData/codeInsight/daemonCodeAnalyzer/jspx/WEB-INF/simple.jar
+:100644 100644 260d5c8 a548d5b M	Aurora/testSource/com/intellij/codeInsight/daemon/JspxHighlightingTest.java
+
+commit 866239ab145a6ff1add095d74c5a4f7b1c17310c fcdef48dee532f280fe7172ec15b3933e812f536
+Author: ven <>
+Date:   Thu Jan 13 11:06:18 2005 +0000
+
+    no message
+
+:100644 100644 c0275d2 054074a M	Aurora/source/com/intellij/codeInsight/completion/DefaultInsertHandler.java
+
+commit fcdef48dee532f280fe7172ec15b3933e812f536 a178b9cbf53d6e0a2116f560ef29ec515e851bff
+Author: builder <>
+Date:   Thu Jan 13 09:56:29 2005 +0000
+
+    Build failed
+
+:100644 100644 a398aeb 2539bca M	Aurora/build/version.properties
+
+commit a178b9cbf53d6e0a2116f560ef29ec515e851bff 0eeac6fa2d677c60361c56f4ea3d7024f74c0775
+Author: Maxim.Mossienko <>
+Date:   Thu Jan 13 09:28:14 2005 +0000
+
+    empty test for jspx highlighting
+
+:100644 100644 1e57b3d c8791fe M	Aurora/source/com/intellij/j2ee/openapi/impl/ExternalResourceManagerImpl.java
+:000000 100644 0000000 2efc2dd A	Aurora/source/com/intellij/jsp/impl/TldAttributeDescriptor.java
+:000000 100644 0000000 0c60de3 A	Aurora/source/com/intellij/jsp/impl/TldDescriptor.java
+:000000 100644 0000000 a051ebc A	Aurora/source/com/intellij/jsp/impl/TldTagDescriptor.java
+:000000 100644 0000000 9d3994a A	Aurora/testData/codeInsight/daemonCodeAnalyzer/jspx/Highlighting.jspx
+:000000 100644 0000000 71865bd A	Aurora/testData/codeInsight/daemonCodeAnalyzer/jspx/WEB-INF/example-taglib.tld
+:000000 100644 0000000 07ceb4c A	Aurora/testData/codeInsight/daemonCodeAnalyzer/jspx/default.iml
+:000000 100644 0000000 260d5c8 A	Aurora/testSource/com/intellij/codeInsight/daemon/JspxHighlightingTest.java
+
+commit 0eeac6fa2d677c60361c56f4ea3d7024f74c0775 29b7ff48fb17b2275d95f813392bbe0120180c0a
+Author: Maxim.Mossienko <>
+Date:   Thu Jan 13 09:18:31 2005 +0000
+
+    - fixed issue with wrong picking up markup by XmlLexer when the markup contains ] inside literal
+    - fixed regress in XmlLexer caused by Max/IK
+
+:100644 100644 97f77af 2af8fef M	Aurora/source/com/intellij/lexer/XmlHighlightingLexer.java
+:100644 100644 c17c5bb 58875ea M	Aurora/source/com/intellij/lexer/_XmlLexer.java
+:100644 100644 53b8b70 982b93e M	Aurora/testSource/com/intellij/codeInsight/daemon/XmlHighlightingTest.java
+:100644 100644 6f447f4 0d4f173 M	Aurora/tools/lexer/_XmlLexer.flex
+
+commit 29b7ff48fb17b2275d95f813392bbe0120180c0a ea61486ec66bc6bd08ca06a8dae12cee0ba32370
+Author: Maxim.Mossienko <>
+Date:   Thu Jan 13 09:13:17 2005 +0000
+
+    scripting background the same as in plain JSP
+
+:100644 100644 3247764 aa2d55a M	Aurora/source/com/intellij/ide/highlighter/JspxFileHighlighter.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 841254f1914f9348fbbd7ea7408013a079d17f70 664bfa82ce1d460d589695ef3acfabb652c0c91e
+Author: igork <>
+Date:   Tue Dec 7 20:44:16 2004 +0000
+
+    no message
+
+commit 664bfa82ce1d460d589695ef3acfabb652c0c91e 640e7ea33581d2124dd6d5da392b4d8916c66ef1
+Author: igork <>
+Date:   Tue Dec 7 19:38:39 2004 +0000
+
+    no message
+
+:100644 100644 0b18266 ce21d57 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlTagImpl.java
+
+commit 640e7ea33581d2124dd6d5da392b4d8916c66ef1 f44ed6ba51a5123ebe9e54660d63ac8f183af3ae
+Author: Maxim.Mossienko <>
+Date:   Tue Dec 7 19:29:42 2004 +0000
+
+    support unused selector highlighting
+
+:100644 100644 173072b a37dce9 M	Aurora/source/com/intellij/codeInsight/daemon/impl/RefCountHolder.java
+
+commit f44ed6ba51a5123ebe9e54660d63ac8f183af3ae df98802e3db7743f5895493c8c1c7a1e35a37e2a
+Author: lesya <>
+Date:   Tue Dec 7 19:28:58 2004 +0000
+
+    test
+
+:100644 100644 dae3fcb b8725dd M	Aurora/source/com/intellij/codeFormatting/xml/CurrentTagInfo.java
+:100644 100644 1a21a91 e9346fc M	Aurora/source/com/intellij/codeFormatting/xml/PseudoTextBuildingSession.java
+:100644 100644 43a261b 8ef653d M	Aurora/source/com/intellij/codeFormatting/xml/XmlPseudoText.java
+:100644 100644 d81ffca a10ac8a M	Aurora/source/com/intellij/codeFormatting/xml/XmlPseudoTextElement.java
+:100644 100644 4bfb4f7 73e2289 M	Aurora/source/com/intellij/codeFormatting/xml/XmlVisitor.java
+:100644 100644 f1460e6 586e1ba M	Aurora/testData/psi/formatter/xml/12.xml
+:100644 100644 fbce954 14ebe85 M	Aurora/testData/psi/formatter/xml/12_after.xml
+:000000 100644 0000000 ebfbf4c A	Aurora/testData/psi/formatter/xml/13.xml
+:000000 100644 0000000 687a6d1 A	Aurora/testData/psi/formatter/xml/13_after.xml
+:100644 100644 22d3eaa a8fd6a4 M	Aurora/testData/psi/formatter/xml/5.xml
+:100644 100644 58a2303 2f974aa M	Aurora/testData/psi/formatter/xml/5_after.xml
+:000000 100644 0000000 7765aa9 A	Aurora/testData/psi/formatter/xml/comment.xml
+:000000 100644 0000000 514ad76 A	Aurora/testData/psi/formatter/xml/comment2.xml
+:000000 100644 0000000 4c76419 A	Aurora/testData/psi/formatter/xml/comment2_after.xml
+:000000 100644 0000000 e8ebd16 A	Aurora/testData/psi/formatter/xml/comment3.xml
+:000000 100644 0000000 2a79b66 A	Aurora/testData/psi/formatter/xml/comment3_after.xml
+:000000 100644 0000000 5bfb67a A	Aurora/testData/psi/formatter/xml/comment_after.xml
+:000000 100644 0000000 bdaade5 A	Aurora/testData/psi/formatter/xml/performance.xml
+:000000 100644 0000000 431d9ee A	Aurora/testData/psi/formatter/xml/performance_after.xml
+:100644 100644 1114dc1 348bc4f M	Aurora/testSource/com/intellij/psi/formatter/XmlTest.java
+
+commit df98802e3db7743f5895493c8c1c7a1e35a37e2a 146867eef114d6f2306ab30024fc7e0f6026ec98
+Author: builder <>
+Date:   Tue Dec 7 18:53:22 2004 +0000
+
+    Build completed
+
+:100644 100644 bd68644 2082389 M	Aurora/build/version.properties
+
+commit 146867eef114d6f2306ab30024fc7e0f6026ec98 0c7fe6dd2084980b931175603a628cb3d713fad3
+Author: igork <>
+Date:   Tue Dec 7 18:47:33 2004 +0000
+
+    in case of hole file changed event should be sent for document not for file
+
+:100644 100644 37f4332 48cbdf5 M	Aurora/source/com/intellij/psi/impl/source/xml/XmlAspect.java
+
+commit 0c7fe6dd2084980b931175603a628cb3d713fad3 f891a4c693b8eda92674f0c4b6d0c890fc3a9407
+Author: Maxim.Mossienko <>
+Date:   Tue Dec 7 18:45:14 2004 +0000
+
+    support unused selectors in CSS
+
+:100644 100644 b23f1c5 ff14117 M	Aurora/CSS/src/com/intellij/psi/css/impl/util/CssDaemonHighlighter.java
+:100644 100644 26afe10 ad932dd M	Aurora/CSS/src/com/intellij/psi/css/impl/util/find/CssFindUsagesHandler.java
+:000000 100644 0000000 b6cf1fd A	Aurora/CSS/testData/highlighting/UnusedStyle.html
+:000000 100644 0000000 b6cf1fd A	Aurora/CSS/testData/highlighting/UnusedStyle.xhtml
+:100644 100644 b47071d b879537 M	Aurora/CSS/testSource/css/CssHighlightingTest.java
+:100644 100644 3d6e43f f595181 M	Aurora/source/com/intellij/codeInsight/daemon/impl/GeneralHighlightingPass.java
+:100644 100644 116779d dc828cc M	Aurora/source/com/intellij/codeInsight/daemon/impl/PostHighlightingPass.java
+:100644 100644 855aadd 173072b M	Aurora/source/com/intellij/codeInsight/daemon/impl/RefCountHolder.java
+:100644 100644 60e0905 885ca7b M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/XmlHighlightVisitor.java
+
+commit f891a4c693b8eda92674f0c4b6d0c890fc3a9407 9d73c442bef059c338baedc6f4e51e8833f7b5f4
+Author: ven <>
+Date:   Tue Dec 7 18:25:18 2004 +0000
+
+    no message
+
+:100644 100644 a6fb168 f08c8ae M	Aurora/source/com/intellij/psi/impl/source/resolve/PsiResolveHelperImpl.java
+:100644 100644 bec4968 8039b33 M	Aurora/source/com/intellij/psi/scope/util/PsiScopesUtil.java
+:000000 100644 0000000 2c2fc66 A	Aurora/testData/psi/resolve/inference/InferPrimitiveArray.java
+:100644 100644 da82227 2480157 M	Aurora/testSource/com/intellij/psi/resolve/TypeInferenceTest.java
+:100644 100644 3c96068 ae80c7b M	Aurora/tools/fileWatcher2/FileWatcher.cpp
+:100755 100755 0cf7ac4 338bd6c M	Aurora/tools/fileWatcher2/make2K.bat
+:100755 100755 0a9a477 492bfa3 M	Aurora/tools/fileWatcher2/makeNT.bat
+
+commit 9d73c442bef059c338baedc6f4e51e8833f7b5f4 64033babee2c987786a50c4aa6ab53b018893077
+Author: lex <>
+Date:   Tue Dec 7 17:33:08 2004 +0000
+
+    no message
+
+:100644 100644 b7cf627 7bec5ba M	Aurora/testData/debugger/tinyApp/outs/debuggerStop.out
+:100644 100644 b7cf627 7bec5ba M	Aurora/testData/debugger/tinyApp/outs/debuggerStop2.out
+
+commit 64033babee2c987786a50c4aa6ab53b018893077 7597554d3dccc0c28a4490e10d5a160d2f6d06d4
+Author: ven <>
+Date:   Tue Dec 7 17:32:16 2004 +0000
+
+    no message
+
+:100644 100644 0529ba2 6d35d0a M	Aurora/openapi/src/com/intellij/psi/GenericsUtil.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit f1fff331943a3f076378a6ebacb5b7746c5a2363 827b9dd216b096e436880d592289d9857c72dd20
+Author: igork <>
+Date:   Wed Jul 7 13:09:57 2004 +0000
+
+    changes upper then root tag did not reparce hole file
+
+commit 827b9dd216b096e436880d592289d9857c72dd20 6f93c6f735ae6c8c65c552d322e06053252edaa9
+Author: igork <>
+Date:   Wed Jul 7 13:09:37 2004 +0000
+
+    changes upper then root tag did not reparce hole file
+
+:100644 100644 4e33584 fac6ef0 M	Aurora/source/com/intellij/psi/impl/source/text/BlockSupportImpl.java
+
+commit 6f93c6f735ae6c8c65c552d322e06053252edaa9 566a7210220ee140061ad995bdd69b1c6abf63e6
+Author: lex <>
+Date:   Wed Jul 7 13:08:33 2004 +0000
+
+    no message
+
+:100644 100644 2c4b725 0cb426b M	Aurora/plugins/tomcatIntegration/source/com/intellij/j2ee/web/tomcat/Tomcat40PositionManager.java
+
+commit 566a7210220ee140061ad995bdd69b1c6abf63e6 753a514104c14f954b457f2cef4c59ea978a6575
+Author: builder <>
+Date:   Wed Jul 7 13:06:06 2004 +0000
+
+    New version
+
+:100644 100644 0d392bf 8613842 M	Aurora/build/lib/javac2.jar
+
+commit 753a514104c14f954b457f2cef4c59ea978a6575 6d9374407229d6a351a1a0bfc81df371d2f8d16a
+Author: ven <>
+Date:   Wed Jul 7 12:48:17 2004 +0000
+
+    no message
+
+:100644 100644 67830b2 a330c6f M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/VariableTypeFix.java
+
+commit 6d9374407229d6a351a1a0bfc81df371d2f8d16a cab10198302661d89de27f10252bab83461616f4
+Author: ven <>
+Date:   Wed Jul 7 12:24:53 2004 +0000
+
+    no message
+
+:100644 100644 005dd50 d44f190 M	Aurora/source/com/intellij/psi/scope/conflictResolvers/JavaMethodsConflictResolver.java
+:000000 100644 0000000 9513d38 A	Aurora/testData/psi/resolve/method/generics/GenericsAndVarargsNoConflict.java
+:100644 100644 b60ae7c 939bfae M	Aurora/testSource/com/intellij/psi/resolve/ResolveMethod15Test.java
+
+commit cab10198302661d89de27f10252bab83461616f4 5c77c01f63f8d1b4857fc75ca76aca1178e2ee87
+Author: builder <>
+Date:   Wed Jul 7 12:17:12 2004 +0000
+
+    New version
+
+:100644 100644 f0b89d9 0d392bf M	Aurora/build/lib/javac2.jar
+
+commit 5c77c01f63f8d1b4857fc75ca76aca1178e2ee87 a36081423556a069c351329c2d156e45339ca194
+Author: cdr <>
+Date:   Wed Jul 7 11:55:57 2004 +0000
+
+    no message
+
+:100644 100644 b80443f fc3bd08 M	Aurora/source/com/intellij/j2ee/make/MakeUtil.java
+:100644 100644 b51f41e ec7c8c9 M	Aurora/testSource/com/intellij/j2ee/ejb/attributes/EjbMethodPermissionAttributesTest.java
+
+commit a36081423556a069c351329c2d156e45339ca194 e95d9ef435fd65bf9c11997dcbfd8c14e19edd16
+Author: builder <>
+Date:   Wed Jul 7 11:28:10 2004 +0000
+
+    New version
+
+:100644 100644 acf15bc f0b89d9 M	Aurora/build/lib/javac2.jar
+
+commit e95d9ef435fd65bf9c11997dcbfd8c14e19edd16 09c7aa36e26cdf92a98f4b5eddc573265e1a6e39
+Author: lex <>
+Date:   Wed Jul 7 11:24:52 2004 +0000
+
+    no message
+
+:100644 100644 09ecc9e bcc315c M	Aurora/source/com/intellij/debugger/engine/evaluation/expression/EvaluatorBuilder.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0d2ebab4846bd0d29897109b5a6df872635b5c5a 8270e07828b2fc90c7d85195090b3a8793bdd134
+Author: igork <>
+Date:   Tue Jul 6 15:01:19 2004 +0000
+
+    include action support
+
+commit 8270e07828b2fc90c7d85195090b3a8793bdd134 fc875220c3a321303cc3302bf9dadccf83a41ed4
+Author: igork <>
+Date:   Tue Jul 6 15:01:10 2004 +0000
+
+    include action support
+
+:100644 100644 8ad6344 4c86c08 M	Aurora/source/com/intellij/psi/impl/source/jsp/JspFileImpl.java
+
+commit fc875220c3a321303cc3302bf9dadccf83a41ed4 53a12a215a137571862727e39c4bc774d2ed310c
+Author: Maxim.Mossienko <>
+Date:   Tue Jul 6 15:01:09 2004 +0000
+
+    fixed issue with incorrect value (class name) being passed to Component (4th row)
+
+:100644 100644 ace9be8 d7e7f15 M	Aurora/source/com/intellij/j2ee/module/view/ejb/references/EjbReferencesTreeModel.java
+
+commit 53a12a215a137571862727e39c4bc774d2ed310c d7635815d4b73ede40b8d77c4802632b37640635
+Author: ven <>
+Date:   Tue Jul 6 14:55:24 2004 +0000
+
+    no message
+
+:100644 100644 a63dfd9 4b76853 M	Aurora/source/com/intellij/psi/impl/source/resolve/PsiResolveHelperImpl.java
+
+commit d7635815d4b73ede40b8d77c4802632b37640635 bfcd6761f5d4f47af27d94d341d56248ff2f1502
+Author: dyoma <>
+Date:   Tue Jul 6 14:52:31 2004 +0000
+
+    no message
+
+:100644 100644 28ea98d 73ee8ea M	Aurora/source/com/intellij/ant/impl/dom/references/StoreReferencesProvider.java
+
+commit bfcd6761f5d4f47af27d94d341d56248ff2f1502 ea39c12d6dfd5ea1ced48be7830056b5e44dded1
+Author: builder <>
+Date:   Tue Jul 6 14:48:54 2004 +0000
+
+    New version
+
+:100644 100644 d23adb3 86a992c M	Aurora/build/lib/javac2.jar
+
+commit ea39c12d6dfd5ea1ced48be7830056b5e44dded1 ae717c635d262834c23ac54fa816561e05b4aee6
+Author: dyoma <>
+Date:   Tue Jul 6 14:45:50 2004 +0000
+
+    no message
+
+:100644 100644 e8c1eff aa75da8 M	Aurora/source/com/intellij/execution/runners/RunStrategy.java
+:100644 100644 90f4d18 8c88eed M	Aurora/source/com/intellij/xml/impl/ant/AntDescriptionUtil.java
+:100644 100644 673d8a6 689eceb M	Aurora/source/com/intellij/xml/impl/ant/reflect/AntClassloader.java
+
+commit ae717c635d262834c23ac54fa816561e05b4aee6 c77496e808ba1a0da656ae238654823277d74a55
+Author: ven <>
+Date:   Tue Jul 6 14:25:36 2004 +0000
+
+    no message
+
+:100644 100644 4d363a1 0176d45 M	Aurora/openapi/src/com/intellij/psi/GenericsUtil.java
+
+commit c77496e808ba1a0da656ae238654823277d74a55 b41c3e8dc78b14a22ce3952f4d82a95425843ecc
+Author: builder <>
+Date:   Tue Jul 6 14:21:10 2004 +0000
+
+    IDEA 5 changes
+
+:100644 100644 8bfbd01 8ea8810 M	Aurora/build/cc-config.xml
+:100644 100644 72eebc1 f891337 M	Aurora/build/cc.xml
+
+commit b41c3e8dc78b14a22ce3952f4d82a95425843ecc 5b43463482a650069b524b1a3fdc0bb03720b77b
+Author: builder <>
+Date:   Tue Jul 6 14:17:07 2004 +0000
+
+    New version
+
+:100644 100644 15f48f1 d23adb3 M	Aurora/build/lib/javac2.jar
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 0f200c672278c2b65d08ba7436c961ddad945e9e f4fa8b9c09efd5e044ddd6011aeb540081e47537
+Author: igork <>
+Date:   Tue Jul 6 11:56:06 2004 +0000
+
+    Relative path fix
+
+commit f4fa8b9c09efd5e044ddd6011aeb540081e47537 2bcf1ab1c4e615b4b60e374d18c0342d9329ef82
+Author: igork <>
+Date:   Tue Jul 6 11:51:24 2004 +0000
+
+    Relative path fix
+
+:100644 100644 d7ac173 f8802ca M	Aurora/source/com/intellij/psi/impl/source/jsp/JspManager.java
+
+commit 2bcf1ab1c4e615b4b60e374d18c0342d9329ef82 a9e7862a4adcea53a390284ea3313cafc438677b
+Author: max <>
+Date:   Tue Jul 6 11:45:16 2004 +0000
+
+    no message
+
+commit a9e7862a4adcea53a390284ea3313cafc438677b a0b499f2bd988193e6ca9b60fa0b49cbddd6fd74
+Author: cdr <>
+Date:   Tue Jul 6 11:42:42 2004 +0000
+
+    no message
+
+:100644 100644 56fe284 2e21980 M	Aurora/source/com/intellij/psi/impl/source/jsp/impl/WebDirectoryElementImpl.java
+
+commit a0b499f2bd988193e6ca9b60fa0b49cbddd6fd74 fe911e8216ba64d7359684027e956a1e1463941c
+Author: builder <>
+Date:   Tue Jul 6 11:28:15 2004 +0000
+
+    New version
+
+:100644 100644 d779e6e ec22e2c M	Aurora/build/lib/javac2.jar
+
+commit fe911e8216ba64d7359684027e956a1e1463941c d865e00a6434c903ab712a196fe038b65d92c55a
+Author: cdr <>
+Date:   Tue Jul 6 10:57:41 2004 +0000
+
+    no message
+
+:100644 000000 532c441 0000000 D	Aurora/testData/j2eeCompiler/singleWebModule/dep/war/module.war
+:100644 100644 3afc996 3afc996 R100	Aurora/testData/j2eeCompiler/singleWebModule/WEB-INF/web.xml	Aurora/testData/j2eeCompiler/singleWebModule2/WEB-INF/web.xml
+:000000 100644 0000000 5e8ee9e A	Aurora/testData/j2eeCompiler/singleWebModule2/classes/dinky.class
+:000000 100644 0000000 5e8ee9e A	Aurora/testData/j2eeCompiler/singleWebModule2/dep/exploded/WEB-INF/classes/dinky.class
+:100644 100644 dfc3669 dfc3669 R100	Aurora/testData/j2eeCompiler/singleWebModule/dep/exploded/WEB-INF/lib/xxx.jar	Aurora/testData/j2eeCompiler/singleWebModule2/dep/exploded/WEB-INF/lib/xxx.jar
+:100644 100644 3afc996 3afc996 R100	Aurora/testData/j2eeCompiler/singleWebModule/dep/exploded/WEB-INF/web.xml	Aurora/testData/j2eeCompiler/singleWebModule2/dep/exploded/WEB-INF/web.xml
+:100644 100644 69ec23d 69ec23d R100	Aurora/testData/j2eeCompiler/singleWebModule/dep/exploded/o.jsp	Aurora/testData/j2eeCompiler/singleWebModule2/dep/exploded/o.jsp
+:000000 100644 0000000 0810ac6 A	Aurora/testData/j2eeCompiler/singleWebModule2/dep/war/module.war
+:100644 100644 6176dd5 6176dd5 R100	Aurora/testData/j2eeCompiler/singleWebModule/j2t.ipr	Aurora/testData/j2eeCompiler/singleWebModule2/j2t.ipr
+:100644 100644 f358b5f 3c98f16 R097	Aurora/testData/j2eeCompiler/singleWebModule/j2t.iws	Aurora/testData/j2eeCompiler/singleWebModule2/j2t.iws
+:100644 100644 dfc3669 dfc3669 R100	Aurora/testData/j2eeCompiler/singleWebModule/lib/xxx.jar	Aurora/testData/j2eeCompiler/singleWebModule2/lib/xxx.jar
+:100644 100644 9c1e52b 9c1e52b R100	Aurora/testData/j2eeCompiler/singleWebModule/module.iml	Aurora/testData/j2eeCompiler/singleWebModule2/module.iml
+:100644 100644 69ec23d 69ec23d R100	Aurora/testData/j2eeCompiler/singleWebModule/roo/o.jsp	Aurora/testData/j2eeCompiler/singleWebModule2/roo/o.jsp
+:000000 100644 0000000 78c06c2 A	Aurora/testData/j2eeCompiler/singleWebModule2/src/dinky.java
+:100644 100644 d464d35 ae146b2 M	Aurora/testSource/com/intellij/j2ee/compiler/J2EECompilerTest.java
+
+commit d865e00a6434c903ab712a196fe038b65d92c55a 0d293053cb486106a035b550732eb515fa8d9bae
+Author: builder <>
+Date:   Tue Jul 6 10:57:18 2004 +0000
+
+    New version
+
+:100644 100644 527f6cc d779e6e M	Aurora/build/lib/javac2.jar
+
+commit 0d293053cb486106a035b550732eb515fa8d9bae 7a1cdc2dd6274dcb547f288a9998a509b1a013b9
+Author: jeka <>
+Date:   Tue Jul 6 10:30:49 2004 +0000
+
+    no message
+
+:100644 100644 506e49e 6dc4926 M	Aurora/source/com/intellij/ide/impl/ProjectUtil.java
+
+commit 7a1cdc2dd6274dcb547f288a9998a509b1a013b9 31432e03eb17bb6a426cbeeb4d84b693867f8510
+Author: builder <>
+Date:   Tue Jul 6 10:26:23 2004 +0000
+
+    New version
+
+:100644 100644 1c55ece 527f6cc M	Aurora/build/lib/javac2.jar
+
+commit 31432e03eb17bb6a426cbeeb4d84b693867f8510 1e36ccb7f8580f6f99fba88b7e1ffd4048400f4d
+Author: max <>
+Date:   Tue Jul 6 10:08:48 2004 +0000
+
+    no message
+
+:100644 100644 b61bdad ef211ae M	Aurora/source/com/intellij/ide/util/scopeChooser/ScopeChooserDialog.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit a2108b53f2f05c81fc227a2e58b899b9154b9f3a 119b0141c66d8dc2ea54161ce9247007ca06c7c4
+Author: igork <>
+Date:   Thu Jan 15 14:55:56 2004 +0000
+
+    rollback
+
+commit 119b0141c66d8dc2ea54161ce9247007ca06c7c4 ea72de2a161e86fb93a83081efaa65909f599243
+Author: igork <>
+Date:   Thu Jan 15 14:53:00 2004 +0000
+
+    Ignored resources in doctype uris fixed
+
+:100644 100644 52e6fcd f5c2561 M	Aurora/installer.iml
+:100644 100644 f4f1c97 aab4aac M	Aurora/source/com/intellij/psi/impl/source/resolve/reference/impl/providers/JavaClassReferenceProvider.java
+:100644 100644 dcec31c 8406ba3 M	Aurora/starteamIntegration.iml
+:100644 100644 657db07 3b57670 M	Aurora/tomcatIntegration.iml
+
+commit ea72de2a161e86fb93a83081efaa65909f599243 ebcaac80029633bf00017bd9145f444053db4d1a
+Author: ven <>
+Date:   Thu Jan 15 14:50:33 2004 +0000
+
+    no message
+
+:100644 100644 dea0a65 55ce1d7 M	Aurora/source/com/intellij/codeInsight/hint/HintManager.java
+
+commit ebcaac80029633bf00017bd9145f444053db4d1a 4f55826314d0037d95384c6814437e76cf328c77
+Author: lesya <>
+Date:   Thu Jan 15 14:47:16 2004 +0000
+
+    no message
+
+:100644 100644 93b3893 6257066 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/CvsRootConfiguration.java
+:100644 100644 39aa2f1 3117009 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/SshConnectionSettings.java
+:100644 100644 b123d17 8a45e69 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/connections/ExtConnection.java
+:100644 100644 6542073 8ac3965 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/CheckoutProjectOperation.java
+:100644 100644 5c1630d 76e56a0 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/CvsCommandOperation.java
+:100644 100644 d598092 a30c7ff M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/GetFileContentOperation.java
+:100644 100644 26646dc b37f78d M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/GetModuleContentOperation.java
+:100644 100644 3c50013 ee37136 R094	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/DeafLocalFileWriter.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/DeafLocalFileWriter.java
+:000000 100644 0000000 e066481 A	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/InputStreamWrapper.java
+:100644 100644 a8e5dd7 625847f R098	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/LineReader.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/LineReader.java
+:100644 100644 e32aa54 4ba16f4 R094	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/LocalFileRreaderBasedOnVFS.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/LocalFileRreaderBasedOnVFS.java
+:000000 100644 0000000 c707a4f A	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/ReadThread.java
+:100644 100644 5211dd9 1595f27 R096	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/ReceiveTextFilePreprocessor.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/ReceiveTextFilePreprocessor.java
+:100644 100644 c168e62 e7870d8 R095	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/SendTextFilePreprocessor.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/SendTextFilePreprocessor.java
+:100644 100644 e0c569b aa42bac R098	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/StoringLineSeparatorsLocalFileWriter.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/StoringLineSeparatorsLocalFileWriter.java
+:100644 100644 b486de5 6ab456b R062	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/StreamLogger.java	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/javacvsImpl/io/StreamLogger.java
+:100644 100644 65d64de 0808592 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/login/ExtLoginProvider.java
+:100644 100644 774c151 93b1482 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/login/PServerLoginProviderImpl.java
+:100644 100644 09f4417 34fc133 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/Cvs2SettingsEditPanel.java
+:100644 100644 bc90538 39fff52 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/FileHistoryPanel.java
+:100644 100644 fd4699e 54160fd M	Aurora/plugins/cvs2/source/com/intellij/openapi/cvsIntegration/CvsResult.java
+:100644 100644 30116dd 25702ad M	Aurora/plugins/cvs2/testSource/com/intellij/cvsSupport2/BaseCvs2TestCase.java
+:100644 100644 ed003a7 e52752e M	Aurora/plugins/cvs2/testSource/com/intellij/cvsSupport2/Cvs2Test.java
+:000000 100644 0000000 249202b A	Aurora/plugins/cvs2/testSource/com/intellij/cvsSupport2/InputStreamWrapperPerformanceTestCase.java
+:100644 100644 ceeccc8 f87cfed M	Aurora/plugins/cvs2/testSource/com/intellij/cvsSupport2/ReadLineTest.java
+:100644 100644 956b685 ccf06a9 M	Aurora/source/com/intellij/util/concurrency/Semaphore.java
+
+commit 4f55826314d0037d95384c6814437e76cf328c77 18c42afcfdf1f9500024457451621698371b7f99
+Author: cdr <>
+Date:   Thu Jan 15 14:45:21 2004 +0000
+
+    no message
+
+:100644 100644 066403d f714be4 M	Aurora/icons/add_ejb_modulewizard.png
+
+commit 18c42afcfdf1f9500024457451621698371b7f99 72ff182dfd1a7e68a1da69270c4ef54d4f9e5324
+Author: dsl <>
+Date:   Thu Jan 15 14:43:02 2004 +0000
+
+    no message
+
+:100644 100644 ae446f5 b02c0f7 M	Aurora/source/com/intellij/openapi/module/impl/ModuleManagerImpl.java
+:100644 100644 7257db1 6ad0afe M	Aurora/source/com/intellij/openapi/vfs/impl/VirtualFilePointerImpl.java
+:100644 100644 d38ead7 7e8cd7b M	Aurora/source/com/intellij/openapi/vfs/impl/VirtualFilePointerManagerImpl.java
+
+commit 72ff182dfd1a7e68a1da69270c4ef54d4f9e5324 9e65a3c3970efca2fcfd1ad8d96c9c23634594a5
+Author: cdr <>
+Date:   Thu Jan 15 14:31:42 2004 +0000
+
+    no message
+
+:100644 100644 a236cc4 9279fec M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 b3001ce 5bd49f1 M	Aurora/source/com/intellij/ide/util/projectWizard/WebModuleWebRootsStep.java
+
+commit 9e65a3c3970efca2fcfd1ad8d96c9c23634594a5 1f23b49ababd647377713c91209fe89074824600
+Author: cdr <>
+Date:   Thu Jan 15 14:11:56 2004 +0000
+
+    no message
+
+:100644 100644 7040436 a236cc4 M	Aurora/resources/idea/ActionManager.xml
+:100644 100644 e4562a5 dbda7c2 M	Aurora/source/com/intellij/ide/actions/CreateElementActionBase.java
+:100644 100644 046a54f 6c0a38a M	Aurora/source/com/intellij/ide/projectView/impl/ProjectViewImpl.java
+:100644 100644 513eb9c 42b0d09 M	Aurora/source/com/intellij/j2ee/module/view/J2EEProjectViewPane.java
+:100644 100644 c39b753 c279aa5 M	Aurora/source/com/intellij/j2ee/module/view/nodes/DirectoryNodeDescriptor.java
+:100644 100644 d745664 0125f5d M	Aurora/source/com/intellij/j2ee/module/view/web/nodes/WebModuleNodeDescriptor.java
+:100644 100644 fc169a7 e6eba44 R067	Aurora/source/com/intellij/j2ee/module/view/web/nodes/WebModuleRootNodeDescriptor.java	Aurora/source/com/intellij/j2ee/module/view/web/nodes/WebRootNodeDescriptor.java
+:100644 100644 5b4e6c8 2933430 M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/urlMapping/ServletMappingTreeModel.java
+:100644 100644 d9a374f 0f9aa3d M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/urlMapping/ServletMappingTreeTable.java
+
+commit 1f23b49ababd647377713c91209fe89074824600 dfbd39832165da7614ed00d61c15c7426a09793b
+Author: beg <>
+Date:   Thu Jan 15 14:00:13 2004 +0000
+
+    1) Wording correction
+    2) Supported case with no modules
+
+:100644 100644 4fd136a 933a9ee M	Aurora/source/com/intellij/ide/util/generics/SelectModulesStep.java
+
+commit dfbd39832165da7614ed00d61c15c7426a09793b ae572d082f4ce443e76b5b1428f31e8a9bff6e77
+Author: lesya <>
+Date:   Thu Jan 15 13:53:29 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 8981046 98ca9c8 M	CVSROOT/modules
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 812662245e6e6012a34776d08f6863c58a26466f 3f6c2216645de7faa24164de520cdc5bff4e12aa
+Author: igork <>
+Date:   Tue Jun 24 15:41:08 2003 +0000
+
+    no message
+
+commit 3f6c2216645de7faa24164de520cdc5bff4e12aa c4d104e2f240019ae5a24925a9df708d98003a4e
+Author: max <>
+Date:   Tue Jun 24 15:09:47 2003 +0000
+
+    no message
+
+:100644 100644 ae36065 7793d19 M	Aurora/source/com/intellij/codeInsight/daemon/impl/LineMarkerNavigator.java
+:100644 100644 3e9ff6b e4e2655 M	Aurora/source/com/intellij/codeInsight/editorActions/EnterHandler.java
+:100644 100644 3e270cf a67a2711 M	Aurora/source/com/intellij/codeInspection/dataFlow/ControlFlowAnalyzer.java
+:100644 100644 8a5643d 164ee71 M	Aurora/source/com/intellij/ide/fileTemplates/impl/FileTemplateConfigurable.java
+:100644 100644 c3af572 0093e26 M	Aurora/source/com/intellij/lexer/AspectHighlightingLexer.java
+:100644 100644 e370d03 b8df5fc M	Aurora/source/com/intellij/lexer/TokenUtil.java
+:000000 100644 0000000 8089d07 A	Aurora/testData/codeInsight/enterAction/lineComment/SCR13247.java
+:000000 100644 0000000 2756540 A	Aurora/testData/codeInsight/enterAction/lineComment/SCR13247_after.java
+:100644 100644 93e8e78 70bd81f M	Aurora/testSource/com/intellij/codeInsight/EnterActionTest.java
+
+commit c4d104e2f240019ae5a24925a9df708d98003a4e 77ae0e2559f2375d7fed0ddecd284bae94e3c6e8
+Author: dyoma <>
+Date:   Tue Jun 24 14:56:04 2003 +0000
+
+    no message
+
+:100644 100644 a8ce100 4077bd9 M	Aurora/source/com/intellij/ide/OccurenceNavigator.java
+
+commit 77ae0e2559f2375d7fed0ddecd284bae94e3c6e8 dea99d5b89a785288bf1782a1654fbf507e0d994
+Author: stathik <>
+Date:   Tue Jun 24 14:36:37 2003 +0000
+
+    no message
+
+:100644 100644 7ffab7a d5d035f M	Aurora/build/build.xml
+
+commit dea99d5b89a785288bf1782a1654fbf507e0d994 0e69ea6b3755d3c60b30dc30c2105745118aa96a
+Author: cdr <>
+Date:   Tue Jun 24 13:58:52 2003 +0000
+
+    rolled back Stathik changes
+
+:100644 100644 e545450 e8c6735 M	Aurora/source/com/intellij/j2ee/module/view/deploymentView/DeploymentTreeTableModel.java
+:100644 100644 c2776c2 890633b M	Aurora/source/com/intellij/ui/treetable/TreeTable.java
+
+commit 0e69ea6b3755d3c60b30dc30c2105745118aa96a 9ff4b3d0b3dcd5a9fdab6f2f2a349ebeb742db86
+Author: vova <>
+Date:   Tue Jun 24 13:49:08 2003 +0000
+
+    no message
+
+:100644 100644 588e1d2 5e70d0c M	Aurora/source/com/intellij/ui/customEditor/impl/EditorManagerImpl.java
+
+commit 9ff4b3d0b3dcd5a9fdab6f2f2a349ebeb742db86 c0e277e63461a94df402b7a99c41a7c2d7d1995a
+Author: jeka <>
+Date:   Tue Jun 24 13:26:35 2003 +0000
+
+    no message
+
+:100644 100644 c9d85f3 1f9aaf8 M	Aurora/source/com/intellij/compiler/impl/MultipleRootCompileScope.java
+:100644 100644 fe7fe25 c129b30 M	Aurora/source/com/intellij/compiler/impl/_CompileDriver.java
+
+commit c0e277e63461a94df402b7a99c41a7c2d7d1995a 922d73163aed2d6aa6bc52bb34f1a96e0a858076
+Author: cdr <>
+Date:   Tue Jun 24 13:06:02 2003 +0000
+
+    rolled back Stathik changes
+
+:100644 100644 e4aa2dd 277cb81 M	Aurora/aurora.iml
+:100644 100644 7117260 c3575d3 M	Aurora/aurora.ipr
+:100644 100644 de3e6bc 2df2d7c M	Aurora/source/com/intellij/j2ee/ejb/DataSource.java
+:100644 100644 26e9e84 6c6568e M	Aurora/source/com/intellij/j2ee/ejb/DataSourceManager.java
+:100644 100644 dab789d e8760f2 M	Aurora/source/com/intellij/j2ee/ejb/LocalDataSource.java
+:100644 100644 213821e 280bc03 M	Aurora/source/com/intellij/j2ee/ejb/WeblogicDataSource.java
+
+commit 922d73163aed2d6aa6bc52bb34f1a96e0a858076 20cf4cb819f04bbc642aad4e1481e0ff7e4e3d3f
+Author: lesya <>
+Date:   Tue Jun 24 12:56:35 2003 +0000
+
+    no message
+
+:100644 100644 2aa5d57 2ab47c9 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/EditorAdapter.java
+
+commit 20cf4cb819f04bbc642aad4e1481e0ff7e4e3d3f 8df63224d8822b6b5159d8c95096e9e0da1f087c
+Author: cdr <>
+Date:   Tue Jun 24 12:26:15 2003 +0000
+
+    rolled back Stathik changes
+
+:100644 000000 56da99d 0000000 D	Aurora/.#aurora.ipr.1.77
+:100644 100644 e99f032 958acf3 M	Aurora/source/com/intellij/j2ee/SQLUtil.java
+:100644 100644 7d41154 4e39e87 M	Aurora/source/com/intellij/j2ee/ea/util/ActionUtil.java
+:100644 100644 5eb65a6 de3e6bc M	Aurora/source/com/intellij/j2ee/ejb/DataSource.java
+:100644 100644 24cb642 26e9e84 M	Aurora/source/com/intellij/j2ee/ejb/DataSourceManager.java
+:100644 100644 11022d1 dab789d M	Aurora/source/com/intellij/j2ee/ejb/LocalDataSource.java
+:100644 100644 d1d7670 213821e M	Aurora/source/com/intellij/j2ee/ejb/WeblogicDataSource.java
+:100644 100644 45a1c5b a70c433 M	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceAddAction.java
+:100644 100644 49b95b2 90cc0fb M	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceAddFromServerAction.java
+:100644 100644 aa5b942 784ea24 M	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceDeleteProvider.java
+:100644 100644 c7d4dd8 394d67a M	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceEditDialog.java
+:000000 100644 0000000 c4ad216 A	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceListDialog.java
+:100644 000000 8941b30 0000000 D	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceMainDialog.java
+:100644 100644 34314a8 dd92832 M	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourceManageAction.java
+:100644 100644 5490eed 2cf1fe6 M	Aurora/source/com/intellij/j2ee/ejb/actions/DataSourcePropertiesAction.java
+:100644 100644 bb7af95 6f53bd6 M	Aurora/source/com/intellij/j2ee/ejb/actions/EjbViewDeleteAction.java
+:100644 100644 775869b 76748b7 M	Aurora/source/com/intellij/j2ee/ejb/view/DataSourceNodeDescriptor.java
+:100644 000000 cbfc8cc 0000000 D	Aurora/source/com/intellij/j2ee/ejb/view/DataSourceRoot.java
+:100644 000000 ec21ab7 0000000 D	Aurora/source/com/intellij/j2ee/ejb/view/DataSourceRootNodeDescriptor.java
+:100644 100644 8387428 4f3dae6 M	Aurora/source/com/intellij/j2ee/ejb/view/DataSourceSelectFromServerDialog.java
+:100644 100644 ba04d7f 82be8af M	Aurora/source/com/intellij/j2ee/ejb/view/DataSourceTreeBuilder.java
+:100644 100644 c1a55bd 8faceaa M	Aurora/source/com/intellij/j2ee/ejb/view/attributes/DataSourceTreeStructure.java
+:100644 100644 464c879 d1f5d9f M	Aurora/source/com/intellij/j2ee/ejb/view/attributes/DataSourceView.java
+:100644 100644 056d334 75be683 M	Aurora/source/com/intellij/j2ee/module/view/J2EEView.java
+:100644 100644 9c4b1fb 85672e7 M	Aurora/source/com/intellij/j2ee/module/view/deploymentView/DeploymentTreeBuilder.java
+:100644 100644 8100af1 451d07d M	Aurora/source/com/intellij/j2ee/module/view/deploymentView/DeploymentView.java
+:100644 100644 0dd104c 7292239 M	Aurora/source/com/intellij/j2ee/module/view/ejb/ejbLevel/viewlets/EjbWebLogicViewlets.form
+:100644 100644 0977b2a b4eedcf M	Aurora/source/com/intellij/j2ee/module/view/ejb/ejbLevel/viewlets/EjbWebLogicViewlets.java
+:100644 100644 c102fee 2486628 M	Aurora/source/com/intellij/j2ee/module/view/ejb/weblogic/WLEjbDataSourcePropertiesPanel.java
+:100644 100644 8394992 53ae776 M	Aurora/source/com/intellij/j2ee/weblogic/actions/WeblogicCreateConnectionPoolDialog.java
+:100644 100644 974560c efa43e4 M	Aurora/source/com/intellij/psi/impl/PsiSubstitutorImpl.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 494240c35ba85d101896032f199c6ddd4f2568c9 313f2a7caa6772cf15b9db2044db17cc3d456776
+Author: igork <>
+Date:   Mon Apr 7 15:50:24 2003 +0000
+
+    Refactoring with NamedElement
+
+commit 313f2a7caa6772cf15b9db2044db17cc3d456776 902d89bc564b052db5c6c500616de94fe21c4dea
+Author: jeka <>
+Date:   Mon Apr 7 15:38:40 2003 +0000
+
+    no message
+
+:100644 100644 5780a0c b7afc99 M	Aurora/build/build.xml
+
+commit 902d89bc564b052db5c6c500616de94fe21c4dea bb275cc93b42b7fbd67ac7f7d3ca91befd37accc
+Author: max <>
+Date:   Mon Apr 7 15:33:58 2003 +0000
+
+    no message
+
+:100644 100644 d1351a9 63f0fa5 M	Aurora/source/com/intellij/openapi/editor/impl/EditorImpl.java
+:100644 100644 46a01fb bee890e M	Aurora/source/com/intellij/openapi/editor/impl/HighlighterList.java
+:100644 100644 01895a1 d92b68e M	Aurora/source/com/intellij/openapi/editor/impl/IterationState.java
+
+commit bb275cc93b42b7fbd67ac7f7d3ca91befd37accc 987a92a38970438a9d339d237937cc774ab90faf
+Author: jeka <>
+Date:   Mon Apr 7 15:28:58 2003 +0000
+
+    no message
+
+:100644 100644 97fe7cf 5780a0c M	Aurora/build/build.xml
+
+commit 987a92a38970438a9d339d237937cc774ab90faf dc32c663ce6ab6932f0cc97f590832847138e2a6
+Author: lesya <>
+Date:   Mon Apr 7 14:59:27 2003 +0000
+
+    no message
+
+:100644 100644 e6dd650 506035f M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/UpdateOperation.java
+:100644 100644 fed4594 707909e M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/CvsConfigurationPanel.java
+
+commit dc32c663ce6ab6932f0cc97f590832847138e2a6 0748d515b931c21d09e9bc4bba5213a7cf38ffe5
+Author: lex <>
+Date:   Mon Apr 7 14:51:37 2003 +0000
+
+    no message
+
+:100644 100644 9840dfc 36bf27a M	Aurora/source/com/intellij/intellijac/impl/generator/GenVisitor.java
+
+commit 0748d515b931c21d09e9bc4bba5213a7cf38ffe5 1944400f840e803bc7d3efa8f492a519ee355884
+Author: jeka <>
+Date:   Mon Apr 7 14:40:39 2003 +0000
+
+    no message
+
+:100644 100644 a961a60 7e869c8 M	Aurora/source/com/intellij/compiler/_ClassInstrumentingCompiler.java
+:100644 100644 4a8622f 471fb78 M	Aurora/source/com/intellij/compiler/impl/_CompileDriver.java
+
+commit 1944400f840e803bc7d3efa8f492a519ee355884 74cd926a746671fc0ff6391e1b4f9eb674bd5e3f
+Author: lesya <>
+Date:   Mon Apr 7 13:58:04 2003 +0000
+
+    no message
+
+:100644 100644 2811626 3c95f15 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/AdminHandlerAdapter.java
+
+commit 74cd926a746671fc0ff6391e1b4f9eb674bd5e3f b9aefbfcd2e91c4290805b1f24410dc7729cdb8c
+Author: jeka <>
+Date:   Mon Apr 7 13:48:31 2003 +0000
+
+    no message
+
+:100644 100644 fe804cd 4a8622f M	Aurora/source/com/intellij/compiler/impl/_CompileDriver.java
+
+commit b9aefbfcd2e91c4290805b1f24410dc7729cdb8c e04335f7b1e1087840d150976d7ed3930ac4dd7d
+Author: cdr <>
+Date:   Mon Apr 7 13:47:35 2003 +0000
+
+    no message
+
+:100644 100644 8340974 0b9070c M	Aurora/source/com/intellij/j2ee/ejb/actions/EJBPropertiesDialog.java

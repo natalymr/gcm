@@ -1,0 +1,134 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 899c8c02ee5dc6ef51bb79cdef24bd871730e0de d5c644d445f7253bf279853b8bf2a9f4acc384f5
+Author: builder <>
+Date:   Thu Jun 3 16:14:59 2004 +0000
+
+    no message
+
+commit d5c644d445f7253bf279853b8bf2a9f4acc384f5 2f1783c680f3c197018933553531d998bfc23cae
+Author: builder <>
+Date:   Thu Jun 3 16:13:20 2004 +0000
+
+    no message
+
+:100644 100644 b4198b1 e8f5fdd M	Aurora/pallada.xml
+
+commit 2f1783c680f3c197018933553531d998bfc23cae 01abd9dbcadc7b63a2483b9439099105f8789192
+Author: builder <>
+Date:   Thu Jun 3 15:56:35 2004 +0000
+
+    New version
+
+:100644 100644 5fcf5af 571f120 M	Aurora/build/lib/javac2.jar
+
+commit 01abd9dbcadc7b63a2483b9439099105f8789192 e2059ed8b9879e57e9e021a946cded40a4a38ae5
+Author: builder <>
+Date:   Thu Jun 3 15:36:10 2004 +0000
+
+    Build failed
+
+:100644 100644 5a53a6d e747223 M	Aurora/build/version.properties
+
+commit e2059ed8b9879e57e9e021a946cded40a4a38ae5 715302c1bc0ced3869db15c46db6aea78f49383d
+Author: max <>
+Date:   Thu Jun 3 15:33:41 2004 +0000
+
+    no message
+
+:100644 100644 20fffc7 3b4b621 M	Aurora/source/com/intellij/openapi/keymap/impl/ui/QuickListPanel.java
+
+commit 715302c1bc0ced3869db15c46db6aea78f49383d ad22969d99d47d9fd9d26c6f1cd7916e83ff8126
+Author: builder <>
+Date:   Thu Jun 3 15:31:34 2004 +0000
+
+    New version
+
+:100644 100644 6855a69 5fcf5af M	Aurora/build/lib/javac2.jar
+
+commit ad22969d99d47d9fd9d26c6f1cd7916e83ff8126 96efedead892e240a33a685007669bc14fc5ec82
+Author: lex <>
+Date:   Thu Jun 3 15:29:59 2004 +0000
+
+    no message
+
+:100644 100644 95d8ecf 8870526 M	Aurora/openapi/src/com/intellij/execution/DefaultExecutionResult.java
+:100644 100644 51d3ea3 e27d707 M	Aurora/openapi/src/com/intellij/execution/ExecutionManager.java
+:100644 100644 bb5d7c3 d184fc6 M	Aurora/openapi/src/com/intellij/execution/ExecutionResult.java
+:100644 100644 253bfc8 5222cd6 M	Aurora/openapi/src/com/intellij/execution/process/DefaultJavaProcessHandler.java
+:100644 100644 adfc2d2 b237221 M	Aurora/openapi/src/com/intellij/execution/process/OSProcessHandler.java
+:100644 100644 82a2709 85d9faf M	Aurora/openapi/src/com/intellij/execution/process/ProcessHandler.java
+:100644 100644 c418f85 7974d47 M	Aurora/openapi/src/com/intellij/execution/runners/RunContentBuilder.java
+:100644 100644 180b392 5df5d3d M	Aurora/openapi/src/com/intellij/j2ee/run/J2EEOSProcessHandlerWrapper.java
+:100644 100644 4dde291 42b37d8 M	Aurora/openapi/src/com/intellij/j2ee/run/J2EERemoteProcessHandler.java
+:100644 100644 8807962 62748e3 M	Aurora/resources/src/idea/ActionManager.xml
+:100644 100644 8623080 a55b66d M	Aurora/source/com/intellij/ant/execution/PlainTextView.java
+:100644 100644 f68e3ba 61fddc7 M	Aurora/source/com/intellij/debugger/engine/RemoteDebugConnectionState.java
+:100644 100644 583aa44 080c9d7 M	Aurora/source/com/intellij/debugger/engine/RemoteDebugProcessHandler.java
+:100644 100644 a78c83b feb6cfa M	Aurora/source/com/intellij/debugger/ui/DebuggerManagerImpl.java
+:100644 100644 3bf5a27 427356c M	Aurora/source/com/intellij/debugger/ui/DebuggerSession.java
+:100644 100644 1c889c9 6c709e5 M	Aurora/source/com/intellij/execution/ExecutionManagerImpl.java
+:100644 100644 c0ab6fc b36d28a R078	Aurora/source/com/intellij/debugger/ui/TerminateRemoteProcessDialog.java	Aurora/source/com/intellij/execution/TerminateRemoteProcessDialog.java
+:000000 100644 0000000 22c31fa A	Aurora/source/com/intellij/execution/actions/StopAction.java
+:100644 100644 533794a 53bf71d M	Aurora/source/com/intellij/execution/junit/JUnitProcessHandler.java
+
+commit 96efedead892e240a33a685007669bc14fc5ec82 47a2fff4c13854fbd6ff94c578badcac6b2e561e
+Author: db <>
+Date:   Thu Jun 3 15:24:55 2004 +0000
+
+    no message
+
+:100644 100644 2a2b9dd ac4edaa M	Aurora/source/com/intellij/codeInsight/javadoc/JavaDocInfoComponent.java
+
+commit 47a2fff4c13854fbd6ff94c578badcac6b2e561e 2c7907bca84fef8a7f63de51e50292b6e72db5ae
+Author: builder <>
+Date:   Thu Jun 3 15:20:31 2004 +0000
+
+    no message
+
+:100644 100644 42393a0 b4198b1 M	Aurora/pallada.xml
+
+commit 2c7907bca84fef8a7f63de51e50292b6e72db5ae 7d3303cf2b075d1fdcdd20c1fa8ead449bb10af6
+Author: jeka <>
+Date:   Thu Jun 3 15:04:50 2004 +0000
+
+    no message
+
+:100644 100644 9198d7d 6d145eb M	Aurora/openapi/src/com/intellij/j2ee/run/PatchedLocalState.java
+:100644 100644 88c0d89 112ada1 M	Aurora/openapi/src/com/intellij/j2ee/run/RemoteDebugState.java
+:100644 100644 2733dd4 e43378f M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificLocalConfigurationBit.java
+:100644 100644 7b87653 b72717f M	Aurora/openapi/src/com/intellij/j2ee/run/RunnerSpecificRemotePanel.java
+:100644 100644 613c599 cce97bf M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/actions/CommitFileOrDirectoryAction.java
+:100644 100644 0548d86 02a2a2c M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/actions/actionVisibility/CvsActionVisibility.java
+:100644 100644 f27ba60 18df7cc M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/actions/cvsContext/CvsContextAdapter.java
+:100644 100644 cccf5ed adc6ba7 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/actions/cvsContext/CvsContextWrapper.java
+:100644 100644 62c81e5 07795d0 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvshandlers/AnyProcessedFiles.java
+:100644 100644 94072b8 19d04f4 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsstatuses/CvsStatusProvider.java
+:100644 100644 a6bb316 9ac6cf2 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/UpdateInfoTree.java
+:100644 100644 6139583 46e82fe M	Aurora/source/com/intellij/compiler/CompilerManagerImpl.java
+:100644 100644 3ea6958 1b28081 M	Aurora/source/com/intellij/compiler/ant/ModuleBuild.java
+:100644 100644 b9f355d ec5b85e M	Aurora/source/com/intellij/compiler/impl/ModuleCompileScope.java
+:100644 100644 26a534b f5d1120 M	Aurora/source/com/intellij/compiler/impl/OneProjectItemCompileScope.java
+:100644 100644 6ad9e65 672d7bc M	Aurora/source/com/intellij/compiler/impl/ProjectCompileScope.java
+:100644 100644 263866b f68e3ba M	Aurora/source/com/intellij/debugger/engine/RemoteDebugConnectionState.java
+:100644 100644 8c442a3 81a99b7 M	Aurora/source/com/intellij/glue/core/repository/impl/RepositoryImpl.java
+:100644 100644 fc63fa1 94de34a M	Aurora/source/com/intellij/ide/fileTemplates/impl/FileTemplateManagerImpl.java
+:100644 100644 ebb56b7 c4c2bbe M	Aurora/source/com/intellij/ide/plugins/cl/PluginClassLoader.java
+:100644 100644 8a50248 1a52259 M	Aurora/source/com/intellij/ide/projectView/BaseProjectTreeBuilder.java
+:100644 100644 4fa4aa6 9ea868b M	Aurora/source/com/intellij/idea/TestEditorManagerImpl.java
+:100644 100644 32efa91 35122c6 M	Aurora/source/com/intellij/internalUtilities/generateRGS/GenerateRGS.java
+:100644 100644 64f166f e3658f6 M	Aurora/source/com/intellij/j2ee/module/components/J2EEElementAsVirtualFile.java
+:100644 100644 22f3d0d 9fb198a M	Aurora/source/com/intellij/openapi/compiler/ex/DummyCompileContext.java
+:100644 100644 e124351 3d752b2 M	Aurora/source/com/intellij/openapi/fileChooser/ex/FileChooserDialogImpl.java
+:100644 100644 359a565 e351d61 M	Aurora/source/com/intellij/openapi/fileChooser/ex/FileSystemTree.java
+:100644 100644 67254eb 0a64f27 M	Aurora/source/com/intellij/openapi/projectRoots/impl/ExcludedOutputProjectRoot.java
+:100644 100644 f1ee1c3 faf94bb M	Aurora/source/com/intellij/openapi/projectRoots/impl/JdkProjectRoot.java
+:100644 100644 f30c7bb f3be8d9 M	Aurora/source/com/intellij/openapi/projectRoots/impl/LibraryProjectRoot.java
+:100644 100644 d9da5b1 78563c8 M	Aurora/source/com/intellij/openapi/projectRoots/impl/OutputProjectRoot.java
+:100644 100644 7f9853d d8b9698 M	Aurora/source/com/intellij/openapi/projectRoots/impl/ProjectRootContainerImpl.java
+:100644 100644 2de19ae 889024a M	Aurora/source/com/intellij/openapi/projectRoots/ui/paths/AbstractPathComponent.java
+:100644 100644 8d5dd2b c82f554 M	Aurora/source/com/intellij/openapi/vfs/impl/jar/JarFileInfo.java
+:100644 100644 bd9cfc8 3cf96ee M	Aurora/source/com/intellij/psi/impl/EmptyRepository.java
+:100644 100644 403a97d 2e83ccd M	Aurora/source/com/intellij/psi/impl/cache/impl/idCache/ImmutableIdCacheImpl.java
+:100644 100644 a52be78 054fbab M	Aurora/testSource/com/intellij/mock/MockVirtualFile.java

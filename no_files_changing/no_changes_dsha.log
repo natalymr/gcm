@@ -1,0 +1,95 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 942a9521424b082bc496d3a47d0d0fcc408b84a3 82e083e193d3c1e83df731243d78acdf7e051cc6
+Author: dsha <>
+Date:   Sat Aug 2 14:33:20 2003 +0000
+
+    Added support for multi-line comments
+
+commit 82e083e193d3c1e83df731243d78acdf7e051cc6 73f201d816475645e6332cb4e87e03fcd19ba1f0
+Author: dsha <>
+Date:   Sat Aug 2 14:32:49 2003 +0000
+
+    Added support for multi-line comments
+
+:100644 100644 da87bae dc8209d M	Aurora/source/com/intellij/parserGen/parsing/antlr/grammar.g
+
+commit 73f201d816475645e6332cb4e87e03fcd19ba1f0 6b909013495dedda331d62607bed96702798b770
+Author: db <>
+Date:   Sat Aug 2 12:06:59 2003 +0000
+
+    no message
+
+:000000 100644 0000000 363516d A	Aurora/testData/refactoring/typeCook/t20/after/Test.1.graph
+:000000 100644 0000000 bb350e4 A	Aurora/testData/refactoring/typeCook/t20/after/Test.graph
+:000000 100644 0000000 5f0129f A	Aurora/testData/refactoring/typeCook/t20/after/test.java
+:000000 100644 0000000 5f0129f A	Aurora/testData/refactoring/typeCook/t20/before/test.java
+
+commit 6b909013495dedda331d62607bed96702798b770 32029308ddacc6e83f5686ca6d3c980c1547f8f1
+Author: db <>
+Date:   Sat Aug 2 12:01:57 2003 +0000
+
+    no message
+
+:000000 100644 0000000 e3fa522 A	Aurora/source/com/intellij/refactoring/typeCook/HangRole.java
+:100644 100644 09d26fb 0c61ad3 M	Aurora/source/com/intellij/refactoring/typeCook/Kitchen.java
+:100644 100644 3017449 f1da780 M	Aurora/source/com/intellij/refactoring/typeCook/TransparentRole.java
+:100644 100644 501340e 89d6a93 M	Aurora/source/com/intellij/refactoring/typeCook/TypeMark.java
+:100644 100644 7abcb44 ecfdb92 M	Aurora/source/com/intellij/refactoring/typeCook/Unifier.java
+:100644 100644 29bafbb 0deefb5 M	Aurora/testSource/com/intellij/refactoring/TypeCookTest.java
+
+commit 32029308ddacc6e83f5686ca6d3c980c1547f8f1 4439fc8056611873f29b006ab0ed8956a4a3b38d
+Author: builder <>
+Date:   Fri Aug 1 21:49:34 2003 +0000
+
+    Build completed
+
+:100644 100644 c2c3c6c db86688 M	Aurora/build/version.properties
+
+commit 4439fc8056611873f29b006ab0ed8956a4a3b38d 6df4b012acd51ae7e39b87987e7810a46332a140
+Author: builder <>
+Date:   Fri Aug 1 21:07:30 2003 +0000
+
+    New version
+
+:100644 100644 73c0842 c2c3c6c M	Aurora/build/version.properties
+
+commit 6df4b012acd51ae7e39b87987e7810a46332a140 f395bcb1637878fcc5b0019cd273c9fa9437fb4f
+Author: max <>
+Date:   Fri Aug 1 18:46:53 2003 +0000
+
+    no message
+
+:100644 100644 79cdf3f 97d6a32 M	Aurora/source/com/intellij/codeInspection/defUse/DefUseInspection.java
+
+commit f395bcb1637878fcc5b0019cd273c9fa9437fb4f 113e3cf4f084c1fbe107e28a9cf73bb768a2e31f
+Author: max <>
+Date:   Fri Aug 1 18:35:47 2003 +0000
+
+    no message
+
+:100644 100644 6d38a9f cd7b0f3 M	Aurora/source/com/intellij/ide/actionMacro/ActionMacroManager.java
+:100644 100644 99e6372 68758b0 M	Aurora/source/com/intellij/ide/actionMacro/actions/StartMacroRecordingAction.java
+:100644 100644 ec52510 c101cef M	Aurora/source/com/intellij/ide/actionMacro/actions/StopMacroRecordingAction.java
+
+commit 113e3cf4f084c1fbe107e28a9cf73bb768a2e31f 4a2d7a29964ac8147fbc2a9541009ea158989998
+Author: max <>
+Date:   Fri Aug 1 17:52:57 2003 +0000
+
+    no message
+
+:100644 100644 9246298 004e9e2 M	Aurora/source/com/intellij/codeInspection/dataFlow/ControlFlowAnalyzer.java
+:100644 100644 93595a6 2de6a53 M	Aurora/source/com/intellij/codeInspection/dataFlow/instructions/TypeCastInstruction.java
+:100644 100644 02f2bd2 ba880dd M	Aurora/source/com/intellij/codeInspection/redundantCast/RedundantCastUtil.java
+
+commit 4a2d7a29964ac8147fbc2a9541009ea158989998 63396ebf400f02810ff7c3809b5d6b7a93edaaa4
+Author: valentin <>
+Date:   Fri Aug 1 16:51:55 2003 +0000
+
+    no message
+
+:100644 100644 0277ee2 d1bf666 M	Aurora/source/com/intellij/aspects/psi/impl/PsiAspectFileImpl.java
+:100644 100644 69fe8e7 d368c65 M	Aurora/source/com/intellij/codeInsight/daemon/impl/DaemonCodeAnalyzerImpl.java
+:100644 100644 1ee9aba 0d17953 M	Aurora/source/com/intellij/psi/impl/source/PsiJavaFileBaseImpl.java
+:100644 100644 f358456 ceac217 M	Aurora/source/com/intellij/psi/impl/source/PsiJavaFileImpl.java

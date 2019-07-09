@@ -1,0 +1,94 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 08ad5793d85192d1004aaa1ebbc154faf1341f9e 9f01bf121753d4711a734a46a92bc33bb7a24021
+Author: ignatov <>
+Date:   Sun Jul 4 15:28:14 2004 +0000
+
+    This commit was manufactured by cvs2svn to create branch 'PALLADA_RELEASE'.
+
+commit 9f01bf121753d4711a734a46a92bc33bb7a24021 ded09bfcb52304d30902b517b88b4e0b57933dbe
+Author: builder <>
+Date:   Sun Jul 4 15:28:13 2004 +0000
+
+    New version
+
+:100644 100644 2cfe1b4 6466abc M	Aurora/build/lib/javac2.jar
+
+commit ded09bfcb52304d30902b517b88b4e0b57933dbe d7fdc0e4859d0584380c92a84d3c764db0586d1b
+Author: lesya <>
+Date:   Sun Jul 4 15:13:59 2004 +0000
+
+    no message
+
+:100644 100644 152b059 2717e45 M	Aurora/source/com/intellij/j2ee/module/view/web/filter/CreateFilterAction.java
+:100644 100644 b444865 1569907 M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/CreateServletAction.java
+
+commit d7fdc0e4859d0584380c92a84d3c764db0586d1b d25fc22d0a1da8442741ac609cd109c945dca1a1
+Author: max <>
+Date:   Sun Jul 4 14:58:44 2004 +0000
+
+    no message
+
+:100644 100644 61e42da 38dda9d M	Aurora/build/mac/Info.plist
+
+commit d25fc22d0a1da8442741ac609cd109c945dca1a1 3f8f389ba25fd9820873ea477e99176e2581d06d
+Author: builder <>
+Date:   Sun Jul 4 14:56:47 2004 +0000
+
+    New version
+
+:100644 100644 c937dbf 2cfe1b4 M	Aurora/build/lib/javac2.jar
+
+commit 3f8f389ba25fd9820873ea477e99176e2581d06d 387ef84c3fdf07e37d536674f7895c6b5948c673
+Author: lesya <>
+Date:   Sun Jul 4 14:55:51 2004 +0000
+
+    no message
+
+:100644 100644 c23aef4 372d99d M	Aurora/source/com/intellij/j2ee/module/view/common/editor/J2EEEditorBase.java
+:100644 100644 c1347be 90207b8 M	Aurora/source/com/intellij/j2ee/module/view/ejb/actions/CreateEjbRelationshipAction.java
+:100644 100644 c1e06d2 b0605ba M	Aurora/source/com/intellij/j2ee/module/view/ejb/moduleLevel/EditEjbRelationshipPanel.java
+
+commit 387ef84c3fdf07e37d536674f7895c6b5948c673 9cad0e6913a172326a29c19aada16392f6e36191
+Author: max <>
+Date:   Sun Jul 4 14:51:46 2004 +0000
+
+    no message
+
+:100644 100644 fcb0e38 61e42da M	Aurora/build/mac/Info.plist
+
+commit 9cad0e6913a172326a29c19aada16392f6e36191 f3fdc0fb438b3e164ff7a3f9dead245d97c7a4f4
+Author: max <>
+Date:   Sun Jul 4 14:42:44 2004 +0000
+
+    no message
+
+:100644 100644 5ead2ce e46443d M	Aurora/source/com/intellij/execution/impl/EditConfigurationsDialog.java
+:100644 100644 c54b421 459f036 M	Aurora/source/com/intellij/execution/impl/RunConfigurable.java
+:100644 100644 f179769 af58b75 M	Aurora/source/com/intellij/openapi/options/ex/SingleConfigurableEditor.java
+
+commit f3fdc0fb438b3e164ff7a3f9dead245d97c7a4f4 574f80821c309ed0eacc82d42ad291b484ae5b67
+Author: builder <>
+Date:   Sun Jul 4 14:33:37 2004 +0000
+
+    Build completed
+
+:100644 100644 794b8f2 7a9178d M	Aurora/build/version.properties
+
+commit 574f80821c309ed0eacc82d42ad291b484ae5b67 557f7ae2b779b712950bec3cc1d51193b2b69d0f
+Author: lesya <>
+Date:   Sun Jul 4 14:32:07 2004 +0000
+
+    no message
+
+:100644 100644 96a3856 56121d9 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/config/CvsRootConfiguration.java
+:100644 100644 092b116 bfd822a M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/config/ui/Cvs2SettingsEditPanel.java
+:100644 100644 ddc72bb b329531 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/connections/ext/ExtConnectionCvsSettings.java
+:100644 100644 5ccc7e0 6fc3880 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/connections/ext/ExtLoginProvider.java
+:100644 100644 8c38c85 41a64bf M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/connections/ext/ui/ExtConnectionDualPanel.java
+:100644 100644 4f7b1e5 4369f1b M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/connections/ssh/ui/SshConnectionSettingsPanel.form
+:100644 100644 5efa64f 789b3c8 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/connections/ssh/ui/SshConnectionSettingsPanel.java
+:100644 100644 eff1046 781c785 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsExecution/CvsOperationExecutor.java
+:100644 100644 533b60b 2394365 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsExecution/ModalityContext.java
+:100644 100644 e287497 535e028 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/cvsLog/ui/FileHistoryPanel.java

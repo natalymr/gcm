@@ -1,0 +1,97 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 7b5b168f1fa7945a9ebde0dffc855e365975e0b5 1fbcd3beb0f32c201cf4d2379ef0f4d4213dbd32
+Author: pti <>
+Date:   Wed Feb 11 18:22:45 2004 +0000
+
+    no message
+
+commit 1fbcd3beb0f32c201cf4d2379ef0f4d4213dbd32 602984feec1a221ad84d5edb2ee4150fef437aba
+Author: dyoma <>
+Date:   Wed Feb 11 17:52:31 2004 +0000
+
+    #29510
+
+:100644 100644 e738c78 fb2d4d0 M	Aurora/source/com/intellij/j2ee/module/components/ApplicationModuleBuildComponent.java
+:100644 100644 1c5c82f d514b63 M	Aurora/source/com/intellij/j2ee/module/components/ManifestBuilder.java
+:100644 100644 739889d 2517749 M	Aurora/source/com/intellij/j2ee/module/components/ModuleBuildProperties.java
+:100644 100644 02262d5 8d2957a M	Aurora/source/com/intellij/util/io/FileUtil.java
+
+commit 602984feec1a221ad84d5edb2ee4150fef437aba d0de7ad621945ca20a953155f7f8cad1779e7132
+Author: max <>
+Date:   Wed Feb 11 17:38:56 2004 +0000
+
+    no message
+
+:100644 100644 1076a57 c605865 M	Aurora/source/com/intellij/j2ee/weblogic/ejbc/EjbcRunner.java
+
+commit d0de7ad621945ca20a953155f7f8cad1779e7132 832999b5dd2f33d34b1f2ffeb73f6b74096fda6a
+Author: lesya <>
+Date:   Wed Feb 11 17:26:36 2004 +0000
+
+    no message
+
+:100644 100644 4c52252 6d0018c M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsBrowser/CvsTree.java
+:100644 100644 95d729e 55c1ff3 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/BrowserPanel.java
+:100644 100644 5776d82 842964a M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/experts/SelectCvsElementStep.java
+
+commit 832999b5dd2f33d34b1f2ffeb73f6b74096fda6a bbadd5083e067a9e901f06b85771490beb854a67
+Author: max <>
+Date:   Wed Feb 11 17:12:41 2004 +0000
+
+    no message
+
+:100644 100644 f5fbb0d 91bca23 M	Aurora/source/com/intellij/codeInsight/daemon/impl/PostHighlightingPass.java
+
+commit bbadd5083e067a9e901f06b85771490beb854a67 d4ab140207493f88f88ce4074edfc176a08ca3ad
+Author: cdr <>
+Date:   Wed Feb 11 16:04:30 2004 +0000
+
+    no message
+
+:100644 100644 a549934 3095c0b M	Aurora/source/com/intellij/ide/util/projectWizard/WebModuleExplodedDirStep.java
+:100644 100644 ef888f0 b35639e M	Aurora/source/com/intellij/ide/util/projectWizard/WebModuleWebRootsStep.java
+:100644 100644 6c6fd00 49ec512 M	Aurora/source/com/intellij/j2ee/HelpID.java
+:100644 100644 99832fc 908166d M	Aurora/source/com/intellij/j2ee/module/view/app/ApplicationModulePropertiesPanel.java
+:100644 100644 6a2aa40 a33b3ba M	Aurora/source/com/intellij/j2ee/module/view/common/roles/SecurityRolesView.java
+:100644 100644 dcfdb80 9257e23 M	Aurora/source/com/intellij/j2ee/module/view/ejb/moduleLevel/viewlets/EjbModuleAssemblyDescriptorViewlets.java
+:100644 100644 dfcac3d 1d2e896 M	Aurora/source/com/intellij/j2ee/module/view/ejb/permissions/EjbMethodPermissionsView.java
+:100644 100644 bcf4a74 a88e084 M	Aurora/source/com/intellij/j2ee/module/view/web/common/param/ParamView.java
+:100644 100644 6635bd1 632ae80 M	Aurora/source/com/intellij/j2ee/module/view/web/filter/mapping/FilterMappingView.java
+:100644 100644 25a2bb7 b76d304 M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/ServletInitializationPanel.java
+:100644 100644 6d2400b e56ef0d M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/ServletPropertiesDialog.java
+:100644 100644 15af17f 97e6311 M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/urlMapping/ServletMappingView.java
+:100644 100644 d0a754b f97a370 M	Aurora/source/com/intellij/j2ee/module/view/web/viewlets/WebModuleAssemblyDescriptorViewlets.java
+
+commit d4ab140207493f88f88ce4074edfc176a08ca3ad f016f3dbd4b7917f5c7d21c7f35ca28f49b795d8
+Author: lex <>
+Date:   Wed Feb 11 16:04:04 2004 +0000
+
+    no message
+
+commit f016f3dbd4b7917f5c7d21c7f35ca28f49b795d8 c6bcdee9d749634986a23b6992e5564daa7adad8
+Author: anton <>
+Date:   Wed Feb 11 15:58:15 2004 +0000
+
+    no message
+
+:100644 100644 300f568 8eb0e6b M	Aurora/resources/idea/DefaultKeymap.xml
+:100644 100644 89e4205 9231be7 M	Aurora/source/com/intellij/openapi/fileEditor/impl/FileEditorManagerImpl.java
+:100644 100644 8557fd2 f3300ba M	Aurora/source/com/intellij/ui/Splitter.java
+
+commit c6bcdee9d749634986a23b6992e5564daa7adad8 057898c7e4efe31cba35b13a2b9165e211c113e0
+Author: max <>
+Date:   Wed Feb 11 15:49:07 2004 +0000
+
+    no message
+
+:100644 100644 7e86062 f5fbb0d M	Aurora/source/com/intellij/codeInsight/daemon/impl/PostHighlightingPass.java
+
+commit 057898c7e4efe31cba35b13a2b9165e211c113e0 f92b4e0d90b8092d2344bceba454e1a273c3f15d
+Author: valentin <>
+Date:   Wed Feb 11 15:33:12 2004 +0000
+
+    no message
+
+:100644 100644 ade832c f10c05c M	Aurora/source/com/intellij/codeInsight/daemon/impl/DaemonCodeAnalyzerImpl.java

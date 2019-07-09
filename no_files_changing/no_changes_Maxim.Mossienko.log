@@ -1,0 +1,356 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3b7ea4f1e4887be8a61646b0aba3b9749ba4df50 2c3036eb635ea6a657c3ad4d67f8cec815498ac5
+Author: Maxim.Mossienko <>
+Date:   Thu Dec 9 12:21:59 2004 +0000
+
+    added test for ) in java code
+
+commit 2c3036eb635ea6a657c3ad4d67f8cec815498ac5 3d7cc21b0668ade41a97bb2f90862af4cf96b247
+Author: igork <>
+Date:   Thu Dec 9 12:20:28 2004 +0000
+
+    Index out of bounds fixed
+
+:100644 100644 c9f8ba3 92c29b6 M	Aurora/source/com/intellij/openapi/editor/ex/util/LexerHighlighter.java
+
+commit 3d7cc21b0668ade41a97bb2f90862af4cf96b247 ddf350bb04132f6a58da51b764014954aaafcab9
+Author: lex <>
+Date:   Thu Dec 9 12:18:50 2004 +0000
+
+    no message
+
+:000000 100644 0000000 08e87c8 A	Aurora/testData/debugger/tinyApp/outs/sessionDispose.out
+
+commit ddf350bb04132f6a58da51b764014954aaafcab9 b25fa577613c55d2e06dff35af02c5757325198e
+Author: cdr <>
+Date:   Thu Dec 9 12:02:38 2004 +0000
+
+    no message
+
+:100644 100644 831f3cf 7607309 M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/SetupJDKFix.java
+:100644 100644 6a8e4e8 d9c02b2 M	Aurora/source/com/intellij/j2ee/module/LibraryLinkImpl.java
+:100644 100644 09fd649 f410d40 M	Aurora/source/com/intellij/psi/impl/PsiToDocumentSynchronizer.java
+
+commit b25fa577613c55d2e06dff35af02c5757325198e 17d73778721db08a1dde3c74672d77dd14a2357f
+Author: Maxim.Mossienko <>
+Date:   Thu Dec 9 12:02:25 2004 +0000
+
+    added test for ) in java code
+
+:100644 100644 7e4ac32 2a40d8f M	Aurora/source/com/intellij/codeInsight/editorActions/TypedHandler.java
+:000000 100644 0000000 36a57f6 A	Aurora/testData/codeInsight/defaultAction/rparenth/4.java
+:000000 100644 0000000 61e043c A	Aurora/testData/codeInsight/defaultAction/rparenth/4_after.java
+:100644 100644 6d24a47 3f6752f M	Aurora/testSource/com/intellij/codeInsight/defaultAction/RParenthTest.java
+
+commit 17d73778721db08a1dde3c74672d77dd14a2357f 686282b7c9f269de3e2cccfc92ae6303f3a201d3
+Author: lesya <>
+Date:   Thu Dec 9 11:35:12 2004 +0000
+
+    test
+
+:100644 100644 3c0135c 4ceb5f2 M	Aurora/source/com/intellij/application/options/CodeStyleXmlPanel.form
+:100644 100644 356b702 943d297 M	Aurora/source/com/intellij/application/options/CodeStyleXmlPanel.java
+
+commit 686282b7c9f269de3e2cccfc92ae6303f3a201d3 bcc89eca4e728229cf11326f098cf719e92dbd02
+Author: ven <>
+Date:   Thu Dec 9 11:34:45 2004 +0000
+
+    no message
+
+:100644 100644 dc6a07d e3d5268 M	Aurora/openapi/src/com/intellij/psi/util/TypeConversionUtil.java
+
+commit bcc89eca4e728229cf11326f098cf719e92dbd02 112b50ceb370f60df41f05331b8d2286c357d501
+Author: lesya <>
+Date:   Thu Dec 9 11:23:45 2004 +0000
+
+    test
+
+:100644 100644 1ab7d90 5b802b4 M	Aurora/openapi/src/com/intellij/psi/codeStyle/CodeStyleSettings.java
+:100644 100644 8dff3cb 3576e1d M	Aurora/source/com/intellij/codeFormatting/xml/XmlProcessor.java
+:000000 100644 0000000 d86e60e A	Aurora/testData/psi/formatter/xml/17.xml
+:000000 100644 0000000 b2f3ec2 A	Aurora/testData/psi/formatter/xml/17_after.xml
+:100644 100644 90702f8 cd56f1e M	Aurora/testSource/com/intellij/psi/formatter/XmlFormatterTest.java
+
+commit 112b50ceb370f60df41f05331b8d2286c357d501 91fa80940da8ac156a24f6f0a70e87459e17cff1
+Author: igork <>
+Date:   Thu Dec 9 11:19:04 2004 +0000
+
+    Performance leak fixed
+
+:100644 100644 2f90918 c9f8ba3 M	Aurora/source/com/intellij/openapi/editor/ex/util/LexerHighlighter.java
+
+commit 91fa80940da8ac156a24f6f0a70e87459e17cff1 1ca159e4915243a8da5ec9e2cf157185b3df599c
+Author: lesya <>
+Date:   Thu Dec 9 10:55:34 2004 +0000
+
+    test
+
+:100644 100644 0fd7613 8dff3cb M	Aurora/source/com/intellij/codeFormatting/xml/XmlProcessor.java
+:000000 100644 0000000 ae660dd A	Aurora/testData/psi/formatter/xml/keepingSpacesAndWrapping.xml
+:000000 100644 0000000 0ed7322 A	Aurora/testData/psi/formatter/xml/keepingSpacesAndWrapping_after.xml
+:100644 100644 22f64d4 90702f8 M	Aurora/testSource/com/intellij/psi/formatter/XmlFormatterTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 6cb84ced7f12cc521e4716b9a19e20c848613aef aa220a48e68b773ed2fd21472ff530f7206c50aa
+Author: Maxim.Mossienko <>
+Date:   Mon Nov 22 14:22:53 2004 +0000
+
+    fixed one char diff again
+
+commit aa220a48e68b773ed2fd21472ff530f7206c50aa 98ffc3f00252007d75bb6f4233e867172a92a855
+Author: ven <>
+Date:   Mon Nov 22 14:02:28 2004 +0000
+
+    no message
+
+:100644 100644 932710d 59936c2 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/GenericsHighlightUtil.java
+
+commit 98ffc3f00252007d75bb6f4233e867172a92a855 b7721796bcb48d85214bfca9dd6fdf5a77202920
+Author: ven <>
+Date:   Mon Nov 22 13:56:55 2004 +0000
+
+    no message
+
+:100644 100644 890d22b a69b05c M	Aurora/source/com/intellij/refactoring/extractMethod/ExtractMethodProcessor.java
+
+commit b7721796bcb48d85214bfca9dd6fdf5a77202920 443a11fb3b8bef50868c3039d97c365ee667abd9
+Author: ven <>
+Date:   Mon Nov 22 13:45:24 2004 +0000
+
+    SCR 40064
+
+:100644 100644 3829393 a1f8c61 M	Aurora/source/com/intellij/psi/impl/source/PsiImportStaticReferenceElementImpl.java
+:000000 100644 0000000 169ea81 A	Aurora/testData/refactoring/moveMembers/scr40064/after/Test.java
+:000000 100644 0000000 10cd1b9 A	Aurora/testData/refactoring/moveMembers/scr40064/before/Test.java
+:100644 100644 28af914 d3b4b7d M	Aurora/testSource/com/intellij/refactoring/MoveMembersTest.java
+
+commit 443a11fb3b8bef50868c3039d97c365ee667abd9 4be2e92638ac733fc658c603477f90ecf2a2e30e
+Author: max <>
+Date:   Mon Nov 22 12:52:07 2004 +0000
+
+    no message
+
+:000000 100644 0000000 0eafe01 A	Aurora/testSource/com/intellij/mock/MockProjectManager.java
+:100644 100644 88a547d 00027d2 M	Aurora/testSource/com/intellij/openapi/fileEditor/FileDocumentManagerImplTest.java
+:100644 100644 ddf0efb 590f9f9 M	Aurora/testSource/com/intellij/psi/PsiDocumentManagerImplTest.java
+
+commit 4be2e92638ac733fc658c603477f90ecf2a2e30e 30bd4446c403f86113e1fa8348be629fbcb2f157
+Author: lesya <>
+Date:   Mon Nov 22 12:42:11 2004 +0000
+
+    no message
+
+:100644 100644 3f1e443 7dd8fd6 M	Aurora/source/com/intellij/openapi/vcs/actions/CommonCheckinFilesAction.java
+
+commit 30bd4446c403f86113e1fa8348be629fbcb2f157 a2a8613738521660c4b18a8213b6adb5cc24a174
+Author: lesya <>
+Date:   Mon Nov 22 12:20:00 2004 +0000
+
+    no message
+
+:100644 100644 345e710 e2b9a71 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/checkinProject/CvsBasedRevisions.java
+
+commit a2a8613738521660c4b18a8213b6adb5cc24a174 cfe592faa46c0ae584f1c75e3320982d1a0d5b30
+Author: lesya <>
+Date:   Mon Nov 22 11:55:23 2004 +0000
+
+    no message
+
+:100644 100644 658b85e 64b3e22 M	Aurora/source/com/intellij/openapi/vcs/ui/impl/RootDirsTreeNode.java
+
+commit cfe592faa46c0ae584f1c75e3320982d1a0d5b30 cac3aa691b27f77c2c2eed3eeefc8b1a33a77c9e
+Author: ven <>
+Date:   Mon Nov 22 11:47:49 2004 +0000
+
+    no message
+
+:100644 100644 19d16ed 855aadd M	Aurora/source/com/intellij/codeInsight/daemon/impl/RefCountHolder.java
+:100644 100644 8b2cf54 077d62e M	Aurora/source/com/intellij/psi/impl/source/codeStyle/ImportHelper.java
+
+commit cac3aa691b27f77c2c2eed3eeefc8b1a33a77c9e b242de10e5077886a5f3e6e3bd1bc6bbf3e68cd6
+Author: lesya <>
+Date:   Mon Nov 22 11:34:17 2004 +0000
+
+    no message
+
+:100644 100644 6f88618 2e3864a M	Aurora/source/com/intellij/testFramework/IdeaTestCase.java
+:100644 100644 e8bf7a3 88a547d M	Aurora/testSource/com/intellij/openapi/fileEditor/FileDocumentManagerImplTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3adb62c2c4f0ec2ea581688e16e6f57a49e8879a 0ddb33ae9e472e1bfdcbd8c58271cb6d2a2e7fb7
+Author: Maxim.Mossienko <>
+Date:   Fri Nov 19 15:53:48 2004 +0000
+
+    fixed one char missed
+
+commit 0ddb33ae9e472e1bfdcbd8c58271cb6d2a2e7fb7 5a9daa1339e852cd8d0cbefae22ed78c599d6f12
+Author: mike <>
+Date:   Fri Nov 19 15:52:31 2004 +0000
+
+    no message
+
+:100644 100644 29bc7fc 07e60de M	Aurora/openapi/src/com/intellij/psi/xml/XmlTag.java
+:100644 100644 d8c62b5 5a17d78 M	Aurora/source/com/intellij/openapi/components/impl/ComponentManagerImpl.java
+:100644 100644 1dc15f1 9753bb2 M	Aurora/testSource/com/intellij/openapi/components/impl/ComponentManagerTest.java
+
+commit 5a9daa1339e852cd8d0cbefae22ed78c599d6f12 71c872f22ae7252f5e7290d7fb668d87471682a1
+Author: builder <>
+Date:   Fri Nov 19 15:22:06 2004 +0000
+
+    New version
+
+:100644 100644 ca6bc6b ada2614 M	Aurora/build/lib/javac2.jar
+
+commit 71c872f22ae7252f5e7290d7fb668d87471682a1 de5cf9b129801173b13c4b72b4fe8c0ed851374c
+Author: Dmitry.Shtukenberg <>
+Date:   Fri Nov 19 14:41:42 2004 +0000
+
+    New formatter interface - more details
+
+:100644 100644 b85ea08 a7bba3d M	Aurora/plugins/cvs2/testSource/cvsTests.iml
+:100644 100644 83a26bf 67ddc06 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/Alignment.java
+:100644 100644 d5dbbcf 800dc82 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/CodeFormatterFacade.java
+:100644 100644 826a3dc b32afe2 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/GeneralCodeFormatter.java
+:100644 100644 52dda2a b557dc2 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/IndentProperty.java
+:100644 100644 59ee136 5edf605 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/PseudoText.java
+:000000 100644 0000000 b6fc27a A	Aurora/source/com/intellij/psi/impl/source/codeStyle/PseudoTextArray.java
+:100644 100644 f63112c eb85dde M	Aurora/source/com/intellij/psi/impl/source/codeStyle/java/JavaAdapter.java
+:000000 100644 0000000 1d88db4 A	Aurora/source/com/intellij/psi/impl/source/codeStyle/java/JavaAdapterVisitor.java
+:100644 100644 8e87c16 eac9912 M	Aurora/source/com/intellij/psi/impl/source/codeStyle/java/JavaPseudoText.java
+
+commit de5cf9b129801173b13c4b72b4fe8c0ed851374c d8004bd10447ac1557a8b64c39be0783056f4098
+Author: max <>
+Date:   Fri Nov 19 14:19:57 2004 +0000
+
+    no message
+
+:100644 100644 6cf68b1 a2a0e13 M	Aurora/source/com/intellij/openapi/application/impl/ApplicationInfoImpl.java
+
+commit d8004bd10447ac1557a8b64c39be0783056f4098 a13de031d60ddabedaf67afd510827d85ed46ed2
+Author: builder <>
+Date:   Fri Nov 19 14:15:34 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 fef1fd4 ba9c7d4 M	Aurora/build/conf/idea_all_vm14.iap_xml
+
+commit a13de031d60ddabedaf67afd510827d85ed46ed2 62fe654df67a7b82662303ed2b2f7e15499da109
+Author: jeka <>
+Date:   Fri Nov 19 14:13:48 2004 +0000
+
+    no message
+
+:100644 100644 48b62ff 63ad584 M	Aurora/source/com/intellij/compiler/ant/CompileModuleTarget.java
+:100644 100644 09adf2c 9b64ab6 M	Aurora/source/com/intellij/openapi/projectRoots/ui/PathEditor.java
+
+commit 62fe654df67a7b82662303ed2b2f7e15499da109 05dd5617274af415c38fa2deb24f60959130d2c9
+Author: mike <>
+Date:   Fri Nov 19 14:04:44 2004 +0000
+
+    no message
+
+:100644 100644 3c03ac6 5babe9e M	Aurora/idea.iml
+:100644 000000 701f44e 0000000 D	Aurora/lib/picocontainer-1.0.jar
+:000000 100644 0000000 07bbeeb A	Aurora/lib/picocontainer.jar
+:100644 100644 d8cc26f 937af4a M	Aurora/lib/required_for_dist.txt
+
+commit 05dd5617274af415c38fa2deb24f60959130d2c9 6b1da8e2dab0a68f1ccefd84f99dfc805d70f091
+Author: builder <>
+Date:   Fri Nov 19 13:35:25 2004 +0000
+
+    New version
+
+:100644 100644 5de17f8 ca6bc6b M	Aurora/build/lib/javac2.jar
+
+commit 6b1da8e2dab0a68f1ccefd84f99dfc805d70f091 94c4fa6d37927b6c98bd75e42b2a6a8cc79ab4aa
+Author: Anna.Kozlova <>
+Date:   Fri Nov 19 12:56:40 2004 +0000
+
+    no message
+
+:100644 100644 df3c6b9 78a5475 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/Emulator.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 32983395436b4818a2faf6c3e0bcf9ed05df2c86 a609337429db8568a0b12f557a84ec9026de6d10
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 09:06:28 2004 +0000
+
+    large test case was landed
+
+commit a609337429db8568a0b12f557a84ec9026de6d10 5b3c7f0b40b153d14cc1ccf8cbe5bf3b488c7836
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 09:05:46 2004 +0000
+
+    class output path also made relative to module dir
+
+:100644 100644 72c2d71 3c0886f M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/MatchingImpl.java
+:100644 100644 c154135 c45b8da M	Aurora/plugins/structuralsearch/source/com/intellij/structuralsearch/impl/matcher/predicates/RegExpPredicate.java
+
+commit 5b3c7f0b40b153d14cc1ccf8cbe5bf3b488c7836 d0b5afcf911c014c1e91419ffc2d748779b5a018
+Author: builder <>
+Date:   Wed Mar 10 09:00:15 2004 +0000
+
+    New version
+
+:100644 100644 e7b3c41 fdd9f60 M	Aurora/build/lib/javac2.jar
+
+commit d0b5afcf911c014c1e91419ffc2d748779b5a018 cc9bd34f14179eef3163efee1acb82baac9b9196
+Author: max <>
+Date:   Wed Mar 10 08:58:13 2004 +0000
+
+    no message
+
+:100644 100644 03c2f0d 24fb258 M	Aurora/javac2/src/com/intellij/uiDesigner/ant/Javac2.java
+
+commit cc9bd34f14179eef3163efee1acb82baac9b9196 1f446b0001ce9cababd7b865a18bd3f986fa7958
+Author: builder <>
+Date:   Wed Mar 10 08:43:21 2004 +0000
+
+    New version
+
+:100644 100644 4e61692 e7b3c41 M	Aurora/build/lib/javac2.jar
+
+commit 1f446b0001ce9cababd7b865a18bd3f986fa7958 7f3bb7a2a599ddad215f7519ba839542215c16f9
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 08:32:26 2004 +0000
+
+    class output path also made relative to module dir
+
+:100644 100644 ba53008 6bbea35 M	Aurora/weblogic/weblogic.iml
+
+commit 7f3bb7a2a599ddad215f7519ba839542215c16f9 ca5bdd93aef016b63b02e31d0cecdaa58bbbe9ec
+Author: Maxim.Mossienko <>
+Date:   Wed Mar 10 08:24:49 2004 +0000
+
+    mADE RELATIVE PATHES FOR CONTENT ROot and weblogic mock lib
+
+:100644 100644 648f4ad ba53008 M	Aurora/weblogic/weblogic.iml
+
+commit ca5bdd93aef016b63b02e31d0cecdaa58bbbe9ec 9b42d9a6e98670b68b5564238635bd02e7ad7545
+Author: builder <>
+Date:   Wed Mar 10 08:20:32 2004 +0000
+
+    New version
+
+:100644 100644 00d96bb 4e61692 M	Aurora/build/lib/javac2.jar
+
+commit 9b42d9a6e98670b68b5564238635bd02e7ad7545 cb9286913445295242707963dd65f03ed86d0622
+Author: builder <>
+Date:   Wed Mar 10 08:01:54 2004 +0000
+
+    New version
+
+:100644 100644 c818289 00d96bb M	Aurora/build/lib/javac2.jar
+
+commit cb9286913445295242707963dd65f03ed86d0622 6ecfe7edd3015d92efda321b43a0ba533579e8fb
+Author: jeka <>
+Date:   Wed Mar 10 08:00:52 2004 +0000
+
+    made ModuleRule less sensitive to context
+
+:100644 100644 f0d2a2d 9c84475 M	Aurora/source/com/intellij/ide/impl/dataRules/ModuleRule.java

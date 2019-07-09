@@ -1,0 +1,282 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 5c4489226db381b819521a08113114444fd5d880 1461d9a25293842465573d30ac98973ecc7dce86
+Author: Anna.Kozlova <>
+Date:   Mon Nov 1 11:39:20 2004 +0000
+
+    no message
+
+commit 1461d9a25293842465573d30ac98973ecc7dce86 aad7b47bfd71b700534d5e4caf6c849de3db9a7f
+Author: Anna.Kozlova <>
+Date:   Mon Nov 1 11:28:27 2004 +0000
+
+    no message
+
+:100644 100644 664df07 e827359 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/MIDPSettings.java
+
+commit aad7b47bfd71b700534d5e4caf6c849de3db9a7f c8712191f47489d782f5d50b2398ccf37eb3b13f
+Author: jeka <>
+Date:   Mon Nov 1 11:27:04 2004 +0000
+
+    no message
+
+:100644 100644 086b42c f3ebc51 M	Aurora/source/com/intellij/ide/projectView/impl/ProjectViewImpl.java
+
+commit c8712191f47489d782f5d50b2398ccf37eb3b13f 142dc5d65726ba53b6ffc19fbbb77681cf58cdb7
+Author: Anna.Kozlova <>
+Date:   Mon Nov 1 11:21:14 2004 +0000
+
+    no message
+
+:100644 100644 e0f953b d9635a9 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/MobileSettingsConfigurable.java
+:100644 100644 7654a8c 664df07 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/MIDPSettings.java
+:100644 100644 4dc4a53 3cf05bd M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/midp/MIDPApplicationType.java
+
+commit 142dc5d65726ba53b6ffc19fbbb77681cf58cdb7 0b4898ab78fbf55d2d97ba7c3384a14341c4d245
+Author: Anna.Kozlova <>
+Date:   Mon Nov 1 10:59:40 2004 +0000
+
+    no message
+
+:100644 100644 47491b1 67645f0 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/J2MEPlugin.java
+:100644 100644 664532f c179b98 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/CompoundValidityState.java
+:100644 000000 99c42b5 0000000 D	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/DescriptorAction.java
+:100644 100644 8ee3e2f 19ca2d7 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/J2MEPackagingCompiler.java
+:000000 100644 0000000 ec79124 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/MobileMakeUtil.java
+:100644 100644 07c038e c7f944d M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/DeviceSpecificOption.java
+:100644 100644 9aaf4ae a92729d M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/EmulatorType.java
+:100644 100644 2b4b7ca 62cad70 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleBuilder.java
+:100644 100644 7be17e1 a9c075e M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleConfEditor.java
+:100644 100644 60b3c82 fc1c696 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleEditorsProvider.java
+:100644 100644 3a11597 830e628 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleExplodedDirStep.java
+:100644 100644 fd2ff4c 1603eed M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleResourcesStep.java
+:100644 100644 79b9e49 bf32b4b M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleTypeStep.java
+:000000 100644 0000000 1f83712 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/MobileBuildPanel.java
+:100644 100644 535309c 915dacf M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/MobileBuildSettings.java
+:100644 100644 88c536e b723218 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/MobileExplodedPanel.java
+:100644 100644 283da99 07904c8 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/MobileModuleResourcesSettings.java
+:100644 100644 029f509 104130d M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/MobileModuleUtil.java
+:100644 100644 d0855cc a47eaf2 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/MobileModuleSettings.java
+:100644 100644 7b1f411 e0f953b M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/MobileSettingsConfigurable.java
+:100644 100644 51d45cb 04761a0 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/MobileSettingsEditor.java
+:100644 100644 7011b61 b6c07d2 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/doja/DOJASettings.java
+:100644 100644 6968315 ff09497 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/doja/DOJASettingsConfigurable.java
+:100644 100644 7de6a2b c6d806b M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/doja/SettingsPanel.form
+:100644 100644 c87f12a 4f76bc2 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/general/GeneralMobileSettings.java
+:100644 100644 4f995a8 b9e151a M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/general/GeneralSettingsConfigurable.java
+:100644 100644 a90d094 7654a8c M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/MIDPSettings.java
+:100644 100644 806cdb6 a7fbcf7 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/MIDPSettingsConfigurable.java
+:100644 100644 86dcd2f 01ad7e3 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/SettingsPanel.form
+:100644 100644 21bb2a1 d83a928 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/MobileApplicationType.java
+:100644 100644 8285a07 c75af88 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/doja/DOJAApplicationType.java
+:100644 100644 a8a0489 0f07259 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/GeneralApplicationType.java
+:100644 100644 e57877d f0a7d6e M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/GeneralMobileApplicationTypes.java
+:100644 100644 f8f81de 4dc4a53 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/midp/MIDPApplicationType.java
+:100644 100644 a3de435d 6658bbd M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MERunConfiguration.java
+:100644 100644 c9ba3f3 2b0f4b3 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MERunnableState.java
+:100644 100644 60fc6d6 e5a51c4 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/MobileSpecificRunConfiguration.java
+:100644 100644 7f6d441 3a29849 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/MobileSpecificRunnerPanel.java
+:100644 100644 ea5e5f1 d988613 M	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/util/J2MEModuleSelector.java
+
+commit 0b4898ab78fbf55d2d97ba7c3384a14341c4d245 c52c9927605ee11dd0b3d9538fc075f59e52c0ce
+Author: builder <>
+Date:   Mon Nov 1 10:53:44 2004 +0000
+
+    fixing the "console.txt" problem
+
+:100644 100644 84caa91 ba0e036 M	Aurora/build/conf/idea_all_vm14.iap_xml
+
+commit c52c9927605ee11dd0b3d9538fc075f59e52c0ce ee96e4ff31e71ad68317247b09d137eb8a575bde
+Author: ven <>
+Date:   Mon Nov 1 09:37:50 2004 +0000
+
+    no message
+
+:100644 100644 f6146cd 575500e M	Aurora/source/com/intellij/refactoring/turnRefsToSuper/TurnRefsToSuperProcessorBase.java
+
+commit ee96e4ff31e71ad68317247b09d137eb8a575bde b467e1876a13afd253001d2b8ac1463f9b1af34a
+Author: cdr <>
+Date:   Mon Nov 1 09:12:59 2004 +0000
+
+    no message
+
+:100644 100644 92959a9 4ae0a9f M	Aurora/source/com/intellij/codeInsight/ExceptionUtil.java
+:100644 100644 64b1606 8f873e7 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/GenericsHighlightUtil.java
+:100644 100644 b06ae00 39becaf M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightClassUtil.java
+:100644 100644 43b64f4 5554567 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightControlFlowUtil.java
+:100644 100644 8d34c6d 68571a7 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightMethodUtil.java
+:100644 100644 df4834a d1be708 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightUtil.java
+:100644 100644 dc09ecc 99054cf M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightVisitorImpl.java
+:100644 100644 cd816f1 1a13c88 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/JavadocHighlightVisitor.java
+:100644 100644 c94797c 1aae3bd M	Aurora/source/com/intellij/codeInsight/highlighting/HighlightDefUseHandler.java
+:100644 100644 f61260c 15c71d0 M	Aurora/source/com/intellij/codeInsight/highlighting/HighlightUsagesHandler.java
+:100644 100644 d728bf5 60dabb9 M	Aurora/source/com/intellij/codeInsight/intention/impl/InvertIfConditionAction.java
+:100644 100644 a8cd78f daac851 M	Aurora/source/com/intellij/psi/controlFlow/LocalsOrMyInstanceFieldsControlFlowPolicy.java
+:100644 000000 ca05aca 0000000 D	Aurora/source/com/intellij/psi/controlFlow/NoVariablesControlFlowPolicy.java
+:100644 100644 0bdd33f aba6455 M	Aurora/testData/codeInsight/daemonCodeAnalyzer/advHighlighting/MethodCalls.java
+:100644 100644 c0a0a8e fc21c40 M	Aurora/testData/codeInsight/daemonCodeAnalyzer/advHighlighting/a20.java
+:100644 100644 59876a5 88dd953 M	Aurora/testData/codeInsight/daemonCodeAnalyzer/advHighlighting/a30.java
+:100644 100644 6f360f0 df5a2ec M	Aurora/testData/codeInsight/daemonCodeAnalyzer/advHighlighting/a48.java
+:100644 100644 fc80001 16cabf6 M	Aurora/testSource/com/intellij/codeInsight/ControlFlowTest.java
+:100644 100644 5d2bff2 7fcc818 M	Aurora/testSource/com/intellij/codeInsight/daemon/LightAdvHighlightingTest.java
+
+commit b467e1876a13afd253001d2b8ac1463f9b1af34a 0ce3949d1df242b8395150ab06ca93f4d70bdc9a
+Author: builder <>
+Date:   Mon Nov 1 09:09:58 2004 +0000
+
+    Build completed
+
+:100644 100644 92d29eb f5df10a M	Aurora/build/version.properties
+
+commit 0ce3949d1df242b8395150ab06ca93f4d70bdc9a 50ade3317df61953f7e62409b76ec4bd868bf9b8
+Author: jeka <>
+Date:   Mon Nov 1 07:51:46 2004 +0000
+
+    no message
+
+:100644 100644 4e6b985 dc364df M	Aurora/source/com/intellij/compiler/impl/javaCompiler/BackendCompilerWrapper.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 26bd90d7396aee1894b4335bbc780b5b93172332 6b6aebbbb8cbd354c891ac3eaaf8b010ccd071c0
+Author: Anna.Kozlova <>
+Date:   Tue Sep 21 12:51:27 2004 +0000
+
+    no message
+
+commit 6b6aebbbb8cbd354c891ac3eaaf8b010ccd071c0 90e5301ec0cf30c859d3737ac2171f79d50f8be4
+Author: builder <>
+Date:   Tue Sep 21 12:35:15 2004 +0000
+
+    New version
+
+:100644 100644 3d83ab7 b2a4416 M	Aurora/build/lib/javac2.jar
+
+commit 90e5301ec0cf30c859d3737ac2171f79d50f8be4 50e2e6afab6dec6163242113ef76f580e994bedf
+Author: Anna.Kozlova <>
+Date:   Tue Sep 21 12:12:08 2004 +0000
+
+    *** empty log message ***
+
+:000000 100644 0000000 cf2b27b A	Aurora/plugins/j2meplugin/META-INF/plugin.xml
+:000000 100644 0000000 1ffc15b A	Aurora/plugins/j2meplugin/j2meplugin.iml
+:000000 100644 0000000 47491b1 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/J2MEPlugin.java
+:000000 100644 0000000 f5fca18 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/J2MEBuildProvider.java
+:000000 100644 0000000 616a8c2 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/J2MEModuleBuildDescriptor.java
+:000000 100644 0000000 9e55e24 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/J2MEModuleBuildProperties.java
+:000000 100644 0000000 b284a6b A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/build/JADBuilder.java
+:000000 100644 0000000 4377f5d A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/J2MECompilerManager.java
+:000000 100644 0000000 9c11b47 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/J2MECopyCompiler.java
+:000000 100644 0000000 0aacf9d A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/J2MEPackagingCompiler.java
+:000000 100644 0000000 182027e A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/compiler/J2MEPreverifier.java
+:000000 100644 0000000 e408e2e A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/DeviceOptionsEditor.form
+:000000 100644 0000000 b7e433e A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/DeviceOptionsEditor.java
+:000000 100644 0000000 3581422 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/EmulatorType.java
+:000000 100644 0000000 ff5d8d6 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/EmulatorTypeEditor.form
+:000000 100644 0000000 28fde44 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/EmulatorTypeEditor.java
+:000000 100644 0000000 1a72f78 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/EmulatorTypesExportable.java
+:000000 100644 0000000 a85cf5f A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/midp/MIDPEmulatorType.java
+:000000 100644 0000000 7fa31a1 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/midp/nokia/ConfigurationUtil.java
+:000000 100644 0000000 5697aa6 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/midp/wtk/ConfigurationUtil.java
+:000000 100644 0000000 452c488 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/midp/wtk/WTK10EmulatorType.java
+:000000 100644 0000000 25de3d7 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/emulator/midp/wtk/WTKEmulatorType.java
+:000000 100644 0000000 476a1fa A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleBuilder.java
+:000000 100644 0000000 33b36c3 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleConfEditor.java
+:000000 100644 0000000 c8b5eb9 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleEditorsProvider.java
+:000000 100644 0000000 5216046 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleExplodedDirStep.form
+:000000 100644 0000000 e594447 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleExplodedDirStep.java
+:000000 100644 0000000 f1e818e A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleProperties.java
+:000000 100644 0000000 acbe983 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleResourcesStep.form
+:000000 100644 0000000 6c9caf7 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleResourcesStep.java
+:000000 100644 0000000 a02b9f2 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleType.java
+:000000 100644 0000000 b852664 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleTypeStep.form
+:000000 100644 0000000 9e3ab41 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/J2MEModuleTypeStep.java
+:000000 100644 0000000 3d45e6c A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/MobileModuleUtil.java
+:000000 100644 0000000 2c7eea6 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/MobileModuleSettings.java
+:000000 100644 0000000 3700777 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/doja/DOJASettings.java
+:000000 100644 0000000 3bf290b A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/doja/DOJASettingsConfigurable.java
+:000000 100644 0000000 d8796b6 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/doja/SettingsPanel.form
+:000000 100644 0000000 28b4708 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/general/GeneralMobileSettings.java
+:000000 100644 0000000 1432803 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/general/GeneralSettingsConfigurable.java
+:000000 100644 0000000 55fd84e A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/AdditionalOptionsEditor.form
+:000000 100644 0000000 167a495 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/MIDPSettings.java
+:000000 100644 0000000 90efd49 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/MIDPSettingsConfigurable.java
+:000000 100644 0000000 00ed275 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/settings/midp/SettingsPanel.form
+:000000 100644 0000000 da6963a A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/MobileApplicationType.java
+:000000 100644 0000000 e536c66 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/doja/DOJAApplicationType.java
+:000000 100644 0000000 de79967 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/GeneralApplicationType.java
+:000000 100644 0000000 61ffe8a A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/GeneralMobileApplicationTypes.java
+:000000 100644 0000000 3c7c60e A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/ListPanel.form
+:000000 100644 0000000 8a0f7af A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/MobileTypeConfigurable.form
+:000000 100644 0000000 ee15632 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/MobileTypeConfigurable.java
+:000000 100644 0000000 cb75247 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/general/MobileTypeEditor.java
+:000000 100644 0000000 9c7811b A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/module/type/midp/MIDPApplicationType.java
+:000000 100644 0000000 237d870 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MEConfigurationEditor.form
+:000000 100644 0000000 e4a91b9 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MEConfigurationType.java
+:000000 100644 0000000 950bf8d A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MERunConfiguration.java
+:000000 100644 0000000 ef69952 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MERunConfigurationEditor.java
+:000000 100644 0000000 1c978a0 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/J2MERunConfigurationFactory.java
+:000000 100644 0000000 0695e3d A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/emulator/EmulatorRunOptions.java
+:000000 100644 0000000 984d6f0b A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/emulator/WTKEmulatorRunOptions.form
+:000000 100644 0000000 20e8419 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/run/emulator/WTKEmulatorRunOptions.java
+:000000 100644 0000000 8177291 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/tests/VersionFinder.java
+:000000 100644 0000000 1900973 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/util/J2MEClassBrowser.java
+:000000 100644 0000000 742a3f0 A	Aurora/plugins/j2meplugin/src/com/intellij/j2meplugin/util/J2MEModuleSelector.java
+
+commit 50e2e6afab6dec6163242113ef76f580e994bedf ad3582332d0af164e0452173beaf036bd4f7c829
+Author: builder <>
+Date:   Tue Sep 21 12:05:25 2004 +0000
+
+    New version
+
+:100644 100644 6599f7f 3d83ab7 M	Aurora/build/lib/javac2.jar
+
+commit ad3582332d0af164e0452173beaf036bd4f7c829 844aef26c262294a14fe4242d78dc8697d6b8423
+Author: builder <>
+Date:   Tue Sep 21 11:35:22 2004 +0000
+
+    New version
+
+:100644 100644 000176b 6599f7f M	Aurora/build/lib/javac2.jar
+
+commit 844aef26c262294a14fe4242d78dc8697d6b8423 4d109a13fe2fb36c25f132b5e015c027d2c0f6da
+Author: max <>
+Date:   Tue Sep 21 11:11:46 2004 +0000
+
+    no message
+
+:100644 000000 4e54fbd 0000000 D	Aurora/internalUtilities/src/com/intellij/internalUtilities/ConvertSynchronizedBlocksAction.java
+:100644 100644 11a4455 dc7d293 M	Aurora/resources/src/idea/ActionManager.xml
+
+commit 4d109a13fe2fb36c25f132b5e015c027d2c0f6da 47c6ed3910105744c2cb501d244ba2128f0b03a9
+Author: builder <>
+Date:   Tue Sep 21 11:03:54 2004 +0000
+
+    New version
+
+:100644 100644 06b8e74 000176b M	Aurora/build/lib/javac2.jar
+
+commit 47c6ed3910105744c2cb501d244ba2128f0b03a9 0c905763afb33720ccd5d0ed304cfceb323faf98
+Author: builder <>
+Date:   Tue Sep 21 10:35:02 2004 +0000
+
+    New version
+
+:100644 100644 33327a5 06b8e74 M	Aurora/build/lib/javac2.jar
+
+commit 0c905763afb33720ccd5d0ed304cfceb323faf98 50ce36399e6128818ea036f7941f64802aea9855
+Author: builder <>
+Date:   Tue Sep 21 10:04:06 2004 +0000
+
+    New version
+
+:100644 100644 5d0b63b 33327a5 M	Aurora/build/lib/javac2.jar
+
+commit 50ce36399e6128818ea036f7941f64802aea9855 db4e0f073c5a32031ac014b766f63ed1c0a3666a
+Author: builder <>
+Date:   Tue Sep 21 09:33:34 2004 +0000
+
+    New version
+
+:100644 100644 a3631a5 5d0b63b M	Aurora/build/lib/javac2.jar

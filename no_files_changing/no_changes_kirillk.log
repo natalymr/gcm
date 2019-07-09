@@ -1,0 +1,198 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit e67c167c53222c12b6e57ff21d69aae876fb6b50 f114e87c63da424cdb5e267b5f772f741d3a88c1
+Author: kirillk <>
+Date:   Wed Oct 22 11:38:44 2003 +0000
+
+    oops, declaration statements inside code fragments allowed
+
+commit f114e87c63da424cdb5e267b5f772f741d3a88c1 67176392007066b5b07ece14ee4b8809a83b4f85
+Author: kirillk <>
+Date:   Wed Oct 22 11:35:04 2003 +0000
+
+    statements inside code fragments allowed
+
+:100644 100644 986834b d266853 M	Aurora/source/com/intellij/psi/util/PsiUtil.java
+
+commit 67176392007066b5b07ece14ee4b8809a83b4f85 ffec64b307a05328c92b19e36469748e196a36f7
+Author: dsl <>
+Date:   Wed Oct 22 11:10:30 2003 +0000
+
+    no message
+
+:100644 100644 27433ae 71d9faa M	Aurora/source/com/intellij/psi/impl/source/PsiAnonymousClassImpl.java
+
+commit ffec64b307a05328c92b19e36469748e196a36f7 e3731d510519c89faaa447eade5c67b97d11446c
+Author: jeka <>
+Date:   Wed Oct 22 11:04:11 2003 +0000
+
+    no message
+
+:100644 100644 25cd16b 4a9fa56 M	Aurora/source/com/intellij/ide/util/JdkCombo.java
+:100644 100644 4b1dcff 54f38df M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntriesEditor.java
+
+commit e3731d510519c89faaa447eade5c67b97d11446c 484750b6836ccb1f469bca3903e9eede0b039a3d
+Author: anton <>
+Date:   Wed Oct 22 11:01:41 2003 +0000
+
+    no message
+
+:100644 100644 2956488 32b82be M	Aurora/source/com/intellij/progress/util/ProgressWindow.java
+
+commit 484750b6836ccb1f469bca3903e9eede0b039a3d 2fef2c3f202701455406a8aa4560869563243749
+Author: max <>
+Date:   Wed Oct 22 10:27:14 2003 +0000
+
+    no message
+
+:100644 100644 e98c321 6ff12a6 M	Aurora/source/com/intellij/progress/util/ColorProgressBar.java
+
+commit 2fef2c3f202701455406a8aa4560869563243749 34c6000ac15e9320862aeec1856fdc8cdff553eb
+Author: jeka <>
+Date:   Wed Oct 22 10:14:17 2003 +0000
+
+    no message
+
+:100644 100644 d586335 b68fde7 M	Aurora/source/com/intellij/execution/applet/AppletConfigurable.java
+:100644 100644 29f1612 4b1dcff M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ContentEntriesEditor.java
+:100644 100644 da7fd56 28eec4c M	Aurora/source/com/intellij/openapi/roots/ui/configuration/ModulesConfigurationDialog.java
+:100644 100644 ce22260 b83a541 M	Aurora/source/com/intellij/ui/AbstractFieldPanel.java
+:100644 100644 6c8e156 a3a5dc4 M	Aurora/source/com/intellij/ui/FieldPanel.java
+
+commit 34c6000ac15e9320862aeec1856fdc8cdff553eb 4f69d4080d5ff2c63cded0b54ea3443ddf69db22
+Author: ven <>
+Date:   Wed Oct 22 10:11:03 2003 +0000
+
+    no message
+
+:100644 100644 2608119 bdf20d0 M	Aurora/source/com/intellij/codeInsight/ExceptionUtil.java
+:100644 100644 0b4227b 95b3983 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightClassUtil.java
+:100644 100644 2f30fbe 2444fed M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightMethodUtil.java
+:100644 100644 62021122 a0ff3ef M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/HighlightUtil.java
+:100644 100644 af0c53a 7ff5ec0 M	Aurora/source/com/intellij/codeInsight/daemon/impl/analysis/ejb/EjbHighlightUtil.java
+:100644 100644 71174e2 71f9317 M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/AddExceptionToCatchAction.java
+:100644 100644 82ea3ee 51d86cb M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/AddExceptionToThrowsAction.java
+:100644 100644 4d04fe8 31d34bd M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/GeneralizeCatchFix.java
+:100644 100644 8f51c7f 9cf967b M	Aurora/source/com/intellij/codeInsight/daemon/impl/quickfix/MethodThrowsFix.java
+:100644 100644 646a194 a43fc26 M	Aurora/source/com/intellij/codeInsight/generation/surroundWith/SurroundWithTryCatchHandler.java
+:100644 100644 f6a01b9 6a03d89 M	Aurora/source/com/intellij/codeInsight/highlighting/HighlightUsagesHandler.java
+:100644 100644 e038eee a41bd5c M	Aurora/source/com/intellij/codeInspection/dataFlow/ControlFlowAnalyzer.java
+:100644 100644 ec30677 4b91cdc M	Aurora/source/com/intellij/codeInspection/reference/RefMethod.java
+:100644 100644 5e49ec1 3026c3d M	Aurora/source/com/intellij/psi/controlFlow/ControlFlowAnalyzer.java
+:100644 100644 1341c95 a9b2483 M	Aurora/testData/codeInsight/daemonCodeAnalyzer/advHighlighting/a27.java
+:100644 100644 ac12ba6 1d80784 M	Aurora/testSource/com/intellij/codeInsight/ExceptionCheckingTest.java
+
+commit 4f69d4080d5ff2c63cded0b54ea3443ddf69db22 183a09e94d3b56c462699f56d5f9cdc4621e4250
+Author: dsl <>
+Date:   Wed Oct 22 10:00:59 2003 +0000
+
+    no message
+
+:100644 100644 c9e1ad6 d6b11bb M	Aurora/source/com/intellij/psi/PsiNameHelper.java
+:100644 100644 0536c98 bab2ebd M	Aurora/source/com/intellij/psi/impl/source/PsiJavaCodeReferenceElementImpl.java
+:000000 100644 0000000 fbcc1d2 A	Aurora/source/com/intellij/psi/impl/source/SourceJavaCodeReference.java
+:100644 100644 490c8ad a6a370c M	Aurora/source/com/intellij/psi/impl/source/codeStyle/ReferenceAdjuster.java
+:100644 100644 6b7d3db faa0480 M	Aurora/source/com/intellij/psi/impl/source/tree/SourceUtil.java
+:100644 100644 9b2f192 50be75c M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiReferenceExpressionImpl.java
+:000000 100644 0000000 6e54943 A	Aurora/testSource/com/intellij/psi/GenericsTestCase.java
+:100644 100644 20bcd44 5bd836a M	Aurora/testSource/com/intellij/psi/TypesTest.java
+:000000 100644 0000000 6dbcb4a A	Aurora/testSource/com/intellij/psi/impl/source/tree/java/BindToGenericClassTest.java
+
+commit 183a09e94d3b56c462699f56d5f9cdc4621e4250 fb1bc1d1a415c348ab0f3d39f95f81a9dccc73eb
+Author: max <>
+Date:   Wed Oct 22 09:24:26 2003 +0000
+
+    no message
+
+:100644 100644 07e0d02 96c8909 M	Aurora/source/com/intellij/ui/EditorTextField.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit ccfbfb293c2f6cf118e6c1191aa08317033d88c3 29fdbb0c0fc27aaed2c65cb23cbb3c345faf8608
+Author: kirillk <>
+Date:   Thu Jun 5 11:13:16 2003 +0000
+
+    no message
+
+commit 29fdbb0c0fc27aaed2c65cb23cbb3c345faf8608 7937a49bd984b9738e94d7927023ebd0186e263d
+Author: stathik <>
+Date:   Thu Jun 5 11:01:58 2003 +0000
+
+    no message
+
+:100644 100644 3c53ef6 fb559ca M	Aurora/build/build.xml
+
+commit 7937a49bd984b9738e94d7927023ebd0186e263d 49e3fb3d9ad5f4999d0a6fea085265d6d512a29c
+Author: stathik <>
+Date:   Thu Jun 5 10:42:58 2003 +0000
+
+    no message
+
+:100644 100644 34c9832 3c53ef6 M	Aurora/build/build.xml
+
+commit 49e3fb3d9ad5f4999d0a6fea085265d6d512a29c b89b1cd6d19e3cd3e1810ef4ae4cea24319ebf0c
+Author: jeka <>
+Date:   Thu Jun 5 10:36:33 2003 +0000
+
+    no message
+
+:000000 100644 0000000 9b06b93 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation/Base.java
+:000000 100644 0000000 c3d95e0 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation/BaseImpl.java
+:000000 100644 0000000 3345941 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation/BaseImpl.java.new
+:000000 100644 0000000 027da16 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation/ConcreteBase.java
+:000000 100644 0000000 aff37b0 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation/data.xml
+:000000 100644 0000000 516df05 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation2/Base.java
+:000000 100644 0000000 99455d4 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation2/BaseImpl.java
+:000000 100644 0000000 02d73a4 A	Aurora/testData/compiler/membersChange/deleteMethodImplementation2/BaseImpl.java.new
+:000000 100644 0000000 49f5d7a A	Aurora/testData/compiler/membersChange/deleteMethodImplementation2/ConcreteBase.java
+:000000 100644 0000000 e3ebecf A	Aurora/testData/compiler/membersChange/deleteMethodImplementation2/data.xml
+
+commit b89b1cd6d19e3cd3e1810ef4ae4cea24319ebf0c e743551ddf2d1281675aabedc49c467f318afe68
+Author: jeka <>
+Date:   Thu Jun 5 10:26:08 2003 +0000
+
+    no message
+
+:100644 100644 2989bc0 44563b6 M	Aurora/source/com/intellij/compiler/impl/javaCompiler/make/DependencyProcessor.java
+:100644 100644 11c2547 0ddd13d M	Aurora/testSource/com/intellij/compiler/MembersChangeTest.java
+
+commit e743551ddf2d1281675aabedc49c467f318afe68 1d1c83abc59c1a4459d88fd0e85df115e22780cb
+Author: stathik <>
+Date:   Thu Jun 5 09:45:09 2003 +0000
+
+    no message
+
+:100644 100644 82743e1 34c9832 M	Aurora/build/build.xml
+
+commit 1d1c83abc59c1a4459d88fd0e85df115e22780cb f5a969acbf3b616bde799a865a6ceaa9ff87e666
+Author: dsl <>
+Date:   Thu Jun 5 09:17:30 2003 +0000
+
+    no message
+
+:100644 100644 b6a1448 413e239 M	Aurora/source/com/intellij/psi/impl/source/PsiJavaCodeReferenceElementImpl.java
+
+commit f5a969acbf3b616bde799a865a6ceaa9ff87e666 2e449b0efb65c137282d1591a5ce656f10853981
+Author: ven <>
+Date:   Thu Jun 5 09:06:24 2003 +0000
+
+    no message
+
+:100644 100644 6d43ff3 f6ee244 M	Aurora/source/com/intellij/codeInsight/intention/impl/ImplementAbstractClassAction.java
+
+commit 2e449b0efb65c137282d1591a5ce656f10853981 aa530b380571e7c5c24ef649e47a9d66710d3c17
+Author: ands <>
+Date:   Thu Jun 5 08:59:23 2003 +0000
+
+    no message
+
+:100644 100644 d19ddaf f11202f M	Aurora/source/com/intellij/parserGen/Grammar.java
+
+commit aa530b380571e7c5c24ef649e47a9d66710d3c17 ee1c925eb75d783b9a4b4ff8b1fa96c2338734e4
+Author: jeka <>
+Date:   Thu Jun 5 08:29:15 2003 +0000
+
+    no message
+
+:100755 100755 db9981e 01a17b6 M	Aurora/build/build.bat

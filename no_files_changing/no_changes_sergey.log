@@ -1,0 +1,17 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 40458c826d5a8c7e3c3a0a289bfe05a6feeb7042
+Author: sergey <>
+Date:   Tue Mar 18 16:45:06 2003 +0000
+
+    initial checkin
+
+:000000 100644 0000000 b04b350 A	CVSROOT/checkoutlist
+:000000 100644 0000000 b19e7b7 A	CVSROOT/commitinfo
+:000000 100644 0000000 d78886c A	CVSROOT/editinfo
+:000000 100644 0000000 5a59f0a A	CVSROOT/loginfo
+:000000 100644 0000000 34f0bc2 A	CVSROOT/notify
+:000000 100644 0000000 49e59f4 A	CVSROOT/rcsinfo
+:000000 100644 0000000 274a46d A	CVSROOT/taginfo
+:000000 100644 0000000 86f747c A	CVSROOT/verifymsg

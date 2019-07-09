@@ -1,0 +1,221 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 77b060f13f1a33747eb32d8834addf616d6c58ac 75dbae472ab1ce3baa3887b4baa52205f1f0fb1e
+Author: mike <>
+Date:   Fri Jun 20 18:35:40 2003 +0000
+
+    no message
+
+commit 75dbae472ab1ce3baa3887b4baa52205f1f0fb1e cfc9b9d80e1a684b328a961bd6057d380107a831
+Author: mike <>
+Date:   Fri Jun 20 18:34:28 2003 +0000
+
+    no message
+
+:100644 100644 8751ca2 a0bb554 M	Aurora/source/com/intellij/psi/PsiCodeFragment.java
+:100644 100644 163283c a7c199b M	Aurora/source/com/intellij/psi/impl/source/PsiCodeFragmentImpl.java
+:100644 100644 71d1db0 bea3284 M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiThisExpressionImpl.java
+
+commit cfc9b9d80e1a684b328a961bd6057d380107a831 b894300f2f498ea23f92a7543ee556f8b013c0c8
+Author: dyoma <>
+Date:   Fri Jun 20 18:29:46 2003 +0000
+
+    no message
+
+:100644 100644 a95d4a8 b5febfe M	Aurora/source/com/intellij/openapi/diff/impl/ComparisonPolicy.java
+:000000 100644 0000000 c557bcb A	Aurora/testData/diff/lineShift.1
+:000000 100644 0000000 0a207c0 A	Aurora/testData/diff/lineShift.2
+:000000 100644 0000000 e024340 A	Aurora/testData/diff/lineShift.lines1
+:000000 100644 0000000 e69de29 A	Aurora/testData/diff/lineShift.lines2
+:100644 100644 c557bcb bb125b6 M	Aurora/testData/diff/shift.1
+:100644 100644 0a207c0 5a870d5 M	Aurora/testData/diff/shift.2
+
+commit b894300f2f498ea23f92a7543ee556f8b013c0c8 36b0d81063f62501170122e37762c905952665c9
+Author: dsl <>
+Date:   Fri Jun 20 17:55:57 2003 +0000
+
+    no message
+
+:100644 100644 7193816 52a8b7b M	Aurora/source/com/intellij/psi/impl/compiled/ClsFieldImpl.java
+:100644 100644 0319ec9 b01cef3 M	Aurora/source/com/intellij/refactoring/extractMethod/ExtractMethodProcessor.java
+
+commit 36b0d81063f62501170122e37762c905952665c9 3b8cc45e963c8856d58259b3d2523158b3c64e19
+Author: dyoma <>
+Date:   Fri Jun 20 17:32:57 2003 +0000
+
+    no message
+
+:100644 100644 ea7edb1 9af97e0 M	Aurora/aurora.iml
+
+commit 3b8cc45e963c8856d58259b3d2523158b3c64e19 3c49e484be74860ef1f2a16c96654b6afcbe26fa
+Author: stathik <>
+Date:   Fri Jun 20 17:20:08 2003 +0000
+
+    DialogAppender send error report libraries
+
+:000000 100644 0000000 beb03f2 A	Aurora/lib/error-report.jar
+:000000 100644 0000000 b360b03 A	Aurora/lib/xmlrpc-1.1.jar
+
+commit 3c49e484be74860ef1f2a16c96654b6afcbe26fa 4b33826aaa5aa69f91caa773fbf46cf79a6f26cf
+Author: cdr <>
+Date:   Fri Jun 20 17:04:11 2003 +0000
+
+    no message
+
+:100644 000000 c296422 0000000 D	Aurora/bin/breakgen.dll
+:100644 100644 5d05cc0 1b65e2e M	Aurora/source/com/intellij/j2ee/weblogic/WeblogicManager.java
+:100644 100644 a99aa1d a1fd41e M	Aurora/source/com/intellij/j2ee/weblogic/WeblogicRunConfiguration.java
+:100644 100644 54ad0af 552f3a4 M	Aurora/source/com/intellij/j2ee/weblogic/impl/WeblogicManagerImpl.java
+:100644 100644 7322351 e991629 M	Aurora/source/com/intellij/j2ee/weblogic/view/LocalWeblogicRunConfigurable.java
+:100644 100644 c06e987 ee15b75 M	Aurora/source/com/intellij/j2ee/weblogic/view/WeblogicIntegrationConfigurable.java
+
+commit 4b33826aaa5aa69f91caa773fbf46cf79a6f26cf 5744881e292754b06f7328dec0e5bc70c88b5016
+Author: stathik <>
+Date:   Fri Jun 20 17:02:13 2003 +0000
+
+    DialogAppender send error report
+
+:100644 100644 94c76b5 3388f2c M	Aurora/source/com/intellij/diagnostic/DialogAppender.java
+
+commit 5744881e292754b06f7328dec0e5bc70c88b5016 b02e279506462258aa39e3a62b6698e06dd2a370
+Author: dsl <>
+Date:   Fri Jun 20 16:52:28 2003 +0000
+
+    no message
+
+:100644 100644 781728d b8fad83 M	Aurora/testSource/com/intellij/psi/impl/TypeEqualityTest.java
+
+commit b02e279506462258aa39e3a62b6698e06dd2a370 6f34e3943c24afda3571b0ca2ea271b44a9ee103
+Author: dsl <>
+Date:   Fri Jun 20 16:51:42 2003 +0000
+
+    no message
+
+:100644 100644 d553e52 d608487 M	Aurora/source/com/intellij/psi/PsiClassType.java
+:100644 100644 9f12585 6b63190 M	Aurora/source/com/intellij/psi/PsiSubstitutor.java
+:100644 100644 adcbe6b ce1968f M	Aurora/source/com/intellij/psi/impl/PsiSubstitutorImpl.java
+:100644 100644 ee23e37 ab9dc0e M	Aurora/source/com/intellij/psi/impl/source/resolve/VariableResolverProcessor.java
+:100644 100644 887d56f 4071b70 M	Aurora/source/com/intellij/psi/scope/PsiScopesUtil.java
+:100644 100644 74f6a50 a04320e M	Aurora/source/com/intellij/psi/util/PsiUtil.java
+:100644 100644 49dcd46 073979d M	Aurora/source/com/intellij/psi/util/TypeConversionUtil.java
+:000000 100644 0000000 781728d A	Aurora/testSource/com/intellij/psi/impl/TypeEqualityTest.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 14d9c686664aaeb8dd350320e8ff3c7c94300e40 8a4b2626c53f00dd191928c45b4f0e3f41426940
+Author: mike <>
+Date:   Thu May 29 16:12:27 2003 +0000
+
+    no message
+
+commit 8a4b2626c53f00dd191928c45b4f0e3f41426940 e491957a7f57f984a1468e544a145ef6d7af2496
+Author: igork <>
+Date:   Thu May 29 16:06:25 2003 +0000
+
+    Fix to speedup resolve
+
+:100644 100644 5d2faf6 f90c45e M	Aurora/source/com/intellij/psi/meta/MetaRegistry.java
+
+commit e491957a7f57f984a1468e544a145ef6d7af2496 86323330df7501c31dca777ff287dec9fc9bfdce
+Author: serg <>
+Date:   Thu May 29 15:58:14 2003 +0000
+
+    no message
+
+:100644 100644 4bddc66 8d866db M	Aurora/icons/gutter/implementedMethod.png
+:100644 100644 cef83d4 b885756 M	Aurora/icons/gutter/implementingMethod.png
+:100644 100644 7a6a882 f8c1a75 M	Aurora/icons/gutter/overridenMethod.png
+:100644 100644 60313fc 3193d3c M	Aurora/icons/gutter/overridingMethod.png
+
+commit 86323330df7501c31dca777ff287dec9fc9bfdce f05f11dcddd977412840a2aaa54bf8f4cd7943a4
+Author: anton <>
+Date:   Thu May 29 15:56:30 2003 +0000
+
+    no message
+
+:100644 100644 00c4312 a0ddaa6 M	Aurora/source/com/intellij/ant/execution/AntBuildMessageView.java
+:100644 100644 d7bdb19 5540ded M	Aurora/source/com/intellij/ant/execution/AntMessage.java
+:100644 100644 8b3cf4f 180f347 M	Aurora/source/com/intellij/ant/execution/BuildProgressWindow.java
+
+commit f05f11dcddd977412840a2aaa54bf8f4cd7943a4 f08d33ad3ff13c476ab248643966bba8d0325156
+Author: cdr <>
+Date:   Thu May 29 15:52:08 2003 +0000
+
+    no message
+
+:100644 100644 774823f 0dd4e0d M	Aurora/source/com/intellij/j2ee/ea/tree/weblogic/WeblogicEjbModuleImpl.java
+:100644 100644 8a74c19 4c471cb M	Aurora/source/com/intellij/j2ee/make/J2EECompiler.java
+:100644 100644 8186ce5 ceee375 R071	Aurora/source/com/intellij/j2ee/make/J2EEClassInstrumentationItem.java	Aurora/source/com/intellij/j2ee/make/J2EEInstrumentationItem.java
+:100644 100644 13106ea fa75e4b M	Aurora/source/com/intellij/j2ee/make/MakeUtil.java
+:100644 100644 1bf6748 c82fd3d M	Aurora/source/com/intellij/j2ee/module/J2EEModuleUtil.java
+:100644 100644 20cad14 97c5663 M	Aurora/source/com/intellij/j2ee/module/components/ApplicationModuleBuildComponent.java
+:100644 100644 3184527 f00123b M	Aurora/source/com/intellij/j2ee/module/components/EjbModuleBuildComponent.java
+:100644 100644 8c8ae07 4b5ba35 M	Aurora/source/com/intellij/j2ee/module/components/J2EECompilableModule.java
+:100644 100644 6d44f70 ea36874 M	Aurora/source/com/intellij/j2ee/module/components/ModuleBuildProperties.java
+:100644 100644 a3b0035 d710728 M	Aurora/source/com/intellij/j2ee/module/components/WLEjbModuleProperties.java
+:100644 100644 206e600 03d3d4a M	Aurora/source/com/intellij/j2ee/module/components/WebModuleBuildComponent.java
+:100644 100644 de650f4 a8e5ef9 M	Aurora/source/com/intellij/j2ee/weblogic/ejbc/EjbcOutputParser.java
+
+commit f08d33ad3ff13c476ab248643966bba8d0325156 b84bce45974816416e8b13e77c90e255ee9c5fe2
+Author: anton <>
+Date:   Thu May 29 15:48:22 2003 +0000
+
+    no message
+
+:100644 100644 0e36380 4330ba8 M	Aurora/source/com/intellij/ant/actions/AntBuildGroup.java
+:100644 100644 e62cca0 130e14c M	Aurora/source/com/intellij/ant/actions/BuildFilePropertiesAction.java
+:100644 100644 59434df d5a5f58 M	Aurora/source/com/intellij/ant/actions/ChangeViewAction.java
+:100644 100644 5b2cb08 b829717 M	Aurora/source/com/intellij/ant/actions/PauseOutputAction.java
+:100644 100644 375ee74 08d1bc8 M	Aurora/source/com/intellij/ant/actions/RemoveBuildFileAction.java
+:100644 100644 75eaaaf 9563efe M	Aurora/source/com/intellij/ant/actions/RunAction.java
+:100644 100644 8645a53 fd53102 M	Aurora/source/com/intellij/ant/actions/StopAction.java
+:100644 100644 172fcbe 3c73117 M	Aurora/source/com/intellij/ant/actions/TargetAction.java
+:100644 100644 f41abab 3a212bd M	Aurora/source/com/intellij/ant/actions/VerboseAction.java
+:100644 100644 6fff600 00c4312 M	Aurora/source/com/intellij/ant/execution/AntBuildMessageView.java
+:100644 100644 bcaf5e2 b0d2ff5 M	Aurora/source/com/intellij/ant/execution/OutputParser.java
+:100644 100644 bddded5 82138cb M	Aurora/source/com/intellij/ant/execution/OutputParser2.java
+:100644 100644 72e7761 6a8e1df M	Aurora/source/com/intellij/ant/execution/PlainTextView.java
+:100644 100644 0c32e9c a43879a M	Aurora/source/com/intellij/ant/explorer/ExecuteOnRunDialog.java
+:100644 100644 dcf4072 4345e81 M	Aurora/source/com/intellij/ant/impl/AntConfigurationImpl.java
+:100644 100644 02dc99a a0b5afd M	Aurora/source/com/intellij/ant/impl/BuildFileImpl.java
+:100644 100644 aa270a2 c985c21 M	Aurora/source/com/intellij/ant/impl/BuildFileProperty.java
+:100644 100644 3f31f87 207fc3a M	Aurora/source/com/intellij/ant/impl/BuildModelImpl.java
+
+commit b84bce45974816416e8b13e77c90e255ee9c5fe2 8e5ede30b419235f1979511d416d3d56dba7f56d
+Author: mike <>
+Date:   Thu May 29 15:48:04 2003 +0000
+
+    no message
+
+:100644 100644 5674f2d 5d2faf6 M	Aurora/source/com/intellij/psi/meta/MetaRegistry.java
+
+commit 8e5ede30b419235f1979511d416d3d56dba7f56d 4224ad9dde656df3dd57995d9d3c80ff722c76d3
+Author: anton <>
+Date:   Thu May 29 15:36:31 2003 +0000
+
+    no message
+
+:100644 100644 3e00a2b 6fff600 M	Aurora/source/com/intellij/ant/execution/AntBuildMessageView.java
+:100644 100644 be1a525 bcaf5e2 M	Aurora/source/com/intellij/ant/execution/OutputParser.java
+:100644 100644 eb117bc 72e7761 M	Aurora/source/com/intellij/ant/execution/PlainTextView.java
+
+commit 4224ad9dde656df3dd57995d9d3c80ff722c76d3 41a1482c6060e60827848c4368616e55660c02ca
+Author: serg <>
+Date:   Thu May 29 15:24:54 2003 +0000
+
+    no message
+
+:100644 100644 0084a05 a447e34 M	Aurora/icons/objectBrowser/hideFields.png
+
+commit 41a1482c6060e60827848c4368616e55660c02ca 50ff827eb717953131217f8f4b8bac0e2c251b57
+Author: igork <>
+Date:   Thu May 29 15:12:39 2003 +0000
+
+    no message
+
+:100644 100644 d242e3c 34f6aae M	Aurora/source/com/intellij/aspects/psi/impl/PsiAspectImpl.java
+:100644 100644 5daeb57 a55bac7 M	Aurora/source/com/intellij/psi/PsiClass.java
+:100644 100644 c160b13 8a3a6af M	Aurora/source/com/intellij/psi/impl/compiled/ClsClassImpl.java
+:100644 100644 175f436 a86d933 M	Aurora/source/com/intellij/psi/impl/source/PsiClassImpl.java
+:100644 100644 8014965 e45102b M	Aurora/source/com/intellij/psi/impl/source/tree/java/PsiClassParameterImpl.java

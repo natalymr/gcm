@@ -1,0 +1,287 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 3d097d2fe7648de8f76813d8a548177bf13d2a73 109a4ce9f29acfa8881ae2c8e8bd0631e35fd449
+Author: rob <>
+Date:   Mon Apr 5 17:35:39 2004 +0000
+
+    Add Personal License
+
+commit 109a4ce9f29acfa8881ae2c8e8bd0631e35fd449 6b9fd11647cf5f9dafbd923602bccf00f6ac5845
+Author: ignatov <>
+Date:   Mon Apr 5 17:32:30 2004 +0000
+
+    This commit was manufactured by cvs2svn to create branch 'AURORA_RELEASE'.
+
+:000000 100644 0000000 c5c307a A	Aurora/license/IDEA_Personal_license.txt
+
+commit 6b9fd11647cf5f9dafbd923602bccf00f6ac5845 b7fbf477f8ef404b19bd5abf2cf26ed6e52fd91a
+Author: builder <>
+Date:   Fri Apr 2 15:22:40 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 f59fe00 d5d09e9 M	Aurora/build/build.xml
+
+commit b7fbf477f8ef404b19bd5abf2cf26ed6e52fd91a 22f560a82e217e9ca3476d73e3a0a05a92a10895
+Author: rob <>
+Date:   Fri Apr 2 14:39:45 2004 +0000
+
+    Update minor version to "0.3" for display purposes
+
+:100644 100644 778219d 095fe5c M	Aurora/resources/idea/ApplicationInfo.xml
+
+commit 22f560a82e217e9ca3476d73e3a0a05a92a10895 c5f1413a9a8197038c02296b9d35822132137ee8
+Author: rob <>
+Date:   Thu Apr 1 13:55:35 2004 +0000
+
+    Updating to include personal license support.
+
+:100644 100644 69aaa3f a096358 M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseData.java
+:100644 100644 9db5989 d62ee1d M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+:100644 100644 0f3906d 9aa509d M	Aurora/licenseCommon/source/com/intellij/licensecommon/util/LicenseType.java
+:100644 100644 4685fcb 3dd7583 M	Aurora/licenseServer/build/build.xml
+:100644 100644 8e63b25 0ac3cdd M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 a502335 3706a5c M	Aurora/testSource/com/intellij/ide/license/LicenseReport.java
+:100644 100644 2d15d3b e9f353f M	Aurora/testSource/com/intellij/ide/license/MockLicenseData.java
+:100644 100644 04a0a6d 051579d M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit c5f1413a9a8197038c02296b9d35822132137ee8 378bc0ba1caedc87564568ecacd1ae520dce902d
+Author: builder <>
+Date:   Fri Mar 19 19:56:42 2004 +0000
+
+    *** empty log message ***
+
+:100644 100644 b3ed76d 215946a M	Aurora/build/conf/idea_all_vm14.iap_xml
+
+commit 378bc0ba1caedc87564568ecacd1ae520dce902d e7ac737decb0c33dd7e83946bb75a6ad6a11bb9c
+Author: builder <>
+Date:   Thu Mar 18 15:31:08 2004 +0000
+
+    Build completed
+
+:100644 100644 8bd1532 9907cff M	Aurora/build/version.properties
+
+commit e7ac737decb0c33dd7e83946bb75a6ad6a11bb9c d7c5f43406983ed0339d7901d850b0cba425f721
+Author: builder <>
+Date:   Thu Mar 18 12:15:02 2004 +0000
+
+    New version
+
+:100644 100644 175e81b f286e6c M	Aurora/build/lib/javac2.jar
+
+commit d7c5f43406983ed0339d7901d850b0cba425f721 9b14418eca8446e4b126e3a6799304c2ca03c913
+Author: cdr <>
+Date:   Thu Mar 18 07:01:48 2004 +0000
+
+    no message
+
+:100644 100644 8d020b3 1619e8f M	Aurora/source/com/intellij/j2ee/weblogic/WeblogicInstanceConfiguration.java
+
+commit 9b14418eca8446e4b126e3a6799304c2ca03c913 d9c3674929c9e09d68d04c202562b41706672aad
+Author: builder <>
+Date:   Wed Mar 17 20:46:07 2004 +0000
+
+    Build failed
+
+:100644 100644 e2e18b9 8bd1532 M	Aurora/build/version.properties
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 6456b151462ec98861649f4117b7e0bb5da4fe4e 34fa84739d8f3437f0330e781f22b3ac311cec29
+Author: rob <>
+Date:   Wed Feb 25 15:29:15 2004 +0000
+
+    no message
+
+commit 34fa84739d8f3437f0330e781f22b3ac311cec29 f5095bddd3bef39c21ddf9aed33581939b44262b
+Author: rob <>
+Date:   Wed Feb 25 15:26:37 2004 +0000
+
+    no message
+
+:100644 100644 27348aa a5a60ce M	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+
+commit f5095bddd3bef39c21ddf9aed33581939b44262b ce32aae458fd50b37be2c74f8a415f4c73877716
+Author: rob <>
+Date:   Wed Feb 25 15:26:28 2004 +0000
+
+    no message
+
+:100644 100644 a5a60ce 27348aa M	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+
+commit ce32aae458fd50b37be2c74f8a415f4c73877716 f30599698205d8b61677957aa83f49492705d039
+Author: rob <>
+Date:   Wed Feb 25 13:43:05 2004 +0000
+
+    Merging fixes
+
+:100644 100644 790256f a5a60ce M	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+
+commit f30599698205d8b61677957aa83f49492705d039 d83036863718c4785d490cb6b2dad5f4ee7fde43
+Author: dsl <>
+Date:   Wed Feb 25 11:51:10 2004 +0000
+
+    SCR#26997 fixed
+
+:100644 100644 5d318cd da5bdb8 M	Aurora/source/com/intellij/openapi/roots/impl/DirectoryIndexImpl.java
+
+commit d83036863718c4785d490cb6b2dad5f4ee7fde43 7fae24dfd078e72f1880ece1d5b2ada3e9298d2b
+Author: rob <>
+Date:   Tue Feb 24 16:15:04 2004 +0000
+
+    Merging fixes into release
+
+:100644 100644 3ff8a08 f4993ae M	Aurora/licenseCommon/source/com/intellij/licensecommon/license/LicenseDataImpl.java
+:100644 100644 9e6c880 c5ceb01 M	Aurora/licenseCommon/source/com/intellij/licensecommon/server/list/LicenseList.java
+:100644 100644 badc440 b793603 M	Aurora/licenseServer/build/license_server.bat
+:100644 100644 a197112 3b2dac7 M	Aurora/licenseServer/source/com/intellij/licenseserver/EmailParser.java
+:100644 100644 088a029 ab8b7d7 M	Aurora/licenseServer/testSource/com/intellij/licenseserver/TestEmailParser.java
+:100644 100644 030986e e22d23d M	Aurora/source/com/intellij/ide/license/LicenseMessages.java
+:100644 100644 c708978 8a72d3d M	Aurora/source/com/intellij/ide/license/impl/PolicyBuilder.java
+:100644 100644 7585671 8e63b25 M	Aurora/source/com/intellij/ide/license/ui/LicenseMessagesImpl.java
+:100644 100644 75478cc 41eb015 M	Aurora/testSource/com/intellij/ide/license/impl/TestLicenseDataImpl.java
+
+commit 7fae24dfd078e72f1880ece1d5b2ada3e9298d2b 26bf0649d10a6f8db81b2573278f85bbfd82b77f
+Author: cdr <>
+Date:   Tue Feb 24 10:17:58 2004 +0000
+
+    no message
+
+:100644 100644 72eee06 adff850 M	Aurora/source/com/intellij/j2ee/module/components/WebModuleBuildComponent.java
+
+commit 26bf0649d10a6f8db81b2573278f85bbfd82b77f cedc209fe91dbc2ec3ead92ec54a061dce7f9c14
+Author: cdr <>
+Date:   Tue Feb 24 09:31:51 2004 +0000
+
+    no message
+
+:100644 100644 d21738a 21c9fc9 M	Aurora/source/com/intellij/compiler/impl/CompileDriver.java
+
+commit cedc209fe91dbc2ec3ead92ec54a061dce7f9c14 7baff677219a4420500ae6c9954e214ec504e823
+Author: ignatov <>
+Date:   Mon Feb 23 18:40:07 2004 +0000
+
+    This commit was manufactured by cvs2svn to create branch 'AURORA_RELEASE'.
+
+:000000 100644 0000000 b84cae7 A	Aurora/licenseCommon/testSource/com/intellij/licensecommon/TestGenerationDate.java
+:000000 100644 0000000 b86b2b0 A	Aurora/licenseServer/testData/exampleLgen.txt
+:000000 100644 0000000 51fa981 A	Aurora/source/com/intellij/ide/license/policy/CheckCancelled.java
+:000000 100644 0000000 5ebe08b A	Aurora/source/com/intellij/ide/license/policy/cancelled/CancelledLicenses.java
+:000000 100644 0000000 ef79352 A	Aurora/source/com/intellij/ide/license/policy/cancelled/Encryptor.java
+:000000 100644 0000000 e2c638d A	Aurora/source/com/intellij/internalUtilities/license/UpdateCancelledLicenses.java
+:000000 100644 0000000 76acef5 A	Aurora/source/com/intellij/internalUtilities/license/format/ByteArrays.java
+:000000 100644 0000000 434f1d4 A	Aurora/testSource/com/intellij/ide/license/policy/cancelled/TestEncryptor.java
+:000000 100644 0000000 9049e2b A	Aurora/tools/cancelledLicenses/build.xml
+:000000 100644 0000000 790256f A	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.template
+:000000 100644 0000000 d6e636a A	Aurora/tools/cancelledLicenses/resources/CancelledLicenses.txt
+
+commit 7baff677219a4420500ae6c9954e214ec504e823 2764dea1515f04e4c128a1e7a720652423c780f3
+Author: lex <>
+Date:   Mon Feb 23 16:59:25 2004 +0000
+
+    no message
+
+:100644 100644 852afeb 3dae448 M	Aurora/source/com/intellij/debugger/NameManager.java
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit b9d11f0e4d1752ebb2450f5ec6da277092afef0b db48262ce81e503f25eeabef0888e9a1f2635288
+Author: rob <>
+Date:   Tue Dec 16 10:25:12 2003 +0000
+
+    no message
+
+commit db48262ce81e503f25eeabef0888e9a1f2635288 5c721c901f90cb414bc5023f4527b4bd4b62d1a8
+Author: lesya <>
+Date:   Tue Dec 16 10:24:05 2003 +0000
+
+    no message
+
+:100644 100644 d069f23 280b50d M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/AddedFileInfo.java
+:100644 100644 8f9eff4 1fd8430 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/AbstractAddFileConfirmationPanel.java
+:100644 100644 686eff0 e5660ed M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/AbstractAddOptionsDialog.java
+:100644 100644 89231a6 6182b36 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/AbstractDeleteConfirmationDialog.java
+:100644 100644 8dc520b 8a7c60c M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/AddMultiplyFilesOptionsDialog.java
+:100644 100644 58d6460 796ff88 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/AddOneFileOptionsDialog.java
+:100644 100644 a370545 e0eae04 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/DeleteOneFileConfirmationDialog.java
+:100644 100644 5390d0b 426b496 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/ui/DeleteOptionsDialog.java
+:100644 100644 239be24 9359b8d M	Aurora/source/com/intellij/openapi/vcs/fileView/impl/FileOrDirectoryTreeNode.java
+:100644 100644 e151aaf 4f5f91c M	Aurora/source/com/intellij/openapi/vcs/fileView/impl/FilePathSplittingPolicy.java
+:100644 100644 2887913 884fba0 M	Aurora/source/com/intellij/openapi/vcs/impl/VcsManagerImpl.java
+
+commit 5c721c901f90cb414bc5023f4527b4bd4b62d1a8 34168312f963bb9ba79a97e202a8ddb619b5aea7
+Author: rob <>
+Date:   Tue Dec 16 10:23:42 2003 +0000
+
+    no message
+
+:100644 100644 951c38f db653f7 M	Aurora/licenseCommon/license_common.iml
+:100644 100644 4a21546 e258580 M	Aurora/licenseServer/license_server.iml
+
+commit 34168312f963bb9ba79a97e202a8ddb619b5aea7 a5a080628040c51fd5d8098d513adfec1d6a0aa5
+Author: lesya <>
+Date:   Tue Dec 16 10:18:31 2003 +0000
+
+    no_message
+
+:100644 100644 68fcd25 ad5371c M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvshandlers/DirectoryPruner.java
+
+commit a5a080628040c51fd5d8098d513adfec1d6a0aa5 affe1162e86075beafd288ee521ff3fae1bc947c
+Author: cdr <>
+Date:   Tue Dec 16 10:07:40 2003 +0000
+
+    no message
+
+:100644 100644 6dff6b6 5828532 M	Aurora/source/com/intellij/application/options/CodeStyleSchemesConfigurable.java
+:100644 100644 570d0b8 b833927 M	Aurora/source/com/intellij/application/options/CodeStyleSettingsPanel.java
+:000000 100644 0000000 6d21ef9 A	Aurora/source/com/intellij/j2ee/module/view/common/ShowJ2EENamesAction.java
+:100644 100644 ac80f8b 3edc3df M	Aurora/source/com/intellij/j2ee/module/view/ejb/AddEjbAction.java
+:100644 100644 87ca748 b789628 M	Aurora/source/com/intellij/j2ee/module/view/ejb/ejbLevel/CreateEjbWizard.java
+:100644 100644 a9906b5 0f49000 M	Aurora/source/com/intellij/j2ee/module/view/ejb/ejbLevel/CreateEjbWizardStep0.java
+:100644 100644 0e94f9e da7f5fb M	Aurora/source/com/intellij/j2ee/module/view/ejb/ejbLevel/EjbClassesPropertiesDialog.java
+:100644 100644 c4a9a83 50815a0 M	Aurora/source/com/intellij/j2ee/module/view/web/filter/FilterPropertiesDialog.java
+:100644 100644 2081123 5542e97 M	Aurora/source/com/intellij/j2ee/module/view/web/servlet/ServletPropertiesDialog.java
+:100644 000000 05c69e5 0000000 D	Aurora/source/com/intellij/j2ee/module/view/web/servlet/ShowJ2EECodeStyleSettingsAction.java
+:100644 100644 17bc9b4 73ec6c5 M	Aurora/source/com/intellij/openapi/module/ModuleUtil.java
+:100644 100644 1c25b3e 246bc8b M	Aurora/source/com/intellij/openapi/options/ex/SingleConfigurableEditor.java
+
+commit affe1162e86075beafd288ee521ff3fae1bc947c f042e46040bc794e9ce9e38fb7a2ae48db6ac9f5
+Author: builder <>
+Date:   Mon Dec 15 23:08:02 2003 +0000
+
+    Build failed
+
+:100644 100644 e325c8d 944afc9 M	Aurora/build/version.properties
+
+commit f042e46040bc794e9ce9e38fb7a2ae48db6ac9f5 0428f7bb6ac73b1adc341b2af72e01df0193d0b7
+Author: builder <>
+Date:   Mon Dec 15 22:22:47 2003 +0000
+
+    New version
+
+:100644 100644 cf765da 18dae6c M	Aurora/build/lib/javac2.jar
+
+commit 0428f7bb6ac73b1adc341b2af72e01df0193d0b7 bcc89fa482a86c9cf102aa72350c68313563f6d4
+Author: builder <>
+Date:   Mon Dec 15 22:10:36 2003 +0000
+
+    New version
+
+:100644 100644 6cdbaa7 e325c8d M	Aurora/build/version.properties
+
+commit bcc89fa482a86c9cf102aa72350c68313563f6d4 49768b1e0fe0f687c54e44fbf5c9f57060f22d43
+Author: max <>
+Date:   Mon Dec 15 19:49:23 2003 +0000
+
+    no message
+
+:100644 100644 522ed08 6dcab75 M	Aurora/source/com/intellij/openapi/editor/impl/EditorImpl.java
+
+commit 49768b1e0fe0f687c54e44fbf5c9f57060f22d43 42655a599b7ace965c78c6204d46640df65ea454
+Author: max <>
+Date:   Mon Dec 15 18:58:04 2003 +0000
+
+    no message
+
+:100644 100644 669f267 836ff8d M	Aurora/source/com/intellij/openapi/project/impl/ProjectManagerImpl.java

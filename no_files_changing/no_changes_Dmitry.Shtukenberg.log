@@ -1,0 +1,95 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 191f4dc4334f7a522c7aeb239c509340672483eb 0af8b179a3651af2c402325d4f782ebe044d41ce
+Author: Dmitry.Shtukenberg <>
+Date:   Fri Jun 4 16:47:03 2004 +0000
+
+    No caches updates after changes to workspace file
+
+commit 0af8b179a3651af2c402325d4f782ebe044d41ce c0d1a1c24be5e781d24b03d68690dc97e47615fd
+Author: dsl <>
+Date:   Fri Jun 4 16:46:05 2004 +0000
+
+    Reverted back Dave's to my revison.
+    RefactoringHandlers etc. have been moved
+
+:100644 100644 9e8516c 6f7fb99 M	Aurora/build/cc.xml
+
+commit c0d1a1c24be5e781d24b03d68690dc97e47615fd 34db861ed31253c5d5ce865894437f7d211bf2cb
+Author: Dmitry.Shtukenberg <>
+Date:   Fri Jun 4 16:45:09 2004 +0000
+
+    No caches updates after changes to workspace file
+
+:100644 100644 bb42afe 6e62a32 M	Aurora/source/com/intellij/ide/startup/FileSystemSynchronizer.java
+
+commit 34db861ed31253c5d5ce865894437f7d211bf2cb d4a93f7365079412cbba30b6302fc56656fd0439
+Author: builder <>
+Date:   Fri Jun 4 16:39:40 2004 +0000
+
+    New version
+
+:100644 100644 36ad0ba 97b67eb M	Aurora/build/lib/javac2.jar
+
+commit d4a93f7365079412cbba30b6302fc56656fd0439 b4b61da89cd653e537334c826617af224f7e0cb2
+Author: dsl <>
+Date:   Fri Jun 4 16:30:51 2004 +0000
+
+    Reverted back Dave's to my revison.
+    RefactoringHandlers etc. have been moved
+
+:100644 100644 6f7fb99 9e8516c M	Aurora/build/cc.xml
+
+commit b4b61da89cd653e537334c826617af224f7e0cb2 fcdd3b9547af7ec42ad5db481b1c5260db4eaf9a
+Author: dsl <>
+Date:   Fri Jun 4 16:30:25 2004 +0000
+
+    Reverted back Dave's to my revison.
+    RefactoringHandlers etc. have been moved
+
+:100644 100644 6104bf6 6f7fb99 M	Aurora/build/cc.xml
+
+commit fcdd3b9547af7ec42ad5db481b1c5260db4eaf9a 2fef70678942ab78d7b807916b1029cbf708a65c
+Author: dsl <>
+Date:   Fri Jun 4 16:30:15 2004 +0000
+
+    Reverted back Dave's to my revison.
+    RefactoringHandlers etc. have been moved
+
+:100644 100644 d9e8a8b 6104bf6 M	Aurora/build/cc.xml
+
+commit 2fef70678942ab78d7b807916b1029cbf708a65c 2365066c08c43be28e73d1fc5ac719f240e71931
+Author: cdr <>
+Date:   Fri Jun 4 16:29:18 2004 +0000
+
+    no message
+
+:100644 100644 b3dfae9 2eb78dc M	Aurora/source/com/intellij/j2ee/make/ModuleBuilder.java
+
+commit 2365066c08c43be28e73d1fc5ac719f240e71931 971fc25c0ea284a3c53df3054404e9ff6db05b47
+Author: builder <>
+Date:   Fri Jun 4 16:27:59 2004 +0000
+
+    New version
+
+:100644 100644 20932a1 36ad0ba M	Aurora/build/lib/javac2.jar
+
+commit 971fc25c0ea284a3c53df3054404e9ff6db05b47 204a56f92b0b7553a0c25e7e383b43b3bdc14571
+Author: dyoma <>
+Date:   Fri Jun 4 16:19:24 2004 +0000
+
+    no message
+
+:100644 100644 2b18f12 d4cdeb8 M	Aurora/openapi/src/com/intellij/execution/RunManager.java
+:100644 100644 542b5dc 562d136 M	Aurora/resources/src/componentSets/InspectionComponents.xml
+:100644 100644 a38532f 1c225f3 M	Aurora/source/com/intellij/ant/AntConfiguration.java
+:000000 100644 0000000 45eba51 A	Aurora/source/com/intellij/ant/DummyAntConfiguration.java
+:100644 100644 3b278e8 0f4441c M	Aurora/source/com/intellij/ant/execution/AntCommandLineBuilder.java
+:100644 100644 2017992 480aecd M	Aurora/source/com/intellij/ant/explorer/AntExplorer.java
+:100644 100644 c8c0d76 6e43dd9 M	Aurora/source/com/intellij/ant/impl/AntConfigurationImpl.java
+:100644 100644 0f5219e d0388fa M	Aurora/source/com/intellij/ant/impl/AntReference.java
+:100644 100644 365b03e f56ef3d M	Aurora/source/com/intellij/ant/impl/GlobalAntConfiguration.java
+:100644 100644 94bbe19 eb67139 M	Aurora/source/com/intellij/ant/impl/configuration/BuildFilePropertiesPanel.java
+:100644 100644 0cec763 3587b2e M	Aurora/testSource/com/intellij/ant/execution/AntCommandLineBuilderTest.java
+:100644 100644 3f21a27 c7e857d M	Aurora/testSource/com/intellij/ant/impl/configuration/ExecutionTabTest.java

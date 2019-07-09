@@ -1,0 +1,130 @@
+
+
+|-----------------------new empty commit history with 10 len-----------------------|
+commit 875fd6dee23f60a07d3e77f28e16d64ab0f4e9c4 af4ca5c283cecae034f39f10faa1ff60b588dac1
+Author: msk <>
+Date:   Mon Aug 16 16:13:48 2004 +0000
+
+    ByteBuffer speed temp. workaround
+
+commit af4ca5c283cecae034f39f10faa1ff60b588dac1 de7b7f8975417b9e3abfe7b3434403dce2300cad
+Author: builder <>
+Date:   Mon Aug 16 15:50:44 2004 +0000
+
+    New version
+
+:100644 100644 6e29f92 b949051 M	Aurora/build/lib/javac2.jar
+
+commit de7b7f8975417b9e3abfe7b3434403dce2300cad 4b3c43ba577e2327368e757ca78da17b384e3f2a
+Author: builder <>
+Date:   Mon Aug 16 15:46:36 2004 +0000
+
+    Build failed
+
+:100644 100644 2e366a8 6210aa6 M	Aurora/build/version.properties
+
+commit 4b3c43ba577e2327368e757ca78da17b384e3f2a 48623133a260cade45a4ab0d4c36458293368d42
+Author: lesya <>
+Date:   Mon Aug 16 15:45:55 2004 +0000
+
+    no message
+
+:100644 100644 2d7780c 28985d3 M	Aurora/openapi/src/com/intellij/ui/UIHelper.java
+:100644 100644 e989dd7 4fab174 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/cvsoperations/cvsTagOrBranch/ui/TagsPanel.java
+:100644 100644 d1a0c22 e3b7a55 M	Aurora/source/com/intellij/peer/impl/PeerFactoryImpl.java
+
+commit 48623133a260cade45a4ab0d4c36458293368d42 9af5953c72d40c35fb4685a5969f94a96f9b6894
+Author: lesya <>
+Date:   Mon Aug 16 15:31:36 2004 +0000
+
+    no message
+
+:100644 100644 6b7cba5 6b7cba5 R100	Aurora/source/com/intellij/ui/ColoredListCellRenderer.java	Aurora/openapi/src/com/intellij/ui/ColoredListCellRenderer.java
+:100644 100644 b7093cc b7093cc R100	Aurora/source/com/intellij/ui/ColoredTreeCellRenderer.java	Aurora/openapi/src/com/intellij/ui/ColoredTreeCellRenderer.java
+:100644 100644 7efa772 11600b6 R085	Aurora/source/com/intellij/ui/SimpleColoredComponent.java	Aurora/openapi/src/com/intellij/ui/SimpleColoredComponent.java
+:100644 100644 aabc4f1 aabc4f1 R100	Aurora/source/com/intellij/ui/SimpleColoredRenderer.java	Aurora/openapi/src/com/intellij/ui/SimpleColoredRenderer.java
+:100644 100644 aabdeab f206cf0 R071	Aurora/source/com/intellij/ui/SimpleTextAttributes.java	Aurora/openapi/src/com/intellij/ui/SimpleTextAttributes.java
+:100644 100644 604514f 604514f R100	Aurora/source/com/intellij/ui/TableCellState.java	Aurora/openapi/src/com/intellij/ui/TableCellState.java
+:100644 100644 bf9c4e8 2d7780c M	Aurora/openapi/src/com/intellij/ui/UIHelper.java
+:100644 100644 12c58c6 20ac137 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/DirectoryTreeNode.java
+:100644 100644 c556db2 c66b8f1 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/FileGroup.java
+:100644 100644 5f0754d 0d1ec0e M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/GroupTreeNode.java
+:100644 100644 299c024 d2c8095 M	Aurora/plugins/cvs2/source/com/intellij/cvsSupport2/updateinfo/UpdateRootNode.java
+:100644 100644 c15141e 840303b M	Aurora/source/com/intellij/ant/explorer/AntExplorer.java
+:100644 100644 268a5b2 78dab6c M	Aurora/source/com/intellij/ant/explorer/AntNodeDescriptor.java
+:100644 100644 caafbc1 25fd48c M	Aurora/source/com/intellij/ant/explorer/BuildFileNodeDescriptor.java
+:100644 100644 372c296 9154026 M	Aurora/source/com/intellij/ant/explorer/TargetNodeDescriptor.java
+:100644 100644 6b8779e 0feb82b M	Aurora/source/com/intellij/ant/impl/configuration/AntUIUtil.java
+:100644 100644 8842d4d 4206273 M	Aurora/source/com/intellij/codeInsight/PopupActionChooser.java
+:100644 100644 928b43a d4648c7 M	Aurora/source/com/intellij/dupLocator/resultUI/CodeNode.java
+:100644 100644 df2d787 d85f008 M	Aurora/source/com/intellij/dupLocator/resultUI/DupUIUtil.java
+:100644 100644 094adbd aa502fc M	Aurora/source/com/intellij/execution/impl/ConfigurationSettingsEditor.java
+:100644 100644 1529f94 a98b596 M	Aurora/source/com/intellij/execution/impl/ConfigurationTab.java
+:100644 100644 6e670a0 b3d5a65 M	Aurora/source/com/intellij/execution/junit2/configuration/MethodList.java
+:100644 100644 8b66932 962df7d M	Aurora/source/com/intellij/execution/junit2/ui/ConsolePanel.java
+:100644 100644 60e1af9 51c39f5 M	Aurora/source/com/intellij/execution/junit2/ui/TestRenderer.java
+:100644 100644 f1aeb13 f93d3e1 M	Aurora/source/com/intellij/execution/junit2/ui/TreeTestRenderer.java
+:100644 100644 acc7077 4cbf313 M	Aurora/source/com/intellij/ide/actions/SelectInAction.java
+:100644 100644 e429108 55ed3cf M	Aurora/source/com/intellij/ide/commander/ColoredCommanderRenderer.java
+:100644 100644 3a5ad37 d2f196a M	Aurora/source/com/intellij/ide/projectView/impl/ProjectViewTreeNodeRenderer.java
+:100644 100644 9f4cb4a f80b5db M	Aurora/source/com/intellij/ide/structureView/impl/StructureNodeRenderer.java
+:100644 100644 5928d05 21fb39c M	Aurora/source/com/intellij/ide/util/DirectoryChooserListView.java
+:100644 100644 9cb299f 3150446 M	Aurora/source/com/intellij/ide/util/DirectoryChooserModuleTreeView.java
+:100644 100644 0c95ad1 0a89c9e M	Aurora/source/com/intellij/ide/util/projectWizard/JdkChooserPanel.java
+:100644 100644 dcc1e47 f2e8bff M	Aurora/source/com/intellij/internal/scanReferences/allocations/AllocationsViewer.java
+:100644 100644 7ca6ef9 c8e4c74 M	Aurora/source/com/intellij/internal/scanReferences/allocations/ColoredComponentCustomizer.java
+:100644 100644 649c005 26c4e86 M	Aurora/source/com/intellij/internal/scanReferences/allocations/TypeBasedCustomizer.java
+:100644 100644 5e1d5a7 3ed8eaa M	Aurora/source/com/intellij/j2ee/deployment/DeploymentSettingsPanel.java
+:100644 100644 930969a 546710d M	Aurora/source/com/intellij/j2ee/module/view/J2EEToolTipNodeRenderer.java
+:100644 100644 67b398f f8739d7 M	Aurora/source/com/intellij/openapi/actionSystem/ex/ActionListPopup.java
+:100644 100644 b143f32 6c1abc5 M	Aurora/source/com/intellij/openapi/diff/impl/settings/DiffColorsForm.java
+:100644 100644 3e7f746 a596573 M	Aurora/source/com/intellij/openapi/fileChooser/ex/FileNodeDescriptor.java
+:100644 100644 e087d67 fa6c4b2 M	Aurora/source/com/intellij/openapi/roots/ui/FolderGroup.java
+:100644 100644 321f442 2648d31 M	Aurora/source/com/intellij/openapi/roots/ui/libraries/lib2/OrderRootTypeElement.java
+:100644 100644 1ad72e4 c752d93 M	Aurora/source/com/intellij/openapi/roots/ui/util/BaseTextCommentCellAppearance.java
+:100644 100644 c341d2f 9b3cd55 M	Aurora/source/com/intellij/openapi/roots/ui/util/CellAppearanceUtils.java
+:100644 100644 b3139e4 a44756d M	Aurora/source/com/intellij/openapi/roots/ui/util/CompositeAppearance.java
+:100644 100644 f674d94 c20f770 M	Aurora/source/com/intellij/openapi/roots/ui/util/SimpleTextCellAppearance.java
+:100644 100644 2f74ce9 d1a0c22 M	Aurora/source/com/intellij/peer/impl/PeerFactoryImpl.java
+:100644 100644 8ff6b82 2cae4e8 M	Aurora/source/com/intellij/tools/OutputFiltersDialog.java
+:100644 100644 ea58a32 ca278ec M	Aurora/testSource/com/intellij/openapi/roots/ui/util/CellAppearanceTest.java
+
+commit 9af5953c72d40c35fb4685a5969f94a96f9b6894 169b888e53cbaa8bc1a9f4e0e2e7160ee334b9bd
+Author: builder <>
+Date:   Mon Aug 16 15:25:27 2004 +0000
+
+    Build failed
+
+:100644 100644 07516b2 2e366a8 M	Aurora/build/version.properties
+
+commit 169b888e53cbaa8bc1a9f4e0e2e7160ee334b9bd 0d87f329e8dadea379f63a6ebbcf709cf0cd1e12
+Author: lex <>
+Date:   Mon Aug 16 15:23:16 2004 +0000
+
+    no message
+
+:100644 100644 35144dc 173790f M	Aurora/source/com/intellij/debugger/ui/impl/watch/FieldDescriptor.java
+
+commit 0d87f329e8dadea379f63a6ebbcf709cf0cd1e12 ca9280ceade2991821c5bfffe8148b73b368c42b
+Author: lex <>
+Date:   Mon Aug 16 15:23:07 2004 +0000
+
+    no message
+
+:100644 100644 9d8a60b 35144dc M	Aurora/source/com/intellij/debugger/ui/impl/watch/FieldDescriptor.java
+
+commit ca9280ceade2991821c5bfffe8148b73b368c42b 07efc7c984e18c5d581e369a41fba57274923265
+Author: builder <>
+Date:   Mon Aug 16 15:11:05 2004 +0000
+
+    New version
+
+:100644 100644 ff0e1b6 07516b2 M	Aurora/build/version.properties
+
+commit 07efc7c984e18c5d581e369a41fba57274923265 64650a3553bf46a3f6ccda4687de3f0ae011aad2
+Author: builder <>
+Date:   Mon Aug 16 15:10:47 2004 +0000
+
+    no message
+
+:100644 100644 c46fcc6 5085487 M	Aurora/build-start.xml
