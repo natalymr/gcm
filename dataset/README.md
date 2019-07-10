@@ -23,7 +23,7 @@
 |---|---|
 | Expected commits count |  37077 |
 |  Actual commits count | 37078  |
-| Total blob-files count  | 150525
+| Total blob-files count  | 153411 |
 
 Link to tar.gz with blobs
 https://drive.google.com/file/d/17rfe-r1gB0RizZ85coqSNVlPRXMH3beo/view?usp=sharing

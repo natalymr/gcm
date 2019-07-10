@@ -2,13 +2,6 @@ import os
 from subprocess import call
 
 
-def collect_statistics_no_msg_commits(com_com_log: str):
-    with open(com_com_log, 'r') as com_com_log_file:
-        for line in com_com_log_file:
-            line_list = line.split(";")
-            cur_commit, message, date = line_list[1], line_list[2], line_list[4]
-
-
 def collect_statistics_msg_frequency(com_com_log: str, output_file: str):
     msg_vs_count = {}
     total_commit_count = 0
