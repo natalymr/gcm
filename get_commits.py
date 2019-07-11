@@ -156,7 +156,7 @@ if __name__ == "__main__":
     git_dir_name = "intellij"
     git_dir = os.path.join(parent_dir, git_dir_name)
     start_date = "2004-01-01"
-    end_date = "2010-07-01"
+    end_date = "2006-07-01"
     com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
     com_com_log_file = os.path.join(parent_dir, com_com_log_file)
     full_log_file = f"gcm_{git_dir_name}_full.log"

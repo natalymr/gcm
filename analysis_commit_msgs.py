@@ -103,8 +103,8 @@ if __name__ == "__main__":
     all_commits_statistic_file = os.path.join(parent_dir, f"{git_dir_name}_messages_statistics.txt")
     msg_vs_author_file = os.path.join(parent_dir, f"{git_dir_name}_msg_vs_author.txt")
 
-    # collect_statistics_msg_frequency(com_com_log_file, all_commits_statistic_file)
-    # analyze_cleanup(com_com_log_file)
+    collect_statistics_msg_frequency(com_com_log_file, all_commits_statistic_file)
+    analyze_cleanup(com_com_log_file)
     analyze_msg_vs_author(com_com_log_file, msg_vs_author_file)
 
     # builder_com_com_log = "builder_com_com_msg_author_date.log"

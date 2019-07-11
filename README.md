@@ -14,9 +14,9 @@
 | **Description** |  **Number** |
 |---|---|
 |Since|2004-01-01|
-|Before|2010-07-01|
-| Expected commits count |  583514 |
-|  Actual commits count | 105607  |
+|Before|2006-07-01|
+|  Commits number | 18487  |
+|With no message commits number|1723|
 | Total blob-files count  | -- |
 |Commits for train|--|
 
