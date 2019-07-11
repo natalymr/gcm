@@ -38,7 +38,8 @@ def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, gi
     # logic
     call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author; date;" > {com_com_log}', shell=True)
     cd_command = f"cd {git_dir}"
-    git_log_command = f'git log --pretty="%P;%H;%s;%an;%cd;" --since={start_date} --before={end_date} --branches --all'
+    git_log_command = f'git log --pretty="%P;%H;%s;%an;%cd;" --since={start_date} --before={end_date} ' \
+        f'--branches --all --no-merges'
     write_to_file_command = f" >> {com_com_log}"
     call(cd_command + " && " + git_log_command + write_to_file_command, shell=True)
     # check that we've got all commits
