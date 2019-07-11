@@ -63,7 +63,7 @@ class ChangedFile:
         self.status = status
         self.file_name = file_name
     def __str__(self):
-        return f"{self.status}; {self.file_name}; {self.old_blob}; {self.cur_blob}"
+        return f"{self.status};{self.file_name};{self.old_blob};{self.cur_blob}"
 
 
 def parse_diff_tree_command(old_commit: str, cur_commit: str, file_name: str, git_dir: str) -> List[ChangedFile]:
@@ -84,6 +84,31 @@ def download_blob_content(blob_hash: str, blobs_dir: str, git_dir: str):
     if blob_hash != "0000000000000000000000000000000000000000":
         blob_file_path = os.path.join(blobs_dir, blob_hash)
         call(f"cd {git_dir} && git cat-file -p {blob_hash} > {blob_file_path}", shell=True)
+
+
+def create_full_log_file(com_com_log: str, full_log: str, git_dir: str):
+    print("Start to create full_log file")
+    with open(full_log, 'w') as full_log_file:
+        full_log_file.write("commit_hash;author;status;file;old_blob;new_blob;message;\n")
+        total_blobs_count = 0
+        with open(com_com_log, 'r') as com_com_log_file:
+            i = 0
+            for line in com_com_log_file:
+                i += 1
+                if i % 20 == 0:
+                    print(f"Start to process {i} commit; Blobs count top score {total_blobs_count}")
+                if line.startswith("parent_commit_file_hash"):  # csv title # заменить на проверку приведения к числу
+                    continue
+                line_list = line.split(";")
+                parent_commit, cur_commit, message, author = line_list[0], line_list[1], line_list[2], line_list[3]
+                changed_files = parse_diff_tree_command(parent_commit, cur_commit, "qwerty", git_dir)
+                total_blobs_count += len(changed_files)
+                for changed_file in changed_files:
+                    # write to log
+                    full_log_file.write(f"{cur_commit};{author};{changed_file};{message};\n")
+
+    print(f"Top score for blobs number {total_blobs_count}")
+    print("Finished to create full_log file")
 
 
 def create_full_log_file_and_download_blobs(com_com_log: str, full_log: str, blobs_dir: str, git_dir: str):
@@ -167,10 +192,16 @@ if __name__ == "__main__":
     if not is_cloned:
         git_clone(http, parent_dir)
 
-    print("Number of processors: ", mp.cpu_count())
+    print("Number of processors: {}".format(mp.cpu_count()))
     processors_number = mp.cpu_count()
 
-    commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
+    # commit_commit file
+    #commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
+    #print("Number of commits: {}".format(commit_count))
+
+    # full log file
+    create_full_log_file(com_com_log_file, full_log_file, git_dir)
+
     # indexes = [i for i in range(processors_number)]
     #
     # each_process_lines_count = commit_count // mp.cpu_count()
