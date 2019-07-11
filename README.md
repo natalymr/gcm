@@ -7,6 +7,18 @@
 | Expected commits count |  37077 |
 |  Actual commits count | 37078  |
 | Total blob-files count  | 153411 |
+|Commits for train|3545|
+
+### Statistic for `intellij` dataset
+
+| **Description** |  **Number** |
+|---|---|
+|Since|2004-01-01|
+|Before|2010-07-01|
+| Expected commits count |  583514 |
+|  Actual commits count | 105607  |
+| Total blob-files count  | -- |
+|Commits for train|--|
 
 ------
 

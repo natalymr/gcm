@@ -144,50 +144,49 @@ def create_full_log_file_and_download_blobs_parallel(com_com_log: str, full_log:
                             download_blob_content(changed_file.cur_blob, blobs_dir, git_dir)
 
 
-
 if __name__ == "__main__":
     # values
     # http = "https://github.com/natalymr/interpreter.git"
-http = "https://github.com/natalymr/spbau_java_hw.git"
-is_cloned = True
-# tmp_dir = "10"
-# tmp_dir = os.path.join(parent_dir, tmp_dir)
-parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
-git_dir_name = "aurora"
-git_dir = os.path.join(parent_dir, git_dir_name)
-start_date = "2002-01-01"
-end_date = "2019-07-01"
-com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
-com_com_log_file = os.path.join(parent_dir, com_com_log_file)
-full_log_file = f"gcm_{git_dir_name}_full.log"
-full_log_file = os.path.join(parent_dir, full_log_file)
-blobs_dir = os.path.join(parent_dir, f"{git_dir_name}_blobs")
+    http = "https://github.com/natalymr/spbau_java_hw.git"
+    is_cloned = True
+    # tmp_dir = "10"
+    # tmp_dir = os.path.join(parent_dir, tmp_dir)
+    parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
+    git_dir_name = "intellij"
+    git_dir = os.path.join(parent_dir, git_dir_name)
+    start_date = "2004-01-01"
+    end_date = "2010-07-01"
+    com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
+    com_com_log_file = os.path.join(parent_dir, com_com_log_file)
+    full_log_file = f"gcm_{git_dir_name}_full.log"
+    full_log_file = os.path.join(parent_dir, full_log_file)
+    blobs_dir = os.path.join(parent_dir, f"{git_dir_name}_blobs")
 
     # logic
     if not is_cloned:
         git_clone(http, parent_dir)
 
     print("Number of processors: ", mp.cpu_count())
-processors_number = mp.cpu_count()
+    processors_number = mp.cpu_count()
 
-commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
-indexes = [i for i in range(processors_number)]
-
-each_process_lines_count = commit_count // mp.cpu_count()
-lines_ranges = [(i * each_process_lines_count + 1, (i + 1) * each_process_lines_count) for i in indexes]
-lines_ranges[-1] = (lines_ranges[-1][0], commit_count)
-
-full_log_files_names = [f"gcm_{git_dir_name}_full_{i}.log" for i in indexes]
-full_log_files = [os.path.join(parent_dir, log) for log in full_log_files_names]
-    print(full_log_files)
-    print(lines_ranges)
-    print(f"len_ind {len(indexes)}, len_logs {len(full_log_files)}, len_lines {len(lines_ranges)} ")
-    print(f"len_ind {indexes[9:]}, len_logs {len(full_log_files[9:])}, len_lines {lines_ranges[9:]} ")
-
-    pool = mp.Pool(7)
-    pool.starmap(create_full_log_file_and_download_blobs_parallel,
-                 [(com_com_log_file, full_log_files[i], blobs_dir, lines_ranges[i], git_dir) for i in indexes[9:]])
-
+    commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
+    # indexes = [i for i in range(processors_number)]
+    #
+    # each_process_lines_count = commit_count // mp.cpu_count()
+    # lines_ranges = [(i * each_process_lines_count + 1, (i + 1) * each_process_lines_count) for i in indexes]
+    # lines_ranges[-1] = (lines_ranges[-1][0], commit_count)
+    #
+    # full_log_files_names = [f"gcm_{git_dir_name}_full_{i}.log" for i in indexes]
+    # full_log_files = [os.path.join(parent_dir, log) for log in full_log_files_names]
+    # print(full_log_files)
+    # print(lines_ranges)
+    # print(f"len_ind {len(indexes)}, len_logs {len(full_log_files)}, len_lines {len(lines_ranges)} ")
+    # print(f"len_ind {indexes[9:]}, len_logs {len(full_log_files[9:])}, len_lines {lines_ranges[9:]} ")
+    #
+    # pool = mp.Pool(7)
+    # pool.starmap(create_full_log_file_and_download_blobs_parallel,
+    #              [(com_com_log_file, full_log_files[i], blobs_dir, lines_ranges[i], git_dir) for i in indexes[9:]])
+    #
 
     # create_full_log_file_and_download_blobs(com_com_log_file, full_log_file, blobs_dir, git_dir)
 
