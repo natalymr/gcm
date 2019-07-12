@@ -200,7 +200,7 @@ if __name__ == "__main__":
     #print("Number of commits: {}".format(commit_count))
 
     # full log file
-    create_full_log_file(com_com_log_file, full_log_file, git_dir)
+    # create_full_log_file(com_com_log_file, full_log_file, git_dir)
 
     # indexes = [i for i in range(processors_number)]
     #

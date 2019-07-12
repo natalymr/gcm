@@ -27,3 +27,17 @@
 
 Link to tar.gz with blobs
 https://drive.google.com/file/d/17rfe-r1gB0RizZ85coqSNVlPRXMH3beo/view?usp=sharing
+
+### Statistic for `intellij` dataset
+
+| **Description** |  **Number** |
+|---|---|
+|Since|2004-01-01|
+|Before|2006-07-01|
+|  Commits number | 18487  |
+|With no message commits number|1723|
+| Total blob-files count  | 89795 |
+|Commits for train|--|
+
+Link to tar.gz with blobs from intellij
+https://drive.google.com/file/d/1_N1ugDOPpAaItDzK9LcQDiWJfsJgVW2O/view?usp=sharing
