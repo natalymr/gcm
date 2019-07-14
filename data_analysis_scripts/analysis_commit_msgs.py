@@ -26,6 +26,7 @@ def collect_statistics_msg_frequency(com_com_log: str, output_file: str):
             total_commit_count += 1
             line_list = line.split(";")
             message = line_list[2]
+            message = message.lower()
             if message in msg_vs_counts:
                 msg_vs_counts[message] += 1
             else:
@@ -77,6 +78,7 @@ def analyze_msg_vs_author(com_com_log: str, output_file: str):
                 continue
             line_list = line.split(";")
             message, author = line_list[2], line_list[3]
+            message = message.lower()
             if (author, message) not in msg_and_author_vs_number:
                 msg_and_author_vs_number[(author, message)] = 1
             else:
