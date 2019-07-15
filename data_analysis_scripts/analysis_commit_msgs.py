@@ -26,7 +26,16 @@ def collect_statistics_msg_frequency(com_com_log: str, output_file: str):
             total_commit_count += 1
             line_list = line.split(";")
             message = line_list[2]
+            # #######
+            if message == "no message" or \
+                    message == "New version" or \
+                    message == "Build completed" or \
+                    message == "Build failed" or \
+                    message == "*** empty log message ***":
+                continue
+            # #######
             message = message.lower()
+
             if message in msg_vs_counts:
                 msg_vs_counts[message] += 1
             else:
@@ -97,8 +106,8 @@ def analyze_msg_vs_author(com_com_log: str, output_file: str):
 if __name__ == "__main__":
     # values
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
-    # git_dir_name = "aurora"
-    git_dir_name = "intellij"
+    git_dir_name = "aurora"
+    # git_dir_name = "intellij"
     git_dir = os.path.join(parent_dir, git_dir_name)
     com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
     com_com_log_file = os.path.join(parent_dir, com_com_log_file)

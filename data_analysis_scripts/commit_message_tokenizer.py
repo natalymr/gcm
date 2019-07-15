@@ -1,5 +1,6 @@
 from collections import OrderedDict
 import itertools
+from get_commits import SEPARATOR
 from keras.preprocessing.text import Tokenizer
 import os
 from typing import Dict, List
@@ -24,8 +25,8 @@ def commit_msg_tokenizing(com_com_log: str):
         for line in com_com_log_file:
             if line.startswith("parent_commit_file_hash"):
                 continue
-            line_list = line.split(";")
-            message = line_list[2]
+            line_list = line.split(SEPARATOR)
+            message = line_list[4]
             if message == "no message" or \
                     message == "New version" or \
                     message == "Build completed" or \
@@ -63,7 +64,7 @@ def commit_msg_tokenizing(com_com_log: str):
 
 if __name__ == "__main__":
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
-    git_dir_name = "aurora"
+    git_dir_name = "intellij"
     git_dir = os.path.join(parent_dir, git_dir_name)
     com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
     com_com_log_file = os.path.join(parent_dir, com_com_log_file)

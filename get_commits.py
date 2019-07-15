@@ -3,6 +3,8 @@ from subprocess import call, check_output
 from typing import List, Tuple
 import multiprocessing as mp
 
+SEPARATOR = "THIS_STRING_WILL_NEVER_APPEAR_IN_DATASET_AND_IT_WILL_BE_USED_AS_SEPARATOR"
+
 
 def git_clone(http: str, parent_dir: str):
     print("go to storage_dir & start to clone")
@@ -34,14 +36,19 @@ def parse_shortlog_command(git_dir: str) -> int:
 
 
 def create_com_com_log_file(com_com_log: str, start_date: str, end_date: str, git_dir: str) -> int:
+    global SEPARATOR
     print("Start to create com_com_log file")
     # logic
     call(f'echo "parent_commit_file_hash; current_commit_file_hash; message; author; date;" > {com_com_log}', shell=True)
     cd_command = f"cd {git_dir}"
-    git_log_command = f'git log --pretty="%P;%H;%s;%an;%cd;" --since={start_date} --before={end_date} ' \
+    git_log_command = f'git log --pretty="%P{SEPARATOR}%H{SEPARATOR}%an{SEPARATOR}%cd{SEPARATOR}%s{SEPARATOR}" ' \
+        f'--since={start_date} --before={end_date} ' \
         f'--branches --all --no-merges'
     write_to_file_command = f" >> {com_com_log}"
+    print("before")
+    print(cd_command + " && " + git_log_command + write_to_file_command)
     call(cd_command + " && " + git_log_command + write_to_file_command, shell=True)
+    print("after")
     # check that we've got all commits
     total_count_expected = parse_shortlog_command(git_dir)
     total_count_actual = check_output(f"wc -l {com_com_log}".split()).decode().split()[0]
@@ -99,8 +106,8 @@ def create_full_log_file(com_com_log: str, full_log: str, git_dir: str):
                     print(f"Start to process {i} commit; Blobs count top score {total_blobs_count}")
                 if line.startswith("parent_commit_file_hash"):  # csv title # заменить на проверку приведения к числу
                     continue
-                line_list = line.split(";")
-                parent_commit, cur_commit, message, author = line_list[0], line_list[1], line_list[2], line_list[3]
+                line_list = line.split(SEPARATOR)
+                parent_commit, cur_commit, message, author = line_list[0], line_list[1], line_list[4], line_list[2]
                 changed_files = parse_diff_tree_command(parent_commit, cur_commit, "qwerty", git_dir)
                 total_blobs_count += len(changed_files)
                 for changed_file in changed_files:
@@ -156,8 +163,8 @@ def create_full_log_file_and_download_blobs_parallel(com_com_log: str, full_log:
                         continue
                     if i % 20 == 0:
                         print(f"Start to process {i} commit; ({start_line}, {end_line})")
-                    line_list = line.split(";")
-                    parent_commit, cur_commit, message, author = line_list[0], line_list[1], line_list[2], line_list[3]
+                    line_list = line.split(SEPARATOR)
+                    parent_commit, cur_commit, message, author = line_list[0], line_list[1], line_list[4], line_list[2]
                     changed_files = parse_diff_tree_command(parent_commit, cur_commit, str(start_line), git_dir)
                     for changed_file in changed_files:
                         # write to log
@@ -172,14 +179,16 @@ def create_full_log_file_and_download_blobs_parallel(com_com_log: str, full_log:
 
 if __name__ == "__main__":
     # values
-    # http = "https://github.com/natalymr/interpreter.git"
     http = "https://github.com/natalymr/spbau_java_hw.git"
     is_cloned = True
     # tmp_dir = "10"
     # tmp_dir = os.path.join(parent_dir, tmp_dir)
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
     git_dir_name = "intellij"
-    git_dir = os.path.join(parent_dir, git_dir_name)
+    packed_dir = "packed_intellij"
+    # git_dir = os.path.join(parent_dir, git_dir_name)
+    git_dir = os.path.join(parent_dir, packed_dir)
+    git_dir = os.path.join(git_dir, git_dir_name)
     start_date = "2004-01-01"
     end_date = "2006-07-01"
     com_com_log_file = f"gcm_{git_dir_name}_com_com_msg_author_date.log"
@@ -196,7 +205,7 @@ if __name__ == "__main__":
     processors_number = mp.cpu_count()
 
     # commit_commit file
-    #commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
+    commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
     #print("Number of commits: {}".format(commit_count))
 
     # full log file
