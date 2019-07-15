@@ -36,6 +36,7 @@ Number of
 ## `aurora`
 
 Total commit number 37078
+
 **Unique message number 2769**
 
 Number of 
@@ -44,14 +45,17 @@ Number of
 
 |**Class name**| **Sum** | **Cluster Members** |
 |---|---|---|
-|No Info|-|(19609, no message), (8, time bomb)|
-|Test|-|(56, test), (18, tests fixed), (13, test fixed), (13, tests fix)|
-|NPE|-|(34, fixed npe), (27, npe fix), (8, npe fixed), (7, npe in case of type parameters)|
-|Issue #|-|(31, scr 37558)|
-|File System|-|(7, implementing new model of requesting path properties)|
-|Code Edit Utils|-|(7, cce fix), |
-|-|-|(12, changes for resharper), (12, reverted back module groups), (11, working on set methods generation), (6, changed modifiers), (6, new resolve schema fixes)|
-|UI|-|(9, popup menu in dualveiw has been fixed (by lesya))|
-|Performance|-|(8, one more try to speedup getstartoffset)|
-|CVS|-|(23, reverted back dave's to my revison. refactoringhandlers etc. have been moved), (22, this commit was manufactured by cvs2svn to create branch 'pallada_release'.), (13, rolled back stathik changes), (9, rollback), (8, this commit was manufactured by cvs2svn to create branch 'aurora_release'.)|
+|Dropout|-|()|
+|No Info|32|(8, time bomb), (5, some minor fixes), (5, bug fix), (5, no changes actually), (5, fix), (4, no changes actually)|
+|Test|113 (4.08%)|(56, test), (18, tests fixed), (13, test fixed), (13, tests fix), (5, tests corrected), (4, tests), (4, new tests)|
+|NPE|80 (2.89%)|(34, fixed npe), (27, npe fix), (8, npe fixed), (7, npe in case of type parameters), (4, npe was fixed)|
+|Issue #|61|(31, scr 37558), (5, fix scr 19333), (5, fixing scr #19464), (4, scr 33230), (4, #29510), (4, scr 29219), (4, fixing scr #11690)|
+|File System|7|(7, implementing new model of requesting path properties)|
+|Code Edit Utils|16|(7, cce fix), (5, completion fixes), (4, spelling fix)|
+|-|61|(12, changes for resharper), (12, reverted back module groups), (11, working on set methods generation), (6, changed modifiers), (6, new resolve schema fixes), (5, created), (5, added intentions and inspections plugins back), (4, added support for multi-line comments)|
+|UI|13|(9, popup menu in dualveiw has been fixed (by lesya)), (4, fixed wrong icons in module wizard)|
+|Performance|8|(8, one more try to speedup getstartoffset)|
+|Refactoring|27 (0.97%)|(5, treenode extends nodedescriptor), (5, error messages), (5, refactoring compiler), (4, added 'result' option allowing to assign result type of a rule to another rule), (4, corrected spacings), (4, made modulerule less sensitive to context)|
+|CVS|75|(23, reverted back dave's to my revison. refactoringhandlers etc. have been moved), (22, this commit was manufactured by cvs2svn to create branch 'pallada_release'.), (13, rolled back stathik changes), (9, rollback), (8, this commit was manufactured by cvs2svn to create branch 'aurora_release'.), (5, this commit was manufactured by cvs2svn to create branch 'aurora_compuware'.), (4, temporarily rolled back to revive tests)|
+|wtf|4|(4, fix for rabrique)|
 
