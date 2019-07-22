@@ -3,7 +3,10 @@ import os
 import pickle
 
 
-def get_commits_for_train(com_com_log: str, empty_com_file: str, output_file: str):
+from commit_message_tokenizer import SEPARATOR
+
+
+def get_commits_for_train(com_com_log: str, empty_com_file: str, is_pickle: bool, output_file: str):
     needed_commits = set()
     with open(empty_com_file, 'rb') as file:
         empty_commits = pickle.load(file)
@@ -14,8 +17,8 @@ def get_commits_for_train(com_com_log: str, empty_com_file: str, output_file: st
             if line.startswith("parent_commit_file_hash"):
                 continue
 
-            line_list = line.split(";")
-            cur_commit, message, author = line_list[1], line_list[2], line_list[3]
+            line_list = line.split(SEPARATOR)
+            cur_commit, message, author = line_list[1], line_list[4], line_list[2]
             if cur_commit in empty_commits:
                 continue
             message = message.lower()
@@ -25,15 +28,23 @@ def get_commits_for_train(com_com_log: str, empty_com_file: str, output_file: st
                         message == "build failed":
                     continue
             if message == "no message" or \
-                    message == "*** empty log message ***":
+                    message == "*** empty log message ***" or \
+                    message.startswith("this commit was manufactured by cvs2svn"):
                 continue
             text_list = text_to_word_sequence(message)
             if text_list:
                 total_commit_number += 1
                 needed_commits.add(cur_commit)
 
-    with open(output_file, 'wb') as file:
-        pickle.dump(empty_commits, file)
+    print(f"Number of needed commits {len(needed_commits)}")
+
+    if is_pickle:
+        with open(output_file, 'wb') as file:
+            pickle.dump(empty_commits, file)
+    else:
+        with open(output_file, 'w') as file:
+            for commit in needed_commits:
+                file.write(f"{commit}\n")
 
 
 if __name__ == "__main__":
@@ -44,7 +55,11 @@ if __name__ == "__main__":
     com_com_log_file = os.path.join(parent_dir, com_com_log_file)
     no_files_change_commit_pickle_file = "no_files_change_commits.pickle"
     no_files_change_commit_pickle_file = os.path.join(parent_dir, no_files_change_commit_pickle_file)
-    needed_commits_pickle_file = "needed_commits.pickle"
+    needed_commits_pickle_file = f"{git_dir_name}_commits_for_train.pickle"
     needed_commits_pickle_file = os.path.join(parent_dir, needed_commits_pickle_file)
 
-    get_commits_for_train(com_com_log_file, no_files_change_commit_pickle_file, needed_commits_pickle_file)
+    # get_commits_for_train(com_com_log_file, no_files_change_commit_pickle_file, True, needed_commits_pickle_file)
+
+    commits_for_train_file = f"{git_dir_name}_needed_commits.log"
+    commits_for_train_file = os.path.join(parent_dir, commits_for_train_file)
+    get_commits_for_train(com_com_log_file, no_files_change_commit_pickle_file, False, commits_for_train_file)
