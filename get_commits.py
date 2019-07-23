@@ -70,7 +70,7 @@ class ChangedFile:
         self.status = status
         self.file_name = file_name
     def __str__(self):
-        return f"{self.status};{self.file_name};{self.old_blob};{self.cur_blob}"
+        return f"{self.status}{SEPARATOR}{self.file_name}{SEPARATOR}{self.old_blob}{SEPARATOR}{self.cur_blob}"
 
 
 def parse_diff_tree_command(old_commit: str, cur_commit: str, file_name: str, git_dir: str) -> List[ChangedFile]:
@@ -112,7 +112,8 @@ def create_full_log_file(com_com_log: str, full_log: str, git_dir: str):
                 total_blobs_count += len(changed_files)
                 for changed_file in changed_files:
                     # write to log
-                    full_log_file.write(f"{cur_commit};{author};{changed_file};{message};\n")
+                    full_log_file.write(f"{cur_commit}{SEPARATOR}{author}{SEPARATOR}"
+                                        f"{changed_file}{SEPARATOR}{message}{SEPARATOR}\n")
 
     print(f"Top score for blobs number {total_blobs_count}")
     print("Finished to create full_log file")
@@ -185,8 +186,9 @@ if __name__ == "__main__":
     # tmp_dir = os.path.join(parent_dir, tmp_dir)
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
     git_dir_name = "intellij"
+    # git_dir_name = "aurora"
     packed_dir = "packed_intellij"
-    # git_dir = os.path.join(parent_dir, git_dir_name)
+    git_dir = os.path.join(parent_dir, git_dir_name)
     git_dir = os.path.join(parent_dir, packed_dir)
     git_dir = os.path.join(git_dir, git_dir_name)
     start_date = "2004-01-01"
@@ -206,10 +208,10 @@ if __name__ == "__main__":
 
     # commit_commit file
     commit_count = create_com_com_log_file(com_com_log_file, start_date, end_date, git_dir)
-    #print("Number of commits: {}".format(commit_count))
+    print("Number of commits: {}".format(commit_count))
 
     # full log file
-    # create_full_log_file(com_com_log_file, full_log_file, git_dir)
+    create_full_log_file(com_com_log_file, full_log_file, git_dir)
 
     # indexes = [i for i in range(processors_number)]
     #

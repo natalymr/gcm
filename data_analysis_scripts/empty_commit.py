@@ -151,5 +151,5 @@ if __name__ == "__main__":
     # collect_statistics_no_changing_commits(com_com_log_file, no_change_commit_log_file, git_dir)
 
     # collect_statistics_no_changing_commits_per_author(10, com_com_log_file, log_output_dir, git_dir)
-
-    collect_all_no_changing_commits(com_com_log_file, no_change_commit_pickle_file, git_dir)
+    print("hello")
+    # collect_all_no_changing_commits(com_com_log_file, no_change_commit_pickle_file, git_dir)
