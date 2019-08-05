@@ -14,8 +14,8 @@
 | **Description** |  **Number** |
 |---|---|
 |Since|2004-01-01|
-|Before|2006-07-01|
-|  Commits number | 18487  |
+|Before|2010-12-31|
+|  Commits number | 143668  |
 |With no message commits number|1723|
 | Total blob-files count  | 89795 |
 |Commits for train|--|
