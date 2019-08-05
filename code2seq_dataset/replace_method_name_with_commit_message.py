@@ -13,7 +13,7 @@ def add_to_my_dict(key: str, value: Tuple[str, str, str], dict: Dict[str, List[T
 
 
 def parse_full_log(full_log: str) -> (Dict[str, List[Tuple[str, str, str]]], Set[str]):
-    from commit_message_tokenizer import SEPARATOR
+    from get_commits import SEPARATOR
     blob_vs_messages = {}
     last_blobs = set()
     with open(full_log, 'r') as full_log_file:
@@ -35,20 +35,6 @@ def split_commit_message(message: str) -> List[str]:
     message = re.sub(r'[-+]?[0-9]*\.?[0-9]+', '<num>', message)
     message_tokenized = re.findall(r"[A-Z]*[a-z]*|<num>", message)
     return [x.lower() for x in message_tokenized if x != '']
-
-
-def find_method_path_by_blob_and_name(data_file: str, needed_blob: str, needed_method_name: str) -> str:
-    with open(data_file, 'r') as file:
-        for line in file:
-            method_in_paths = line.split(" ")
-            method_name = method_in_paths[0]
-            method_name_list = method_name.split("|")
-            blob_file_name = method_name_list[0][:-5]
-            if needed_blob == blob_file_name:
-                method_name = " ".join(method_name_list[1:])
-                if needed_method_name == method_name:
-                    return " ".join(method_in_paths[1:])
-    return ""
 
 
 class FunctionInfo:
