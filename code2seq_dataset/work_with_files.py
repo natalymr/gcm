@@ -1,0 +1,130 @@
+import os
+from shutil import copyfile
+from typing import List
+
+
+def add_java_in_file_name():
+    dir_name: str = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs"
+    all_files: List[str] = os.listdir(dir_name)
+
+    for file in all_files:
+        if not file.endswith(".java"):
+            old_name = os.path.join(dir_name, file)
+            new_name = os.path.join(dir_name, file + ".java")
+            os.rename(old_name, new_name)
+
+
+def copy_blobs():
+    dir_name = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/intellij_blobs"
+    other_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/intellij_test"
+    all_files = os.listdir(dir_name)
+    i = 0
+    for file in all_files:
+        i += 1
+        src = os.path.join(dir_name, file)
+        dst = os.path.join(other_dir, file)
+        if i < 3500:
+            copyfile(src, dst)
+        else:
+            break
+
+
+def test():
+    dir_name = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/intellij_blobs"
+    all_files = os.listdir(dir_name)
+    i = 0
+    for file in all_files:
+        if file.endswith(".java"):
+            i += 1
+
+    print(f"All files {i}")
+
+
+def split_blobs_in_several_dirs(src_dir: str, dst_root_dir: str, num_parts: int):
+    all_files: List[str] = os.listdir(src_dir)
+    part_size: int = len(all_files) // num_parts
+    k = 0
+
+    for i in range(num_parts):
+        print(f"Start {i}")
+        files_to_copy = all_files[i * part_size: (i + 1) * part_size]
+        if i == num_parts - 1:
+            files_to_copy = all_files[i * part_size:]
+        # make a dir
+        dst_dir = os.path.join(dst_root_dir, str(i))
+        for file in files_to_copy:
+            k += 1
+            if k % 100 == 0:
+                print(f"{k}")
+            old_path = os.path.join(src_dir, file)
+            new_path = os.path.join(dst_dir, file)
+            copyfile(old_path, new_path)
+
+    check_all_files_is_copied(
+        src_dir,
+        dst_root_dir,
+        num_parts
+    )
+
+
+def check_all_files_is_copied(src_dir: str, dst_root_dir: str, num_parts: int):
+    all_files = set(os.listdir(src_dir))
+    copied_files = set()
+    for i in range(num_parts):
+        new_dir = os.path.join(dst_root_dir, str(i))
+        copied_files |= set(os.listdir(new_dir))
+
+    if all_files != copied_files:
+        print("Smth went wrong")
+
+
+def concat_files(dst_file: str, input_files: List[str]):
+    with open(dst_file, "w") as output:
+        for input_file in input_files:
+            print(input_file)
+            with open(input_file, "r") as f:
+                for line in f:
+                    output.write(line)
+
+
+def delete_no_message_commits(input_file: str, tmp_file: str):
+    from shutil import copyfile
+    with open(input_file, "r") as in_f, open(tmp_file, "w") as out_f:
+        for line in in_f:
+            if not line.startswith("no|message"):
+                out_f.write(line)
+    copyfile(tmp_file, input_file)
+
+
+def analyze_train_file(input_file: str):
+    with open(input_file, 'r') as f:
+        for line in f:
+            l = line.split(" ")
+            print(l[1])
+            print(l[2])
+            print(l[999])
+            print(len(l))
+
+
+
+if __name__ == '__main__':
+    # main()
+    # test()
+    # copy_blobs()
+    # split_blobs_in_several_dirs(
+    #     "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs",
+    #     "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs_splitted",
+    #     5
+    # )
+    concat_files(
+        "/Users/natalia.murycheva/Documents/code2seq/aurora.all.test.raw.txt",
+        [f"/Users/natalia.murycheva/Documents/code2seq/aurora.all.{i}.train.raw.txt"
+         for i in range(5)]
+    )
+    # concat_files(
+    #     "/Users/natalia.murycheva/Documents/code2seq/union.val.raw.txt",
+    #     ["/Users/natalia.murycheva/Documents/code2seq/intellij.val.raw.txt",
+    #      "/Users/natalia.murycheva/Documents/code2seq/aurora.val.raw.txt"]
+    # )
+
+    # analyze_train_file("/Users/natalia.murycheva/Documents/code2seq/data/union/union.train.c2s")
