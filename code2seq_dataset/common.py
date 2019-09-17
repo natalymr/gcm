@@ -1,52 +1,39 @@
 import re
+from code2seq_dataset.info_classes import BlobInfo, FunctionInfo, FullLogLine, NextBlobMetaInfo
 import collections
-from code2seq_dataset.info_classes import BlobInfo, FunctionInfo
-from typing import Dict, List, Tuple, Set, BinaryIO
-from code2seq_dataset.commit_message_tokenizer import SEPARATOR
+from pathlib import Path
+from typing import DefaultDict, List, Tuple, Set, BinaryIO
 
 
-def parse_full_log(full_log: str) -> (Dict[str, List[Tuple[str, str, str]]], Set[str]):
-    blob_vs_messages: Dict[str, List[Tuple[str, str, str]]] = collections.defaultdict(list)
-    last_blobs: Set[str] = set()
+def parse_full_log(full_log: Path) -> DefaultDict[str, List[NextBlobMetaInfo]]:
+    blob_vs_messages: DefaultDict[str, List[NextBlobMetaInfo]] = collections.defaultdict(list)
 
     with open(full_log, 'r') as full_log_file:
         for line in full_log_file:
             if line.startswith("commit_hash"):
                 continue
-            line_list = line.split(SEPARATOR)
-            commit, old_blob, new_blob, message = line_list[0], line_list[4], line_list[5], line_list[6]
 
-            last_blobs.add(new_blob)
-            try:
-                if old_blob in blob_vs_messages:
-                    last_blobs.remove(old_blob)
-            except KeyError:
-                pass
-            blob_vs_messages[old_blob].append((new_blob, message, commit))
+            full_log_line: FullLogLine = FullLogLine.parse_from_line(line)
+            blob_vs_messages[full_log_line.old_blob].append(NextBlobMetaInfo(full_log_line.commit,
+                                                                             full_log_line.new_blob,
+                                                                             full_log_line.message))
 
-    return blob_vs_messages, last_blobs
+    return blob_vs_messages
 
 
-def get_blobs_position_from_file(data_file: str) -> Dict[str, BlobInfo]:
-    blobs_info: Dict[str, BlobInfo] = collections.defaultdict(list)
+def get_blobs_positions(data: Path) -> DefaultDict[str, List[Tuple[int, int]]]:
+    blobs_positions: DefaultDict[str, List[Tuple[int, int]]] = collections.defaultdict(list)
     #  blobName: [(startPos, lineLen), (startPos, lineLen), ... ]
 
-    # @dataclass
-    # class BlobInfo:
-    #     hash: str
-    #     functions_positions: List[Tuple[int, int]]
-
-    with open(data_file, "r") as file:
-        start_pos = 0
-        for line in file:
-            line_len = len(bytes(line.encode("utf-8")))
-            function_info = FunctionInfo.parse_from_str(line)
-            blobs_info[function_info.blob_hash].append(BlobInfo(function_info.blob_hash, start_pos, line_len))
+    with open(data, "r") as data_file:
+        start_pos: int = 0
+        for line in data_file:
+            line_len: int = len(bytes(line.encode("utf-8")))
+            function_info: FunctionInfo = FunctionInfo.parse_from_str(line)
+            blobs_positions[function_info.blob_hash].append((start_pos, line_len))
             start_pos += line_len
 
-    print("Finish parsing file .all.")
-
-    return blobs_info
+    return blobs_positions
 
 
 def split_commit_message(message: str) -> List[str]:
@@ -56,14 +43,14 @@ def split_commit_message(message: str) -> List[str]:
 
 
 def clean_function_body_from_new_line_characters(paths: Set[str]) -> Set[str]:
-    result: Set[str] = set()
+    cleaned_paths: Set[str] = set()
 
     for path in paths:
         if '\n' in path:
             path = path[: path.index('\n')] + path[(path.index('\n') + 1):]
-        result.add(path)
+        cleaned_paths.add(path)
 
-    return result
+    return cleaned_paths
 
 
 def collect_changed_functions(blob: BlobInfo,

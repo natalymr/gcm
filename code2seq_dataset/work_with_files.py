@@ -1,6 +1,7 @@
 import os
+from pathlib import Path
 from shutil import copyfile
-from typing import List
+from typing import List, Mapping
 
 
 def add_java_in_file_name():
@@ -106,10 +107,16 @@ def analyze_train_file(input_file: str):
             print(len(l))
 
 
+def copy_blob_in_needed_dirs(data_dict: Mapping[str, List[str]], blobs_dir: Path, output_dir_parent: Path):
+    for set, blobs in data_dict.items():
+        for blob in blobs:
+            src = blobs_dir.joinpath(blob)
+            dst = output_dir_parent.joinpath(set).joinpath(blob + ".java")
+            copyfile(src, dst)
+
+
 
 if __name__ == '__main__':
-    # main()
-    # test()
     # copy_blobs()
     # split_blobs_in_several_dirs(
     #     "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs",

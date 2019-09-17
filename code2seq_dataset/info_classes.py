@@ -1,11 +1,51 @@
+from collections import namedtuple
 from dataclasses import dataclass
 from typing import List, Tuple, Set, BinaryIO, Optional
 
+NextBlobMetaInfo = namedtuple('NextBlobMetaInfo', ['commit', 'new_blob', 'message'])
+BlobInfo = namedtuple('BlobInfo', ['hash', 'functions_positions'])
+SEPARATOR = "THIS_STRING_WILL_NEVER_APPEAR_IN_DATASET_AND_IT_WILL_BE_USED_AS_SEPARATOR"
 
 @dataclass
-class BlobInfo:
-    hash: str
-    functions_positions: List[Tuple[int, int]]
+class FullLogLine:
+    commit: str
+    author: str
+    status: str
+    file: str
+    old_blob: str
+    new_blob: str
+    message: str
+
+    @staticmethod
+    def parse_from_line(line: str, separator: str = SEPARATOR) -> 'FullLogLine':
+        list_ = line.split(separator)
+
+        return FullLogLine(commit=list_[0],
+                           author=list_[1],
+                           status=list_[2],
+                           file=list_[3],
+                           old_blob=list_[4],
+                           new_blob=list_[5],
+                           message=list_[6])
+
+
+@dataclass
+class CommitLogLine:
+    parent_commit: str
+    current_commit: str
+    author: str
+    date: str
+    message: str
+
+    @staticmethod
+    def parse_from_line(line: str, separator: str = SEPARATOR) -> 'CommitLogLine':
+        list_ = line.split(separator)
+
+        return CommitLogLine(parent_commit=list_[0],
+                             current_commit=list_[1],
+                             author=list_[2],
+                             date=list_[3],
+                             message=list_[4])
 
 
 class FunctionInfo:
@@ -57,3 +97,57 @@ class FunctionInfo:
 
     def path_difference(self, other: "FunctionInfo") -> Set[str]:
         return self.function_body.symmetric_difference(other.function_body)
+
+
+@dataclass
+class PredictedResults:
+    commit: str
+    old_blob: str
+    new_blob: str
+    function_name: str
+    predicted_message: str
+
+    @staticmethod
+    def parse_from_str(line: str) -> Optional["PredictedResults"]:
+        line_list = line.split(",")
+        if len(line_list) == 2:
+            original, predicted = line_list[0], line_list[1]
+
+            # original
+            original_list = original.split(":")
+            meta_info = original_list[1].split("|")
+            if len(meta_info) > 2:
+                commit, old_blob, new_blob, function_name = meta_info[0], meta_info[1], meta_info[2], meta_info[3:]
+                commit = commit.strip()
+
+                # predicted
+                predicted_list = predicted.split(":")
+                predicted_message = predicted_list[1].strip("\n").split("|")
+
+                return PredictedResults(commit,
+                                        old_blob,
+                                        new_blob,
+                                        " ".join(function_name),
+                                        " ".join(predicted_message))
+
+        return None
+
+    @staticmethod
+    def read_from_line(file: BinaryIO, start: int, length: int) -> Optional['PredictedResults']:
+        file.seek(start, 0)
+        decoded = file.read(length).decode("utf-8")
+        return PredictedResults.parse_from_str(decoded)
+
+    @staticmethod
+    def find_results_for_commit_and_blobs(commit_predictions_positions: List[Tuple[int, int]],
+                                          old_blob: str,
+                                          new_blob: str,
+                                          file: BinaryIO) -> List['PredictedResults']:
+        result: List['PredictedResults'] = []
+
+        for start, len_ in commit_predictions_positions:
+            predicted: PredictedResults = PredictedResults.read_from_line(file, start, len_)
+            if predicted and predicted.old_blob == old_blob and predicted.new_blob == new_blob:
+                result.append(predicted)
+
+        return result
