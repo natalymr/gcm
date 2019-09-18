@@ -43,7 +43,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
             if message.startswith("This commit was manufactured by cvs2svn"):
                 if full_log_line.commit not in processed_commits:
                     output_file.write(output_line_template.substitute(commit=full_log_line.commit,
-                                                                      file=full_log_line.file_,
+                                                                      file=full_log_line.file,
                                                                       status=full_log_line.status,
                                                                       original_message=message,
                                                                       function_name="",
@@ -52,7 +52,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
                     processed_commits.add(full_log_line.commit)
                 else:
                     output_file.write(output_line_template.substitute(commit="",
-                                                                      file=full_log_line.file_,
+                                                                      file=full_log_line.file,
                                                                       status=full_log_line.status,
                                                                       original_message=message,
                                                                       function_name="",
@@ -72,7 +72,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
             if len(predicted_results) == 0:
                 if full_log_line.commit not in processed_commits:
                     output_file.write(output_line_template.substitute(commit=full_log_line.commit,
-                                                                      file=full_log_line.file_,
+                                                                      file=full_log_line.file,
                                                                       status=full_log_line.status,
                                                                       original_message=message,
                                                                       function_name="",
@@ -81,7 +81,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
                     processed_commits.add(full_log_line.commit)
                 else:
                     output_file.write(output_line_template.substitute(commit="",
-                                                                      file=full_log_line.file_,
+                                                                      file=full_log_line.file,
                                                                       status=full_log_line.status,
                                                                       original_message=message,
                                                                       function_name="",
@@ -94,7 +94,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
                         print(f"write {k} generated annotation")
                     if full_log_line.commit not in processed_commits:
                         output_file.write(output_line_template.substitute(commit=full_log_line.commit,
-                                                                          file=full_log_line.file_,
+                                                                          file=full_log_line.file,
                                                                           status=full_log_line.status,
                                                                           original_message=message,
                                                                           function_name=prediction.function_name,
@@ -102,7 +102,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
                                                                           sep="^"))
                     else:
                         output_file.write(output_line_template.substitute(commit="",
-                                                                          file=full_log_line.file_,
+                                                                          file=full_log_line.file,
                                                                           status=full_log_line.status,
                                                                           original_message=message,
                                                                           function_name=prediction.function_name,

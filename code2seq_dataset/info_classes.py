@@ -16,7 +16,7 @@ class FullLogLine:
     commit: str
     author: str
     status: str
-    file_: str
+    file: str
     old_blob: str
     new_blob: str
     message: str
@@ -28,7 +28,7 @@ class FullLogLine:
         return FullLogLine(commit=list_[0],
                            author=list_[1],
                            status=list_[2],
-                           file_=list_[3],
+                           file=list_[3],
                            old_blob=list_[4],
                            new_blob=list_[5],
                            message=list_[6])
