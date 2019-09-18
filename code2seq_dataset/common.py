@@ -1,5 +1,5 @@
-import re
 from code2seq_dataset.info_classes import BlobInfo, FunctionInfo, FullLogLine, NextBlobMetaInfo
+import re
 import collections
 from pathlib import Path
 from typing import DefaultDict, List, Tuple, Set, BinaryIO
@@ -25,7 +25,7 @@ def get_blobs_positions(data: Path) -> DefaultDict[str, List[Tuple[int, int]]]:
     blobs_positions: DefaultDict[str, List[Tuple[int, int]]] = collections.defaultdict(list)
     #  blobName: [(startPos, lineLen), (startPos, lineLen), ... ]
 
-    with open(data, "r") as data_file:
+    with open(data, 'r') as data_file:
         start_pos: int = 0
         for line in data_file:
             line_len: int = len(bytes(line.encode("utf-8")))
@@ -62,9 +62,12 @@ def collect_changed_functions(blob: BlobInfo,
 
     for start, len_ in blob.functions_positions:
         function = FunctionInfo.read_from_file(data_file, start, len_)
-        other_function = function.find_method_with_the_same_name(data_file, other_blob)
+        other_functions: List[FunctionInfo] = function.find_method_with_the_same_name(data_file, other_blob)
 
-        if other_function:
+        if len(other_functions) > 1:  # fix bug about anonymous classes
+            continue
+        elif len(other_functions) == 1:
+            other_function = other_functions[0]
             if other_function != function:
                 changed_functions.add((function, other_function))
         else:

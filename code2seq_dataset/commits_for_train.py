@@ -100,7 +100,7 @@ def create_new_full_log_file(old_full_log: Path, new_full_log: Path, commits_for
 
 
 if __name__ == "__main__":
-    git_dir_name: str = "intellij"
+    git_dir_name: str = "aurora"
     parent_dir: Path = Path("/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage")
 
     com_log_file: Path = parent_dir.joinpath(f"gcm_{git_dir_name}_com_com_msg_author_date_2010.log")
@@ -108,10 +108,10 @@ if __name__ == "__main__":
     empty_commits_file: Path = parent_dir.joinpath(f"no_files_change_commits_{git_dir_name}.pickle")
     commits_for_train_file: Path = parent_dir.joinpath(f"{git_dir_name}_commits_for_train.pickle")
 
-    get_commits_for_train_intellij(com_log_file, empty_commits_file, True, commits_for_train_file,
-                                   new_com_log_file)
+    # get_commits_for_train_intellij(com_log_file, empty_commits_file, True, commits_for_train_file,
+    #                                new_com_log_file)
 
     old_full_log: Path = parent_dir.joinpath(f"gcm_{git_dir_name}_full.log")
     new_full_log: Path = parent_dir.joinpath(f"gcm_{git_dir_name}_full_log_for_train_commits.log")
 
-    create_new_full_log_file(old_full_log, new_full_log, commits_for_train_file)
+    # create_new_full_log_file(old_full_log, new_full_log, commits_for_train_file)

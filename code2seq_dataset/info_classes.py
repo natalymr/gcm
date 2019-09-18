@@ -1,17 +1,22 @@
 from collections import namedtuple
 from dataclasses import dataclass
+from string import Template
 from typing import List, Tuple, Set, BinaryIO, Optional
+
+SEPARATOR = "THIS_STRING_WILL_NEVER_APPEAR_IN_DATASET_AND_IT_WILL_BE_USED_AS_SEPARATOR"
+dataset_line = Template('$target_message $paths\n')
+
 
 NextBlobMetaInfo = namedtuple('NextBlobMetaInfo', ['commit', 'new_blob', 'message'])
 BlobInfo = namedtuple('BlobInfo', ['hash', 'functions_positions'])
-SEPARATOR = "THIS_STRING_WILL_NEVER_APPEAR_IN_DATASET_AND_IT_WILL_BE_USED_AS_SEPARATOR"
+
 
 @dataclass
 class FullLogLine:
     commit: str
     author: str
     status: str
-    file: str
+    file_: str
     old_blob: str
     new_blob: str
     message: str
@@ -23,7 +28,7 @@ class FullLogLine:
         return FullLogLine(commit=list_[0],
                            author=list_[1],
                            status=list_[2],
-                           file=list_[3],
+                           file_=list_[3],
                            old_blob=list_[4],
                            new_blob=list_[5],
                            message=list_[6])
@@ -54,7 +59,7 @@ class FunctionInfo:
         self.blob_hash: str = blob_hash
         self.function_body: Set[str] = set(function_body)
 
-    def __eq__(self, other: "FunctionInfo"):
+    def __eq__(self, other: 'FunctionInfo'):
         if isinstance(other, FunctionInfo):
             # there is a formula for comparing two lists:
             # set(b) == set(a)  & set(b) and set(a) == set(a) & set(b)
@@ -73,7 +78,7 @@ class FunctionInfo:
         return hash(self.function_name) ^ hash(tuple(self.function_body))
 
     @staticmethod
-    def parse_from_str(line: str) -> "FunctionInfo":
+    def parse_from_str(line: str) -> 'FunctionInfo':
         [method_header, *function_body] = line.split(" ")
         [blob_hash, method_name] = method_header.split("|", 1)
         blob_hash = blob_hash.replace(".java", "")
@@ -81,21 +86,23 @@ class FunctionInfo:
         return FunctionInfo(method_name, blob_hash, function_body)
 
     @staticmethod
-    def read_from_file(file: BinaryIO, start: int, length: int) -> "FunctionInfo":
+    def read_from_file(file: BinaryIO, start: int, length: int) -> 'FunctionInfo':
         file.seek(start, 0)
         decoded = file.read(length).decode("utf-8")
         return FunctionInfo.parse_from_str(decoded)
 
     def find_method_with_the_same_name(self, file: BinaryIO,
-                                       other_blob: BlobInfo) -> Optional["FunctionInfo"]:
+                                       other_blob: BlobInfo) -> List['FunctionInfo']:
+        result: List['FunctionInfo'] = []
+
         for start, len_ in other_blob.functions_positions:
             other_function = FunctionInfo.read_from_file(file, start, len_)
             if self.function_name == other_function.function_name:
-                return other_function
+                result.append(other_function)
 
-        return None
+        return result
 
-    def path_difference(self, other: "FunctionInfo") -> Set[str]:
+    def path_difference(self, other: 'FunctionInfo') -> Set[str]:
         return self.function_body.symmetric_difference(other.function_body)
 
 
@@ -108,7 +115,7 @@ class PredictedResults:
     predicted_message: str
 
     @staticmethod
-    def parse_from_str(line: str) -> Optional["PredictedResults"]:
+    def parse_from_str(line: str) -> Optional['PredictedResults']:
         line_list = line.split(",")
         if len(line_list) == 2:
             original, predicted = line_list[0], line_list[1]

@@ -1,6 +1,6 @@
 from code2seq_dataset.common import clean_function_body_from_new_line_characters
 from code2seq_dataset.common import compare_two_blobs, parse_full_log, get_blobs_positions
-from code2seq_dataset.info_classes import FunctionInfo, BlobInfo, NextBlobMetaInfo
+from code2seq_dataset.info_classes import FunctionInfo, BlobInfo, NextBlobMetaInfo, dataset_line
 from pathlib import Path
 from typing import Mapping, List, Tuple, Set, TextIO, DefaultDict
 
@@ -12,8 +12,9 @@ def write_meta_info_and_path_diff(commit: str,
         diff_paths: Set[str] = function.path_difference(other_function)
         diff_paths: Set[str] = clean_function_body_from_new_line_characters(diff_paths)
 
-        output_file.write(f"{commit}|{function.blob_hash}|{other_function.blob_hash}|{function.function_name} "
-                          f"{' '.join(diff_paths)}\n")
+        output_file.write(dataset_line.substitute(target_message=f"{commit}|{function.blob_hash}|"
+                                                                 f"{other_function.blob_hash}|{function.function_name}",
+                                                  paths=' '.join(diff_paths)))
 
 
 def remove_method_name_with_meta_info(data: Path, blobs_history: Mapping[str, List[NextBlobMetaInfo]], output: Path):

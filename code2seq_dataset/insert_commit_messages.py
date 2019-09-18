@@ -1,7 +1,7 @@
 from code2seq_dataset.common import clean_function_body_from_new_line_characters
 from code2seq_dataset.common import get_blobs_positions, parse_full_log
 from code2seq_dataset.common import split_commit_message, compare_two_blobs
-from code2seq_dataset.info_classes import FunctionInfo, NextBlobMetaInfo, BlobInfo
+from code2seq_dataset.info_classes import FunctionInfo, NextBlobMetaInfo, BlobInfo, dataset_line
 from pathlib import Path
 import pickle
 from typing import Dict, DefaultDict, Mapping, List, Tuple, Set, TextIO
@@ -14,7 +14,8 @@ def write_commit_message_and_path_difference(message: str,
     for function, other_function in changed_functions:
         diff_paths: Set[str] = function.path_difference(other_function)
         diff_paths: Set[str] = clean_function_body_from_new_line_characters(diff_paths)
-        output_file.write(f"{'|'.join(message)} {' '.join(diff_paths)}\n")
+        output_file.write(dataset_line.substitute(target_message='|'.join(message),
+                                                  paths=' '.join(diff_paths)))
 
 
 def remove_method_name_with_commit_message_and_split_dataset(data: Path,
