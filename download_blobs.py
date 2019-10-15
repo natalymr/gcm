@@ -17,6 +17,7 @@ def download_blob_content(blob_hash: str, blobs_dir: str, git_dir: str):
 def download_several_blobs(full_log: str, lines_range: Tuple[int, int], blobs_dir: str, git_dir: str):
     start_line = lines_range[0]
     end_line = lines_range[1]
+    print(f"start line: {start_line}, end_line: {end_line}")
     with open(full_log, 'r') as full_log_file:
         i = 0
         for i in range(start_line):
@@ -39,19 +40,21 @@ def download_several_blobs(full_log: str, lines_range: Tuple[int, int], blobs_di
 if __name__ == "__main__":
     # values
     parent_dir = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage"
-    git_dir_name = "intellij"
-    git_dir = os.path.join(parent_dir, "packed_intellij")
-    git_dir = os.path.join(git_dir, git_dir_name)
+    git_dir_name = "dubbo"
+    # git_dir = os.path.join(parent_dir, "packed_intellij")
+    git_dir = os.path.join(parent_dir, git_dir_name)
     full_log_file = f"gcm_{git_dir_name}_full.log"
     full_log_file = os.path.join(parent_dir, full_log_file)
     blobs_dir = os.path.join(parent_dir, f"{git_dir_name}_blobs")
 
-    number_of_process = 10
-    changed_files = 728500
+    number_of_process = 1
+    changed_files = 26054
     indexes = [i for i in range(number_of_process)]
     each_process_lines_count = changed_files // number_of_process
-    lines_ranges = [(i * each_process_lines_count + 1, (i + 1) * each_process_lines_count) for i in range(number_of_process)]
+    lines_ranges = [
+        (i * each_process_lines_count + 1, (i + 1) * each_process_lines_count) for i in range(number_of_process)
+    ]
     lines_ranges[-1] = (lines_ranges[-1][0], changed_files)
 
-    download_several_blobs(full_log_file, lines_ranges[5], blobs_dir, git_dir)
+    download_several_blobs(full_log_file, lines_ranges[0], blobs_dir, git_dir)
 

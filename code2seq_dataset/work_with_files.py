@@ -1,17 +1,31 @@
 import os
 from pathlib import Path
 from shutil import copyfile
-from typing import List, Mapping
+from typing import List, Mapping, Set
+
+from code2seq_dataset.common import parse_dataset_line
+from code2seq_dataset.global_vars import Message, Code2SeqPath
 
 
 def add_java_in_file_name():
-    dir_name: str = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs"
+    dir_name: str = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/dubbo_blobs"
     all_files: List[str] = os.listdir(dir_name)
 
     for file in all_files:
         if not file.endswith(".java"):
             old_name = os.path.join(dir_name, file)
             new_name = os.path.join(dir_name, file + ".java")
+            os.rename(old_name, new_name)
+
+
+def remove_java_in_file_name():
+    dir_name: str = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/camel_blobs"
+    all_files: List[str] = os.listdir(dir_name)
+
+    for file in all_files:
+        if file.endswith(".java"):
+            old_name = os.path.join(dir_name, file)
+            new_name = os.path.join(dir_name, file[:len(file) - len(".java")])
             os.rename(old_name, new_name)
 
 
@@ -115,19 +129,96 @@ def copy_blob_in_needed_dirs(data_dict: Mapping[str, List[str]], blobs_dir: Path
             copyfile(src, dst)
 
 
+def read_dataset_file(file: Path) -> Set[str]:
+    result: Set[str] = set()
+
+    with open(file, 'r') as f:
+        for line in f:
+            result.add(line)
+
+    return result
+
+
+def datasets_intersection():
+    dataset_small_dir: Path = Path("/Users/natalia.murycheva/Documents/code2seq/data/camel_small")
+    dataset_big_dir: Path = Path("/Users/natalia.murycheva/Documents/code2seq/data/camel")
+    train_small: Path = dataset_small_dir.joinpath("camel.train.c2s")
+    train_big: Path = dataset_big_dir.joinpath("camel.train.all.c2s")
+    val_small: Path = dataset_small_dir.joinpath("camel.val.c2s")
+    val_big: Path = dataset_big_dir.joinpath("camel.val.c2s")
+    test_small: Path = dataset_small_dir.joinpath("camel.test.c2s")
+    test_big: Path = dataset_big_dir.joinpath("camel.test.c2s")
+
+    small_dataset_lines: Set[str] = set()
+    big_dataset_lines: Set[str] = set()
+
+    small_dataset_lines |= read_dataset_file(train_small)
+    small_dataset_lines |= read_dataset_file(val_small)
+    small_dataset_lines |= read_dataset_file(test_small)
+
+    big_dataset_lines |= read_dataset_file(train_big)
+    big_dataset_lines |= read_dataset_file(val_big)
+    big_dataset_lines |= read_dataset_file(test_big)
+
+    print(f"Small size = {len(small_dataset_lines)}")
+    print(f"Big size = {len(big_dataset_lines)}")
+    print(f"inter len = {len(small_dataset_lines & big_dataset_lines)}")
+
+
+def read_dataset_messages(file: Path) -> Set[Message]:
+    result: Set[Message] = set()
+
+    with open(file, 'r') as f:
+        for line in f:
+            message, _ = parse_dataset_line(line)
+            result.add(message)
+
+    return result
+
+
+def datasets_messages_intersection():
+    dataset_small_dir: Path = Path("/Users/natalia.murycheva/Documents/code2seq/data/camel_small")
+    dataset_big_dir: Path = Path("/Users/natalia.murycheva/Documents/code2seq/data/camel")
+    train_small: Path = dataset_small_dir.joinpath("camel.train.c2s")
+    train_big: Path = dataset_big_dir.joinpath("camel.train.all.c2s")
+    val_small: Path = dataset_small_dir.joinpath("camel.val.c2s")
+    val_big: Path = dataset_big_dir.joinpath("camel.val.c2s")
+    test_small: Path = dataset_small_dir.joinpath("camel.test.c2s")
+    test_big: Path = dataset_big_dir.joinpath("camel.test.c2s")
+
+    small_dataset_lines: Set[Message] = set()
+    big_dataset_lines: Set[Message] = set()
+
+    small_dataset_lines |= read_dataset_messages(train_small)
+    small_dataset_lines |= read_dataset_messages(val_small)
+    small_dataset_lines |= read_dataset_messages(test_small)
+
+    big_dataset_lines |= read_dataset_messages(train_big)
+    big_dataset_lines |= read_dataset_messages(val_big)
+    big_dataset_lines |= read_dataset_messages(test_big)
+
+    print(f"Small size = {len(small_dataset_lines)}")
+    print(f"Big size = {len(big_dataset_lines)}")
+    print(f"inter len = {len(small_dataset_lines & big_dataset_lines)}")
+
+
 
 if __name__ == '__main__':
+    add_java_in_file_name()
+    # remove_java_in_file_name()
+    # datasets_intersection()
+    # datasets_messages_intersection()
     # copy_blobs()
     # split_blobs_in_several_dirs(
     #     "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs",
     #     "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/aurora_blobs_splitted",
     #     5
     # )
-    concat_files(
-        "/Users/natalia.murycheva/Documents/code2seq/aurora.all.test.raw.txt",
-        [f"/Users/natalia.murycheva/Documents/code2seq/aurora.all.{i}.train.raw.txt"
-         for i in range(5)]
-    )
+    # concat_files(
+    #     "/Users/natalia.murycheva/Documents/code2seq/aurora.all.test.raw.txt",
+    #     [f"/Users/natalia.murycheva/Documents/code2seq/aurora.all.{i}.train.raw.txt"
+    #      for i in range(5)]
+    # )
     # concat_files(
     #     "/Users/natalia.murycheva/Documents/code2seq/union.val.raw.txt",
     #     ["/Users/natalia.murycheva/Documents/code2seq/intellij.val.raw.txt",

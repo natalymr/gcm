@@ -1,12 +1,14 @@
-from code2seq_dataset.info_classes import PredictedResults, FullLogLine
 from pathlib import Path
 from string import Template
 from typing import DefaultDict, Tuple, List, Set
 import collections
 
+from code2seq_dataset.global_vars import Commit, Message
+from code2seq_dataset.info_classes import PredictedResults, FullLogLine
 
-def parse_result_file(results: Path) -> DefaultDict[str, List[Tuple[int, int]]]:
-    commits_vs_positions: DefaultDict[str, List[Tuple[int, int]]] = collections.defaultdict(list)
+
+def parse_result_file(results: Path) -> DefaultDict[Commit, List[Tuple[int, int]]]:
+    commits_vs_positions: DefaultDict[Commit, List[Tuple[int, int]]] = collections.defaultdict(list)
     start_pos: int = 0
 
     with open(results, 'r') as results_file:
@@ -21,10 +23,10 @@ def parse_result_file(results: Path) -> DefaultDict[str, List[Tuple[int, int]]]:
 
 
 def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
-    processed_commits: Set[str] = set()
+    processed_commits: Set[Commit] = set()
     i, k = 0, 0
 
-    commits_vs_positions = parse_result_file(code2seq)
+    commits_vs_positions: DefaultDict[Commit, List[Tuple[int, int]]] = parse_result_file(code2seq)
     print(f"Finishe parse file {code2seq}")
     output_line_template = Template('$commit$sep$file$sep$status$sep'
                                     '$original_message$sep$function_name$sep$predicted_message$sep\n')
@@ -38,7 +40,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
                 continue
 
             full_log_line: FullLogLine = FullLogLine.parse_from_line(line)
-            message: str = full_log_line.message
+            message: Message = full_log_line.message
 
             if message.startswith("This commit was manufactured by cvs2svn"):
                 if full_log_line.commit not in processed_commits:
@@ -68,7 +70,7 @@ def insert_results_in_common_csv(full_log: Path, code2seq: Path, output: Path):
             )
 
             if message == "no message" or message == "*** empty log message ***":
-                message = " "
+                message = Message(" ")
             if len(predicted_results) == 0:
                 if full_log_line.commit not in processed_commits:
                     output_file.write(output_line_template.substitute(commit=full_log_line.commit,

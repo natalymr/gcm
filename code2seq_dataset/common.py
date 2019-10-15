@@ -1,12 +1,14 @@
-from code2seq_dataset.info_classes import BlobInfo, FunctionInfo, FullLogLine, NextBlobMetaInfo
 import re
 import collections
 from pathlib import Path
 from typing import DefaultDict, List, Tuple, Set, BinaryIO
 
+from code2seq_dataset.global_vars import Message, Code2SeqPath, Blob
+from code2seq_dataset.info_classes import BlobPositions, FunctionInfo, FullLogLine, NextBlobMetaInfo
 
-def parse_full_log(full_log: Path) -> DefaultDict[str, List[NextBlobMetaInfo]]:
-    blob_vs_messages: DefaultDict[str, List[NextBlobMetaInfo]] = collections.defaultdict(list)
+
+def parse_full_log(full_log: Path) -> DefaultDict[Blob, List[NextBlobMetaInfo]]:
+    blobs_history: DefaultDict[Blob, List[NextBlobMetaInfo]] = collections.defaultdict(list)
 
     with open(full_log, 'r') as full_log_file:
         for line in full_log_file:
@@ -14,15 +16,15 @@ def parse_full_log(full_log: Path) -> DefaultDict[str, List[NextBlobMetaInfo]]:
                 continue
 
             full_log_line: FullLogLine = FullLogLine.parse_from_line(line)
-            blob_vs_messages[full_log_line.old_blob].append(NextBlobMetaInfo(full_log_line.commit,
-                                                                             full_log_line.new_blob,
-                                                                             full_log_line.message))
+            blobs_history[full_log_line.old_blob].append(NextBlobMetaInfo(full_log_line.commit,
+                                                                          full_log_line.new_blob,
+                                                                          full_log_line.message))
 
-    return blob_vs_messages
+    return blobs_history
 
 
-def get_blobs_positions(data: Path) -> DefaultDict[str, List[Tuple[int, int]]]:
-    blobs_positions: DefaultDict[str, List[Tuple[int, int]]] = collections.defaultdict(list)
+def get_blobs_positions(data: Path) -> DefaultDict[Blob, List[Tuple[int, int]]]:
+    blobs_positions: DefaultDict[Blob, List[Tuple[int, int]]] = collections.defaultdict(list)
     #  blobName: [(startPos, lineLen), (startPos, lineLen), ... ]
 
     with open(data, 'r') as data_file:
@@ -36,25 +38,26 @@ def get_blobs_positions(data: Path) -> DefaultDict[str, List[Tuple[int, int]]]:
     return blobs_positions
 
 
-def split_commit_message(message: str) -> List[str]:
+def split_commit_message(message: Message) -> List[str]:
     message = re.sub(r'[-+]?[0-9]*\.?[0-9]+', '<num>', message)
     message_tokenized = re.findall(r"[A-Z]*[a-z]*|<num>", message)
     return [x.lower() for x in message_tokenized if x != '']
 
 
-def clean_function_body_from_new_line_characters(paths: Set[str]) -> Set[str]:
-    cleaned_paths: Set[str] = set()
+def clean_function_body_from_new_line_characters(paths: Set[Code2SeqPath]) -> Set[Code2SeqPath]:
+    cleaned_paths: Set[Code2SeqPath] = set()
 
     for path in paths:
         if '\n' in path:
-            path = path[: path.index('\n')] + path[(path.index('\n') + 1):]
+            path: str = path[: path.index('\n')] + path[(path.index('\n') + 1):]
+            path: Code2SeqPath = Code2SeqPath(path)
         cleaned_paths.add(path)
 
     return cleaned_paths
 
 
-def collect_changed_functions(blob: BlobInfo,
-                              other_blob: BlobInfo,
+def collect_changed_functions(blob: BlobPositions,
+                              other_blob: BlobPositions,
                               data_file: BinaryIO) -> (Set[Tuple[FunctionInfo, FunctionInfo]],
                                                        Set[Tuple[FunctionInfo, FunctionInfo]]):
     changed_functions: Set[Tuple[FunctionInfo, FunctionInfo]] = set()
@@ -79,8 +82,8 @@ def collect_changed_functions(blob: BlobInfo,
     return changed_functions, full_removed_functions
 
 
-def compare_two_blobs(blob: BlobInfo,
-                      other_blob: BlobInfo,
+def compare_two_blobs(blob: BlobPositions,
+                      other_blob: BlobPositions,
                       data_file: BinaryIO) -> Set[Tuple[FunctionInfo, FunctionInfo]]:
 
     changed_functions, deleted_functions = collect_changed_functions(blob, other_blob, data_file)
@@ -89,3 +92,11 @@ def compare_two_blobs(blob: BlobInfo,
     added_functions = {(b, a) for a, b in added_functions}
 
     return changed_functions | deleted_functions | added_functions
+
+
+def parse_dataset_line(line: str) -> (Message, List[Code2SeqPath]):
+    [message, *function_body] = line.split(" ")
+    function_body: List[Code2SeqPath] = [Code2SeqPath(path) for path in function_body]
+    function_body[-1] = function_body[-1].strip()
+
+    return Message(message), function_body

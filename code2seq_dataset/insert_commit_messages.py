@@ -1,30 +1,32 @@
-from code2seq_dataset.common import clean_function_body_from_new_line_characters
-from code2seq_dataset.common import get_blobs_positions, parse_full_log
-from code2seq_dataset.common import split_commit_message, compare_two_blobs
-from code2seq_dataset.info_classes import FunctionInfo, NextBlobMetaInfo, BlobInfo, dataset_line
 from pathlib import Path
 import pickle
 from typing import Dict, DefaultDict, Mapping, List, Tuple, Set, TextIO
 
+from code2seq_dataset.common import clean_function_body_from_new_line_characters
+from code2seq_dataset.common import get_blobs_positions, parse_full_log
+from code2seq_dataset.common import split_commit_message, compare_two_blobs
+from code2seq_dataset.info_classes import FunctionInfo, NextBlobMetaInfo, BlobPositions, DatasetPart
+from code2seq_dataset.global_vars import dataset_line, Message, Code2SeqPath, Commit, Blob
 
-def write_commit_message_and_path_difference(message: str,
+
+def write_commit_message_and_path_difference(message: Message,
                                              changed_functions: Set[Tuple[FunctionInfo, FunctionInfo]],
                                              output_file: TextIO):
-    message: List[str] = split_commit_message(message)
+    splitted_message: List[str] = split_commit_message(message)
     for function, other_function in changed_functions:
-        diff_paths: Set[str] = function.path_difference(other_function)
-        diff_paths: Set[str] = clean_function_body_from_new_line_characters(diff_paths)
-        output_file.write(dataset_line.substitute(target_message='|'.join(message),
+        diff_paths: Set[Code2SeqPath] = function.path_difference(other_function)
+        diff_paths: Set[Code2SeqPath] = clean_function_body_from_new_line_characters(diff_paths)
+        output_file.write(dataset_line.substitute(target_message='|'.join(splitted_message),
                                                   paths=' '.join(diff_paths)))
 
 
 def remove_method_name_with_commit_message_and_split_dataset(data: Path,
-                                                             blobs_history: Mapping[str, List[NextBlobMetaInfo]],
+                                                             blobs_history: Mapping[Blob, List[NextBlobMetaInfo]],
                                                              train: Path, test: Path, val: Path,
                                                              splitted_dataset_file: Path):
     with open(splitted_dataset_file, 'rb') as sdf:
-        splitted_dataset: Dict[str, Set[str]] = pickle.load(sdf)
-    blobs_positions: DefaultDict[str, List[Tuple[int, int]]] = get_blobs_positions(data)
+        splitted_dataset: Dict[DatasetPart, Set[Commit]] = pickle.load(sdf)
+    blobs_positions: DefaultDict[Blob, List[Tuple[int, int]]] = get_blobs_positions(data)
     print("Finish parsing file .all.")
 
     with open(train, 'w') as train_f, open(test, 'w') as test_f, open(val, 'w') as val_f, open(data, 'rb') as data_f:
@@ -35,14 +37,14 @@ def remove_method_name_with_commit_message_and_split_dataset(data: Path,
                 i += 1
                 if i % 20 == 0:
                     print(f"{i}")
-                    changed_functions = compare_two_blobs(BlobInfo(blob, blobs_positions[blob]),
-                                                          BlobInfo(next_blob, blobs_positions[next_blob]),
+                    changed_functions = compare_two_blobs(BlobPositions(blob, blobs_positions[blob]),
+                                                          BlobPositions(next_blob, blobs_positions[next_blob]),
                                                           data_f)
-                    if commit in splitted_dataset['train']:
+                    if commit in splitted_dataset[DatasetPart.TRAIN]:
                         output_f = train_f
-                    elif commit in splitted_dataset['test']:
+                    elif commit in splitted_dataset[DatasetPart.TEST]:
                         output_f = test_f
-                    elif commit in splitted_dataset['val']:
+                    elif commit in splitted_dataset[DatasetPart.VAL]:
                         output_f = val_f
                     else:
                         continue
@@ -61,7 +63,7 @@ def main():
     test_data_path: Path = Path("/Users/natalia.murycheva/Documents/code2seq/aurora.correct.test.raw.txt")
     val_data_path: Path = Path("/Users/natalia.murycheva/Documents/code2seq/aurora.correct.val.raw.txt")
 
-    blobs_history: DefaultDict[str, List[NextBlobMetaInfo]] = parse_full_log(full_log_file)
+    blobs_history: DefaultDict[Blob, List[NextBlobMetaInfo]] = parse_full_log(full_log_file)
     remove_method_name_with_commit_message_and_split_dataset(all_paths_file,
                                                              blobs_history,
                                                              train_data_path, test_data_path, val_data_path,

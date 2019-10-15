@@ -1,15 +1,17 @@
-from code2seq_dataset.info_classes import CommitLogLine, FullLogLine
 from keras.preprocessing.text import text_to_word_sequence
 from pathlib import Path
 import pickle
 from typing import Set
 
+from code2seq_dataset.info_classes import CommitLogLine, FullLogLine
+from code2seq_dataset.global_vars import Commit, Message
+
 
 def get_commits_for_train_aurora(com_log: Path, empty_commits_file: Path, is_pickle: bool,
                                  commits_for_train_file: Path, new_com_log: Path):
-    needed_commits: Set[str] = set()
+    needed_commits: Set[Commit] = set()
     with open(empty_commits_file, 'rb') as file:
-        empty_commits: Set[str] = pickle.load(file)
+        empty_commits: Set[Commit] = pickle.load(file)
 
     with open(new_com_log, 'w') as new_log_file, open(com_log, 'r') as old_log_file:
         total_commit_number: int = 0
@@ -22,7 +24,7 @@ def get_commits_for_train_aurora(com_log: Path, empty_commits_file: Path, is_pic
             if commit_log_line.current_commit in empty_commits:
                 continue
 
-            message = commit_log_line.message.lower()
+            message = Message(commit_log_line.message.lower())
             if commit_log_line.author == "builder":
                 if message == "new version" or \
                         message == "build completed" or \
@@ -51,9 +53,9 @@ def get_commits_for_train_aurora(com_log: Path, empty_commits_file: Path, is_pic
 
 def get_commits_for_train_intellij(com_log: Path, empty_commits_file: Path, is_pickle: bool,
                                    commits_for_train_file: Path, new_com_log: Path):
-    needed_commits: Set[str] = set()
+    needed_commits: Set[Commit] = set()
     with open(empty_commits_file, 'rb') as file:
-        empty_commits: Set[str] = pickle.load(file)
+        empty_commits: Set[Commit] = pickle.load(file)
 
     with open(new_com_log, 'w') as new_com_log_file, open(com_log, 'r') as com_log_file:
         total_commit_number: int = 0
@@ -65,7 +67,7 @@ def get_commits_for_train_intellij(com_log: Path, empty_commits_file: Path, is_p
 
             if commit_log_line.current_commit in empty_commits:
                 continue
-            message = commit_log_line.message.lower()
+            message = Message(commit_log_line.message.lower())
             if message == "(no message)":
                 continue
             text_list = text_to_word_sequence(message)
@@ -87,7 +89,7 @@ def get_commits_for_train_intellij(com_log: Path, empty_commits_file: Path, is_p
 
 def create_new_full_log_file(old_full_log: Path, new_full_log: Path, commits_for_train_file: Path):
     with open(commits_for_train_file, 'rb') as f:
-        needed_commits: Set[str] = pickle.load(f)
+        needed_commits: Set[Commit] = pickle.load(f)
 
     with open(new_full_log, 'w') as new_full_log_file, open(old_full_log, 'r') as old_full_log_file:
         for line in old_full_log_file:
