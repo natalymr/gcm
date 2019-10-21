@@ -15,23 +15,36 @@ class DatasetPart(Enum):
     VAL = auto()
 
 
+class FileStatus(Enum):
+    ADDED = 'A'
+    DELETED = 'D'
+    MODIFIED = 'M'
+
+    @staticmethod
+    def from_string(input: str) -> 'FileStatus':
+        if input == 'M' or input == 'R060':
+            return FileStatus('M')
+        elif input == 'A':
+            return FileStatus('A')
+        elif input == 'D':
+            return FileStatus('D')
+
+
 @dataclass
 class FullLogLine:
     commit: Commit
     author: str
-    status: str
+    status: FileStatus
     file: str
     old_blob: Blob
     new_blob: Blob
     message: Message
-
     @staticmethod
     def parse_from_line(line: str, separator: str = SEPARATOR) -> 'FullLogLine':
         list_ = line.split(separator)
-
         return FullLogLine(commit=Commit(list_[0]),
                            author=list_[1],
-                           status=list_[2],
+                           status=FileStatus.from_string(list_[2]),
                            file=list_[3],
                            old_blob=Blob(list_[4]),
                            new_blob=Blob(list_[5]),

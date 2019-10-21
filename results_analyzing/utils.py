@@ -2,6 +2,7 @@ import os
 import random
 import string
 
+import numpy as np
 import matplotlib.pyplot as plt
 from dataclasses import dataclass
 from parse import parse
@@ -51,7 +52,7 @@ class TranslationResults:
 
     @staticmethod
     def is_bleu_not_almost_zero(elem: 'TranslationResults') -> bool:
-        return abs(0 - elem.result.bleu) > 0.1
+        return elem.result.bleu > 0.1
 
     @staticmethod
     def is_bleu_is_zero(elem: 'TranslationResults') -> bool:
@@ -62,17 +63,23 @@ def sort_by_bleu(elements: List[TranslationResults]) -> List[TranslationResults]
     return sorted(elements, key=lambda elem: elem.result.bleu)
 
 
-def plot_bleu(elements: List[TranslationResults], title: str) -> None:
+def plot_bleu(elements: List[TranslationResults], title: str, percentiles: List[int], offset: int) -> None:
     fig, ax = plt.subplots(figsize=(20, 10))
     elements_numbers = range(len(elements))
+    elements_value = [elem.result.bleu for elem in elements]
 
     ax.plot(elements_numbers,
-            [elem.result.bleu for elem in elements],
+            elements_value,
             linewidth=3)
-    ax.set(xlabel='pair number', ylabel='bleu score',
-           title=title)
+    ax.set(xlabel='pair number', ylabel='bleu score', title=title)
+    for percentile in percentiles:
+        perc_value = np.percentile(elements_numbers, percentile)
+        ax.vlines(x=perc_value, ymin=0, ymax=np.max(elements_value),
+                  colors='k', linestyles='--', label=f'{percentile} percentile')
+        ax.text(perc_value - offset, 35, f'{percentile} percentile',
+                fontsize=15,
+                rotation=90)
     ax.grid()
-
     plt.show()
 
 
@@ -106,7 +113,8 @@ def run_perl_script_and_parse_result(ref: Message, pred: Message, perl_script_pa
     output = os.popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}').read()
 
     # delete tmp files
-    ref_tmp_file.unlink();    pred_tmp_file.unlink()
+    ref_tmp_file.unlink()
+    pred_tmp_file.unlink()
 
     # parse results
     return BleuResults.from_perl_script_output(output)

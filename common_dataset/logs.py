@@ -100,13 +100,13 @@ def get_changed_java_files_log(git_dir: Path, output: Path, commits_log: Path):
 
 
 if __name__ == '__main__':
-    git_dir_name: str = "camel"
-    git_dir: Path = Path(f"/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/{git_dir_name}")
-    output_dir: Path = Path.cwd().parent.parent.joinpath("data").joinpath("raw_data").joinpath(git_dir_name)
+    git_dir_name: str = 'intellij'
+    git_dir: Path = Path(f'/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/{git_dir_name}')
+    output_dir: Path = Path.cwd().parent.parent.joinpath('data').joinpath('raw_data').joinpath(git_dir_name)
     if not output_dir.exists():
         output_dir.mkdir()
-    commits_log: Path = output_dir.joinpath("commits.log")
-    changed_files_log: Path = output_dir.joinpath("changed_java_files.log")
+    commits_log: Path = output_dir.joinpath('commits.log')
+    changed_files_log: Path = output_dir.joinpath('changed_java_files.log')
 
-    get_commits_log(git_dir, commits_log, "1999-01-01", "2019-11-10")
+    get_commits_log(git_dir, commits_log, '2016-01-01', '2019-11-10')
     get_changed_java_files_log(git_dir, changed_files_log, commits_log)

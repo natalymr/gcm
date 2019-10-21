@@ -3,15 +3,17 @@ from subprocess import call
 from typing import Tuple
 
 
-SEPARATOR = "THIS_STRING_WILL_NEVER_APPEAR_IN_DATASET_AND_IT_WILL_BE_USED_AS_SEPARATOR"
+SEPARATOR = 'THIS_STRING_WILL_NEVER_APPEAR_IN_DATASET_AND_IT_WILL_BE_USED_AS_SEPARATOR'
 
 
 def download_blob_content(blob_hash: str, blobs_dir: str, git_dir: str):
     if not os.path.exists(blobs_dir):
         os.mkdir(blobs_dir)
-    if blob_hash != "0000000000000000000000000000000000000000":
+    if blob_hash != '0000000000000000000000000000000000000000':
         blob_file_path = os.path.join(blobs_dir, blob_hash)
-        call(f"cd {git_dir} && git cat-file -p {blob_hash} > {blob_file_path}", shell=True)
+        call(f'git cat-file -p {blob_hash} > {blob_file_path}',
+             cwd=git_dir,
+             shell=True)
 
 
 def download_several_blobs(full_log: str, lines_range: Tuple[int, int], blobs_dir: str, git_dir: str):
