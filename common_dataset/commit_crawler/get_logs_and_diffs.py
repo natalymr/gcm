@@ -3,6 +3,8 @@ import subprocess
 from pathlib import Path
 from typing import List
 
+from tqdm import tqdm
+
 from common_dataset.diffs import get_diffs
 from common_dataset.logs import get_commits_log, get_changed_java_files_log
 
@@ -47,23 +49,29 @@ def get_logs_and_diffs(repos_file_json: Path, parent_dir: Path) -> List[str]:
     with open(repos_file_json, 'r') as f:
         repos = json.load(f)
 
-    for cur_repo in repos['items']:
-        cur_repo_full_name = cur_repo['full_name']
-        with LocalGitRepository(cur_repo_full_name, parent_dir) as git_dir:
-            appropriate_full_name = cur_repo_full_name.replace("/", "_")
-            # get logs
-            commits_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.commits.logs')
-            changed_files_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.changed_files.logs')
+    counter = 0
+    with tqdm(total=1000)as pbar:
+        for cur_repo in repos['items']:
+            counter += 1
+            pbar.update(1)
+            if counter > 1000:
+                break
+            cur_repo_full_name = cur_repo['full_name']
+            with LocalGitRepository(cur_repo_full_name, parent_dir) as git_dir:
+                appropriate_full_name = cur_repo_full_name.replace("/", "_")
+                # get logs
+                commits_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.commits.logs')
+                changed_files_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.changed_files.logs')
 
-            get_commits_log(git_dir, commits_log, '2000-01-01', '2019-12-12')
-            get_changed_java_files_log(git_dir, changed_files_log, commits_log)
+                get_commits_log(git_dir, commits_log, '2000-01-01', '2019-12-12')
+                get_changed_java_files_log(git_dir, changed_files_log, commits_log)
 
-            # get diffs
-            diffs_file: Path = parent_dir.joinpath(f'{appropriate_full_name}.diffs.LOC_10.json')
+                # get diffs
+                diffs_file: Path = parent_dir.joinpath(f'{appropriate_full_name}.diffs.LOC_10.json')
 
-            get_diffs(changed_files_log, diffs_file, 10, git_dir)
+                get_diffs(changed_files_log, diffs_file, 10, git_dir)
 
-        break
+            break
 
 
 def main():
