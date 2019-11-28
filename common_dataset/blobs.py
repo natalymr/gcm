@@ -51,7 +51,7 @@ def download_blobs_from_filtered_commits(changed_files_log: Path, lines_range: T
 
 
 if __name__ == "__main__":
-    git_dir_name: str = 'camel'
+    git_dir_name: str = 'intellij'
     git_dir: Path = Path(f'/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/{git_dir_name}')
     output_dir: Path = Path.cwd().parent.parent.joinpath('data').joinpath('raw_data').joinpath(git_dir_name)
     if not output_dir.exists():
@@ -63,8 +63,8 @@ if __name__ == "__main__":
     if not blobs_dir.exists():
         blobs_dir.mkdir()
 
-    number_of_process = 1
-    changed_files = 204371
+    number_of_process = 4
+    changed_files = 701344
     indexes = [i for i in range(number_of_process)]
     each_process_lines_count = changed_files // number_of_process
     lines_ranges = [

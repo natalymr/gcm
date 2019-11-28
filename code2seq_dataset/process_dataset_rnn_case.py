@@ -1,4 +1,6 @@
 import collections
+import json
+
 import numpy as np
 from operator import itemgetter
 from pathlib import Path
@@ -10,6 +12,8 @@ from code2seq_dataset.common import clean_function_body_from_new_line_characters
 from code2seq_dataset.common import split_commit_message, compare_two_blobs
 from code2seq_dataset.info_classes import FunctionInfo, FullLogLine, BlobPositions, DatasetPart
 from code2seq_dataset.global_vars import dataset_line, padded_path, Blob, Code2SeqPath, Message, Commit, SEPARATOR
+from common_dataset.diffs import CommitDiff
+from common_dataset.logs import COMMON_SEP
 
 
 def cut_paths_per_function(paths: Set[Code2SeqPath], paths_max_number: int) -> List[Code2SeqPath]:
@@ -143,14 +147,27 @@ def replace_target_with_message(data: Path,
     print(f"number of all commits = {len(commit_vs_blobs.keys())}")
 
 
-def get_commits_with_exact_number_of_changed_functions(data: Path, full_log: Path, output: Path):
+def get_commits_with_exact_number_of_changed_functions(data: Path, full_log: Path, output: Path,
+                                                       is_filtered: bool = False, filtered_json: Path = None):
     blobs_positions: Dict[Blob, List[Tuple[int, int]]] = get_blobs_positions(data)
-    commit_vs_blobs: Dict[Commit, List[FullLogLine]] = get_commit_vs_blobs(full_log)
+    commit_vs_blobs: Dict[Commit, List[FullLogLine]] = get_commit_vs_blobs(full_log, sep=COMMON_SEP)
+    if is_filtered:
+        with open(filtered_json, 'r') as f:
+            filtered_commits_json = json.load(f)
+        filtered_commits_messages: Dict[Commit, Message] = {}
+        filtered_commits: Set[Commit] = set()
+        for raw_commit in filtered_commits_json:
+            parsed_commit: CommitDiff = CommitDiff.from_dict(raw_commit)
+            filtered_commits_messages[parsed_commit.commit] = parsed_commit.message
+            filtered_commits.add(parsed_commit.commit)
     print("finished parsing")
 
     i = 0
     with open(data, 'rb') as data_f:
         for commit, changed_files in commit_vs_blobs.items():
+            if is_filtered:
+                if commit not in filtered_commits:
+                    continue
             i += 1
             if i % 100 == 0:
                 print(f"At {i}")
@@ -163,20 +180,26 @@ def get_commits_with_exact_number_of_changed_functions(data: Path, full_log: Pat
                                                                      blobs_positions[changed_file.new_blob]),
                                                        data_f)
             changed_functions_number: int = len(changed_functions)
-            output_file: Path = output / f"{changed_functions_number}.txt"
+            # print(changed_functions_number)
 
             if 1 <= changed_functions_number <= 4:
+                # print('here')
+                output_file: Path = output / f'{changed_functions_number}.txt'
+                message = filtered_commits_messages[commit]
                 with open(output_file, 'a+') as file:
-                    message = Message(commit_vs_blobs[commit][0].message)
                     write_commit_message_and_all_changed_functions(message, changed_functions,
                                                                    changed_functions_number,
                                                                    file)
-
+                common_file: Path = output / '1234.txt'
+                with open(common_file, 'a+') as file:
+                    write_commit_message_and_all_changed_functions(message, changed_functions,
+                                                                   4,
+                                                                   file)
 
 
 def main():
-    dataset = "dubbo"
-    all_paths_file: Path = Path(f"/Users/natalia.murycheva/Documents/code2seq/{dataset}_blobs.train.raw.txt")
+    dataset = 'intellij'
+    all_paths_file: Path = Path(f"/Users/natalia.murycheva/Documents/code2seq/filtered_intellij.train.raw.txt")
     train_data_path: Path = Path(f"/Users/natalia.murycheva/Documents/code2seq/{dataset}.train.raw.txt")
     test_data_path: Path = Path(f"/Users/natalia.murycheva/Documents/code2seq/{dataset}.test.raw.txt")
     val_data_path: Path = Path(f"/Users/natalia.murycheva/Documents/code2seq/{dataset}.val.raw.txt")
@@ -185,15 +208,22 @@ def main():
     full_log_file = datasets_parent_dir.joinpath(f"gcm_{dataset}_full.log")
     splitted_commits: Path = datasets_parent_dir.joinpath(f"{dataset}_splitted_commits_set_train_val_test.pickle")
 
-    replace_target_with_message(all_paths_file,
-                                full_log_file,
-                                train_data_path, test_data_path, val_data_path,
-                                splitted_commits,
-                                4)
+    # replace_target_with_message(all_paths_file,
+    #                             full_log_file,
+    #                             train_data_path, test_data_path, val_data_path,
+    #                             splitted_commits,
+    #                             4)
 
-    # get_commits_with_exact_number_of_changed_functions(all_paths_file,
-    #                                                    full_log_file,
-    #                                                    Path("/Users/natalia.murycheva/Documents/code2seq/for_data/"))
+    full_log_file: Path = Path.cwd().parent.parent.joinpath('data')\
+        .joinpath('raw_data').joinpath(dataset).joinpath('changed_java_files.log')
+    filtered_json: Path = Path.cwd().parent.parent.joinpath('data')\
+        .joinpath('processed_data').joinpath(dataset).joinpath('diff_filtered.json')
+    get_commits_with_exact_number_of_changed_functions(all_paths_file,
+                                                       full_log_file,
+                                                       Path('/Users/natalia.murycheva/PycharmProjects/data/'
+                                                            f'processed_data/intellij/c2s'),
+                                                       True,
+                                                       filtered_json)
 
 
 if __name__ == '__main__':

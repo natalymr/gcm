@@ -76,7 +76,7 @@ def plot_bleu(elements: List[TranslationResults], title: str, percentiles: List[
         perc_value = np.percentile(elements_numbers, percentile)
         ax.vlines(x=perc_value, ymin=0, ymax=np.max(elements_value),
                   colors='k', linestyles='--', label=f'{percentile} percentile')
-        ax.text(perc_value - offset, 35, f'{percentile} percentile',
+        ax.text(perc_value - offset, np.max(elements_value) // 2, f'{percentile} percentile',
                 fontsize=15,
                 rotation=90)
     ax.grid()
@@ -113,8 +113,11 @@ def run_perl_script_and_parse_result(ref: Message, pred: Message, perl_script_pa
     output = os.popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}').read()
 
     # delete tmp files
-    ref_tmp_file.unlink()
-    pred_tmp_file.unlink()
+    try:
+        ref_tmp_file.unlink()
+        pred_tmp_file.unlink()
+    except FileNotFoundError:
+        pass
 
     # parse results
     return BleuResults.from_perl_script_output(output)
@@ -130,12 +133,13 @@ def get_bleu_score_for_each_pair(references: List[Message], predictions: List[Me
     - распарсить результаты скрипта (сохраняются в dataclass BleuResults)
     Вспомогательные функции: run_perl_script_and_parse_result()
     """
-    print(f'We have {len(references)} pairs of the translation.')
     result: List[TranslationResults] = []
 
     for ref, pred in zip(references, predictions):
         bleu_result = run_perl_script_and_parse_result(ref, pred, perl_script_path)
         if bleu_result:
             result.append(TranslationResults(ref, pred, bleu_result))
+        else:
+            print(f'Smth went wrong for ref: {ref}, pred: {pred}')
 
     return result

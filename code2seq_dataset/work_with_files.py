@@ -8,9 +8,8 @@ from code2seq_dataset.global_vars import Message, Code2SeqPath
 
 
 def add_java_in_file_name():
-    dir_name: str = "/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/dubbo_blobs"
+    dir_name: str = '/Users/natalia.murycheva/PycharmProjects/data/raw_data/intellij/blobs'
     all_files: List[str] = os.listdir(dir_name)
-
     for file in all_files:
         if not file.endswith(".java"):
             old_name = os.path.join(dir_name, file)

@@ -1,4 +1,3 @@
-import re
 import unittest
 from typing import List
 
@@ -33,7 +32,7 @@ class CommitMessages(unittest.TestCase):
               "+",
               ""
             ]
-    file_diff = FileDiff('Test', FileStatus.MODIFIED, input)
+    file_diff = FileDiff('Test', 'M', input)
 
     def testTokenizeLine(self):
         for l in self.input:
@@ -122,3 +121,16 @@ class CommitMessages(unittest.TestCase):
         self.file_diff.tokenize_each_line_of_diff_body()
         self.file_diff.tokenize_camel_case()
         print(*self.file_diff.diff_body, sep='\n')
+
+    def testDiffBodyInOneLine(self):
+        simple_diff_body: List[str] = [
+            "     @Test",
+            "     public void testPropertiesAppIdHeader() throws IOException {",
+            "         RabbitMQProducer producer = new RabbitMQProducer(100);",
+            "         AMQP.BasicProperties props = producer.buildProperties(exchange).build();",
+            "         assertEquals(\"qweeqwe\", props.getAppId());",
+            "     }",
+        ]
+
+        self.file_diff.diff_body = simple_diff_body
+        print(self.file_diff.diff_body_in_one_line())
