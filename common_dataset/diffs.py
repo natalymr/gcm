@@ -18,7 +18,7 @@ new_line = ' <nl> '
 # Copy-Paste
 def get_commit_vs_blobs(full_log: Path, sep: str = SEPARATOR) -> Dict[Commit, List[FullLogLine]]:
     commit_vs_blobs: DefaultDict[Commit, List[FullLogLine]] = collections.defaultdict(list)
-    with open(full_log, 'r') as full_log_file:
+    with open(full_log, 'r', encoding='utf-8') as full_log_file:
         for line in full_log_file:
             if line.startswith("commit_hash"):
                 continue
@@ -179,15 +179,15 @@ def get_diffs(changed_files_log: Path, output: Path, context_size: int, git_dir:
     i = 0
     for commit, changed_files in commit_vs_blobs.items():
         i += 1
-        if i % 10 == 0:
-            print(f"At {i}")
+        # if i % 1000 == 0:
+        #     print(f"At {i}")
         # if i > 100:
         #     break
         message = Message(changed_files[0].message)
         author = changed_files[0].author
         files_diffs = get_all_diffs_per_commit(changed_files, context_size, git_dir)
         commits_diffs.append(CommitDiff(commit=commit, message=message, author=author, changed_java_files=files_diffs))
-    with open(output, 'w') as output_f:
+    with open(output, 'w', encoding='utf-8') as output_f:
         output_f.write(json.dumps(commits_diffs, default=CommitDiff.to_json, indent=2))
 
 

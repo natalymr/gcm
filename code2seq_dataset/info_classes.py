@@ -39,6 +39,7 @@ class FullLogLine:
     old_blob: Blob
     new_blob: Blob
     message: Message
+
     @staticmethod
     def parse_from_line(line: str, separator: str = SEPARATOR) -> 'FullLogLine':
         list_ = line.split(separator)

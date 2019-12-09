@@ -1,9 +1,13 @@
 import json
+import os
 import subprocess
+import multiprocessing
+from itertools import groupby
 from pathlib import Path
-from typing import List
+from typing import List, Set
 
-from tqdm import tqdm
+import sys
+sys.path.append('/home/ubuntu/crawler/gcm')
 
 from common_dataset.diffs import get_diffs
 from common_dataset.logs import get_commits_log, get_changed_java_files_log
@@ -24,61 +28,76 @@ class LocalGitRepository:
             return self.path
 
     def __exit__(self, type, value, traceback):
-        subprocess.call(f'rm -r {self.git_dir_name}',
+        subprocess.call(f'rm -rf {self.git_dir_name}',
                         cwd=self.parent_repository,
                         shell=True)
 
 
-def test():
-    full_name = 'natalymr/spbau_java_hw'
-    parent_dir = Path('/Users/natalia.murycheva/crawler_test')
-    with LocalGitRepository(full_name, parent_dir) as git_dir:
-        appropriate_full_name = full_name.replace("/", "_")
-        # get logs
-        commits_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.commits.logs')
-        changed_files_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.changed_files.logs')
-        get_commits_log(git_dir, commits_log, '2000-01-01', '2019-12-12')
-        get_changed_java_files_log(git_dir, changed_files_log, commits_log)
-
-        # get diffs
-        diffs_file: Path = parent_dir.joinpath(f'{appropriate_full_name}.diffs.LOC_10.json')
-        get_diffs(changed_files_log, diffs_file, 10, git_dir)
-
-
-def get_logs_and_diffs(repos_file_json: Path, parent_dir: Path) -> List[str]:
+def get_logs_and_diffs(repos_file_json: Path):
     with open(repos_file_json, 'r') as f:
         repos = json.load(f)
+    repos_full_names_tmp: List[str] = [repo['full_name'] for repo in repos['items']][:1000]
+    set_repos: Set[str] = set(repos_full_names_tmp)
+    if len(repos_full_names_tmp) == len(set_repos):
+        print('Everything is fine')
+    else:
+        print('We have dublicates for repos')
+    print(f'Len of repos is {len(repos_full_names_tmp)}')
+    parent_dir: Path = Path('../../../new_data/raw_data/')
+    already_downloaded_files: List[str] = os.listdir(parent_dir)
+    already_downloaded: Path = parent_dir.joinpath('downloaded.log')
+    downloaded: List[str] = []
+    with open(already_downloaded, 'w') as f:
+        for already_downloaded_file in already_downloaded_files:
+            if already_downloaded_file.endswith('.commits.logs'):
+                [name, _] = already_downloaded_file.split('.commits.')
+                name: str = name.replace('_', '/')
+                f.write(f'{name}\n')
+                downloaded.append(name)
+    repos_full_names: List[str] = [repo for repo in repos_full_names_tmp if repo not in downloaded]
+    print(f'NEW Len of repos is {len(repos_full_names)}')
+    with multiprocessing.Pool() as pool:
+        pool.map(download_everything_for_one_repository, repos_full_names)
 
-    counter = 0
-    with tqdm(total=1000)as pbar:
-        for cur_repo in repos['items']:
-            counter += 1
-            pbar.update(1)
-            if counter > 1000:
-                break
-            cur_repo_full_name = cur_repo['full_name']
-            with LocalGitRepository(cur_repo_full_name, parent_dir) as git_dir:
-                appropriate_full_name = cur_repo_full_name.replace("/", "_")
-                # get logs
-                commits_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.commits.logs')
-                changed_files_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.changed_files.logs')
 
-                get_commits_log(git_dir, commits_log, '2000-01-01', '2019-12-12')
-                get_changed_java_files_log(git_dir, changed_files_log, commits_log)
+def download_everything_for_one_repository(repo_full_name: str):
+    print(f'Start to process {repo_full_name}')
+    # the parent_dir should ba argument, but for pool.map
+    parent_dir: Path = Path('../../../new_data/raw_data/')
+    already_downloaded: Path = parent_dir.joinpath('downloaded.log')
+    with open(already_downloaded, 'a') as f:
+        f.write(f'{repo_full_name}\n')
+    dir_for_repos: Path = Path('../../../new_data/')
 
-                # get diffs
-                diffs_file: Path = parent_dir.joinpath(f'{appropriate_full_name}.diffs.LOC_10.json')
+    with LocalGitRepository(repo_full_name, dir_for_repos) as git_dir:
+        appropriate_full_name = repo_full_name.replace("/", "_")
+        commits_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.commits.logs')
+        changed_files_log: Path = parent_dir.joinpath(f'{appropriate_full_name}.changed_files.logs')
+        diffs_file: Path = parent_dir.joinpath(f'{appropriate_full_name}.diffs.LOC_10.json')
+        try:
+            # get logs
+            get_commits_log(git_dir, commits_log, '2000-01-01', '2019-12-12')
+            get_changed_java_files_log(git_dir, changed_files_log, commits_log)
 
-                get_diffs(changed_files_log, diffs_file, 10, git_dir)
-
-            break
+            # get diffs
+            get_diffs(changed_files_log, diffs_file, 10, git_dir)
+        except Exception as e:
+            try:
+                commits_log.unlink()
+                changed_files_log.unlink()
+                diffs_file.unlink()
+            except FileNotFoundError:
+                pass
+            error_log: Path = parent_dir.joinpath('errors.log')
+            with open(error_log, 'a') as error:
+                error.write(f'{repo_full_name}\n')
+                error.write(f'{str(e)}\n')
 
 
 def main():
-    repos_file: Path = Path('../data/raw_data/repos.json')
+    repos_file: Path = Path('../../../new_data/repos.json')
     # test()
-    raw_data_dir: Path = Path('../data/raw_data/')
-    get_logs_and_diffs(repos_file, raw_data_dir)
+    get_logs_and_diffs(repos_file)
 
 
 if __name__ == '__main__':

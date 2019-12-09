@@ -88,10 +88,7 @@ def replace_target_with_message(data: Path,
           f"test: {len(splitted_dataset[DatasetPart.TEST])}, "
           f"val: {len(splitted_dataset[DatasetPart.VAL])}")
 
-    time_1 = time.time()
     blobs_positions: Dict[Blob, List[Tuple[int, int]]] = get_blobs_positions(data)
-    time_2 = time.time()
-    print(f"Finish parsing file with paths. Time: {time_2 - time_1}")
 
     commit_vs_blobs: Dict[Commit, List[FullLogLine]] = get_commit_vs_blobs(full_log)
 

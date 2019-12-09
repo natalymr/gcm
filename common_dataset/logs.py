@@ -14,7 +14,7 @@ COMMON_SEP = '<SEP>'
 def get_commits_log(git_dir: Path, output: Path, start_date: str, end_date: str):
     global COMMON_SEP
     log_pretty_template = f'"%P{COMMON_SEP}%H{COMMON_SEP}%an{COMMON_SEP}%cd{COMMON_SEP}%s{COMMON_SEP}"'
-    with open(output, 'w') as file:
+    with open(output, 'w', encoding='utf-8') as file:
         subprocess.call(f'git log --pretty={log_pretty_template} --since={start_date} --before={end_date} --no-merges',
                         cwd=git_dir,
                         stdout=file,
@@ -46,7 +46,7 @@ def run_and_parse_diff_tree(parent_commit: str, cur_commit: str, git_dir: Path) 
                         stdout=file,
                         shell=True)
     result: List[ChangedFile] = []
-    with open(tmp_file, 'r') as file:
+    with open(tmp_file, 'r', encoding='utf-8') as file:
         for line in file:
             result.append(ChangedFile.parse_from_git_diff_tree_line(line))
     tmp_file.unlink()  # delete tmp file
@@ -62,10 +62,10 @@ def get_changed_java_files_log(git_dir: Path, output: Path, commits_log: Path):
     total_commit_number: int = subprocess.check_output(f'wc -l {commits_log}'.split()).decode().split()[0]
     commits_with_changed_java_files_number: int = 0
     commit_number: int = 0
-    with open(output, 'w') as output_f, open(commits_log, 'r') as commits_log_f:
+    with open(output, 'w', encoding='utf-8') as output_f, open(commits_log, 'r', encoding='utf-8') as commits_log_f:
         for line in commits_log_f:
             commit_number += 1
-            if commit_number % 100 == 0:
+            if commit_number % 1000 == 0:
                 print(f'Start to process {commit_number} commit from {total_commit_number}')
             # if commits_with_changed_java_files_number > 4_000:
             #     break

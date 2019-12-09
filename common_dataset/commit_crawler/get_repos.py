@@ -49,7 +49,7 @@ def check_request_result(status, url: str):
 
 
 def get_data_from_github_api(request: str, key: str, page_number: int, per_page: int) -> Dict:
-    url: str = 'https://api.github.com/' + request + f'?page={page_number}&per_page={per_page}'
+    url: str = 'https://api.github.com/' + request + f'&page={page_number}&per_page={per_page}'
     request_result = requests.get(url, headers={'Authorization': key}).json()
     # check_request_result(request_result.get('message'), url)
     return request_result
@@ -113,6 +113,6 @@ def get_commits_number(input_file: str):
 
 
 if __name__ == '__main__':
-    # get_repos(Path('../data/raw_data/repos.json'), 100)
+    get_repos(Path('../../../new_data/repos.json'), 100)
     # get_commits(Path('../data/raw_data/repos.json'), Path('../data/raw_data/commits'), 100)
-    get_commits_number(Path('../data/raw_data/commits/apache_dubbo'))
+    # get_commits_number(Path('../data/raw_data/commits/apache_dubbo'))

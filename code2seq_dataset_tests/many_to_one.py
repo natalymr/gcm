@@ -44,7 +44,7 @@ class ManyToOneDataset(unittest.TestCase):
         for data_file in self.all_data:
             with open(data_file, 'r') as f:
                 for line in f:
-                    with self.subTest(line = line):
+                    with self.subTest(line=line):
                         dataset_line: DatasetManyToOneLine = DatasetManyToOneLine.parse_from_str(line)
 
                         self.assertEqual(len(dataset_line.functions_paths),

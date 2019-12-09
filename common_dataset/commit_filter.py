@@ -42,8 +42,6 @@ def find_dobj_dependency_in_commit_message(commit: CommitDiff) -> CommitDiff:
     dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
     parse, = dep_parser.raw_parse(commit.message)
     commit.is_there_dobj = bool(parse.get_by_address(1)['deps']['dobj'])  # the first word is a verb and has dobj
-    import time
-    time.sleep(0.01)
     return commit
 
 
