@@ -20,9 +20,9 @@ python ../../../nematus/nematus/nmt.py \
   --valid_source_dataset /home/ubuntu/crawler/data/nematus_data/test.diffs \
   --valid_target_dataset /home/ubuntu/crawler/data/nematus_data/test.msg \
   --dictionaries /home/ubuntu/crawler/data/nematus_data/train.diffs.json /home/ubuntu/crawler/data/nematus_data/train.msg.json \
-  --valid_freq 1000 \
+  --valid_freq 1 \
   --patience 1000 \
-  --disp_freq 100 \
+  --disp_freq 1 \
   --save_freq 10000 \
   --sample_freq 1000 \
   --rnn_dropout_embedding 0.2 \
