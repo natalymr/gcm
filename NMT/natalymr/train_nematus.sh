@@ -5,8 +5,8 @@ python ../../../nematus/nematus/nmt.py \
   --model models/model.first_try.npz \
   --embedding_size 512 \
   --state_size 1024 \
-  --n_words_src $DIFFVSIZE \
-  --n_words $MSGVSIZE \
+  --n_words_src 16912 \
+  --n_words 9383 \
   --decay_c 0 \
   --clip_c 1 \
   --learning_rate 0.0001 \
