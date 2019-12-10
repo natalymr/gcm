@@ -4,7 +4,7 @@ dev=/home/ubuntu/crawler/data/nematus_data/test.diffs
 ref=/home/ubuntu/crawler/data/nematus_data/test.msg
 
 # run model on test set and get the score
-python ../nematus/translate.py \
+python ../../../nematus/nematus/translate.py \
      -m models/model.first_try.npz  \
      -s /home/ubuntu/crawler/data/nematus_data/test.diffs \
      -t /home/ubuntu/crawler/data/nematus_data/test.msg \

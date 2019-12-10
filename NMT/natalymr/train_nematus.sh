@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-python ../nematus/nmt.py \
+python ../../../nematus/nematus/nmt.py \
   --model models/model.first_try.npz \
   --embedding_size 512 \
   --state_size 1024 \
