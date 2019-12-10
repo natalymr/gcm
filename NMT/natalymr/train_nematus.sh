@@ -30,5 +30,5 @@ python ../../../nematus/nematus/nmt.py \
   --rnn_dropout_source 0.1 \
   --rnn_dropout_target 0.1 \
   --no_shuffle \
-  --valid_script "./validate.sh $VALIDSIZE $TRAINSIZE $MSGVSIZE $DIFFVSIZE"
+  --valid_script "./validate.sh"
 
