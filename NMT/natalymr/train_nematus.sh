@@ -2,7 +2,7 @@
 
 
 python ../../../nematus/nematus/nmt.py \
-  --model ../../../nematus/nematus/models/model.first_try.npz \
+  --model ../../../nematus/models/model.first_try.npz \
   --embedding_size 512 \
   --state_size 1024 \
   --n_words_src 16912 \
