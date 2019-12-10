@@ -2,7 +2,7 @@
 
 
 python ../../../nematus/nematus/nmt.py \
-  --model models/model.first_try.npz \
+  --model ../../../nematus/nematus/models/model.first_try.npz \
   --embedding_size 512 \
   --state_size 1024 \
   --n_words_src 16912 \
@@ -10,7 +10,7 @@ python ../../../nematus/nematus/nmt.py \
   --decay_c 0 \
   --clip_c 1 \
   --learning_rate 0.0001 \
-  --optimizer adadelta \
+  --optimizer adam \
   --maxlen 300 \
   --translation_maxlen 30 \
   --batch_size 80 \
