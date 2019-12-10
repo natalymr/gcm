@@ -23,7 +23,7 @@ python ../../../nematus/nematus/nmt.py \
   --valid_freq 1 \
   --patience 1000 \
   --disp_freq 1 \
-  --save_freq 10000 \
+  --save_freq 1 \
   --sample_freq 1000 \
   --rnn_dropout_embedding 0.2 \
   --rnn_dropout_hidden 0.2 \
