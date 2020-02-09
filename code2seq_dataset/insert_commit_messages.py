@@ -2,11 +2,11 @@ from pathlib import Path
 import pickle
 from typing import Dict, DefaultDict, Mapping, List, Tuple, Set, TextIO
 
-from code2seq_dataset.common import clean_function_body_from_new_line_characters
-from code2seq_dataset.common import get_blobs_positions, parse_full_log
-from code2seq_dataset.common import split_commit_message, compare_two_blobs
-from code2seq_dataset.info_classes import FunctionInfo, NextBlobMetaInfo, BlobPositions, DatasetPart
-from code2seq_dataset.global_vars import dataset_line, Message, Code2SeqPath, Commit, Blob
+from .common import clean_function_body_from_new_line_characters
+from .common import get_blobs_positions, parse_full_log
+from .common import split_commit_message, compare_two_blobs
+from .info_classes import FunctionInfo, NextBlobMetaInfo, BlobPositions, DatasetPart
+from .global_vars import dataset_line, Message, Code2SeqPath, Commit, Blob
 
 
 def write_commit_message_and_path_difference(message: Message,

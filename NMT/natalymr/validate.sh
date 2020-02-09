@@ -12,7 +12,7 @@ python ../../../nematus/nematus/translate.py \
 
 # get the score
 python ../../../nematus/nematus/score.py \
-     -m ../../../nematus/models/model.first_try.npz  \
+     -m ../../../nematus/models/model.first_try.npz  \Ω
      -s /home/ubuntu/crawler/data/nematus_data/test.msg.from_model \
      -t /home/ubuntu/crawler/data/nematus_data/test.msg \
      -v

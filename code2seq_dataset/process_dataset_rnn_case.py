@@ -5,7 +5,6 @@ import numpy as np
 from operator import itemgetter
 from pathlib import Path
 import pickle
-import time
 from typing import Dict, List, Tuple, Set, TextIO, DefaultDict
 
 from code2seq_dataset.common import clean_function_body_from_new_line_characters, get_blobs_positions
@@ -42,7 +41,7 @@ def get_all_diff_paths(changed_functions: List[Tuple[FunctionInfo, FunctionInfo]
 def write_commit_message_and_all_changed_functions(message: Message,
                                                    changed_functions: Set[Tuple[FunctionInfo, FunctionInfo]],
                                                    max_functions_count_per_commit: int,
-                                                   output_file: TextIO):
+                                                   output_file: TextIO) -> bool:
     paths_max_number: int = 200
     max_paths_per_commit: int = paths_max_number * max_functions_count_per_commit
     actual_function_count: int = len(changed_functions)
@@ -59,6 +58,8 @@ def write_commit_message_and_all_changed_functions(message: Message,
     if splitted_message:
         output_file.write(dataset_line.substitute(target_message='|'.join(splitted_message),
                                                   paths=' '.join(all_functions_paths)))
+        return True
+    return False
 
 
 def get_commit_vs_blobs(full_log: Path, sep: str = SEPARATOR) -> Dict[Commit, List[FullLogLine]]:

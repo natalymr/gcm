@@ -1,18 +1,18 @@
 from collections import namedtuple
 from dataclasses import dataclass
-from enum import Enum, auto
+from enum import Enum
 from typing import List, Tuple, Set, BinaryIO, Optional
 
-from code2seq_dataset.global_vars import SEPARATOR, Commit, Blob, Message, Code2SeqPath
+from .global_vars import SEPARATOR, Commit, Blob, Message, Code2SeqPath
 
 NextBlobMetaInfo = namedtuple('NextBlobMetaInfo', ['commit', 'new_blob', 'message'])
 BlobPositions = namedtuple('BlobInfo', ['hash', 'functions_positions'])
 
 
 class DatasetPart(Enum):
-    TRAIN = auto()
-    TEST = auto()
-    VAL = auto()
+    TRAIN = 'TRAIN'
+    TEST = 'TEST'
+    VAL = 'VAL'
 
 
 class FileStatus(Enum):

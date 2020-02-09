@@ -2,7 +2,6 @@ import json
 import os
 import subprocess
 import multiprocessing
-from itertools import groupby
 from pathlib import Path
 from typing import List, Set
 
@@ -25,6 +24,7 @@ class LocalGitRepository:
                         cwd=self.parent_repository,
                         shell=True)
         if self.path.exists():
+            print('Finished cloning')
             return self.path
 
     def __exit__(self, type, value, traceback):

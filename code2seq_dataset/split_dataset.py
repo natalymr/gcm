@@ -213,6 +213,71 @@ def split_exact_changed_functions_number_per_commit_dataset(full_data: Path, tra
             f.write(dataset_line.substitute(target_message=message, paths=" ".join(paths)))
 
 
+def split_dataset_when_only_paths_are_given(paths_file: Path, commits_log: Path, output_dir: Path) -> None:
+    """
+    This function split dataset into three parts: train, test and val
+    :param paths_file: file, where each line is <target> <paths-diff>
+    :param commits_log: file, where each line is repo_name_<commit_hash> which corresponds to line from paths_file
+    :param output_dir: where train, test and val files will be created
+    """
+    commits: List[Commit] = []
+    with open(commits_log, 'r') as commit_f:
+        for line in commit_f:
+            commits.append(Commit(line.strip('\n')))
+
+    data_to_split: List[Tuple[Message, List[Code2SeqPath], Commit]] = []
+    with open(paths_file, 'r') as input_f:
+        for ind, line in enumerate(input_f):
+            message, paths = parse_dataset_line(line)
+            data_to_split.append((message, paths, commits[ind]))
+
+    def split_list_in_two_parts(input_list, part_size: float):
+        size: int = len(input_list)
+        first_part_size: int = int(size * part_size)
+
+        return input_list[:first_part_size], input_list[first_part_size:]
+
+    def is_messages_intersected(set_1, set_2) -> bool:
+        return 0 != len({message for message, _, _ in set_1} & {message for message, _, _ in set_2})
+
+    def fix_intersection(list_1, list_2):
+        messages_set_1: List[Message] = [message for message, _, _ in list_1]
+        messages_set_2: List[Message] = [message for message, _, _ in list_2]
+        new_list_1: List[Tuple[Message, List[Code2SeqPath], Commit]] = []
+        new_list_2: List[Tuple[Message, List[Code2SeqPath], Commit]] = []
+        new_list_1.extend(list_1)
+        for message, paths, commit in list_2:
+            if message in messages_set_1 and message in messages_set_2:
+                new_list_1.append((message, paths, commit))
+            else:
+                new_list_2.append((message, paths, commit))
+        return new_list_1, new_list_2
+
+    commits_train, commits_tmp = split_list_in_two_parts(data_to_split, 0.7)
+    if is_messages_intersected(commits_train, commits_tmp):
+        commits_train, commits_tmp = fix_intersection(commits_train, commits_tmp)
+
+    print(f"All size = {len(commits)}. Train size = {len(commits_train)}.")
+    print(f"But train should be (.6){0.6 * len(commits)}")
+    print(f"But train should be (.7){0.7 * len(commits)}")
+    print(f"Part size is {len(commits_train) / len(commits)}")
+
+    commits_val, commits_test = split_in_two_parts(commits_tmp, 0.5)
+
+    def write_dataset_part(items: List[Tuple[Message, List[Code2SeqPath], Commit]], output_dir: Path,
+                           dataset_part: DatasetPart):
+        output_file: Path = output_dir.joinpath(str(dataset_part.value) + '.c2s')
+        output_log: Path = output_dir.joinpath(str(dataset_part.value) + '_commits.log')
+        with open(output_file, 'w') as out_f, open(output_log, 'w') as out_l:
+            for message, paths, commit in items:
+                out_f.write(dataset_line.substitute(target_message=message,
+                                                    paths=' '.join(paths)))
+                out_l.write(f'{commit}\n')
+    write_dataset_part(commits_train, output_dir, DatasetPart.TRAIN)
+    write_dataset_part(commits_test, output_dir, DatasetPart.TEST)
+    write_dataset_part(commits_val, output_dir, DatasetPart.VAL)
+
+
 if __name__ == '__main__':
     dataset = 'intellij'
     parent_dir: Path = Path('/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage')
@@ -229,9 +294,15 @@ if __name__ == '__main__':
     # splitted_commits: Path = data_dir.joinpath('splitted_dataset.pickle')
     # split_from_filtered_json(filtered_json, splitted_commits)
 
-    split_exact_changed_functions_number_per_commit_dataset(
-        full_data=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/intellij.all.2.txt'),
-        train=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.train.txt'),
-        test=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.test.txt'),
-        val=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.val.txt')
+    # split_exact_changed_functions_number_per_commit_dataset(
+    #     full_data=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/intellij.all.2.txt'),
+    #     train=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.train.txt'),
+    #     test=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.test.txt'),
+    #     val=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.val.txt')
+    # )
+
+    split_dataset_when_only_paths_are_given(
+        paths_file=Path('../../new_data/processed_data/c2s_paths/data/full_dataset.txt'),
+        commits_log=Path('../../new_data/processed_data/c2s_paths/data/c2s_commits.log'),
+        output_dir=Path('../../new_data/processed_data/c2s_paths/data/top1000_dataset')
     )

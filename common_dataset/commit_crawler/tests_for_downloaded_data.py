@@ -3,7 +3,7 @@ import os
 import subprocess
 import unittest
 from pathlib import Path
-from typing import List, Tuple
+from typing import List
 
 from common_dataset.diffs import CommitDiff
 
@@ -88,3 +88,25 @@ class DiffTest(unittest.TestCase):
             total_count += self.get_changed_files_count(processed_dir / f)
 
         print(f'Total filtered commits count is {total_count}')
+
+    def test_not_empty_blobs(self):
+        blobs_dir = self.dir_with_files.joinpath('blobs')
+        empty_blobs_file: Path = self.dir_with_files.parent.joinpath('emplty_blobs.log')
+        all_blob_files: List[str] = os.listdir(blobs_dir)
+        empty_files_count = 0
+        with open(empty_blobs_file, 'w') as empty_f:
+            for blob in all_blob_files:
+                if os.path.getsize(blobs_dir / blob) == 0:
+                    empty_f.write(f'{blob}\n')
+                    empty_files_count += 1
+
+        print(f'Number of empty blobs is {empty_files_count}')
+
+    def test_double_blob_downloaded_worked(self):
+        blobs_dir = self.dir_with_files.joinpath('blobs')
+        all_blob_files: List[str] = os.listdir(blobs_dir)
+        empty_files_count = 0
+        for blob in all_blob_files:
+            if os.path.getsize(blobs_dir / blob) == 0:
+                empty_files_count += 1
+        self.assertEqual(empty_files_count, 21, msg=f'Something went wrong, number of empties is {empty_files_count}')

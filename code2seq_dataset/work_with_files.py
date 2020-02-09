@@ -8,7 +8,7 @@ from code2seq_dataset.global_vars import Message, Code2SeqPath
 
 
 def add_java_in_file_name():
-    dir_name: str = '/Users/natalia.murycheva/PycharmProjects/data/raw_data/intellij/blobs'
+    dir_name: str = '/Users/natalia.murycheva/PycharmProjects/new_data/raw_data/blobs'
     all_files: List[str] = os.listdir(dir_name)
     for file in all_files:
         if not file.endswith(".java"):
@@ -201,9 +201,30 @@ def datasets_messages_intersection():
     print(f"inter len = {len(small_dataset_lines & big_dataset_lines)}")
 
 
+def not_retrieved_blobs():
+    failed_blobs_file: Path = Path('../../new_data/failed_blob.log')
+    blobs_dir: Path = Path('../../new_data/raw_data/blobs')
+    new_blobs_dir: Path = Path('../../new_data/raw_data/again_blobs')
+    failed_blobs: List[str] = []
+    with open(failed_blobs_file, 'r') as failed_blobs_f:
+        for line in failed_blobs_f:
+            line = line.strip('\n')
+            failed_blobs.append(line)
+
+    failed_blobs: Set[str] = set(failed_blobs)
+    print(f'Number of failed blobs {len(failed_blobs)}')
+    for blob in failed_blobs:
+        src = blobs_dir.joinpath(f'{blob}.java')
+        dst = new_blobs_dir.joinpath(f'{blob}.java')
+        try:
+            copyfile(src, dst)
+        except FileNotFoundError as e:
+            print(f'For blob {blob}, {str(e)}')
+
 
 if __name__ == '__main__':
     add_java_in_file_name()
+    # not_retrieved_blobs()
     # remove_java_in_file_name()
     # datasets_intersection()
     # datasets_messages_intersection()

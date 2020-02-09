@@ -101,8 +101,6 @@ def write_to_file(file: Path, to_write: str) -> None:
     with open(file, 'w') as f:
         f.write(to_write)
 
-def my_print():
-    print('hello')
 
 def run_perl_script_and_parse_result(ref: Message, pred: Message, perl_script_path: str) -> Optional[BleuResults]:
     # write pair to file
