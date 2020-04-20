@@ -2,12 +2,15 @@ import os
 import random
 import string
 
+import nltk
 import numpy as np
 import matplotlib.pyplot as plt
 from dataclasses import dataclass
 from parse import parse
 from pathlib import Path
 from typing import List, Optional
+
+from subprocess import PIPE, Popen
 
 from code2seq_dataset.global_vars import Message
 
@@ -110,8 +113,14 @@ def run_perl_script_and_parse_result(ref: Message, pred: Message, perl_script_pa
     write_to_file(pred_tmp_file, pred)
 
     # run script
-    output = os.popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}').read()
-
+    # from bleu import file_bleu
+    print(nltk.translate.bleu_score.sentence_bleu([ref], pred) * 100)
+    # print(file_bleu([ref_tmp_file], pred_tmp_file))
+    # output = os.popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}').read()
+    p = Popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}', shell=True, stdout=PIPE, stderr=PIPE)
+    output, _ = p.communicate()
+    output = output.decode()
+    print(output)
     # delete tmp files
     try:
         ref_tmp_file.unlink()
@@ -143,3 +152,20 @@ def get_bleu_score_for_each_pair(references: List[Message], predictions: List[Me
             print(f'Smth went wrong for ref: {ref}, pred: {pred}')
 
     return result
+
+
+def get_nltk_bleu_score(ref: str, pred: str) -> float:
+    return nltk.translate.bleu_score.sentence_bleu([ref], pred) * 100
+
+
+def get_nltk_bleu_score_for_corpora(refs: List[str], preds: List[str]) -> float:
+    total_bleu = 0.
+    for ref, pred in zip(refs, preds):
+        total_bleu += nltk.translate.bleu_score.sentence_bleu([ref], pred) * 100
+    return total_bleu / len(refs)
+
+
+if __name__ == '__main__':
+    run_perl_script_and_parse_result('111 111 111 111', '111 111 211 111', 'bleu/multi-bleu.perl')
+    print(get_nltk_bleu_score('111 111 111 111', '111 111 211 111'))
+    print(get_nltk_bleu_score_for_corpora(['111 111 111 111'], ['111 111 211 111']))
