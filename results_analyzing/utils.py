@@ -166,6 +166,6 @@ def get_nltk_bleu_score_for_corpora(refs: List[str], preds: List[str]) -> float:
 
 
 if __name__ == '__main__':
-    run_perl_script_and_parse_result('111 111 111 111', '111 111 211 111', 'bleu/multi-bleu.perl')
-    print(get_nltk_bleu_score('111 111 111 111', '111 111 211 111'))
+    run_perl_script_and_parse_result('111 111 111 111', '111 111 111 111', 'bleu/multi-bleu.perl')
+    print(get_nltk_bleu_score('111 111', '111 111 211 111 111 111'))
     print(get_nltk_bleu_score_for_corpora(['111 111 111 111'], ['111 111 211 111']))
