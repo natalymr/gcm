@@ -1,2 +1,1049 @@
 Bleu-score || Original Commit Message || Generated Commit Message
 
+72.611 || add a message to the exception || add a message to the server exception
+48.602 || improve debug logging || remove debug logging
+47.472 || update version to <num> <num> snapshot || update version to <num> <num> <num> <num> <num> <num> <num>
+38.964 || remove some debug || remove debug logging
+38.964 || remove client debug || remove debug out
+34.212 || do the analyse of path parameter before http entity generation to avoid a path parameter considered as the entity || add a check to make the options of the options to the node to the node to the node to the configuration of the map of the map of the map
+34.032 || add method debug db is server running || add a method to the client server is not server
+33.753 || add default string builder capacity for product update task || add a test to string for the map to the default version
+33.642 || return the id of the scanner when returning the alert through the api || add a info to the the output to the the job to the debugging to the debugging to the debugging to the debugging to the debugging to the debugging to the
+33.642 || removed a notification statement from the method extension history add history history reference as the list was already notified when that statement is reached || add a null to the the not the call to the the call to the the call to the the current of the activity to the the activity of the activity
+33.642 || add change to commit files test to increase stability || add test case to the manifest of the manifest of the manifest of the manifest to the manifest to the manifest to the manifest to the manifest to the manifest name
+33.642 || add unique debug ids for editor sections in the preference menu || add log to log to debug the debug of the save to the the debug to the editor to the editor to the editor to the editor to the editor to
+33.620 || give correct number of parameters to debug log message || add log to the debug of the debug to the the debug to the debugging to the debugging to the debugging to the debugging to the debugging to the debugging
+33.598 || removed the expr rest from the not with parens since it should not expr the rest || add a check to the code of the simple not the call to the local of the configuration of the configuration of the configuration of the configuration of the
+33.494 || reduced the number of is connected calls in abstract channel to string || don t show the string to the the necessary is not the one is not the line
+33.493 || set default value to <num> seconds that is what all installers seem to be setting the value to || add a test to the the rule of the method to the the default of the method of the editor of the editor
+33.245 || add test case for my sqlcapability flag || add test case to fix test test
+33.066 || deactivating mout flags in the ui when web dav is used || set the default icon when the overview to the the default is not the the one the the set to the the the set to the the the set to the
+33.066 || add default monitor count attribute for build new business config || add a new set to the the options to the the options to the the default to the the default to the the options to the the default to the the
+33.066 || apply the patch for bz <num> that was applied to <num> x || add a missing to string to the the job of the call to the the job that the the called to the the job if the the the the the call
+33.066 || porting fix to allow for a forward include to call get attribute names on the request in a sandbox || add method to ensure the configuration of the configuration of the configuration to the the string to the default to the default to the default to the default of the default
+33.066 || add small pre set up to sample application || add a new to set the set the the set to the the set to the the set to the the set to the the set to the the set to
+33.066 || fix a bug with the disappearing animation for the notification || add a text to the the not the code to the the necessary of the editor the not the necessary to the the the default to the the the default of
+33.066 || changing process instance post webscript from start process instance by key back to start process instance by id || add missing info to the log of the user of the start to the start to the start to the start to the log to the log to the log to
+33.066 || add missing metadata of new alerts notification channel || add a new method to the the right the the save to the the op the the the the the the method to the the op of the editor to the
+33.066 || activate assertion on perf test of file sources persistence || add a test to the log to the the job of the file to the the file to the the file to the the file to the the file to the
+33.066 || revert perspective fix world to canvas to convert from local to scene coords correctly || add a new to string to the the default of the the one to the the the one to the the the the one to the the the the one to
+33.066 || add template stacks to openshift platform in the resources || add the user to the the title to the the two of the save to the the two to the the two to the the save to the save to the
+33.066 || check a full name instead of just the class suffix as a single is no longer valid in jdk <num> and mabye <num> || add a new method to the the method to the the job to the node to the node of the configuration to the the default to the the default to the
+33.066 || fix a potential race condition where the worker thread of global event executor terminates with a pending task || add a missing call to the the thread to the start to the start to the start to the start to the start to the node to the node to the
+32.902 || align mockito after with mockito timeout to take a long instead of int || add a test to make the options of the method to the the op of the method to the the op of the editor of the corresponding
+32.860 || add missing thread name in request processor when servlet <num> async is used || add a test name to the the thread of the job that that the the local thread to the the thread to the the set set
+32.719 || renaming test method from stage to case || add test case to be load changes
+32.689 || fixed a bug where a dynamic buffer s reader index goes out of sync on expansion || add a index to the the not set the not set to the the call to the the op of the object
+32.647 || add support for burning stews to cooking plugin <num> <num> || add missing message to the current message to avoid the current of the call for the right to the the image
+32.647 || add missing parameter when delegate to sslengine || add a missing method to the the method to the the op of the graph is the method for the code
+32.560 || add unsolved symbol exception get name || add a getter to get the name name
+32.560 || add postgre sql test for database type test || add test case to test server is test
+32.560 || add forgotten session close in the dao test || add a test to set the better method
+32.525 || forgot one place in commit fa <num> b <num> ci skip || hive <num> hive exception in not hive <num> sergey exception reviewed by prasanth jayachandran reviewed by xuefu zhang
+32.525 || remove unused method terminal node impl is error node || add a method to the node method to get the the method of the node of the node
+32.487 || fixed a typo test equans ignore case test equals ignore case || add test case to allow with the configuration of the line of the line of a tests
+32.484 || hive <num> iso <num> <num> text output has fragments of previous longer rows appended yongzhi via xuefu || add a new string to the the method to the the rule to the the default of the the the text to the the default of the editor to the the
+32.484 || adding id suffix to mount name || add a new name to the the default of the save to the the default the the save the the save to the the the the one to the the the
+32.484 || fixed a really bad thing in the last commit || add a login to the the method to the the current method to the the save to the the save to the editor to the editor to the editor to the
+32.484 || allow specification of config file on the command line || add a test to the the not the call to the the method to the the op to the the op to the the op of the the op to the
+32.484 || verify <num> guard log statement rule and guard debug logging rule broken for log <num> j <num> || add log to the log of the file to the the log to the log to the log to the log to the log to the log to the log to
+32.484 || moved boolean inversion to controversial ruleset until i can look at it a bit more || add a new to the the method to the the thread to the the op to the the op of the graph to the the op of the the the the
+32.484 || putting together the new clone ruleset || add a new to set the the save to the the right to the the current the the method to the the op to the the op to the the op
+32.484 || remove unnecessary code output stream and writer should both be null at the start of request processing || add a info to the the call of the call to the the file to the file to the file to the file to the file to the file to the
+32.484 || add support for secure random to cluster manager template || set the default thread for the right to the the set the the set to the the default to the the default to the the set to the the set to
+32.484 || missed a keystore in the refactoring || add a new to the the call to the the options to the the file to the the file to the the file to the the file to the the file
+32.484 || add support for max active sessions attributes to backup manager || add a check to the the call to the the call to the the call to the the call to the the call to the the call to the the call
+32.484 || remove class that was remove in refactoring will probably need to add replacement || add a new to string to the the file of the call to the the job to the the job to the the job to the the file to the the
+32.484 || replace string buffer with string builder || add a string to the string to the the string to the rule to the default to the default to the default to the default to the default to the default
+32.484 || add support for string type || add a check to the preconditions to string to the the string to the the default of the the string to the the default to the the default of the string
+32.484 || use a different internal mockito class for static method invocation || add a info to the method to the configuration to the configuration to the configuration to the configuration of the configuration of the configuration of the configuration to the configuration to
+32.484 || use a more precise diagnostic position for method can be static || add a new parameter to the the method to the the method to the the op of the the the op to the the op of the the the the method
+32.484 || add init code hash || add a missing code to the the map of the method to the the field to the the field to the default of the object of the object of the object
+32.484 || alter parent type from bytes to string || add a missing string to the the string to the the rule to the the the string to the the string to the the string to the the the string to
+32.484 || add sort method || add a missing code to the the code to the the op to the the method to the the field to the the field to the the field of the the
+32.484 || add convenience method builder add comment || add method to get the default of the string to the the default of the debugging of the debugging of the debugging to the the default of the debugging of the
+32.484 || add anaconda <num> to search path || add a test to the the rule of the rule to the the default to the default to the default to the default to the default to the default to the
+32.484 || implement the fix of <num> for python targets || add a new string to the the method of the rule to the the default to the default of the rule of the property of the property to the the default
+32.484 || fix test compile error by avoiding string literal assignments for the large lexer test || add a test to the the rule of the line to the the job to the the rule of the rule of the rule of the rule of the rule of
+32.484 || tweak tree viewer layout since the zoom slider only affects the visual layout || add a new to set to the the options to the the options to the the default to the the default to the the default to the the options to the
+32.484 || added a way to rollback all release steps || add a test to set the method to the the op to the the op to the the op to the the method to the the op to the the method
+32.484 || include correct redirection messages in the har list returned by the api || add a missing to string to the the call to the the call to the the job to the the job to the the job to the the call to the
+32.484 || add null point check before send message with namespace || add a check to the the not not set to the call to the the call to the the job to the the job to the the job of the call
+32.484 || add sample application with the form engine || add method to set the string of the string to the the string to the the field of the editor of the editor of the editor to the the default to
+32.484 || add a compiler option in compilation test correct builder that should fix a test failure that only occurs on travis || add test to the host of the host of the configuration of the configuration of the local of the use of the use of the use of the use of the
+32.484 || update parameter description of api l <num> n index || update the link to the the port of the time to the manifest to the manifest to the manifest to the manifest to the manifest to the include to the include
+32.484 || update description of created at parameter of api issues search || add a test to the examples to the examples to the job job to the the local of the time of the time of the time of the time of the
+32.484 || delete tests in index when indexing at the end of an analysis sonar <num> || add a test to make the the string to the the string to the the string to the the string to the default to the default to the default of the
+32.484 || add barbarian assault quick start option to menu entry swapper || add a new to string to the the right to the the the call to the the call to the the call to the the call to the the call to
+32.484 || add trade with swap to menu entry swapper || add a new to string to the the options to the the default to the the save to the the job to the the call to the the call to the
+32.484 || add tablet creation animation to idle notifier || add a missing to set to the set to set the app to the the op of the save to the the app to the the app to the the app
+32.484 || add support for mod public chat to chat commands || add a missing message to the the not set the not set to the the set to the the not the set of the the set of the the one of
+32.484 || add default highlight for game messages to fix daily task message colour || add a method to the remote app to the new method to the new method to the the app of the editor of the editor to the the app of the
+32.484 || add commas to ground item quantities || add a new to string to the the title to the the default to the the default the the save to the the the the save to the the the save
+32.484 || fix a bug in the che gwt maven plugin that prevents rh che to build with upstream master <num> || add the correct version to the the rule to the the version to the the version to the the version to the the version to the the version to the the
+32.484 || add text for the delete key code || add a missing parameter to the the field of the the file to the the file of the file to the the default of the collection to the the default to
+32.484 || add clear method || add a method to set the method to the the op to the the op to the the op to the the op to the the op to the the op
+32.484 || add return to generated javadoc for shared pref methods || add a missing to string to the the name of the line to the the job that the the line to the the default to the the default of the editor
+32.484 || add constructor validation to eintent service || add a check to the the not not the method to the the call to the the op to the the op to the the op to the the op to
+32.484 || add aa version in initialize log || add log to the manifest of the manifest of the manifest of the manifest of the manifest to the manifest to the local to the local to the local to the
+32.484 || fixed the filename of the log files in threaded mode <num> || add a debug to the the call to the start to the start to the start to the start to the start to the start to the start to the start
+32.484 || revert recycle op add entry when ledger ops fails <num> <num> || add a missing code to the the necessary to the the job to the the job to the the op to the the op to the the op to the the
+32.484 || add ignore for scheduling flag to materials v <num> || add test to client of the host of the configuration of the configuration of the configuration to the node of the options of the options of the options to the node
+32.425 || fix the layout of some generated go code || add a string to the string to the the rule to the the rule to the the string of the string to the the default of the string to string
+32.422 || add test for method injected rest services || add a test to set the method is not the context is not the api
+32.407 || add sonwflake idgen impl fun get string key with override || add override to get the op of the new method
+32.397 || removed the extra added in the previous revision that led to compilation error || add a method to make the output of the file name for the debugging
+32.380 || remove print statck trace || remove debug print trace it it it is t be stack issues issues
+32.380 || adding a human readable name to the server interface || add a getter to make the string to string the string
+32.380 || make suppliers type from string more null hostile || add a null to string the string type for a null
+32.380 || implemented the ability to add tags from passive scanner scripts || add method to set the request method to be the id
+32.302 || add testcase for issue <num> || add test to verify of the json of the resolved to the resolved in the resolved created by moe https github moe google moe moe migrated revid <num>
+32.238 || remove deprecated world point to point method || add a method to make the get the method to the the op to the the op to the the op of the editor of the method
+32.104 || generate method stub so external calls directly to lr rules do not require the precedence argument || add a message to the output to the the rule of the rule to the the default of the rule to be the default url
+32.090 || hive <num> extra tez session is started during hive server <num> startup thejas nair reviewed by vikram dixit || hive <num> hive with hive <num> hive <num> test server server server server aihua reviewed by thejas xu
+32.033 || troubleshooting the c part of this || add getter to get the map of the default of the first of the first of the context of the context of the context
+31.960 || revert hive <num> unable to process comment line in hive <num> <num> chinna via xuefu || add a check to the surface of the line to the the job that the the line of the line is the case
+31.960 || hive <num> unable to process comment line in hive <num> <num> chinna via xuefu || add a check to the surface of the line to the the job that the the line of the line is the case
+31.960 || modify the login name || add a new string to the the default of the save to the the job name google google p p issues cassandra <num>
+31.960 || add method for attaching clear listener to icon text field || add a login to save to jetpack event to calling the activity activity to the the database to the the app to the
+31.894 || hive <num> cbo calcite return path missing types in average type value size method in hive rel md size cbo branch jesus camacho rodriguez reviewed by ashutosh chauhan || add a return to the surface to the the default of the right to the the one to the the one to the the one to the the one to the
+31.894 || hive <num> wrong check of version format in test web hcat e <num> e get hive version damien carol alexander pivovarov via thejas nair || update the user to the the manifest of the manifest to the manifest to the feedback to the feedback to the feedback to the feedback to the feedback to the feedback
+31.894 || hive <num> generate error message doesn t handle null ast properly rahul palamuttam via gunther hagleitner || add a null check to the null to the the field to the the job of the line to the the default to the the default to the the default to
+31.894 || hive <num> regression for hcat commandline alter view set tblproperties sushanth sowmyan reviewed by thejas nair || add correct to set to the the title to the the current the one to the the current the one to the the current the one to the the current the
+31.894 || hive <num> hive <num> removed partition get partition brock reviewed by szehon || add a getter to get the path get the method to get the method to get the method to the the method to the the method to the the method to
+31.894 || hive <num> cannot alter table to parquet vasanth via xuefu || add a missing to string to the the the one to the the the call to the the call to the the call to the the call to the the call
+31.894 || updating samples to reflect recent changes || set the default of the save to get the new method to the the media method to the the op to the media method to the the save to the media
+31.894 || remove too generic test vectors which make the test fail || add a missing to save to the the login to the save to the save to the save to the site to the site to the site to the site to
+31.894 || add sqlite dependency || add a info to the the info of the name to the the job of the client of the client of the client of the client to the the job to
+31.894 || add attribution || add a check to the surface of the line to the the line that the the line to the the default to the the default to the the default to the
+31.894 || modify the tag || add a test to the the rule of the method to the the op of the editor of the editor to the the default to the the default of the editor
+31.894 || modify the cat nav || add a test to the the server of the line to the the job of the file of the client of the system to be the file of the file of
+31.894 || modify the processor || add a new to save to disable the title to the the screen to the the site to the the app to the the app to the the app to the
+31.894 || modify the problem || add correct to set to the the default to the the default to the the default to the the one the the save to the the current the one to the
+31.894 || modify the domain filter || add a check to the surface to the the one to the the one to the the the the method to the the default of the list of the first to
+31.894 || modify the phoenix agent || add a missing code to the the current method to the the job of the the job to the the job to the the job to the the job to the
+31.894 || modify the sql || add support to get default of the configuration of the configuration to the default to the default to the default of the default to the the default of the default of
+31.894 || refactor the time helper || add a test to the number to the the job of the client to the node to the the thread to the the thread to the the thread to the the
+31.894 || refactor the transaction || add a test to the the port of the call to the job to the the job to the the job to the the job to the the job to the
+31.894 || modify the metric || add a new to string to the the default to the the default to the the default to the the default to the the default to the the call to the
+31.894 || fix the client too many child bug || set the default of the right to the thread to the the thread to the the thread to the the thread to the thread to the thread to the thread to
+31.894 || modify the record || add a missing to string to the the right to the the the default to the the default to the the default to the the default to the the default to
+31.894 || modify the log name || add a test to the rule of the rule to the the job to the rule to the rule to the rule of the rule of the rule of the rule
+31.894 || fix the metric graph creator || add a missing to set the title to the the current of the set to the the the one to the the the empty to the the the empty to the
+31.894 || fix a bug for send mail || add a new to string to the the title to the the current the the the one to the the the the the the title to the the the the the
+31.894 || modify the login jsp || add support to get default of the configuration of the configuration to the default to the default to the default of the default to the the default of the default of
+31.894 || modify the host info || add a missing to string to the the default to the the the method to the the call to the the op to the the default to the the default to
+31.894 || modify the config manager || add a test to the server to the server to the server to the server to the server to the server to the server to the server to the server to
+31.894 || modify the cat || add a missing to string to the the uid to the the default to the the the save to the the save to the the save to the the app to
+31.894 || delete the app page || add a missing call to the the call to the the call to the the op to the the op to the remote the the editor to the editor to the
+31.894 || modify the tese case || add a new to string to the the method to the the deprecated to the the deprecated to the the default to the the default to the the default to the
+31.894 || modify the default display || add a set to the the not set to the the call to the the job that that the the necessary to the the job to the the the set to
+31.894 || modify the metric config manager || add a missing to the call to the the job to the the job that that the the save to the the job to the the job to the the job
+31.894 || modify the jsp || add a new to string to the the title to the the default to the the the save to the the the method to the save to the the file to
+31.894 || modify the alertconfig || add a new to string to the the title to the the action to the the default to the the default to the the default to the the default to the
+31.894 || modify the testcase || add a test to the the port of the help to the the deprecated to the deprecated to the deprecated to the deprecated to the deprecated to the deprecated to the
+31.894 || rename the remote ip name || add a little to string to the the server to the the job to the job to the job to the node to the manifest to the manifest to the server
+31.894 || fix bug date format in state analyzer test || add test to the manifest of the manifest of the manifest of the collection of the collection of the local of the local of the local of the local of the
+31.894 || modify the problem stack || add a check to stop the the save to the start to the exist to the exist to the exist to the process to the process to the process to the
+31.894 || modify the dependency topology graph || add a check to stop the the save to the start to the exist to the exist to the exist to the process to the process to the process to the
+31.894 || add topology graph full screen || add a check to stop the the save to the start to the exist to the exist to the exist to the process to the process to the process to the
+31.894 || modify the server config || add a method to the the method to the the op to the the method to the the method to the the method to the the method to the the method
+31.894 || modify the cross show problem || add a new icon to the the title to the the default of the save to the the the save to the the job to the the default to the the
+31.894 || modify the task time || add a test to the the number of the the call to the the call to the the document to the the default to the the default to the the default
+31.894 || modify the datasource || add a new to the the call to the the call to the the current the the call to the the current the the call to the the job to the
+31.894 || missing a || add a test to make the options to the the field of the collection to the the default the the string to the the default to the the default to the
+31.894 || added new rule numeric literal covention || add a new to string to the the title to the the default to the the default to the save to the save to the save to the manifest to the
+31.894 || fix bug with get image overriding || add a hash to the the method to the the default to the the the the method to the the default of the image to the the the the the one
+31.894 || add constants in interface rule effective java <num> || add a new to the options to the options to the options to the options to the options to the options of the options of the options to the the use
+31.894 || remove deprecated rules || add a new to the section to the examples to the examples to the examples to the the job to the the deprecated to the the options to the the options
+31.894 || add rule for unnecessary boolean in conditionals espressions || add a new to the aec to the aec to the action to the action to the default to the default to the default to the default to the the default
+31.894 || add unreachable code rule for ecmascript || add a test to the the options to the the deprecated to the deprecated to the deprecated to the deprecated to the save to the the deprecated to the save to
+31.894 || remove a double entry || add a check to the preconditions to the the job of the list to the the one to the the one to the the the the one to the the one
+31.894 || added a couple releases || add a new to string to the the call of the manifest of the call of the call of the node of the node of the node of the map of
+31.894 || added a new method as suggested by ole martin || add a check to the the map of the call to the node to the node of the configuration of the name of the node of the node of the node
+31.894 || adding finally test || add test to the configuration of the configuration of the configuration of the configuration of the local of the local of the rest of the rest of the rest of the
+31.894 || add hints about warning kind <num> || add a missing message to the the job of the job to the the job that that the the node to the the the player to the the the player to
+31.894 || amend hbase <num> region server writes invalid meta entries in some circumstances || add log to the server of the debug to the manifest to the job to the job to the server to the local to the local to the local to the
+31.894 || disable one test || add a test to the the port of the call to the the job to the the job to the the job to the the file to the the file to
+31.894 || correct the backup node selection logic that node <num> is returned twice consecutively || add a check to the the op to the the call to the the op to the the op to the the op to the the op to the the op
+31.894 || add class that replaced url || add a new to string to the the title to the the title to the the the the the the the method to the the the the title to the the
+31.894 || add seed name mapping fixes <num> failures || add a check to the the not not the call to the the op to the the the method to the the the the method to the the default to the
+31.894 || use the constant || add a missing to the extra to the the thread to the job to the job to the job to the job to the start to the client to the client
+31.894 || use new attribute name || add a new to save to the the options to the the save to the the save to the the save to the the file to the save to the save
+31.894 || remove reference to deleted class || add a missing to the the call to the the call to the the current the the save to the the save to the the job to the the job to
+31.894 || revert changes as root cause of issue appears to be strangeness in my build environment || add a new to the icon to the the title to the the current the title to the the current the the save to the the the save to the the
+31.894 || adds icu currency to immutable whitelist || add a new to string to retrieve the title of the action to the the default the the save to the the the the the the one to the the the
+31.894 || adding icu <num> j ulocale to well known immutable whitelist || add a new to string to retrieve the title of the action to the the default the the save to the the default the the save to the the default the
+31.894 || add batch || add a test to set the not the set to the the method to the the op to the the op to the the op to the the default to the
+31.894 || add initialize parameters with values || add a test to make the options to the options to the the field of the options to the the document of the the default to the the default to the
+31.894 || modify set index for items || set the default of the save to the the set of the save to the the set to the the set to the the set to the the set to the
+31.894 || get table rule by actual table name || add the correct to string the rule to the the rule to the rule to the rule to the rule to the rule to the rule to the rule to the
+31.894 || wait test || add a test to the the options of the linter to the the default to the default to the default to the default the the default of the default of the
+31.894 || fix the first vote bug || add a set to set the set set to the the set to the the set to the the set to the the set to the the set to the the
+31.894 || add fee when build shielded transaction || add a little to string to the the rule of the action to the the job that the the beginning to the the default to the the default to the the
+31.894 || set abi string || set the logging to the the job of the client to the start to the job to the job to the the job to the the job to the the job
+31.894 || set level compaction dynamic level bytes with true || set the correct time for the time of the time to the node to the node to the node to the node to the node to the local of the local
+31.894 || add lastest block number field || add a test to the the time to the the time to the the time to the time time to the time time to the the time time to the the
+31.894 || add some interface || add a set set set set to the the thread of the set to the the job to the the job to the the job to the the job to the
+31.894 || add some interface || add a test to set the options of the right to the set to the the op to the the op to the the op to the the op to the
+31.894 || add todo info || add a test to the the not not the method to the node to the node of the configuration to the node of the node to the the node to the
+31.894 || fix bug set result || set the default of the the one to the the thread to the the job to the the job to the the job to the the job to the the job
+31.894 || fix bug for set result || set the default of the the one to the the thread to the the thread to the the job to the the job to the the job to the the job
+31.894 || add log for sync solidity block || add a missing message to the the job to the the job to the the job to the the the call to the the current the the call to the the
+31.894 || add genesis block into recent block store || update the current block to the wait of the wait of the call to the the call to the the time to the the time to the local time to the
+31.894 || fix the dup trans error || add a new to the the call to the the options to the the call to the the call to the the op to the the op to the the op
+31.894 || add lock for dialog optional || add a return to string to the the code to the the default to the the the the method to the the the the method to the the the the the
+31.894 || modify travis yml test rm db file || add test case to the host of the line of the line of the line of the line of the function of the function of the function of the function of
+31.894 || add stetho || add a missing to the reference to the the thread to the the call to the the call to the the call to the the call to the the call to
+31.894 || update javac options during testing to address overly verbose warnings || add a test to the the rule of the manifest to the deprecated to the deprecated to the deprecated to the deprecated to the deprecated to the deprecated to the deprecated
+31.894 || use single int alt in generated code instead of a new alt choice unique id for each plus block and star block || add a check to ensure the not set the not set to the the set to the the call to the the op to the the op to the the call
+31.894 || update bug || update the user of the the updated of the save to the the call to the the call to the the call to the the call to the the local to
+31.894 || add map not null || add a string to the the title to the the title to the the title to the the the title to the the the the title to the the the the
+31.894 || simplify string utils || add a check to the null to the the string to the the string to the the default of the string to the the default of the string to be the
+31.894 || send crash reports when debug version only || add a new version to the the get the the name to the the name to the the name of the property of the collection of the property to the the
+31.894 || fixed a failing test fixed issue <num> || add test case to the host of the stop to the the call to the the options to the the options to the the options to the the options to the
+31.894 || add open jdk <num> compatibility || add a missing to string to the set to the the title to the the necessary to the the the call to the the necessary to the the one to the
+31.894 || keep all entries when decoding a user || add a string to the the string to the the rule to the the rule to the the string to the the default of the rule to the the default to
+31.894 || log the home directory used by zap || add a little to the port to the the job of the manifest to the the job to the the job to the the job to the the job to the
+31.894 || correct the order of parameters when processing urls found in meta tags || add a string to the aec to the the default to the the default to the default to the default to the default to the default to the default to the
+31.894 || commented out the not working tooltip line || add a new text to the the options to the the job of the save to the the save to the save to the save to the save to the save
+31.894 || remove test duration || add a test to set the options of the options to the the options of the options of the set to the the document to the the document to the the
+31.894 || remove dependence of group entity on save group cmd command for the identity service impl class || add a test to the the not the call to the the call to the the thread to the the thread to the the thread to the the thread to the
+31.894 || using bpmn <num> xml as extension for some reason git ignores the bpmn file || add a string to retrieve the string of the method to the the method to the the method to the the method of the editor to the the method of the
+31.894 || add null check for release download url || add a missing message to the the file to the the file of the file to the the file to the the file to the the file to the the file
+31.894 || do not hardcode version of sonar scanner in integration tests || add a test to the server to the the server of the configuration to the the configuration to the server to the server to the server of the server to the
+31.894 || ensure component in not null on an issue location to prevent npe at runtime || add a check to the preconditions to the check to the job to the node to the configuration to the configuration to the configuration to the node to the node to
+31.894 || remove a selenium test because of fp || add a new to save to the title to the the title to the the save to the save to the save to the save to the save to the save
+31.894 || allow server side plugins to use javax servlet || add a new to the title to the the title to the the deprecated to the save to the manifest to the manifest to the the default to the the default
+31.894 || update the test we are expecting that search is started before web || add a missing call to the the call to the the job to the the call to the the call to the the call to the the call to the the
+31.894 || improve reentrancy of insert projects authorization updated at migration || update default to the host of the update of the update update to update the update to update the time to update the time to update the time to update the
+31.894 || fix my batis tests for oracle properties dao test resource indexer dao test || add a test to the the string to the the method to the rule to the rule to the rule to the rule to the rule to the rule of the
+31.894 || fix bug in construction of in memory pom || add test to ensure of the host of the configuration of the configuration of the configuration of the local of the local of the function of the function of the function
+31.894 || shorten nmz overlay text to prevent overlapping <num> || add a new to the the title to the the title to the the default to the the default to the the default to the the default to the the the
+31.894 || remove empty or null text check from infobox overlay || set the text of the text to the the the text to the the the text to the the text to the the text to the the the text to the
+31.894 || add kebos wieldable rods to fishing plugin <num> || update image to the theme to the the background is not the image to the the image is not the image to the the image to the the image to the
+31.894 || add idle notification for mixing ultracompost <num> || update the app to the the current the the notification to the the the notification to the the notification to the the notification to the the notification to the the notification
+31.894 || add sand collection to idle notifier || update the app to the the app to the the the notification to the the the notification to the the notification to the the notification to the the notification to the
+31.894 || propagate height to ground items || add a new to the the title to the the title to the the title to the the save to the the two the the save to the the two the
+31.894 || update tooltip for grand exchange panel icon to grand exchange <num> || add a new to save to the the options to the action to the action to the the default to the the default to the the default to the the default
+31.894 || add low memory mode warning || add a method to the hidden to the default to the the background of the editor to the editor to the editor to the editor to the editor to the editor
+31.894 || add cannonball smithing animation || add a bg to the the title to the the notification to the the notification to the the notification to the the notification to the the notification to the the notification
+31.894 || add hidden config option || add a new icon to the the op to the the current flag to the the call to the the current the save to the the op to the the op
+31.894 || enable gl depth test || add test case to the host of the test of the test to make the the local of the local to the the local to the the options of the the
+31.894 || fixes a bug in class class path it was reported in issue <num> || add a string to the the string to the the method to the the rule to the the string to the the default of the string to the the default of
+31.894 || fix the already pushed fix for clj <num> || add a check to make the surface the the set to the the op to the the op to the the the the method to the the op of the the
+31.894 || set mime type to get syntax coloring || add a new to the the title to the the title to the the save to the the save to the the save to the the file to the the file
+31.894 || remove extra steps from split editor feature test selenium test <num> || add test case to the manifest of the post of the save to the the local to the manifest to the manifest to the manifest to the manifest to the manifest
+31.894 || add workaround for fix issue https github com eclipse che issues <num> <num> || add a check to the the thread of the save to the the thread to the start to the activity to the activity to the activity to the activity to the
+31.894 || fix test which periodically failed <num> || add a test to the the thread to the the call to the the call to the the call to the the call to the the call to the the call
+31.894 || add testcase for issue <num> https github com alibaba fastjson issues <num> || add test to set that is not t have the default to the node of the configuration of the configuration of the configuration of the rest of the rest of the
+31.894 || remove unnecessary jexpr lit call || add a missing call to the the line to the the job to the the file to the the file to the the file to the the options to the the
+31.894 || fix any type in base param validator || add a type to the method to the the default of the method to the the type of the method of the method of the type of the type of the
+31.894 || add information about enclosing element in crash report || add a check to the code to the the field to the the deprecated to the default to the default of the configuration of the collection of the collection of the
+31.894 || resolve a null pointer ex <num> || add a string to the the rule of the method to the the default to the default to string to the default of the string of the editor of the string
+31.894 || set not just resource requests but also limits <num> || set the default of the save to the the default to the the default to the the default to the the default to the the set to the the set to
+31.894 || add athenz role header property <num> || add a new to string to the the rule to the the file to the the the file to the default to the the file to the default to the default
+31.894 || fix the gocd agent log dir system property name || add a debug to the the extra to the the file to the manifest to the manifest to the manifest to the debugging to the debugging to the debugging to the
+31.894 || remove multiple calls to record leak non ref counting operation in advanced leak aware byte buf for each byte desc || add a hash to the surface to the the value of the first of the value to the the set to the the set to the the one to the the
+31.894 || use single class as discussed in the pr comments || add a new to set the the save to the the set to the the op of the the the the set to the the op to the the op to
+31.884 || avoid a static reference to auto value || add a check to the the name of the call to the the name to the the name of the name name
+31.884 || issue <num> hide unused tabs dont set panels visibility as this messes up the ui || add set to set icon to the focus to set the background to set the background to set the background to save
+31.884 || update banner view java || add correct to update bar to the view of the view of the save to the the view is not the image
+31.884 || add quest to quest screenshots || add a check to the surface to string the the string to the the string of the file of the editor url
+31.817 || hive <num> cannot start metastore thrift server on a specific port bc wong via namit || add a new parameter to the the op to the the method to the the op of the the op of the the op of the editor the the editor
+31.817 || add return value || add a new method to the the method of the method to the the file of the the the the one of the the type of the list of the
+31.817 || replace concatenation in log message with parameters <num> || add log to the debug of the start to the start to the job that the the local of the command of the debugging to the debugging to the debugging
+31.817 || modify documentation of simple camel call || add log to the log of the save to the the log to the log to the log to the log to the log to the log to the log
+31.817 || improve logs of database server compatibility || add log to the debug of the start of the start to the start to the start to the start to the start to the the log to the the
+31.817 || update center server fix log || add log to the log to the the file to the job to the client to the default to the default to the default to the default to the default
+31.806 || add additional unit test for empty tokens block in grammar || add test case to the test of the string of the string of the function of the function of the function
+31.806 || setting process instance id fix || fix bug in launcher id <num> <num> <num> <num> <num> d <num> f <num> d <num> d <num> d <num> <num>
+31.806 || remove unnecessary item from the check list in the server runtime info test <num> || add a missing to save to the the thread to the the job that that the the local has the called
+31.736 || modify the dependency analyzer || add support for the value of the configuration of the configuration of the configuration of the configuration of the configuration of the configuration of the configuration of the configuration
+31.736 || replace register for event with equivalent call that makes register for event unused || add a missing call to the the thread to the start to the start to the exist to the process to the exist to the process the the called
+31.736 || remove hardcoded es http port in test || add a test to make the the method to the the deprecated to the the deprecated of the method to the the op of the object of the object
+31.725 || add test for null in constructor <num> || fix test <num> <num> <num> <num> <num> e <num> e <num> e <num> d <num> d <num> <num> <num> <num>
+31.725 || fix bug <num> reset the using writer and associated flags when the response is reset || don t set the set not the thread of the thread of the thread of the thread of the thread
+31.725 || improve reliability of upgrade test || add a test case to the server server to the local map is not the local of the local node
+31.725 || add missing varparam to super call when overriding || add a check to the check to the the method that that the not the called that is the code
+31.653 || modify the test || add a missing reference to the the map to the the field to the the op of the the op of the the op of the the op
+31.653 || handle max working threads || set max default to <num> <num> <num> <num> <num> <num> <num> <num> f <num> f <num> d <num> d <num> d <num> d <num> d <num> d <num>
+31.653 || change the exception detail || add a message to the error to the the job to the the job to the the job to the the job when the the current the time
+31.641 || add unimplemented method for test || add a getter to the method to string to be the api to the api to be a debugging
+31.641 || add set execute groups || add override to set the set of the set to the the field of the default of the default
+31.641 || modify the offset value from <num> to <num> || fix test <num> <num> <num> <num> <num> <num> <num> <num> e <num> e <num> e <num> d <num> <num>
+31.641 || fix a memory leak in http object aggregator test || fix test <num> <num> <num> <num> <num> e <num> d <num> d <num> d <num> <num> <num> <num> <num>
+31.565 || fix the cat metric api bug || add a string to the string to the the rule to the the default to the the default of the rule of the string of the string
+31.565 || add props for init || add test to the dependencies of the configuration of the configuration of the configuration of the configuration of the local of the local to be the script
+31.565 || add some doc || add test case to the host of the component of the component of the component of the local of the component of the local of the tests
+31.474 || annotate udp test || add test case to allow with the configuration of the configuration of the collection of the rest of the rest of the rest of the rest
+31.474 || add namespace support for transaction message <num> || add a check to the the right to the the set to set the set of the the set of the the set of the editor
+31.474 || show process key duplicate in exception message || add a message to the log to the the job to the the job that the the job that that the the player is the player
+31.474 || add testcase for utf <num> bom || add test to client that is not t have the default of the configuration of the configuration of the local of the local of the store
+31.463 || wrap the root cause rather than just using the message || add error to exception to avoid the exception when the the job when the the current file
+31.463 || adds handling of http only when converting new cookie to string suitable for http set cookie header || don t use the string in the string to the default is the default is not true
+31.463 || set performance monitor to layoutmanager || set the background of the view to the background to set the background to set the background
+31.463 || make boost overlay to change to yellow at threshold || add missing to set to retrieve the default of the first of the first of the first
+31.463 || make nth on subvec throw exception for negative indices || add a exception to the the not not not not not not the method for cassandra <num>
+31.379 || fix a random false negative || add a new string to the the value of the rule to the the default to the the default of the property of the property
+31.379 || fix test failure on mac os || add a test to the the port of the job of the client of the client of the client of the client of the store
+31.379 || add exception || add a null message for the file to the the job to the the job of the player to the the player of the null
+31.379 || gone the overflow menu || add a new icon to save the title to the the background to the the background to save to the save the background to save
+31.379 || add test for failing compilation || add a override to make the the interface to the the method to the the method to the method to the api to the api
+31.379 || remove call to set statistics enabled || disable the default to the default to the default to string that it that we can t have the default to the editor to string
+31.370 || add method abstract db unit test case get database || add a method to make the the collection to the the op to the the method
+31.370 || add modprivatechat to chat command manager || add a missing to set the title to the the current method that the the save
+31.280 || hive <num> multi way left outer join fails in vectorized mode ashutosh chauhan via thejas nair eric hanson remus rusanu || fix bug <num> <num> <num> <num> <num> e <num> e <num> d <num> d <num> d <num> d <num> d <num> d <num> d
+31.280 || hive <num> semantic analysis fails in presence of certain literals in on clause kevin wilfong via ashutosh chauhan || add a check to the surface of the method to the the default to the the default of the editor to be the default
+31.280 || fix test error || add a missing message to the the error of the job to the the job that that the the player to the the player
+31.280 || modify the default page || add a new call to disable the app to be the app of the editor to the site to the the app is destroyed
+31.280 || fix bug <num> use a message that exists || add a missing to string to retrieve the title of the first of the first of the editor of the editor of the editor
+31.280 || fix bug in compilation test helper || add test case to be build of the folder of the folder of the component of the collection of the same of the var
+31.280 || fixed the postgresql test case hikari cp environment issue || set the wait of the wait to the wait to the wait on the thread of the thread of the thread of the rest
+31.280 || replace the docker server ip || add test case to the host of the configuration of the test of the local of the local of the local of the tests
+31.280 || add card switch in update ui || add a login to save the title to the the login to save the the save to the the save to save the destroyed
+31.280 || triggering user event listener using its correct id not the task || add a test to the the method to the the job to the failed to the local to be the local to be failed
+31.280 || fixing oracle qa part <num> oracle schema needs to be uppercase when getting metadata || hive <num> hive with not not not exist in the leading of the leading of the chauhan in ferdinand xu reviewed by xuefu xu
+31.280 || refactoring fix metric mapper key use as it s a keyword in dbms || add a string to retrieve the title of the method to the the string of the editor to the the default of the editor
+31.280 || ignore internet permission check in library project || add a check to the check to the the job that that the the called to the the exist that that the the called
+31.273 || add the default login || add a new name to the the name name for the crowdsound the the database
+31.273 || add the allow change delegation || add a check to ensure the type type in the method for ashutosh chauhan for
+31.273 || add parser is trace fixes <num> || add method to check if the context is not be the method for the method
+31.273 || add recognizer set interpreter || add method to set the app of the activity for the right to the original
+31.273 || do not auto recycler child view in container scroll || set the view view when the view to the the view is not the activity
+31.273 || add alchemical hydra to kc abbreviations || add a convenience to retrieve the title to retrieve the title to be the title
+31.273 || add common hidden items to ground items plugin || add a convenience to retrieve the title to get the title of the editor list
+31.213 || ignore the code || remove unnecessary code
+31.213 || remove one test || ignore test fails
+31.213 || remove exception || remove unnecessary logging
+31.213 || remove unused sysout || remove debug out
+31.213 || remove annotation || remove unused code
+31.213 || remove sout || remove debug out
+31.213 || remove body parameter || remove debug code
+31.213 || adjust unit test || add test case
+31.213 || add verification || add null check
+31.213 || improve code readability || remove unnecessary code
+31.213 || remove profane logging || remove debug code
+31.213 || remove orientation spam || remove unnecessary logging
+31.213 || removed debug output || remove debug out
+31.213 || remove instructions correctly || remove unused code
+31.213 || remove cruft || remove debug output
+31.176 || modify the state analyzer bug || fix bug in max max max max <num> <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> <num> <num>
+31.176 || update javadoc inline tag to text || add a string to the the name to the the name name to the debugging to the debugging to string for the debugging
+31.176 || add vote bean || add a test to make the string of the collection to the the string to the default to the the string to string
+31.176 || fixing bug with activity || add new activity to the activity to get the activity of the activity to the activity to the activity to the activity activity
+31.172 || add interface to get all services || add a method to make the map of the collection of the new api
+31.172 || add karambwan fishing to animation and idle plugin || add current view to the background to the the background is not the background
+31.172 || added a view parameter for test purposes || add a method to the activity activity for the activity to the site activity
+31.172 || returning the entity from request body in update secret config api || add support to get user of the user of the configuration for the config
+31.069 || add method || add a method to make the value of the context of the context
+31.069 || add uuid to exception message when component tree crawling fails || add a missing to the method that the the two the two thread
+31.069 || add tooltip to absorption panel || add a method to retrieve the string to string the string to string
+31.069 || handle the possibility of http <num> with a better error message || add a null to the text if the content is not the text
+31.066 || hive <num> hive variable substitution does not work with the source command anthony via xuefu || add a missing code to the the file of the file to the the file that the the file is the file
+31.066 || add initial capacity for converter factory list || add a size to the surface of the method to the the value of the size of the size of the method
+31.066 || issue <num> support the http sender listener || fix bug <num> <num> <num> <num> <num> <num> f <num> f <num> f <num> d <num> d <num> d <num> d <num>
+31.066 || check new billing files more often every <num> minutes || fix potential npe <num> <num> <num> <num> <num> <num> <num> f <num> d <num> d <num> d <num> d <num> d <num>
+31.066 || add check for clan members <num> when inserting icon || fix bug in launcher <num> <num> <num> <num> <num> d <num> f <num> d <num> d <num> d <num> d <num> <num>
+31.066 || add support for refreshing functions cache in namespace manager || add a missing method to make the options of the graph created moe https github com google moe moe migrated revid <num>
+31.054 || add implementation of is enabled in base annotation handler that defaults to true || add method to check that is not t have the default method
+30.962 || add missing override s || add override to allow that is not be have the op method
+30.962 || issue <num> set the parent in annotation member declaration set name || add a check to the the name name to t the database
+30.962 || use the method provided for changing state || add a missing check to ignore the state of the state state
+30.962 || set settings activity title || add the login icon to the the title to the save activity
+30.962 || improve batch medium tester to allow registration of several metrics || add a method to make the app of the new the method
+30.962 || deprecate rule priority value of string used for upgrading to sonar <num> || add method to get the map of the configuration of the configuration
+30.962 || made ref fn use get rather than current val || add a hash to get the instance of the current the method
+30.951 || hive <num> hive job fails when referencing a view that explodes an array navis via ashutosh chauhan || add a check to the parameter of the method to the the field of the method of the object of the
+30.951 || modify the pom version jdbc || add version to <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.951 || fixed a bug in searching java compiler that was causing a npe || add a method to the the op to the the method to the the file of the graph of the graph
+30.951 || modify broad test || fix test <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> d <num> d <num> <num> <num>
+30.951 || fix test on mswindows || add a test case to the the uri of the file of the path of the local of the local file
+30.853 || add additional test case <num> || add test to the temp log test test test test test
+30.853 || deprecate old method that was used to build jmx names || add method to get the name name to be the null
+30.853 || add alt labels to all alts || add a message to the the message of the output message
+30.853 || add check for null || add a null annotation to the debugging to string the name
+30.853 || add title on model structure activity || add a login activity to the activity to the activity activity
+30.853 || ignore a breaking test || ignore test that fails test on the work on the work
+30.829 || modify the api || add a new string to the the server to the the job that is the server is not the server
+30.829 || add init || add a test to stop the finalizer to the start to the start method for the compiler to the api
+30.829 || issue <num> add another error message hint || add a missing method to the the method method for the right to the the database of the editor list
+30.829 || improve test strengh || add test to the dependencies of the test of the tests of the local of the tests test test test
+30.829 || add support for rune pouch l to rune pouch overlay <num> || remove unused code <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> d <num> d <num>
+30.829 || scoring loopback addresses as <num> in default channel id || hive <num> hive with hive <num> hive <num> t hive <num> sergey reviewed by ashutosh chauhan rodriguez by ashutosh chauhan
+30.829 || fixed a bug where local channel is connected returns a wrong value || fix bug <num> <num> <num> <num> d <num> d <num> d <num> d <num> d <num> d <num> d <num>
+30.743 || add the interface || add a method to make the method of the method
+30.743 || added a get matches to cpd || add a method to make the map of the method
+30.743 || enable bson parser to support a uuid deserializer || add a return to the type to get the method
+30.743 || use the correct method || add missing method to the surface of the set call
+30.743 || add getter setter for role search as user || add a method to the activity activity for the site
+30.743 || update exception message to non deprecated type || improve error message exception null null null exception null null
+30.743 || use rt class for name || add a info to the method for the method name
+30.743 || add missing test for empty string sets using empty braces || add test case to fix <num> test test test test
+30.743 || add timeout to pooled byte buf allocator test || disable test timeout test case test test test test test
+30.743 || remove redundant index check || add check check to index surface not a more one
+30.701 || hive <num> hive multi group by single reducer optimization causes invalid column reference error kevin wilfong via namit || fix bug <num> <num> <num> <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> <num>
+30.701 || modify the cat || add a little to string to the the job of the job of the job of the client client
+30.701 || issue <num> add and use tree visitor visit leaves first || add a test to make the map of the graph of the node of the node of the node
+30.701 || get local name || add the name name to the linter of the configuration name of the right used to t be database
+30.701 || depreciate method || add method to get configuration to get the configuration to be the api to the application to be the
+30.701 || fixed an if statement without braces violation || don t use the size to the the op if the op is not t the one the value
+30.701 || change the exception msg || add a message to the the string of the job to the the job of the file of the
+30.683 || add test case for my sqlpacket codec engine || add test case to be the default test
+30.634 || add storm <num> to changelog || add log to the logging message for the debugging
+30.634 || add the log || add a missing message to the the stack message
+30.634 || fix test compression test since snappy went in || disable test test test test test test test test
+30.634 || remove unintended change from previous commit || remove unnecessary code from the end for the right
+30.634 || add token stream rewriter get source || add method to get the method of the method
+30.634 || add helper to filter measures by rule key || add method to get the map of the method
+30.634 || disable osb prices by default || disable the default of the default is not started
+30.634 || disable camera zoom by default || disable the default of the server is not started
+30.634 || remove the oio oio test cases || remove unnecessary code from the end for the project
+30.564 || hive <num> bug in mapjoin followed by another mapjoin amareshwari sriramadasu via namit || ignite <num> npe fix cache ignite ignite <num> cache join cache join cache join join join join store
+30.564 || modify the config || add a check to the the method of the method to the the deprecated method for the code
+30.564 || add coding style example pls for parsing tests || add test case to the build of the api of the api of the function of the api
+30.564 || add assert get row data || add test case to allow <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.564 || set result set max total <num> || fix test <num> <num> <num> <num> <num> <num> <num> <num> f <num> d <num> d <num> <num> <num>
+30.564 || remove exception in isconstant function || remove unnecessary code <num> <num> <num> <num> t <num> a <num> e <num> <num> e <num> e <num>
+30.564 || fix the gensis block should not be signed and synced || add a new to string to the the rule of the first of the first of the property
+30.564 || skip process automated msgs for http sessions tab || add a check to the the op to get the current reset for the right for the right
+30.564 || adding additional validation to ignored when detached handler as suggested by y delouis || add a check to the check to the check to the local method that is not the called
+30.529 || add setter for server parameter || add a test to make the server server
+30.529 || add proper test || add test case to test case test test
+30.529 || add apollo crash log || add log to log log for the log
+30.529 || update the ant example to contain an error || add a test to make the better used
+30.433 || modify the checkpoint end order || remove unnecessary call in the longer end
+30.433 || add console messagre to mvc || add message message to exception message message
+30.433 || remove unsed code || remove unnecessary code this this this this
+30.433 || remove code || remove unnecessary code in the client client
+30.433 || add missing extensions to core plugin || add a test to the the port
+30.433 || add on long click listener || disable click button on button on screen
+30.419 || hive <num> use null vertex location hint for prewarm dag vertices gopal v via gunther hagleitner || fix bug <num> <num> <num> <num> <num> e <num> d <num> d <num> d <num> d <num>
+30.419 || modify the status || add a new set to set the app to the the set set for the right database
+30.419 || fix the fix in r <num> || add a check to the null to the the not the not the not not the method
+30.419 || enable perf tests for python and javascript || add a new name to the examples of the name name google google google for cassandra <num>
+30.419 || expanded a static import in result <num> || fix bug <num> <num> <num> <num> e <num> e <num> e <num> e <num> d <num> <num>
+30.419 || do not proxy volatile methods || don t use the dim to the default if the default is not t be the one
+30.419 || validate injected field to be non final || add a check to the not not the job that that is not called for the database
+30.376 || add the log || add log to log
+30.376 || disable unstable test || disable test case test
+30.359 || add getter for log level || add a info to log log
+30.359 || add multiple from test || add test case to be test
+30.359 || add get || add override to get api <num>
+30.359 || add convenience method || add method to get state state
+30.359 || add qg large test || add test case to test server
+30.359 || modified an error message || add error to the message message
+30.331 || use the write listener to decide between a blocking and a non blocking flush on close || don t close the thread to the assignments to the default is not the lock
+30.326 || remove the debug code || remove debug out test test
+30.326 || add regression test for <num> || add test to test id
+30.326 || ignore status test || ignore test that fails test
+30.294 || issue <num> add qualified name to method declaration || add a method to the rule name
+30.264 || modify the storage analyzer || add a test to the server to the the local of the local of the configuration
+30.264 || modify the toplograph || add a check to stop the the save to the start to stop for the database
+30.264 || modify small bug througth findbug || fix bug <num> <num> <num> <num> e <num> e <num> e <num> e <num> d <num>
+30.264 || ignore the manual test || disable test that fails test test test test test test test test test test test test
+30.264 || remove validation for abbr || add a new name to the the method of the package name for the original database
+30.264 || add missing parameter in test stub || add a method to make the method of the activity method to t be database to
+30.264 || tweak http panel so that method pulldown doesnt need a scrollbar || add a check to ensure the not set the set to the set set for the
+30.264 || don t wait for ce queue to complete || disable the test by the not exist is not the unused method can t the database
+30.264 || fix quality flaw forgot timeout || fix test <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> f <num> <num> <num>
+30.264 || allows agent error handler to send successfully refs <num> || fix bug <num> <num> <num> <num> <num> e <num> e <num> e <num> d <num> <num>
+30.245 || disable this test that is not working on jenkins ci <num> || add test to test that is not be have the api
+30.178 || revert change get conf as first sequence instead of job context in table output format check output spec add unit tests || hive <num> hive with not use of the correct get creating get local reviewed by matt reviewed by xuefu zhang
+30.178 || revert hbase <num> test multi table snapshot input format failing with unable to create region directory tmp addendum by guanghao zhang || add test case to test test test test test test test test test test test test test test test test
+30.098 || hive <num> llap npe in disk range list helper init initial fix sergey shelukhin || remove unnecessary code <num> <num> <num> <num> <num> e <num> e <num> e <num> <num>
+30.098 || hive <num> use partition level serde properties yongiang he via namit || fix bug <num> <num> <num> <num> <num> e <num> e <num> e <num> d <num>
+30.098 || change another url to errorprone info || add a missing string to the the name of the line name for the code
+30.098 || remove call to hash code that was slowing down equals || don t allow the method to the the op is not the default is called
+30.098 || get default scripting lanuage instance || add override to get the app of the new the the new the the method
+30.098 || adjust test timeout || add test case to test test test test test test test test test test test
+30.098 || update correct button copy and paste bug || update the user after the wait to the the reset of the reset to update
+30.098 || adding missing parameter to include process variables in rest || fix a bug in the assert of the job of the job of the node
+30.098 || improve performance of creation of preview h <num> db || ignite <num> fixed test ignite <num> cache cache cache cache cache fixes <num> fixes <num>
+30.098 || remove module key as it s not returned by the ws || add a null annotation to the value to string the value to null a null
+30.098 || add widget contains point || add a method to make the options of the context for t be the database
+30.098 || made set return tuple || add a return to string to make the value of the context of the context
+30.098 || add tests for fragment by tag || add test case to fix <num> test test test test test test test test test
+29.920 || add new method dummy || add a getter to make the string to string to be a a api
+29.920 || inline new thread to close || ignore the test case when shutdown is not the thread is not the thread
+29.920 || throw exception when backup dir is same || add a exception in the path path in the path path for the project
+29.920 || set version || add version to <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+29.920 || add condition to avoid npe || don t allow the op to be the default is called for cassandra <num>
+29.920 || add live tv flavor <num> another firetv fix || add a missing call to disable the app of the reset has the called
+29.920 || stop co x party size from showing before varb is loaded || don t use the size to the the op of the first the one
+29.920 || add support for crafting leather idle notification <num> || add current view to the background to the the background is not the background
+29.920 || use a new executor in propagate exception to global exception handler || set the test case to the thread to the thread on the exit thread
+29.727 || modify the network interface manager || don t crash if there if the job is called is no node
+29.727 || modify the state || don t set the dim when we we we we the thread thread
+29.727 || modify the testcase || fix bug in the end of the job is not the same properly
+29.727 || add type solver has type || add method to make if the default is a more name google google
+29.727 || avoid javassist method search indeterminacy || add a method to the method to get the method of the method
+29.727 || modify case for key generator || add test case to the list of the api to be the database
+29.727 || make non java targets ignore new test || add a method to make the name name for compiler for the var
+29.727 || update byte buddy and enable injecting loading strategy for android || add a return method to the the method method for the original code
+29.727 || remove circular ref when finishing activity || don t set the call to the activity is called for the database
+29.727 || prevent npe when checking if same script engine || don t crash if the empty used if the node is not name
+29.727 || reduce tab size in notes panel to <num> <num> || set the default to the the default of the set the set set
+29.727 || make idle notifier work for splashing missing || don t crash if there if there is no called for cassandra <num>
+29.727 || fixing a bug with rest service || add a test to the rule of the line to the node name
+29.727 || updated the create new pipeline page <num> || remove unnecessary code in the request of the necessary for the right database
+29.718 || fix the way the activity checker decides whether workspace idling is configured or not || fix a bug in the client wasn the job is not started
+29.517 || remove the puppert || don t use the dim of the line is not not one
+29.517 || modify the payload || add a check to the parameter of the not be the method
+29.517 || modify the rule update page || add a missing name to the the map of the line name
+29.517 || delete unused method || add method to check that is not t have the default method
+29.517 || avoid non fatal npes with tribes when jmx is not available || don t crash if the not t called if the no called
+29.517 || add jsonobject warp java || add method to get the map of the string of the string
+29.517 || remove unuse code || remove unused method is t be the stack for the the database
+29.517 || control the active node number || fix bug in the right of the op is not the op
+29.517 || improve test coverage || add test case to the host of test to make <num> test
+29.517 || add null check for overlays in overlay renderer || fix bug in the end is not started is the client client
+29.517 || avoid extra retain of entry data <num> || remove unnecessary code <num> <num> <num> <num> <num> <num> <num> <num> <num>
+29.287 || hive <num> bug in sort merge join ning zhang via namit || remove unnecessary code <num> <num> <num> <num> <num> <num> <num> <num>
+29.287 || modify the fetcher || add exception to throw thrown in the thrown is not found
+29.287 || modify the config || add a line name to the linter of the line name
+29.287 || change the version to <num> <num> rc <num> || ignore test case test on the work on the same database
+29.287 || <num> no immutable copy of routine for enums || don t return the type type if the type type for
+29.287 || avoid unlikely npe || don t npe if there is not already called for the
+29.287 || add assert get aggregation type || add test case to prevent the default test test test test
+29.287 || add test for master || add getter to get the op of the new the op
+29.287 || allow type name subclasses in with bounds input list || add method to get the type type for the project type
+29.287 || add type narrowed getters || add a method to retrieve the app of the new method
+29.287 || add logs || add log to the debug of the file of the job
+29.287 || add amethyst crafting to idle notifier plugin <num> || update scroll color to be scroll to the background is background
+29.287 || add new farming patch trees to menu entry swapper pay <num> || don t use the extra to the thread as the default
+29.287 || add sacred eeels cutting to idle notifier || update scroll bar to be scroll to the background is background
+29.287 || add nullcheck for counter in slayer plugin on config changed || remove unnecessary code from the longer manager for the right database
+29.287 || try uri of resource in sourcedebugextension when load from resource || add a info to the the name of the output name
+29.287 || remove cleanup of log files that are no longer generated || add a file to the the file of the file file
+29.287 || prepare the vert x <num> release || update url to <num> <num> <num> <num> <num> <num> <num> <num>
+29.280 || add index name to the log message || add a test to the the name of the name name
+29.068 || remove an extra null check || add null check to the null
+29.049 || add support for getting the astname of an astfunction node || add a method to make the the node name
+29.033 || add exclusion || add test to test that is not have have api
+29.033 || add batoo exclusion || add test case to be yet test test test test
+29.033 || modify the line chart || add a method to the rule to string to string
+29.033 || modify the ip || don t crash if there if the job is called
+29.033 || modify the state || add method to set the default of the new one
+29.033 || add new rule control statement braces || add support to <num> <num> <num> for a original database
+29.033 || add missed parameter || add a string to the type of the type type
+29.033 || remove unnecessary call since do read calls check error || add a check to the preconditions not not the method
+29.033 || remove unnecessary method || add method to set the action of the new method
+29.033 || add replacement length || add getter to get bitmap is not not the background
+29.033 || get object || add method to get the field of the new used
+29.033 || test the valid proto || add a method to make the map of the file
+29.033 || add todo in account capsule || add method to allow that is not be the op
+29.033 || fix the log || add a string to string the string of the string
+29.033 || add verification for block time || fix bug in max max max in the correct block
+29.033 || allow shortcut and callback implementors to override headers || add null check to the surface is not the call
+29.033 || validate login url not empty in form based auth || don t crash if there is no is not called
+29.033 || turn off gzip compression in async upgrade test || disable the test for the port is not the port
+29.033 || add db test select db session string || add a method to the the collection of the method
+29.033 || remove useless session rollback causing my sql ut instability || remove unnecessary code <num> <num> <num> <num> <num> <num> <num>
+29.033 || fix quality flaw npe check || add null check to null to null for the exception
+29.033 || remove unused private method || add method to get the op of the new method
+29.033 || add dense essence chiseling to idle notifier || update layout to the background to the background is background
+29.033 || rename high memory to audio high memory || set the default to disable the set the set set
+29.033 || add testcase for issue <num> || add a test to make the map of the map
+29.033 || add testcase for issue <num> || add method to ensure that is not be the script
+29.033 || expose the shared pref key || add a getter to retrieve the string of the string
+29.033 || retain order of assets || add a string to retrieve the value of the string
+29.033 || fix a sporadically slow test || add test to <num> <num> <num> <num> <num> <num> <num>
+29.033 || add composite byte buf num components || add getter to get the value of the new field
+28.917 || add a default title to the tree viewer dialog || add a new icon icon to the action to the action to save the action activity
+28.799 || don t generate interpreter data files if gencode is false || don t show the dim if the right is not the one
+28.771 || remove unnecessary code reported by spot bugs || remove unnecessary code <num> <num> <num> <num> <num> <num>
+28.751 || set arguments s bug || set the size of the right the set set
+28.751 || modify the dumpanalyzer || add override to get the version of the version
+28.751 || modify the log || add a missing call to the the login call
+28.751 || modify the analyzer || add override to get the version of the version
+28.751 || modify the hashcode || add a missing code to the the current list
+28.751 || modify the codec || fix bug in the finish of the same method
+28.751 || modify the manager || add null to get image to get the background
+28.751 || disallow null for bug checker descriptions || fix bug in the source of not return method
+28.751 || return this result set || set the default of the set set for the
+28.751 || set receipt result || add a check to set the set set set
+28.751 || assert the size || set the default value in the right set set
+28.751 || refine exception || fix a npe in the exception in the size
+28.751 || fix bug for revoking store test || add test case to test test test test test
+28.751 || enable help in add edit break point dialogue || add a method to make the string to string
+28.751 || fix test on oracle || add test case to <num> <num> <num> <num> <num>
+28.751 || add servlet filter url pattern get url || add a method to make the string to string
+28.751 || add swagger module on ws agent || add support to <num> <num> <num> <num> <num> <num>
+28.751 || expose bundle args of fragment builder || add getter to get the app of the method
+28.751 || add default impl for get key <num> || add a method to make the string to string
+28.751 || reverting the previous commit which makes no sense || don t force the thread event on the thread
+28.610 || hive <num> npe in spark utilities is dedicated cluster spark branch rui reviewed by jimmy || hive <num> hive with hive with hive <num> sergey the tables gopal zoltan reviewed by ferdinand xu
+28.579 || remove unnecessary attributes of state transfer create send time and receiver queue from cluster manager template these attributes should not be defined as a template || fixing bug in launcher state state <num> <num> <num> <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> d
+28.527 || hive <num> query plan s start time is incorrect in certain cases wei zheng reviewed by gunther hagleitner || hive <num> hive with hive <num> hive <num> test join join time reviewed by thejas nair xuefu reviewed by xuefu zhang
+28.444 || fix bug in limit in from class || fix bug in launcher <num>
+28.433 || activate reveal method in vault again || add a test to set the test method
+28.433 || exclude test || add test case to allow with the api
+28.433 || skip uuid test for literal usage || add test case to be have have test
+28.433 || enable year week test for teradata <num> || add test case to allow with the api
+28.433 || add test for roo annotation processor || fix test test on the remote database test
+28.433 || add trial version exception || add a method to the the string method
+28.433 || modify the filter || add a method to get the server method
+28.433 || modify the sql || remove unused code this a t be the
+28.433 || eliminated a param reassign thanks brant || add a info to the the name name
+28.433 || removed unused utility method || add a method to make the string name
+28.433 || fix a typo in a test method name || add test case to be test test test
+28.433 || remove unused agentmain method || add a missing method to the start method
+28.433 || fix test for resolve ident return value || fix bug in the op method is null
+28.433 || add assert get column value || add test case to verify test is test
+28.433 || add assert get aggregation type || add test case for test case test test
+28.433 || add assert get schema name || add test case to allow the configuration test
+28.433 || add checkstyle rules fix missing switch default || add exception to ensure for the type type
+28.433 || fix the witness miss block statistics || update state state when the update state update
+28.433 || fix the exception type || throw exception if exception is not be found
+28.433 || remove useless method || add method to set the op set method
+28.433 || add clean package goals before analysing project || set the correct icon icon for the project
+28.433 || forgot the example || add a missing method to ignore the method
+28.433 || enable presto test <num> || disable test case test test test test test
+28.433 || fixing cors config test failure under java <num> || add test case to the host of test
+28.433 || update server listener java || add a test to make the server server
+28.431 || revert fixes <num> only gen parse listener enter rule events in enter outer alt not enter rule || don t crash if the not finishing if the job is not t be the thread
+28.375 || hive <num> patch to fix hash code method in double writable class vaibhav aggarwal via ning zhang || add missing to return code <num> <num> <num> <num> e <num> e <num> e <num>
+28.352 || remove now useless null check || remove unnecessary null check
+28.172 || fix small div by zero exception found in an fb test cluster || fix bug in the correct the correct one to the node
+28.122 || fix a spelling mistake || fix a typo in the full job
+28.122 || disable test hive recoverable grouped execution || disable test case test case test test
+28.070 || changed redundant conditional check || remove redundant null is not be null
+28.070 || modify the logview uploader || don t close close on the thread
+28.070 || modify the handler || add a more more to the error
+28.070 || modify the login || add override to set the use method
+28.070 || modify the jsp || add a string to string the string
+28.070 || add the router job creator || remove unused code in the longer request
+28.070 || modify the task || add error message to the logging exception
+28.070 || modify the codec || remove unnecessary code a t be the
+28.070 || modify the manager || update m progress to the network changes
+28.070 || add one declaration per statement || add a test to the aec blacklist
+28.070 || delete temporary file after test || remove unused variable test test test test
+28.070 || update integration test || add a test to the load method
+28.070 || remove unused exception from sourceroot || add runtime exception to the runtime exception
+28.070 || allow system to start || add test to <num> <num> <num> test
+28.070 || don t crash when compiling without xjcov || remove redundant code the t be the
+28.070 || add project skeleton || add a method to the activity activity
+28.070 || get statement || add a exception to get the exception
+28.070 || add assert get properties || add test case to test case test
+28.070 || add assert get key generator class name || add test case to allow host field
+28.070 || add init derived count indexes || add getter to get the op method
+28.070 || add test close || remove unused code test test test test
+28.070 || modify the error msg || add a check to the preconditions name
+28.070 || modify stest assetissue case || add test case to the host test
+28.070 || add sonarcloud support || add method to set the op method
+28.070 || add supply interface in account capsule || add getter to get the get method
+28.070 || fix test error || ignore test that fails fails test test
+28.070 || remove more than frozen number test || ignore test that fails test test test
+28.070 || add process sync block exception msg || add error message to the message message
+28.070 || restore null check || fix bug in the null is null
+28.070 || turn out stderr output from clang compiles || remove debug out debugging debugging debugging debugging
+28.070 || revert null check || fix bug in value null null null
+28.070 || remove violation || remove unused code is not be database
+28.070 || empty a lazy seq || add a return to get the method
+28.070 || handle activity destruction || remove override to stop on the activity
+28.052 || add protected set parent method to component container || add method to set the op method for the right to the the database
+27.919 || remove log for debug || remove debug out
+27.919 || remove stray system out || remove debug out
+27.919 || add another edge case || add test case
+27.919 || remove a unused val || remove unused code
+27.857 || replace usages of deprecated methods in com google common io files with non deprecated replacements || add a info to the the output of the file to the file file
+27.818 || using processdefinition id field to prevent nullpointer when not in commandcontext || add a string to get the method for the id
+27.818 || made any form not explicitly handled by the compiler self quoting || add null exception to the surface surface not the method
+27.818 || make rest proxy service for query nullable for the pinot connector || add a annotation to make the app is not null
+27.646 || improve postgre sql test coverage || add test case to test server
+27.646 || add init || add log to the host file
+27.646 || modify the bucket || remove unused code this the size
+27.646 || remove router config bug || fix bug in the server data
+27.646 || modify the test || remove unused code from test test
+27.646 || config the transaction analyzer || remove unnecessary code in the end
+27.646 || add failing testcase for <num> || add test case to test case
+27.646 || add general main class || add method to allow that <num>
+27.646 || remove pointless test || add test case to test failure
+27.646 || keep the debug message for now || fix bug in the correct method
+27.646 || fix an eclipse nag || fix bug in the same value
+27.646 || update ui after setting freestyle mode || update m progress bar when inflation
+27.646 || add postgre dcl test case <num> || remove redundant code test test test
+27.646 || modify solidity file || add test to file s log
+27.646 || solving tcp test || remove unused code test the shutdown
+27.646 || update generics mockito annotations test java || add test case to test test
+27.646 || remove custom vectors highlights when cleared || remove unnecessary call from the end
+27.646 || add order by for qa || add test case to test case
+27.646 || fix the error in log info || add log to ensure thread log
+27.646 || add missing placeholder for second argument || add log to the file path
+27.646 || remove unused test annotation <num> || add test case to be string
+27.646 || revert bad renaming in zlib test || fix test <num> <num> test test
+27.604 || fixed a bug where expr that were not identifier or list would be left out simply added an extra else to catch the rest of the expressions || add support to <num> <num> <num> <num> <num> <num> <num> <num> <num> e <num> e <num> d <num> d <num> d <num> d <num>
+27.448 || disable blast furnace clickboxes by default || disable default view by default
+27.440 || fix bug for get unchecked || fix bug in the correct not not found
+27.413 || disable clean completed scans button when resetting the scanner panel || disable the default of the overview is not started
+27.395 || add another test case for bug <num> || add test case to test to be the security of the method
+27.369 || hive <num> thrift serde doesn t work with the new version of thrift ning zhang via zshao || add a new string to the the method method for the code for the code
+27.369 || update the description for command update topic perm incidentally commit minor update for pom review by vongosling || set the default of the deprecated for the new deprecated to set the default set
+27.369 || fix the npe error when processing billing files with tags and resources while resource serivce is null || don t call to write if the file is not called for the right database
+27.306 || hive <num> in shell mode local mode continues if a local mode task throws exception in pre hooks siying dong via ning zhang || fix a typo error <num> <num> <num> <num> <num> f <num> f <num> f <num> d <num> d <num> <num>
+27.295 || add session id to the exception message to aid debugging || add a missing method to the the current used to the the job of the job to the the job id for
+27.278 || don t assume bank title is the same as search str because it truncates text || don t show the dim to there if the activity is not t t the the editor
+27.278 || removing the need for the activity class to be abstract || add a check to the not not the job that that is not the called for the
+27.150 || hive <num> fix hive to match changes introduced by tez <num> gopal v via gunther hagleitner || hive <num> hive with hive with hive <num> hive in hadoop temp zoltan reviewed by thejas shelukhin rodriguez rodriguez reviewed by xuefu zhang
+27.139 || modify crash log domain name || add log to log log
+27.139 || pull request test || remove debug out println test
+27.139 || added a utility method || add method to get method
+27.139 || remove a println call || remove debug out test test
+27.139 || add empty log implementation || add override to set activity
+27.139 || delete test get data source || add test case to test
+27.139 || add update || add override to get method
+27.139 || adjust unit test || remove unused code test test
+27.139 || add bufferedreader and http request || add override to ignore migration
+27.139 || modify manager test || ignore test that fails fails
+27.139 || removed unnecessary test stub || add test case to test
+27.139 || removing jdk <num> incompatible override || add override to set activity
+27.139 || remove unused empty method || add method to allow configuration
+27.139 || fix quality flaw || fix bug in max data
+27.139 || fix quality flaw exception test || ignore test case test test
+27.139 || remove redundant info log call || add a log to log
+27.086 || avoid npe on shutdown if application doesn t use web socket || don t close the exception to the shutdown if the pool is called
+27.086 || add table rule test case || add test case to the list of the api to be the database
+26.941 || disable event test event widget because of false positives || disable test test to be platform until test
+26.926 || add a getter for raw description messages || add a method to make the string to string
+26.926 || add getter for properties of name server startup || add getter to get application to be the default
+26.825 || add normal colour to the clues command || add correct content to the title of the title to the title title for
+26.814 || suppress incorrect warning || suppress warnings
+26.814 || ignoring some warnings || suppress warnings
+26.742 || restore previously deleted set enabled method but throw an exception if used || add a method to make the the collection is the method
+26.639 || hive <num> beeline does not accept comments at end of line sergio pena via brock || add a missing code to the surface of the line of the line
+26.612 || hive <num> submitting a query to spark from hive server <num> fails spark branch venki korukanti via brock || hive <num> hive with hive with hive <num> hive <num> test case reviewed by xuefu camacho rodriguez rodriguez rodriguez reviewed by
+26.612 || hive <num> fix issue with metastore version restriction test vikram dixit k via brock noland || hive <num> hive with hive <num> hive jdbc test test test reviewed by thejas jayachandran rodriguez rodriguez reviewed by xuefu zhang
+26.602 || fix the problem of the capitalization in class name || add test case to the client of the configuration of the client of the configuration
+26.602 || pass the right byte buf to the decode method see <num> || add a test to the reference of the map to the node to the node
+26.599 || hive <num> hiveserver <num> specific configuration file is not getting used thejas nair reviewed by jason dere || hive <num> hive with server server server server server test server reviewed by thejas jayachandran
+26.532 || extended the klippy analyzer interface to provide access the bugchecker s link || add a getter to make the map of the collection
+26.528 || add test get auth plugin data without arguments || add test case to allow with the configuration of test
+26.528 || make the default min value of ranges <num> || add a test to make the use the the collection
+26.505 || modify the sender log || add log to log
+26.505 || modify the test case || ignore test fails test
+26.505 || add the page tip || add log to log
+26.505 || add the monthreport || add log to log
+26.505 || fix test naming || add test case test
+26.505 || suppress broken proto test || ignore test that fails
+26.505 || remove sout || remove debug out println
+26.505 || refine unit test || add test case test
+26.505 || revert long value exact || fix bug in value
+26.505 || add gettransactioninfo case || disable test case test
+26.505 || updated the test || remove unused code test
+26.505 || fix a compiler warning || suppress warnings in warning
+26.505 || supress warnings || suppress warnings in warning
+26.382 || avoid null pointer exception in plsqlparser canonical name || add null check to the string name
+26.382 || add an example for using the gradle plugin || add a test to make the method
+26.382 || throw unsupported operation exception in not implemented method || add a exception to the string method
+26.382 || don t npe when player name is null || add null check to the string name
+26.352 || adding a new rule generics naming thanks to nicolas dordet for his inputs on this one || add a new to the the rule to the the rule to the the rule to the the the one to the the rule to the the rule to the the
+26.347 || added the last catch to add the group bys in the list at the end of the loop || add a missing to string to the the field of the set the the line
+26.270 || add insert statement with values without place holder with query encrypt || add test case to use the folder of test test
+26.270 || add null check for target tile in ground markers plugin <num> || remove unused code <num> <num> <num> <num> <num> <num> <num>
+26.270 || check the activity record validity even if stopping expired workspaces fails || throw the exception exception when the client is not started
+26.211 || allow abstract eapplication not registered in the manifest || add a check to the preconditions name in the name name
+26.177 || fix a test that fails because the message varies slightly across jvm implementations || add a message to the message to the the job of the job to the the job that is the local is not the player
+26.148 || add timeout to unit test due to highlight non termination of prediction algorithm without resorting to ignore || add test case to be test test test test test test test test test
+26.102 || fix bug in krcc || fix bug in new correct being being not be the default
+26.098 || hive <num> fix gen conversion select for init serde with null namit jain via zshao || hive <num> llap server in not null in the local mode in the chauhan reviewed by xuefu xu
+25.955 || remove unnecessary image creation set pixels also creates overwrites the image variable || remove unnecessary code <num> <num> <num> <num> <num> <num> <num> <num> <num>
+25.758 || add java util regex pattern to the list of well known immutable types || add support to the host of the host of the manifest of the manifest of the manifest of the manifest of the manifest of the manifest of the manifest of the
+25.744 || set the interval in a distributed env patch by takayuki kaneko || set the correct default for the right to the set the the set
+25.727 || reverted the unnecessary changes related with shutting find bug up || fix a npe in the null method is null
+25.698 || add clone method must be public rule || add a new to string method
+25.698 || reset fix save total energy average time || fix bug in old correct time
+25.698 || add stacktrase to the error log <num> || add test case to test failure
+25.698 || enable netty tcnative shading test again <num> || add test to <num> <num> test
+25.583 || add missing config check to party leave message || add a check to the reference to the process the job to the node to the node to the node is the node
+25.544 || use a more reliable mechanism for the default servlet when determining if the current request is for custom error page or not || add a check to the check to the the method that that the not the default for the code
+25.420 || hive <num> provide hive operation name for hook context shreepadma venugopalan via namit || add a method to make the name of the name name for the original database
+25.420 || fix test persistent cache || fix test <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+25.295 || hive <num> track if a map reduce job is running locally liyin tang via namit || hive <num> hive with hive with hive <num> hive <num> sergey reviewed by sergey shelukhin xuefu
+25.212 || reset the value of progress bar when scans are clear or switch to no scan || set the default value to the the one set for the right
+25.187 || add test exclusion || add test case to the build of the api of the component that that are the api
+25.187 || add method delete machine key for codenvy assembly <num> || add method to ensure the info of the configuration to be the method to the remote name
+25.187 || add a unit test || add a method to the view view for the view view to expose for the view view
+25.156 || fix a possible conflict when running multiple instances of the tomcat unit tests on the same server || add test case to the host of the list of the manifest to the manifest to the manifest to the remote file to the manifest to the remote file to the
+25.156 || set the cache size to zero when it is cleared || set the default to the the one to the the set to the the set to the the set to the the set to the the set to the the set
+25.156 || add a fix description to method can be static || add a new to string to the the options to the the options of the options to the the options of the options of the options to the the node to
+25.156 || update the default url of the json file of editions || add a new to the default to the the title to the the default to the the default to the the default to the the default to the the default to
+25.156 || add a tooltip to loot tracker value showing exact value || add a new text to the the options to the the save to the the save to the the save to the the save to the the save to the the
+25.156 || fix a test that breaks on sun jdk || add a test to the wait to the the job of the call to the the job that was the local is not the local to the the app to the
+25.156 || appended some distinguishable text to the generic reason phrase returned by http response status value of int || add a check to the surface of the method to the the default of the the the type of the the default of the the type of the image of the
+25.094 || hive <num> llap config not passed to daemon init || hive <num> hive <num> hive with test server client test reviewed by thejas shelukhin reviewed by prasanth zhang
+25.092 || hive <num> bugs in mergejoin cw via ashutosh chauhan || remove redundant null check this a bug <num>
+25.092 || update virtual view version and remove integer type resolve || add a missing code to the surface type
+25.013 || hive <num> function task conf hides task conf field alexander pivovarov via alan gates || hive <num> hive with hive with hive <num> hive <num> reviewed by sergey shelukhin rodriguez rodriguez reviewed by xuefu
+25.013 || hive <num> qtest util side effects navis via namit || hive <num> hive with hive in hive <num> hive <num> test test reviewed by jesus jayachandran rodriguez rodriguez reviewed
+24.981 || ignore test that temporary fails on time zone || ignore test that fails test
+24.943 || adding vf to the list of supported languages || add a test to the load to make that the not save the a two method google google p google
+24.881 || hive <num> dynamic partition table insertion error chao via brock || hive <num> hive with hive with hive <num> sergey hive in the chauhan in thejas nair xu reviewed by xuefu zhang
+24.881 || hive <num> disable merge files when bucketing sorting is being enforced he yongqiang via namit || hive <num> hive with hive with hive <num> hive <num> test test reviewed by sergey shelukhin jesus reviewed by xuefu zhang
+24.881 || fix bug wait tolerate time difference if need || fix bug <num> <num> <num> <num> <num> <num> <num> <num> f <num> d <num> d <num> d <num> d <num> d
+24.872 || hive <num> lazy binary columnar ser de based rcfile tables break when looking up elements in null maps mithun radhakrishnan via ashutosh chauhan || fix bug <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> d <num> d <num>
+24.828 || remove unused close quietly static method || remove debug close test test
+24.828 || add delay transaction <num> stest case || add test case test test
+24.828 || disable soft ref test as unstable || disable test case test test
+24.827 || hive <num> more fixes for test cli driver on windows jason dere via sushanth sowmyan || hive <num> hive with hive with hive <num> hive in the temp tables reviewed by prasanth rodriguez rodriguez reviewed by xuefu zhang
+24.827 || modify the default overload time || add a little string to the the line of the line to the the job that the the default of the default
+24.737 || hive <num> is kerberos mode does a case sensitive comparison sravya tirukkovalur via szehon || hive <num> hive with hive with hive <num> sergey test reviewed by sergey camacho rodriguez reviewed by xuefu zhang rodriguez rodriguez reviewed by xuefu
+24.605 || added another test case for custom properties || add test case to use api
+24.585 || add log info for witness service try produce block || add log to the debug of the job of the job to the the job to the the local to the the local to the the local to the
+24.545 || commented out code that is related to the other commented out code || add a size to the the not the call to the the call to the the call to the the op to the the op to the the op to the
+24.545 || add log for on handle block message || add log to the log to the the job to the job to the job to the the job to the the job that is the node is not the node
+24.545 || add enchanting jewelry to the idle notification plugin <num> || update layout to be the background of the current the background to the the image to the the image to the the image to the the image to the the image
+24.545 || remove charge timer when the effect ends || add a icon to save the notification to the the current activity to the the current activity to the the current notification when the the editor to the the notification when
+24.530 || add method for getting keys based on prefix from config manager || add a method to make the map to string
+24.418 || hive <num> hanging hive client due to oom error he yongqiang via namit || remove unnecessary call from the exit is called for cassandra <num>
+24.418 || quit application when closing the window and no vault is unlocked ci skip || add a missing call to disable the screen for the text
+24.333 || modify stest exchangeandtoken wallet test asset issue <num> || add test case to the host test
+24.333 || restore agent binding in agent action clj <num> || remove unnecessary code in the client request
+24.113 || issue <num> detecting malformed uris and throw a better excpetion at least better than npe || fix a npe in the examples of the job is not null
+24.007 || fix an npe if available is called before the input buffer is created || fix bug in npe by would non op is null
+23.776 || add clone method return type must match class name rule || add new type type to the type type
+23.770 || merge branch develop of https github com tronprotocol java tron into develop || add getter to get the op of the new method
+23.657 || add televisionwallcr crash log domain || add log to log
+23.657 || add the message recevier log || add log to logging
+23.597 || hive <num> ser des that do not inherit abstract ser de do not get table properties during initialize jason dere reviewed by xuefu zhang || remove unused code <num> <num> <num> <num> <num> d <num> d <num> d <num> d <num> d <num> d
+23.420 || rename method in input file from get base dir to get file base dir || add a method to get the file file for the method
+23.402 || modify count all data set test cases || update timeout to test configuration changes
+23.260 || avoid npe if the channel fails to start local member is null || remove redundant null check is not be the database
+23.102 || trim the value before adding to the list review feedback from kkolinko || add a check to the reference of the set used
+23.046 || hive <num> hive server <num> dynamic service discovery should add hostname instead of ipaddress to zoo keeper vaibhav gumashta reviewed by thejas m nair || hive <num> hive with hive with hive <num> hive in hive <num> sergey reviewed by xuefu camacho rodriguez rodriguez rodriguez reviewed by xuefu zhang
+23.043 || fix bug of throwing error when saving model with none field || fix bug in the null of the first method
+23.022 || removed the override annotation as it resulted in a compilation error || add method to get the map of the method
+22.988 || hive <num> select no star is a part of explain plan paul yang via namit || add a test to make the the string to string the string
+22.870 || remove colour text from option in mouse highlight plugin || remove unused code in the longer code
+22.539 || add test case if root is a file for source root || add test case to the build of the manifest of the use method test test test
+22.473 || disable lit unlit burner indicators by default || disable default default by default
+22.365 || commented batoo test out || ignore test test
+22.365 || modify the test failure || add test case
+22.365 || remove es client close || remove unused code
+22.365 || ignore a unit test || disable test test
+22.365 || add unfreezebalance for stest || add test case
+22.365 || remove unused log message || remove unnecessary logging
+22.365 || remove validator signature fix || remove unused method
+22.365 || stabilize time related test || add test case
+22.365 || remove unexpected bad text || remove unused code
+22.296 || hive <num> bitmap operation udf doesn t clear return list marquis wang via jvs || remove unused code <num> <num> <num> <num> <num> <num> <num> <num>
+22.220 || add setter for exception translator <num> || throw exception exception in test
+22.220 || solve dependency problem to pmd core || add getter to get method
+22.220 || add application class in sample app || add override to stop activity
+22.220 || revert fix compatibility with java <num> || fix bug in null pointer
+22.220 || change the outdated test method name || add test to <num> <num>
+22.144 || use the container id for typeparameters declared on local variables || add a string to the the path name
+22.144 || improve error message on seq from to include full classname || add the name to the the name name
+22.144 || change the timeout in the open item by path <num> || add a test case to the start exception
+21.561 || fix the failing http object aggregator test test invalid constructor usage || add test case to test case test test test
+21.094 || make sure heartbeat report s report type is day || add a check to the type type
+21.094 || remove stray after splitting of increment and decrement methods || remove unnecessary code <num> <num> <num> <num>
+21.094 || added an idle notification for when crushing infernal eels || update scroll bar when drawable is background
+21.094 || allow abstract fragments to have any kind of constructors || add a check to the null check
+21.094 || validate admin operation on topic with authoritative parameter <num> || remove unused code issues for cassandra <num>
+20.828 || change the default for need to update asset || disable the default of the server
+20.642 || makes test work on windows || remove unused code test
+20.642 || modify the problem nullpoint bug || fix bug in npe
+20.642 || update assertj v <num> <num> || add test to <num>
+20.608 || add missing getter and setter for the always use session attribute of the authenticators || add method to check that is the context is called
+20.601 || switching rulename from one declaration by line to one declaration per line || add a test to the port to the output
+20.601 || add null check to int long math to prevent null pointer exception || fix bug in type type in not null type
+20.328 || add a comment for type param value || add getter for get method
+20.328 || delete result set key generator column name || set the default name name
+20.264 || hive <num> hive should not allow additional attemps when rsc fails spark branch jimmy via chao || hive <num> hive with hive in the clean option in the local of the chauhan in thejas nair xu reviewed by xuefu zhang
+20.264 || hive <num> hive should not allow additional attemps when rsc fails spark branch jimmy via chao || hive <num> hive with hive in the clean option in the leading of the chauhan in thejas nair xu reviewed by xuefu zhang
+19.809 || fix bug with xpath exceptions in the designer || set the default of the right
+19.809 || expose the http sender to authentication script implementations || add getter to get server <num>
+19.748 || disable a test of event test which raises too many false positives || disable test test to be platform until test
+19.542 || relax visibility of file constructor to allow hacking in sonar lint || add a method to retrieve the path path
+19.508 || use local variable since we already have a reference to the servlet context || add a check to the reference to the the call to the the op to the the op to the the op to the the op to the the op to
+19.459 || hive <num> wrong condition in settable config updater set hive conf white list ted yu via szehon || don t set the not not not not not not the method
+19.293 || use the right variable for null check the method variable that is || add a name name to the method name name
+19.222 || rename my batis alias user role to user permission || add user user to user user
+19.066 || add null check for perspective get canvas text loc || add null check to null
+18.964 || adding csm string to string || add a method to the the string to string the the string to the the default to the the default of the editor of the editor to the the default to
+18.926 || hive <num> investigate test failure on mapjoin filter on outerjoin q spark branch chao sun via szehon || hive <num> hive with hive with hive <num> <num> reviewed by sergey shelukhin
+18.625 || adding a new rulesets to controversial xml with a couple of appropriate test case || add support to <num> <num> for a a database
+18.517 || add org joda time days to list of well known immutable classes || add support to <num> <num> <num> <num> <num>
+18.517 || add org joda time period to list of well known immutable classes || add support to <num> <num> <num> <num> <num>
+18.488 || use the latest thread count set in the options when in advanced spider || set the correct thread of the right thread
+18.424 || remove print statements from docgen test || remove debug out test
+18.424 || add aggregation distinct select item test || add test for check
+18.413 || set an id to container view in react activity || add user activity to start activity
+18.286 || removing unimplemented method active scan session urls from client api || add method to set the set method
+18.286 || refresh progress state for the each node during structure update || remove unused code from the longer activity
+18.286 || throw error explicitly on param value not in range <num> || throw exception if size if max size
+18.221 || remove unnecessary calls closing the socket recycles the processor which in turn recycles the buffers || remove unnecessary code <num> <num> <num> <num> <num> <num> <num> <num>
+18.192 || delete check write false sys out log || remove debug out test test
+18.192 || fix my break of compilation remove override || add override to get method
+18.192 || using fixed string reading in load too || add null to string string
+18.192 || use engine io client java <num> <num> || add override to ignore <num>
+18.192 || removing override that gives problems in eclipse || add override to set activity
+17.880 || remove unnecessary statement in test class || remove unnecessary code
+17.874 || hive <num> expr node col desc is same doesn t account for tab alias this affects trait propagation in joins harish butani via gunther hagleitner || don t allow the not not not the method when the the called for t chauhan
+17.609 || parse tree visitor visit takes a parse tree only visit children takes a rule node || add a method to make the map of the method
+17.278 || setting software layer for line chart as long as it uses path to draw lines hope that will change || add a set method to disable the set set for cassandra <num>
+17.245 || fix an ide nag only fix one to trigger a ci build || add error to the class of the method
+17.245 || update maven examples to use version <num> of the plexus compiler plugin || add a exception to exception that fails fails
+17.186 || don t return var as type image for inferred variable types || add null check to return surface type
+16.974 || hive <num> input file name virtual column returns unqualified paths on hadoop <num> carl steinbach via hashutosh || add a test to the the output of the file file
+16.872 || hive <num> implement is closed to hive query result set yun young lee via alexander pivovarov || add override to check that is not have is called
+16.768 || don t ever pass fatal errors to the callback || remove unnecessary code in the end
+16.768 || don t log creation of auth panels as info || remove debug logging for the log
+16.768 || improve stability of process utils test on slow env || add test case to test test
+16.768 || add a test case register activity in android manifest || add override to set that <num>
+16.768 || disable test as it sometimes fails on the ci || add test to <num> <num> test
+16.715 || added new failing test case for act <num> || add test case test test
+16.518 || hive <num> hive cli gets stuck when hive exec parallel true and some exception happens during session state start rohit agarwal via ashutosh chauhan || don t set the thread to the thread when the thread is not the thread
+16.496 || fix a bug when finding appropriate id and there is no app activity command || remove unnecessary code in the read is not read
+16.496 || make the always send flag public so that we can set it through config || add method to ensure if the activity is called
+16.389 || remove unnecessary code no need to override a method just to call the overridden super method || add a method to make the map of the collection
+16.271 || ignore epoll reuse addr test test multiple bind datagram channel || ignore test that fails test test
+16.263 || rename shell component test || update test
+16.108 || remove a call to print stack trace || remove debug print trace
+16.076 || remove hop to from private messages || remove unnecessary code id
+16.076 || suppress deprecation class pool make package || suppress unchecked warnings test
+16.025 || modify the broker service version || update version <num>
+16.025 || remove project update task run || remove unused call
+16.025 || improve efficiency of swallow code || remove unused code
+16.025 || add debug log for npe || remove debug logging
+16.025 || refine code for generate address || remove unused code
+16.025 || remove test log error call || add error logging
+16.025 || fix quality flaw system out || remove debug out
+16.025 || fix quality flaw debug available || remove debug output
+16.025 || add terminal debug id <num> || remove debug call
+16.025 || remove annoying error message <num> || remove debug logging
+16.017 || avoid npe in asthelpers get result type when get type returns null || add null check to set type type
+15.934 || hive <num> separator char has no effect in create table as select statement yongzhi via xuefu || fix bug in estimate data is not null is null
+15.934 || fix a crash when resizing with a dimension to <num> based on the image view dimensions || update view view view view view view view view view
+15.851 || don t call channel pipeline fire exception caught for outbound events || add a test to the player exception
+15.647 || hive <num> test exec driver test map red plan <num> fails on hadoop <num> jason dere via ashutosh chauhan || ignite <num> fixed test test test test test test test test
+15.587 || adjust unit test to verify console encoding of xml formatter || add test case to test test
+15.587 || issue <num> remove extra space in object creation expr dumping || remove unnecessary code in the line
+15.499 || use same jdk ssl test workaround when using accp as when just using the jdk ssl implementation <num> || add a method to make the server method for the code
+15.219 || enable a test for a bug that s been fixed for a while || add test case to the host of test
+15.064 || adding extra but righteous safety to get default value || add getter to get value
+15.064 || add missing override to method add context panel factory || add override to set activity
+14.911 || return a fixed linenumber column until we figure out a reliable way to determine the position of the node in the source code || add a missing code to the surface of the set the not used
+14.894 || fixing https github com google tink issues <num> || add support for <num> <num>
+14.894 || changing designer menu label from jdk to language || add support to <num> <num>
+14.856 || remove unnecessary jcache listener on completion call || remove unnecessary call
+14.761 || adding logging as per http forums activiti org content nullpointerexception taskservice candidateuser query under load || add logging to the logging to the job file
+14.509 || add a test case to check sub strings ascii string hash code || add test case to verify test
+14.444 || add timeout on test default load balancer test balancer cluster to see if we can stop it hanging as a zombie in precommit builds || add test case to test failure test test test test test test test
+14.417 || set inline bitset test word size to <num> ref https github com antlr antlr <num> issues <num> || add override to get the app of the new method
+14.348 || remove log to console in unit test || remove debug out test
+14.334 || remove unexpected use of system out || remove debug out
+14.194 || fixing a log message in load balancer saw by gaojinchao || add log to the debug log
+14.194 || fix test when sonar user home env var is set || remove test case test test test
+14.194 || add test coverage for struct selective stream reader compact values || update test to be test test
+13.913 || hive <num> test hcat client should not accept external metastore param from dhive metastore uris sushanth sowmyan reviewed by thejas nair || add test case to the host of test to make that <num> test
+13.885 || throw io and runtime exception directly without wrapping them into new runtime exception || throw exception exception in the baked exception
+13.774 || hive <num> npe when switching to tez execution mode after session has been initialized patch by gunther hagleitner reviewed by vikram dixit k || don t set the dim when the the op is not the called
+13.767 || add test cases for implicit cursor attributes bulk rowcount and bulk exceptions || add test case to be null test
+13.626 || restore requested for set dispatcher call in on resume || set default default for default
+13.209 || make implementation of get parent class loader consistent with the other implementations across the code base || remove redundant code this used is t be null
+12.811 || add some debug logging for state changes || remove debug logging
+12.726 || add origins to show all the origins of an environment where it is defined <num> || add method to get config to use config
+12.633 || enable eval of throw to throw errors as well as exceptions || add error to throw more exception
+12.520 || fixing npe in stream buffering encoder test || fix test test test
+12.333 || added a function to get a unique name s id || add getter to get id
+12.194 || disable unstable ce processing scheduler impl multi thread test || ignore test that fails test
+11.912 || hive <num> timestamp timestamp causes null pointer exception jason dere via gunther hagleitner || add null check it is not exist
+11.853 || introduce pmd category java errorprone xml clone method return type must match class name rule || add a method to make the better method
+11.852 || added new test to show compilation error in the generated code when a method annotated using ui thread take an array parameter || add a test to set the method to the new method
+11.483 || logging unexpected errors in rest adapter || remove debug logging
+11.483 || remove a left over print statement || remove debug out
+11.483 || remove unnecessary call to input index || remove unused code
+11.469 || add executor size test for sharding properties constant test || add test for test
+11.270 || fix a bug where abstract byte buf order doesn t return a swapped buffer if capacity is <num> || don t crash if there if the no called
+11.196 || hive <num> null pointer exception in error msg find sqlstate bill graham via namit || fix a bug in the error error
+11.175 || rename a unit test in project filter test || disable test case test
+11.002 || fix bug <num> npe when calling get attribute null the spec is unclear but this is a regression from <num> x || fix bug in the same name is null is null
+10.787 || adjust start end positions for fixless matches for constant case for constants analyzer to better highlight the particular field in critique || add a throw throw to set the surface for a
+10.686 || added a new test that show error in generated code when a method is annotated using background and transactional || add a test to set the app set method
+10.681 || hive <num> match path misses the last matched row from the final result set mohammad kamrul islam via ashutosh chauhan || remove unnecessary code <num> <num> <num> <num> <num> <num> <num>
+10.681 || prevent a stack overflow when generating an error message if parsing fails and provide some useful information in error message || add a method to the method to string the string
+10.460 || disable the rsa ssa pss sign key manager test test get public key data in tsan || remove unused code to t be the database
+10.460 || remove deprecated attribute session attribute filter from clone has been replaced by session attribute name filter || set the correct name of the right thread
+10.434 || add a getter method for accessing the class pool of javassist type parameter matcher generator || add method to get the map method
+10.326 || hive <num> hive cli crashes on inequality szehon reviewed by chao and jimmy xiang || set the default icon on the overview
+10.326 || removed an unnecessary override in memory aware thread pool executor updated find bugs filter || add override to set the set method
+10.271 || add test in asset issue actuator test || fix test test
+10.170 || fix false positive in support private project in default permission template test || add test to <num> <num> <num>
+10.170 || improve exception message when the internal maven repository can not be deployed || throw exception exception in exception exception
+9.864 || igonre the unused junit test || ignore test
+9.864 || reactivate and simplify ui test || disable test
+9.751 || restore the simple service sample to working order || add support to <num>
+9.751 || ignore bad test case for now see <num> || disable test that fails
+9.751 || remove print statement in test function namespace manager || remove debug out println
+9.180 || remove unused variable in server main module setup || remove unused variables
+9.134 || sliding window counter test add missing test annotation to unit test || ignore test that fails test
+9.134 || disable test schedule impl test because of false positives on travis || ignore test that fails test
+9.052 || ignore test start rule without eof until we decide on the desired behavior || ignore test that fails test test
+9.027 || fix the bug that the viewer will crash when the function get page count equals zero while pdf file is loading || fix bug in the finish of the getting started
+8.609 || hive <num> column value does not handle null type yongzhi chen via szehon || fix bug in empty type in
+8.609 || add no such entry exception as not recoverable error for cursor recovery <num> || throw exception exception in the exception
+8.469 || remove reference to fix no fix created by moe http code google com p moe java moe migrated revid <num> || add exception to throw exception in the current null
+8.228 || remove abtest server in cat home module || remove unnecessary code
+8.228 || moving a message from info to debug || remove debug logging
+8.228 || remove data source util get cache clear || remove unused code
+8.228 || use a better hash code for dfastate || remove unnecessary code
+8.228 || fixing failing test for duplicate variable inserts || fix test test
+8.228 || fixing failing assertion in empty process test || add test case
+8.228 || add logging of presence to discord service || remove debug logging
+8.228 || improve logging of on close websocket callback || remove debug logging
+8.162 || fix a default cluster listeners in simple tcp cluster the optimal default value is different for each session manager cluster session listener is never used in backup manager || don t close the number to the connection is not the pool
+7.594 || extend the no el test to cover deferred expressions || fix test test test
+7.359 || remove system out introduced in jb s commit || remove debug out
+7.293 || hive <num> fix typo in type get type ttype id exception message keegan witt via ashutosh chauhan || add type type to type type type
+7.291 || add layer to darken picture and reveal text set the layer background color only on apply alpha || set background color when view view view
+6.871 || restored the enumeration of lang directory in method locale utils get available locales when the installation directory is at the default location broken in r <num> || add a method to make the map of the line
+6.778 || add call to destroy that should unregister all the mbeans || add test to test
+6.778 || enable disabled test timer event with start and duration test || ignore test case test
+6.692 || remove fetch size in issues sql and reactivate previously deactivated unit test || disable test that fails test
+6.326 || ignore test performance by default since it fails without special configuration || ignore test fails test
+6.322 || adding run order to surefire to have reproducible builds small logging change in confurators on process engine boot || add logging to debug the debug file
+5.895 || adds null check before trying to remove connections || remove unnecessary code
+5.895 || notate a test case of heart beat builder || disable test test
+5.895 || remove a print message left over from debugging || remove debug logging
+5.895 || add missing value in file indexer debug log || remove debug logging
+5.895 || change some log level from info to debug || remove debug logging
+5.895 || remove invalid properties from map on property load || remove unnecessary logging
+5.895 || remove unnecessary log message in sink cmd <num> || remove debug logging
+5.895 || fix a leak in http response decoder test || add test case
+5.479 || do no set parent value to key value if no parent in metadata || add null check to null
+5.278 || issue <num> support an api key in anti csrf form generation || add support to <num>
+5.206 || hive <num> hive server <num> running in non http mode closes server socket for an ssl connection after the <num> st request prasad mujumdar reviewed by thejas nair vaibhav gumashta || ignite <num> fixed test cache test test test test test test
+5.055 || made rt load class for name check that for name exception is its own or let it flow out || remove redundant code exception an throw exception
+4.606 || disable test the client implementation is not ready for this yet || ignore test fails test
+4.606 || added a unit test to complete a functional test fixing build || add null check test
+4.423 || remove unnecessary check all paths to this method already perform the check || remove unnecessary code exception
+4.420 || hive <num> enable orc test for timezone reading from old format prasanth jayachandran reviewed by sergey shelukhin || ignore test case test master master
+4.289 || add the test case from bug <num> as it suggested there may be further issues there were not || add test case to test failure
+4.224 || removes an unused local variable from x <num> method || remove unused code
+4.224 || removing unneeded sysout thanks jbarrez for pointing that out || remove debug out
+4.224 || remove rethrow of exception in try to start process || remove unnecessary code
+3.848 || adds groovy all by default to activiti rest and fixes http forums activiti org content different error response body rest api upgrade <num> <num> || add a test method to the server exception
+3.673 || hive <num> hive logs full exception for table not found sergey shelukhin via ashutosh chauhan || add error logging error exception
+3.617 || remove unnecessary code there is no matching attribute on any protocol handler implementation || remove unnecessary code
+3.587 || activate verification with timeout test should allow timeout verification in order <num> || ignore test fails test
+3.587 || ignore a test of event test that has too many false positives || disable test on now
+3.360 || add kkolinko s unit test for https issues apache org bugzilla show bug cgi id <num> || add test name check test
+3.293 || hive <num> tez in place progress ui can show wrong estimated time for sub second queries prasanth j reviewed by gopal v || remove unused code in the longer request
+3.167 || fixed a bug where default channel future is success returns true even if the future is not done yet || remove unused code this a npe
+3.030 || add non null annotation to com github pwittchen reactivenetwork library rx <num> connectivity create android content context || add null check to null
+3.027 || remove vaults that can no longer be read ci skip || remove unused code
+2.811 || include the name which was the cause of the illegal argument exception while try to add a handler to the pipeline || add error to the method name
+2.493 || hive <num> llap disable the flaky test llap task scheduler service test sergey shelukhin || ignore test fails test
+2.176 || use maven plugin to prevent api abi breakage as part of build process <num> || ignite <num> fixed tests
+2.169 || commit extra logging to help diagnoze zk test failure on hudson || remove debug logging
+2.169 || add null check for target tile in object indicators plugin <num> || fix bug <num>
+2.016 || align error handling for being unable to send the preface with the other error handling in this method || improve error exception exception exception
+1.921 || hive <num> metastore hive meta store should set the thread local raw store to null in shutdown travis crawford via ashutosh chauhan || don t close the debug logging
+1.844 || adding a new rule use concurrent hash map to promote use of concurrent hash map implementation in java <num> || add support to <num> <num>
+1.612 || add a test that builds the auto value tests using the eclipse compiler created by moe http code google com p moe java moe migrated revid <num> || fix test case test test test test
+1.320 || amend hbase <num> fix release version now for <num> <num> and fix for intermittent test failure || add a debug test
+1.113 || tidy up removed unused variable that was incorrectly left in a previous change || remove unused code
+1.113 || improve the test command executor test should stop with timeout for slow boxes || add test case
+1.106 || eclipse settings where removed from svn which made source level <num> again and introduced illegal override annotations in my new code || add override to stop activity
