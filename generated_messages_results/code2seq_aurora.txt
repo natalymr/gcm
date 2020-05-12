@@ -1,0 +1,202 @@
+Bleu-score || Original Commit Message || Generated Commit Message
+
+100.000 || fix for rabrique || fix for rabrique
+100.000 || fix for <num> || fix for <num>
+85.056 || reverted back dave s to my revison refactoring handlers etc have been moved || reverted back dave s to my revison refactoring handlers etc have been moved moved to psi element
+49.161 || fixed issue with slashes in build || fixed issue with slashes problem in class
+48.602 || scr <num> || scr <num> null
+48.602 || fixed npe || fixed npe null
+44.208 || <num> || scr <num>
+38.964 || fixes in parser || parser fixes parser
+36.296 || rolled back stathik changes || rolled back stathik changes my revison refactoring etc have
+32.685 || scr <num> || scr <num> fix get
+32.627 || no in completion inside jsp actions || no for completion inside jsp jsp jsp jsp
+32.462 || fixed issue with null children for directory || <num> fixed null null null null null for null
+32.407 || fixed issue with completion of continue in for statement || test for scriplets inside enumeration and fields fixed this completion
+31.692 || fixed memory leak with recent data || fixed memory memory recent <num> execution
+31.692 || fixed npe with null predicate || fixed npe null null is null
+31.273 || npe fixed || fixed npe on null of top level is is is is is is x <num>
+31.213 || bug fix || fix for code
+31.069 || fixed issue with null attribute descriptor retrieval || fixed npe is descriptor is is namespace is no namespace is be is
+31.069 || fixed issue with module names when no search results || npe fix fixed null null in module files only only only for module
+30.962 || fixed ossue with composite usage nodes || fixed index issue with my bound lines lines changed changed changed changed
+30.853 || fixed some bugs in diagnostics || fixed npe in wrong generation and incorrect problems is debugger and
+30.793 || fixed problem with html file validation when explicit doctype is present || fixed issue with highlighting highlighting when string is the xerces
+30.743 || first cut for usage of repository for descendants search || fixed npe for npes after comments is component for css
+30.683 || fix for completion after catch block || completion fix for completion in case new fields
+30.634 || caching jsp tag library infos independently from jsp directives || fix for resolve tei jsp includes in jsp jsp
+30.634 || project tree builder test || tree node extends node fixed test test test test
+30.529 || fixed html reparse problem || fixed issue with insertion of complex problem are
+30.529 || npe fixed || fix for npe in case of resolve fixed
+30.509 || npe on null editor fixed || fixed npe on null name is null external external
+30.456 || scr <num> || scr <num> of last level
+30.456 || scr <num> || scr <num> for case fixed
+30.433 || completion for synchronized fixed || some fixes in resolve fixed fixed completion
+30.422 || fix for packages completion || fix for completion in completion fixed with
+30.419 || added test case for searching || fixed issue with a magic max time searching searching searching temp dependent dependent as put put put
+30.326 || added performance and xml test || test to enable line added
+30.326 || updated completion for super keyword || fix for completion in resolve
+29.920 || patch for nike || fix for re sharper is component another the the qualified qualified qualified qualified qualified
+29.727 || fixed issue with constraint not used for <num> occurence || fixed npe in long replacement predefined classes polished diagnostics polished polished polished polished
+29.727 || stupid bug fixed || fixed back with insertion of my user user user user file file file
+29.517 || packages process declarations in wildcard imports fixed || fix for anonymous in methods not e class class no class class
+29.517 || fix for classes in root package || fixed problem with completing classes parameters when are classes <num> not cce
+29.287 || initial support for find usages of tag and attribute || fixed issue with highlighting highlighting values values for external style statement
+29.287 || by default max matches integer max value || fixed issue with finding background max is absent for the length
+29.287 || close all files in tab bug || fixed npe in navigators generation <num> is os os <num> <num>
+29.287 || <num> || fixed npe in code fragment statements is id <num> <num> <num>
+29.287 || fixed finding substitutes for old find sub tags || fixed npe in empty tag schema across across schema schema schema
+29.287 || fixed simple misspelling of || fixed npe on null element null is null null is file
+29.287 || fixed wrong icons in module wizard || fixed issue with converion licenced n by external resources mac dependent
+29.287 || statistics equals issue fixed || fixed npe in absence f not name is not not mode
+29.068 || scr <num> || scr <num> get lookup for case
+29.068 || scr <num> || scr <num> fix get last mapping
+29.068 || fixed memory leak || fixed memory memory recent <num> execution
+29.033 || fixed missing references from xml data charcters || several fixes for resolve in jsp xml ant tests includes
+29.033 || supported import in css style sheet ep <num> || css for css and attributes completion completion completion completion completion
+29.033 || bug fix || fix for reparse speedup get start offset have have have
+29.033 || fix for several type bugs || scr <num> get substitutor for case fixed with substitutor substitutor
+28.777 || css completion in html support for ids || css support for xml declaration highlighting validation css action
+28.777 || bug fix for normal completion || fix for completion in jsp fixed t completion completion
+28.751 || fixed bug iwith my pindex || fixed issue with converion licenced constant by absent is
+28.751 || some changes in format || fixed npe in incorrect classes are empty empty empty
+28.751 || dir name is used for selection first || fix for branch in bounds manager get not not
+28.751 || added set physical || added enable module logging for dependencies fix null option
+28.751 || initial implementation of the progress || fixed npe null null null null is the project
+28.751 || personal license handling || fixed npe in code license license license is file
+28.751 || usage view is initially integrated || support for multiple usage bug to enable tab support
+28.751 || some check cancel inserted to speedup typing || some back for repository and super for more pattern
+28.751 || ignored resources in doctype uris fixed || fix for statics in root parameters resolve been assertion
+28.751 || non commercial license added || fixed npe in license license license license is file
+28.433 || word completion || completion for members inside xml and completion fixed
+28.433 || fixed greater test for xhtml || fixed issue with insertion of scriplet after end
+28.433 || css file type icon || fixed npe of an level is create file
+28.433 || fixed associated config initialization || fixed issue with process canceled after are is
+28.433 || added dimension service key to dependencies dialog || added error for debug canceled for the level
+28.433 || caching mechanism fixed || fix for npe in jsp jsp fixed completion
+28.433 || fixing license paths || fix npe in code license license license null
+28.433 || completion in generics fix || fix for javadoc inside n after parameters resolve
+28.433 || tests fix || fix for npe in license root is fabrique
+28.433 || <num> test || test for jsp inside jsp this this yet
+28.433 || smart completion in return fixed and tested || fixed issue with insertion of parameters to last
+28.433 || fix for unresolved classes in xml || scr <num> fixed get last util in jsp
+28.433 || fix for npe || scr <num> is not descriptor for jsp evaluation
+28.433 || class resolve fixed || fixed npe in anonymous classes parameters by classes
+28.433 || types completion when target class is not imported || scr <num> get last lookup is lookup for
+28.217 || bug with locals inside for in jsp fixed || one more completion in resolve fixed is includes in jsp
+28.172 || completion in case of unknown expected types inside catch for example fixed || fixed issue with insertion completion after after after id <num> <num>
+28.122 || word completion in java doc || word completion try for completion fixed <num>
+28.122 || scr <num> || scr <num> of last util is have
+28.122 || scr <num> || scr <num> <num> option null in module
+28.122 || scr <num> || scr <num> of psi files for psi
+28.122 || scr <num> || scr <num> fixed <num> action in jsp
+28.122 || fix npe || fix npe in network license dispose fix
+28.122 || scr <num> || scr <num> of no mapping in jsp
+28.122 || fixing scr <num> || scr <num> removed updated tests in case
+28.081 || fixed issue with matching a b || fixed issue with matching matching tag for comments xml expressions xml xml
+28.070 || first working test for jspx highlighting || xml xml schema has is for xml
+28.070 || fixed misspelling added annotation patterns || fixed replacement in method parameters ui method
+28.070 || fixed bugs in url references || fixed issue with incorrect completion after b
+28.070 || npe fix || fix for reparse reparse outside outside parsed
+28.070 || incomplete reading from pipe fixed || scr <num> fixed to keep line t
+28.070 || init fix || scr <num> code code dialog null fix
+28.070 || jsp file reference caches || jsp resolve fixed fix completion in jsp
+28.070 || <num> || <num> fixed updated updated fix fix caches
+28.070 || fixed issue with out of bounds || fixed npe in incorrect completion tag tag
+28.070 || cce fix || jsp resolve fixed completion completion fix completion
+28.070 || fetch ext resource problem fixed || scr <num> fixed keep keep java file
+28.070 || ml fix || scr <num> fix in fabrique java been
+28.070 || class resolve fixed || scr <num> fixed fix fix fix completion
+28.070 || fixed npe for license agreement || scr <num> fixed null null get file
+27.919 || remove damaged subtree fixed || subtree fix fixed
+27.646 || jspx xml completion || completion fix completion completion completion completion
+27.646 || parsing validating old html || fixed npe in doctype parsing parsing
+27.646 || subtree changed fixed || fix for reparse fixed changes not
+27.646 || fixed and newlines in subsequent matches || fixed npe with incorrect parsing are
+27.646 || fqn in method call support || scr <num> for jsp in jsp
+27.646 || minor changes for vf || fix for visibility in module file
+27.646 || support for scriplets || fix for <num> jsp in jsp
+27.646 || fixed iob when statement count <num> || fixed npe null is is var
+27.646 || jsp file template was added || jsp node fixed tests in jsp
+27.646 || mixing namespaces and dtd fixed || several fixes in resolve fixed for
+27.646 || stack overflow fix || fix for npe in anonymous classes
+27.646 || fixed <num> || npe fix fixed get document document
+27.646 || ant completion fix || fixed npe when completion values up
+27.646 || test tags fixed || npe fix fixed in case completion
+27.440 || scr <num> || scr <num> fix is component is java classes
+27.440 || scr <num> || scr <num> fix fix for do is do
+27.395 || cssopen api added now to open api || added test added now test test test added really necessary api in
+27.139 || fixed npe || fix for npe <num> descriptor
+27.139 || endless loop fixed || fixed npe of keep is
+27.139 || fixed cdata quoting for fabrique || fixed xml problem with tag
+27.139 || hack by ik for fabrique || fix for rabrique outside files
+27.139 || clear caches in xml text || fixed npe in network f
+27.139 || <num> || fix for <num> file file
+27.139 || npe fix || fix for anonymous in methods
+27.139 || reviewed java completion data || completion fixes completion in completion
+26.926 || scr <num> || scr <num> fix fix for case no base no
+26.528 || scr <num> || fix scr <num> keep keep java java java java machine
+26.505 || get parent fix || fix for npe <num>
+26.505 || stupid bug fix || events fix fix null
+26.505 || cleanup for memory leak || fix for <num> f
+26.505 || hilighting of css || css for html highlighting
+26.505 || fix for cce || stack fix fixed return
+26.211 || fixed npe on cancel of super dialog || fixed npe null null is null to the g when <num>
+26.211 || scr <num> || scr <num> fix for case not last class resolve resolve methods
+25.746 || fixed issue with processing of the same files two times || fixed issue with method parameter to method <num> <num>
+25.744 || scr <num> || scr <num> of lookup lookup t t t in lookup in generics fixed
+25.744 || npe in case of type parameters || fixed npe in network <num> is is lookup in module root not debugger
+25.698 || fixed issue with file text id mismatching || fixed npe file for file file
+25.698 || support for generic methods in smart completion || scr <num> fix fix for completion
+25.568 || scr <num> || scr <num> <num> <num> in enable ware scr <num> x <num> <num> <num> <num>
+25.090 || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching || fixed npe with absence class matching are are by name and multiple is set finding name
+24.782 || fixed issue with wrong parameters for xml block commenter || fixed issue with id element for global issue issue issue with html in html
+24.333 || bug with completion after not valid constructions fixed || new resolve in resolve fixes completion fixes
+23.776 || several fixes in completion xml block highlighting jsp resolve optimization || fix for <num> code jsp jsp in jsp
+23.550 || fixed issue with matching call parameters || fixed issue with incorrect matching matching searching searching searching searching temp dependent as dependent as put
+23.260 || fixed issue with incorrect evaluation of cached value for derived ant configurations || fixed npe null of dtd descriptor is not value
+22.870 || one more try to fix npe in map build || fix for anonymous in anonymous class class
+22.365 || one more parser fix || fix for tests
+22.220 || fixed npe on containing file null || fix for null in psi
+22.144 || optimized inheritors getter and write action dialog in completion fixed || fixed npe for class class class id is
+21.315 || fixed npe for null psi element in usage view <num> || fix for npe in inspection is var
+21.094 || not add qualifiers to types contained in current file || scr <num> removed to module discussed been
+21.094 || don t process folding until highlighting for xml files || fix for scr <num> null null file
+21.094 || added methods for processing word in comments and literals || removed editor to parameter fix absent in
+20.642 || fixed issue with tag balancing || fixed npe null for
+20.642 || serious bug in reparse fixed || parser in parser parser
+19.809 || now it is no need for cancel reparse || added test for psi after element
+19.542 || document history set state is aware of editor type scr <num> || added manager of inspections fixed by compu ware
+19.542 || scope is appended to no usages found and title of usageview || fixed npe in null selection is is tab
+18.320 || fix for npe in jsp highlighting and move find usages || several fixes in resolve in jsp fixed
+18.286 || all methods fields classes are now in process declarations oder || fix for npe in resolve in case
+18.192 || npe fix in case of empty file || fixed npe on null text
+16.768 || in case of full reparse removed elements should invalidate || events fix reparse fixed file parent
+16.643 || fix of the igor fix of the npe || npe fix fixed fixed null
+16.348 || support for completion highlighting of css inside html file || css file for css highlighting
+15.881 || fully added alignment cancel functionality fixed bug with wraps aligns enumeration || fixed bug in network generation java execution
+15.851 || disabled hilighting for search aptterns until better hanlding of pattern syntax || removed cut for code fragments list fields
+15.219 || fixing src http www intellij net tracker idea view scr public id <num> || added error for debug <num> is absent absent
+13.841 || fixed issue with wrong cache builder for unknown file type that is xml file || fixed issue with file file file file
+12.726 || bind to element change to not to fail in case of anonymous local type params || fix for npe in anonymous fixed is methods
+12.520 || check for null xml file is inserted || npe fix fixed null
+12.194 || added test case for completion from custom tag lib || fix for <num> for xml
+12.131 || fix for sc see before after <num> java in style completion test || scr <num> fixed completion in jsp
+12.015 || fixed wrong behavior on update the tags that has the id || fixed npe in case descriptor is
+12.015 || new bcel <num> compatibility changes and new jsp jspx file models || jsp fix in jsp fix jsp
+11.934 || fixed bug in type cast formatting added double cast test for this bug || fixed bug <num> of psi statements is
+11.659 || no open in new tab if find tab was not opened yet || no open of async tab absent
+10.085 || imporved performance of code formatter minor improvements to smart encoding input stream minor improvements to file reading routines implementation || fixed npe in code of parameters wizard is external
+9.961 || fixed issue with building caches for libraries when searching for the method for processing ui form refs || fixed issue with wrong parameter first time time
+9.751 || proper timebombing with idea test util bomb explodes || test jspx completion completion
+9.661 || fixed issue with smart completion of last arg in new call for new a get show || test for scriplets of new new new
+9.328 || new resolve schema fixes fix for stack overflow we don t need to check accessibility at this point || some fixes in resolve fixed completion for fabrique
+9.134 || fix save configuration when module file hasn t ben created yet || fix for compilable in module
+8.880 || fixes for undo trouble with smooth scrolling turned on vert scroll should not be remembered since it is catched asyncronously at the wrong time || error reporter scroll http scroll with undo with smooth scrolling enabled
+8.174 || fix for <num> and new framework for code style in completion || completion completion fixed completion completion
+4.828 || fixed npe in process psi tree changed when the virtual file from psifile is null this is so for all completion text fields || fixed npe null file null null null file
+4.382 || if change start removed by error handling we need to start inserting whitespaces and other activities from the very begining || fix npe in reparse fixed get start
+4.224 || fixed infinite loop with reg exp matching empty string || scr <num> fixed
+3.839 || fix in ant references bind to element local classes handling in default insert handler and some performance update in class hash provider || fixed npe in incorrect classes in string
+3.742 || disabled read external to prevent crash problems due to empty tag values appeared since write is not implemented || fix for npe in code not
+2.262 || fixed scr <num> read only files are not always marked with padlock icon e g in refactoring preview || scr <num> of optional view

@@ -1,0 +1,133 @@
+Bleu-score || Original Commit Message || Generated Commit Message
+
+31.894 || fixed issue with file text id mismatching || file file should not use file file file file file file file file file file file file file file file file file file file file file file file file file file
+31.894 || fix save configuration when module file hasn t ben created yet || file file file file file file file file file file file file file file file file file file file file file file file file file file file file file file file
+31.736 || temporarily rolled back to revive tests || generate maven plugin to generate xml readme file formats not be configured as it can be tooling with xml files its file file file file file file file file
+31.736 || new bcel <num> compatibility changes and new jsp jspx file models || file file file should not use files files files file file file file file file file file file file file file file file file file file file file file
+31.725 || attempted to improve inference of common type || add support to lazy support until loader source and dirty prototype to be able to load component type converters in
+31.565 || <num> || optimise language should be depend with classpath expression closes <num> expression not needed as it only not needed as its nested nested nested nested nested nested nested
+31.554 || fixed bug in type cast formatting added double cast test for this bug || fixed cs this closes <num> is not be configured nested nested nested nested nested nested nested nested nested
+31.554 || fixed <num> || fixed cs this closes <num> this is not be configured this is not be configured in the dsl
+31.554 || scr <num> fixed || fixed cs to version <num> <num> to version <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+31.474 || anon to inner || fixed cs to be set as its nested function nested nested nested nested nested nested nested nested nested nested nested nested nested nested nested nested nested
+31.463 || check for null xml file is inserted || file xml xml xml should be read xml xml xml xml <num> xml xml xml xml xml
+31.463 || scope is appended to no usages found and title of usageview || camel catalog should not warn on the data of tooling parser the project the jira is the
+31.463 || bug with completion after not valid constructions fixed || fixed cs this closes <num> property name issues this is not supported in simple dsl this can
+31.370 || camel humps for speed search || camel salesforce add a new api for the <num> <num> to be used in the order
+31.280 || added test case for completion from custom tag lib || camel maven maven plugin to generte spring boot tooling metadata to fool editors to have code completions for camel main application properties files files
+31.280 || fix for rabrique || camel maven maven plugin to generte spring boot tooling metadata to fool editors to have code completions for camel main application properties files files
+31.280 || hack in code block || camel main maven plugin to generte spring boot tooling metadata to fool editors to have code completions for camel main application properties files files
+31.280 || changes for re sharper || add support for generating type converter loader source code to be able to load component type in use faster way this in a faster
+31.280 || css completion in html support for ids || camel main maven plugin to generte spring boot tooling metadata to fool editors to have code completions for camel main application properties files files
+31.280 || name store move to memory mapped file || camel main maven plugin to generte spring boot tooling metadata to fool editors to have code completions for camel main application properties files files
+31.280 || incomplete reading from pipe fixed || fixed cs cs issues to be <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+31.280 || class loader fixed || add support for generating type converter loader source code to be able to load component type converters in a faster way we can be
+31.213 || stupid bug fix || fix a npe
+31.176 || rename is supported via file type support capabilities || file file should not use xml files when file file as it can be regular as its file as it can be working
+31.176 || hack by ik for fabrique || camel maven maven plugin to generte spring boot tooling metadata to fool editors to have code completions for camel main application properties files
+31.176 || updated tests according to changes in idea psi || fixed cs javadoc to be loaded with json files this is not supported as it is be configured instead of also file etc
+31.176 || properties completion fixed || optimise use bean introspection to provide a properties with property builder property parser already be configured as we can be regular with default
+31.176 || ignored resources in doctype uris fixed || add support for generating type converter loader source code to be able to load component type converters in a faster way a faster
+31.066 || npe fix in case of empty file || generate file to file with file data helper fabric <num> project apache the poms file they is not supported description to be
+30.962 || fix for dtd change caused xml document to become red || fix camel jetty to use <num> issues issues issues issues issues issues
+30.951 || subtree changed fixed || fixed cs cs this closes <num> <num> <num> issues apache org jira browse camel <num> apache camel core apache camel core
+30.951 || fixed control w in style attrs || fixed cs cs this closes <num> <num> <num> issues issues test <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.951 || smart enter for foreach || add support for generating type converter loader source code to be able to load component type converters in a faster way
+30.951 || fix for several type bugs || optimise should not depend on camel core but camel support type converters we need to be invoked faster in the faster
+30.829 || added new label test || fixed cs cs issues issues test <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.829 || fixed npe on containing file null || generate component out of camel core component to file file should be set as its file file file file file
+30.701 || new test || camel dropbox fixed tests not work in the new components apache camel jira apache camel jira apache camel <num>
+30.701 || code formatter work around || generate xml of camel core code is not supported in xml xml file file as xml as xml as
+30.701 || fixed memory leak with recent data || camel mongodb should not working on the data formats data browse the jira browse the <num> to be working
+30.701 || allow yes value for required attr of the tag lib || fixed cs npe in the endpoint <num> <num> <num> we be configured in the dsl we can use configured
+30.564 || descendant classes macro is added || optimise bean classes to provide a order expression parser this can be regular instead of having a faster
+30.564 || fixed npe for null psi element in usage view <num> || fix a new file for spring boot auto configuration for the source code that is already longer supported
+30.564 || support for generic methods in smart completion || optimise should not depend on camel core but camel support is not be configured nested nested nested value
+30.564 || some fixes in ant support || add property strategy to allow watching for file changes and reload prototype the the work in camel core
+30.529 || fixed and newlines in subsequent matches || fixed cs to be set in the order
+30.433 || fixed npe on cancel of super dialog || fixed cs npe is not be configured
+30.419 || fixed missing references from xml data charcters || camel xml should not use saxon so its only is only as its as as the xml
+30.419 || remove damaged subtree fixed || fixed cs cs to version <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.419 || scr <num> || fixed cs cs related bundle to version <num> <num> apache apache camel poms apache apache camel core
+30.419 || fixed finding substitutes for old find sub tags || fix camel spring boot auto plugin for all camel schema schema schema name t not be configured
+30.419 || <num> || fixed cs cs this closes <num> <num> <num> issues issues test <num> <num> <num> <num> <num> <num>
+30.419 || fixing src http www intellij net tracker idea view scr public id <num> || fixed cs cs this closes <num> <num> <num> issues issues test <num> <num> <num> <num> <num> <num>
+30.359 || fix for npe || fix xml npe to be enriched
+30.264 || fixed npe || fix the npe of the camel catalog <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.264 || fixed cdata quoting for fabrique || camel dropbox fixed tests not version as the file tests apache camel jira apache camel poms
+30.264 || block highlighting navigation quotes handling insert brace on enter for custom file types e g javascript || camel core should not use the route with tooling with the dsl the the file the
+30.264 || introduce constant in the other class || optimise language should be depend so that can do be same simple with the nested nested
+30.264 || dir name is used for selection first || fixed npe typo error is not be configured file file is it are do it is
+30.264 || scr <num> || fixed cs cs to version <num> <num> <num> <num> <num> to be <num> <num> <num> <num>
+30.264 || scr <num> || generate dsl auto plugin for the source files <num> not not be configured the file file
+30.098 || fixed issue with out of bounds || fixed cs automate <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+29.920 || fixed misspelling added annotation patterns || fixed cs for camel elasticsearch in camel elasticsearch in camel elasticsearch in the components
+29.920 || fixed bugs in url references || fixed cs typo not not be set file file file file file file file
+29.920 || removed references to project || polished npe to be working to be working to be working to be working
+29.920 || working on set methods generation || camel spring boot make it easy to be working so its can be configured
+29.920 || fix for tests || camel xml maven plugin for the base so you can plugin to reactive engines
+29.727 || cssopen api added now to open api || add information to file level to parse long streams to the file helper
+29.727 || fixed npe || fixed test to version <num> <num> <num> <num> <num> <num> <num> <num> <num>
+29.727 || fixed associated config initialization || fixed cs cs this is not supported in the is not be configured
+29.727 || added dimension service key to dependencies dialog || fixed cs code typo <num> to be version value apache camel core apache
+29.727 || fixed <num> || fix checkstyle to version <num> <num> issues issues issues issues issues issues issues
+29.727 || npe in case of type parameters || camel box create the spring boot itest configuration is not work in the
+29.727 || cache manager is initialize only if repository enabled || camel ftp should not create a thread manager when default of the components
+29.517 || no open in new tab if find tab was not opened yet || camel catalog should not create a route with route with camel core
+29.517 || fixed issue with constraint not used for <num> occurence || fixed cs to be loaded when its type converter as we can
+29.517 || one more try to fix npe in map build || fixed cs cs to be set as the type is not output
+29.517 || xml highlighting and completion fixes || xml xml xml with xml files xml <num> apache camel core issues
+29.287 || endless loop fixed || fixed cs cs issues to version <num> <num> to be set
+29.287 || fixed wrong behavior on update the tags that has the id || camel dropbox can not use xml thread can only output id
+29.287 || smart enter for foreach || add support for generating goal for file source and dirty prototype
+29.287 || jsp file template was added || file file should not use file file files file file file
+29.287 || fixed issue with matching call parameters || fixed cs cs issues to version <num> <num> apache camel jira
+29.033 || shortened jsp reparse test case || fixed test log test to be used in camel core
+29.033 || fixed issue with slashes in build || camel dropbox should not warn on their schema with components
+29.033 || fixed misspelling of available || fixed cs cs this closes <num> <num> <num> issues issues
+29.033 || working on set methods generation || camel spring boot add a option to set the xml
+29.033 || fixed issue with completion of continue in for statement || camel dropbox should not load saxon path in the saxon
+29.033 || scr <num> || fixed cs npe to be <num> is not be configured
+28.751 || optimizations of getters || optimise to do autowrire instead of classpath core type
+28.751 || added test case for searching || fixed test to version <num> <num> apache camel core
+28.751 || initial implementation of the progress || camel sjms should skip the logic while the consumer
+28.751 || fetch ext resource problem fixed || fixed cs to version <num> <num> apache camel core
+28.751 || class resolve fixed || fixed cs to be set as the its tooling
+28.433 || cleanup for memory leak || add a new to support for camel cdi
+28.433 || performance testing for html highlighting landed || camel git add a tests for the component
+28.433 || fixed npe with null predicate || fixed cs to be set when the exception
+28.433 || fixed class cast exception || fixed cs to be done in the jira
+28.070 || performance leak fixed and tests changed || fixed cs npe is not be configured
+28.070 || fixed issue with null children for directory || fixed cs cs not not be configured
+28.070 || fix for <num> || optimise a leader to fix event event
+27.646 || <num> || fixed cs cs to be <num>
+27.646 || completion for synchronized fixed || fixed cs npe to be done
+27.139 || structure view component || add a leader to component
+27.139 || scr <num> || fixed cs to be <num>
+27.139 || npe on null editor fixed || fixed cs to be set
+27.139 || class resolve fixed || fixed cs to be working
+27.139 || fix for parameters || fix npe in camel spring
+26.926 || find usages stopship bug to be put in pallada || fixed cs to be loaded with type with osgi
+26.926 || types completion when target class is not imported || fixed cs npe is not be set nested nested
+26.907 || fixed issue with wrong cache builder for unknown file type that is xml file || file file should not use xml file xml file is not not file as file file file file file
+26.535 || fixed npe in process psi tree changed when the virtual file from psifile is null this is so for all completion text fields || file file should not use file file files file file file should be longer file file file file file file
+25.937 || fixed issue with smart completion of last arg in new call for new a get show || polished it is not set in the dsl nested nested value nested nested value
+25.727 || fixed issue with processing of the same files two times || fixed cs to be <num> <num> to be configured
+24.737 || proper quotes handling for css support for insert matching brace on enter || add support for generating empty converter parse source source to be able to load component type converters in a faster way this can be
+24.474 || fix in ant references bind to element local classes handling in default insert handler and some performance update in class hash provider || optimise to do autowrire by classpath as not can be configured as its its configured the the apt
+23.402 || disable new version check for compuware version || fix a new new a tests
+22.408 || if change start removed by error handling we need to start inserting whitespaces and other activities from the very begining || optimize file watcher to be start later file parent file file description value reflection file
+21.508 || reverted back dave s to my revison refactoring handlers etc have been moved || optimise to do autowrire by classpath quick and dirty prototype
+20.934 || imporved performance of code formatter minor improvements to smart encoding input stream minor improvements to file reading routines implementation || fixed cs file <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+19.491 || if change start removed by error handling we need to start inserting whitespaces and other activities from the very begining || optimize changes classes to provide changeable order that that to plugin different reactive engines
+18.192 || made module rule less sensitive to context || fixed cs to be <num>
+17.794 || fixes for undo trouble with smooth scrolling turned on vert scroll should not be remembered since it is catched asyncronously at the wrong time || add reload strategy to allow watching for file changes and reload routes on the fly
+16.263 || fixed html reparse problem || fixed cs
+14.894 || bug with locals inside for in jsp fixed || fixed cs to be working
+12.726 || bind to element change to not to fail in case of anonymous local type params || fixed cs to be set in the order
+11.804 || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching || camel catalog create a new component for all it easy
+9.984 || optimized inheritors getter and write action dialog in completion fixed || fixed cs to be enriched
+8.228 || packages process declarations in wildcard imports fixed || fixed cs test
+8.146 || fixed scr <num> read only files are not always marked with padlock icon e g in refactoring preview || fixed cs to be tiny to be working
+4.420 || fixed issue with building caches for libraries when searching for the method for processing ui form refs || fixed cs to version <num> <num>
+2.016 || new resolve schema fixes fix for stack overflow we don t need to check accessibility at this point || fixed cs to be set

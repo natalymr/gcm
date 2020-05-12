@@ -39,41 +39,40 @@ def replace_target_with_message(paths_file, common_log_file, output_dir):
     output_file: Path = output_dir.joinpath('full_dataset.txt')
     output_log: Path = output_dir.joinpath('c2s_commits.log')
     len_changed_functions: List[int] = []
+    i = 0
     with open(output_file, 'w') as out_f, open(output_log, 'w') as out_l, open(paths_file, 'rb') as paths_f:
-        total_commits_count: int = len(repo_commit_vs_repo_blobs)
-        with tqdm(total=total_commits_count) as pbar:
-            for commit, changed_files in repo_commit_vs_repo_blobs.items():
-                pbar.update(1)
-                if pbar.n % 1000 == 0:
-                    print(f"mean = {np.mean(len_changed_functions)}, "
-                          f"median = {np.median(len_changed_functions)}\n"
-                          f"60 percentile = {np.percentile(np.array(len_changed_functions), 60)}\n"
-                          f"70 percentile = {np.percentile(np.array(len_changed_functions), 70)}\n"
-                          f"80 percentile = {np.percentile(np.array(len_changed_functions), 80)}\n"
-                          f"90 percentile = {np.percentile(np.array(len_changed_functions), 90)}")
-                changed_functions: Set[Tuple[FunctionInfo, FunctionInfo]] = set()
-                for changed_file in changed_files:
-                    changed_functions |= compare_two_blobs(BlobPositions(changed_file.old_blob,
-                                                                         blobs_positions[changed_file.old_blob]),
-                                                           BlobPositions(changed_file.new_blob,
-                                                                         blobs_positions[changed_file.new_blob]),
-                                                           paths_f)
-                    if '0000000000000000000000000000000000000000' in changed_file.new_blob or \
-                            '0000000000000000000000000000000000000000' in changed_file.old_blob:
-                        print(f'Commit: {commit}, #changed functions {len(changed_functions)}')
+        for commit, changed_files in tqdm(repo_commit_vs_repo_blobs.items()):
+            i += 1
+            if i % 1000 == 0:
+                print(f"mean = {np.mean(len_changed_functions)}, "
+                      f"median = {np.median(len_changed_functions)}\n"
+                      f"60 percentile = {np.percentile(np.array(len_changed_functions), 60)}\n"
+                      f"70 percentile = {np.percentile(np.array(len_changed_functions), 70)}\n"
+                      f"80 percentile = {np.percentile(np.array(len_changed_functions), 80)}\n"
+                      f"90 percentile = {np.percentile(np.array(len_changed_functions), 90)}")
+            changed_functions: Set[Tuple[FunctionInfo, FunctionInfo]] = set()
+            for changed_file in changed_files:
+                changed_functions |= compare_two_blobs(BlobPositions(changed_file.old_blob,
+                                                                     blobs_positions[changed_file.old_blob]),
+                                                       BlobPositions(changed_file.new_blob,
+                                                                     blobs_positions[changed_file.new_blob]),
+                                                       paths_f)
+                # if '0000000000000000000000000000000000000000' in changed_file.new_blob or \
+                #         '0000000000000000000000000000000000000000' in changed_file.old_blob:
+                #     print(f'Commit: {commit}, #changed functions {len(changed_functions)}')
 
-                len_changed_functions.append(len(changed_functions))
+            len_changed_functions.append(len(changed_functions))
 
-                if len(changed_functions) > 0:
-                    message = Message(repo_commit_vs_repo_blobs[commit][0].message)
-                    if write_commit_message_and_all_changed_functions(message, changed_functions, 2, out_f):
-                        out_l.write(f'{commit}\n')
+            if len(changed_functions) > 0:
+                message = Message(repo_commit_vs_repo_blobs[commit][0].message)
+                if write_commit_message_and_all_changed_functions(message, changed_functions, 4, out_f):
+                    out_l.write(f'{commit}\n')
 
 
 if __name__ == '__main__':
     process_data_dir: Path = Path('../../new_data/processed_data/')
-    path_file: Path = process_data_dir.joinpath('c2s_paths').joinpath('top1000_dataset_v2.train.raw.txt')
-    output_dir: Path = process_data_dir.joinpath('c2s_paths').joinpath('data')
-    common_log_file: Path = process_data_dir.parent.joinpath('common_blobs.log')
+    path_file: Path = process_data_dir.joinpath('c2s_paths/data/top1000_200_tokens/all_paths.txt')
+    output_dir: Path = process_data_dir.joinpath('c2s_paths/data/top1000_200_tokens/top1000_200_tokens_400_context_size')
+    common_log_file: Path = process_data_dir.joinpath('common_blobs_200.log')
 
     replace_target_with_message(path_file, common_log_file, output_dir)

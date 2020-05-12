@@ -1,0 +1,95 @@
+Bleu-score - Original Commit Message || Generated Commit Message
+
+46.813036887228506 - C-W in fields declaration || C-W in fields declaration (whole line fixed)
+45.51856510359302 - fabrique tests are disabled again || fabrique tests are fixed again
+44.20828144771207 - Test fixed || tests fixed
+44.20828144771207 - SCR 38610 || SCR 23563
+44.20828144771207 - SCR 34062 || SCR 35337
+44.20828144771207 - SCR 9959 || SCR 19423
+44.20828144771207 - fixed createTypeFromText() || Assertion fixed
+44.20828144771207 - SCR 40947 || SCR 37558
+44.20828144771207 - Fixed SRC37080 || Fixed NPE
+42.433182867105415 - fix NPE for code fragments || fix NPE for CodeFragment-based PsiFiles
+40.67791546525002 - profiling actions were inserted, ep2 || profiling actions were inserted
+32.65798322788448 - fixed NPE with containing file = null || Fixed NPE on containing file == null
+32.425090041569185 - Preview for replacement, replacement of selected nodes || Handling of multiline matches was fixed, preview replacement bug with not showing the preview fixed, bug with extra ; during replacement also fixed, buf with reruning search AIOB preview fixed
+31.068794462573337 - Suspend async search button was moved from toolbar to usage view toolbar || Refactoring of async processing interface of usageview in order to make it simplier
+30.528669542712912 - Corrected generation of test - once again || Fixed bug in test generation for interface nonterminal
+30.455841351943707 - Fix for #10849 || Fix for out of memory
+30.455841351943707 - Fix for javadoc completions || Fix for completion inside identifier
+30.455841351943707 - More html parsing texts || Initial code for html parsing
+30.455841351943707 - support unused selector highlighting || support unused selectors in CSS
+30.421539856001655 - Fixed possible NPE when getUsages returned null || fixed NPE when usageinfo returns null element
+30.325506570703464 - parsing html correctly || Initial code for html parsing
+30.09822437761237 - CSS completion test || The very basic support for the completion of css properties and values in css file
+29.86179473162721 - Tests for enter within jsp tags || Tests for autoinsertion of html block ending tags in jsp
+29.516545206750454 - proper validation of css colors || adding support for several properties of the same type & fixed CCE
+29.516545206750454 - Rollback of previous isValid introduction || Fixed issue with incorrect evaluation of cached value for derived ANT configurations
+29.516545206750454 - example for embedded style resolve || support for completion & highlighting of css inside html file with comments
+29.489053708814268 - Fixed issue with out of bounds || fixed issue with identification of empty tag end
+29.28668296670996 - ui fixes for main dialogs || max / min size for search / replace / edit variables
+29.28668296670996 - Fixed ossue with composite usage nodes || Fixed IndexOutOfBoundException during triggering 'merge duplicated lines' on changed text file
+29.033122409548966 - Fixed background color once again (for default schema) || Background color for viewer is taken from READONLY_BACKGROUND_COLOR option value
+29.033122409548966 - some changes in format || yet another repository format opt: bit flags instead of counters
+29.033122409548966 - Fixed some bugs in diagnostics || Polished confusing warning message and fixed bug in path validation
+29.033122409548966 - cached value changed to support local subtag changes in XML || Evaluation of timestamp for XmlDocumentDescriptor is handled in meaningful way
+29.033122409548966 - Fixed NPE and incorrect completion in some case || Tests for autoinsertion of html block ending tags in jsp
+29.033122409548966 - Incomplete reading from pipe fixed || fixed issue with insertion of \n after { in scriplet
+28.35191230968066 - Fix for this in JSP || Fix for JSP files
+28.1221069997569 - VirtualFileSystem.getListeners() made public || VirtualFileSystem.getListeners() made private, method for VF introduced
+28.069502124082863 - Fix for data chache folder || Temporary folder printed in pre install information
+28.069502124082863 - ;,: as css delimiters || supported import in css style sheet, ep2
+28.069502124082863 - Test fixed || Smart completion in return fixed and tested
+28.069502124082863 - check for null patternNode || Initial cut for finding results inside PsiElements
+27.817797411311773 - After closing tag for jsp when / and > are typed || Tests for autoinsertion of html block ending tags in jsp
+27.646153585956462 - commented test cases for import support || supported import in css style sheet
+27.646153585956462 - Fix for XML tests || Two more bugs in XML fixed
+27.439560970724575 - Fixed issue with file mask not reset || Storing selection for file mask in FindInPath dialog
+27.439560970724575 - fixed bug on NULL parent || Checks for NULL parent / child2 were inserted
+27.439560970724575 - New formatter interface v.2 || A stable version of "new new" formatter interface
+27.13915953910661 - Fixed two bugs in resolve || Raw types in collections fixed
+27.13915953910661 - getTypeRank for autoboxed types fixed || fixes for resolve and completion
+27.13915953910661 - Switch template was added || fixed misspelling, added annotation patterns
+26.813678111242574 - invalid tests removed || new tests
+26.813678111242574 - fixed possible NPE || fixed npe
+26.505278683040974 - Tag prefix completion fixed || JSP directives completion rised
+26.505278683040974 - Made the method public || Added method for fabrique
+25.29476503208948 - brackets and parens handling for custom files || block highlighting & navigation, quotes handling, insert brace on enter for custom file types (e.g. javascript)
+24.735602032100932 - Fixed issue with parsing the library sources when first time searching for the usages of e.g. private field || fixed issue with building caches for libraries when searching for the method for processing ui form refs
+23.287824513973135 - fixed issue with CCE on the attribute error || fixed issue with xml highlighting
+23.021846260346198 - Fixed problem with ranges and extra logging appended to extract reference || Fix for NPE in JSP highlighting and move/find usages
+22.4241864205698 - fixed issue with using > for xml tag with attribute closing || fixed issue with identification of empty tag end
+22.365095590992095 - Bug with constructor fixed || Generics highlighting fixed
+22.365095590992095 - CodeStyles in tests fixed || Bug #53 fixed
+20.642331793878125 - camel humps for speed search || camel words searching refactored
+20.642331793878125 - fixed NPE on null nsDescriptor || Added descriptor null check
+19.80933466126965 - fixed issue with wrong highlighting of end tag || propagation of XmlLexer state handling changes
+19.80933466126965 - Second cut for expr type search from ui || Patterns are separated from main editing
+18.191922671622503 - NPE in case of incorrect link fixed || fixes in web directory resolve
+18.191922671622503 - Xml_Name for tag is converted into Xml_Tag_Name || fixed issue with tag whitespaces
+17.87961086055704 - Smart completion after new support generics || Statistics after new
+16.76823977300696 - Fix OutOfBounds when FileEditor removes own tab on dispose || close all files in tab bug
+16.642990876447918 - test case for bug of inner new completion || Bug fix for normal completion
+16.263317874134156 - Hilighting for replacement preview || Replacement preview
+16.263317874134156 - Correct jsp directive completion || Html completion
+16.07626416549204 - Fix for completion after catch block || Two more completion fixes
+16.07626416549204 - profiling util fixes of possible NPEs || profiling actions were inserted
+14.894286548873904 - comment matching/replacing fixed, try replacement preserves unmatched catches || fixes for replacement with parameter
+12.780629072584171 - Disabled hilighting for search aptterns (until better hanlding of pattern syntax) || Disabled hilighting for constraint fields
+12.520207120947966 - Hashing attributes for performance, localname is cached || Rolled back hashing attributes
+9.864200919314852 - Double classes in fields fixed || Tests fixed
+9.864200919314852 - fix in JSP resolve schema || NPE fix
+9.750747110010456 - First variant of group alignment (aligning field declarations) || 1/2 of wrap done
+9.173123134121738 - Fix for invalid parent in CLS and NPE in Empty substitutor. || Fix for several type bugs
+9.133867052401335 - Fix for #15093 and new framework for code style in completion || HTML completion in JSP support
+8.593192731801162 - fixed issue with reparse of html || reparse fixed
+8.22765886776006 - super in case of anonymous class fixed || Generics highlighting fixed
+7.593889484807381 - testcases for css documentation bugs and html reparse problems || tests for javadoc generation
+5.982940291130003 - Fixed CCE crash with incorrect pattern || Fixed NPE
+5.895375191470176 - Fixed issue with completion of parameters in constructor || new completion tests
+5.479301812247061 - fixed issue with lexical highlighting of whitespace in html / xml / jsp || brace highlighting  & block navigation
+4.486072899082588 - No toolwindow activation if there is no usages found in path or structural search || Activation of toolwindow was added
+2.201000730863012 - NPE fix in case of not resolved class || CCE fix
+1.5540040285899928 - camel words and patterns supported for narrowing down the list of members || Lots of changes
+1.5163070555900393 - Mote tests were moved into separate test case, replace activity was started. Fixed issue with PSI change for Pallada version || fixed issue with tag balancing
+1.1134925432425362 - support for completion of compound properties & better support for same type properties || color chooser support

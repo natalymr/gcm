@@ -105,33 +105,56 @@ def split_from_filtered_json(json_file: Path, output_file: Path):
     with open(json_file, 'r') as f:
         commits = json.load(f)
     commits: List[CommitDiff] = [CommitDiff.from_dict(commit) for commit in commits]
-    commits: List[Tuple[Message, Commit]] = [(commit.message, commit.commit) for commit in commits]
+
+    def is_messages_sets_intersected(one: List[CommitDiff], other: List[CommitDiff]) -> bool:
+        return 0 != len({c.message for c in one} & {c.message for c in other})
+
+    def split(input_list: List[CommitDiff], part_size: float) -> (List[CommitDiff], List[CommitDiff]):
+        size: int = len(input_list)
+        first_part_size: int = int(size * part_size)
+        return input_list[:first_part_size], input_list[first_part_size:]
+
+    def fix_messages_sets_intersections(train_list: List[CommitDiff],
+                                        test_list: List[CommitDiff]) -> (List[CommitDiff], List[CommitDiff]):
+        new_train_list: List[CommitDiff] = []
+        new_test_list: List[CommitDiff] = []
+        train_messages_set: Set[Message] = {c.message for c in train_list}
+
+        new_train_list.extend(train_list)
+        for commit in test_list:
+            if commit.message in train_messages_set:
+                new_train_list.append(commit)
+            else:
+                new_test_list.append(commit)
+
+        print(f'New part size is {len(new_train_list) / (len(new_train_list) + len(new_test_list))}')
+        return new_train_list, new_test_list
 
     # COPY-PASTE
     print(f"Len of all commits = {len(commits)}")
     shuffle(commits)
 
     # split dataset
-    commits_train, commits_tmp = split_in_two_parts(commits, 0.6)
+    commits_train, commits_tmp = split(commits, 0.7)
     # wait while test-val messages won't be in train messages
-    if is_messages_intersected(commits_train, commits_tmp):
-        commits_train, commits_tmp = fix_intersection(commits_train, commits_tmp)
+    if is_messages_sets_intersected(commits_train, commits_tmp):
+        commits_train, commits_tmp = fix_messages_sets_intersections(commits_train, commits_tmp)
 
     print(f"All size = {len(commits)}. Train size = {len(commits_train)}.")
     print(f"But train should be (.6){0.6 * len(commits)}")
     print(f"But train should be (.7){0.7 * len(commits)}")
     print(f"Part size is {len(commits_train) / len(commits)}")
 
-    commits_val, commits_test = split_in_two_parts(commits_tmp, 0.5)
+    commits_val, commits_test = split(commits_tmp, 0.5)
 
     print(f"train: {len(commits_train)}, test: {len(commits_test)}, val: {len(commits_val)}")
 
-    splitted_commits = {DatasetPart.TRAIN: {commit for _, commit in commits_train},
-                        DatasetPart.TEST: {commit for _, commit in commits_test},
-                        DatasetPart.VAL: {commit for _, commit in commits_val}}
+    splitted_commits = {'TRAIN': commits_train,
+                        'TEST': commits_test,
+                        'VAL': commits_val}
 
-    with open(output_file, 'wb') as output_file:
-        pickle.dump(splitted_commits, output_file)
+    with open(output_file, 'w') as output_file:
+        output_file.write(json.dumps(splitted_commits, default=CommitDiff.to_json, indent=2))
 
 
 def split_exact_changed_functions_number_per_commit_dataset(full_data: Path, train: Path, test: Path, val: Path):
@@ -253,7 +276,7 @@ def split_dataset_when_only_paths_are_given(paths_file: Path, commits_log: Path,
                 new_list_2.append((message, paths, commit))
         return new_list_1, new_list_2
 
-    commits_train, commits_tmp = split_list_in_two_parts(data_to_split, 0.7)
+    commits_train, commits_tmp = split_list_in_two_parts(data_to_split, 0.6)
     if is_messages_intersected(commits_train, commits_tmp):
         commits_train, commits_tmp = fix_intersection(commits_train, commits_tmp)
 
@@ -301,8 +324,14 @@ if __name__ == '__main__':
     #     val=Path('/Users/natalia.murycheva/PycharmProjects/data/processed_data/intellij/c2s/2/int.2.val.txt')
     # )
 
-    split_dataset_when_only_paths_are_given(
-        paths_file=Path('../../new_data/processed_data/c2s_paths/data/full_dataset.txt'),
-        commits_log=Path('../../new_data/processed_data/c2s_paths/data/c2s_commits.log'),
-        output_dir=Path('../../new_data/processed_data/c2s_paths/data/top1000_dataset')
-    )
+    # split_dataset_when_only_paths_are_given(
+    #     paths_file=Path('../../new_data/processed_data/c2s_paths/data/'
+    #                     'top1000_200_tokens/top1000_200_tokens_400_context_size/full_dataset.txt'),
+    #     commits_log=Path('../../new_data/processed_data/c2s_paths/data/'
+    #                      'top1000_200_tokens/top1000_200_tokens_400_context_size/c2s_commits.log'),
+    #     output_dir=Path('../../new_data/processed_data/c2s_paths/data/'
+    #                     'top1000_200_tokens/top1000_200_tokens_400_context_size/top1000_200_tokens')
+    # )
+
+    split_from_filtered_json(Path('../../new_data/camel/diffs_context_size_2.json'),
+                             Path('../../new_data/camel/splitted_diffs.json'))

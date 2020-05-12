@@ -114,7 +114,6 @@ def run_perl_script_and_parse_result(ref: Message, pred: Message, perl_script_pa
 
     # run script
     # from bleu import file_bleu
-    print(nltk.translate.bleu_score.sentence_bleu([ref], pred) * 100)
     # print(file_bleu([ref_tmp_file], pred_tmp_file))
     # output = os.popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}').read()
     p = Popen(f'perl {perl_script_path} {ref_tmp_file} < {pred_tmp_file}', shell=True, stdout=PIPE, stderr=PIPE)
@@ -155,17 +154,26 @@ def get_bleu_score_for_each_pair(references: List[Message], predictions: List[Me
 
 
 def get_nltk_bleu_score(ref: str, pred: str) -> float:
-    return nltk.translate.bleu_score.sentence_bleu([ref], pred) * 100
+    return nltk.translate.bleu_score.sentence_bleu([ref.split()], pred.split()) * 100
 
 
 def get_nltk_bleu_score_for_corpora(refs: List[str], preds: List[str]) -> float:
+    import nltk
     total_bleu = 0.
     for ref, pred in zip(refs, preds):
-        total_bleu += nltk.translate.bleu_score.sentence_bleu([ref], pred) * 100
+        if len(pred.split()) == 0:
+            continue
+        total_bleu += nltk.translate.bleu_score.sentence_bleu([ref.split()], pred.split(),
+                                                              auto_reweigh=True,
+                                                              smoothing_function=nltk.translate.bleu_score.SmoothingFunction().method7) * 100
     return total_bleu / len(refs)
 
-
 if __name__ == '__main__':
-    run_perl_script_and_parse_result('111 111 111 111', '111 111 111 111', 'bleu/multi-bleu.perl')
-    print(get_nltk_bleu_score('111 111', '111 111 211 111 111 111'))
+    run_perl_script_and_parse_result('111 111 111', '111 111 111', 'bleu/multi-bleu.perl')
+    run_perl_script_and_parse_result('111 111', '111 111 111 111', 'bleu/multi-bleu.perl')
+    run_perl_script_and_parse_result('111 111 111 211', '111 111 111 111 111 111 ', 'bleu/multi-bleu.perl')
+    print(get_nltk_bleu_score('111 111 111', '111'))
     print(get_nltk_bleu_score_for_corpora(['111 111 111 111'], ['111 111 211 111']))
+    # fixing osgi bundle test || add a missing line to the the of the line
+    # modify the default page || add missing to the user to the user
+    # print(get_nltk_bleu_score('update javadoc block tag'.split(), 'add a check to get the method'.split()))

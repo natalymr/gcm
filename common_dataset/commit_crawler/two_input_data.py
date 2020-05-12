@@ -86,5 +86,5 @@ def filter_commits(raw_dir: Path, processed_dir: Path,
 
 if __name__ == '__main__':
     raw_dir: Path = Path('../../../new_data/raw_data/')
-    processed_dir: Path = Path('../../../new_data/processed_data/two_inputs_100')
-    filter_commits(raw_dir, processed_dir, min_message_tokens=2, max_message_tokens=30, loc=2, max_diff_tokens=100)
+    processed_dir: Path = Path('../../../new_data/processed_data/two_inputs_200')
+    # filter_commits(raw_dir, processed_dir, min_message_tokens=2, max_message_tokens=30, loc=2, max_diff_tokens=200)

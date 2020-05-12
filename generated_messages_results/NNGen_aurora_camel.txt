@@ -1,0 +1,190 @@
+Bleu-score || Original Commit Message || Generated Commit Message
+
+32.564 || refactor endpoint syntax handling in order to support camel stream component || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching
+32.380 || consolidate to use the same json schema helper from camel support || first replace statement expression implementation used to enable the testing support
+31.641 || upgrade mockito core to version <num> <num> for camel weather || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching
+31.379 || camel hl <num> fixed cs || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.379 || fix default value for eviction type to make it work with camel caffeine starter || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.379 || use the files api to read files instead of scanner || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.379 || camel olingo <num> fixed cs || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.379 || let ok status code range support multiple ranges thanks to niels ull harremoes for the patch || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.379 || camel aws s <num> regen after adding the delimiter || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.379 || fixed cs for camel maven package plugin || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+31.273 || disable camel consul test on karaf as it does not work || rolled back ven s changes as those cause stack overflow error in ant completion test
+31.273 || deprecate standalone camel catalog as mxbean as its not compliant and not in use anyway || rolled back ven s changes as those cause stack overflow error in ant completion test
+31.273 || property binding support better error reporting for binding not possible || same sequential multiple vars constraint is supported also replacement for this case is done better
+30.853 || add unit test to support folders in zip files || first replace statement expression implementation used to enable the testing support
+30.853 || first review feedbacks still need to make karaf feature test passing || first replace statement expression implementation used to enable the testing support
+30.853 || use java <num> api to make the browse oldest code similar || first replace statement expression implementation used to enable the testing support
+30.853 || camel aws cw use the bind to registry annotation in tests || first replace statement expression implementation used to enable the testing support
+30.853 || add an advanced properties to the camel thrift component || first replace statement expression implementation used to enable the testing support
+30.853 || enable camel undertow component to set custom http handler || first replace statement expression implementation used to enable the testing support
+30.701 || use the same name for hazelcast client config and config || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching
+30.701 || implements  for camel olingo <num> || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching
+30.701 || support metadata component extension || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching
+30.098 || fixed cs for camel any <num> example || same sequential multiple vars constraint is supported also replacement for this case is done better
+30.098 || since camel elasticsearch rest doesn t work in karaf skipping the karaf itest || rolled back ven s changes as those cause stack overflow error in ant completion test
+30.098 || camel soroush cleaned up a bit and ignored integration test || rolled back ven s changes as those cause stack overflow error in ant completion test
+30.098 || migrated camel ahc tests to camel test junit <num> || rolled back ven s changes as those cause stack overflow error in ant completion test
+30.098 || add custom valiation logic for twitter credential || same sequential multiple vars constraint is supported also replacement for this case is done better
+30.098 || ignore consumers test because a running kubernetes cluster is required || rolled back ven s changes as those cause stack overflow error in ant completion test
+30.098 || skip test on ci server || rolled back ven s changes as those cause stack overflow error in ant completion test
+30.098 || fixed cs for tooling apt || same sequential multiple vars constraint is supported also replacement for this case is done better
+29.517 || fixed spring boot itest for camel jbpm || evaluation of timestamp for xml document descriptor is handled in meaningful way
+29.287 || camel ftp add option to turn on logging of transfer activity || first replace statement expression implementation used to enable the testing support
+29.287 || make intercept send to endpoint processor asynchronous || first replace statement expression implementation used to enable the testing support
+29.287 || migrate atmos properties file configuration to component properties || first replace statement expression implementation used to enable the testing support
+29.287 || added tls tcp support || first replace statement expression implementation used to enable the testing support
+29.287 || switched to use resource endpoint || first replace statement expression implementation used to enable the testing support
+29.287 || improve support for custom sslhandler  <num> || first replace statement expression implementation used to enable the testing support
+29.287 || camel seda support configuring endpoint defaults on component || first replace statement expression implementation used to enable the testing support
+29.287 || the ehcache component creates a separate cache manager per producer route || first replace statement expression implementation used to enable the testing support
+29.287 || camel main allow to add extra properties to property component || first replace statement expression implementation used to enable the testing support
+29.287 || using the correct tls algorithm in some of the tests || first replace statement expression implementation used to enable the testing support
+29.287 || camel elasticsearch rest add scroll api support || first replace statement expression implementation used to enable the testing support
+29.287 || cache the jaxbcontext in model jaxbcontext factory || first replace statement expression implementation used to enable the testing support
+29.287 || camel jsch use bind to registry annotation wherever possible || first replace statement expression implementation used to enable the testing support
+29.287 || camel main init to initialize as much as possible || first replace statement expression implementation used to enable the testing support
+29.287 || camel cxf use bind to registry where possible || first replace statement expression implementation used to enable the testing support
+29.287 || service call eip add an option to set global defaults || first replace statement expression implementation used to enable the testing support
+29.287 || add xml support for retry attempted log interval || first replace statement expression implementation used to enable the testing support
+29.287 || camel aws sqs being able to send batch of messages || first replace statement expression implementation used to enable the testing support
+29.287 || allow connector to be scheduled || first replace statement expression implementation used to enable the testing support
+29.287 || upgrade spring boot to <num> <num> release || first replace statement expression implementation used to enable the testing support
+29.287 || adding a tests to check deadlock || first replace statement expression implementation used to enable the testing support
+29.287 || camel caffeine add support for removal listener || first replace statement expression implementation used to enable the testing support
+29.287 || add jooq plain sql support || first replace statement expression implementation used to enable the testing support
+29.287 || camel mongodb gridfs mongo to mongo client || first replace statement expression implementation used to enable the testing support
+29.287 || threading issues with the throttler when using a correlation key || first replace statement expression implementation used to enable the testing support
+29.287 || optimise to use dequeue instead of stack || first replace statement expression implementation used to enable the testing support
+29.287 || move more methods to error handler reifier || first replace statement expression implementation used to enable the testing support
+29.287 || map based service usage counting to remove memory leak <num> || first replace statement expression implementation used to enable the testing support
+29.287 || allow to turn off using default object mapper in camel jackson || first replace statement expression implementation used to enable the testing support
+29.287 || added mybatis bean as component to use my batis annotation mapper || first replace statement expression implementation used to enable the testing support
+29.287 || ensure the cron schedule is updated when the job is rescheduled || first replace statement expression implementation used to enable the testing support
+29.287 || surrounded with try catch finally to ensure entity manager always closes || first replace statement expression implementation used to enable the testing support
+29.287 || upgrade mockito core to version <num> <num> for camel splunk || first replace statement expression implementation used to enable the testing support
+29.287 || add send location edit message live location methods support || first replace statement expression implementation used to enable the testing support
+29.287 || move last language from camel core to camel base || first replace statement expression implementation used to enable the testing support
+29.287 || camel aws translate detect the source language automatically || first replace statement expression implementation used to enable the testing support
+29.287 || added camel digitalocean starter to kit || first replace statement expression implementation used to enable the testing support
+29.287 || service now add meta data extension to retrieve table s structure || first replace statement expression implementation used to enable the testing support
+29.287 || rebuild project || removed old stuff made user history configuration on per project basis
+29.287 || added initial support for raw public keys || first replace statement expression implementation used to enable the testing support
+28.751 || fix syntax for service component || commented html reparse problem in order to fix later
+28.751 || fixed cs in camel core || commented html reparse problem in order to fix later
+28.751 || no jira fix checkstyle issues || commented html reparse problem in order to fix later
+28.751 || add first version to pulsar || commented html reparse problem in order to fix later
+28.751 || camel pulsar in endpoint syntax breaks components adoc table || commented html reparse problem in order to fix later
+28.433 || add other files to the new location || added read action in set information to editor
+28.433 || move urisupport test to camel util || added read action in set information to editor
+28.433 || kerberos authentication for hdfs connections || first cut for different management of the templates
+28.433 || fixed typo in name || added read action in set information to editor
+28.433 || enabling camel zipkin in mojo || updated tests according to changes in idea psi
+28.433 || added eks to camel aws spring boot itest || updated tests according to changes in idea psi
+28.433 || upgrade johnzon to version <num> <num> || css test data moved from sources to data
+28.172 || camel couchdb add a get method to have a complete crud support || first replace statement expression implementation used to enable the testing support
+28.070 || fixed cs for camel disruptor || fabrique tests are fixed again ep <num>
+28.070 || move test to where the others are || fabrique tests are fixed again ep <num>
+28.070 || fixed camel json api karaf feature test || fabrique tests are fixed again ep <num>
+28.070 || camel servlet fixed cs || fabrique tests are fixed again ep <num>
+27.646 || skip test not possible to run || edit query from file not found
+27.646 || fixed cs for camel co ap || ignored resources in doctype uris fixed
+27.139 || fixed camel slack producer test || added jsp reparse problem test
+26.997 || service call add an option configure the expression to use i e simple || first replace statement expression implementation used to enable the testing support
+26.742 || avoid to use endpoint attribute when mqtt connect options is declared once || first replace statement expression implementation used to enable the testing support
+26.742 || camel bindy allow to configure unmarshal to always return a list type || first replace statement expression implementation used to enable the testing support
+26.742 || change supervising route controller restart test to not use jetty in test || first replace statement expression implementation used to enable the testing support
+26.742 || camel jgroups starter jgroups lock cluster service auto configuration lacks enable flag || first replace statement expression implementation used to enable the testing support
+26.341 || camel milo disable monitor item multi connections cert test because it always fails on builds apache org || rolled back ven s changes as those cause stack overflow error in ant completion test
+26.270 || requiredement for date string to be longer than pattern is invalid || first cut for live templates language for search replace criterias
+25.724 || camel aws add more operations to the aws iam producer get user operation || first replace statement expression implementation used to enable the testing support
+25.092 || fix health check registry and health check service setters || added structural search plugin module and build file
+25.092 || cluster service make a simple file lock based service || added structural search plugin module and build file
+25.013 || add support for lookup field using || more generics in ssr removed some unused things added bean infos to predefined templates support for annotation members matching
+24.699 || camel core fix typo in xml converter javadoc || fixed issue with wrong picking up markup by xml lexer when the markup contains inside literal fixed regress in xml lexer caused by max ik
+24.642 || revert camel milo disable monitor item multi connections cert test because it always fails on builds apache org || rolled back ven s changes as those cause stack overflow error in ant completion test
+24.418 || quartz poll consumer scheduler in a cluster tries to create duplicate triggers fails || first replace statement expression implementation used to enable the testing support
+24.418 || camel google mail remove scopes from configuration this option is never really used || first replace statement expression implementation used to enable the testing support
+24.418 || camel cloud deprecate aggregating service discovery and replace it with combined service discovery || first replace statement expression implementation used to enable the testing support
+24.418 || improve aggregator to be more asynchronous and non blocking when using optimistic locking || first replace statement expression implementation used to enable the testing support
+24.418 || camel twitter replace dummy uri paths on directmessage and search with something meaningful || first replace statement expression implementation used to enable the testing support
+24.418 || fixed issue with camel restdsl swagger generation not able to set allowed values || first replace statement expression implementation used to enable the testing support
+23.489 || improve the logic to relate the consumer to the producer in the direct component || first replace statement expression implementation used to enable the testing support
+23.402 || component verifier preserve order of group options || npe in case of type parameters
+23.402 || fix backpressure issues in camel rxjava <num> || npe in case of type parameters
+23.053 || camel catalog tooling do not report validation error for camel uri based on property placeholder such incpable parsing etc || same sequential multiple vars constraint is supported also replacement for this case is done better
+22.484 || fixed test to use property binding support as the old has removed the legacy jdk property editor in || mockgen disabled in component manager still have problems in fabrique with damn ex classes
+22.296 || add option allow empty directory for tar data format to model for xml dsl || first replace statement expression implementation used to enable the testing support
+22.296 || camel aws add proxy protocol as endpoint configuration for all the components sqs component || first replace statement expression implementation used to enable the testing support
+22.296 || file component add option to fail startup when not having read permission on folder || new bcel <num> compatibility changes and new jsp jspx file models
+22.296 || camel aws kinesis use a configuration for the options like the other aws components || first replace statement expression implementation used to enable the testing support
+22.220 || moving global config to camel context || updated to xerces <num> <num>
+22.144 || moving test to a different package to use auto configuration || added read action in set information to editor
+21.733 || use do set property instead of set property in the endpoint dsl to make it clearer this is for internal use || same sequential multiple vars constraint is supported also replacement for this case is done better
+21.448 || camel jsch allow to pass the private key as byte and not only via file || first replace statement expression implementation used to enable the testing support
+21.094 || camel kubernetes align component to the new kubernetes model || mixin class bug in refs to super
+21.094 || camel nats introduce usage of camel testcontainers in tests || fabrique tests are fixed again ep <num>
+20.642 || fixed cs for camel mock || fixed startin write action
+20.601 || fix docs of content cache for language component as its default true || commented html reparse problem in order to fix later
+20.601 || camel swagger java should include body parameter type in generated api doc || one more try to fix npe in map build
+19.584 || ability to execute dml statements in google bigquery component thanks to roman lusnikov for the patch || first replace statement expression implementation used to enable the testing support
+18.589 || reuse the individual generated type converter loader instead of the big core static type converter loader || first replace statement expression implementation used to enable the testing support
+18.589 || polished camel archetype spring boot to generate a project similar to examples camel example spring boot || first replace statement expression implementation used to enable the testing support
+18.286 || upgrade saxon and related bundle to version <num> <num> <num> || fabrique tests are fixed again ep <num>
+18.192 || pass cxf service class to endpoint info || updated to xerces <num> <num>
+18.192 || avoid npe in case of null attributes || null project for compiling context
+17.245 || added a camel connector for ethereum blockchain using web <num> j library || added structural search plugin module and build file
+16.328 || fixed routing slip and dynamic router eip to not trigger multiple async callback done on the other callback || first replace statement expression implementation used to enable the testing support
+16.025 || code style remove unused imports || removed unused import
+15.851 || camel aws lambda fixed the javadoc related to the lamdba client || mixin class bug in refs to super
+15.647 || added masking support on log component as well changed the flag name from log eip mask to log mask || first replace statement expression implementation used to enable the testing support
+15.499 || fix to use last processed offset maintained by camel kafka consumer to avoid message loss upon partition revoke || first replace statement expression implementation used to enable the testing support
+15.499 || camel aws msk no need to set operation header in tests it s already set as uri parameter || first replace statement expression implementation used to enable the testing support
+15.499 || added a little test to show amq doesn t override jmsmessage id when set via message created strategy || first replace statement expression implementation used to enable the testing support
+15.219 || camel aws lets call shutdown on the clients while stopping endpoints aws lambda || first cut for different management of the templates
+15.219 || camel aws lets call shutdown on the clients while stopping endpoints aws mq || first cut for different management of the templates
+15.219 || camel aws kinesis expose options to avoid a required client in the registry || first cut for different management of the templates
+14.909 || fixed camel mongodb type converters which was implemented wrong and could lead to stop working on first parsing error || first replace statement expression implementation used to enable the testing support
+14.894 || fixed component configuration test for camel aws kms || some speedup in get component
+14.894 || use bind to registry wherever possible camel tika || updated to xerces <num> <num>
+14.894 || use bind to registry wherever possible camel xmpp || updated to xerces <num> <num>
+14.894 || fixed component configuration test for camel aws ddb || some speedup in get component
+13.614 || properties component should also fallback to env vars as it does for jvm system properties the default mode is override || first replace statement expression implementation used to enable the testing support
+13.431 || camel aws kinesis firehose expose options to avoid a required client in the registry || first cut for different management of the templates
+13.209 || documentation tooling should generate in more correct ascii doc format was using deprecated or markdown style || commented html reparse problem in order to fix later
+12.922 || routing slip and dynamic router should use an embedded dynamic processor to send to endpoints instead of error handler cache || first replace statement expression implementation used to enable the testing support
+12.194 || cannot create a component based on the sql component || some speedup in get component
+12.194 || component verifier fix wrong scheme for camel http <num> || some speedup in get component
+11.853 || camel aws ec <num> add the ability to specify credentials and region at component level || first cut for different management of the templates
+11.799 || cmel <num> remove spring boot auto configuration files from camel core starter for components that was moved out of the core || first replace statement expression implementation used to enable the testing support
+11.483 || added support for rabbitmq exclusive consumer || added fabrique tests
+10.577 || rename components to default names camel http <num> to camel http camel cloud reference to htt <num> removed || commented html reparse problem in order to fix later
+10.364 || netty consumer in client mode allows to reuse channel so you can reuse the channel to send a response back from camel etc || first replace statement expression implementation used to enable the testing support
+9.751 || camel http common fix typos in http helper || out of memory fix
+9.463 || init deferred to first call when wih uses deployment scoped context in combination with singleton runtime strategy removed redundant double slash from direct url || first replace statement expression implementation used to enable the testing support
+8.983 || camel sjms default pool should test connection before use so its valid expose options to configure pool on component level to make this easier || first replace statement expression implementation used to enable the testing support
+8.983 || camel main has now basic support for auto configuring components data formats languages in a similar way as spring boot but not as advanced || first replace statement expression implementation used to enable the testing support
+8.469 || rename components to default names camel mina <num> to camel mina spring boot starter mojo should consider camel mina now || commented html reparse problem in order to fix later
+8.075 || make camel infinispan test work in spring boot due recent upgrade to <num> x and sb is <num> x by default || commented html reparse problem in order to fix later
+7.912 || camel dropbox validator regex is too restrictive and fails for common paths reduce the regexp and just check for windows path and fail || support for backreference of regular expression matches in replacement patterns
+6.839 || cannot start route using rest dsl due to a mysterious duplicate route id conflicts camel core src main java org apache camel model route definition helper java || first replace statement expression implementation used to enable the testing support
+6.692 || add thread name to hangup so we dont use anonymous thread name || updated to xerces <num> <num>
+5.983 || improve logging when choosing leveldb dbfactory || add logging
+5.599 || rename components to default names camel netty <num> to camel netty documentation helper class needs to point to new netty json || updated tests according to changes in idea psi
+5.479 || camel testcontainers should build if no docker reverted back to mvn profile implementation || updated to xerces <num> <num>
+5.479 || camel aws create a kms component added aws kms to karaf feature test || some speedup in get component
+5.206 || stream component in file mode should support file rollover when an existing file is re written using similar file watcher logic we have in camel core for route reload strategy || first replace statement expression implementation used to enable the testing support
+4.224 || added support for encrypted and signed as <num> message || added fabrique tests
+4.224 || camel rest swagger unit test fails after jetty upgrade || commented test cases
+3.715 || upgrade mockito core to <num> <num> for camel atmosphere websocket camel salesforce component and camel script || updated to xerces <num> <num>
+3.027 || migrated camel consul tests to camel testcontainers spring junit <num> || added fabrique tests
+3.027 || migrated camel ahc ws tests to camel test junit <num> || added fabrique tests
+2.794 || added additional logic to handle absolute and relative paths when using chmod directory || generics highlighting test added
+1.722 || fix for findings from code review re added use of configuration get amazon awshost when building queue url replaced tabs with spaces use aws sqs component adoc as generated by build || first cut for different management of the templates
+1.694 || added events for camel starting and stopping routes so you have events for just that || added new label test
+1.554 || added a test for error in handling return parameters in db functions || added fabrique tests
+1.554 || camel aws lambda use bind to registry annotation where possible in tests || added fabrique tests
+1.554 || seda block when full test test seda offer timeout when full polished || commented test cases
+1.510 || check for null value when getting key capped of collection stats key value might not exist in mongo db <num> || null project for compiling context
+1.279 || splitter aggregation strategy should also deal with delegate strategy and have share unit of work set on both conditions thanks to matthias humbert for reporting || some strategy is supplied for pattern

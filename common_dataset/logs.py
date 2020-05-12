@@ -67,8 +67,8 @@ def get_changed_java_files_log(git_dir: Path, output: Path, commits_log: Path):
             commit_number += 1
             if commit_number % 1000 == 0:
                 print(f'Start to process {commit_number} commit from {total_commit_number}')
-            # if commits_with_changed_java_files_number > 4_000:
-            #     break
+            if commits_with_changed_java_files_number > 7_400:
+                break
             commits_log_line: CommitLogLine = CommitLogLine.parse_from_line(line, separator=COMMON_SEP)
             changed_files: List[ChangedFile] = run_and_parse_diff_tree(commits_log_line.parent_commit,
                                                                        commits_log_line.current_commit,
@@ -89,13 +89,13 @@ def get_changed_java_files_log(git_dir: Path, output: Path, commits_log: Path):
 
 
 if __name__ == '__main__':
-    git_dir_name: str = 'aurora'
-    git_dir: Path = Path(f'/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/{git_dir_name}')
-    output_dir: Path = Path.cwd().parent.parent.joinpath('data').joinpath('raw_data').joinpath(git_dir_name)
+    git_dir_name: str = 'camel'
+    git_dir: Path = Path(f'/Users/natalia.murycheva/PycharmProjects/new_data/{git_dir_name}/{git_dir_name}')
+    output_dir: Path = Path(f'/Users/natalia.murycheva/PycharmProjects/new_data/{git_dir_name}/')
     if not output_dir.exists():
         output_dir.mkdir()
     commits_log: Path = output_dir.joinpath('commits.log')
     changed_files_log: Path = output_dir.joinpath('changed_java_files.log')
 
-    get_commits_log(git_dir, commits_log, '1999-01-01', '2019-11-10')
+    get_commits_log(git_dir, commits_log, '1995-01-01', '2019-11-10')
     get_changed_java_files_log(git_dir, changed_files_log, commits_log)

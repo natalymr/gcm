@@ -113,6 +113,6 @@ def get_commits_number(input_file: str):
 
 
 if __name__ == '__main__':
-    get_repos(Path('../../../new_data/repos.json'), 100)
+    get_repos(Path('../../../new_data/actual_repos.json'), 100)
     # get_commits(Path('../data/raw_data/repos.json'), Path('../data/raw_data/commits'), 100)
     # get_commits_number(Path('../data/raw_data/commits/apache_dubbo'))

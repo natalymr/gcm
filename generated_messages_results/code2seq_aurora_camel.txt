@@ -1,0 +1,404 @@
+Bleu-score || Original Commit Message || Generated Commit Message
+
+32.860 || fixed restlet warning about empty response should use <num> instead of <num> as response code || fixed npe on null is java obsolete <num> <num> all all all all all all all all all all all all all all all all all
+32.302 || make s <num> consumer auto close s <num> objects if an exception was thrown during creating exchanges batch to avoid leaking resources thanks to mykhailo vlakh for reporting || fixed issue with incorrect background after java java java java java java set <num> <num> all all all all all java java java java java java java java
+32.238 || fix findings in camel any <num> code || fixed npe in empty root in java line line line <num> <num> <num> all all all all all all all all all all all all all all
+32.238 || olingo <num> component service uri not set || fixed issue with not background after a java java java java rule <num> all all all all all all all all all all all all all all
+32.238 || fixed test due object helper is not empty was changed || fixed npe in empty root in java line java java obsolete <num> <num> all all all all all all all all all all all all all all
+32.238 || rest dsl and swagger java adjusted to better support swagger <num> spec || fixed issue with incorrect background name is absent to the rule <num> <num> all all all all all all all all all all all all all all
+32.172 || rename zip file to zipfile dataformat fixed todo || fixed npe on null is know how to set all all all all all all all all all all all all all all all all all
+32.172 || use the configured read timeout for the initial hl <num> message read attempt || fixed issue with incorrect background background name to the line to set <num> <num> all all all all all all all all all all all all
+32.172 || java <num> isms for notify builder || fixed npe on null in java line line <num> <num> <num> all all all all all all all all all all all all all all all
+32.172 || camel hystrix expose state of circuit breaker on jmx mbean java api on processor || fixed npe on null is java java obsolete <num> <num> all all all all all all all all all all all all all all all all
+32.172 || add information when the component was added to camel || fixed issue with null of percentage is absent to the obsolete <num> all all all all all all all all all all all all all all
+32.104 || fix array index out of bounds exception when generate readme on empty file or less than <num> lines || fixed npe on null is absent <num> <num> all all all all all all all all all all all all all all all all all
+32.104 || fixed camel xstream to initialize default permissions correctly so there is no warning || added all rule to revive class class fixed by lesya all all all all all all all all all all all all all all all
+32.104 || fixed camel jt <num> consumer as its not polling based || fixed npe on null is incorrect <num> <num> <num> all all all all all all all all all all all all all all all all
+32.104 || camel jsse should favor using camels class resolver to load the resources which works better for osgi environments || fixed issue with not class class name to java java java set set set set all all all all all all all all all all
+32.104 || when using continued with on exception then dead letter channel endpooint should not be invoked || fixed issue with not remembering after java java java the the the the the the the the the the the the the the the tab
+32.033 || undertow producer npe if try convert to fails to convert exchange body to byte buffer || fixed npe on null to incorrect line <num> <num> all all all all all all all all all all all all all all all
+31.960 || camel olingo <num> should close http client when shutting down thanks to remco schoen for reporting || added error rule to obsolete <num> <num> <num> obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete obsolete
+31.960 || verified that connector scheme don t clash with components scheme from the catalog || fixed issue with incorrect background to the line <num> all all all all all all all all all all all all all all
+31.894 || remove from all caches when groovy || fixed issue with not class class class a a java java java set set set set all all all all all all all java java java java java java java java
+31.817 || fix endpoint dsl clash with the rest endpoint || fixed issue with incorrect attributes in java java java java line to set set set set all all all all all all all all all all all all all all
+31.817 || improve support for soap header transformations thanks for the pr richard groote helping to raise a github pr by onders || fixed issue with not remembering max when the java java the the the the the the the the the the the the the the the the the the the all
+31.817 || adding platform tests with reactor core and refactoring || fixed issue with not remembering exception is java java java the set set set set all all all all all all all all all all all all all all all
+31.817 || service call improve configuration of service call components in java dsl || fixed issue with incorrect background max when java line line as set set set set all all all all all all all all all all all all all all all
+31.806 || added a camel corda spring boot integration test || added minor test <num> <num> <num> <num> <num> <num> <num> <num> <num> all all all all all all all all all
+31.806 || added camel xchange spring boot test || added minor test <num> <num> <num> <num> <num> <num> <num> <num> <num> all all all all all all all all all
+31.806 || fixed cs this closes <num> || fixed issue with null background exception is absent to the rule <num> all all all all all all all all all
+31.736 || camel smpp fixed build || fixed issue with null background is java java java the set set set set all all all all all all all all all all all all all all all
+31.653 || fixed cs for camel aws xray || fixed npe on null to incorrect java java set set set set all all all all all all all all all all all all all all all all
+31.653 || added polling consumer for file ftp components that poll on demand and do not use a background scheduler || fixed issue with null background exception is java java java set set <num> all all all all all all all all all all all all all all all
+31.653 || fixed cs this closes <num> || fixed npe on null is incorrect java set set set set all all all all all all all all all all all all all all all all all
+31.653 || service call add the option to force the service call to use the default load balancer || fixed issue with null background percentage to java java java set <num> <num> all all all all all all all all all all all all all all all
+31.565 || camel groovy fixed build || fixed issue with null of value is java java line <num> <num> all all all all all all all all all all all all all all all
+31.565 || fixed event notifier wrong check for sent vs sending || fixed npe null to obsolete in java java java java all all all all all all all all all all all all all all all all all
+31.565 || fixed a little test in s <num> component verifier extension test || fixed issue with incorrect background name to the line to the the set set set set name all all all all all all all all all all
+31.565 || provide implementation of apache camel thread pool factory spi that works with dropwizard metrics || fixed issue with incorrect background max to the line to set rule <num> <num> all all all all all all all all all all all all all
+31.474 || fixed class cast exception in ftp polling consumer rollback || fixed npe on null is java java obsolete <num> <num> all all all all all all all all all all all all all all all all
+31.474 || camel ftp add option to turn on logging of transfer activity || fixed issue with incorrect background exception is the user to the rule all all all all all all all all all all all all all all
+31.474 || close jmxconnector on shutdown of jmxconsumer in camel jmx || fixed npe on null to incorrect java java obsolete <num> <num> all all all all all all all all all all all all all all all
+31.474 || add headers map factory to the camel commands and as jmx attribute so its easier to see which one is in use || fix for anonymous classes in new classes do do base classes all all all all all all all all all all all all all all all
+31.474 || optimize the to string of endpoint || fixed npe on null to incorrect line to set rule <num> <num> all all all all all all all all all all all all all all
+31.474 || fixed cs this closes <num> || fixed npe to java java java set set all all all all all all all all all all all all all all all all all all
+31.463 || remove camel test spring <num> as spring <num> is no longer supported || added handling for code generation <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+31.379 || camel aws translate create a karaf feature || added error rule for create value is absent in obsolete <num> <num> <num> <num> <num> <num> obsolete obsolete to all java java java java java
+31.379 || move all test files into target data || fixed issue with null dir is the user to the set all all all all all all all all all all all all all all
+31.379 || camel aws lets call shutdown on the clients while stopping endpoints aws ses || fixed npe on null is absent to obsolete <num> <num> <num> obsolete all all all all all all all all all all all all all
+31.379 || rabbit consumer could hang when rabbit mq connection is lost and auto ack false thanks to joel mong rd for the unit test || fixed npe null to java java java obsolete <num> <num> all all all all all all all all all all all all all all java
+31.379 || cluster service use reference count to join leave a cluster || fixed issue with incorrect background after name to the line <num> all all all all all all all all all all all all all all
+31.379 || added keep alive delay uri param to prevent premature exit || fixed issue with null background name name to the line <num> all all all all all all all all all all all all all all
+31.379 || fixed camel connector to support component options as well || fixed npe in empty root in java line line all all all all all all all all all all all all all all all all
+31.379 || jetty <num> x forwarded for configuration thanks to remco schoen || fixed issue with null of the name is the line <num> all all all all all all all all all all all all all all
+31.379 || swagger api docs not working in only using xml without any java route || fixed npe on null in incorrect line line <num> <num> all all all all all all all all all all all all all all all
+31.280 || camel guava eventbus fixed build || fixed npe on null is java java line all all all all all all all all all all all all all all all all
+31.280 || camel aws s <num> add a parameter to specify chunked encoding disabled option change name to the option regen docs || added error test for create value is absent <num> <num> <num> <num> all all all all all all all all all all all all
+31.280 || remove camel scala test from spring boot no starter || added error test in internal required in another rule <num> <num> all all all all all all all all all all all all all
+31.280 || remove rest dsl component explicit config from the spring boot rest jpa example || fixed issue with null background is java java the the set all all all all all all all all all all all all all
+31.280 || optimize to string on camel aws consumers producers || fixed issue with incorrect background to the line to the line all all all all all all all all all all all all all
+31.273 || abstract future callback generates npe when response is a <num> || fixed npe on null <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+31.273 || added a karaf feature test for camel restlet gson || added minor test in java line in one line <num> obsolete obsolete obsolete obsolete obsolete
+31.213 || fixed compilation || fixed npe null
+31.176 || camel sjms <num> fixed build || fixed issue with null canceled to absent to set rule all all all all all all all all all all all all all
+31.176 || camel aws create single karaf feature tests for single components aws ddb test || added minor test in java line in update <num> <num> <num> all all all all all all all all all all all all
+31.176 || remove camel elasticsearch <num> remaining stuff || added test in case line in obsolete <num> <num> <num> all all all all all all all all all all all all all
+31.176 || adjust destination filename by calling existing method to make it compact as jcraft seems to need it || fixed npe on null file know it all all all all all all all all all all all all all all all all
+31.176 || fixed test on slow ci box || fixed issue with null dir to absent to the rule all all all all all all all all all all all all all
+31.176 || create spi for log eip to enable other components to intercept enrich logged messages || fixed issue with incorrect background to the line all all all all all all all all all all all all all all all
+31.176 || starttls broken with camel mail || fixed issue with incorrect dir to the line all all all all all all all all all all all all all all all
+31.176 || fixed test due object helper is not empty was changed || fixed npe on null as obsolete <num> all all all all all all all all all all all all all all all all
+31.176 || fixing unwrap stream processor with std and empty data || fixed issue with incorrect background exception to the line all all all all all all all all all all all all all all
+31.176 || camel nats add an option to specify the optional reply subject || fixed issue with null background exception to java java java rule <num> <num> all all all all all all all all all all
+31.176 || chmod does not work for the file producer whitout setting a charset thanks to nicolas mugnier for spotting this || fixed npe on null null to set all data all all all all all all all all all all all all all all
+31.069 || ensure the auto generated type converter loader can be used in osgi || fixed issue with incorrect a a name in the line line <num> <num>
+31.069 || upgrade to jcloud <num> x || fixed issue with null background background passed to java line to set <num>
+31.066 || added test for camel active mq karaf feature || added minor check in java line in one line <num> all all all all all all all all all all all all
+31.066 || add camel rest swagger as karaf feature <num> || added minor check in java line in one line <num> all all all all all all all all all all all all
+31.066 || polished this closes <num> || fixed issue with incorrect matching in scriplet content <num> all all all all all all all all all all all all all
+31.066 || make it easier to know if a component is verifable via jmx || added error rule to obsolete <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> all all all all all
+30.962 || failed to create route exception should mask sensitive information in uris || fixed issue with incorrect background exception is the line to the rule
+30.962 || compare moved to equals and null pointer safe || fixed npe on null is incorrect to set name <num> <num> all
+30.951 || camel aws create single spring boot itests for single components aws iam test || added minor test <num> <num> <num> <num> <num> <num> <num> <num> <num> all all all all all all all all all
+30.951 || camel aws mq add the ability to specify credentials and region at component level || added error to rule <num> <num> <num> all all all all all all all all all all all all all all
+30.853 || fixed the defect manual commit not working <num> || fixed issue with incorrect completion after after name to the line
+30.853 || fixed cs this closes <num> || fixed npe on null of incorrect name to the line <num>
+30.853 || add support for copy object in camel aws s <num> || fixed issue with finding max in xml content <num> <num> <num>
+30.853 || fixed cs this closes <num> || fixed issue with incorrect completion after java java name <num> <num>
+30.829 || enable http <num> for undertow component || added all rule <num> <num> <num> <num> all all all all all all all all all all all all all
+30.829 || add an advanced properties to the camel thrift component || fixed issue with incorrect class class class do the set rule all all all all all all all all all
+30.829 || camel zipkin make sure to start the event notifier || fixed issue with null background exception is absent to set rule all all all all all all all all all
+30.743 || fixed the short java type generation in remaining model classes || fixed issue with incorrect adding parameters in case <num> <num>
+30.701 || mongo db tailable cursor consumer fails to stop on shutdown || added minor test in java line in one line <num> <num> all all all obsolete obsolete obsolete to obsolete
+30.701 || camel catalog add api to validate time pattern || fixed issue with not remembering max to the line all all all all all all all all all all
+30.634 || add the ability to do manual pulsar message acknowledgements || fixed issue with not remembering max to the line
+30.634 || camel main added option to log summary or not || added error of not guarded window <num> all all
+30.634 || fixed typo in name || added action in c <num> fixed <num> <num> <num>
+30.634 || added camel caffeine karaf feature and related test || added minor test in java line in update <num>
+30.634 || camel cxf possible npe in default cxfbinding || fixed npe on null in incorrect line line <num>
+30.564 || ignore iota send transfer test for the moment || added error test <num> <num> <num> <num> <num> <num> <num> <num> obsolete <num> <num> <num> <num> <num> obsolete
+30.564 || fixed cs for autogenerated endpoint dsl || fixed issue with incorrect class name in a java a a java set set set set set name
+30.564 || add management annotations to ehcache idempotent repository || added error to generating in another rule <num> <num> all all all all all all all all all
+30.529 || fixed cs in billboard example and regen || fixed issue with incorrect the max in scriplet
+30.529 || added camel google sheets spring boot integration test || added error test in code in another rule
+30.419 || eip docs should have same table structure as the others || fixed issue with incorrect max in the line line line <num> <num> <num> <num> <num> <num> <num>
+30.419 || camel cdi better handling of cdi event endpoints || added handling for some <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.419 || fix type inference compilation error with older jdk versions || added error test for refs <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.264 || adding lookup into registry for named services || added handling for xml generation <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+30.098 || updated test to be more accurate || added error test should all all change should all all change should all all handler
+30.098 || added name to some components || fixed issue with incorrect background after a a java java java line to set set
+30.098 || level db and all the other aggregation repository allow serializable objects in headers || fixed issue with incorrect background after java java java java line to the the set
+29.920 || camel package maven plugin fixed cs || fixed npe in null in incorrect line line <num> <num> <num> <num> <num> <num>
+29.920 || upgrade mockito core to version <num> <num> for camel spring redis || fixed issue with not remembering after java java java java line to the line
+29.920 || camel atomix no new leader when all nodes are killed forcefully || fixed issue with not remembering max when java java java the the the set
+29.920 || fixed factories and logging dependencies || fixed issue with incorrect background java java java java java java set set <num>
+29.920 || include camel jcaache in distribution and provide karaf features || added minor test in java line in one line <num> <num> <num> <num> <num>
+29.727 || fixed camel aws test that required a region to be configured || fixed issue with null background name is java java java obsolete <num> <num>
+29.727 || use the patched json simple order parser and test its ordered || fixed issue with incorrect background background name to the line as <num> <num>
+29.727 || translate list property definition to map string string in spring boot configuration classes || fixed npe in empty parameters <num> <num> <num> <num> <num> <num> <num> <num>
+29.727 || fix testsgit status || added minor fix in java java java in one change <num> <num> in
+29.727 || distribuited map retrieve hashmap keys thanks to fabrizio spataro for the patch || fixed issue with not remembering max is java java java the the set
+29.517 || add schema name checks in endpoint annotation processor || fixed issue with incorrect attributes to the the the the set name
+29.517 || use bind to registry wherever possible camel syslog || fixed issue with null background to java java java set set set
+29.517 || use bind to registry wherever possible camel atomix || fixed issue with null background is java java line to set set
+29.517 || fixed issue in property binding support || fixed npe on null is incorrect line to set rule all all
+29.517 || add previous bundle type converter loader as fallback || added error type for type <num> <num> <num> <num> <num> <num> <num>
+29.517 || camel nats use bind to registry annotation where possible in tests || fixed issue with not remembering max to the line to the line
+29.517 || camel nsq fixed cs and added the starter || fixed issue with not class class class class java java java line
+29.517 || camel aws add update function operation to aws lambda component || fixed issue with not scriplet class class class file to file file
+29.517 || regen this closes <num> || added error test in case in jsp in one actions <num> <num>
+29.517 || upgrade camel kura to newer osgi api || fixed npe on null to incorrect line as set set set name
+29.517 || regenerated asciidoc and spring boot starter configuration with nested configuration support || fixed issue with not class class class class java java java line
+29.517 || fixed callback url parsing in linked in and box components || fixed issue with incorrect background exception to the line to set line
+29.517 || camel braintree cannot install in karaf || fixed npe in empty generation in java line line <num> <num> <num>
+29.517 || used count down latch to wait for stop || fixed issue with null background name is absent to the line <num>
+29.489 || fixed potential npe in notify builder || fixed npe in empty root all all all
+29.287 || rename components to default names camel mina <num> to camel mina || fixed issue with null background exception to java java java rule
+29.287 || add java <num> stream to iterator as type converter || fixed issue with null background exception is java java java set
+29.287 || use bind to registry wherever possible camel sjms <num> || fixed npe on null in java line line <num> <num> <num>
+29.287 || thread name set to endpoint uri || fixed npe null to absent in java line all all all
+29.287 || fix <num> stop olingo index classes generating np exceptions || fixed issue with incorrect max in the content <num> all all
+29.287 || remove old camel manual as the new website replaces it || fixed issue with finding max in the url external css resources
+29.287 || added eks to camel aws spring boot itest || fixed issue with null of value to absent to absent <num>
+29.287 || more specific error message for unresolved model classes <num> || fixed issue with anonymous class class class class class classes this
+29.287 || camel consul upgrade to <num> <num> consul client || fixed npe null to java java java set all all all
+29.287 || fixed partition character || fixed issue with null of name to absent to the rule
+29.287 || camel aws use builders instead of different constructors aws dynamo db || fixed issue with null of the java name to the line
+29.287 || use base class for route events || added error test for internal code in java line in java
+29.287 || nashorn javascript library can not be found in osgi || fixed issue with incorrect class name in xml java name <num>
+29.287 || add support for binding in rest to || fixed npe on null tag in xml line <num> <num> <num>
+29.287 || fixed data format description || fixed issue with null background name is absent to obsolete obsolete
+29.287 || fixed factories and dependencies added license and notice || fixed issue with finding attributes in the user to external resources
+29.287 || add npe guard for camel cxf raw message content redirect interceptor || fixed npe on null to incorrect java set obsolete <num> <num>
+29.287 || fixed netty leak in unit test and a npe || fixed issue with null background to java line to set set
+29.127 || context component conflates endpoints with the same local id from different camel contexts thanks to aaron birkland for the patch || fixed npe on null is know to set rule all all all all all all all all all all
+29.033 || cleanups for camel rxjava <num> to camel rxjava component renaming || fixed issue with incorrect max to java line to the
+29.033 || added destroy callback to camel context tracker || fixed npe on null element is know to set rule
+29.033 || use bind to registry wherever possible camel pubnub || fixed npe on null to java java line <num> <num>
+29.033 || camel mail fixed cs || fixed npe on null in incorrect line line <num> <num>
+29.033 || camel google pubsub use bind to registry wherever possible || fixed npe on null to java java line <num> <num>
+29.033 || camel sjms fixed build || fixed issue with incorrect background after name to the line
+29.033 || remove deprecated stuff from the aggregator || fixed issue with incorrect background max to the line <num>
+29.033 || move mock component out of camel core <num> || added action in c fixed in obsolete in <num> <num>
+29.033 || camel servicenow suport java lang string as output model || fixed issue with incorrect max when the java java line
+29.033 || revert accidental changes to camel metrics || fixed npe on null to incorrect java java obsolete all
+29.033 || camel spring boot add route group to route actuator || fixed issue with incorrect background after name to the line
+29.033 || update twitter configuration java || fixed issue with not background name is the java name
+29.033 || future proof the salesforce limits api || fixed npe on null is incorrect to the line <num>
+29.033 || fixed some warnings in camel jms || fixed npe null to incorrect java java obsolete <num> <num>
+29.033 || http <num> producer for tls schemes tra || fixed issue with incorrect background max when java user <num>
+29.033 || added test on user forum issue || fixed issue with not remembering max to the resources <num>
+29.033 || deprecate traced route nodes in favour of message history || fixed npe on null in incorrect line to set rule
+29.033 || there is always more with camel || fixed issue with finding dir after added file file file
+29.033 || add test based on user forum issue || fixed issue with not remembering max as java java line
+29.033 || direct vm ensure that tccl is restored in async scenarios || fixed npe in incorrect root class class not not classes
+29.023 || camel aws kinesis firehose use a configuration for the options like the other aws components || fixed issue with not remembering max when the java java the the the set
+28.768 || add pattern exclusion mechanism similar to the one provided by the camel zipkin component || fixed issue with not remembering max when java java java the the set
+28.751 || logging in the annotation processor || fixed issue with null exception to the line <num>
+28.751 || camel crypto use bind to registry annotation wherever possible || fixed issue with not remembering max to the line
+28.751 || renamed tests to follow test pattern || fixed issue with not remembering max to the line
+28.751 || fixed micrometer npe || fixed issue with null of usages is java java
+28.751 || invoke apply filter to camel headers || fixed issue with not remembering max to the line
+28.751 || replaced deprecated property with exchange property || fixed issue with incorrect max to the line <num>
+28.751 || pass cxf service class to endpoint info || fixed issue with not remembering class name is the
+28.751 || close file watcher when stopping || fixed npe on null file in know line how
+28.751 || fixed cs and regen || fixed issue with not remembering max to the line
+28.751 || import of the iec <num> component || fixed issue with not remembering max to the line
+28.751 || fixed test || fixed issue with incorrect background name to the line
+28.751 || renaming g rpc rpc mode to simple || fixed issue with incorrect background max to the line
+28.751 || load core fallback type converters a bit faster || added correct type check t t jetbrains <num> <num>
+28.751 || refactored service creation in spring boot || fixed issue with not class class class in scriplet
+28.751 || close groovy class loader || fixed npe in case of java java class classes
+28.751 || added complete kafka idempotent repository with supporting tests || fixed issue with not remembering after searched is the
+28.751 || camel mongo db <num> component should not store state || fixed issue with not remembering max when the user
+28.751 || add skip method to simple language || fixed issue with finding background exception to java java
+28.751 || fixed copy paste mistake || fixed issue with null background exception is java java
+28.751 || added fat jar aware package scan class resolver || fixed issue with not class class class class class
+28.751 || polished fixes <num> || fixed issue with null is absent to absent <num>
+28.751 || fixed cs this closes <num> || fixed npe on null to incorrect line to set
+28.433 || use bind to registry wherever possible camel zipkin || fixed npe on null to java java line
+28.433 || camel pulsar fixed pulsar utils test || fixed issue with null of value is java
+28.433 || changed network id header name || fixed issue with null of name is the
+28.433 || camel aws sqs fixed cs || fixed issue with null of name is the
+28.433 || fixed camel servlet spring boot integration test || fixed issue with incorrect background when name to
+28.433 || fixed cs for camel big xml example || fixed issue with not attributes to the line
+28.433 || allow get config map operation to specify namespace || fixed issue with incorrect max to the line
+28.433 || polish the last commit by this round || fixed issue with tag max in the content
+28.433 || fixed cs and tests || fixed npe on null to the line <num>
+28.433 || fixed test this closes <num> || fixed issue with incorrect max to the line
+28.433 || speedup on mac || fixed npe on null of incorrect class not
+28.433 || dozer classloading may fail with spring based context || fixed issue with not remembering in search content
+28.172 || ensure on context stop is called on the osgi service registry <num> || fixed npe on null element is know java set set set
+28.070 || camel file watch ci test failures || fixed npe null file file it it
+28.070 || fixed cs || fixed issue with incorrect the the matches
+28.070 || create push tag operation || fixed issue with finding tag name name
+28.070 || fixed deserialization of transfer encoded mime entities || fixed npe in empty root <num> <num>
+28.070 || create camel rxjava <num> component || added error to generating <num> <num> <num>
+28.070 || simple test which may invalidate the issue || fixed issue with incorrect background in scriplet
+28.070 || fixed test failure || fixed npe on null to know java
+28.070 || fixed a test failure || fixed issue with wrong background <num> <num>
+28.070 || support for composite api batch || added a method for generating required fixed
+28.070 || fix comment discrepancy || added minor fix for not name in
+27.765 || upgrade zipkin and related bundle to version <num> <num> || fixed npe on null is absent to obsolete <num> <num> obsolete
+27.646 || fixed camel atmos and polished || fixed issue with not max max
+27.413 || shrink the code a bit with advice with route builder || fixed issue with not remembering max to the line
+27.139 || camel aws sqs fixed cs || fixed npe as the line
+26.941 || fixed the failing test and polish it a bit || fixed issue with null background is the line
+26.742 || added unit test for blueprint properties parser fallback to unaugmented property behavior || fixed issue with null background to absent to the rule <num>
+26.742 || camel commands add command to show top n inflight exchanges per routes || fixed issue with incorrect background exception to the java line all
+26.639 || make fluent producer template similar to producer template to get from camel context and use || fixed issue with incorrect background background name to the line to set set
+26.532 || adjusted the code to reflect the use of apache sshd <num> <num> || fixed issue with incorrect background max to the line <num>
+26.270 || rename components to default names camel hdfs <num> to camel hdfs || fixed issue with null of the name to the line
+26.270 || add command exchange property for date expression in expression builder <num> || fixed issue with incorrect matching of the url <num> changed
+26.270 || camel ftp fix ftp client data timeout parameter is not honoured || fixed npe on null is java java java obsolete obsolete
+26.209 || camel yammer component doesn t deserialize correctly phone number field in the users endpoint || added error test for the value in one line <num> <num> <num>
+25.994 || fixed test configuration for bam added repetition in case of failure || added test in c <num> <num> <num> <num> <num>
+25.727 || use bind to registry wherever possible camel web <num> j || added back to groups in fabrique in update change
+25.727 || in order to disable custom keyboard if it s activated || fixed issue with not max max to the line
+25.727 || fixed camel influxdb karaf feature and added karaf integration test || added minor check in java line in one line
+25.568 || upgrade zipkin and related bundle to version <num> <num> || added error check for create code is java rule <num> <num> <num> <num> <num>
+25.397 || jms component the option eager loading of properties should also force loading the jms message body to have it initilized eager as well for example when using transfer exchange || fixed npe null to java java java java obsolete obsolete all all all all all all all all java java java java java java
+25.266 || removal of import org openmuc jasn <num> ber ber byte array output stream from encode method s param and upgrade jasn <num> || <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num> <num>
+25.092 || add java <num> stream to iterator as type converter || fixed npe on null is java java obsolete
+25.092 || camel jsch use bind to registry annotation wherever possible || fixed npe on null to know how <num>
+25.092 || rename management naming strategy to management object name strategy || fixed issue with incorrect background to the line
+25.092 || fixed cs and remove unuseful check related to debug || fixed issue with null of name is java
+24.609 || upgrade to kafka <num> <num> added a new option in both producer and consumer config || fixed issue with null background exception is java java java rule <num> <num> all all all all all all all all all all all all all all all
+24.530 || camel elasticsearch rest use not deprecated methods after the client upgrade || fixed issue with not remembering max when the user
+24.530 || remove itest as the content length header is not always provided || fixed issue with not remembering max to the line
+24.333 || add spring boot itest test for new component || added minor test to obsolete <num> <num>
+24.333 || allow date offsets and timezones with simple language || fixed issue with incorrect completion in scriplet
+24.113 || change the javadoc on the endpoint builder methods a bit to add the maven coordinates || fixed issue with incorrect class class class when search to the resources
+23.770 || return <num> response if no consumers were found for the request method || fixed issue with not remembering after searched to the line
+23.770 || add thread name to hangup so we dont use anonymous thread name || fixed npe on null is java java name set set
+23.402 || fixed issues in camel salesforce integration tests || fixed issue with wrong class name
+23.260 || added a test component method call for camel fhir in karaf itest || added minor test in java java line in one
+23.149 || camel kafka add any new options from kafka <num> <num> to the endpoint || fixed issue with incorrect max as the line <num> <num> <num>
+23.022 || refactoring coap component to use ssl context parameters for tls certificates || fixed issue with finding attributes when the user to
+23.022 || camel core remove unnecessary object array creation when logging with placeholders || fixed issue with not class class class search template
+23.022 || make sure response code and content type are propagated to cxfrs || fixed issue with incorrect max to user resources <num>
+23.022 || use meaningful linked in error message for oauth <num> auth error || fixed npe on null to incorrect <num> <num> <num>
+23.022 || add the id of the file just persisted to the context || fixed npe on null file is know file it
+22.817 || fixed issue in camel saxon to skip reservered namespace prefix according to the xquery spec || fixed issue with null exception to the java to set to
+22.144 || fixed the issue of camel bean always invokes cached instance || added minor in disabled repository fixed by lesya
+21.950 || soap request causing null namespace uri in simple ns stream writer <num> || minor fix for <num> in java line in one
+21.950 || fixed javadoc and removed references to deprecated wording fixed width field lengths || fixed issue with incorrect background max to the line
+21.508 || camel aws lets call shutdown on the clients while stopping endpoints aws lambda || fixed npe on null is absent to obsolete <num> <num>
+21.508 || camel aws lets call shutdown on the clients while stopping endpoints aws kinesis || fixed npe on null is absent to obsolete <num> <num>
+21.508 || camel aws lets call shutdown on the clients while stopping endpoints aws cw || fixed npe on null is absent to obsolete <num> <num>
+21.508 || bindy csv separator not treated as regex but fixed character in all cases || fixed issue with incorrect max to the line <num> <num>
+21.370 || add security and advanced properties to the camel grpc component || fixed issue with incorrect max to the line
+21.150 || file consumer should report exceptions from file name expression such as a bean not found exception || fixed issue with null background exception is the user to the set
+21.094 || introduce timeout map listener replacing timeout map on eviction || fixed npe on null is incorrect java
+21.094 || camel nats bump to version <num> <num> of jnats || fixed issue with incorrect max to the
+20.934 || added an option to jms endpoints so that they format jms date properties according to the iso <num> standard || fixed issue with incorrect background after java java java java java rule <num> <num>
+20.620 || fixed potential npe in fluent producer template if no endpoint was configured || fixed npe in null of case <num> <num> <num>
+20.608 || allow to do autowrire by classpath fixed camel activemq about lazy creating connection factory || fixed npe to obsolete <num> <num> <num> obsolete obsolete obsolete
+20.601 || allow as <num> component to reply disposition type failed in the mdn || fixed npe on null <num> <num> <num> <num> <num>
+20.601 || added a little test for netty <num> http component and dynamic uri || fixed issue with incorrect max to the line <num>
+20.601 || camel kubernetes service call eip configuration is not read from application properties || fixed issue with not remembering max to the line
+20.601 || camel test using dump route coverage with custom processor may cause npe || fixed issue with not remembering max to the line
+20.412 || <num> camel kafka auto commit enabled false should not auto commit thanks to john culleton for reporting || fixed issue with null of switch to incorrect line to set <num>
+19.809 || fixed camel jetty common spring boot integration test || added test test in java line
+19.809 || camel netty no way to get channel group || fixed npe on null to java
+19.642 || add room password to camel xmpp thanks to tapio piironen for the patch || fixed issue with not remembering max to the line
+19.642 || added debug logs in camel netty <num> codecs when incoming content is ignored || fixed npe on null is java java obsolete <num>
+19.642 || camel couch db add the ability to remove an entry from producer side || fixed issue with incorrect max to the usages <num>
+19.542 || jmx early registered services may not be enlisted in xml dsl || fixed issue with not remembering after the name
+19.542 || camel aws iam add group operations add user to group operation || fixed issue with incorrect max to the line
+19.491 || direct component let the producer able to block and wait for consumers to be started run tests using old behavior || fixed issue with not remembering max is the the the the the the set
+19.461 || optimise lrusoft cache takes time to init so create it in do start instead || fixed npe on null to java java java obsolete obsolete
+19.461 || optimise lrusoft cache takes time to init so create it in do start instead || fixed npe on null to incorrect java java obsolete obsolete
+19.459 || fixed wrong generation of spring boot auto configuraiton of data formats where there could be naming clashes || fixed npe on null to incorrect java java obsolete <num> all all
+18.647 || fixed wrong component name bug that caused camel example rest producer to fail its test || fixed npe on null to incorrect java java set <num>
+18.647 || enable allow empty path template value for camel linkedin to keep the behavior as is || fixed issue with not remembering class name as the line
+18.434 || rename components to default names camel netty <num> to camel netty updated references || fixed npe on null is know know to set
+18.434 || improve testability of google sheets component and incorporate latest enhancements to <num> x || fixed issue with not remembering max to the line
+18.286 || use tracer resolver to locate tracer without modifying code config || fixed npe on null to incorrect java
+18.286 || service now add an option to configure teh api version || fixed issue with incorrect max to the
+18.192 || add starts with operator to simple language || fixed issue with incorrect max
+17.609 || camel jetty if multiple bundles uses the same context path pathspec then jetty should fail || fixed issue with incorrect background after name to the line
+17.609 || camel aws use regional client instead of define region for single operation aws ec <num> || fixed npe on null in java line line <num> <num>
+17.609 || composite api client class in the camel salesforces component cannot close a null input stream || fixed npe on null to incorrect java java obsolete <num>
+17.583 || camel file from file to file with read lock file lock dont work on windows || fixed issue with null dir file file file it
+17.428 || fix typo in text method name of file consume done file issue test || fixed issue with not dir to file file
+17.245 || cxf payload converter to use a xmlstream reader based conversion if applicable || fixed issue with finding tag to the line
+17.136 || create a camel google calendar stream component option to consume from now or to start from the beginning || fixed issue with incorrect background after a name to the line
+16.872 || using bean component with beans that implement service from camel should have the lifecycle callbacks invoked || fixed issue with not remembering after background to the line
+16.768 || introduce a model interface to hold definitions related methods || fixed issue with not attributes to
+16.768 || camel blueprint prevent automated restart in case of errors || fixed npe in empty root not
+16.496 || make camel management impl optional so users can run camel with and without jmx || fixed issue with incorrect background to the line line
+16.496 || camel dns make it easy to configure components and service discovery in spring boot || fixed issue with not remembering max to the line
+16.496 || improve a bit also fixed that issue with potentially setting content type two times || fixed npe in empty root in java line line
+16.341 || fixed camel archetype catalog and only attach the catalog to the archetypes pom || fixed issue with finding attributes in the user
+16.065 || camel stream cache does not work with cxf consumer for in out messages closing unit of work in interceptor message observer || fixed issue with null background exception is java java java rule <num> <num>
+15.934 || camel http <num> the producer should check the response header in the reply for content type || fixed npe on null name in java line in set
+15.728 || direct component let the producer able to block and wait for consumers to be started || fixed issue with not remembering max to the tab
+15.728 || camel aws add component verifiers like s <num> for all the aws components lambda component || fixed issue with incorrect matching to the resources <num>
+15.728 || camel aws add component verifiers like s <num> for all the aws components sns component || fixed issue with incorrect matching to the resources <num>
+15.728 || camel aws add component verifiers like s <num> for all the aws components ses component || fixed issue with incorrect matching of the url <num>
+15.728 || create a new camel elasticsearch <num> component for supporting elastic search <num> x java api || fixed issue with incorrect max in java content <num>
+14.761 || fixed component had wrong syntax and made it configurable for tooling and fast endpoint configurer || fixed npe in empty tag <num> <num> <num> <num>
+14.761 || rename components to default names camel netty <num> to camel netty fixed camel ganglia test || added error test for the value is java rule
+14.761 || cmcomponent must not rely on dependency injection as it should work out of the box || fixed npe on null in java java java set
+14.287 || rename components to default names camel http <num> to camel http removed reference to http <num> in camel rest swagger || fixed npe on null to java java java obsolete <num> <num>
+14.194 || apt compiler plugin fixed to include component level metadata again || fixed issue with not the max
+14.074 || restore camel charset name exchange property if set before call to convert body to with charset || fixed issue with incorrect background max to the line
+14.074 || camel aws add component verifiers like s <num> for all the aws components ec <num> component || fixed issue with incorrect matching the the resources <num>
+14.074 || fixed rest dsl producer to use http verb method from uri when calling remote rest service || fixed issue with incorrect max to the line <num>
+14.074 || fixed log dependencies moved test configuration to surefire overriden logger in optaplanner excluded xmlbeans from test || fixed issue with not remembering max to external resources
+13.741 || camel aws msk use bind to registry annotation where possible in tests || fixed npe on null to java java
+13.741 || header selector producer to support suppliers for header key and default value || fixed npe on null is absent to
+13.209 || fix fluent producer template to be thread safe when you also set endpoints and other states || fixed issue with not background max to the line
+13.209 || camel undertow transfer exception and throw exception on failure options are never used in the component || fixed issue with incorrect background max to the line
+12.915 || fixed rest producer header name substitution issue thanks to leonid remennik for reporting || fixed npe on null is absent to
+12.726 || externalize configs as pr <num> tried to avoid potentially conflicting jetty port during test execution || added error test for internal code to absent
+12.726 || camel xmlbeans can now generate sb auto configuration as its fixed in sb <num> <num> || fixed issue with not elements in xml xml
+12.499 || rename components to default names camel http <num> to camel http removed reference to http <num> in camel servlet || fixed npe on null to incorrect line to set name
+11.912 || allow to specify response headers in rest dsl model for swagger to use || added handling for branch <num> <num> <num>
+11.912 || fixed camel quarz <num> fire now to let the quartz scheduler be starter after the consumer thanks to deepak for the analsys || fixed issue with incorrect background max to the line all all
+11.853 || moved the child event listener to a separate class and also fixed the comment styles || fixed issue with not remembering is java line
+11.820 || now setting the exchange interrupted property on an exchange interrupted in the default async processor await manager || fixed issue with incorrect background background to the line
+11.483 || revert back spring file watcher test || added minor test
+11.310 || rename components to default names camel netty <num> http to camel netty http fixed refs and camel route parser tests || fixed issue with incorrect background name to the java line
+11.310 || check for null value when getting key capped of collection stats key value might not exist in mongo db <num> || fixed npe on null of incorrect name to the line
+10.681 || digest method and digest value elements created either in xad es or ds namespace depending on xad es version required || fixed issue with xml attributes in the user <num> fixed
+10.577 || camel catalog components that cannot do both consumer and producer should allow to be lenient in endpoint properties || fixed issue with incorrect background max in java line
+10.577 || mina <num> consumer exception handler do close session also for ioexception thanks to thomas papke for the patch || fixed npe on null to incorrect java java obsolete
+10.460 || fixed auto assign route id can go into looping if using fixed route <num> as id || fixed issue with not remembering max to the
+10.460 || added a debug log covering for instance a runtime exception thrown from a custom aggregation strategy || fixed issue with null background exception is absent
+10.170 || upgraded to reactor <num> <num> to fix a bug with emitter processor || fixed npe null to java java
+9.911 || add support for calling function imports from olingo <num> component thanks to kiran g for the patch || added error test for code <num> <num> <num>
+9.705 || camel aws lets adopt the same approach as for all the components camel aws sns || fixed issue with incorrect the the name
+9.705 || camel aws lets adopt the same approach as for all the components camel aws ses || fixed issue with incorrect the the name
+9.705 || camel aws lets adopt the same approach as for all the components camel aws lambda || fixed issue with incorrect the the name
+9.705 || mail consumer does not work with quartz scheduler thanks to ivo kulms for the patch || fixed issue with not remembering after name
+9.465 || exclude abstract classes and classes with no fields from being converted into nested configuration property classes for spring boot || fix for <num> not them on not replaced <num>
+9.457 || camel catalog maven should use apache commons http client <num> to download http https as it has support for timeout which the basic handler from the jdk does not || fixed issue with incorrect background max to the line to the the set
+9.457 || update default unmarshall type to java lang object instead of java util map to be able to unmarshall any valid json document with the default configuration of jackson unmarshaller || fixed issue with incorrect background after java java java java java line all
+8.952 || camel microprofile config sould have an option to enable disable automatic lookup of properties sources || fixed issue with insertion of the name
+8.641 || add break on error to camel kafka so the consumer stops on first exception and allow the same message to be polled again for retry || fixed issue with incorrect completion after name to the line <num>
+8.609 || allow to use negative vendor specific jdbc types in camel sql stored procedure || fixed bug in incorrect generation array
+8.609 || camel component docs lets ensure expression is first in the eip json docs || fixed npe on null is incorrect
+8.413 || added input type with validate output type with validate instead of adding boolean parameter fixed doc || added a type for a a parameters
+8.174 || delete the starter source code that was no longer in use || added error for code generation
+8.075 || snakeyaml as the snakeyaml parser is not thread safe object like constructor resolver etc should be provided by a factory supplier || fixed issue with not attributes for a a name
+7.912 || add more regression which is similar to already existing throttler tests where grouping is added and fix some cs errors in camel core || fixed issue with not remembering max in java line line
+7.594 || deleted duplicate spring boot example to not confuse users || added error to generating
+7.287 || camel etcd add jmx api and make it easy to configure etcd endpoint uris || fixed npe on null to know
+7.287 || fixed ahc component real uri configuration thanks to thomas g nter for the patch || fixed npe on null is absent
+7.226 || locking the critical section to avoid race condition if aggregate time out checker also completes at the same time as recover task || fixed issue with null of name to the line
+6.774 || fixed handler loop when multiple endpoints on the same port have more then one handler || fixed issue with incorrect the max
+6.727 || service call add a spi for component to provide a custom expression to build the camel uri || fixed issue with incorrect background max to
+6.727 || camel catalog validate simple should deal with property placeholders cannot be resolved and therefore opt them out || fixed issue with incorrect class class do
+6.692 || camel json api create integration test for karaf and sb karaf itest || added minor test in java
+6.692 || camel catalog method call tokenizer and xtokenizer do not use xml value || fixed issue with xml tag
+6.344 || camel catalog add special logic for validaing activemq jms as its a bit special in its destination type path param || fixed issue with incorrect max in xml content
+6.322 || camel git pull and push operations require the remote name and not the remote path to git repository || fixed issue with incorrect the the first
+6.169 || rename components to default names camel quartz <num> to camel quartz fixed references in javadoc || added minor fix in fabrique in
+6.169 || camel aws lets adopt the same approach as for all the components camel aws cw || fixed issue with incorrect the end
+6.149 || npe in camel jaxb when using in osgi running from camel test blueprint || fixed npe in empty root
+6.011 || jetty http producer bridge endpoint should avoid npe error and detect invalid uri and provide exception with suggestions what to do || fixed issue with incorrect background max to the
+5.831 || revert fixed the producer which now should be handling the async and sync flows in an improved way || fixed issue with not remembering class to
+5.786 || fixed test after java <num> dsl changes in get header causing it to think <num> nd parameter is supplier and not a default value || fixed issue with null background when searched to absent
+5.734 || add option to extract file name if ftp client directory parser ends up with absolute paths || fixed issue with incorrect dir file
+5.599 || use copy from new body to avoid issues like java io ioexception stream closed when setting result from bean in route || fixed issue with not remembering completion in xml
+5.479 || camel aws sqs add a consumer integration test for delete if filtered option || added action for the repository
+5.479 || improve example with stop message live location and send venue methods usage <num> || fixed issue with finding highlighting
+5.479 || camel mongodb evolution to driver <num> added karaf feature for the new component || added minor check in java
+5.272 || fixed camel ftp to work with splitter loading the remote file content and not its directory listing || fixed issue with not remembering max
+5.206 || implement consider sort by patch https github com apache camel pull <num> from <num> x in a manner consistent with the rewritten mongo dbproducer in <num> x also enrich documentation || fixed issue with incorrect completion after java java java java line
+4.941 || rename components to default names camel netty <num> http to camel netty http removed netty http <num> decorator for aws xray component || added error test for internal code in obsolete
+4.111 || do not require xml root element annotation in jaxb fallback type converter || fixed npe in xml
+4.072 || quartz scheduled poll consumer scheduler causes trigger misfires on each application start make this consumer more similar to the regular quartz consumer and how it start || fixed issue with not remembering max to the user
+3.605 || camel netty <num> http should do a defensive copy of the netty bytebuf if the async routing engine kicks in so any further processing can still read the stream of data netty http server will otherwise have closed the original bytebuf || fixed issue with null completion after name in the line name all all
+3.027 || added plain get set to components for spring boot configuration || added error test
+3.007 || fixed bug in do while loop when calling async component thanks to sanigo for unit test || fixed issue with incorrect background
+2.885 || camel jsonpath have an easy way of defining predicates with a single operator instead of having to grok the half complex style of jsonpath || fixed issue with incorrect max to the
+2.855 || inflight repository browse should compute elapsed if the message is still inflight at a given node thanks to barbara de vido for reporting || fixed npe on null to incorrect java
+2.495 || add support for spring boot with the run with so you can do that kind of junit testing with camel and spring boot and use the mock endpoint annotations and whatnot || fixed issue with not class class class in scriplet
+1.940 || added a unit test and use byte array instead of input stream || added error test
+1.694 || camel ftp no error message on invalid credentials thanks to dirk reske for the patch || fixed npe on null
+1.512 || fixed camel ftp component does not set camel ftp reply code in some case ex <num> || fixed npe in null
+1.511 || small optimization about uo w to compute is external redeliveried only once as jmx performance statis will otherwise repeativly calculate this on each complete || fixed npe on null to obsolete
+1.351 || bridge properties parser should support default values as well thanks to ronny aerts for sample project to reproduce this issue || fixed issue with incorrect max

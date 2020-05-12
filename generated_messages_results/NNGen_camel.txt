@@ -1,0 +1,526 @@
+Bleu-score - Original Commit Message || Generated Commit Message
+
+100.0 - polished || polished
+100.0 - regen || regen
+99.18615648757263 - upgrade mockito core to version <num> <num> for camel splunk || upgrade mockito core to version <num> <num> for camel websocket
+99.18615648757263 - split camel aws component in individual components moved aws kms || split camel aws component in individual components moved aws sns
+97.78846460366117 - camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock pod tests || camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock namespaces tests
+97.78846460366117 - camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock services tests || camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock namespaces tests
+97.78846460366117 - camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock builds tests || camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock configmaps tests
+96.80833774949666 - revert maybe this works better on ci <num> || maybe this works better on ci <num>
+96.71494628875318 - error during type conversion from type java lang string to the required type org elasticsearch action update update request take <num> || camel elasticsearch rest error during type conversion from type java lang string to the required type org elasticsearch action update update request
+96.47289174263778 - fixed camel mongodb type converters which was implemented wrong and could lead to stop working on first parsing error || fixed camel mongodb <num> type converters which was implemented wrong and could lead to stop working on first parsing error
+96.25771282264928 - camel aws use regional client instead of define region for single operation aws ec <num> || camel aws use regional client instead of define region for single operation aws ddb
+94.82300593976133 - use bind to registry wherever possible camel tika || use bind to registry wherever possible camel zipkin
+94.82300593976133 - use hibernate validator <num> x where possible || revert  use hibernate validator <num> x where possible
+94.82300593976133 - use bind to registry wherever possible camel xmpp || use bind to registry wherever possible camel xmlsecurity
+94.53060084425103 - fixed cs for camel netty <num> http || fixed cs for camel netty <num>
+91.48179169224214 - camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock service accounts tests || camel kubernetes refactoring tests by using kubernetes server mock and openshift server mock namespaces tests
+91.4315191247975 - revert fixed cs for camel support || fixed cs for camel support
+91.4315191247975 - revert missing file from last commit || missing file from last commit
+89.74734574112586 - camel aws use builders instead of different constructors aws dynamo db || camel aws use builders instead of different constructors aws sqs
+89.74734574112586 - upgrade mockito core to version <num> <num> for camel spring redis || upgrade mockito core to version <num> <num> for camel websocket
+87.12839146638068 - camel aws lambda use bind to registry annotation where possible in tests || camel aws kinesis use bind to registry annotation where possible in tests
+87.12839146638068 - camel aws ecs use bind to registry annotation where possible in tests || camel aws eks use bind to registry annotation where possible in tests
+85.30978048780466 - camel aws kinesis use a configuration for the options like the other aws components || camel aws ddb stream use a configuration for the options like the other aws components
+85.16174475195088 - camel aws ec <num> add the ability to specify credentials and region at component level || camel aws mq add the ability to specify credentials and region at component level
+85.13264863257972 - camel jdbc use bind to registry annotation wherever possible || camel hipchat use bind to registry annotation wherever possible
+84.94666130062143 - support raw syntax in urisupport || revert  support raw syntax in urisupport
+83.14421370636764 - camel aws add proxy protocol as endpoint configuration for all the components sqs component || camel aws add proxy protocol as endpoint configuration for all the components ddb and ddbstreams components
+83.00009347088755 - camel aws kinesis firehose expose options to avoid a required client in the registry || camel aws ddb stream expose options to avoid a required client in the registry
+83.00009347088755 - camel aws kinesis expose options to avoid a required client in the registry || camel aws ddb stream expose options to avoid a required client in the registry
+82.85273530351547 - use bind to registry wherever possible camel reactor || use bind to registry wherever possible camel rxjava <num>
+80.29214131206133 - use the files api to read files instead of scanner || use the stream api to read files instead of scanner
+80.29214131206133 - camel aws cw use regions value of in the verifier || camel aws sqs use regions value of in the verifier
+80.29214131206133 - upgrade camel jsch to use apache sshd version <num> <num> || upgrade camel ftp to use apache sshd version <num> <num>
+78.33668874011943 - camel aws sqs being able to send batch of messages || camel aws sqs being able to send batch of messages fixed cs and regen
+75.08180119165827 - migrated camel ahc tests to camel test junit <num> || migrated camel jmx tests to camel test junit <num>
+75.08180119165827 - headers getting lost after calling kubernetes pvc list operation || headers getting lost after calling kubernetes namespace list operation
+74.85779650810936 - connector api assumes flat classpath fix typo || connector api assumes flat classpath
+72.65133383338397 - camel aws s <num> use regions value of in the verifier || camel aws sqs use regions value of in the verifier
+72.61088311990976 - camel kubernetes add support for job resources || camel kubernetes add support for deployment resources
+71.37496804027283 - camel aws create single spring boot itests for single components aws sqs and aws swf || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+70.46977379006782 - fixed cs for camel paho || fixed cs for camel vertx
+70.46977379006782 - fixed cs for aws ses || fixed cs for aws kinesis
+70.46977379006782 - fixed cs for camel infinispan || fixed cs for camel mail
+70.46977379006782 - fixed cs for camel velocity || fixed cs for camel jolt
+70.46977379006782 - fixed cs for camel hazelcast || fixed cs for camel ehcache
+70.46977379006782 - fixed cs for camel hbase || fixed cs for camel vertx
+70.46977379006782 - fixed cs for camel shiro || fixed cs for camel directvm
+70.46977379006782 - fixed cs for camel cometd || fixed cs for camel websocket
+70.46977379006782 - fixed cs for camel gora || fixed cs for camel pubnub
+70.46977379006782 - fixed cs for camel cassandraql || fixed cs for camel caffeine
+70.46977379006782 - fixed cs for camel smpp || fixed cs for camel vertx
+70.46977379006782 - fixed cs for camel milo || fixed cs for camel rmi
+70.46977379006782 - fixed cs for camel servlet || fixed cs for camel restlet
+70.46977379006782 - fixed cs for camel infinispan || fixed cs for camel hazelcast
+70.46977379006782 - fixed cs for camel cometd || fixed cs for camel schematron
+70.46977379006782 - fixed cs for camel ganglia || fixed cs for camel avro
+70.46977379006782 - fixed cs for camel fop || fixed cs for camel rmi
+70.46977379006782 - fixed cs for camel aws || fixed cs for camel vertx
+70.46977379006782 - fixed cs for camel disruptor || fixed cs for camel mail
+70.46977379006782 - fixed cs for camel jing || fixed cs for camel rmi
+70.46977379006782 - fixed cs for camel weather || fixed cs for camel snmp
+70.25782492062467 - camel aws lambda add versioning support publish version operation || camel aws lambda add versioning support list versions operation
+69.88584454639714 - temporary revert  unintuitive default cxf timeout behavior || re apply  unintuitive default cxf timeout behavior
+67.82380679614286 - camel aws create single spring boot itests for single components aws kinesis test || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+57.69577096437726 - fixed cs for camel base <num> || fixed cs for camel jackson
+57.69577096437726 - fixed cs for camel digital ocean || fixed cs for camel pubnub
+57.69577096437726 - fixed cs for camel hl <num> || fixed cs for camel jacksonxml
+57.69577096437726 - fixed cs for camel sap netweaver || fixed cs for camel chronicle
+57.69577096437726 - fixed cs for camel http <num> || fixed cs for camel nats
+56.78969668911075 - camel jms use bind to registry annotation wherever possible || camel ftp use bind to registry annotation where possible
+55.76055346729741 - fixed cs for camel xchange || fixed cs for camel google bigquery
+55.76055346729741 - fixed tests for camel tagsoup || fixed tests for camel jackson xml
+55.76055346729741 - fixed cs for camel rabbitmq || fixed cs for camel netty <num>
+55.76055346729741 - fixed cs for camel jmh || fixed cs for camel json path
+54.74852917013631 - move camel controlbus out of camel core || move camel browse out of camel core
+50.557628231463305 - rename components to default names camel netty <num> to camel netty documentation helper class needs to point to new netty json || rename components to default names camel netty <num> to camel netty updated references
+49.160974456733804 - fixed cs for camel iec <num> || fixed cs for camel web <num> j
+48.601821302171196 - better docs sns || better docs cw
+48.601821302171196 - fix flaky test || fixed flaky test
+47.47152865247181 - camel caffeine add support for removal listener || camel caffeine add support for stats counter in the component
+46.813036887228506 - fixed cs for camel http common || fixed cs for camel web <num> j
+46.813036887228506 - fixed cs for camel metrics || fixed cs for camel web <num> j
+46.813036887228506 - fixed cs for camel zendesk || fixed cs for camel web <num> j
+45.71097777653242 - fixed spring boot itest for camel jbpm || camel jbpm fixed itest for spring boot
+45.65014256836351 - camel ftp add option to turn on logging of transfer activity || camel ftp add option to turn on logging of transfer activity lets also see it in the jmx consumer so we can monitor when it last downloaded something
+45.29606436806116 - cleanups for camel netty <num> to camel netty component renaming || cleanups for camel hdfs <num> to camel hdfs component renaming
+44.72205800834159 - upgrade mockito core to <num> <num> for camel atmosphere websocket camel salesforce component and camel script || upgrade mockito core to <num> <num> for camel telegram
+44.698749173035736 - camel cxf use bind to registry where possible || use bind to registry wherever possible camel undertow
+42.36646316408371 - camel aws ddb secret key and access key are secret || camel aws s <num> access key and secret key are secret
+41.687415163852855 - migrated camel consul tests to camel testcontainers spring junit <num> || migrated camel consul to camel testcontainers junit <num>
+40.72707500805513 - add xml support for retry attempted log interval || added retry attempted log interval to redelivery policy
+39.66474585010688 - camel jsch use bind to registry annotation wherever possible || use bind to registry wherever possible camel web <num> j
+38.96430133534642 - camel couchdb polished || camel azure polished
+37.86753136008635 - camel elasticsearch rest add info operation to producer || camel elasticsearch <num> rest add a ping operation to producer
+37.26744908629386 - add camel debezium postgres component <num> || add camel debezium mongodb <num>
+37.26744908629386 - camel git add show tags operation || camel git add clean operation
+36.40457601733201 - camel aws mq polished || camel aws kms polished
+36.40457601733201 - camel aws iam polished || camel aws msk polished
+36.29565424771699 - camel aws s <num> regen after adding the delimiter || camel aws s <num> fixed javadoc related to prefix
+36.00655478042876 - fixed camel salesforce spring boot itest || fixed camel servlet spring boot integration test
+34.37893825643708 - skip test on ci server || skip test that can cause ci server issues
+34.04091641997296 - fix overriding rabbit mq exchange name with exchange override name header || camel rabbitmq use a new header to override sending to another destination name in the producer to avoid issue with from to sending to itself in from this is now aligned with how eg the jms component does it with a special override header for overrding the destination
+33.52516818197115 - fixed cs for camel fhir || camel as <num> fixed cs
+33.52516818197115 - fixed camel corda starter || fixed camel google sheets starter
+33.52516818197115 - camel zookeeper master fixed build || camel guava eventbus fixed build
+33.52516818197115 - camel google pubsub polished || camel google big query polished
+33.52516818197115 - create camel reactor component || create camel rxjava <num> component
+33.39539647914916 - fix fhir dataformat tests || fix additional dataformat related tests
+33.24451689279112 - code changed according to pr change request || removed qtp variable according to pr comment
+33.02456614394592 - map based service usage counting to remove memory leak <num> || osgi service registry should unget services later during shutting down camel context which we can do in the start stop service api instead this reduces leaks if a service is get udring shutdown as now the lifecycle osgi service registry is stopped as last action when camel context is shutting down
+32.94380222814673 - add documentation about xslt resource can also be using bean ref etc || resource based endpoints can now call a method on a bean to get the resource so you can have more flexibility ie load it from database or whatever
+32.77480071949009 - camel sjms default pool should test connection before use so its valid expose options to configure pool on component level to make this easier || camel main maven plugin to generte spring boot tooling metadata to fool java editors to have code completions for camel main application properties files
+32.65798322788448 - fixed camel avro spring boot integration test || camel jbpm fixed itest for spring boot
+32.52471127459501 - couch db changeset tracker fails silently on network error and does not recover || added polling consumer for file ftp components that poll on demand and do not use a background scheduler
+32.46229265830954 - migrated camel bonita from powermock to mockito || upgrade mockito core to <num> <num> for camel couchdb
+32.45278943811175 - fixed example this closes <num> || rename components to default names camel quartz <num> to camel quartz fixed camel example main tiny
+32.37967202914774 - use a really static map for static converters || use statically generated type converter for core converters and optimize the converter registry
+32.37952642889745 - camel google bigquery add a karaf feature for it || jooq add integration tests for karaf and spring boot karaf itest
+32.37245203532473 - removed karaf feature for camel restlet || removed camel snakeyaml karaf integration test there is already camel yaml test
+32.37245203532473 - fixed camel json api karaf feature test || added a test component method call for camel fhir in karaf itest
+32.37245203532473 - remove camel script component || remove deprecated producer  camel rest should seperate producer vs consumer component name
+32.37182658443555 - camel hazelcast add more operation to queue retain all operation || camel hazelcast add remove all and remove if to queue component
+32.367332893564274 - fixed cs this closes <num> || reworked file idempontent repository so lrucache is only act as quick lookup and in case of <num> st level miss the file store is checked file store also writes the entries in the same order they are added
+32.34104223231898 - camel aws create an iam component list users operation || camel aws iam add group operations list groups operation
+32.148409036133934 - camel aws msk fixed javadoc || camel aws iam fixed javadoc and clean up a bit
+32.03289170111459 - apt compiler plugin should generate documentation without javadoc inlined links and fixed when they refer to fields via the syntax || camel main maven plugin to generte spring boot tooling metadata to fool java editors to have code completions for camel main application properties files
+31.692492802229534 - camel apns fixed cs || fixed cs for camel rest swagger
+31.692492802229534 - remove version from source || remove version in java source code
+31.692492802229534 - fixed cs for camel kubernetes component || camel kubernetes add an hpa component
+31.679992418049117 - camel nsq component supports tls setup || add camel nsq component
+31.65266189526833 - escape http ftp urls || component metadata json should unescape http links so they are not invalid json then we can website docs use the escaped links and component json metadata use unescaped
+31.640716439181247 - strip newlines from exchange headers || revert pick up recipient headers from configuration for camel mail if they are not first specified as a header
+31.640716439181247 - use camel context s class loader as tccl for some karaf commands || optimise the runtime endpoint register may not be enabled by default the commands needed a little fix for that
+31.640716439181247 - fixed camel aws test that required a region to be configured || iam role capabilities this will allow aws users to use the industry standard way of credential acquisition and refresh
+31.56542088634425 - fix concurrent modification exception in scanner <num> || camel spring boot default values which was negative may have become positive also was wrong in component docs fixed bug in json parser with parsing integer values
+31.474421822582528 - fix potential npe in camel rest || remove resolve property placeholders on default component as this is already supported via camel main spring boot and other means this avoid reflection overhead on bootstrap
+31.463273706111693 - allow connector to be scheduled || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+31.369654959729655 - quartz poll consumer scheduler in a cluster tries to create duplicate triggers fails || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - add other files to the new location || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - restrict fluent producer template to include a dummy uri || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - do not use deprecated maven api || improve build speed use maven computed list of dependencies instead of rebuilding the whole transitive tree
+31.369654959729655 - added additional logic to handle absolute and relative paths when using chmod directory || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - move test to where the others are || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - fixed jackson related to lambda client mock for camel aws lambda and regen || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - fixed test and corrected the polling file consumer || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - moving test to a different package to use auto configuration || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - make it easier to know if a component is verifable via jmx || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - scheduled poll consumer add option to limit number of polls || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - provide a value for the d in string format || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.369654959729655 - upgrade kafka and related bundle to version <num> <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.068794462573337 - camel consul fixed package name || move invoke on header invoke on headers to org apache camel spi package
+31.068794462573337 - add actuator endpoint for exposing camel routes || camel spring boot make it easy to filter java routes builder from properties
+31.066071785070022 - camel couchdb add a get method to have a complete crud support || lets remove restlet tests as restlet is only available in <num> rd party maven repo and we want to avoid using those
+30.985578430949246 - camel hazelcast add more operation to queue take operation || camel hazelcast add remove all and remove if to queue component
+30.985578430949246 - provide camel leveldb java feature that uses non native leveldb library || enable camel leveldb to work with non native leveldb libraries again
+30.9623065416348 - integrate camel xj component || move active mq camel component to camel repository as camel active mq
+30.9623065416348 - remove cruft from camel jms that are not really in use || remove deprecated producer  camel rest should seperate producer vs consumer component name
+30.9623065416348 - properties binding do not auto wire camel context from registry || camel main add an option to control autowiring of non null properties
+30.9623065416348 - add javadoc that this api is not for camel end users || make it stand out a bit more in javadoc to not use
+30.74342070390181 - camel main allow to add extra properties to property component || camel properties get inital override properties should never return null
+30.74342070390181 - fixed karaf itest for camel nats || camel chronicle enable karaf feature test again after fixing it
+30.74342070390181 - added karaf test || camel aws export aws mq and add karaf feature test
+30.693110446900967 - move pulsar producer creation to do start || component should move initialization logic to do init instead of do start
+30.56415670728979 - removed camel routebox remaining stuff || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+30.56415670728979 - improve the logic to relate the consumer to the producer in the direct component || added polling consumer for file ftp components that poll on demand and do not use a background scheduler
+30.528669542712912 - moving global config to camel context || adding ssl context parameters to spring boot configuration
+30.528669542712912 - optimise small optimisation in type converter and exchange || optimise core type converters to be invoked faster
+30.528669542712912 - add jooq plain sql support || jooq component implementation with simple crud operations support
+30.455841351943707 - fixed cs || fixed cs for camel support
+30.455841351943707 - fixed cs || fixed cs for camel cxf
+30.455841351943707 - add grouped throttling feature || make it possible grouped throttling
+30.455841351943707 - camel service fix component description || fixed cs for camel service
+30.43328142580808 - fixed serialization issue with non mime messages || fixed deserialization of transfer encoded mime entities
+30.421539856001655 - create a camel g rpc karaf feature || camel spark rest added karaf feature test
+30.41905534200816 - camel package maven plugin fixed cs || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.41905534200816 - deprecated option on camel restlet we should not use anymore || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.41905534200816 - service now add meta data extension to retrieve table s structure || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.375637863937733 - added tls tcp support || adding initial tls support
+30.358687724019838 - test ssl communication on restlet producer || test restlet component support sslcontext parametr
+30.358687724019838 - create a caffeine component || camel cloud create camel service component
+30.264174606506387 - updated dozer to <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - renamed the example || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fix docs of content cache for language component as its default true || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fix health check registry and health check service setters || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - converting to boolean should always be strict || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - use boolean and not boolean in json data format || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fix that will be required when updating to cxf <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - break camel debezium into camel debezium common and camel debezium mysql || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - added events for camel starting and stopping routes so you have events for just that || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - simplify service now authentication request || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - rename components to default names camel hdfs <num> to camel hdfs removed references in comments || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - future proof the salesforce limits api || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - upgrade quickfixj to version <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - camel cloud create a spring cloud based camel service example || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - move urisupport test to camel util || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - don t carry soap action forward if operation name is specified explicitly for the cxf producer || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - added explanation to class javadoc about must use string parameter type || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - requiredement for date string to be longer than pattern is invalid || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - camel consul first index cannot be set if it is out of long range || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - upgrade mockito core to version <num> <num> for camel weather || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - remove the useless condition || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - avoid to use endpoint attribute when mqtt connect options is declared once || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - upgrade mockito core to version <num> <num> for camel gora || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - camel nagios switch to jsendnsca ported library || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fixed cs || fixed race condition in camel hystrix when xecution timeout in milliseconds and on fallback are used
+30.264174606506387 - add thread name to hangup so we dont use anonymous thread name || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - component verifier preserve order of group options || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - work around a npe in milo <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - camel avro upgrade to <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - runtime configuration is allow use original message improve javadoc || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - upgrade to micrometer <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - <num> which was a wrong default value should have been <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fix flaky test due to unordered set || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - use lambda || chore  remove ref attribute on consume produce endpoint inject as you should just use ref component
+30.264174606506387 - pass cxf service class to endpoint info || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - rename components to default names camel quartz <num> to camel quartz fixed camel mail test || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - ensure the cron schedule is updated when the job is rescheduled || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - pass given exchange to type converter || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - unable to load schematron xslt templates on windows || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - add javadoc to failure event || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - camel azure upload blob blocks and commit blob block list operations does not work with list || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - force init of camel version || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - load core fallback type converters a bit faster || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - component docs show deprecated in title and fix bad indent on text || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - camel caffeine expire after access set two times instead of expire after write || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - add type converter from byte array to java io reader || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fix search term error with unseen and subject or body || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fixed issue with camel restdsl swagger generation not able to set allowed values || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - rename components to default names camel netty <num> to camel netty fixed camel ganglia test || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - change older than and newer than options type || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - add to blueprint testing docs that only <num> camel context is supported || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - avoid npe in case of null attributes || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fix a npe as stop watch is only in use if needed || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - upgrade johnzon to version <num> <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - shutdown only aws clients owned by the context aws sns || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - allow update of owner id field || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264174606506387 - fixed wrong component name bug that caused camel example rest producer to fail its test || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.241435528641585 - migrated camel ahc ws tests to camel test junit <num> || migrated half of the camel xstream tests to junit <num> testing coexistence of junit <num> and junit <num>
+30.09822437761237 - create cache policy for routes || camel ehcache allow to configure some options like a global cache manager on component level
+30.09822437761237 - refactor endpoint syntax handling in order to support camel stream component || camel catalog build uri improved with an esaier way when we have all the parameters
+30.09822437761237 - add missing license and fix rat check || fix cxf rs producer doesn t configure cxf rs endpoint configurer while using proxy api
+29.919647573412604 - enabling camel zipkin in mojo || remove camel core xml as spring boot starter as its not intended for standalone
+29.919647573412604 - camel infinispan starter enable cache manager auto discovery || spring boot use application context runner in spring boot test to test auto configurations
+29.89343656235289 - fixed cs for camel olingo <num> || camel as <num> fixed cs
+29.784093682956186 - since camel elasticsearch rest doesn t work in karaf skipping the karaf itest || camel debezium ignore the camel debezium mysql karaf test for the moment
+29.726541153071096 - make intercept send to endpoint processor asynchronous || camel connector allow to do custom logic before producer or consumer does anything
+29.726541153071096 - reverted import ordering to comply with style guidelines || minor change to file constructor used in chmod directory should fix the issue
+29.726541153071096 - add sasl jaas config setting || camel kafka add any new options from kafka <num> <num> to the endpoint
+29.726541153071096 - allow jt <num> pgm producer to call ibm i service programs || producer cache should not store non singleton non pooled producers on camel context
+29.516545206750454 - fix syntax for service component || remove deprecated producer  camel rest should seperate producer vs consumer component name
+29.516545206750454 - fixed test || fix xpath transform test by making it match easymock implementation more closely
+29.516545206750454 - add custom valiation logic for twitter credential || camel google mail camel google mail stream add google mail verifier extension
+29.516545206750454 - extend amel cmis component with new operations || remove deprecated producer  camel rest should seperate producer vs consumer component name
+29.516545206750454 - remove zookeeper route policy as there are better alternatives || remove deprecated producer  camel rest should seperate producer vs consumer component name
+29.516545206750454 - added mybatis bean as component to use my batis annotation mapper || remove deprecated producer  camel rest should seperate producer vs consumer component name
+29.516545206750454 - transaction error handler and transaction policy for camel cdi java ee || move active mq camel component to camel repository as camel active mq
+29.516545206750454 - abstract salesforce test base do creat || component should move initialization logic to do init instead of do start
+29.516545206750454 - added camel digitalocean starter to kit || revert  delete the starter source code that was no longer in use
+29.489053708814268 - better read response methods in camel slack component || camel slack add component verifier from syndesis project
+29.489053708814268 - added karaf feature itest || added camel caffeine karaf feature and related test
+29.489053708814268 - camel aws translate create a karaf feature || added aws eks to camel aws karaf itest
+29.28668296670996 - migrate atmos properties file configuration to component properties || split camel aws component in individual components moved aws cw out
+29.28668296670996 - camel seda support configuring endpoint defaults on component || allow seda producers to offer data to the queue with timeout
+29.28668296670996 - improve logging when choosing leveldb dbfactory || enable camel leveldb to work with non native leveldb libraries again
+29.28668296670996 - implemented grok data format || move dataformats out of camel core remove deprecated data formats first
+29.28668296670996 - fix for || spi for reactive helper so we can plugin different reactive engines
+29.28668296670996 - improving tls configuration || refactoring coap component to use ssl context parameters for tls certificates
+29.125585338882875 - add bind methods to the route builder to allow registering beans along with the routes definitions || feat  camel registry allow to store multiple beans with same id but different type
+29.067550103519523 - create camel testcontainers || camel cloud create camel service component
+29.067550103519523 - code style remove unused imports || cleanup bulk removal of unused imports
+29.067550103519523 - make sure there are definitions to || make sure that the property helper
+29.039918563790483 - camel aws mq don t use jndi registry in spring test || camel aws mq use bind to registry annotation where possible in tests
+29.033122409548966 - headers getting lost after calling kubernetes services api || deprecate out in favour of get message on message api
+29.033122409548966 - upgrade open tracing java api version to <num> || use tracer resolver to locate tracer without modifying code config
+29.033122409548966 - camel soroush cleaned up a bit and ignored integration test || ignore install open tracing tracer rule test for the moment
+29.033122409548966 - camel aws eks regen docs || fixed aws kms javadoc and removed wrong reference to mq
+29.033122409548966 - route coverage fixed issue with end choice in cbr problem || camel maven plugin validate allow to detect duplicate route ids
+29.033122409548966 - camel servlet fixed cs || tests confirming <num> code change works in servlet component <num>
+29.033122409548966 - reset connection after acknowledgement timeout || update last connection activity ticks in mllp tcp client producer
+29.012827987352114 - the camel package maven plugin updated after the recent change with generating more component metafiles instead of having them in the source || component docs include more allowed chars fixed maven plugin to update readme file after meta inf services files are dynamically generated instead of static as before
+28.95052601920604 - fixed component configuration test for camel aws ddb || camel aws ddb use the correct scheme for testing ddbstreams component
+28.890369334644667 - the ehcache component creates a separate cache manager per producer route || camel ehcache allow to configure some options like a global cache manager on component level
+28.776942038228015 - rest producer should set accept and || rest dsl producer should use upper case http verb
+28.75080666456396 - add an mvc actuator endpoint for exposing camel routes || add jmx api route controller and supervising route controller
+28.75080666456396 - new component iota || initial version of camel master component for clustered services
+28.75080666456396 - seda have a default queue size limit || camel util move seda constants to camel seda <num>
+28.75080666456396 - correctly copy response s headers and body to exception || implemented throw exception on failure attribute for producer usage
+28.75080666456396 - fix camel nsq || camel corda fixed backport from <num> x and regen
+28.75080666456396 - updating the default algorithm for the crypto component || camel crypto use bind to registry annotation wherever possible
+28.43285192944476 - add missing javadoc for java <num> dsl || move mock component out of camel core <num>
+28.43285192944476 - regen and fixed cs this closes <num> || handle mime folded and mime encoded email headers
+28.43285192944476 - kerberos authentication for hdfs connections || camel hdfs cleanup ha cluster related classes <num>
+28.43285192944476 - simplify start service stop service helpers || allow producer to lazy start until first message
+28.43285192944476 - remove include routes on route builder || added unit test based on user forum issue
+28.43285192944476 - remove dummy trust manager from camel mail || implementing postgre sql replication slot consumer camel component
+28.35191230968066 - fixed cs for camel clouds || camel pdf fixed cs
+28.324210214163898 - camel aws s <num> fixed cs || split camel aws component in individual components moved aws s <num> out
+28.31048391066516 - fixed jbpm spring boot integration test after upgrading || fixed camel jbpm sb itest after upgrading
+28.216547029632753 - camel box ambiguous error message when authentication requires captcha || camel box fix error did not find balanced marker at
+28.216547029632753 - use counter in caffeine s dropwizard metrics || camel caffeine add support for stats counter in the component
+28.216547029632753 - camel aws create a kms component || split camel aws component in individual components moved aws sns
+28.216547029632753 - camel grpc add a grpc consumer || add security and advanced properties to the camel grpc component
+28.148890182354947 - change http status code to <num> when no content exists netty http <num> || default status code uses <num> when no content <num>
+28.1221069997569 - camel kafka supports dynamic topics via pattern || camel kafka added support for manual commits
+28.1221069997569 - camel aws fix a missing import || camel aws s <num> removed unused imports
+28.1221069997569 - clean idempotent repository interface || camel caffeine add idempotent repository to component
+28.1221069997569 - added test for asynchronous mdn contruction || updated documentation fixed processing of asynchronous mdn
+28.1221069997569 - removed camel scr remaining stuff || remove camel scr starter spring boot module
+28.069502124082863 - regen camel hazelcast starter || move bean component out of camel core
+28.069502124082863 - fixed cs for camel base where possible || move validator component out of camel core
+28.069502124082863 - camel spring unable to mix xml a || add ignored test to demostrate the issue
+28.069502124082863 - add first version to pulsar || camel pulsar use just pulsar as title
+28.069502124082863 - make org apache camel converter io || move file component out of camel core
+28.069502124082863 - introduce camel event spi interface || prepare org apache camel management for extraction
+28.046715287398044 - create camel webhook karaf and sb itest spring boot integration test || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+27.91914190140782 - camel aws swf polished || camel azure polished
+27.914266775467766 - fixed the build of camel http <num> || fixed cs for camel rxjava <num>
+27.817797411311773 - camel zipkin generate tracing identifiers on exchange begin if they <num> || allow clients to send custom tags to zipkin server <num>
+27.755408811473632 - polished camel archetype spring boot to generate a project similar to examples camel example spring boot || camel main maven plugin to generte spring boot tooling metadata to fool java editors to have code completions for camel main application properties files
+27.646153585956462 - closing camel context in tck tests || refactored service creation in spring boot
+27.646153585956462 - component connection setting || connection bean fallback to properties <num>
+27.646153585956462 - camel quartz polished a bit || camel pulsar fixed pulsar utils test
+27.646153585956462 - rename status field || retrieve status from service status enum
+27.646153585956462 - fix cs for camel util json || refactor the json simple ordered module
+27.646153585956462 - make cxf consumer endpoints suspendable || fixed cs for camel cxf transport
+27.501847016040532 - added global cache option on bean component || bean component with cache false will now also lookup beans that implements processor on each invocation
+27.439560970724575 - jndi context remove old bean binding || introspection support remove old legacy jdk property editor
+27.402689037800343 - remove camel hdfs test for karaf features since the feature doesn t exist anymore || removed camel snakeyaml karaf integration test there is already camel yaml test
+27.402689037800343 - remove camel rx test for karaf features since the feature doesn t exist anymore || removed camel snakeyaml karaf integration test there is already camel yaml test
+27.394547049351225 - service call eip add an option to set global defaults || service call allow to confgire ribbon load balancer using ribbon specific properties
+27.394547049351225 - example spring boot servicecall service <num> returns <num> not found || camel example spring cloud servicecall doesn t work out of the box
+27.287573374036505 - camel aws swf region is not set during client creation || camel aws swf use regions value of in the verifier
+27.287573374036505 - camel jt <num> fixed cs || camel jt <num> use bind to registry annotation wherever possible
+27.13915953910661 - remove camel example cdi osgi || remove deprecated from eip models
+27.13915953910661 - fixed checkstyle issue || camel as <num> fixed cs
+27.085659051843148 - camel kafka changed the description of specific confluent options || camel kafka no need to set value to false for specific avro reader
+27.085659051843148 - camel connector should handle lifecycle of before after processors || camel connector allow to do custom logic before producer or consumer does anything
+27.08125169458131 - camel graphql add karaf and spring boot integration test spring boot itest || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+26.92606870855805 - remove redundant error handler configuration || move state from error handler builder to route context
+26.92606870855805 - fixed cs for camel disruptor || camel disruptor use bind to registry annotation where possible
+26.924777801039657 - allow to turn off using default object mapper in camel jackson || camel jackson should use default object mapper instance if there is only one in the registry
+26.899490837387024 - create new camel olingo <num> component for supporting odata <num> || first phase of as <num> camel component <num>
+26.827115973314626 - add another test for load cache too || add unit test for zero timeout
+26.824844266583863 - camel main add a bit more empty null check for invalid properties || camel main configuring properties report better error if missing jars on classpathand other mistakes
+26.813678111242574 - minor polish code || polish example
+26.77354728714348 - routing slip and dynamic router should use an embedded dynamic processor to send to endpoints instead of error handler cache || routingslip dynamic router eips can cause error handlers to be stopped for shared error handlers backported older working code  is re introduced again and we need to come up with a better solution
+26.708040349521255 - camel aws msk no need to set operation header in tests it s already set as uri parameter || message history eip now supports filtering nodes and to keep a copy of the traced message
+26.708040349521255 - rename components to default names camel netty <num> to camel netty removed refs in netty <num> http component || message history eip now supports filtering nodes and to keep a copy of the traced message
+26.602204750797366 - optimised sp el to eager lookup bean resolver || support sp el in non spring runtimes thanks to jens kleine herzbruch for the patch
+26.527694310248755 - regen spring boot components starter || spring boot starters allow to hook into auto configuration process
+26.527694310248755 - include nested exception when camel dropbox fails || camel dropbox should support put not only from local path
+26.505278683040974 - consolidate tls configuration || adding initial tls support
+26.505278683040974 - cs fix || camel aws fixed cs
+26.45487875396033 - improved a bit on camel route coverage || camel route coverage maven fixed to skip certain inlined on exception etc
+26.418005698335033 - camel aws translate detect the source language automatically || fixed cs for camel aws translate
+26.2342842123714 - service call add an option configure the expression to use i e simple || service call add a spi for component to provide a custom expression to build the camel uri
+26.211172763066042 - camel digitalocean fixed cs || camel digitalocean use bind to registry annotation where possible in tests
+26.137660549965823 - camel swagger java should include body parameter type in generated api doc || camel swagger java generated swagger doc should use primitive types
+26.101511498384717 - move more methods to error handler reifier || rename error handler builder to error handler factory in some places
+26.101511498384717 - implements  for camel olingo <num> || camel olingo <num> add ability to send receive endpoint http headers
+26.097906716237567 - added a camel corda spring boot integration test || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+26.02399855817937 - add support for extended mode for full text <num> || camel twitter should support extended mode by default
+26.02399855817937 - move last language from camel core to camel base || move mock component out of camel core <num>
+26.006357388888095 - include file size in file operations api so we can know how big the files are to download upload || message history eip now supports filtering nodes and to keep a copy of the traced message
+25.95485585064745 - spring boot routes not loaded wh || allow camel spring boot to auto terminate jvm after processing n messages
+25.95485585064745 - refactored name and package of as <num> utilities <num> || allow as <num> component to reply disposition type failed in the mdn
+25.95485585064745 - add get message set message to exchange interface || npe on default message set body if deprecated constructor was used <num>
+25.75826042695899 - camel azure should work with camel file component ootb || camel zipfile now supports marshal an iterator to zipfile and made it more general with a type converter so we can also write directly to a file via the file component
+25.744045705870906 - fix unused loader in object helper load resource as stream || object helper does no longer see meta inf services from camel core <num>
+25.744045705870906 - camel aws translate || camel aws sqs add a consumer integration test for delete if filtered option
+25.727352193580437 - supervising route controller routes may be started in wrong order || remove <num> n mapping between route definition and route
+25.69807435004382 - fix backpressure issues in camel rxjava <num> || upgrade rxjava to version <num> <num>
+25.56841480529383 - camel undertow response with large data gets truncated on cloud || camel undertow consumer thrown npe when the body cannot be converted to byte buffer
+25.56841480529383 - camel healthcheck spring boot actuators don t honor endpoints enabled property || spring boot use application context runner in spring boot test to test auto configurations
+25.56841480529383 - camel main should ignore case in property keys || camel main configuring properties report better error if missing jars on classpathand other mistakes
+25.45541541988966 - add new camel yql component || deprecate remove camel yql
+25.3833653645491 - camel aws use regional client instead of define region for single operation aws sqs || camel aws use builders instead of different constructors aws sqs
+25.367616434433142 - added decorator support similar to open tracing || added support for aws xray tracing of camel s exchange routing capabilities which works similar to the open tracing tracer support camel opentracing provides this implementation differs however slightly from the one of open tracing due to the thread local nature of an aws xray segment and its behavior if a new segment is created if already an existing segment is present in the context of the current thread upon exchange creation it is first checked whether an existing segment is already present if not a new one will be created otherwise a subsegment will be created and added to the existing segment in case of a multicast the segment is copied over via exchange properties to the intermediary thread created for initializing the respective threads otherwise it wont be able to take notice of the previous segment it belongs to
+25.33009604121739 - use right lock while calculating and setting max request per period when grouped throttling used || split up as is and grouped throttling implementation to have all existing tests pass and for grouped throttling more tests need to be added in further progress
+25.30938757880044 - camel aws create a kms component added aws kms to karaf feature test || camel aws export aws mq and add karaf feature test
+25.29476503208948 - add spring boot example with rest dsl and swagger || fixed rest dsl producer to use http verb method from uri when calling remote rest service
+25.29476503208948 - using the correct tls algorithm in some of the tests || message history eip now supports filtering nodes and to keep a copy of the traced message
+25.29476503208948 - properties component check env before jvm system property || properties component let os environment variable take precedence by having it in override mode by default
+25.09410978650244 - added spring boot itest || camel aws create single spring boot itests for single components aws sdb aws ses and aws sns tests
+25.09410978650244 - global rest configuration gets overridden by default || fixed rest dsl to remove add rests at runtime due to rest configuration not using the existing one
+24.91056553128447 - cannot start route using rest dsl due to a mysterious duplicate route id conflicts camel core src main java org apache camel model route definition helper java || fix  fixed rest dsl advice with using inlined route with route id and replacing from should not append route id as uri parameter
+24.828424832103337 - remove slow test for deprecated compomnent || remove deprecated from eip models
+24.828424832103337 - add missing karaf and springboot tests || added itest and karaf feature
+24.782340595361738 - shutdown only aws clients owned by the context aws ddb stream || camel aws ddb stream expose options to avoid a required client in the registry
+24.672402902872822 - camel nsq component can automatically finish messages || add camel nsq component
+24.64234191099265 - optimise exchange copy should preserve exchange id so we dont generte a new uuid which was not needed || probe content type and pre move attributes causes exchange file content type to get dropped
+24.485600955631742 - disable camel consul test on karaf as it does not work || camel consul karaf itest re introduced it works now
+24.4847401211124 - camel aws lets call shutdown on the clients while stopping endpoints aws lambda || shutdown only aws clients owned by the context aws lambda
+24.4847401211124 - camel aws lets call shutdown on the clients while stopping endpoints aws mq || shutdown only aws clients owned by the context aws mq
+24.321833492365194 - fixed bug in property binding support with class as prefix || add property binding support to make it convenient to configure components and whatnot
+24.321833492365194 - camel infinispan infinispan route policy issue with locking from remote server || infinispan route policy to have one route being master and others as slaves
+24.319704131286564 - init deferred to first call when wih uses deployment scoped context in combination with singleton runtime strategy removed redundant double slash from direct url || replaced hard coded strings with constants changed work item parameter names to be inline with other work item handlers
+23.74575631115165 - fix to use last processed offset maintained by camel kafka consumer to avoid message loss upon partition revoke || fix to use kafka client kafka consumer subscribe api with consumer rebalance listener registration when topic is pattern is set to false
+23.65657055472812 - fixed camel slack producer test || camel jetty fixed cs
+23.5697628825569 - check for null value when getting key capped of collection stats key value might not exist in mongo db <num> || message history eip now supports filtering nodes and to keep a copy of the traced message
+23.5697628825569 - rename components to default names camel http <num> to camel http removed reference to http <num> in camel rest swagger || message history eip now supports filtering nodes and to keep a copy of the traced message
+23.550316152161713 - camel swagger java not honoring the x forwarded host proto prefix headers || camel swagger java can now output swagger doc without jmx enabled for the current camel context
+23.40196377403126 - camel elasticsearch rest add scroll api support || new elastic search <num> rest component
+23.40196377403126 - fix header resolution for lra saga routes || fixed cs for camel jetty <num>
+23.358719651301442 - fixed camel boon test || fixed test
+23.149238239819596 - camel aws create single karaf feature tests for single components aws ecs test || jooq add integration tests for karaf and spring boot karaf itest
+23.149238239819596 - camel aws create single karaf feature tests for single components aws swf test || jooq add integration tests for karaf and spring boot karaf itest
+23.071918545011933 - properties component should also fallback to env vars as it does for jvm system properties the default mode is override || properties component let os environment variable take precedence by having it in override mode by default
+22.987508520579777 - camel jsch allow to pass the private key as byte and not only via file || remove deprecated producer  camel rest should seperate producer vs consumer component name
+22.96017133581004 - deprecate jmx catalog api which is not really in use and adds complexity || remove unused jmx catalog api and other bits that are unused
+22.722463304617747 - fixed cs for camel jbpm || fixed cs
+22.687770249948773 - rename components to default names camel http <num> to camel http camel cloud reference to htt <num> removed || make camel http <num> the default for service call as camel http has been deprecated
+22.539184691915445 - camel restlet should include component name in from endpoint uri || camel restlet should use placeholders instead of so its similar to all the other rest components
+22.365095590992095 - camel spring fixed cs || fixed flaky test
+22.219664527356255 - remove use dom handled add rethrow || remove deprecated from eip models
+22.143527347604884 - restructure marshal unmarshal implement unmarshal add karaf feature and test || add configuration parameters add data format build clauses
+22.12216163944677 - camel aws add more operations to the aws iam producer get user operation || camel aws create an iam component delete access key operation
+21.53637476050742 - reuse the individual generated type converter loader instead of the big core static type converter loader || add support for generating type converter loader source code to be able to load component type converters in a faster way
+21.13758601816801 - fix default value for eviction type to make it work with camel caffeine starter || camel caffeine support time based and size based eviction in caffeine
+21.133124843750867 - camel pulsar in endpoint syntax breaks components adoc table || camel pulsar use just pulsar as title
+21.133124843750867 - add an advanced properties to the camel thrift component || create a new camel thrift data format
+20.970096749133564 - remove spring boot auto configuration files from camel core starter for components that was moved out of the core || message history eip now supports filtering nodes and to keep a copy of the traced message
+20.642331793878125 - reifiers classes should be public || make reifier constructor public
+20.40933425764879 - camel catalog tooling do not report validation error for camel uri based on property placeholder such incpable parsing etc || camel validate maven tool can now also report error when using deprecated options
+20.2675104557592 - camel jgroups starter jgroups lock cluster service configuration lacks getter setters || cluster service make a jgroups based cluster service
+20.253771499300864 - camel dropbox validator regex is too restrictive and fails for common paths reduce the regexp and just check for windows path and fail || message history eip now supports filtering nodes and to keep a copy of the traced message
+20.001446156332303 - added support for encrypted and signed as <num> message || added tests and fixes for compression
+19.824697462417983 - code review use is not empty || code review refactor codestyle
+19.817779252437163 - camel hazelcast auto discovery of hazelcast instances in spring boot || camel ehcache starter auto discovery cache manager
+19.68220331788425 - netty consumer in client mode allows to reuse channel so you can reuse the channel to send a response back from camel etc || camel netty <num> add spi to plugin custom correlation state for request reply in producer
+19.30074493366715 - active mq jms component transfer exchange option does not transfer exchange properties anymore closes <num> || camel jms headers missing if producer endpoint has transfer exchange true
+19.27749744306178 - lets throw an exception as the warn log is maybe not noticed by the developer so easily and it really dont work that well for spring boot testing || log a warn when extending camel test support camel spring test support when doing spring boot testing as they are not intended supporting this
+18.858916069910205 - camel core remove unnecessary object array creation when logging with placeholders || replace string concatenation in log messages with placeholders
+18.77378114675223 - camel aws lambda fixed the javadoc related to the lamdba client || camel aws lambda regen docs and sb
+18.477208316697322 - camel graphql add karaf and spring boot integration test karaf itest || camel spark rest added karaf feature test
+18.191922671622503 - move a few classes into camel support || fixed cs for camel ehcache
+18.191922671622503 - camel kudu just use kudu as name || camel bigquery fix endpoint annotation
+18.191922671622503 - fix a bunch of other checkstyle violations || initial import of camel milo
+17.196304077305342 - fixed cs for camel any <num> example || camel jetty fixed cs
+16.851718090795245 - camel aws create single karaf feature tests for single components aws ddb test || added camel caffeine karaf feature and related test
+16.851718090795245 - camel google mail remove scopes from configuration this option is never really used || remove unused oauth scopes in google mail component
+16.76823977300696 - camel nats introduce usage of camel testcontainers in tests || todo ignore failing tests for now
+16.714520120980332 - revert a change in latest dataformat related commit || fix additional dataformat related tests
+16.642990876447918 - initial implementation of method calls in the client || initial import of camel milo
+16.471269607077176 - added an option to jms endpoints so that they format jms date properties according to the iso <num> standard || move active mq camel component to camel repository as camel active mq
+16.340819270216702 - camel testcontainers should build if no docker reverted back to mvn profile implementation || migrated remaining camel consul tests to junit <num>
+16.02529125492164 - remove deprecated languages and dataformats || remove camel restlet
+15.987443307161712 - use override host to lock the host to localhost for unit tests || make the unit tests use dynamic ports
+15.851356525204885 - move language annotations for bean parameter bindings into their own package || camel spring polished my bean binding consumer
+15.41190291246773 - make camel management impl optional so users can run camel with and without jmx || fix cs camel management api camel management impl
+14.898359094953884 - added a test for error in handling return parameters in db functions || added test based on user forum issue
+14.892611107385045 - camel jgroups starter jgroups lock cluster service auto configuration lacks enable flag || cluster service camel consul spring boot support
+14.761156327583475 - make camel rabbitmq endpoint uri syntax like the other messaging components deprecate the old syntax || allow to configure more option on rabbitmq component level
+13.78187065844591 - fixed cs for camel test spring || fixed cs
+13.741190652760945 - aws sns and aws sqs components not accepting date type message attributes || sqs producer support for number custom types
+13.684691645987307 - upgrade mockito core to <num> <num> for camel ftp || fixed cs for camel ssh
+13.684691645987307 - aws sqs queue creation does not support fifo queues || camel aws sqs fixed cs
+13.392495081339392 - added eks to camel aws spring boot itest || added spring boot test
+13.131878779620285 - camel main has now basic support for auto configuring components data formats languages in a similar way as spring boot but not as advanced || camel main configuring properties report better error if missing jars on classpathand other mistakes
+13.04542281737113 - fixed test to use property binding support as the old has removed the legacy jdk property editor in || upgrade mockito core to <num> <num> for camel core xml
+12.81130100246429 - changed log level on entity manager refresh || closing entity manager
+12.780629072584171 - camel aws cw use the bind to registry annotation in tests || camel aws cw fixed cs
+12.632705200679323 - make xml and jaxb more optional in camel base camel core || move xpath out of camel core
+12.520207120947966 - cache the jaxbcontext in model jaxbcontext factory || propagate encoding in property
+12.520207120947966 - polish the camel facebook codebase a bit || camel jetty fixed cs
+12.520207120947966 - added initial support for raw public keys || supporting pre shared keys
+12.430570741998324 - make camel infinispan test work in spring boot due recent upgrade to <num> x and sb is <num> x by default || fixed broke karaf and springboot itests for camel jgroups raft component
+12.194410442718786 - support max concurrent consumers configuration on the endpoint uri || add lenient bind uri option
+12.014968820568216 - use java <num> api to make the browse oldest code similar || optimize oldest exchange inflight per route
+11.911934493132236 - smpp host port and systemid component configuration is always overridden by uri configuration || added more unit tests for ganglia configuration
+11.799321116979558 - asn <num> data format component with bouncy castle bcprov jdk <num> on and openmuc jasn <num> referencing <num> all cr addressed || move dataformats out of camel core remove deprecated data formats first
+11.204077896959156 - camel nsq fixed the nsq component description and first version || fix syntax for nsq component
+10.841062665612993 - fixed warn from spring boot bean method http component sslauto configuration cache auto configuration validator post processor is non static and returns an object assignable to spring s bean factory post processor interface || message history eip now supports filtering nodes and to keep a copy of the traced message
+10.66413752240062 - camel aws create single karaf feature tests for single components aws iam test || create a camel micrometer karaf feature
+10.170451531741529 - camel influxdb query fixed the copy of headers from in to out || camel influx db add ping operation
+10.170451531741529 - camel bindy allow to configure unmarshal to always return a list type || base structure camel any <num> dataformat
+9.983938845109158 - upgrade saxon and related bundle to version <num> <num> <num> || fixed cs for camel saxon
+9.869144432504461 - camel cloud deprecate aggregating service discovery and replace it with combined service discovery || camel cloud create camel service component
+9.364523999455924 - camel cbor add spring boot and karaf integration test || added spring boot tests
+9.051728813535078 - camel twitter replace dummy uri paths on directmessage and search with something meaningful || camel twitter hard coded component scheme
+8.746610265746835 - fix the npe error of camel undertow component by adding the converter from input stream into byte buffer || removed the files which are committed by accident
+8.249397169123462 - camel aws iam the access key delete operation need to specify an access key id instead of a username || camel aws iam make the operations more robust
+8.174157769340736 - surrounded with try catch finally to ensure entity manager always closes || fixed cs this closes <num>
+7.747682274983402 - stream component in file mode should support file rollover when an existing file is re written using similar file watcher logic we have in camel core for route reload strategy || file watcher reload strategy use file component instead of jdk file watcher
+7.593889484807381 - cannot create a component based on the sql component || deadlock in component creation
+7.593889484807381 - camel spring boot starter generator paste incorrect default value || camel connector update docs
+7.371630698057234 - move camel core osgi and camel core xml modules to root core module || move modules to core folder
+7.359405903857971 - removed generated stuff it wasn t rendered correctly || added stuff generated
+7.293367436019152 - fixed setting manual auto commit on endpoint uri level thanks to anand banik for spotting this bug || camel kafka added support for manual commits
+7.293367436019152 - combination of file consumer with charset and split dsl with xpath doesn t parse xml correctly <num> || move file component out of camel core
+7.287446965165959 - file component add option to fail startup when not having read permission on folder || add unit test for zero timeout
+7.188950789417019 - make kafka bridge endpoint option on configuraion so they are all there and thus also available via spring boot || message is forwarded to the wrong kafka topic
+6.726885276441087 - added unit test to camel undertow to verify type and out type behave as expected with arrays || minor replace anonymous class with lambda expressions
+6.692434346270579 - fusedoc <num> jms component disable reply to option description update second try || regen this closes <num> <num>
+6.5775412517445755 - following up to take care of shared entity manager || closing entity manager
+6.1994006340204395 - use do set property instead of set property in the endpoint dsl to make it clearer this is for internal use || fixed partially the cs for generated endpoint dsl
+6.083623052535355 - fix camel jetty tests on jdk <num> specify tlsv <num> protocol versions explicitly add test for tls <num> once we fully move to jdk <num> || update jetty to <num> <num> fix client authentication issues
+5.982940291130003 - updated test to be more accurate || updated javadoc
+5.982940291130003 - fixed cs for camel microprofile config || fixed test
+5.7340154452315355 - ability to execute dml statements in google bigquery component thanks to roman lusnikov for the patch || added google cloud big query component
+5.177558976784809 - splitter aggregation strategy should also deal with delegate strategy and have share unit of work set on both conditions thanks to matthias humbert for reporting || splitter make it easier to turn off propgate exception
+4.978706836786395 - adding kudu component <num> || <num>
+4.872957289583937 - cmel <num> remove spring boot auto configuration files from camel core starter for components that was moved out of the core || move bean component out of camel core
+4.605926799005051 - rename components to default names camel hdfs <num> to camel hdfs || update all to lf
+4.53713813146214 - camel aws lets adopt the same approach as  for all the components camel aws cw || fixed cs for aws cw
+4.37893417221666 - added masking support on log component as well changed the flag name from log eip mask to log mask || add mask option to log eip
+4.145865128519274 - b option added as alignment and it works as desired when only unmarshalling while marshalling default is kept as it is which is right alignment by default || set default value when using bindy fixed length factory
+3.672885843028613 - camel aws lets adopt the same approach as  for all the components camel aws iam || add an aws translate component
+3.6288367218003756 - improve http test add spring xml test || improve documentation
+3.6288367218003756 - exchange send ing event small javadoc improvement || updated javadoc
+3.5337457738153777 - the copy method on message should by default set the exchange on the copied message to the same instance as from the source if the copied message is re attached to another exchange it will reset the exchange anyway <num> || npe on default message set body if deprecated constructor was used <num>
+3.3299449375587273 - clustered route policy add an option to set the camel cluster service a clustered route policy factory should use || cluster service auto detect cluster service
+2.8396086037965813 - add get with body option to camel http and also fix so an explicit get wont attempt to read body as its not in use this helps || camel netty <num> http error resolving relative path
+2.7628915931553872 - fix camel slack osgi feature make them part of the build disable those that do not work || fixed cs for camel slack
+2.4197421999739035 - generate legal can be done a bit later in the maven lifecycle || generate legal files
+2.269334479059331 - create camel robotframework component camel robotframework component rebase and polish add karaf feature for robotframework component docs and cleanup fix cs || fast property configuration of camel endpoints
+2.168787330934033 - improved docs for ddb components and harmonize region for ddbstream too || better docs eks
+2.1094263976601964 - add headers map factory to the camel commands and as jmx attribute so its easier to see which one is in use || expose via jmx property and command
+1.8651733690911387 - fix typo in rest definition out type list java doc || fix typo
+1.6691198403199343 - sql stored add support for type names and scale in grammar added docs and output parameter scale and type name || sql stored support inout parameters
+1.5540040285899928 - added a camel connector for ethereum blockchain using web <num> j library || remove camel restlet
+1.5480340996468018 - fix for findings from code review re added use of configuration get amazon awshost when building queue url replaced tabs with spaces use aws sqs component adoc as generated by build || camel aws sqs allow to configure aws hostname
+1.5145992846664524 - camel jms consumer with poison message should make it easier to handle this via camels routing error handler just turn on eager loading of properties to use this || camel jms should include jms <num> functionality
+1.3511791914198676 - rename components to default names camel mina <num> to camel mina spring boot starter mojo should consider camel mina now || removed camel quartz remaining stuff

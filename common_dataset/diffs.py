@@ -8,6 +8,8 @@ from pathlib import Path
 from typing import List, Dict, DefaultDict, TypeVar, Set
 from dataclasses import dataclass, asdict
 
+from tqdm import tqdm
+
 from code2seq_dataset.global_vars import Commit, Message, Blob, SEPARATOR
 from code2seq_dataset.info_classes import FullLogLine
 from common_dataset.logs import COMMON_SEP
@@ -56,15 +58,16 @@ class FileDiff:
          '+++ b / 6f2f19b981c9fbc66138807b4d199851a2fd13e9'
         """
         new_diff_body: List[str] = []
-        for line in self.diff_body:
-            # if '@@' in line:
-            #     splitted_line = line.split('@@')
-            #     if len(splitted_line) >= 3:
-            #         line = splitted_line[2]
-            #         new_diff_body.append(line)
-            if not line.startswith('diff --git') and not line.startswith('index') and \
-                    not line.startswith('---') and not line.startswith('+++') and not line.startswith('@@'):
-                new_diff_body.append(line)
+        if self.diff_body:
+            for line in self.diff_body:
+                # if '@@' in line:
+                #     splitted_line = line.split('@@')
+                #     if len(splitted_line) >= 3:
+                #         line = splitted_line[2]
+                #         new_diff_body.append(line)
+                if not line.startswith('diff --git') and not line.startswith('index') and \
+                        not line.startswith('---') and not line.startswith('+++') and not line.startswith('@@'):
+                    new_diff_body.append(line)
         self.diff_body = new_diff_body
 
     def keep_only_needed_number_of_line_around_changes(self, context_size_in_lines: int):
@@ -86,17 +89,18 @@ class FileDiff:
     def tokenize_each_line_of_diff_body(self) -> int:
         new_diff_body: List[str] = []
         total_tokens_count: int = 0
-        for line in self.diff_body:
-            line = re.sub(r'\"([^\\\"]|\\.)*\"', 'str_variable', line)
-            line = re.sub(r'(\w)(?=[^a-zA-Z0-9_ ])', r'\1 ', line)
-            line = re.sub(r'([^a-zA-Z0-9_ ])(?=\w)', r'\1 ', line)
-            line = re.sub(r'([^a-zA-Z0-9_ ])(?=[^a-zA-Z0-9_ ])', r'\1 ', line)
-            line = re.sub(r'[-+]?[0-9]*\.?[0-9]+', '<num>', line)
-            if line == '' or line == ' ':
-                continue
-            splitted_line = line.split(' ')
-            total_tokens_count += len(splitted_line)
-            new_diff_body.append(' '.join(splitted_line))
+        if self.diff_body:
+            for line in self.diff_body:
+                line = re.sub(r'\"([^\\\"]|\\.)*\"', 'str_variable', line)
+                line = re.sub(r'(\w)(?=[^a-zA-Z0-9_ ])', r'\1 ', line)
+                line = re.sub(r'([^a-zA-Z0-9_ ])(?=\w)', r'\1 ', line)
+                line = re.sub(r'([^a-zA-Z0-9_ ])(?=[^a-zA-Z0-9_ ])', r'\1 ', line)
+                line = re.sub(r'[-+]?[0-9]*\.?[0-9]+', '<num>', line)
+                if line == '' or line == ' ':
+                    continue
+                splitted_line = line.split(' ')
+                total_tokens_count += len(splitted_line)
+                new_diff_body.append(' '.join(splitted_line))
         self.diff_body = new_diff_body
         return total_tokens_count
 
@@ -351,7 +355,6 @@ MetaFileDiff = TypeVar('MetaFileDiff', FileDiff, FileDiffWithTwoInput)
 class CommitDiff:
     commit: Commit
     message: Message
-    author: str
     changed_java_files: List[MetaFileDiff]
     is_there_dobj: bool = False
 
@@ -364,14 +367,15 @@ class CommitDiff:
         if 'diff_body_common' in input_['changed_java_files'][0]:
             return CommitDiff(commit=Commit(input_['commit']),
                               message=Message(input_['message']),
-                              author=input_['author'],
+                              # author=input_['author'],
                               changed_java_files=[FileDiffWithTwoInput.from_dict(file)
                                                   for file in input_['changed_java_files']],
-                              is_there_dobj=input_['is_there_dobj'])
+                              # is_there_dobj=input_['is_there_dobj'])
+                              is_there_dobj = True)
         else:
             return CommitDiff(commit=Commit(input_['commit']),
                               message=Message(input_['message']),
-                              author=input_['author'],
+                              # author=input_['author'],
                               changed_java_files=[FileDiff.from_dict(file) for file in input_['changed_java_files']],
                               is_there_dobj=input_['is_there_dobj'])
 
@@ -412,7 +416,7 @@ def get_diffs(changed_files_log: Path, output: Path, context_size: int, git_dir:
     commit_vs_blobs: Dict[Commit, List[FullLogLine]] = get_commit_vs_blobs(changed_files_log, sep=COMMON_SEP)
     print(len(commit_vs_blobs.keys()))
     i = 0
-    for commit, changed_files in commit_vs_blobs.items():
+    for commit, changed_files in tqdm(commit_vs_blobs.items()):
         i += 1
         # if i % 1000 == 0:
         #     print(f"At {i}")
@@ -421,19 +425,22 @@ def get_diffs(changed_files_log: Path, output: Path, context_size: int, git_dir:
         message = Message(changed_files[0].message)
         author = changed_files[0].author
         files_diffs = get_all_diffs_per_commit(changed_files, context_size, git_dir)
-        commits_diffs.append(CommitDiff(commit=commit, message=message, author=author, changed_java_files=files_diffs))
+        for file_diff in files_diffs:
+            file_diff.delete_useless_git_diff_output()
+            file_diff.tokenize_each_line_of_diff_body()
+        commits_diffs.append(CommitDiff(commit=commit, message=message, changed_java_files=files_diffs))
     with open(output, 'w', encoding='utf-8') as output_f:
         output_f.write(json.dumps(commits_diffs, default=CommitDiff.to_json, indent=2))
 
 
 if __name__ == '__main__':
-    git_dir_name: str = 'aurora'
-    git_dir: Path = Path(f'/Users/natalia.murycheva/Documents/gitCommitMessageCollectorStorage/{git_dir_name}')
-    output_dir: Path = Path.cwd().parent.parent.joinpath('data').joinpath('raw_data').joinpath(git_dir_name)
+    git_dir_name: str = 'camel'
+    git_dir: Path = Path(f'/Users/natalia.murycheva/PycharmProjects/new_data/{git_dir_name}/{git_dir_name}')
+    output_dir: Path = Path(f'/Users/natalia.murycheva/PycharmProjects/new_data/{git_dir_name}/')
     if not output_dir.exists():
         output_dir.mkdir()
     changed_files_log: Path = output_dir.joinpath('changed_java_files.log')
-    context_size: int = 10
+    context_size: int = 2
     all_diffs: Path = output_dir.joinpath(f'diffs_context_size_{context_size}.json')
 
     get_diffs(changed_files_log, all_diffs, context_size, git_dir)

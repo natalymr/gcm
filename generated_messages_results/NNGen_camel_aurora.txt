@@ -1,0 +1,63 @@
+Bleu-score || Original Commit Message || Generated Commit Message
+
+33.436 || fixed replace by symbol bug added possibility to search for the xml tag refactored compiler || add runtime camel catalog to camel core so we can reuse more catalog logic at runtime and have camel catalog for tooling that has the complete catalog content we need the runtime for component health check and more in the future
+32.453 || scope is appended to no usages found and title of usageview || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.736 || added check for is valid before the replace || camel apt avoid generating type converter meta inf file when we generate type converter loader this also speedup starting camel as we avoid double scanning out of the box
+31.736 || test for completion of jsp end tag in lastly added case || camel apt avoid generating type converter meta inf file when we generate type converter loader this also speedup starting camel as we avoid double scanning out of the box
+31.554 || to change default namespace was not a good idea || rename components to default names camel netty <num> http to camel netty http fixed refs in camel rest
+31.379 || auto identify search targets is off by default || configuring endpoints with consumer prefix for consumer options is no longer supported as they should be regular options instead this also avoid reflection setting properties
+31.370 || reverted to the path to ant || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.370 || waiting a little bit after found usage to enable awt repainting || message history eip now supports filtering nodes and to keep a copy of the traced message
+31.370 || enabled insertion of required attrs by default for the html better handling of quotes for html || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.951 || patch for nike || add support for generating type converter loader source code to be able to load component type converters in a faster way
+30.951 || tests for javadoc generation || add support for generating type converter loader source code to be able to load component type converters in a faster way
+30.564 || fixed issue with constraint not used for <num> occurence || use awaitility in camel core for testing where we otherwise use thred sleep which can be speeded up
+30.564 || sleep times reduced || use awaitility in camel core for testing where we otherwise use thred sleep which can be speeded up
+30.419 || collapsing in c n etc || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.419 || add license agreement to license server || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.419 || one more qualified this completion variant <num> || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.419 || css completion in html support for ids || camel connectors allow to configure in one place and let it figure out component vs endpoint level
+30.264 || filters moved to psi || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fix to speedup resolve || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || move to opposite not on tab || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed issue with going the caret after the document if the completion is done by || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || commented out due to possible memory problem || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || top most containig file instead of imidiate one || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || refactored getting test data path to enable tests in plugin based on test data || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || maxes fix for not hiding lookup in case of one line mode evaluation etc || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed issue with completion of parameters in constructor || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed issue with lexical highlighting of whitespace in html xml jsp || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed issue with daemon problem opening the dtd || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed regress npe with null project passed to create java highlighter || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || now reparse use valid chameleons || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fix to be compilable || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || label s color for splash changed the line positions adjusted || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fix for npe in jsp highlighting and move find usages || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || no cache updates after changes to workspace file || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || lookup name generation changed now it use get presentable text for generics || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || tag used instead of its clone || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || this and super completion after return || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed npe on absence of substitution || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || fixed simple misspelling of || message history eip now supports filtering nodes and to keep a copy of the traced message
+30.264 || changed order of psi element finder s for fabrique s needs || message history eip now supports filtering nodes and to keep a copy of the traced message
+29.920 || make saving module to file optional for fabrique || camel main allow to configure global and common options ala camel spring boot have
+29.920 || added support for id and idref constraints during xml validation || camel main allow to configure global and common options ala camel spring boot have
+29.920 || ability to re activate after license collision || camel main allow to configure global and common options ala camel spring boot have
+29.920 || ability to exclude usage node programmatically || camel main allow to configure global and common options ala camel spring boot have
+29.517 || new formatter interface v <num> || split camel aws component in individual components moved aws s <num> out
+29.033 || hashing attributes for performance localname is cached || service call allow to use placeholders for name uri etc
+29.033 || quick fix for style or id reference || generate a fallback converter containing all core converters for performances
+28.070 || fixed npe with psi element selection null || fixed cs for auto generated endpoint dsl
+27.646 || xml lexer fixed || fixed cs for camel netty <num>
+27.646 || fixed finding anonymous classes by new || fixed cs for camel netty <num>
+26.410 || checking for zero and negative line number of the error returned by the xerces || message history eip now supports filtering nodes and to keep a copy of the traced message
+26.006 || imporved performance of code formatter minor improvements to smart encoding input stream minor improvements to file reading routines implementation || message history eip now supports filtering nodes and to keep a copy of the traced message
+25.295 || plug for id caches of the css || message history eip now supports filtering nodes and to keep a copy of the traced message
+24.431 || mark scope dirty in case of xml tag we can t provide more information since incremental reparse and html ik || message history eip now supports filtering nodes and to keep a copy of the traced message
+24.431 || fixed issue with finding attributes they are searched by name and only the if namespace is set using qualified name || message history eip now supports filtering nodes and to keep a copy of the traced message
+16.076 || fixed issue with too eager highlighting || camel jetty fixed cs
+14.894 || close unmodified menu action virtual file listener fix || fix camel kubernetes starter test
+12.922 || if module type is not founnd its id doesn t get lost http www jetbrains net jira browse fbq <num> || remove superfluous super calls which compiler would do for free <num>
+12.015 || rewrote caches for find super methods some more logging in highlighter || revert  support raw syntax in urisupport
+5.983 || corrected minor bug in code example || fixed example
+4.104 || added source connection for diagnostic messages and fixed bug with incorrect diagnostic of inheritance problems || fixed cs for camel salesforce
