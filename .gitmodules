@@ -1,3 +1,6 @@
 [submodule "NMT/natalymr/pytorch-seq2seq"]
 	path = NMT/natalymr/pytorch-seq2seq
 	url = https://github.com/natalymr/pytorch-seq2seq.git
+[submodule "commit2seq/code2seq"]
+	path = commit2seq/code2seq
+	url = https://github.com/natalymr/code2seq-1.git
